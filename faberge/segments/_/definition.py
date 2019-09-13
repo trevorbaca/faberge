@@ -57,7 +57,7 @@ maker(
 
 maker(
     'fl',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(r'\faberge-flute-markup'),
         faberge.margin_markup('Fl.'),
@@ -68,7 +68,7 @@ maker(
 
 maker(
     'eh',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(r'\faberge-english-horn-markup'),
         faberge.margin_markup('Eng. hn.'),
@@ -98,7 +98,7 @@ maker(
 
 maker(
     'cl',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(r'\faberge-clarinet-markup'),
         faberge.margin_markup('Cl.'),
@@ -109,7 +109,7 @@ maker(
 
 maker(
     'rh',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(
             r'\faberge-piano-markup',
@@ -126,14 +126,14 @@ maker(
 
 maker(
     'lh',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     )
 
 # perc
 
 maker(
     'perc',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(r'\faberge-percussion-markup'),
         faberge.margin_markup('Perc.'),
@@ -144,7 +144,7 @@ maker(
 
 maker(
     'vn',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.dls_staff_padding(4),
     baca.chunk(
         baca.start_markup(r'\faberge-violin-markup'),
@@ -168,7 +168,7 @@ maker(
 
 maker(
     'va',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.dls_staff_padding(6),
     baca.chunk(
         baca.start_markup(r'\faberge-viola-markup'),
@@ -194,7 +194,7 @@ maker(
 
 maker(
     'vc',
-    baca.bar_extent_persistent((-2, 2)),
+    baca.bar_extent_indicator(5, tag=baca.const.NOT_PARTS),
     baca.chunk(
         baca.start_markup(r'\faberge-cello-markup'),
         faberge.margin_markup('Vc.'),

@@ -62,14 +62,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    after=True,
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 2),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
@@ -110,13 +104,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=5,
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
@@ -156,6 +145,12 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='English_Horn_Music_Voice',
                                 manifest='instruments',
                                 value='EnglishHorn',
                                 ),
@@ -163,16 +158,6 @@ persist = abjad.OrderedDict(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
-                                ),
-                            abjad.Momento(
-                                context='English_Horn_Music_Voice',
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
@@ -203,13 +188,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=5,
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
@@ -250,14 +230,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    after=True,
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(0, 2),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
@@ -301,18 +275,14 @@ persist = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
-                                prototype='abjad.Clef',
-                                value='treble',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='baca.BarExtent',
+                                value=5,
                                 ),
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
+                                prototype='abjad.Clef',
+                                value='treble',
                                 ),
                             ],
                         ),
@@ -322,14 +292,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    after=True,
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 1),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=3,
                                 ),
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
@@ -396,13 +360,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 2),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=5,
                                 ),
                             abjad.Momento(
                                 context='Viola_Music_Voice',
@@ -443,14 +402,8 @@ persist = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
-                                prototype='abjad.PersistentOverride',
-                                value=abjad.PersistentOverride(
-                                    after=True,
-                                    attribute='bar_extent',
-                                    context='Staff',
-                                    grob='bar_line',
-                                    value=(-2, 0),
-                                    ),
+                                prototype='baca.BarExtent',
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='Violin_Music_Voice',

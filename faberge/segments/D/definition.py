@@ -298,15 +298,22 @@ maker(
 
 maker(
     (['vn', 'va'], (1, 8)),
+    baca.staff_position(0),
+    )
+
+maker(
+    (['vn', 'va'], 9),
     baca.chunk(
-        baca.bar_extent_persistent(
-            (-2, 2),
+#        baca.bar_extent_persistent(
+#            (-2, 2),
+#            tag=baca.const.NOT_PARTS,
+#            ),
+        baca.bar_extent_indicator(
+            5,
             tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(5),
-        selector=baca.leaves().rleak()[-1],
         ),
-    baca.staff_position(0),
     )
 
 # va
