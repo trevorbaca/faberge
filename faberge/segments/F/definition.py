@@ -541,9 +541,14 @@ maker(
 maker(
     ('vn', 3),
     baca.chunk(
-        baca.bar_extent_persistent(
-            (-2, 0),
-            after=True,
+#        baca.bar_extent_persistent(
+#            (-2, 0),
+#            after=True,
+#            tag=baca.const.NOT_PARTS,
+#            ),
+        baca.bar_extent_indicator(
+            1,
+            baca.leaves()[:1].rleak()[-1],
             tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
@@ -588,9 +593,6 @@ maker(
 
 maker(
     ('vn', 4),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
-        ),
     faberge.downbeat_attack(
         denominator=8,
         ),
@@ -614,8 +616,12 @@ maker(
 maker(
     ('vn', 8),
     baca.chunk(
-        baca.bar_extent_persistent(
-            (-2, 2),
+#        baca.bar_extent_persistent(
+#            (-2, 2),
+#            tag=baca.const.NOT_PARTS,
+#            ),
+        baca.bar_extent_indicator(
+            5,
             tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(5),

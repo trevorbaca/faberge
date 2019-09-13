@@ -107,7 +107,7 @@ i_Global_Rests = {                                                             %
 i_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Flute_Music_Voice measure 1]                                          %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \faberge-flute-markup                          %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set Staff.shortInstrumentName = \faberge-fl-markup                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
@@ -179,7 +179,6 @@ i_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [_ English_Horn_Music_Voice measure 1]                           %! _comment_measure_numbers
-            \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
             \set Staff.instrumentName = \faberge-english-horn-markup           %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
             \set Staff.shortInstrumentName = \faberge-eh-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
             \clef "treble"                                                     %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
@@ -346,7 +345,7 @@ i_English_Horn_Music_Staff = <<                                                %
 i_Clarinet_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Clarinet_Music_Voice measure 1]                                       %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \faberge-clarinet-markup                       %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set Staff.shortInstrumentName = \faberge-cl-markup                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
@@ -410,7 +409,7 @@ i_Clarinet_Music_Staff = <<                                                    %
 i_Piano_RH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Piano_RH_Music_Voice measure 1]                                       %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set PianoStaff.instrumentName = \faberge-piano-markup                     %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
@@ -474,7 +473,7 @@ i_Piano_RH_Music_Staff = <<                                                    %
 i_Piano_LH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Piano_LH_Music_Voice measure 1]                                       %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -577,7 +576,7 @@ i_Piano_LH_Music_Staff = <<                                                    %
 i_Percussion_Music_Voice = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Music_Voice measure 1]                                     %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \faberge-percussion-markup                     %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults
@@ -641,7 +640,7 @@ i_Percussion_Music_Staff = <<                                                  %
 i_Violin_Music_Voice = {                                                       %! abjad.Path.extern
 
     % [_ Violin_Music_Voice measure 1]                                         %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \faberge-violin-markup                         %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \override DynamicLineSpanner.staff-padding = #4                            %! baca.dls_staff_padding:OverrideCommand(1)
@@ -764,7 +763,6 @@ i_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         % [_ Viola_Music_Voice measure 1]                                      %! _comment_measure_numbers
-        \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
         \set Staff.instrumentName = \faberge-viola-markup                      %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
         \override DynamicLineSpanner.staff-padding = #6                        %! baca.dls_staff_padding:OverrideCommand(1)
@@ -881,7 +879,7 @@ i_Viola_Music_Staff = <<                                                       %
 i_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Cello_Music_Voice measure 1]                                          %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \faberge-cello-markup                          %! baca.start_markup:baca_start_markup:-PARTS:IndicatorCommand
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca.margin_markup:-PARTS:IndicatorCommand
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:abjad.ScoreTemplate.attach_defaults

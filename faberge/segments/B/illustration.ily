@@ -1425,7 +1425,7 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 97 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-bfl-markup                            %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #7                            %! baca.dls_staff_padding:OverrideCommand(1)
     \override TupletBracket.staff-padding = #1                                 %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
@@ -3258,7 +3258,6 @@ B_Flute_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c''1 * 3/4                                                         %! _make_multimeasure_rest_container
-            \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3273,6 +3272,7 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 170 / measure 74]                           %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Flute_Music_Voice measure 171 / measure 75]                           %! _comment_measure_numbers
@@ -3338,7 +3338,6 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 97 / measure 1]                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -4644,7 +4643,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
     % [B Clarinet_Music_Voice measure 97 / measure 1]                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-bcl-markup                            %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #8                            %! baca.dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -5366,7 +5365,6 @@ B_Clarinet_Music_Voice = {                                                     %
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             d''1 * 3/4                                                         %! _make_multimeasure_rest_container
             \!                                                                 %! baca.hairpin:PiecewiseCommand(2)
-            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5381,6 +5379,7 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 170 / measure 74]                        %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Clarinet_Music_Voice measure 171 / measure 75]                        %! _comment_measure_numbers
@@ -5443,7 +5442,7 @@ B_Piano_RH_Music_Voice = {                                                     %
 
     % [B Piano_RH_Music_Voice measure 97 / measure 1]                          %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \set PianoStaff.instrumentName = \faberge-pf-markup                        %! _clone_segment_initial_short_instrument_name
     \once \override NoteHead.style = #'harmonic                                %! baca.note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -5661,8 +5660,8 @@ B_Piano_RH_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
         ^ \baca-tuning-pegs-markup                                             %! baca.markup:IndicatorCommand
         [                                                                      %! faberge.clb_rhythm
-        \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
+        \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         a'8                                                                    %! faberge.clb_rhythm
 
         b'8                                                                    %! faberge.clb_rhythm
@@ -6259,7 +6258,7 @@ B_Piano_RH_Music_Staff = <<                                                    %
 B_Piano_LH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [B Piano_LH_Music_Voice measure 97 / measure 1]                          %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \override MultiMeasureRest.transparent = ##t                               %! baca.mmrest_transparent:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -6865,7 +6864,7 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 97 / measure 1]                        %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -7267,10 +7266,10 @@ B_Percussion_Music_Voice = {                                                   %
     - \tweak parent-alignment-X #0                                             %! baca.markup:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca.markup:IndicatorCommand
     ^ \baca-bd-sponge-markup                                                   %! baca.markup:IndicatorCommand
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Percussion_Music_Voice measure 166 / measure 70]                      %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     b2.                                                                        %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
@@ -7393,7 +7392,7 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 97 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-vn-markup                             %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #5                            %! baca.dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -8041,8 +8040,8 @@ B_Violin_Music_Voice = {                                                       %
         - \tweak bound-details.right.padding #2.75                             %! CLB:baca.clb_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca.clb_spanner:PiecewiseCommand(1)
-        \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
+        \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
@@ -8800,7 +8799,6 @@ B_Viola_Music_Voice = {                                                        %
 
     % [B Viola_Music_Voice measure 97 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-va-markup                             %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #7                            %! baca.dls_staff_padding:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -10236,7 +10234,7 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 97 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-vc-markup                             %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #6                            %! baca.dls_staff_padding:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -10652,8 +10650,8 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.75                             %! CLB:baca.clb_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca.clb_spanner:PiecewiseCommand(1)
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         e8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
