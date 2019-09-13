@@ -89,7 +89,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\baca-very-small-maraca-boxed',
+        r'\baca-very-small-maraca-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
