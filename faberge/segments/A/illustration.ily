@@ -6957,8 +6957,8 @@ A_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Percussion_Music_Voice measure 86 / measure 82]                       %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     R1 * 3/4                                                                   %! _make_measure_silences
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
     % [A Percussion_Music_Voice measure 87 / measure 83]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences

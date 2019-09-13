@@ -3272,8 +3272,8 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 170 / measure 74]                           %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
     % [B Flute_Music_Voice measure 171 / measure 75]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -5379,8 +5379,8 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 170 / measure 74]                        %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     R1 * 1                                                                     %! _make_measure_silences
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
     % [B Clarinet_Music_Voice measure 171 / measure 75]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -5661,8 +5661,8 @@ B_Piano_RH_Music_Voice = {                                                     %
         ^ \baca-tuning-pegs-markup                                             %! baca.markup:IndicatorCommand
         [                                                                      %! faberge.clb_rhythm
 
-        \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         a'8                                                                    %! faberge.clb_rhythm
+        \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
         b'8                                                                    %! faberge.clb_rhythm
 
@@ -7269,9 +7269,9 @@ B_Percussion_Music_Voice = {                                                   %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Percussion_Music_Voice measure 166 / measure 70]                      %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
     b2.                                                                        %! baca.make_repeat_tied_notes
     \repeatTie                                                                 %! baca.make_repeat_tied_notes
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 167 / measure 71]                      %! _comment_measure_numbers
     b2                                                                         %! baca.make_repeat_tied_notes
@@ -8041,9 +8041,9 @@ B_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #5.5                                            %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca.clb_spanner:PiecewiseCommand(1)
 
-        \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
+        \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
         b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
@@ -10651,9 +10651,9 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca.clb_spanner:PiecewiseCommand(1)
 
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
         e8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
         e8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand

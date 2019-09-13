@@ -962,8 +962,8 @@ N_Piano_RH_Music_Voice = {                                                     %
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
-
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
+
         d4                                                                     %! faberge.even_tuplet_rhythm
 
         d4                                                                     %! faberge.even_tuplet_rhythm
@@ -1332,9 +1332,9 @@ N_Percussion_Music_Voice = {                                                   %
             - \tweak bound-details.right.padding #3.25                         %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
             - \tweak staff-padding #8                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanMA                                               %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
+            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
             c'4                                                                %! baca.skeleton
 
             c'4                                                                %! baca.skeleton

@@ -1198,8 +1198,8 @@ L_Piano_RH_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
         ^ \baca-tuning-pegs-markup                                             %! baca.markup:IndicatorCommand
         [                                                                      %! faberge.clb_rhythm
-
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
+
         c8                                                                     %! faberge.clb_rhythm
 
         d8                                                                     %! faberge.clb_rhythm
