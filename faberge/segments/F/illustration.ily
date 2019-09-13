@@ -1862,8 +1862,8 @@ F_Violin_Music_Voice = {                                                       %
         - \tweak bound-details.right.padding #2.75                             %! CLB:baca.clb_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca.clb_spanner:PiecewiseCommand(1)
-
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
+
         a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca.staccato:IndicatorCommand
 
