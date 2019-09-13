@@ -6943,6 +6943,7 @@ A_Percussion_Music_Voice = {                                                   %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 1/2                                                          %! _make_multimeasure_rest_container
+            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6958,7 +6959,6 @@ A_Percussion_Music_Voice = {                                                   %
 
     % [A Percussion_Music_Voice measure 86 / measure 82]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_BAR_EXTENT:_set_status_tag:-PARTS:IndicatorCommand
 
     % [A Percussion_Music_Voice measure 87 / measure 83]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences

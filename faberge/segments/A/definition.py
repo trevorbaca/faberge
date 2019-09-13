@@ -770,7 +770,6 @@ maker(
     baca.chunk(
         baca.bar_extent_indicator(
             1,
-            baca.leaves()[:1].rleak()[-1],
             tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
