@@ -629,12 +629,7 @@ maker(
 
 maker(
     ('vc', (5, 7)),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.flat_glissando(
         'Eb2',
         hide_middle_stems=True,

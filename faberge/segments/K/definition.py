@@ -191,12 +191,7 @@ maker(
         selector=baca.pleaf(-1),
         ),
     baca.beam(),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.dls_staff_padding(5),
     baca.dynamic('(f)'),
     baca.material_annotation_spanner(
@@ -543,12 +538,7 @@ maker(
             ),
         baca.staff_lines(1),
         ),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,

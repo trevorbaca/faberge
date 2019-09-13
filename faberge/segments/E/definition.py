@@ -239,12 +239,7 @@ maker(
     ('rh', (4, 5)),
     baca.beam(),
     baca.beam_positions(-3),
-    baca.chunk(
-        baca.clef('percussion'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('percussion'),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -282,12 +277,7 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.dynamic(
         'mp',
         abjad.tweak((0, 0)).X_extent,
@@ -721,12 +711,7 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.dls_staff_padding(4),
     baca.dynamic('p'),
     baca.flat_glissando(

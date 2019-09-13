@@ -300,12 +300,7 @@ maker(
 
 maker(
     ('rh', 5),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.dynamic('f'),
     baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
@@ -407,12 +402,7 @@ maker(
 
 maker(
     ('lh', 5),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
         ),
@@ -806,12 +796,7 @@ maker(
 
 maker(
     ('vc', 5),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.dls_staff_padding(4),
     baca.dynamic('f'),
     baca.skeleton(

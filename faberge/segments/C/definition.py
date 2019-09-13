@@ -206,12 +206,7 @@ maker(
 
 maker(
     ('rh', (3, 4)),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.dynamic('mp'),
     baca.material_annotation_spanner(
         '2-1 -|',
@@ -424,12 +419,7 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.only_score(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',
