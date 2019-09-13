@@ -92,10 +92,6 @@ maker(
     baca.dynamic('p'),
     baca.pitch('G#3'),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -183,10 +179,6 @@ maker(
 maker(
     ('cl', (5, 6)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -203,10 +195,6 @@ maker(
 maker(
     'rh',
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -426,9 +414,6 @@ maker(
 maker(
     'vc',
     baca.chunk(
-#        baca.not_parts(
-#            baca.bar_extent_persistent((-2, 2)),
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,

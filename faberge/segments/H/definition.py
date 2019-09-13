@@ -280,11 +280,6 @@ maker(
 maker(
     ('perc', (1, 2)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -305,10 +300,6 @@ maker(
 maker(
     ('perc', 5),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,

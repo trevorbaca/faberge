@@ -304,10 +304,6 @@ maker(
 maker(
     (['vn', 'va'], 9),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,

@@ -67,11 +67,6 @@ maker(
 maker(
     'fl',
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             tag=baca.const.NOT_PARTS,
@@ -138,11 +133,6 @@ maker(
 maker(
     'rh',
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             tag=baca.const.NOT_PARTS,
