@@ -278,12 +278,7 @@ maker(
 
 maker(
     ('rh', 3),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.dls_staff_padding(6),
     baca.dynamic(
         'mp',
@@ -373,12 +368,7 @@ maker(
 
 maker(
     ('lh', 3),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         ),

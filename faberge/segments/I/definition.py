@@ -807,12 +807,7 @@ maker(
         selector=baca.pleaf(-3),
         ),
     baca.beam(),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.dynamic(
         'f',
         abjad.tweak((0, 0)).X_extent,

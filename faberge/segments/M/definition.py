@@ -590,12 +590,7 @@ maker(
 
 maker(
     ('vc', 5),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     )
 
 maker(

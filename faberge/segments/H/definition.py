@@ -306,12 +306,7 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.not_parts(
-            baca.clef_shift('treble'),
-            ),
-        ),
+    baca.clef('treble'),
     baca.hairpin(
         'o<| f',
         selector=baca.leaves()[:2],
