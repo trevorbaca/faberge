@@ -602,13 +602,7 @@ maker(
 
 maker(
     ('fl', 73),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     )
 
 maker(
@@ -984,13 +978,7 @@ maker(
 
 maker(
     ('cl', 73),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     )
 
 maker(
@@ -1028,13 +1016,7 @@ maker(
 
 maker(
     ('rh', (53, 79)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            3,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(3),
-        ),
+    baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -1217,13 +1199,7 @@ maker(
 
 maker(
     ('perc', (69, 72)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clef('percussion'),
     baca.dynamic(
         '"mf"',
@@ -1341,13 +1317,7 @@ maker(
 
 maker(
     ('vn', (53, 68)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
@@ -1615,13 +1585,7 @@ maker(
 maker(
     ('vc', (61, 80)),
     baca.beam_positions(-3.5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,

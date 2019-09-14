@@ -91,13 +91,7 @@ maker(
     baca.dls_staff_padding(4),
     baca.dynamic('p'),
     baca.pitch('G#3'),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # fl, eh, cl
@@ -178,13 +172,7 @@ maker(
 
 maker(
     ('cl', (5, 6)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.dls_staff_padding(7),
     baca.dynamic('p'),
     baca.pitch('C2'),
@@ -194,13 +182,7 @@ maker(
 
 maker(
     'rh',
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.dls_staff_padding(4.5),
     )
 
@@ -413,13 +395,7 @@ maker(
 
 maker(
     'vc',
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.clef('treble'),
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(

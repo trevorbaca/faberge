@@ -66,13 +66,7 @@ maker(
 
 maker(
     'fl',
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     )
 
 # fl, eh, pf
@@ -132,13 +126,7 @@ maker(
 
 maker(
     'rh',
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     )
 
 # perc

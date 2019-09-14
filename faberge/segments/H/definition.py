@@ -279,13 +279,7 @@ maker(
 
 maker(
     ('perc', (1, 2)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dynamic('f'),
     baca.material_annotation_spanner(
         '4-5 -|',
@@ -298,13 +292,7 @@ maker(
 
 maker(
     ('perc', 5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.clef('treble'),
     baca.hairpin(
         'o<| f',

@@ -222,13 +222,7 @@ maker(
 
 maker(
     ('rh', 4),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            3,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(3),
-        ),
+    baca.staff_lines(3),
     faberge.clb_rhythm(
         extra_counts=[7],
         ),
@@ -269,13 +263,7 @@ maker(
 
 maker(
     ('rh', 6),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.clef('bass'),
     baca.dynamic(
         'mp',
@@ -470,13 +458,7 @@ maker(
 
 maker(
     ('vn', (4, 5)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.beam(),
     )
 
@@ -518,13 +500,7 @@ maker(
 
 maker(
     ('vn', 8),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # vn, va
@@ -656,13 +632,7 @@ maker(
 
 maker(
     ('vc', 4),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     faberge.clb_rhythm(
         extra_counts=[4],
         ),
@@ -701,13 +671,7 @@ maker(
 
 maker(
     ('vc', 8),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.clef('bass'),
     baca.dls_staff_padding(4),
     baca.dynamic('p'),

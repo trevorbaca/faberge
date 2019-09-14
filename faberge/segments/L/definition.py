@@ -267,13 +267,7 @@ maker(
 
 maker(
     ('rh', 2),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 maker(
@@ -316,13 +310,7 @@ maker(
 
 maker(
     ('rh', 5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            3,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(3),
-        ),
+    baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -347,13 +335,7 @@ maker(
 
 maker(
     ('rh', 6),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # attack
@@ -541,13 +523,7 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], 7),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # va

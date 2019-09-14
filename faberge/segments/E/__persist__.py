@@ -147,7 +147,7 @@ persist = abjad.OrderedDict(
                                 context='English_Horn_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='baca.BarExtent',
-                                value=5,
+                                value=1,
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
