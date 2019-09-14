@@ -67,13 +67,7 @@ maker(
 
 maker(
     ('fl', (1, 3)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
         r'\baca-airtone-markup',
@@ -93,13 +87,7 @@ maker(
 
 maker(
     ('fl', 5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.hairpin(
         'o< p >o niente',
         pieces=baca.lparts([1, 1 + 1]),
@@ -344,13 +332,7 @@ maker(
 
 maker(
     ('rh', (2, 4)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(8),
     baca.dynamic('f'),
     baca.markup(
@@ -370,13 +352,7 @@ maker(
 
 maker(
     ('rh', 5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # perc
@@ -456,13 +432,7 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
         r'\baca-ob-markup',
@@ -501,13 +471,7 @@ maker(
 
 maker(
     ('vn', 7),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # va

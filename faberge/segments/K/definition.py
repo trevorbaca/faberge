@@ -209,13 +209,7 @@ maker(
 
 maker(
     ('rh', (6, 9)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            3,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(3),
-        ),
+    baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -349,13 +343,7 @@ maker(
 
 maker(
     ('vn', (1, 4)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
@@ -381,13 +369,7 @@ maker(
         selector=baca.pleaf(3),
         ),
     baca.beam(),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
     baca.material_annotation_spanner(
@@ -404,13 +386,7 @@ maker(
 
 maker(
     ('vn', (6, 9)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
@@ -527,13 +503,7 @@ maker(
 
 maker(
     ('vc', (1, 4)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clef('treble'),
     baca.clb_spanner(
         2,
@@ -560,13 +530,7 @@ maker(
         selector=baca.pleaf(-3),
         ),
     baca.beam(),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
     baca.material_annotation_spanner(
@@ -583,13 +547,7 @@ maker(
 
 maker(
     ('vc', (6, 9)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',

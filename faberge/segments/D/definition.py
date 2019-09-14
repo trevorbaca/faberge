@@ -303,13 +303,7 @@ maker(
 
 maker(
     (['vn', 'va'], 9),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # va

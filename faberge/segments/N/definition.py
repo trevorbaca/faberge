@@ -183,13 +183,7 @@ maker(
 
 maker(
     ('rh', (4, 5)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dynamic(
         'f-whiteout',
         abjad.tweak((0, 0)).X_extent,
@@ -214,26 +208,14 @@ maker(
 
 maker(
     ('rh', 6),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        )
+    baca.staff_lines(5),
     )
 
 # perc
 
 maker(
     ('perc', 5),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.clef('treble'),
     baca.dls_staff_padding(6),
     baca.hairpin(
@@ -260,13 +242,7 @@ maker(
 
 maker(
     ('perc', 8),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.clef('percussion'),
     baca.dls_staff_padding(8),
     baca.dynamic('f'),

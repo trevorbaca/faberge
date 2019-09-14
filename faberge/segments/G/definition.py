@@ -506,13 +506,7 @@ maker(
 
 maker(
     (['perc', 'vn', 'vc'], 6),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     )
 
 # vn
@@ -563,13 +557,7 @@ maker(
 
 maker(
     ('vn', (4, 5)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
         r'\baca-ob-markup',
@@ -772,13 +760,7 @@ maker(
 
 maker(
     ('vc', (4, 5)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
         r'\baca-ob-markup',

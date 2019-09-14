@@ -767,13 +767,7 @@ maker(
 
 maker(
     ('perc', (81, 88)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            1,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
+    baca.staff_lines(1),
     )
 
 maker(
@@ -816,13 +810,7 @@ maker(
 
 maker(
     ('perc', (89, 92)),
-    baca.chunk(
-        baca.bar_extent_indicator(
-            5,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
-        ),
+    baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
         selector=baca.ptails(
