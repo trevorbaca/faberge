@@ -1071,6 +1071,9 @@ G_Piano_LH_Music_Voice = {                                                     %
 
         % [G Piano_LH_Music_Voice measure 210 / measure 1]                     %! _comment_measure_numbers
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_BAR_EXTENT:_set_status_tag:REAPPLIED_BAR_EXTENT:-PARTS:_reapply_persistent_indicators(3)
+        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \override DynamicLineSpanner.staff-padding = #4.5                      %! baca.dls_staff_padding:OverrideCommand(1)
         \ottava 1                                                              %! baca.ottava:SpannerIndicatorCommand(1)
         \override Staff.OttavaBracket.staff-padding = #8                       %! baca.ottava_bracket_staff_padding:OverrideCommand(1)
@@ -1078,6 +1081,7 @@ G_Piano_LH_Music_Voice = {                                                     %
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         <f''' g''' a'''>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         [                                                                      %! baca.beam:SpannerIndicatorCommand(1)
