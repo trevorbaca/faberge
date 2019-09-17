@@ -505,7 +505,7 @@ I_Flute_Music_Voice = {                                                        %
             % [I Flute_Music_Voice measure 237 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -638,7 +638,7 @@ I_English_Horn_Music_Voice = {                                                 %
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
         r1..                                                                   %! baca.skeleton
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
         \revert TrillSpanner.staff-padding                                     %! baca.trill_spanner_staff_padding:OverrideCommand(2)
@@ -1023,7 +1023,7 @@ I_Clarinet_Music_Voice = {                                                     %
             % [I Clarinet_Music_Voice measure 237 / measure 9]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             d''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1179,7 +1179,7 @@ I_Piano_RH_Music_Voice = {                                                     %
             % [I Piano_RH_Music_Voice measure 235 / measure 7]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1576,7 +1576,7 @@ I_Percussion_Music_Voice = {                                                   %
             % [I Percussion_Music_Voice measure 235 / measure 7]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 3/2                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1625,7 +1625,7 @@ I_Percussion_Music_Voice = {                                                   %
             % [I Percussion_Music_Voice measure 237 / measure 9]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1708,7 +1708,7 @@ I_Violin_Music_Voice = {                                                       %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -1721,7 +1721,7 @@ I_Violin_Music_Voice = {                                                       %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -1755,7 +1755,7 @@ I_Violin_Music_Voice = {                                                       %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -1768,7 +1768,7 @@ I_Violin_Music_Voice = {                                                       %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -1802,7 +1802,7 @@ I_Violin_Music_Voice = {                                                       %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -1815,7 +1815,7 @@ I_Violin_Music_Voice = {                                                       %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! baca.skeleton
@@ -1845,7 +1845,7 @@ I_Violin_Music_Voice = {                                                       %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-0.75 . 0)                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         [                                                                      %! baca.beam:SpannerIndicatorCommand(1)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -1910,7 +1910,7 @@ I_Violin_Music_Voice = {                                                       %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca.quadruple_staccato:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-5"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1934,7 +1934,7 @@ I_Violin_Music_Voice = {                                                       %
 
             c''2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -1945,7 +1945,7 @@ I_Violin_Music_Voice = {                                                       %
 
             c''2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -1976,7 +1976,7 @@ I_Violin_Music_Voice = {                                                       %
 
             c''2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -1987,7 +1987,7 @@ I_Violin_Music_Voice = {                                                       %
 
             c''2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -2018,7 +2018,7 @@ I_Violin_Music_Voice = {                                                       %
             % [I Violin_Music_Voice measure 237 / measure 9]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2100,7 +2100,7 @@ I_Viola_Music_Voice = {                                                        %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -2113,7 +2113,7 @@ I_Viola_Music_Voice = {                                                        %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -2147,7 +2147,7 @@ I_Viola_Music_Voice = {                                                        %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -2160,7 +2160,7 @@ I_Viola_Music_Voice = {                                                        %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -2194,7 +2194,7 @@ I_Viola_Music_Voice = {                                                        %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -2207,7 +2207,7 @@ I_Viola_Music_Voice = {                                                        %
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! baca.skeleton
@@ -2235,7 +2235,7 @@ I_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak extra-offset #'(-1 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \baca-mp-ancora                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca.glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.4"                                       %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -2268,8 +2268,8 @@ I_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca.quadruple_staccato:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
-        \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanBowSpeed                                              %! STOP_TEXT_SPAN:BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-5"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -2293,7 +2293,7 @@ I_Viola_Music_Voice = {                                                        %
 
             bf!2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -2304,7 +2304,7 @@ I_Viola_Music_Voice = {                                                        %
 
             bf!2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -2335,7 +2335,7 @@ I_Viola_Music_Voice = {                                                        %
 
             bf!2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(1)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \abjad-solid-line-with-arrow                                     %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "pont."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-right-text "ord."                             %! SCP:baca.scp_spanner:PiecewiseCommand(1)
@@ -2346,7 +2346,7 @@ I_Viola_Music_Voice = {                                                        %
 
             bf!2                                                               %! baca.skeleton
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
-            \bacaStopTextSpanSCP                                               %! SCP:baca.scp_spanner:PiecewiseCommand(2)
+            \bacaStopTextSpanSCP                                               %! STOP_TEXT_SPAN:SCP:baca.scp_spanner:PiecewiseCommand(2)
 
         }                                                                      %! baca.skeleton
 
@@ -2377,7 +2377,7 @@ I_Viola_Music_Voice = {                                                        %
             % [I Viola_Music_Voice measure 237 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2458,7 +2458,7 @@ I_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanHalfCLT                                               %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
     }                                                                          %! baca.skeleton
 
@@ -2488,7 +2488,7 @@ I_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanHalfCLT                                               %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
     }                                                                          %! baca.skeleton
 
@@ -2518,7 +2518,7 @@ I_Cello_Music_Voice = {                                                        %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanHalfCLT                                               %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
     }                                                                          %! baca.skeleton
 
@@ -2539,7 +2539,7 @@ I_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(1)
 
         r2                                                                     %! baca.skeleton
-        \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanHalfCLT                                               %! STOP_TEXT_SPAN:HALF_CLT:baca.half_clt_spanner:PiecewiseCommand(3)
 
     }                                                                          %! baca.skeleton
 
@@ -2559,7 +2559,7 @@ I_Cello_Music_Voice = {                                                        %
         - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \accent                                                              %! baca.accent:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         [                                                                      %! baca.beam:SpannerIndicatorCommand(1)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -2624,7 +2624,7 @@ I_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "1-1"                                       %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -2740,7 +2740,7 @@ I_Cello_Music_Voice = {                                                        %
     r4.                                                                        %! faberge.airtone_chain_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
@@ -2752,7 +2752,7 @@ I_Cello_Music_Voice = {                                                        %
             % [I Cello_Music_Voice measure 237 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanStringNumber                                      %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STRING_NUMBER:baca.string_number_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanStringNumber                                      %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:STRING_NUMBER:baca.string_number_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

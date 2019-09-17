@@ -728,7 +728,7 @@ i_Violin_Music_Voice = {                                                       %
             % [_ Violin_Music_Voice measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanSpazzolato                                        %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSpazzolato                                        %! STOP_TEXT_SPAN:SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -850,7 +850,7 @@ i_Viola_Music_Voice = {                                                        %
             % [_ Viola_Music_Voice measure 2]                                  %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanSpazzolato                                        %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanSpazzolato                                        %! STOP_TEXT_SPAN:SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
