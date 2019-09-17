@@ -328,7 +328,7 @@ F_Flute_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-7"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -370,7 +370,7 @@ F_Flute_Music_Voice = {                                                        %
             c''1 * 3/2                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -782,7 +782,7 @@ F_Clarinet_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-7"                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -829,7 +829,7 @@ F_Clarinet_Music_Voice = {                                                     %
             d''1 * 3/2                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1169,7 +1169,7 @@ F_Piano_RH_Music_Voice = {                                                     %
             % [F Piano_RH_Music_Voice measure 210 / measure 9]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1653,7 +1653,7 @@ F_Percussion_Music_Voice = {                                                   %
     \revert Stem.direction                                                     %! baca.stem_up:OverrideCommand(2)
 
     r2.                                                                        %! faberge.downbeat_attack
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [F Percussion_Music_Voice measure 206 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
@@ -1676,7 +1676,7 @@ F_Percussion_Music_Voice = {                                                   %
     r4
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     r1
 
@@ -1811,8 +1811,8 @@ F_Violin_Music_Voice = {                                                       %
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r1                                                                         %! faberge.spazzolati_rhythm
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSpazzolato                                                %! STOP_TEXT_SPAN:SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1908,7 +1908,7 @@ F_Violin_Music_Voice = {                                                       %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
     r2..                                                                       %! faberge.downbeat_attack
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 26/28 {                                                             %! faberge.clb_rhythm
@@ -2072,8 +2072,8 @@ F_Violin_Music_Voice = {                                                       %
             c'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCLB                                               %! CLB:baca.clb_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCLB                                               %! STOP_TEXT_SPAN:CLB:baca.clb_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -2191,8 +2191,8 @@ F_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.spazzolati_rhythm
 
     r1                                                                         %! faberge.spazzolati_rhythm
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanSpazzolato                                                %! STOP_TEXT_SPAN:SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2284,8 +2284,8 @@ F_Viola_Music_Voice = {                                                        %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
     r2..                                                                       %! faberge.downbeat_attack
-    \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanCLB                                                       %! STOP_TEXT_SPAN:CLB:baca.clb_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanMA                                                        %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     % [F Viola_Music_Voice measure 206 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
@@ -2327,8 +2327,8 @@ F_Viola_Music_Voice = {                                                        %
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \staccato                                                            %! baca.staccato:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
-        \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanMA                                                    %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+        \bacaStopTextSpanBowSpeed                                              %! STOP_TEXT_SPAN:BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
         [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca.clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca.clb_spanner:PiecewiseCommand(1)
@@ -2435,8 +2435,8 @@ F_Viola_Music_Voice = {                                                        %
             c'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
-            \bacaStopTextSpanCLB                                               %! CLB:baca.clb_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanCLB                                               %! STOP_TEXT_SPAN:CLB:baca.clb_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -2542,7 +2542,7 @@ F_Cello_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     r2.                                                                        %! faberge.downbeat_attack
-    \bacaStopTextSpanBowSpeed                                                  %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
+    \bacaStopTextSpanBowSpeed                                                  %! STOP_TEXT_SPAN:BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
 
     {                                                                          %! baca.skeleton
 
@@ -2709,7 +2709,7 @@ F_Cello_Music_Voice = {                                                        %
             % [F Cello_Music_Voice measure 210 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
+            \bacaStopTextSpanMA                                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):STOP_TEXT_SPAN:MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
