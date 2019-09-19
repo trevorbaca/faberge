@@ -75,7 +75,6 @@ maker(
             after=True,
             selector=baca.skip(-1),
             ),
-        baca.volta(),
         measures=(3, 5),
         ),
     baca.chunk(
@@ -84,17 +83,20 @@ maker(
             after=True,
             selector=baca.skip(-1),
             ),
-        baca.volta(),
         measures=(6, 8),
         ),
+
     baca.chunk(
         baca.bar_line_x_extent(
             (-1, 3),
             selector=baca.skip(0),
             ),
-        baca.literal(r'\bar ".|:"'),
         measures=10,
         ),
+    baca.bar_line(".|:", baca.skip(2 - 1)),
+    baca.bar_line(":.|.:", baca.skip(5 - 1)),
+    baca.bar_line(":|.", baca.skip(8 - 1)),
+    baca.bar_line(".|:", baca.skip(9 - 1)),
     )
     
 maker(
