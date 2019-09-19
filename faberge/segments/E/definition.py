@@ -85,9 +85,10 @@ maker(
                 selector=baca.skip(-1),
                 ),
             ),
-        baca.volta(),
         measures=(2, 4),
         ),
+    baca.bar_line(".|:", baca.skip(1 - 1)),
+    baca.bar_line(":|.", baca.skip(4 - 1)),
     )
 
 maker(
