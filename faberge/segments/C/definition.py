@@ -18,6 +18,7 @@ maker = baca.SegmentMaker(
         abjad.const.LOCAL_MEASURE_NUMBER,
         abjad.const.STAGE_NUMBER,
         ],
+    check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
@@ -303,7 +304,6 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.ltleaves().rleak(),
         ),
-    baca.staff_position(0),
     )
 
 maker(
@@ -343,6 +343,7 @@ maker(
 maker(
     ('vn', (5, 8)),
     faberge.airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
+    baca.staff_position(0),
     )
 
 # va
