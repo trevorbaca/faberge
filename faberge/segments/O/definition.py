@@ -9,8 +9,8 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[5-4]', 1),
-    ('[5-5]', 5),
+    ("[5-4]", 1),
+    ("[5-5]", 5),
 )
 
 maker = baca.SegmentMaker(
@@ -31,25 +31,25 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
+    "Global_Skips",
     baca.chunk(
         baca.only_parts(
             baca.rehearsal_mark(
-                'O',
+                "O",
                 baca.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
-                'O',
+                "O",
                 baca.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
-                'O',
+                "O",
                 baca.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
@@ -58,32 +58,32 @@ maker(
 )
 
 maker(
-    'Global_Skips',
-    baca.metronome_mark('156', selector=baca.skip(1 - 1)),
-    baca.metronome_mark('5:4(4)=4', selector=baca.skip(1 - 1)),
+    "Global_Skips",
+    baca.metronome_mark("156", selector=baca.skip(1 - 1)),
+    baca.metronome_mark("5:4(4)=4", selector=baca.skip(1 - 1)),
 )
 
 # fl
 
 maker(
-    'fl',
+    "fl",
     baca.staff_lines(1),
 )
 
 # fl, eh, pf
 
 maker(
-    ['fl', 'eh', 'rh'],
+    ["fl", "eh", "rh"],
     baca.dls_staff_padding(7),
     baca.staff_position(0),
 )
 
 maker(
-    (['fl', 'eh', 'rh'], (1, 4)),
+    (["fl", "eh", "rh"], (1, 4)),
     baca.dynamic('"ff"'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\baca-very-small-maraca-markup',
+        r"\baca-very-small-maraca-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
@@ -91,14 +91,14 @@ maker(
 )
 
 maker(
-    (['fl', 'eh', 'rh'], (1, 5)),
+    (["fl", "eh", "rh"], (1, 5)),
     baca.stem_tremolo(
         selector=baca.pleaves(),
     ),
 )
 
 maker(
-    (['fl', 'eh', 'rh'], 5),
+    (["fl", "eh", "rh"], 5),
     baca.repeat_tie(baca.pleaf(0)),
     faberge.downbeat_attack()
 )
@@ -106,18 +106,18 @@ maker(
 # eh
 
 maker(
-    'eh',
+    "eh",
     baca.staff_lines(1),
 )
 
 # cl
 
 maker(
-    'cl',
+    "cl",
     baca.dls_staff_padding(6),
-    baca.dynamic('p'),
+    baca.dynamic("p"),
     baca.flat_glissando(
-        'F2',
+        "F2",
         hide_middle_stems=True,
     ),
     baca.make_repeat_tied_notes(),
@@ -126,25 +126,25 @@ maker(
 # rh
 
 maker(
-    'rh',
+    "rh",
     baca.staff_lines(1),
 )
 
 # perc
 
 maker(
-    'perc',
+    "perc",
     baca.dls_staff_padding(4),
-    baca.dynamic('p'),
+    baca.dynamic("p"),
     # TODO: implement flat glissando based on staff position
     # TODO: change A4 here to staff position -1
     baca.flat_glissando(
-        'B3',
+        "B3",
         hide_middle_stems=True,
     ),
     baca.make_notes(),
     baca.markup(
-        r'\baca-bd-sponge-markup',
+        r"\baca-bd-sponge-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
@@ -154,29 +154,29 @@ maker(
 # vn
 
 maker(
-    'vn',
-    baca.pitch('<F#5 Aqs5>'),
+    "vn",
+    baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
         selector=baca.pleaves(),
     ),
 )
     
 maker(
-    ('vn', (1, 7)),
+    ("vn", (1, 7)),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 3)],
     ),
 )
 
 maker(
-    ('vn', 8),
+    ("vn", 8),
     baca.make_notes(),
 )
 
 # vn, va, vc
 
 maker(
-    ['vn', 'va', 'vc'],
+    ["vn", "va", "vc"],
     baca.accent(
         selector=baca.pheads(),
     ),
@@ -184,56 +184,56 @@ maker(
 )
 
 maker(
-    (['vn', 'va', 'vc'], 1),
-    baca.dynamic('ff'),
+    (["vn", "va", "vc"], 1),
+    baca.dynamic("ff"),
 )
 
 maker(
-    (['vn', 'va', 'vc'], 5),
-    baca.dynamic('pp'),
+    (["vn", "va", "vc"], 5),
+    baca.dynamic("pp"),
 )
 
 # va
 
 maker(
-    'va',
-    baca.pitch('Dqf5'),
+    "va",
+    baca.pitch("Dqf5"),
     baca.stem_tremolo(
         selector=baca.pleaves(),
     ),
 )
 
 maker(
-    ('va', (1, 7)),
+    ("va", (1, 7)),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 1)],
     ),
 )
 
 maker(
-    ('va', 8),
+    ("va", 8),
     baca.make_notes(),
 )
 
 # vc
 
 maker(
-    'vc',
-    baca.pitch('E2'),
+    "vc",
+    baca.pitch("E2"),
     baca.stem_tremolo(
         selector=baca.pleaves(),
     ),
 )
 
 maker(
-    ('vc', (1, 7)),
+    ("vc", (1, 7)),
     faberge.halves_rhythm(),
 )
 
 maker(
-    ('vc', 8),
+    ("vc", 8),
     baca.chunk(
-        baca.mark(r'\faberge-colophon-markup'),
+        baca.mark(r"\faberge-colophon-markup"),
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(6),
         baca.rehearsal_mark_self_alignment_x(abjad.Right),
