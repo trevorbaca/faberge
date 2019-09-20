@@ -51,8 +51,9 @@ I_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [I Global_Skips measure 232 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override Score.BarLine.X-extent = #'(-1 . 3)                        %! -SCORE:baca.bar_line_x_extent():OverrideCommand(1)
-    \bar ".|:"                                                                 %! baca.literal:IndicatorCommand
+    \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
+%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_232:NOT_MOL:baca.bar_line_x_extent():OverrideCommand(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_232:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
@@ -91,8 +92,8 @@ I_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [I Global_Skips measure 234 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! baca.bar_line_x_extent():OverrideCommand(1)
-    \bar ":|."                                                                 %! baca.literal:IndicatorCommand
+    \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
+    \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_234:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/2                                                                   %! baca.SegmentMaker._make_global_skips(1)

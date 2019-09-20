@@ -27,8 +27,9 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [J Global_Skips measure 238 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override Score.BarLine.X-extent = #'(-1 . 3)                        %! baca.bar_line_x_extent():OverrideCommand(1)
-    \bar ".|:"                                                                 %! baca.literal:IndicatorCommand
+    \bar ".|:"                                                                 %! baca.bar_line:IndicatorCommand
+%%% \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! MEASURE_238:NOT_MOL:baca.bar_line_x_extent():OverrideCommand(1)
+    \once \override Score.BarLine.X-extent = #'(0 . 3)                         %! MEASURE_238:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
@@ -100,8 +101,8 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
 
     % [J Global_Skips measure 242 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \once \override Score.BarLine.X-extent = #'(0 . 2)                         %! baca.bar_line_x_extent():OverrideCommand(1)
-    \bar ":|."                                                                 %! baca.literal:IndicatorCommand
+    \bar ":|."                                                                 %! baca.bar_line:IndicatorCommand
+    \once \override Score.BarLine.X-extent = #'(0 . 1.5)                       %! MEASURE_242:ONLY_MOL:baca.bar_line_x_extent():OverrideCommand(1)
     s1 * 5/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER

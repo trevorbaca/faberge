@@ -63,14 +63,7 @@ maker(
 
 maker(
     'Global_Skips',
-    baca.chunk(
-        baca.bar_line_x_extent(
-            (-2, 2),
-            selector=baca.skip(0),
-            ),
-        baca.literal(r'\bar ":|."'),
-        measures=2,
-        ),
+    baca.close_volta(baca.skip(2 - 1)),
     )
 
 maker(
