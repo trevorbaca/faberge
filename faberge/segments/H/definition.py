@@ -11,7 +11,7 @@ import os
 stage_markup = (
     ('[3-2 (3-7) (4-5)]', 1),
     ('[3-3 (A.1) (5-2)]', 5),
-    )
+)
 
 maker = baca.SegmentMaker(
     activate=[
@@ -27,7 +27,7 @@ maker = baca.SegmentMaker(
         ],
     transpose_score=True,
     validate_measure_count=9,
-    )
+)
 
 maker(
     'Global_Skips',
@@ -37,43 +37,43 @@ maker(
                 'H',
                 baca.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
-                ),
             ),
+        ),
         baca.only_score(
             baca.rehearsal_mark(
                 'H',
                 baca.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
-                ),
             ),
+        ),
         baca.only_segment(
             baca.rehearsal_mark(
                 'H',
                 baca.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
-                ),
             ),
         ),
-    )
+    ),
+)
 
 maker(
     'Global_Skips',
     baca.metronome_mark('125', baca.skip(5 - 1)),
     baca.metronome_mark('4:5(4)=4', baca.skip(5 - 1)),
-    )
+)
 
 maker(
     'Global_Skips',
     baca.close_volta(baca.skip(2 - 1)),
-    )
+)
 
 maker(
     'Global_Rests',
     baca.global_fermata(
         'fermata',
         selector=baca.leaf(8 - 1),
-        ),
-    )
+    ),
+)
 
 # fl
 
@@ -84,8 +84,8 @@ maker(
     faberge.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[0, 1],
-        ),
-    )
+    ),
+)
 
 maker(
     ('fl', 5),
@@ -93,11 +93,11 @@ maker(
         'o< f >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
-        ),
+    ),
     baca.skeleton(
         "{ c'2. c'2. r2 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('fl', (5, 7)),
@@ -106,12 +106,12 @@ maker(
         '5-2 -|',
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
-        ),
+    ),
     baca.pitch('G#5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('fl', 6),
@@ -119,11 +119,11 @@ maker(
         'o< mf >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
-        ),
+    ),
     baca.skeleton(
         "{ c'2. c'2. }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('fl', 7),
@@ -131,11 +131,11 @@ maker(
         'o< mp >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
-        ),
+    ),
     baca.skeleton(
         "{ c'2. c'2. r2 }",
-        ),
-    )
+    ),
+)
 
 # fl, cl
 
@@ -143,19 +143,19 @@ maker(
     (['fl', 'cl'], (1, 2)),
     baca.espressivo(
         selector=baca.pheads(),
-        ),
+    ),
     baca.hairpin(
         'o< mp >o niente',
         map=baca.cmgroups(),
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
         selector=baca.leaves().rleak(),
-        ),
+    ),
     baca.material_annotation_spanner(
         '3-7 -|',
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
-        ),
-    )
+    ),
+)
 
 # eh
 
@@ -163,15 +163,15 @@ maker(
     ('eh', 1),
     baca.skeleton(
         "{ c'1 c'1 r1 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('eh', 2),
     baca.skeleton(
         "{ c'2. c'2. r1 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('eh', (1, 2)),
@@ -181,28 +181,28 @@ maker(
         map=baca.pleaves().partition_by_counts([2], cyclic=True),
         pieces=baca.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
-        ),
+    ),
     baca.material_annotation_spanner(
         '4-5 -|',
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
-        ),
+    ),
     baca.pitch('A4'),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         selector=baca.leaves().rleak(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('eh', 4),
     baca.pitch('A#4'),
     baca.skeleton(
         r"{ \times 5/4 { c'4 c'4 c'4 c'4 } \times 5/4 { c'4 c'4 c'4 c'4 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('eh', (4, 5)),
@@ -210,27 +210,27 @@ maker(
     baca.hairpin(
         'f >o niente',
         selector=baca.tleaves().rleak(),
-        ),
+    ),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
-        ),
+    ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
-        ),
+    ),
     baca.trill_spanner_staff_padding(5.5),
-    )
+)
 
 maker(
     ('eh', 5),
     baca.pitch('B4'),
     baca.skeleton(
         r"{ c'4 c'4 c'4 c'4 r1 }",
-        ),
-    )
+    ),
+)
 
 # cl
 
@@ -241,8 +241,8 @@ maker(
     faberge.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[1, 0],
-        ),
-    )
+    ),
+)
 
 # rh
 
@@ -252,7 +252,7 @@ maker(
     'perc',
     baca.clef('percussion'),
     baca.dls_staff_padding(4),
-    )
+)
 
 maker(
     ('perc', [1, 2]),
@@ -261,15 +261,15 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         match=0,
-        ),
+    ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         selector=baca.leaves().rleak(),
-        ),
+    ),
     faberge.downbeat_attack(denominator=2),
-    )
+)
 
 maker(
     ('perc', (1, 2)),
@@ -279,10 +279,10 @@ maker(
         '4-5 -|',
         abjad.tweak('darkgreen').color,
         abjad.tweak(8).staff_padding,
-        ),
+    ),
     baca.staff_position(1),
     baca.stem_up(),
-    )
+)
 
 maker(
     ('perc', 5),
@@ -291,23 +291,23 @@ maker(
     baca.hairpin(
         'o<| f',
         selector=baca.leaves()[:2],
-        ),
+    ),
     baca.laissez_vibrer(),
     baca.markup(
         r'\baca-crotales-bowed-markup',
         abjad.tweak(6).staff_padding,
         literal=True,
-        ),
+    ),
     baca.material_annotation_spanner(
         'A.1 -|',
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
-        ),
+    ),
     baca.pitch('F#4'),
     faberge.downbeat_attack(
         denominator=2,
-        ),
-    )
+    ),
+)
 
 maker(
     ('perc', 9),
@@ -317,18 +317,18 @@ maker(
         'Eb2',
         hide_middle_stems=True,
         right_broken=True,
-        ),
+    ),
     baca.markup(
         r'\baca-marimba-attackless-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(6).staff_padding,
         literal=True,
-        ),
+    ),
     baca.skeleton(
         "{ c'2 c'1 }",
-        ),
+    ),
     baca.stem_tremolo(),
-    )
+)
 
 # vn
 
@@ -337,8 +337,8 @@ maker(
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
         abjad.tweak(10.5).staff_padding,
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 1),
@@ -346,11 +346,11 @@ maker(
         'p niente o< p > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
+    ),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', [1, 2, 3, 4, 5, 6, 7, 9]),
@@ -362,24 +362,24 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves()[-3:],
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', (1, 4)),
     baca.dls_staff_padding(4),
     baca.pitch('A#4'),
-    )
+)
 
 maker(
     ('vn', [(1, 7), 9]),
     baca.quadruple_staccato(
         selector=baca.plts().get([0], 4),
-        ),
+    ),
     baca.stem_tremolo(
         selector=baca.plts().exclude([0], 4),
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 2),
@@ -387,12 +387,12 @@ maker(
         'mp niente o< mp > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
+    ),
     baca.skeleton(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 3),
@@ -400,11 +400,11 @@ maker(
         'mf niente o< mf > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
+    ),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 4),
@@ -412,45 +412,45 @@ maker(
         'f niente o< f > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
+    ),
     baca.skeleton(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 5),
     baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', (5, 8)),
     baca.pitch('B4'),
-    )
+)
 
 maker(
     ('vn', (5, 9)),
     baca.dls_staff_padding(9),
-    )
+)
 
 maker(
     ('vn', 6),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 7),
     baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vn', 9),
@@ -458,12 +458,12 @@ maker(
         r'\faberge-seven-e-flat',
         abjad.tweak(1.5).padding,
         literal=True,
-        ),
+    ),
     baca.pitch('Dtqf5'),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 # vn, va
 
@@ -473,8 +473,8 @@ maker(
         '"ff" niente o< ff > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
-    )
+    ),
+)
 
 maker(
     (['vn', 'va'], 9),
@@ -482,8 +482,8 @@ maker(
         'mp niente o< mp > pp',
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
-        ),
-    )
+    ),
+)
 
 # va
 
@@ -493,26 +493,26 @@ maker(
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
         abjad.tweak(10.5).staff_padding,
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 1),
     baca.chunk(
         baca.quadruple_staccato(
             selector=baca.plts().filter_duration('==', (1, 2)),
-            ),
+        ),
         baca.stem_tremolo(
             selector=baca.plts().filter_duration('==', (1, 3)),
-            ),
         ),
+    ),
     baca.hairpin(
         'p niente o< p > pp niente o< p > pp p',
         pieces=baca.clparts([1]),
-        ),
+    ),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
-        ),
+    ),
     baca.scp_spanner(
         r'\baca-null-markup || ord. -> pont. -> ord. ||'
         r' ord. -> pont. -> ord. || \baca-null-markup',
@@ -520,32 +520,32 @@ maker(
         autodetect_right_padding=False,
         pieces=baca.clparts([1]),
         selector=baca.leaves(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', (1, 4)),
     baca.pitch('A#4'),
-    )
+)
 
 maker(
     ('va', 2),
     baca.chunk(
         baca.quadruple_staccato(
             selector=baca.plts().filter_duration('==', (5, 12)),
-            ),
+        ),
         baca.stem_tremolo(
             selector=baca.plts().filter_duration('==', (5, 18)),
-            ),
         ),
+    ),
     baca.hairpin(
         'niente o< mp > pp mp niente o< mp > pp mp',
         pieces=baca.clparts([1]),
-        ),
+    ),
     baca.skeleton(
         r"\times 5/6 { \times 2/3 { c'2 c'2 c'2 } c'2"
         r" \times 2/3 { c'2 c'2 c'2 }c'2 }",
-        ),
+    ),
     baca.scp_spanner(
         r'ord. -> pont. -> ord. || \baca-null-markup ||'
         r' ord. -> pont. -> ord. || \baca-null-markup ||',
@@ -553,26 +553,26 @@ maker(
         autodetect_right_padding=False,
         pieces=baca.clparts([1]),
         selector=baca.leaves(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 3),
     baca.chunk(
         baca.quadruple_staccato(
             selector=baca.plts().filter_duration('==', (1, 2)),
-            ),
+        ),
         baca.stem_tremolo(
             selector=baca.plts().filter_duration('==', (1, 3)),
-            ),
         ),
+    ),
     baca.hairpin(
         'mp niente o< mf > pp niente o< mf > pp mf',
         pieces=baca.clparts([1]),
-        ),
+    ),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
-        ),
+    ),
     baca.scp_spanner(
         r'\baca-null-markup || ord. -> pont. -> ord. ||'
         r' ord. -> pont. -> ord. || \baca-null-markup',
@@ -580,27 +580,27 @@ maker(
         autodetect_right_padding=False,
         pieces=baca.clparts([1]),
         selector=baca.leaves(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 4),
     baca.chunk(
         baca.quadruple_staccato(
             selector=baca.plts().filter_duration('==', (5, 12)),
-            ),
+        ),
         baca.stem_tremolo(
             selector=baca.plts().filter_duration('==', (5, 18)),
-            ),
         ),
+    ),
     baca.hairpin(
         'niente o< f > pp f f niente o< f > pp',
         pieces=baca.clparts([1]),
-        ),
+    ),
     baca.skeleton(
         r"\times 5/6 { \times 2/3 {c'2 c'2 c'2 } c'2"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
+    ),
     baca.scp_spanner(
         r'ord. -> pont. -> ord. || \baca-null-markup ||'
         r' \baca-null-markup || ord. -> pont. -> ord. ||',
@@ -608,16 +608,16 @@ maker(
         autodetect_right_padding=False,
         pieces=baca.clparts([1]),
         selector=baca.leaves(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 5),
     baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', [5, 6, 7, 9]),
@@ -629,46 +629,46 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves()[-3:],
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', (5, 8)),
     baca.pitch('Aqs4'),
-    )
+)
 
 maker(
     ('va', (5, 9)),
     baca.markup(
         '11°/E',
         abjad.tweak(1.5).padding,
-        ),
+    ),
     baca.quadruple_staccato(
         selector=baca.plts(
             exclude=abjad.const.HIDDEN,
-            ).get([0], 4),
-        ),
+        ).get([0], 4),
+    ),
     baca.stem_tremolo(
         selector=baca.plts(
             exclude=abjad.const.HIDDEN,
-            ).exclude([0], 4),
-        ),
-    )
+        ).exclude([0], 4),
+    ),
+)
 
 maker(
     ('va', 6),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 7),
     baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', 9),
@@ -676,12 +676,12 @@ maker(
         r'\faberge-thirteen-e-flat',
         abjad.tweak(1.5).padding,
         literal=True,
-        ),
+    ),
     baca.pitch('Bqs4'),
     baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        ),
-    )
+    ),
+)
 
 # vc
 
@@ -691,8 +691,8 @@ maker(
     baca.hairpin(
         'p < f-poco-scratch',
         selector=baca.leaves().rleak(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', (1, 4)),
@@ -702,23 +702,23 @@ maker(
     baca.scp_spanner(
         'tasto =|',
         abjad.tweak(3).staff_padding,
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', 5),
     baca.skeleton(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', [5, 6, 7]),
     baca.hairpin(
         'p f >o',
         pieces=baca.clparts([1]),
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', [5, 6, 7, 9]),
@@ -728,57 +728,57 @@ maker(
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
             full=True,
-            ),
+        ),
         baca.up_bow(
             baca.pheads().get([1], 2),
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
-            ),
         ),
+    ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
         map=baca.leaves().get([0], 2),
         selector=baca.leaves()[:1].rleak(),
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', (5, 7)),
     baca.dls_staff_padding(8),
     baca.tuplet_bracket_down(),
-    )
+)
 
 maker(
     ('vc', (5, 8)),
     baca.pitch('E2'),
-    )
+)
 
 maker(
     ('vc', (5, 9)),
     baca.material_annotation_spanner(
         '3-3 =|',
         abjad.tweak(8).staff_padding,
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', 6),
     baca.skeleton(
         r"{ c'2 c'1 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', 7),
     baca.skeleton(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
-        ),
-    )
+    ),
+)
 
 maker(
     ('vc', 8),
     baca.dynamic('!'),
-    )
+)
 
 maker(
     ('vc', 9),
@@ -786,13 +786,13 @@ maker(
     baca.dynamic(
         '!',
         selector=baca.leaves().rleak()[-1],
-        ),
+    ),
     baca.hairpin(
         'pp p >o',
         pieces=baca.clparts([1]),
-        ),
+    ),
     baca.pitch('Eb2'),
     baca.skeleton(
         r"{ c'2 c'1 }",
-        ),
-    )
+    ),
+)
