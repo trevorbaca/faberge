@@ -63,40 +63,10 @@ maker(
 
 maker(
     'Global_Skips',
-    baca.chunk(
-        baca.not_score(
-            baca.bar_line_x_extent(
-                (-1, 2),
-                selector=baca.skip(0),
-                ),
-            ),
-        baca.bar_line_x_extent(
-            (0, 3),
-            after=True,
-            selector=baca.skip(-1),
-            ),
-        measures=(3, 5),
-        ),
-    baca.chunk(
-        baca.bar_line_x_extent(
-            (0, 3),
-            after=True,
-            selector=baca.skip(-1),
-            ),
-        measures=(6, 8),
-        ),
-
-    baca.chunk(
-        baca.bar_line_x_extent(
-            (-1, 3),
-            selector=baca.skip(0),
-            ),
-        measures=10,
-        ),
-    baca.bar_line(".|:", baca.skip(2 - 1)),
-    baca.bar_line(":.|.:", baca.skip(5 - 1)),
-    baca.bar_line(":|.", baca.skip(8 - 1)),
-    baca.bar_line(".|:", baca.skip(9 - 1)),
+    baca.open_volta(baca.skip(3 - 1)),
+    baca.double_volta(baca.skip(6 - 1)),
+    baca.close_volta(baca.skip(9 - 1)),
+    baca.open_volta(baca.skip(10 - 1)),
     )
     
 maker(

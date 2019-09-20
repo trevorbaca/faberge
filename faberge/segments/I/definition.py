@@ -66,18 +66,8 @@ maker(
 
 maker(
     'Global_Skips',
-    baca.chunk(
-        baca.not_score(
-            baca.bar_line_x_extent((-1, 3)),
-            ),
-        baca.literal(r'\bar ".|:"'),
-        measures=4,
-        ),
-    baca.chunk(
-        baca.bar_line_x_extent((0, 2)),
-        baca.literal(r'\bar ":|."'),
-        measures=6,
-        ),
+    baca.open_volta(baca.skip(4 - 1)),
+    baca.close_volta(baca.skip(6 - 1)),
     )
 
 # fl
