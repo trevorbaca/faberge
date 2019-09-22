@@ -1557,7 +1557,7 @@ maker(
         allow_repeats=True,
         hide_middle_note_heads=True,
     ),
-    baca.interpolate_staff_positions("Eb2", "C2"),
+    baca.interpolate_pitches("Eb2", "C2"),
     baca.hairpin(
         "(p) < ff >o",
         pieces=baca.mgroups([12, 12]),
