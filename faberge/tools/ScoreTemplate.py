@@ -24,110 +24,110 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
         \context Score = "Score"                                                                 %! faberge.ScoreTemplate.__call__
         <<                                                                                       %! faberge.ScoreTemplate.__call__
-            \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context
-            <<                                                                                   %! abjad.ScoreTemplate._make_global_context
-                \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context
-                {                                                                                %! abjad.ScoreTemplate._make_global_context
-                }                                                                                %! abjad.ScoreTemplate._make_global_context
-                \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context
-                {                                                                                %! abjad.ScoreTemplate._make_global_context
-                }                                                                                %! abjad.ScoreTemplate._make_global_context
-            >>                                                                                   %! abjad.ScoreTemplate._make_global_context
+            \context GlobalContext = "Global_Context"                                            %! abjad.ScoreTemplate._make_global_context()
+            <<                                                                                   %! abjad.ScoreTemplate._make_global_context()
+                \context GlobalRests = "Global_Rests"                                            %! abjad.ScoreTemplate._make_global_context()
+                {                                                                                %! abjad.ScoreTemplate._make_global_context()
+                }                                                                                %! abjad.ScoreTemplate._make_global_context()
+                \context GlobalSkips = "Global_Skips"                                            %! abjad.ScoreTemplate._make_global_context()
+                {                                                                                %! abjad.ScoreTemplate._make_global_context()
+                }                                                                                %! abjad.ScoreTemplate._make_global_context()
+            >>                                                                                   %! abjad.ScoreTemplate._make_global_context()
             \context MusicContext = "Music_Context"                                              %! faberge.ScoreTemplate.__call__
             <<                                                                                   %! faberge.ScoreTemplate.__call__
                 \context WindSectionStaffGroup = "Wind_Section_Staff_Group"                      %! faberge.ScoreTemplate.__call__
                 <<                                                                               %! faberge.ScoreTemplate.__call__
-                    \tag Flute                                                                   %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Flute                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Flute_Music_Staff"                                         %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Flute_Music_Voice"                                     %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
-                    \tag EnglishHorn                                                             %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag EnglishHorn                                                             %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "English_Horn_Music_Staff"                                  %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "English_Horn_Music_Voice"                              %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
-                    \tag Clarinet                                                                %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Clarinet                                                                %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Clarinet_Music_Staff"                                      %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Clarinet_Music_Voice"                                  %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
                 >>                                                                               %! faberge.ScoreTemplate.__call__
                 \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"          %! faberge.ScoreTemplate.__call__
                 <<                                                                               %! faberge.ScoreTemplate.__call__
-                    \tag Piano                                                                   %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Piano                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
                     \context PianoStaff = "Piano_Staff_Group"                                    %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Staff = "Piano_RH_Music_Staff"                                  %! faberge.ScoreTemplate.__call__
                         <<                                                                       %! faberge.ScoreTemplate.__call__
                             \context Voice = "Piano_RH_Music_Voice"                              %! faberge.ScoreTemplate.__call__
                             {                                                                    %! faberge.ScoreTemplate.__call__
-                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
+                                \clef "treble"                                                   %! abjad.ScoreTemplate.attach_defaults(3)
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
                             }                                                                    %! faberge.ScoreTemplate.__call__
                         >>                                                                       %! faberge.ScoreTemplate.__call__
                         \context Staff = "Piano_LH_Music_Staff"                                  %! faberge.ScoreTemplate.__call__
                         <<                                                                       %! faberge.ScoreTemplate.__call__
                             \context Voice = "Piano_LH_Music_Voice"                              %! faberge.ScoreTemplate.__call__
                             {                                                                    %! faberge.ScoreTemplate.__call__
-                                \clef "bass"                                                     %! abjad.ScoreTemplate.attach_defaults
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
+                                \clef "bass"                                                     %! abjad.ScoreTemplate.attach_defaults(3)
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
                             }                                                                    %! faberge.ScoreTemplate.__call__
                             \context Voice = "Piano_LH_Attack_Voice"                             %! faberge.ScoreTemplate.__call__
                             {                                                                    %! faberge.ScoreTemplate.__call__
-                                s1                                                               %! abjad.ScoreTemplate.__illustrate__
+                                s1                                                               %! abjad.ScoreTemplate.__illustrate__()
                             }                                                                    %! faberge.ScoreTemplate.__call__
                         >>                                                                       %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
-                    \tag Percussion                                                              %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Percussion                                                              %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Percussion_Music_Staff"                                    %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Percussion_Music_Voice"                                %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
                 >>                                                                               %! faberge.ScoreTemplate.__call__
                 \context StringSectionStaffGroup = "String_Section_Staff_Group"                  %! faberge.ScoreTemplate.__call__
                 <<                                                                               %! faberge.ScoreTemplate.__call__
-                    \tag Violin                                                                  %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Violin                                                                  %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Violin_Music_Staff"                                        %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Violin_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "treble"                                                       %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
-                    \tag Viola                                                                   %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Viola                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Viola_Music_Staff"                                         %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Viola_Music_Voice"                                     %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "alto"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
-                    \tag Cello                                                                   %! baca.ScoreTemplate._attach_liypond_tag
+                    \tag Cello                                                                   %! baca.ScoreTemplate._attach_liypond_tag()
                     \context Staff = "Cello_Music_Staff"                                         %! faberge.ScoreTemplate.__call__
                     <<                                                                           %! faberge.ScoreTemplate.__call__
                         \context Voice = "Cello_Music_Voice"                                     %! faberge.ScoreTemplate.__call__
                         {                                                                        %! faberge.ScoreTemplate.__call__
-                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults
-                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__
+                            \clef "bass"                                                         %! abjad.ScoreTemplate.attach_defaults(3)
+                            s1                                                                   %! abjad.ScoreTemplate.__illustrate__()
                         }                                                                        %! faberge.ScoreTemplate.__call__
                     >>                                                                           %! faberge.ScoreTemplate.__call__
                 >>                                                                               %! faberge.ScoreTemplate.__call__
