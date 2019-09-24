@@ -175,7 +175,7 @@ i_Flute_Music_Staff = <<                                                       %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
     \i_Global_Rests                                                            %! abjad.Path.extern()
 
-    \context Voice = "Flute_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
+    \context Voice = "Flute_Music_Voice"                                       %! faberge.ScoreTemplate.__call__()
     \i_Flute_Music_Voice                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -363,7 +363,7 @@ i_English_Horn_Music_Voice = {                                                 %
 
 i_English_Horn_Music_Staff = <<                                                %! abjad.Path.extern()
 
-    \context Voice = "English_Horn_Music_Voice"                                %! faberge.ScoreTemplate.__call__
+    \context Voice = "English_Horn_Music_Voice"                                %! faberge.ScoreTemplate.__call__()
     \i_English_Horn_Music_Voice                                                %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -437,7 +437,7 @@ i_Clarinet_Music_Voice = {                                                     %
 
 i_Clarinet_Music_Staff = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "Clarinet_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
+    \context Voice = "Clarinet_Music_Voice"                                    %! faberge.ScoreTemplate.__call__()
     \i_Clarinet_Music_Voice                                                    %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -511,7 +511,7 @@ i_Piano_RH_Music_Voice = {                                                     %
 
 i_Piano_RH_Music_Staff = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "Piano_RH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
+    \context Voice = "Piano_RH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__()
     \i_Piano_RH_Music_Voice                                                    %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -627,10 +627,10 @@ i_Piano_LH_Attack_Voice = {                                                    %
 
 i_Piano_LH_Music_Staff = <<                                                    %! abjad.Path.extern()
 
-    \context Voice = "Piano_LH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
+    \context Voice = "Piano_LH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__()
     \i_Piano_LH_Music_Voice                                                    %! abjad.Path.extern()
 
-    \context Voice = "Piano_LH_Attack_Voice"                                   %! faberge.ScoreTemplate.__call__
+    \context Voice = "Piano_LH_Attack_Voice"                                   %! faberge.ScoreTemplate.__call__()
     \i_Piano_LH_Attack_Voice                                                   %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -704,7 +704,7 @@ i_Percussion_Music_Voice = {                                                   %
 
 i_Percussion_Music_Staff = <<                                                  %! abjad.Path.extern()
 
-    \context Voice = "Percussion_Music_Voice"                                  %! faberge.ScoreTemplate.__call__
+    \context Voice = "Percussion_Music_Voice"                                  %! faberge.ScoreTemplate.__call__()
     \i_Percussion_Music_Voice                                                  %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -835,7 +835,7 @@ i_Violin_Music_Voice = {                                                       %
 
 i_Violin_Music_Staff = <<                                                      %! abjad.Path.extern()
 
-    \context Voice = "Violin_Music_Voice"                                      %! faberge.ScoreTemplate.__call__
+    \context Voice = "Violin_Music_Voice"                                      %! faberge.ScoreTemplate.__call__()
     \i_Violin_Music_Voice                                                      %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -963,7 +963,7 @@ i_Viola_Music_Voice = {                                                        %
 
 i_Viola_Music_Staff = <<                                                       %! abjad.Path.extern()
 
-    \context Voice = "Viola_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
+    \context Voice = "Viola_Music_Voice"                                       %! faberge.ScoreTemplate.__call__()
     \i_Viola_Music_Voice                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()
@@ -1037,7 +1037,7 @@ i_Cello_Music_Voice = {                                                        %
 
 i_Cello_Music_Staff = <<                                                       %! abjad.Path.extern()
 
-    \context Voice = "Cello_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
+    \context Voice = "Cello_Music_Voice"                                       %! faberge.ScoreTemplate.__call__()
     \i_Cello_Music_Voice                                                       %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()

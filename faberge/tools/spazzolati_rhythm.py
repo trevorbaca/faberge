@@ -36,5 +36,5 @@ def spazzolati_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.sequence().fuse().quarters(),
-        tag="faberge.spazzolati_rhythm",
+        tag=abjad.Tag("faberge.spazzolati_rhythm"),
     )

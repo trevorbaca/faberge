@@ -31,5 +31,5 @@ def glow_rhythm(
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie((1, 4)),
         preprocessor=baca.sequence().fuse().quarters(),
-        tag="faberge.glow_rhythm",
+        tag=abjad.Tag("faberge.glow_rhythm"),
     )
