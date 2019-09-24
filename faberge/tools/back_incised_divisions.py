@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -12,5 +13,5 @@ def back_incised_divisions() -> baca.RhythmCommand:
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag="faberge.back_incised_divisions",
+        tag=abjad.Tag("faberge.back_incised_divisions"),
     )

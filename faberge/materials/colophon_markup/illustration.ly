@@ -1,9 +1,9 @@
-\version "2.19.82"                                                                       %! abjad.LilyPondFile
-\language "english"                                                                      %! abjad.LilyPondFile
+\version "2.19.83"                                                                       %! abjad.LilyPondFile._get_format_pieces()
+\language "english"                                                                      %! abjad.LilyPondFile._get_format_pieces()
 
-\header {                                                                                %! abjad.LilyPondFile
+\header {                                                                                %! abjad.LilyPondFile._get_formatted_blocks()
     tagline = ##f
-}                                                                                        %! abjad.LilyPondFile
+}                                                                                        %! abjad.LilyPondFile._get_formatted_blocks()
 
 \layout {}
 

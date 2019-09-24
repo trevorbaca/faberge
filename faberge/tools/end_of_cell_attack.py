@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -15,5 +16,5 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag="faberge.end_of_cell_attack",
+        tag=abjad.Tag("faberge.end_of_cell_attack"),
     )

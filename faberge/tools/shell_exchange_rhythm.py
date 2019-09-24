@@ -136,5 +136,5 @@ def shell_exchange_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),
         rmakers.extract_trivial(),
-        tag="faberge.shell_exchange_rhythm",
+        tag=abjad.Tag("faberge.shell_exchange_rhythm"),
     )

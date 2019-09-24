@@ -38,8 +38,8 @@ time_signatures = maker_.run()
 
 maker = baca.SegmentMaker(
     activate=[
-        abjad.const.LOCAL_MEASURE_NUMBER,
-        abjad.const.STAGE_NUMBER,
+        abjad.tags.LOCAL_MEASURE_NUMBER,
+        abjad.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
