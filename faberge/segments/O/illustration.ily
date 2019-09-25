@@ -224,11 +224,11 @@ O_Flute_Music_Voice = {                                                        %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [O Flute_Music_Voice measure 283 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    b'4                                                                        %! faberge.downbeat_attack
+    b'4                                                                        %! faberge.downbeat_attack()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.repeat_tie():baca.IndicatorCommand._call()
 
-    r1..                                                                       %! faberge.downbeat_attack
+    r1..                                                                       %! faberge.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -237,7 +237,7 @@ O_Flute_Music_Voice = {                                                        %
 
             % [O Flute_Music_Voice measure 284 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c''1 * 7/4                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c''1 * 7/4                                                         %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"7" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -269,7 +269,7 @@ O_Flute_Music_Voice = {                                                        %
 
             % [O Flute_Music_Voice measure 287 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -351,11 +351,11 @@ O_English_Horn_Music_Voice = {                                                 %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [O English_Horn_Music_Voice measure 283 / measure 5]                     %! baca.SegmentMaker._comment_measure_numbers()
-    b'4                                                                        %! faberge.downbeat_attack
+    b'4                                                                        %! faberge.downbeat_attack()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.repeat_tie():baca.IndicatorCommand._call()
 
-    r1..                                                                       %! faberge.downbeat_attack
+    r1..                                                                       %! faberge.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -364,7 +364,7 @@ O_English_Horn_Music_Voice = {                                                 %
 
             % [O English_Horn_Music_Voice measure 284 / measure 6]             %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            g'1 * 7/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            g'1 * 7/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"7" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -396,7 +396,7 @@ O_English_Horn_Music_Voice = {                                                 %
 
             % [O English_Horn_Music_Voice measure 287 / measure 9]             %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -495,7 +495,7 @@ O_Clarinet_Music_Voice = {                                                     %
 
             % [O Clarinet_Music_Voice measure 287 / measure 9]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            d''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            d''1 * 1/4                                                         %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -575,11 +575,11 @@ O_Piano_RH_Music_Voice = {                                                     %
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
 
     % [O Piano_RH_Music_Voice measure 283 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
-    d4                                                                         %! faberge.downbeat_attack
+    d4                                                                         %! faberge.downbeat_attack()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie                                                                 %! baca.repeat_tie():baca.IndicatorCommand._call()
 
-    r1..                                                                       %! faberge.downbeat_attack
+    r1..                                                                       %! faberge.downbeat_attack()
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -588,7 +588,7 @@ O_Piano_RH_Music_Voice = {                                                     %
 
             % [O Piano_RH_Music_Voice measure 284 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 7/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 7/4                                                          %! PHANTOM_NOTE:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"7" #"4"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
@@ -620,7 +620,7 @@ O_Piano_RH_Music_Voice = {                                                     %
 
             % [O Piano_RH_Music_Voice measure 287 / measure 9]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -703,7 +703,7 @@ O_Piano_LH_Music_Voice = {                                                     %
 
             % [O Piano_LH_Music_Voice measure 287 / measure 9]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -770,7 +770,7 @@ O_Piano_LH_Attack_Voice = {                                                    %
 
             % [O Piano_LH_Attack_Voice measure 287 / measure 9]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            R1 * 1/4                                                           %! PHANTOM_MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -875,7 +875,7 @@ O_Percussion_Music_Voice = {                                                   %
 
             % [O Percussion_Music_Voice measure 287 / measure 9]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -909,8 +909,8 @@ O_Percussion_Music_Staff = <<                                                  %
 
 O_Violin_Music_Voice = {                                                       %! abjad.Path.extern()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/10 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/10 {                                                              %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 279 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -941,10 +941,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 7/5 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 7/5 {                                                               %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 280 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>2
@@ -955,10 +955,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/10 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/10 {                                                              %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 281 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>1
@@ -969,10 +969,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 7/5 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 7/5 {                                                               %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 282 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>2
@@ -983,10 +983,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/10 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/10 {                                                              %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 283 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>1
@@ -999,10 +999,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 7/5 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 7/5 {                                                               %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 284 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>2
@@ -1013,10 +1013,10 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/10 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/10 {                                                              %! faberge.halves_rhythm()
 
         % [O Violin_Music_Voice measure 285 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         <fs''! aqs''!>1
@@ -1027,7 +1027,7 @@ O_Violin_Music_Voice = {                                                       %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
     % [O Violin_Music_Voice measure 286 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
     <fs''! aqs''!>1..
@@ -1042,7 +1042,7 @@ O_Violin_Music_Voice = {                                                       %
 
             % [O Violin_Music_Voice measure 287 / measure 9]                   %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1076,8 +1076,8 @@ O_Violin_Music_Staff = <<                                                      %
 
 O_Viola_Music_Voice = {                                                        %! abjad.Path.extern()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/12 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/12 {                                                              %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 279 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
@@ -1092,7 +1092,7 @@ O_Viola_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-        dqf''!\breve                                                           %! faberge.halves_rhythm
+        dqf''!\breve                                                           %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
@@ -1103,97 +1103,97 @@ O_Viola_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-        dqf''!1                                                                %! faberge.halves_rhythm
+        dqf''!1                                                                %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 2/3 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 2/3 {                                                               %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 280 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!1..                                                              %! faberge.halves_rhythm
+        dqf''!1..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!2..                                                              %! faberge.halves_rhythm
+        dqf''!2..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/12 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/12 {                                                              %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 281 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!\breve                                                           %! faberge.halves_rhythm
+        dqf''!\breve                                                           %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!1                                                                %! faberge.halves_rhythm
+        dqf''!1                                                                %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 2/3 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 2/3 {                                                               %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 282 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!1..                                                              %! faberge.halves_rhythm
+        dqf''!1..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!2..                                                              %! faberge.halves_rhythm
+        dqf''!2..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/12 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/12 {                                                              %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 283 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!\breve                                                           %! faberge.halves_rhythm
+        dqf''!\breve                                                           %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!1                                                                %! faberge.halves_rhythm
+        dqf''!1                                                                %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 2/3 {                                                               %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 2/3 {                                                               %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 284 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!1..                                                              %! faberge.halves_rhythm
+        dqf''!1..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!2..                                                              %! faberge.halves_rhythm
+        dqf''!2..                                                              %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm
-    \times 8/12 {                                                              %! faberge.halves_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.halves_rhythm()
+    \times 8/12 {                                                              %! faberge.halves_rhythm()
 
         % [O Viola_Music_Voice measure 285 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-        dqf''!\breve                                                           %! faberge.halves_rhythm
+        dqf''!\breve                                                           %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-        dqf''!1                                                                %! faberge.halves_rhythm
+        dqf''!1                                                                %! faberge.halves_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
 
-    }                                                                          %! faberge.halves_rhythm
+    }                                                                          %! faberge.halves_rhythm()
 
     % [O Viola_Music_Voice measure 286 / measure 8]                            %! baca.SegmentMaker._comment_measure_numbers()
     dqf''!1..                                                                  %! baca.make_notes()
@@ -1208,7 +1208,7 @@ O_Viola_Music_Voice = {                                                        %
 
             % [O Viola_Music_Voice measure 287 / measure 9]                    %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
@@ -1256,7 +1256,7 @@ O_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:baca.SegmentMaker._attach_color_literal(2)
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
@@ -1267,63 +1267,63 @@ O_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(3):-PARTS:baca.SegmentMaker._reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 280 / measure 2]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 281 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 282 / measure 4]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 283 / measure 5]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.dynamic():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 284 / measure 6]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,2..                                                                      %! faberge.halves_rhythm
+    e,2..                                                                      %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
     % [O Cello_Music_Voice measure 285 / measure 7]                            %! baca.SegmentMaker._comment_measure_numbers()
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
-    e,1                                                                        %! faberge.halves_rhythm
+    e,1                                                                        %! faberge.halves_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \accent                                                                  %! baca.accent():baca.IndicatorCommand._call()
 
@@ -1344,7 +1344,7 @@ O_Cello_Music_Voice = {                                                        %
             \once \override Score.RehearsalMark.self-alignment-X = #right      %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.rehearsal_mark_self_alignment_x():baca.OverrideCommand._call(1)
             \mark \faberge-colophon-markup                                     %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.mark():baca.IndicatorCommand._call()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
-            c'1 * 1/4                                                          %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+            c'1 * 1/4                                                          %! PHANTOM_NOTE:PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()

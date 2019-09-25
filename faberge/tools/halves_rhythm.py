@@ -19,5 +19,5 @@ def halves_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        tag=abjad.Tag("faberge.halves_rhythm"),
+        tag=abjad.Tag("faberge.halves_rhythm()"),
     )

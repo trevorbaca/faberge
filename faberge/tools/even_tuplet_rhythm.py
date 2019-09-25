@@ -20,5 +20,5 @@ def even_tuplet_rhythm(
         rmakers.rewrite_dots(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.even_tuplet_rhythm"),
+        tag=abjad.Tag("faberge.even_tuplet_rhythm()"),
     )

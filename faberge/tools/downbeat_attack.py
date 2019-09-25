@@ -17,5 +17,5 @@ def downbeat_attack(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        tag=abjad.Tag("faberge.downbeat_attack"),
+        tag=abjad.Tag("faberge.downbeat_attack()"),
     )
