@@ -24,5 +24,5 @@ def bcl_color_fingering_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.bcl_color_fingering_rhythm"),
+        tag=abjad.Tag("faberge.bcl_color_fingering_rhythm()"),
     )
