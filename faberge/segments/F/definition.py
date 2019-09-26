@@ -148,7 +148,7 @@ maker(
         baca.pheads(),
         abjad.tweak(
             (0, 0),
-            tag=baca.const.NOT_PARTS,
+            tag=abjad.tags.NOT_PARTS,
         ).X_extent,
     ),
     baca.hairpin(
