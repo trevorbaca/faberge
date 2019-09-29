@@ -1323,8 +1323,6 @@ A_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% - \baca-start-ct-both "[2'56'']" "[2'58'']"                                %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
-    \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
-    \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
     % [A Global_Skips measure 97 / measure 93]                                 %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
     \time 1/4                                                                  %! baca.SegmentMaker._make_global_skips(3):PHANTOM:baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._style_phantom_measures(1)
