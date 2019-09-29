@@ -232,6 +232,11 @@ maker(
 
 maker(
     ("vc", 8),
+    baca.make_notes(),
+)
+
+maker(
+    ("vc", -1),
     baca.chunk(
         baca.mark(r"\faberge-colophon-markup"),
         baca.rehearsal_mark_down(),
@@ -239,5 +244,4 @@ maker(
         baca.rehearsal_mark_self_alignment_x(abjad.Right),
         selector=baca.leaves().rleak()[-1],
     ),
-    baca.make_notes(),
 )
