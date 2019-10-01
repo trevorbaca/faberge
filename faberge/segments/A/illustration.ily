@@ -2857,39 +2857,39 @@ A_English_Horn_Music_Voice = {                                                 %
     b'8.                                                                       %! faberge.eh_trill_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 18 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
     b'4                                                                        %! faberge.eh_trill_rhythm()
     \repeatTie
 
     r4                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     btqf'!8.                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     bqf'!8.                                                                    %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 19 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     b'8.                                                                       %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     r2                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     % [A English_Horn_Music_Voice measure 20 / measure 16]                     %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! faberge.eh_trill_rhythm()
@@ -2962,15 +2962,15 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     cs''!8.                                                                    %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     ctqs''!4..                                                                 %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 32 / measure 28]                     %! baca.SegmentMaker._comment_measure_numbers()
     ctqs''!16                                                                  %! faberge.eh_trill_rhythm()
@@ -2981,13 +2981,13 @@ A_English_Horn_Music_Voice = {                                                 %
     ]                                                                          %! faberge.eh_trill_rhythm()
 
     r4                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     btqs'!8.                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 33 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
     btqs'!16                                                                   %! faberge.eh_trill_rhythm()
@@ -3000,11 +3000,11 @@ A_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     ctqs''!8.                                                                  %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -3018,7 +3018,7 @@ A_English_Horn_Music_Voice = {                                                 %
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
-            \stopTrillSpan                                                     %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+            \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(4)
 
@@ -3076,37 +3076,37 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     ds''!4..                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 46 / measure 42]                     %! baca.SegmentMaker._comment_measure_numbers()
     ds''!2                                                                     %! faberge.eh_trill_rhythm()
     \repeatTie
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     ctqs''!8.                                                                  %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     d''8.                                                                      %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 47 / measure 43]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     % [A English_Horn_Music_Voice measure 48 / measure 44]                     %! baca.SegmentMaker._comment_measure_numbers()
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     dqs''!2...                                                                 %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 49 / measure 45]                     %! baca.SegmentMaker._comment_measure_numbers()
     dqs''!16                                                                   %! faberge.eh_trill_rhythm()
@@ -3116,7 +3116,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 50 / measure 46]                     %! baca.SegmentMaker._comment_measure_numbers()
     r2.                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
 
     <<                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
@@ -3187,8 +3187,8 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     es''!4..                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 62 / measure 58]                     %! baca.SegmentMaker._comment_measure_numbers()
     es''!2                                                                     %! faberge.eh_trill_rhythm()
@@ -3196,13 +3196,13 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 63 / measure 59]                     %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     r16                                                                        %! faberge.eh_trill_rhythm()
 
     eqs''!4                                                                    %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     etqs''!4..                                                                 %! faberge.eh_trill_rhythm()
 
@@ -3215,7 +3215,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     r4                                                                         %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     % [A English_Horn_Music_Voice measure 66 / measure 62]                     %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! faberge.eh_trill_rhythm()
@@ -3529,23 +3529,23 @@ A_English_Horn_Music_Voice = {                                                 %
     g'4..                                                                      %! faberge.eh_trill_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 94 / measure 90]                     %! baca.SegmentMaker._comment_measure_numbers()
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     gqs'!4..                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     r16                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     gqf'!4..                                                                   %! faberge.eh_trill_rhythm()
-    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca.trill_spanner():SpannerIndicatorCommand(1)
+    - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+    \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
     % [A English_Horn_Music_Voice measure 95 / measure 91]                     %! baca.SegmentMaker._comment_measure_numbers()
     gqf'!2                                                                     %! faberge.eh_trill_rhythm()
@@ -3560,7 +3560,7 @@ A_English_Horn_Music_Voice = {                                                 %
     ]                                                                          %! faberge.eh_trill_rhythm()
 
     r2.                                                                        %! faberge.eh_trill_rhythm()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
 
@@ -7252,8 +7252,8 @@ A_Percussion_Music_Voice = {                                                   %
         \ff                                                                    %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \tweak staff-padding #8                                              %! baca.markup():baca.IndicatorCommand._call()
         ^ \baca-castanets-markup                                               %! baca.markup():baca.IndicatorCommand._call()
-        - \tweak bound-details.right.padding #2                                %! baca.trill_spanner():SpannerIndicatorCommand(1)
-        \startTrillSpan                                                        %! baca.trill_spanner():SpannerIndicatorCommand(1)
+        - \tweak bound-details.right.padding #2                                %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
+        \startTrillSpan                                                        %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(1)
 
         % [A Percussion_Music_Voice measure 90 / measure 86]                   %! baca.SegmentMaker._comment_measure_numbers()
         c''1                                                                   %! baca.skeleton()
@@ -7272,7 +7272,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \tweak parent-alignment-X #0                                             %! baca.markup():baca.IndicatorCommand._call()
     - \tweak staff-padding #8                                                  %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-bd-struck-markup                                                   %! baca.markup():baca.IndicatorCommand._call()
-    \stopTrillSpan                                                             %! baca.trill_spanner():SpannerIndicatorCommand(2):SPANNER_STOP
+    \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     r2                                                                         %! faberge.downbeat_attack()
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -8876,7 +8876,7 @@ A_Violin_Music_Voice = {                                                       %
     r4.                                                                        %! faberge.spazzolati_rhythm()
 
     e'16                                                                       %! faberge.spazzolati_rhythm()
-    [                                                                          %! baca.beam():SpannerIndicatorCommand(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
     - \abjad-dashed-line-with-hook                                             %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(1)
     - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(1)
@@ -8885,17 +8885,17 @@ A_Violin_Music_Voice = {                                                       %
     \bacaStartTextSpanSpazzolato                                               %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(1)
 
     e'16                                                                       %! faberge.spazzolati_rhythm()
-    ]                                                                          %! baca.beam():SpannerIndicatorCommand(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     e'16                                                                       %! faberge.spazzolati_rhythm()
-    [                                                                          %! baca.beam():SpannerIndicatorCommand(1)
+    [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(1)
 
     r16
 
     r16
 
     e'16                                                                       %! faberge.spazzolati_rhythm()
-    ]                                                                          %! baca.beam():SpannerIndicatorCommand(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
     % [A Violin_Music_Voice measure 92 / measure 88]                           %! baca.SegmentMaker._comment_measure_numbers()
     e'16                                                                       %! faberge.spazzolati_rhythm()
