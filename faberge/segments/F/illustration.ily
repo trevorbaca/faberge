@@ -1259,7 +1259,7 @@ F_Piano_RH_Music_Voice = {                                                     %
         <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         ]                                                                      %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
-        \ottava 0                                                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.ottava():baca.SpannerIndicatorCommand._call(2)
+        \ottava 0                                                              %! baca.ottava():baca.SpannerIndicatorCommand._call(2):HIDE_TO_JOIN_BROKEN_SPANNERS
 
         r16                                                                    %! baca.skeleton()
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -1627,7 +1627,7 @@ F_Piano_LH_Music_Voice = {                                                     %
         - \accent                                                              %! baca.accent():baca.IndicatorCommand._call()
         ^ \baca-sharp-markup                                                   %! baca.markup():baca.IndicatorCommand._call()
         ]                                                                      %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
-        \ottava 0                                                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca.ottava():baca.SpannerIndicatorCommand._call(2)
+        \ottava 0                                                              %! baca.ottava():baca.SpannerIndicatorCommand._call(2):HIDE_TO_JOIN_BROKEN_SPANNERS
 
         r16                                                                    %! baca.skeleton()
         \revert Staff.OttavaBracket.staff-padding                              %! baca.ottava_bracket_staff_padding():baca.OverrideCommand._call(2)
