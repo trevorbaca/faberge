@@ -759,7 +759,7 @@ C_Piano_RH_Music_Voice = {                                                     %
             - \tweak color #darkgreen                                          %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
             - \tweak staff-padding #5.5                                        %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
             \bacaStartTextSpanMaterialAnnotation                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-            [                                                                  %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+            [                                                                  %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
             r8                                                                 %! baca.skeleton()
@@ -822,7 +822,7 @@ C_Piano_RH_Music_Voice = {                                                     %
     <g a c'>8
     ^ \baca-sharp-markup                                                       %! baca.markup():baca.IndicatorCommand._call()
     \bacaStopTextSpanMaterialAnnotation                                        %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     r8                                                                         %! faberge.downbeat_attack()
 
@@ -955,7 +955,7 @@ C_Piano_LH_Music_Voice = {                                                     %
             - \tweak color #darkcyan                                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
             - \tweak staff-padding #8                                          %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
             \bacaStartTextSpanRhythmAnnotation                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2)
-            [                                                                  %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+            [                                                                  %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
             r8                                                                 %! baca.skeleton()
 
@@ -1006,7 +1006,7 @@ C_Piano_LH_Music_Voice = {                                                     %
 
     % [C Piano_LH_Music_Voice measure 181 / measure 5]                         %! baca.SegmentMaker._comment_measure_numbers()
     <g a b c'>8
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     r8                                                                         %! faberge.downbeat_attack()
 
@@ -1458,7 +1458,7 @@ C_Violin_Music_Voice = {                                                       %
         % [C Violin_Music_Voice measure 179 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
-        [                                                                      %! baca.beam():baca.SpannerIndicatorCommand._call(1)
+        [                                                                      %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
@@ -1487,7 +1487,7 @@ C_Violin_Music_Voice = {                                                       %
     % [C Violin_Music_Voice measure 180 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
     c''8                                                                       %! faberge.downbeat_attack()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
-    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
+    ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     r8                                                                         %! faberge.downbeat_attack()
     \bacaStopTextSpanCLB                                                       %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
