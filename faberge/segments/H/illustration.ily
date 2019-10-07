@@ -1420,12 +1420,12 @@ H_Percussion_Music_Voice = {                                                   %
         \glissando                                                             %! baca.glissando():abjad.glissando(7)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
-        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(1)
-        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(1)
-        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(1)
-        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(1)
-        \override Dots.transparent = ##t                                       %! baca.glissando():abjad.glissando(1)
-        \override Stem.transparent = ##t                                       %! baca.glissando():abjad.glissando(1)
+        \hide NoteHead                                                         %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override Accidental.stencil = ##f                                     %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteColumn.glissando-skip = ##t                              %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override NoteHead.no-ledgers = ##t                                    %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override Dots.transparent = ##t                                       %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
+        \override Stem.transparent = ##t                                       %! baca.glissando():abjad.glissando(0):SHOW_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
         \revert Accidental.stencil                                             %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
         \revert NoteColumn.glissando-skip                                      %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
         \revert NoteHead.no-ledgers                                            %! baca.glissando():abjad.glissando(4):HIDE_TO_JOIN_BROKEN_SPANNERS:RIGHT_BROKEN
