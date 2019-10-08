@@ -786,14 +786,14 @@ K_Piano_RH_Music_Voice = {                                                     %
     r8                                                                         %! faberge.end_of_cell_attack()
 
     a8                                                                         %! faberge.end_of_cell_attack()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     - \stopped                                                                 %! baca.stopped():baca.IndicatorCommand._call()
 
     % [K Piano_RH_Music_Voice measure 246 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     r2..                                                                       %! faberge.end_of_cell_attack()
 
     a8                                                                         %! faberge.end_of_cell_attack()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     - \stopped                                                                 %! baca.stopped():baca.IndicatorCommand._call()
 
     % [K Piano_RH_Music_Voice measure 247 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -802,7 +802,7 @@ K_Piano_RH_Music_Voice = {                                                     %
     r8                                                                         %! faberge.end_of_cell_attack()
 
     a8                                                                         %! faberge.end_of_cell_attack()
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     - \stopped                                                                 %! baca.stopped():baca.IndicatorCommand._call()
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
 
@@ -1411,7 +1411,7 @@ K_Percussion_Music_Voice = {                                                   %
     b4                                                                         %! faberge.downbeat_attack()
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():REDUNDANT_DYNAMIC
-    - \laissezVibrer                                                           %! baca.laissez_vibrer():baca.IndicatorCommand._call()
+    \laissezVibrer                                                             %! baca.laissez_vibrer():baca.IndicatorCommand._call()
     - \tweak staff-padding #6                                                  %! baca.markup():baca.IndicatorCommand._call()
     ^ \baca-bd-struck-markup                                                   %! baca.markup():baca.IndicatorCommand._call()
     \bacaStopTextSpanMaterialAnnotation                                        %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
