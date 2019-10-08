@@ -278,7 +278,6 @@ maker(
         abjad.tweak(8).staff_padding,
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -367,7 +366,6 @@ maker(
     ),
     baca.staff_position(0),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
     ),

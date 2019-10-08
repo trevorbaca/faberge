@@ -258,7 +258,6 @@ maker(
     baca.dynamic("f"),
     baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -280,7 +279,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -302,7 +300,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -324,7 +321,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -363,7 +359,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -786,7 +781,6 @@ maker(
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.tleaves().rleak(),
     ),

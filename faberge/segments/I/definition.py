@@ -155,7 +155,6 @@ maker(
         selector=baca.pleaves()[2:], 
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
     ),
@@ -182,7 +181,6 @@ maker(
     ),
     baca.pitch("Db5"),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
     ),
