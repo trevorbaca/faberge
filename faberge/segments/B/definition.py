@@ -644,7 +644,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -675,7 +674,6 @@ maker(
         selector=baca.leaves(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
     ),
@@ -704,7 +702,6 @@ maker(
 maker(
     ("eh", (31, 44)),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
     ),
 )

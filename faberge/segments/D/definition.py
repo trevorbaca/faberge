@@ -145,7 +145,6 @@ maker(
         pieces=baca.lparts([1, 1, 2]),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
     ),

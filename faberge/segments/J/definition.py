@@ -110,7 +110,6 @@ maker(
         selector=baca.pleaves()[2:], 
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
     ),
@@ -184,7 +183,6 @@ maker(
     ),
     baca.pitch("A5"),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         selector=baca.leaves().rleak(),
@@ -371,7 +369,6 @@ maker(
         selector=baca.pleaves().rleak(),
     ),
     baca.trill_spanner(
-        None,
         abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         map=baca.plts(),
