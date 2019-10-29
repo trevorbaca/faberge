@@ -3,7 +3,7 @@ import baca
 
 
 def bfl_color_fingerings(
-    *tweaks: abjad.IndexedTweakManager
+    *tweaks: abjad.IndexedTweakManager,
 ) -> baca.ColorFingeringCommand:
     """
     Makes bass flute color fingerings.
