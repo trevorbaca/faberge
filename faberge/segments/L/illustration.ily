@@ -972,7 +972,7 @@ L_Clarinet_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! faberge.bcl_color_fingering_rhythm()
 
         % [L Clarinet_Music_Voice measure 261 / measure 8]                     %! baca.SegmentMaker._comment_measure_numbers()
-        bf!8                                                                   %! faberge.bcl_color_fingering_rhythm()
+        bf8                                                                    %! faberge.bcl_color_fingering_rhythm()
         [                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         bf!8                                                                   %! faberge.bcl_color_fingering_rhythm()
