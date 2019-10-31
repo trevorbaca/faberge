@@ -2645,16 +2645,20 @@ A_Flute_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A Flute_Music_Voice measure 94 / measure 90]                            %! baca.SegmentMaker._comment_measure_numbers()
-    fs''!2.                                                                    %! faberge.glow_rhythm()
+    fs''2.                                                                     %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     \times 2/3 {                                                               %! faberge.glow_rhythm()
 
-        fs''!4                                                                 %! faberge.glow_rhythm()
+        fs''4                                                                  %! faberge.glow_rhythm()
         \repeatTie
 
         fs'!8                                                                  %! faberge.glow_rhythm()
@@ -2672,7 +2676,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [A Flute_Music_Voice measure 95 / measure 91]                            %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!8                                                                      %! faberge.glow_rhythm()
+    fs'8                                                                       %! faberge.glow_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fs''!16                                                                    %! faberge.glow_rhythm()
@@ -2699,10 +2703,12 @@ A_Flute_Music_Voice = {                                                        %
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    fs'!4                                                                      %! faberge.glow_rhythm()
+    fs'4                                                                       %! faberge.glow_rhythm()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A Flute_Music_Voice measure 96 / measure 92]                            %! baca.SegmentMaker._comment_measure_numbers()
-    fs'!1                                                                      %! faberge.glow_rhythm()
+    fs'1                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \repeatTie
@@ -2859,6 +2865,8 @@ A_English_Horn_Music_Voice = {                                                 %
     \f                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 18 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
     b'4                                                                        %! faberge.eh_trill_rhythm()
@@ -2971,9 +2979,11 @@ A_English_Horn_Music_Voice = {                                                 %
     ctqs''!4..                                                                 %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 32 / measure 28]                     %! baca.SegmentMaker._comment_measure_numbers()
-    ctqs''!16                                                                  %! faberge.eh_trill_rhythm()
+    ctqs''16                                                                   %! faberge.eh_trill_rhythm()
     \repeatTie
     [                                                                          %! faberge.eh_trill_rhythm()
 
@@ -2988,15 +2998,19 @@ A_English_Horn_Music_Voice = {                                                 %
     btqs'!8.                                                                   %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 33 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
-    btqs'!16                                                                   %! faberge.eh_trill_rhythm()
+    btqs'16                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
 
     cs''!4..                                                                   %! faberge.eh_trill_rhythm()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 34 / measure 30]                     %! baca.SegmentMaker._comment_measure_numbers()
-    cs''!4                                                                     %! faberge.eh_trill_rhythm()
+    cs''4                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
 
     r16                                                                        %! faberge.eh_trill_rhythm()
@@ -3078,9 +3092,11 @@ A_English_Horn_Music_Voice = {                                                 %
     ds''!4..                                                                   %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 46 / measure 42]                     %! baca.SegmentMaker._comment_measure_numbers()
-    ds''!2                                                                     %! faberge.eh_trill_rhythm()
+    ds''2                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
 
     r16                                                                        %! faberge.eh_trill_rhythm()
@@ -3107,9 +3123,11 @@ A_English_Horn_Music_Voice = {                                                 %
     dqs''!2...                                                                 %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 49 / measure 45]                     %! baca.SegmentMaker._comment_measure_numbers()
-    dqs''!16                                                                   %! faberge.eh_trill_rhythm()
+    dqs''16                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
 
     dtqs''!2...                                                                %! faberge.eh_trill_rhythm()
@@ -3189,9 +3207,11 @@ A_English_Horn_Music_Voice = {                                                 %
     es''!4..                                                                   %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 62 / measure 58]                     %! baca.SegmentMaker._comment_measure_numbers()
-    es''!2                                                                     %! faberge.eh_trill_rhythm()
+    es''2                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
 
     % [A English_Horn_Music_Voice measure 63 / measure 59]                     %! baca.SegmentMaker._comment_measure_numbers()
@@ -3205,13 +3225,17 @@ A_English_Horn_Music_Voice = {                                                 %
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
     etqs''!4..                                                                 %! faberge.eh_trill_rhythm()
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 64 / measure 60]                     %! baca.SegmentMaker._comment_measure_numbers()
-    etqs''!2                                                                   %! faberge.eh_trill_rhythm()
+    etqs''2                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 65 / measure 61]                     %! baca.SegmentMaker._comment_measure_numbers()
-    etqs''!2                                                                   %! faberge.eh_trill_rhythm()
+    etqs''2                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
 
     r4                                                                         %! faberge.eh_trill_rhythm()
@@ -3546,13 +3570,17 @@ A_English_Horn_Music_Voice = {                                                 %
     gqf'!4..                                                                   %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 95 / measure 91]                     %! baca.SegmentMaker._comment_measure_numbers()
-    gqf'!2                                                                     %! faberge.eh_trill_rhythm()
+    gqf'2                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
+    - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
+    ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [A English_Horn_Music_Voice measure 96 / measure 92]                     %! baca.SegmentMaker._comment_measure_numbers()
-    gqf'!16                                                                    %! faberge.eh_trill_rhythm()
+    gqf'16                                                                     %! faberge.eh_trill_rhythm()
     \repeatTie
     [                                                                          %! faberge.eh_trill_rhythm()
 
