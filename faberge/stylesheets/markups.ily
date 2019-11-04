@@ -127,23 +127,3 @@ faberge-va-markup = \markup \hcenter-in #12 "Va."
 faberge-vc-markup = \markup \hcenter-in #12 "Vc."
 
 faberge-vn-markup = \markup \hcenter-in #12 "Vn."
-
-%%% PARTIALS %%%
-
-faberge-seven-e-flat = \markup
-    \line {
-        "7°/E"
-        \hspace #-0.4
-        \raise #0.5
-        \scale #'(0.65 . 0.65)
-        \flat
-    }
-
-faberge-thirteen-e-flat = \markup
-    \line {
-        "13°/E"
-        \hspace #-0.4
-        \raise #0.5
-        \scale #'(0.65 . 0.65)
-        \flat
-    }
