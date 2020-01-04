@@ -61,12 +61,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Cello_Music_Voice',
                                 manifest='instruments',
                                 value='Cello',
                                 ),
@@ -77,7 +71,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Cello_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -103,12 +104,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Clarinet_Music_Voice',
                                 manifest='instruments',
                                 value='BassClarinet',
                                 ),
@@ -119,7 +114,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Clarinet_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -145,12 +147,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='English_Horn_Music_Voice',
                                 manifest='instruments',
                                 value='EnglishHorn',
                                 ),
@@ -161,7 +157,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='English_Horn_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -187,12 +190,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Flute_Music_Voice',
                                 manifest='instruments',
                                 value='BassFlute',
                                 ),
@@ -203,7 +200,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Flute_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -229,12 +233,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=1,
-                                ),
-                            abjad.Momento(
-                                context='Percussion_Music_Voice',
                                 manifest='instruments',
                                 value='Percussion',
                                 ),
@@ -245,7 +243,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=1,
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=1,
                                 ),
                             ],
@@ -275,18 +280,19 @@ persist = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Piano_LH_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Piano_LH_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -296,18 +302,19 @@ persist = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Piano_RH_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -364,12 +371,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Viola_Music_Voice',
                                 manifest='instruments',
                                 value='Viola',
                                 ),
@@ -380,7 +381,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Viola_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Viola_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
@@ -406,12 +414,6 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Violin_Music_Voice',
-                                edition=abjad.Tag('-PARTS'),
-                                prototype='baca.BarExtent',
-                                value=5,
-                                ),
-                            abjad.Momento(
-                                context='Violin_Music_Voice',
                                 manifest='instruments',
                                 value='Violin',
                                 ),
@@ -422,7 +424,14 @@ persist = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Violin_Music_Voice',
+                                prototype='baca.BarExtent',
+                                synthetic_offset=abjad.Offset((99, 1)),
+                                value=5,
+                                ),
+                            abjad.Momento(
+                                context='Violin_Music_Voice',
                                 prototype='baca.StaffLines',
+                                synthetic_offset=abjad.Offset((99, 1)),
                                 value=5,
                                 ),
                             ],
