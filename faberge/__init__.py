@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from faberge.ScoreTemplate import ScoreTemplate
 from faberge.tools import *
 from faberge.materials.colophon_markup.definition import colophon_markup
 from faberge.materials.decreasing_counts.definition import decreasing_counts
