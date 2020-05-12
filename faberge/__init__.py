@@ -19,4 +19,3 @@ from faberge.materials.time_signatures_a.definition import time_signatures_a
 from faberge.materials.time_signatures_b.definition import time_signatures_b
 from faberge.materials.tuplet_ratios_a.definition import tuplet_ratios_a
 from faberge.materials.wind_counts_a.definition import wind_counts_a
-from faberge import segments
