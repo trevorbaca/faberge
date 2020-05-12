@@ -6,7 +6,6 @@ from faberge.materials import margin_markups
 from faberge.materials import tuplet_ratios_a
 
 
-
 def airtone_chain_rhythm(
     total_events: int,
     my_event_indices: abjad.IntegerSequence,
@@ -436,7 +435,7 @@ def keynoise_rhythm(
         tag=abjad.Tag("faberge.keynoise_rhythm()"),
     )
 
-    
+
 def margin_markup(
     key: str,
     *,
