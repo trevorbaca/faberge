@@ -1,6 +1,6 @@
-import baca
 import math
 
+import baca
 
 distances = [18, (21, 21, 24), (21, 21, 24), (21, 21, 24)]
 first_measure_number = 5

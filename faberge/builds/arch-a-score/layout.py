@@ -1,6 +1,5 @@
 import baca
 
-
 distances = (24, (28, 28, 44), (22, 28, 44), (28, 28, 44))
 breaks = baca.breaks(
 

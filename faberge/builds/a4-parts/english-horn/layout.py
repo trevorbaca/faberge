@@ -1,6 +1,5 @@
 import baca
 
-
 distances = (6,)
 y_offset_1 = 12
 y_offset_2 = 40

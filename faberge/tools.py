@@ -1,9 +1,9 @@
+import typing
+
 import abjad
 import baca
-import typing
 from abjadext import rmakers
-from faberge.materials import margin_markups
-from faberge.materials import tuplet_ratios_a
+from faberge.materials import margin_markups, tuplet_ratios_a
 
 
 def airtone_chain_rhythm(
