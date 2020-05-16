@@ -1,7 +1,6 @@
 import abjad
 import baca
 
-
 margin_markups = abjad.OrderedDict(
     [
         ("B. cl.", abjad.MarginMarkup(markup=r"\faberge-bcl-markup")),
