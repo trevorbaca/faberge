@@ -4,12 +4,11 @@ Fabergé Investigations
 [![Build Status](
     https://travis-ci.org/trevorbaca/faberge.svg)](
     https://travis-ci.org/trevorbaca/faberge)
-[![Coverage Status](
-    https://coveralls.io/repos/github/trevorbaca/faberge/badge.svg)](
-    https://coveralls.io/github/trevorbaca/faberge)
+<!---
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
     https://github.com/ambv/black)
+-->
 
 Fabergé Investigations (2016) for eight players.
 
