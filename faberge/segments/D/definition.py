@@ -117,7 +117,7 @@ maker(
     baca.pitch("B3"),
 )
 
-# fl, eh, cl 
+# fl, eh, cl
 
 maker(
     (["fl", "eh", "cl"], [2, 4, 5, 8]),
@@ -139,7 +139,7 @@ maker(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:], 
+        selector=baca.pleaves()[2:],
     ),
     baca.hairpin(
         "o< mp >o p > pp",

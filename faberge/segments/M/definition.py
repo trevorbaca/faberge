@@ -17,14 +17,14 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
         (4, 4), (4, 4), (4, 4), (4, 4),
         (4, 4), (4, 4), (4, 4), (4, 4),
-        ],
+    ],
     transpose_score=True,
     validate_measure_count=8,
 )

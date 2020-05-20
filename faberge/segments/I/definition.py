@@ -18,7 +18,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -26,7 +26,7 @@ maker = baca.SegmentMaker(
         (6, 4), (6, 4), (6, 4), (4, 4),
         (9, 4),
         (6, 4), (6, 4), (5, 4),
-        ],
+    ],
     transpose_score=True,
     validate_measure_count=8,
 )
@@ -152,7 +152,7 @@ maker(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:], 
+        selector=baca.pleaves()[2:],
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -317,7 +317,7 @@ maker(
         left_broken=True,
     ),
     baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(  
+    baca.stem_tremolo(
         selector=baca.phead(-1),
     ),
 )

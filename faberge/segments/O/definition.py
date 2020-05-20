@@ -17,7 +17,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -25,7 +25,7 @@ maker = baca.SegmentMaker(
     time_signatures=[
         (8, 4), (7, 4), (8, 4), (7, 4),
         (8, 4), (7, 4), (8, 4), (7, 4),
-        ],
+    ],
     transpose_score=True,
     validate_measure_count=8,
 )
@@ -161,7 +161,7 @@ maker(
         selector=baca.pleaves(),
     ),
 )
-    
+
 maker(
     ("vn", (1, 7)),
     faberge.halves_rhythm(

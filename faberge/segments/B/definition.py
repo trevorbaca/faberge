@@ -104,25 +104,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=0,
     ),
@@ -152,25 +152,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-1,
     ),
@@ -182,25 +182,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-2,
     ),
@@ -218,25 +218,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-3,
     ),
@@ -260,25 +260,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-4,
     ),
@@ -290,25 +290,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-5,
     ),
@@ -326,25 +326,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-6,
     ),
@@ -357,25 +357,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-7,
     ),
@@ -396,25 +396,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-8,
     ),
@@ -427,25 +427,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-9,
     ),
@@ -462,25 +462,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-10,
     ),
@@ -498,25 +498,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-11,
     ),
@@ -528,25 +528,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
         rmakers.untie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-12,
     ),
@@ -555,7 +555,7 @@ maker(
 
 maker(
     ("flx", (61, 68)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -576,25 +576,25 @@ maker(
         rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
         rmakers.untie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().exclude([0, 6, 7], 9).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_note(baca.tuplets().get([0, -2])),
         rmakers.untie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplets().get([10], 11)),
         rmakers.force_note(baca.tuplets().get([9, 11], 11)),
         rmakers.untie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.tie(
             baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
-    ),
+        ),
         rmakers.force_rest(baca.tuplet(-1)),
         tuplet_ratio_rotation=-13,
     ),
@@ -608,7 +608,7 @@ maker(
 
 maker(
     ("flx", (73, 80)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 # eh
@@ -740,7 +740,7 @@ maker(
 
 maker(
     ("ehx", (61, 68)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -763,7 +763,7 @@ maker(
 
 maker(
     ("ehx", (73, 78)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -786,7 +786,7 @@ maker(
 
 maker(
     ("ehx", 80),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 # cl
@@ -800,11 +800,11 @@ maker(
     ("cl", (1, 52)),
     baca.chunk(
         baca.hairpin(
-            f"niente o< p",
+            "niente o< p",
             selector=baca.tleaves()[:2],
         ),
         baca.hairpin(
-            f"(p) >o",
+            "(p) >o",
             selector=baca.tleaves()[-1:],
         ),
         map=baca.plts().filter_length(">", 2),
@@ -909,17 +909,17 @@ maker(
     baca.flat_glissando("Eqf2"),
     faberge.single_taper(),
 )
-    
+
 maker(
     ("cl", (53, 56)),
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
-            f"niente o< pp",
+            "niente o< pp",
             selector=baca.tleaves()[:2],
         ),
         baca.hairpin(
-            f"(pp) >o !",
+            "(pp) >o !",
             selector=baca.tleaves().rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
@@ -933,11 +933,11 @@ maker(
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
-            f"niente o< pp",
+            "niente o< pp",
             selector=baca.tleaves()[:2],
         ),
         baca.hairpin(
-            f"(pp) >o !",
+            "(pp) >o !",
             selector=baca.tleaves().rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
@@ -953,7 +953,7 @@ maker(
 
 maker(
     ("clx", (61, 68)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -961,11 +961,11 @@ maker(
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
-            f"niente o< ppp",
+            "niente o< ppp",
             selector=baca.tleaves()[:2],
         ),
         baca.hairpin(
-            f"(ppp) >o !",
+            "(ppp) >o !",
             selector=baca.tleaves().rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
@@ -981,7 +981,7 @@ maker(
 
 maker(
     ("clx", (73, 80)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 # rh
@@ -1127,7 +1127,7 @@ maker(
 
 maker(
     ("percx", (2, 22)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -1192,7 +1192,7 @@ maker(
 
 maker(
     ("percx", (61, 68)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -1217,7 +1217,7 @@ maker(
 
 maker(
     ("percx", (73, 78)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(
@@ -1263,7 +1263,7 @@ maker(
 
 maker(
     ("vnx", (2, 8)),
-    #baca.tacet(),
+    # baca.tacet(),
 )
 
 maker(

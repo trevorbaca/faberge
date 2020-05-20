@@ -70,7 +70,7 @@ maker(
     baca.close_volta(baca.skip(9 - 1)),
     baca.open_volta(baca.skip(10 - 1)),
 )
-    
+
 maker(
     "Global_Rests",
     baca.global_fermata(
