@@ -124,7 +124,7 @@ maker(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:], 
+        selector=baca.pleaves()[2:],
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -763,7 +763,7 @@ maker(
         "B2",
         hide_middle_stems=True,
         left_broken=True,
-   ),
+    ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
         selector=baca.tleaves().rleak(),

@@ -1,18 +1,64 @@
 import distutils.version
 import platform
 
-from faberge.ScoreTemplate import ScoreTemplate
-from faberge.materials.colophon_markup.definition import colophon_markup
-from faberge.materials.decreasing_counts.definition import decreasing_counts
-from faberge.materials.instruments.definition import instruments
-from faberge.materials.irregular_counts.definition import irregular_counts
-from faberge.materials.margin_markups.definition import margin_markups
-from faberge.materials.metronome_marks.definition import metronome_marks
-from faberge.materials.time_signatures_a.definition import time_signatures_a
-from faberge.materials.time_signatures_b.definition import time_signatures_b
-from faberge.materials.tuplet_ratios_a.definition import tuplet_ratios_a
-from faberge.materials.wind_counts_a.definition import wind_counts_a
-from faberge.tools import *
+from .ScoreTemplate import ScoreTemplate
+from .materials import (
+    colophon_markup,
+    decreasing_counts,
+    instruments,
+    irregular_counts,
+    margin_markups,
+    metronome_marks,
+    time_signatures_a,
+    time_signatures_b,
+    tuplet_ratios_a,
+    wind_counts_a,
+)
+from .tools import (
+    airtone_chain_rhythm,
+    back_incised_divisions,
+    bcl_color_fingering_rhythm,
+    bcl_color_fingerings,
+    bfl_color_fingerings,
+    clb_rhythm,
+    clb_staff_positions,
+    dal_niente_hairpins,
+    downbeat_attack,
+    eh_trill_rhythm,
+    end_of_cell_attack,
+    even_tuplet_rhythm,
+    front_incised_divisions,
+    glow_rhythm,
+    halves_rhythm,
+    increasing_dal_niente_hairpins,
+    keynoise_pitches,
+    keynoise_rhythm,
+    margin_markup,
+    niente_swells,
+    piano_attack_rhythm,
+    piano_clusters,
+    ratchet_rhythm,
+    shell_exchange_rhythm,
+    single_swell,
+    single_taper,
+    spazzolati_rhythm,
+    suffixed_colortrill_rhythm,
+    tuning_peg_staff_positions,
+)
+
+__all__ = [
+    "ScoreTemplate",
+    "colophon_markup",
+    "decreasing_counts",
+    "instruments",
+    "irregular_counts",
+    "margin_markups",
+    "metronome_marks",
+    "time_signatures_a",
+    "time_signatures_b",
+    "tuplet_ratios_a",
+    "wind_counts_a",
+]
 
 if not (
     distutils.version.LooseVersion("3.7")

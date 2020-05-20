@@ -18,7 +18,7 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
@@ -26,7 +26,7 @@ maker = baca.SegmentMaker(
         (5, 4), (4, 4), (3, 4), (2, 4),
         (9, 4),
         (2, 4), (2, 4), (3, 4), (4, 4),
-        ],
+    ],
     transpose_score=True,
     validate_measure_count=9,
 )

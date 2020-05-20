@@ -17,18 +17,18 @@ for page_index in range(page_count):
             *distances,
             measure=start_measure_number,
             y_offset=40,
-            ),
+        ),
         number=page_number,
-        )
+    )
     pages.append(page)
 
 breaks = baca.breaks(
     *pages,
     local_measure_numbers=True,
-    )
+)
 
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 48),
-    )
+)

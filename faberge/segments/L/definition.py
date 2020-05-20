@@ -17,14 +17,14 @@ maker = baca.SegmentMaker(
     activate=[
         abjad.tags.LOCAL_MEASURE_NUMBER,
         abjad.tags.STAGE_NUMBER,
-        ],
+    ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
         (7, 4), (4, 4), (7, 4), (4, 4),
         (4, 4), (4, 4), (4, 4), (4, 4),
-        ],
+    ],
     transpose_score=True,
     validate_measure_count=8,
 )
@@ -87,7 +87,7 @@ maker(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:], 
+        selector=baca.pleaves()[2:],
     ),
     baca.hairpin(
         "o< mp >o p > pp",
