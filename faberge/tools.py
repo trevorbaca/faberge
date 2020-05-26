@@ -3,7 +3,122 @@ import typing
 import abjad
 import baca
 from abjadext import rmakers
-from faberge.materials import margin_markups, tuplet_ratios_a
+
+# instruments & margin markups
+
+instruments = abjad.OrderedDict(
+    [
+        ("Flute", abjad.Flute()),
+        ("BassFlute", abjad.BassFlute()),
+        ("EnglishHorn", abjad.EnglishHorn()),
+        ("Clarinet", abjad.ClarinetInBFlat()),
+        ("BassClarinet", abjad.BassClarinet()),
+        ("Piano", abjad.Piano()),
+        ("Harpsichord", abjad.Harpsichord()),
+        (
+            "Percussion",
+            abjad.Percussion(allowable_clefs=["bass", "percussion", "treble"]),
+        ),
+        ("Violin", abjad.Violin()),
+        ("Viola", abjad.Viola()),
+        ("Cello", abjad.Cello(pitch_range="[B#1, +inf]")),
+    ]
+)
+
+margin_markups = abjad.OrderedDict(
+    [
+        ("B. cl.", abjad.MarginMarkup(markup=r"\faberge-bcl-markup")),
+        ("B. fl.", abjad.MarginMarkup(markup=r"\faberge-bfl-markup")),
+        ("Cl.", abjad.MarginMarkup(markup=r"\faberge-cl-markup")),
+        ("Eng. hn.", abjad.MarginMarkup(markup=r"\faberge-eh-markup")),
+        ("Fl.", abjad.MarginMarkup(markup=r"\faberge-fl-markup")),
+        ("Perc.", abjad.MarginMarkup(markup=r"\faberge-perc-markup")),
+        (
+            "Pf.",
+            abjad.MarginMarkup(
+                context="PianoStaff", markup=r"\faberge-pf-markup"
+            ),
+        ),
+        ("Va.", abjad.MarginMarkup(markup=r"\faberge-va-markup")),
+        ("Vc.", abjad.MarginMarkup(markup=r"\faberge-vc-markup")),
+        ("Vn.", abjad.MarginMarkup(markup=r"\faberge-vn-markup")),
+    ]
+)
+
+# metronome marks
+
+metronome_marks = abjad.OrderedDict(
+    [
+        ("41", abjad.MetronomeMark((1, 4), 41)),
+        ("51", abjad.MetronomeMark((1, 4), 51)),
+        ("64", abjad.MetronomeMark((1, 4), 64)),
+        ("80", abjad.MetronomeMark((1, 4), 80)),
+        ("100", abjad.MetronomeMark((1, 4), 100)),
+        ("125", abjad.MetronomeMark((1, 4), 125)),
+        ("156", abjad.MetronomeMark((1, 4), 156)),
+        # slower
+        (
+            "4:5(4)=4",
+            abjad.MetricModulation(
+                left_rhythm=abjad.Tuplet("4:5", "c4"),
+                right_rhythm=abjad.Note("c4"),
+            ),
+        ),
+        # faster
+        (
+            "5:4(4)=4",
+            abjad.MetricModulation(
+                left_rhythm=abjad.Tuplet("5:4", "c4"),
+                right_rhythm=abjad.Note("c4"),
+            ),
+        ),
+    ]
+)
+
+# time signatures
+
+numerators = baca.sequence([[4, 6, 6], [4, 7], [3, 4, 6]])
+numerator_groups = numerators.helianthate(-1, 1)
+assert len(numerator_groups) == 18, repr(len(numerator_groups))
+lengths = [len(_) for _ in numerator_groups]
+numerators = baca.sequence(numerator_groups).flatten()
+time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
+time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(
+    lengths
+)
+time_signatures_a = time_signature_groups
+
+numerators = baca.sequence([[3, 4, 4], [2, 3], [2, 3, 4]])
+numerator_groups = numerators.helianthate(-1, 1)
+assert len(numerator_groups) == 18, repr(len(numerator_groups))
+lengths = [len(_) for _ in numerator_groups]
+numerators = baca.sequence(numerator_groups).flatten()
+time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
+time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(
+    lengths
+)
+time_signatures_b = time_signature_groups
+
+# tuplet ratios
+
+tuplet_ratios_a = (
+    (1, 1, 1, 1, 1),
+    (1, 1, 1, 1, 1),
+    (1, 1),
+    (1, 2),
+    (1, 1, 3),
+    (1, 4),
+    (2, 1),
+    (2, 1, 1),
+    (1, 1, 1, 1, 1),
+)
+
+# colophon
+
+place_markup = abjad.Markup("Madison, WI", direction=abjad.Up)
+date_markup = abjad.Markup("Mar. - Apr. 2016", direction=abjad.Up)
+colophon_markup = abjad.Markup.right_column([place_markup, date_markup])
+colophon_markup = colophon_markup.italic()
 
 
 def airtone_chain_rhythm(
