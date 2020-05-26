@@ -2,18 +2,6 @@ import distutils.version
 import platform
 
 from .ScoreTemplate import ScoreTemplate
-from .materials import (
-    colophon_markup,
-    decreasing_counts,
-    instruments,
-    irregular_counts,
-    margin_markups,
-    metronome_marks,
-    time_signatures_a,
-    time_signatures_b,
-    tuplet_ratios_a,
-    wind_counts_a,
-)
 from .tools import (
     airtone_chain_rhythm,
     back_incised_divisions,
@@ -22,6 +10,7 @@ from .tools import (
     bfl_color_fingerings,
     clb_rhythm,
     clb_staff_positions,
+    colophon_markup,
     dal_niente_hairpins,
     downbeat_attack,
     eh_trill_rhythm,
@@ -31,9 +20,12 @@ from .tools import (
     glow_rhythm,
     halves_rhythm,
     increasing_dal_niente_hairpins,
+    instruments,
     keynoise_pitches,
     keynoise_rhythm,
     margin_markup,
+    margin_markups,
+    metronome_marks,
     niente_swells,
     piano_attack_rhythm,
     piano_clusters,
@@ -43,7 +35,10 @@ from .tools import (
     single_taper,
     spazzolati_rhythm,
     suffixed_colortrill_rhythm,
+    time_signatures_a,
+    time_signatures_b,
     tuning_peg_staff_positions,
+    tuplet_ratios_a,
 )
 
 __all__ = [
