@@ -1,7 +1,3 @@
 version: ~> 1.0
 
-env:
-    global:
-        - name=faberge
-
 import: trevorbaca/baca:dotfiles/score.yml
