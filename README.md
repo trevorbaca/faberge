@@ -2,8 +2,8 @@ Fabergé Investigations
 ======================
 
 [![Build Status](
-    https://travis-ci.org/trevorbaca/faberge.svg)](
-    https://travis-ci.org/trevorbaca/faberge)
+    https://api.travis-ci.org/trevorbaca/faberge.svg)](
+    https://api.travis-ci.org/trevorbaca/faberge)
 <!---
 [![Code style: black](
     https://img.shields.io/badge/code%20style-black-000000.svg)](
