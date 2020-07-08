@@ -1,5 +1,3 @@
-import os
-
 import abjad
 import baca
 import faberge
@@ -21,7 +19,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     fermata_measure_empty_overrides=[9],
-    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    segment_directory=abjad.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
         (3, 4), (4, 4), (3, 4), (4, 4),
