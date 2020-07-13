@@ -414,7 +414,7 @@ def front_incised_divisions(
     """
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
-    lcm = abjad.mathtools.least_common_multiple(*denominators)
+    lcm = abjad.mathx.least_common_multiple(*denominators)
     start_rest_durations = [
         _.with_denominator(lcm) for _ in start_rest_durations
     ]
@@ -729,7 +729,7 @@ def shell_exchange_rhythm(
             filtered_counts.append(count)
 
     assert len(filtered_counts) == len(counts)
-    assert abjad.mathtools.weight(filtered_counts) == abjad.mathtools.weight(
+    assert abjad.mathx.weight(filtered_counts) == abjad.mathx.weight(
         counts
     )
     counts = filtered_counts
@@ -743,7 +743,7 @@ def shell_exchange_rhythm(
             rest_count = sum(group)
             grouped_rests.append(rest_count)
 
-    assert abjad.mathtools.weight(grouped_rests) == abjad.mathtools.weight(
+    assert abjad.mathx.weight(grouped_rests) == abjad.mathx.weight(
         counts
     )
     counts = grouped_rests
