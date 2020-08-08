@@ -14,8 +14,8 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     activate=[
-        abjad.tags.LOCAL_MEASURE_NUMBER,
-        abjad.tags.STAGE_NUMBER,
+        baca.tags.LOCAL_MEASURE_NUMBER,
+        baca.tags.STAGE_NUMBER,
     ],
     check_all_are_pitched=True,
     segment_directory=abjad.Path(__file__).resolve().parent,
@@ -145,7 +145,7 @@ maker(
         baca.pheads(),
         abjad.tweak(
             (0, 0),
-            tag=abjad.tags.NOT_PARTS,
+            tag=baca.tags.NOT_PARTS,
         ).X_extent,
     ),
     baca.hairpin(
