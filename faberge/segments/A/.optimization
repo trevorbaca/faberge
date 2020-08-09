@@ -1237,7 +1237,7 @@ BACA REPO   8e31eb4c
             Added baca.literal() format slot.
             Wed Feb 7 21:02:47
 ABJAD REPO  e442241eca
-            Constrained abjad.Path.activate()
+            Constrained baca.Path.activate()
             Wed Feb 7 19:44:47
 
 2018-02-10 15:11:21
@@ -1248,7 +1248,7 @@ BACA REPO   8e31eb4c
             Added baca.literal() format slot
             Wed Feb 7 21:02:47
 ABJAD REPO  102afc711b
-            Added abjad.Path.write_first_segment_part_defaults().
+            Added baca.Path.write_first_segment_part_defaults().
             Thu Feb 8 14:14:50
 
 2018-02-10 15:20:24
@@ -6050,3 +6050,8 @@ LilyPond runtime: 6 seconds
  Segment-maker runtime: 69 seconds
  Abjad format time: 1 second
  LilyPond runtime: 7 seconds
+
+2020-08-09 12:38:20
+ Segment-maker runtime: 71 seconds
+ Abjad format time: 1 second
+ LilyPond runtime: 9 seconds
