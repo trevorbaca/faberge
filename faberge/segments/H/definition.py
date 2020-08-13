@@ -641,12 +641,12 @@ maker(
     ),
     baca.quadruple_staccato(
         selector=baca.plts(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ).get([0], 4),
     ),
     baca.stem_tremolo(
         selector=baca.plts(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ).exclude([0], 4),
     ),
 )

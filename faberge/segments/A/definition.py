@@ -652,7 +652,7 @@ maker(
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
         selector=baca.ptails(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
     baca.markup(
@@ -807,7 +807,7 @@ maker(
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
         selector=baca.ptails(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
     baca.pitch("F#4"),

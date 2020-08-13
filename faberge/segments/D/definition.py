@@ -77,7 +77,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -157,7 +157,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
     baca.staff_position(0),
 )
@@ -170,7 +170,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -258,7 +258,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -313,7 +313,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -352,7 +352,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
