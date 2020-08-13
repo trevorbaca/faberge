@@ -83,7 +83,7 @@ maker(
     baca.pitch("C#5"),
     baca.stem_tremolo(
         selector=baca.pleaves(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
 )
@@ -167,7 +167,7 @@ maker(
     baca.pitch(
         "F2",
         selector=baca.plts(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
     faberge.bcl_color_fingering_rhythm(
@@ -272,7 +272,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -341,7 +341,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 
@@ -372,7 +372,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=abjad.const.HIDDEN).rleak(),
+        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
     ),
 )
 

@@ -189,7 +189,7 @@ maker(
     baca.pitch(
         "Ab2",
         selector=baca.pleaves(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
 )
@@ -219,7 +219,7 @@ maker(
     baca.pitch(
         "Gb2",
         selector=baca.pleaves(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
 )
@@ -229,7 +229,7 @@ maker(
     baca.pitch(
         "F2",
         selector=baca.pleaves(
-            exclude=abjad.const.HIDDEN,
+            exclude=baca.const.HIDDEN,
         ),
     ),
 )
