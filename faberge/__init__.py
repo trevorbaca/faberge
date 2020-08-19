@@ -10,7 +10,6 @@ from .tools import (
     bfl_color_fingerings,
     clb_rhythm,
     clb_staff_positions,
-    colophon_markup,
     dal_niente_hairpins,
     downbeat_attack,
     eh_trill_rhythm,
@@ -43,7 +42,6 @@ from .tools import (
 
 __all__ = [
     "ScoreTemplate",
-    "colophon_markup",
     "decreasing_counts",
     "instruments",
     "irregular_counts",
