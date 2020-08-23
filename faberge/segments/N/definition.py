@@ -279,8 +279,9 @@ maker(
 maker(
     ("vn", (5, 8)),
     baca.markup(
-        "(9+11)°/E",
+        r"\faberge-nine-plus-eleven-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("<F#5 Aqs5>"),
 )
@@ -358,8 +359,9 @@ maker(
 maker(
     ("va", (5, 8)),
     baca.markup(
-        "7°/E",
+        r"\faberge-seventh-degree-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.pitch("Dqf5"),
 )

@@ -636,8 +636,9 @@ maker(
 maker(
     ("va", (5, 9)),
     baca.markup(
-        "11°/E",
+        r"\faberge-eleventh-degree-of-e-markup",
         abjad.tweak(1.5).padding,
+        literal=True,
     ),
     baca.quadruple_staccato(
         selector=baca.plts(

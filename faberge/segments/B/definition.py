@@ -994,11 +994,11 @@ maker(
 maker(
     ("rh", (1, 44)),
     baca.text_spanner(
-        r"\faberge-rf-two =|",
+        r"\faberge-rf-two-markup =|",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        left_broken_text=r"\faberge-left-broken-rf-two",
+        left_broken_text=r"\faberge-left-broken-rf-two-markup",
         selector=baca.leaves().rleak(),
     ),
 )
