@@ -85,7 +85,7 @@ maker(
 maker(
     ("fl", (1, 12)),
     baca.markup(
-        r"\faberge-match-sound-of-crotales",
+        r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -370,7 +370,7 @@ maker(
 maker(
     ("cl", (1, 12)),
     baca.markup(
-        r"\faberge-match-sound-of-crotales",
+        r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -564,11 +564,11 @@ maker(
 maker(
     ("rh", (1, 88)),
     baca.text_spanner(
-        r"\faberge-rf-one =|",
+        r"\faberge-rf-one-markup =|",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=True,
         bookend=False,
-        left_broken_text=r"\faberge-left-broken-rf-one",
+        left_broken_text=r"\faberge-left-broken-rf-one-markup",
         selector=baca.leaves().rleak(),
     ),
 )
@@ -829,7 +829,7 @@ maker(
 maker(
     ("vn", (1, 12)),
     baca.markup(
-        r"\faberge-match-sound-of-crotales",
+        r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
         literal=True,
     ),
@@ -1225,9 +1225,10 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        "poco vib. (sempre)",
+        r"\faberge-poco-vib-sempre-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(5.5).staff_padding,
+        literal=True,
     ),
 )
 

@@ -2,7 +2,17 @@
 
 %%% COLOPHON %%%
 
-faberge-colophon-markup = \markup {
+faberge-col-legno-battuto-first-appearance-markup = \markup
+    \whiteout
+    \override #'(box-padding . 0.5)
+    \box
+    \column {
+        "col legno battuto:"
+        "as bright and pointlike as possible;"
+        "(mute string with left hand)"
+    }
+
+faberge-colophon-markup = \markup
     \override #'(font-name . "Palatino")
     \with-color #black
     \override #'(baseline-skip . 4)
@@ -16,21 +26,10 @@ faberge-colophon-markup = \markup {
             (Oct. 2018 \hspace #0.75 – \hspace #0.75 Jan. 2019).
         }
     }
-}
 
-%%% DIRECTIVES %%%
+faberge-eleventh-degree-of-e-markup = \markup "11°/E"
 
-faberge-col-legno-battuto-first-appearance = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    \column {
-        "col legno battuto:"
-        "as bright and pointlike as possible;"
-        "(mute string with left hand)"
-    }
-
-faberge-glissando-lentissimo-do-not-reattack-note-heads = \markup
+faberge-glissando-lentissimo-do-not-reattack-note-heads-markup = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
@@ -39,7 +38,7 @@ faberge-glissando-lentissimo-do-not-reattack-note-heads = \markup
         "do not reattack not heads"
     }
 
-faberge-left-broken-rf-one = \markup
+faberge-left-broken-rf-one-markup = \markup
     \upright
     \line {
         (
@@ -50,7 +49,7 @@ faberge-left-broken-rf-one = \markup
         \hspace #0.75
     }
 
-faberge-left-broken-rf-two = \markup
+faberge-left-broken-rf-two-markup = \markup
     \upright
     \line {
         (
@@ -61,21 +60,25 @@ faberge-left-broken-rf-two = \markup
         \hspace #0.75
     }
 
-faberge-match-sound-of-crotales = \markup
+faberge-match-sound-of-crotales-markup = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
     "match sound of crotales"
 
-faberge-rf-one = \markup
+faberge-nine-plus-eleven-of-e-markup = \markup "(9+11)°/E"
+
+faberge-poco-vib-sempre-markup = \markup "poco vib. (sempre)"
+
+faberge-rf-one-markup = \markup
     \upright
     "resonance field 1 (RF1): depress silently; sustain with middle pedal"
 
-faberge-rf-two = \markup
+faberge-rf-two-markup = \markup
     \upright
     "resonance field 2 (RF2)"
 
-faberge-rub-sponge-on-bass-drum-head = \markup
+faberge-rub-sponge-on-bass-drum-head-markup = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
@@ -83,6 +86,8 @@ faberge-rub-sponge-on-bass-drum-head = \markup
         "rub sponge on bass drum head;"
         "noise only: no pitch"
     }
+
+faberge-seventh-degree-of-e-markup = \markup "7°/E"
 
 %%% MARGIN MARKUP %%%
 
