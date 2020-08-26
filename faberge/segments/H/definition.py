@@ -21,8 +21,15 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (12, 4), (10, 4), (12, 4), (10, 4),
-        (8, 4), (6, 4), (8, 4), (1, 4), (6, 4),
+        (12, 4),
+        (10, 4),
+        (12, 4),
+        (10, 4),
+        (8, 4),
+        (6, 4),
+        (8, 4),
+        (1, 4),
+        (6, 4),
     ],
     transpose_score=True,
     validate_measure_count=9,
@@ -385,8 +392,7 @@ maker(
         pieces=baca.lparts([1, 1, 2]),
     ),
     baca.skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -410,16 +416,14 @@ maker(
         pieces=baca.lparts([1, 1, 2]),
     ),
     baca.skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 maker(
     ("vn", 5),
     baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -443,8 +447,7 @@ maker(
 maker(
     ("vn", 7),
     baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -539,8 +542,7 @@ maker(
         pieces=baca.clparts([1]),
     ),
     baca.skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2"
-        r" \times 2/3 { c2 c2 c2 } c2 }",
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
     ),
     baca.scp_spanner(
         r"ord. -> pont. -> ord. || \baca-null-markup ||"
@@ -594,8 +596,7 @@ maker(
         pieces=baca.clparts([1]),
     ),
     baca.skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.scp_spanner(
         r"ord. -> pont. -> ord. || \baca-null-markup ||"
@@ -610,8 +611,7 @@ maker(
 maker(
     ("va", 5),
     baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -662,8 +662,7 @@ maker(
 maker(
     ("va", 7),
     baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }"
-        r" c2 \times 2/3 { c2 c2 c2 } }",
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 

@@ -21,8 +21,14 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (8, 4), (7, 4), (8, 4), (7, 4),
-        (8, 4), (7, 4), (8, 4), (7, 4),
+        (8, 4),
+        (7, 4),
+        (8, 4),
+        (7, 4),
+        (8, 4),
+        (7, 4),
+        (8, 4),
+        (7, 4),
     ],
     transpose_score=True,
     validate_measure_count=8,
@@ -97,9 +103,7 @@ maker(
 )
 
 maker(
-    (["fl", "eh", "rh"], 5),
-    baca.repeat_tie(baca.pleaf(0)),
-    faberge.downbeat_attack()
+    (["fl", "eh", "rh"], 5), baca.repeat_tie(baca.pleaf(0)), faberge.downbeat_attack()
 )
 
 # eh

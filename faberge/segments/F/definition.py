@@ -21,8 +21,14 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (7, 4), (6, 4), (4, 4), (4, 4),
-        (7, 4), (6, 4), (4, 4), (4, 4),
+        (7, 4),
+        (6, 4),
+        (4, 4),
+        (4, 4),
+        (7, 4),
+        (6, 4),
+        (4, 4),
+        (4, 4),
     ],
     transpose_score=True,
     validate_measure_count=8,
@@ -605,12 +611,14 @@ maker(
 # vn, va
 
 maker(
-    ([
-        ("vn", 3),
-        ("vn", (5, 7)),
-        ("va", 3),
-        ("va", (6, 7)),
-    ]),
+    (
+        [
+            ("vn", 3),
+            ("vn", (5, 7)),
+            ("va", 3),
+            ("va", (6, 7)),
+        ]
+    ),
     baca.stem_down(),
     baca.tuplet_bracket_staff_padding(3.5),
 )
