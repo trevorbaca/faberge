@@ -7,8 +7,8 @@ import faberge
 ###############################################################################
 
 stage_markup = (
-    ('[1]', 1),
-    ('[2]', 3),
+    ("[1]", 1),
+    ("[2]", 3),
 )
 
 maker_ = baca.TimeSignatureMaker(
@@ -33,21 +33,21 @@ maker = baca.SegmentMaker(
 )
 
 maker(
-    'Global_Skips',
+    "Global_Skips",
     baca.metronome_mark(
-        '100',
+        "100",
         selector=baca.leaf(1 - 1),
     ),
 )
 
 maker(
-    'Global_Rests',
+    "Global_Rests",
     baca.global_fermata(
-        'short',
+        "short",
         selector=baca.leaf(2 - 1),
     ),
     baca.global_fermata(
-        'short',
+        "short",
         selector=baca.leaf(4 - 1),
     ),
 )
@@ -55,35 +55,35 @@ maker(
 # fl
 
 maker(
-    'fl',
+    "fl",
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r'\faberge-flute-markup'),
-        faberge.margin_markup('Fl.'),
+        baca.start_markup(r"\faberge-flute-markup"),
+        faberge.margin_markup("Fl."),
     ),
 )
 
 # eh
 
 maker(
-    'eh',
+    "eh",
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r'\faberge-english-horn-markup'),
-        faberge.margin_markup('Eng. hn.'),
+        baca.start_markup(r"\faberge-english-horn-markup"),
+        faberge.margin_markup("Eng. hn."),
     ),
 )
 
 maker(
-    ('eh', 3),
+    ("eh", 3),
     baca.dls_staff_padding(8.5),
     baca.dynamic(
-        '(f)',
+        "(f)",
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-2, 0)).extra_offset,
     ),
     baca.markup(
-        r'\baca-ratchet-markup',
+        r"\baca-ratchet-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(6).staff_padding,
         literal=True,
@@ -96,27 +96,27 @@ maker(
 # cl
 
 maker(
-    'cl',
+    "cl",
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r'\faberge-clarinet-markup'),
-        faberge.margin_markup('Cl.'),
+        baca.start_markup(r"\faberge-clarinet-markup"),
+        faberge.margin_markup("Cl."),
     ),
 )
 
 # rh
 
 maker(
-    'rh',
+    "rh",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(
-            r'\faberge-piano-markup',
-            context='PianoStaff',
+            r"\faberge-piano-markup",
+            context="PianoStaff",
         ),
         faberge.margin_markup(
-            'Pf.',
-            context='PianoStaff',
+            "Pf.",
+            context="PianoStaff",
         ),
     ),
 )
@@ -124,37 +124,37 @@ maker(
 # lh
 
 maker(
-    'lh',
+    "lh",
     baca.staff_lines(5),
 )
 
 # perc
 
 maker(
-    'perc',
+    "perc",
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r'\faberge-percussion-markup'),
-        faberge.margin_markup('Perc.'),
+        baca.start_markup(r"\faberge-percussion-markup"),
+        faberge.margin_markup("Perc."),
     ),
 )
 
 # vn
 
 maker(
-    'vn',
+    "vn",
     baca.staff_lines(5),
     baca.dls_staff_padding(4),
     baca.chunk(
-        baca.start_markup(r'\faberge-violin-markup'),
-        faberge.margin_markup('Vn.'),
+        baca.start_markup(r"\faberge-violin-markup"),
+        faberge.margin_markup("Vn."),
     ),
 )
 
 maker(
-    ('vn', 1),
+    ("vn", 1),
     baca.dynamic('"f"'),
-    baca.pitch('E4'),
+    baca.pitch("E4"),
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
@@ -166,19 +166,19 @@ maker(
 # va
 
 maker(
-    'va',
+    "va",
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
     baca.chunk(
-        baca.start_markup(r'\faberge-viola-markup'),
-        faberge.margin_markup('Va.'),
+        baca.start_markup(r"\faberge-viola-markup"),
+        faberge.margin_markup("Va."),
     ),
 )
 
 maker(
-    ('va', 1),
+    ("va", 1),
     baca.dynamic('"f"'),
-    baca.pitch('E4'),
+    baca.pitch("E4"),
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
@@ -192,10 +192,10 @@ maker(
 # vc
 
 maker(
-    'vc',
+    "vc",
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r'\faberge-cello-markup'),
-        faberge.margin_markup('Vc.'),
+        baca.start_markup(r"\faberge-cello-markup"),
+        faberge.margin_markup("Vc."),
     ),
 )

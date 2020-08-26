@@ -20,8 +20,14 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (4, 4), (3, 4), (9, 4), (5, 4),
-        (5, 4), (5, 4), (5, 4), (5, 4),
+        (4, 4),
+        (3, 4),
+        (9, 4),
+        (5, 4),
+        (5, 4),
+        (5, 4),
+        (5, 4),
+        (5, 4),
     ],
     transpose_score=True,
     validate_measure_count=8,
@@ -168,7 +174,7 @@ maker(
     ),
     baca.skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
-    )
+    ),
 )
 
 maker(
@@ -261,8 +267,7 @@ maker(
     baca.ottava_bracket_staff_padding(5.5),
     baca.pitch("<G6 A6 B6 C7>"),
     baca.skeleton(
-        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
+        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
 
@@ -315,8 +320,7 @@ maker(
     baca.ottava_bracket_staff_padding(7),
     baca.pitch("<F6 G6 A6>"),
     baca.skeleton(
-        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
+        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
 
@@ -380,7 +384,7 @@ maker(
     ("perc", 3),
     baca.skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
-    )
+    ),
 )
 
 maker(
@@ -602,8 +606,7 @@ maker(
     ),
     baca.pitch("F#5"),
     baca.skeleton(
-        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
+        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     ),
     baca.stem_tremolo(
         selector=baca.pleaves(),

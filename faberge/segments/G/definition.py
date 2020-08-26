@@ -21,8 +21,16 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (6, 4), (1, 4), (9, 4), (6, 4), (5, 4),
-        (6, 4), (1, 4), (9, 4), (6, 4), (5, 4),
+        (6, 4),
+        (1, 4),
+        (9, 4),
+        (6, 4),
+        (5, 4),
+        (6, 4),
+        (1, 4),
+        (9, 4),
+        (6, 4),
+        (5, 4),
     ],
     transpose_score=True,
     validate_measure_count=10,
@@ -201,8 +209,7 @@ maker(
 maker(
     ("rh", 3),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8. r16 }",
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
@@ -239,8 +246,7 @@ maker(
     ("rh", 8),
     baca.dynamic("pp"),
     baca.skeleton(
-        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
+        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
 
@@ -319,8 +325,7 @@ maker(
 maker(
     ("lh", 3),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8. r16 }",
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
@@ -356,8 +361,7 @@ maker(
 maker(
     ("lh", 8),
     baca.skeleton(
-        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
+        "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
 
@@ -520,8 +524,7 @@ maker(
 maker(
     ("vn", 3),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8 r8 }",
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
@@ -723,8 +726,7 @@ maker(
 maker(
     ("vc", 3),
     baca.skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8. r16 c8 r8 c8 r8 }",
+        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
@@ -777,8 +779,7 @@ maker(
     ("vc", 8),
     baca.dynamic("pp"),
     baca.skeleton(
-        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8"
-        " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
+        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     ),
 )
 

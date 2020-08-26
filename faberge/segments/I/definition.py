@@ -21,9 +21,14 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (6, 4), (6, 4), (6, 4), (4, 4),
+        (6, 4),
+        (6, 4),
+        (6, 4),
+        (4, 4),
         (9, 4),
-        (6, 4), (6, 4), (5, 4),
+        (6, 4),
+        (6, 4),
+        (5, 4),
     ],
     transpose_score=True,
     validate_measure_count=8,
@@ -239,8 +244,7 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
     ),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8. r16 }",
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
@@ -281,8 +285,7 @@ maker(
         selector=baca.pleaf(-1),
     ),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8. r16 }",
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
@@ -478,8 +481,7 @@ maker(
     ),
     baca.pitch("A6"),
     baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8"
-        " c8 r8 c8 r8 c8 r8 c8 r8 }",
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -800,8 +802,7 @@ maker(
     ),
     baca.pitch("F#5"),
     baca.skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8"
-        " c8 r8 c8. r16 c8 r8 c8 r8 }",
+        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
     baca.stem_tremolo(
         selector=baca.pleaves(),

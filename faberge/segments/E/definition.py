@@ -21,8 +21,14 @@ maker = baca.SegmentMaker(
     segment_directory=baca.Path(__file__).resolve().parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (4, 4), (9, 4), (1, 4), (4, 4), (4, 4),
-        (7, 4), (5, 4), (8, 4),
+        (4, 4),
+        (9, 4),
+        (1, 4),
+        (4, 4),
+        (4, 4),
+        (7, 4),
+        (5, 4),
+        (8, 4),
     ],
     transpose_score=True,
     validate_measure_count=8,
@@ -143,10 +149,12 @@ maker(
 # fl, cl
 
 maker(
-    ([
-        ("fl", [4, 5, 6, 7, 8]),
-        ("cl", [1, 2, 4, 5, 6, 7, 8]),
-    ]),
+    (
+        [
+            ("fl", [4, 5, 6, 7, 8]),
+            ("cl", [1, 2, 4, 5, 6, 7, 8]),
+        ]
+    ),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=baca.pleaf(2),
@@ -398,8 +406,7 @@ maker(
         literal=True,
     ),
     baca.skeleton(
-        r"{ \times 4/5 { c4 c4 c4 c4 c4 }"
-        r" \times 4/5 { c4 c4 c4 c4 c4 } }",
+        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     ),
     baca.staff_position(0),
 )
