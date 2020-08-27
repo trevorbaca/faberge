@@ -3,7 +3,10 @@ import baca
 breaks = baca.breaks(
     baca.page(
         baca.system(
-            18, (18, 18, 24), (18, 18, 24), (18, 18, 24),
+            18,
+            (18, 18, 24),
+            (18, 18, 24),
+            (18, 18, 24),
             measure=1,
             y_offset=70,
         ),

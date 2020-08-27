@@ -45,7 +45,6 @@ breaks = baca.breaks(
         [151, 30, (20, 32)],
         number=11,
     ),
-
     baca.page(
         [175, 30, (20, 32)],
         number=12,

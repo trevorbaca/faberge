@@ -101,9 +101,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._attach_lilypond_tag("Flute", flute_music_staff)
 
         # ENGLISH HORN
-        english_horn_music_voice = abjad.Voice(
-            name="English_Horn_Music_Voice", tag=tag
-        )
+        english_horn_music_voice = abjad.Voice(name="English_Horn_Music_Voice", tag=tag)
         english_horn_music_staff = abjad.Staff(
             [english_horn_music_voice],
             simultaneous=True,
@@ -122,15 +120,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             faberge.instruments["EnglishHorn"],
         )
-        abjad.annotate(
-            english_horn_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(english_horn_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("EnglishHorn", english_horn_music_staff)
 
         # CLARINET
-        clarinet_music_voice = abjad.Voice(
-            name="Clarinet_Music_Voice", tag=tag
-        )
+        clarinet_music_voice = abjad.Voice(name="Clarinet_Music_Voice", tag=tag)
         clarinet_music_staff = abjad.Staff(
             [clarinet_music_voice],
             simultaneous=True,
@@ -149,15 +143,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             faberge.instruments["Clarinet"],
         )
-        abjad.annotate(
-            clarinet_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(clarinet_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("Clarinet", clarinet_music_staff)
 
         # PIANO
-        piano_rh_music_voice = abjad.Voice(
-            name="Piano_RH_Music_Voice", tag=tag
-        )
+        piano_rh_music_voice = abjad.Voice(name="Piano_RH_Music_Voice", tag=tag)
         piano_rh_music_staff = abjad.Staff(
             [piano_rh_music_voice],
             simultaneous=True,
@@ -171,15 +161,9 @@ class ScoreTemplate(baca.ScoreTemplate):
         #            format_slot='opening',
         #            )
         #        abjad.attach(literal, piano_rh_music_staff)
-        abjad.annotate(
-            piano_rh_music_staff, "default_clef", abjad.Clef("treble")
-        )
-        piano_lh_music_voice = abjad.Voice(
-            name="Piano_LH_Music_Voice", tag=tag
-        )
-        piano_lh_attack_voice = abjad.Voice(
-            name="Piano_LH_Attack_Voice", tag=tag
-        )
+        abjad.annotate(piano_rh_music_staff, "default_clef", abjad.Clef("treble"))
+        piano_lh_music_voice = abjad.Voice(name="Piano_LH_Music_Voice", tag=tag)
+        piano_lh_attack_voice = abjad.Voice(name="Piano_LH_Attack_Voice", tag=tag)
         piano_lh_music_staff = abjad.Staff(
             [piano_lh_music_voice, piano_lh_attack_voice],
             simultaneous=True,
@@ -197,15 +181,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             faberge.instruments["Piano"],
         )
-        abjad.annotate(
-            piano_lh_music_staff, "default_clef", abjad.Clef("bass")
-        )
+        abjad.annotate(piano_lh_music_staff, "default_clef", abjad.Clef("bass"))
         self._attach_lilypond_tag("Piano", piano_staff_group)
 
         # PERCUSSION
-        percussion_music_voice = abjad.Voice(
-            name="Percussion_Music_Voice", tag=tag
-        )
+        percussion_music_voice = abjad.Voice(name="Percussion_Music_Voice", tag=tag)
         percussion_music_staff = abjad.Staff(
             [percussion_music_voice],
             simultaneous=True,
@@ -224,9 +204,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             faberge.instruments["Percussion"],
         )
-        abjad.annotate(
-            percussion_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(percussion_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("Percussion", percussion_music_staff)
 
         # VIOLIN
@@ -249,9 +227,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             faberge.instruments["Violin"],
         )
-        abjad.annotate(
-            violin_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(violin_music_staff, "default_clef", abjad.Clef("treble"))
         self._attach_lilypond_tag("Violin", violin_music_staff)
 
         # VIOLA
@@ -342,9 +318,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
 
         # SCORE
-        score = abjad.Score(
-            [global_context, music_context], name="Score", tag=tag
-        )
+        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
