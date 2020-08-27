@@ -2,7 +2,6 @@ import baca
 
 distances = (24, (28, 28, 44), (22, 28, 44), (28, 28, 44))
 breaks = baca.breaks(
-
     baca.page(
         [1, 75, (24, (28, 28, 40), (22, 28, 40), (28, 28, 40))],
         number=1,
@@ -61,7 +60,6 @@ breaks = baca.breaks(
         [79, 45, distances],
         number=14,
     ),
-
     baca.page(
         [84, 45, distances],
         number=15,
@@ -138,7 +136,6 @@ breaks = baca.breaks(
         [156, 45, distances],
         number=33,
     ),
-
     baca.page(
         [162, 45, distances],
         number=34,
@@ -240,7 +237,6 @@ breaks = baca.breaks(
         [282, 45, distances],
         number=57,
     ),
-
 )
 
 spacing = baca.scorewide_spacing(

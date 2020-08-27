@@ -9,7 +9,6 @@ y_offset_5 = 188
 y_offset_6 = 232
 
 breaks = baca.breaks(
-
     baca.page(
         baca.system(
             distances,
@@ -33,7 +32,6 @@ breaks = baca.breaks(
         ),
         number=1,
     ),
-
     baca.page(
         baca.system(
             distances,
@@ -332,7 +330,6 @@ breaks = baca.breaks(
         ),
         number=12,
     ),
-
 )
 
 spacing = baca.scorewide_spacing(

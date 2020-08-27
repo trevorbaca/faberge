@@ -35,9 +35,7 @@ margin_markups = abjad.OrderedDict(
         ("Perc.", abjad.MarginMarkup(markup=r"\faberge-perc-markup")),
         (
             "Pf.",
-            abjad.MarginMarkup(
-                context="PianoStaff", markup=r"\faberge-pf-markup"
-            ),
+            abjad.MarginMarkup(context="PianoStaff", markup=r"\faberge-pf-markup"),
         ),
         ("Va.", abjad.MarginMarkup(markup=r"\faberge-va-markup")),
         ("Vc.", abjad.MarginMarkup(markup=r"\faberge-vc-markup")),
@@ -83,9 +81,7 @@ assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.sequence(numerator_groups).flatten()
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(
-    lengths
-)
+time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(lengths)
 time_signatures_a = time_signature_groups
 
 numerators = baca.sequence([[3, 4, 4], [2, 3], [2, 3, 4]])
@@ -94,9 +90,7 @@ assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.sequence(numerator_groups).flatten()
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(
-    lengths
-)
+time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(lengths)
 time_signatures_b = time_signature_groups
 
 # tuplet ratios
@@ -194,9 +188,7 @@ def back_incised_divisions() -> baca.RhythmCommand:
     Makes back-incised divisions.
     """
     return baca.rhythm(
-        rmakers.incised(
-            suffix_talea=[-1], suffix_counts=[1], talea_denominator=4
-        ),
+        rmakers.incised(suffix_talea=[-1], suffix_counts=[1], talea_denominator=4),
         rmakers.beam(),
         rmakers.extract_trivial(),
         tag=abjad.Tag("faberge.back_incised_divisions()"),
@@ -317,9 +309,7 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
     )
 
 
-def downbeat_attack(
-    *, count: int = 1, denominator: int = 4
-) -> baca.RhythmCommand:
+def downbeat_attack(*, count: int = 1, denominator: int = 4) -> baca.RhythmCommand:
     """
     Makes downbeat attack.
     """
@@ -347,9 +337,7 @@ def eh_trill_rhythm(
     counts = list(counts) + [-1000]
 
     return baca.rhythm(
-        rmakers.talea(
-            counts, 16, extra_counts=extra_counts, read_talea_once_only=True
-        ),
+        rmakers.talea(counts, 16, extra_counts=extra_counts, read_talea_once_only=True),
         *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -408,9 +396,7 @@ def front_incised_divisions(
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
     lcm = abjad.mathx.least_common_multiple(*denominators)
-    start_rest_durations = [
-        _.with_denominator(lcm) for _ in start_rest_durations
-    ]
+    start_rest_durations = [_.with_denominator(lcm) for _ in start_rest_durations]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
 
     return baca.rhythm(
@@ -479,12 +465,8 @@ def increasing_dal_niente_hairpins() -> baca.Suite:
     """
 
     return baca.chunk(
-        baca.hairpin(
-            "niente o< p", map=baca.run(0), selector=baca.leaves().rleak()
-        ),
-        baca.hairpin(
-            "niente o< mp", map=baca.run(1), selector=baca.leaves().rleak()
-        ),
+        baca.hairpin("niente o< p", map=baca.run(0), selector=baca.leaves().rleak()),
+        baca.hairpin("niente o< mp", map=baca.run(1), selector=baca.leaves().rleak()),
         baca.hairpin(
             "niente o< mf",
             map=baca.runs()[2:4],
@@ -574,9 +556,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
     #        )
     return baca.chunk(
         baca.hairpin(f"niente o< {dynamic}", selector=baca.tleaves()[:2]),
-        baca.hairpin(
-            f"({dynamic}) >o niente", selector=baca.leaves().rleak()[-2:]
-        ),
+        baca.hairpin(f"({dynamic}) >o niente", selector=baca.leaves().rleak()[-2:]),
         map=baca.ntruns().filter_length(">", 2),
     )
 
@@ -611,9 +591,7 @@ def ratchet_rhythm() -> baca.RhythmCommand:
     Makes ratchet rhythm.
     """
     return baca.rhythm(
-        rmakers.accelerando(
-            [(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]
-        ),
+        rmakers.accelerando([(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         tag=abjad.Tag("faberge.ratchet_rhythm()"),
@@ -722,9 +700,7 @@ def shell_exchange_rhythm(
             filtered_counts.append(count)
 
     assert len(filtered_counts) == len(counts)
-    assert abjad.mathx.weight(filtered_counts) == abjad.mathx.weight(
-        counts
-    )
+    assert abjad.mathx.weight(filtered_counts) == abjad.mathx.weight(counts)
     counts = filtered_counts
 
     grouped_counts = baca.sequence(counts).group_by_sign()
@@ -736,9 +712,7 @@ def shell_exchange_rhythm(
             rest_count = sum(group)
             grouped_rests.append(rest_count)
 
-    assert abjad.mathx.weight(grouped_rests) == abjad.mathx.weight(
-        counts
-    )
+    assert abjad.mathx.weight(grouped_rests) == abjad.mathx.weight(counts)
     counts = grouped_rests
 
     extras_ = [0, 0, -1, 0, 0, -1, -1]
@@ -849,9 +823,7 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     )
 
 
-def tuning_peg_staff_positions(
-    *, rotation: int = None
-) -> baca.StaffPositionCommand:
+def tuning_peg_staff_positions(*, rotation: int = None) -> baca.StaffPositionCommand:
     """
     Makes tuning peg staff positions.
     """
