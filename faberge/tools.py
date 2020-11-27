@@ -395,7 +395,7 @@ def front_incised_divisions(
     """
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
-    lcm = abjad.mathx.least_common_multiple(*denominators)
+    lcm = abjad.math.least_common_multiple(*denominators)
     start_rest_durations = [_.with_denominator(lcm) for _ in start_rest_durations]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
 
@@ -700,7 +700,7 @@ def shell_exchange_rhythm(
             filtered_counts.append(count)
 
     assert len(filtered_counts) == len(counts)
-    assert abjad.mathx.weight(filtered_counts) == abjad.mathx.weight(counts)
+    assert abjad.math.weight(filtered_counts) == abjad.math.weight(counts)
     counts = filtered_counts
 
     grouped_counts = baca.sequence(counts).group_by_sign()
@@ -712,7 +712,7 @@ def shell_exchange_rhythm(
             rest_count = sum(group)
             grouped_rests.append(rest_count)
 
-    assert abjad.mathx.weight(grouped_rests) == abjad.mathx.weight(counts)
+    assert abjad.math.weight(grouped_rests) == abjad.math.weight(counts)
     counts = grouped_rests
 
     extras_ = [0, 0, -1, 0, 0, -1, -1]
