@@ -1943,7 +1943,7 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! baca.skeleton()
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 224 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override DynamicLineSpanner.staff-padding = #9                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
@@ -2094,7 +2094,7 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! baca.skeleton()
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 226 / measure 7]                      %! baca.SegmentMaker._comment_measure_numbers()
         b'2                                                                    %! baca.skeleton()
@@ -2780,7 +2780,7 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Viola_Music_Voice measure 224 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!2                                                                 %! baca.skeleton()
@@ -2932,7 +2932,7 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Viola_Music_Voice measure 226 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!2                                                                 %! baca.skeleton()
@@ -3232,7 +3232,7 @@ i_Cello_Music_Voice = {                                                        %
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Cello_Music_Voice measure 224 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         \override DynamicLineSpanner.staff-padding = #8                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
@@ -3339,7 +3339,7 @@ i_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 2/3 {                                                               %! baca.skeleton()
+    \times 8/12 {                                                              %! baca.skeleton()
 
         % [09 Cello_Music_Voice measure 226 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         e,2                                                                    %! baca.skeleton()
