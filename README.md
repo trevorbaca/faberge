@@ -10,7 +10,10 @@ Fabergé Investigations
     https://github.com/ambv/black)
 -->
 
-Fabergé Investigations (2016) for eight players.
+Fabergé Investigations (2016/19) for eight players.
 
-World premiere 21 May 2016 by ensemble recherche in Paine Hall on the campus of
-Harvard University.
+World premiere 13 January 2020 by Echoi Ensemble conducted by Jonathan Hepfer in Zipper
+Hall in Los Angeles, California.
+
+World premiere (of first half) 21 May 2016 by ensemble recherche in Paine Hall on the
+campus of Harvard University.
