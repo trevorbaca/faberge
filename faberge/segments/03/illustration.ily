@@ -1459,13 +1459,7 @@ c_Flute_Music_Voice = {                                                        %
     g''8                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -1477,13 +1471,7 @@ c_Flute_Music_Voice = {                                                        %
         g''4                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -1500,13 +1488,7 @@ c_Flute_Music_Voice = {                                                        %
         g'8                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -1544,13 +1526,7 @@ c_Flute_Music_Voice = {                                                        %
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -1595,13 +1571,7 @@ c_Flute_Music_Voice = {                                                        %
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
     r4                                                                         %! faberge.glow_rhythm()
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
@@ -1612,13 +1582,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1646,13 +1610,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1670,24 +1628,12 @@ c_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g''8.                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -1722,13 +1668,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1755,25 +1695,13 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1782,13 +1710,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -1808,37 +1730,19 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -1865,13 +1769,7 @@ c_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     r4                                                                         %! faberge.glow_rhythm()
 
@@ -1882,13 +1780,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1918,25 +1810,13 @@ c_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
     g''16                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -1956,13 +1836,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1971,13 +1845,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2013,13 +1881,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2030,25 +1892,13 @@ c_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     g'16                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 117 / measure 21]                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -2068,25 +1918,13 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2095,13 +1933,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2133,13 +1965,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2161,13 +1987,7 @@ c_Flute_Music_Voice = {                                                        %
     g'8                                                                        %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
 
     \times 2/3 {                                                               %! faberge.glow_rhythm()
@@ -2199,13 +2019,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2225,35 +2039,17 @@ c_Flute_Music_Voice = {                                                        %
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2267,37 +2063,19 @@ c_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g'16                                                                   %! faberge.glow_rhythm()
 
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
@@ -2317,13 +2095,7 @@ c_Flute_Music_Voice = {                                                        %
         g''4                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2353,13 +2125,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2386,13 +2152,7 @@ c_Flute_Music_Voice = {                                                        %
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2432,13 +2192,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2462,24 +2216,12 @@ c_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2505,13 +2247,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2531,13 +2267,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2546,25 +2276,13 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2579,13 +2297,7 @@ c_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -2627,13 +2339,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2662,13 +2368,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2700,13 +2400,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2732,13 +2426,7 @@ c_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2762,13 +2450,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2791,13 +2473,7 @@ c_Flute_Music_Voice = {                                                        %
         g''8                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2811,13 +2487,7 @@ c_Flute_Music_Voice = {                                                        %
     g'16                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -2840,13 +2510,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2863,13 +2527,7 @@ c_Flute_Music_Voice = {                                                        %
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2885,13 +2543,7 @@ c_Flute_Music_Voice = {                                                        %
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -2910,13 +2562,7 @@ c_Flute_Music_Voice = {                                                        %
     g'16                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -2939,13 +2585,7 @@ c_Flute_Music_Voice = {                                                        %
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     r4                                                                         %! faberge.glow_rhythm()
 
@@ -2955,13 +2595,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2988,13 +2622,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3011,13 +2639,7 @@ c_Flute_Music_Voice = {                                                        %
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -3045,35 +2667,17 @@ c_Flute_Music_Voice = {                                                        %
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
@@ -3100,13 +2704,7 @@ c_Flute_Music_Voice = {                                                        %
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3139,46 +2737,22 @@ c_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -3278,35 +2852,17 @@ c_Flute_Music_Voice = {                                                        %
         gs''!16                                                                %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         gs''!16                                                                %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         gs'!16                                                                 %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         gs''!16                                                                %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
@@ -3320,13 +2876,7 @@ c_Flute_Music_Voice = {                                                        %
     gs'!4.                                                                     %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 

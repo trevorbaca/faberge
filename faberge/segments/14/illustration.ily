@@ -774,13 +774,7 @@ n_Clarinet_Music_Voice = {                                                     %
     - \tweak direction #down
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     - \abjad-dashed-line-with-hook                                             %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "4-5 / 5-1"                                 %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \tweak bound-details.right.padding #3.25                                 %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
@@ -802,13 +796,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! faberge.bcl_color_fingering_rhythm()
@@ -817,62 +805,32 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ]                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         bf!4                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         bf!4.                                                                  %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         bf!8                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         bf!4                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         ~
 
     }                                                                          %! faberge.bcl_color_fingering_rhythm()
@@ -888,37 +846,19 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         af!8                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         af!8                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         af!8                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -931,13 +871,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         af!4.                                                                  %! faberge.bcl_color_fingering_rhythm()
 
@@ -951,13 +885,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         [                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         af!8                                                                   %! faberge.bcl_color_fingering_rhythm()
@@ -967,37 +895,19 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         af!4.                                                                  %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         af!8                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         af!4                                                                   %! faberge.bcl_color_fingering_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1005,13 +915,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     }                                                                          %! faberge.bcl_color_fingering_rhythm()
 
@@ -1020,13 +924,7 @@ n_Clarinet_Music_Voice = {                                                     %
     - \tweak direction #down
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    3
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
     r2..                                                                       %! faberge.downbeat_attack()
 
@@ -1040,13 +938,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! faberge.bcl_color_fingering_rhythm()
@@ -1055,50 +947,26 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         ]                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         g4                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         g4.                                                                    %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         g8                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         g4                                                                     %! faberge.bcl_color_fingering_rhythm()
         ~
@@ -1116,13 +984,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         g8                                                                     %! faberge.bcl_color_fingering_rhythm()
 
@@ -1130,13 +992,7 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g8                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1149,25 +1005,13 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g4.                                                                    %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     }                                                                          %! faberge.bcl_color_fingering_rhythm()
 
@@ -1179,51 +1023,27 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         [                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         g8                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         ]                                                                      %! faberge.bcl_color_fingering_rhythm()
 
         g4                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         g4.                                                                    %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g8                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1231,25 +1051,13 @@ n_Clarinet_Music_Voice = {                                                     %
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         g4                                                                     %! faberge.bcl_color_fingering_rhythm()
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
 
     }                                                                          %! faberge.bcl_color_fingering_rhythm()

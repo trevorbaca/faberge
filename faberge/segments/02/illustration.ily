@@ -2664,13 +2664,7 @@ b_Flute_Music_Voice = {                                                        %
         fs'!8                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X #-0.5
         - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
@@ -2682,24 +2676,12 @@ b_Flute_Music_Voice = {                                                        %
     fs''!16                                                                    %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    2
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
     fs'!16                                                                     %! faberge.glow_rhythm()
     - \tweak parent-alignment-X #-0.5
     - \tweak staff-padding #3.5
-    ^ \markup {
-        \override
-            #'(circle-padding . 0.25)
-            \circle
-                \finger
-                    1
-        }
+    ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
