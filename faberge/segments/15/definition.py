@@ -234,7 +234,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("E4"),

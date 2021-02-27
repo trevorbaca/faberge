@@ -182,7 +182,7 @@ maker(
     ("eh", (3, 4)),
     baca.material_annotation_spanner(
         "4-5 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(8).staff_padding,
         selector=baca.pleaves().rleak(),
     ),
@@ -261,7 +261,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "3-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.ottava(),
@@ -367,7 +367,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "4-5 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(14.5).staff_padding,
         selector=baca.pleaves().rleak(),
     ),
@@ -430,7 +430,7 @@ maker(
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
         "A.3 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("E4"),
@@ -450,7 +450,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "3-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("A#4"),
@@ -504,7 +504,7 @@ maker(
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
         "A.3 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("E4"),
@@ -540,7 +540,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "A.4 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.xfb_spanner(
@@ -602,7 +602,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "3-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("F#5"),

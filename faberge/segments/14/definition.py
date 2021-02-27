@@ -83,7 +83,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "1-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -446,7 +446,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "1-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -511,7 +511,7 @@ maker(
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         "1-1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
     ),

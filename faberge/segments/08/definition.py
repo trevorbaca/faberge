@@ -111,7 +111,7 @@ maker(
     (["fl", "eh", "cl"], (4, 5)),
     baca.material_annotation_spanner(
         "1-2 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -403,7 +403,7 @@ maker(
     ("perc", (1, 3)),
     baca.material_annotation_spanner(
         "A.2 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(10.5).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -438,7 +438,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(10.5).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -540,7 +540,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
@@ -630,7 +630,7 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         "A.4 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.stem_tremolo(
@@ -743,7 +743,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
     ),
