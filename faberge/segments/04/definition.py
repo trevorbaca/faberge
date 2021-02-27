@@ -198,7 +198,7 @@ maker(
     baca.dynamic("mp"),
     baca.material_annotation_spanner(
         "2-1 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
     ),
     baca.skeleton(

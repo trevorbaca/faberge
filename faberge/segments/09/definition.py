@@ -111,7 +111,7 @@ maker(
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
         "5-2 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
     ),
     baca.pitch("G#5"),
@@ -159,7 +159,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "3-7 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
     ),
 )
@@ -191,7 +191,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "4-5 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
     ),
     baca.pitch("A4"),
@@ -281,7 +281,7 @@ maker(
     baca.dynamic("f"),
     baca.material_annotation_spanner(
         "4-5 -|",
-        abjad.tweak("darkgreen").color,
+        abjad.tweak("#darkgreen").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.staff_position(1),
@@ -304,7 +304,7 @@ maker(
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
-        abjad.tweak("red").color,
+        abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("F#4"),
