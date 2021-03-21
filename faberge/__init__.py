@@ -1,7 +1,7 @@
 import distutils.version
 import platform
 
-from .tools import (
+from .library import (
     ScoreTemplate,
     airtone_chain_rhythm,
     back_incised_divisions,
