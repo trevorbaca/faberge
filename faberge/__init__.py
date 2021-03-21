@@ -1,8 +1,8 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
+    ScoreTemplate,
     airtone_chain_rhythm,
     back_incised_divisions,
     bcl_color_fingering_rhythm,
