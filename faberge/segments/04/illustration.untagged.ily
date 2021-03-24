@@ -663,7 +663,8 @@ d_Piano_RH_Music_Voice = {
 
     {
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [04 Piano_RH_Music_Voice measure 179 / measure 3]
             \once \override Staff.Clef.X-extent = ##f
@@ -714,7 +715,8 @@ d_Piano_RH_Music_Voice = {
 
         }
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             <g a c'>8
             ^ \baca-sharp-markup
@@ -860,7 +862,8 @@ d_Piano_LH_Music_Voice = {
 
     {
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [04 Piano_LH_Music_Voice measure 179 / measure 3]
             <g a b c'>8
@@ -892,7 +895,8 @@ d_Piano_LH_Music_Voice = {
 
         }
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             <g a b c'>8
 
@@ -1114,7 +1118,8 @@ d_Percussion_Music_Voice = {
     R1 * 3/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [04 Percussion_Music_Voice measure 180 / measure 4]
         c'4
@@ -1168,7 +1173,8 @@ d_Percussion_Music_Voice = {
     R1 * 3/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [04 Percussion_Music_Voice measure 184 / measure 8]
         c'4
@@ -1231,7 +1237,8 @@ d_Percussion_Music_Staff = <<
 d_Violin_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 16/22 {
+    \times 16/22
+    {
 
         % [04 Violin_Music_Voice measure 177 / measure 1]
         \set Staff.shortInstrumentName = \faberge-vn-markup
@@ -1336,7 +1343,8 @@ d_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [04 Violin_Music_Voice measure 179 / measure 3]
         c''8

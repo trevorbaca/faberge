@@ -708,7 +708,8 @@ n_Clarinet_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 263 / measure 2]
         bf!8
@@ -757,7 +758,8 @@ n_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 264 / measure 3]
         bf8
@@ -799,7 +801,8 @@ n_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 265 / measure 4]
         af!8
@@ -850,7 +853,8 @@ n_Clarinet_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 267 / measure 6]
         g8
@@ -895,7 +899,8 @@ n_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 268 / measure 7]
         g8
@@ -937,7 +942,8 @@ n_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Clarinet_Music_Voice measure 269 / measure 8]
         g8
@@ -1065,7 +1071,8 @@ n_Piano_RH_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Piano_RH_Music_Voice measure 263 / measure 2]
         \stopStaff
@@ -1609,7 +1616,8 @@ n_Violin_Music_Voice = {
     \revert DynamicLineSpanner.staff-padding
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [14 Violin_Music_Voice measure 265 / measure 4]
         \override DynamicLineSpanner.staff-padding = 8

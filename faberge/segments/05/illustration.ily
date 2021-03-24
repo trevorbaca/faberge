@@ -254,7 +254,8 @@ e_Flute_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Flute_Music_Voice measure 187 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         gs'!4                                                                  %! faberge.suffixed_colortrill_rhythm()
@@ -313,7 +314,8 @@ e_Flute_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Flute_Music_Voice measure 190 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
         a'4                                                                    %! faberge.suffixed_colortrill_rhythm()
@@ -348,7 +350,8 @@ e_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.suffixed_colortrill_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Flute_Music_Voice measure 191 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         a'4                                                                    %! faberge.suffixed_colortrill_rhythm()
@@ -754,7 +757,8 @@ e_Clarinet_Music_Voice = {                                                     %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Clarinet_Music_Voice measure 187 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         d'4                                                                    %! faberge.suffixed_colortrill_rhythm()
@@ -813,7 +817,8 @@ e_Clarinet_Music_Voice = {                                                     %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Clarinet_Music_Voice measure 190 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         cs'!4                                                                  %! faberge.suffixed_colortrill_rhythm()
@@ -848,7 +853,8 @@ e_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.suffixed_colortrill_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm()
-    \times 4/5 {                                                               %! faberge.suffixed_colortrill_rhythm()
+    \times 4/5                                                                 %! faberge.suffixed_colortrill_rhythm()
+    {                                                                          %! faberge.suffixed_colortrill_rhythm()
 
         % [05 Clarinet_Music_Voice measure 191 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
         cs'!4                                                                  %! faberge.suffixed_colortrill_rhythm()

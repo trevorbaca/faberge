@@ -2380,7 +2380,8 @@ h_Violin_Music_Voice = {                                                       %
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 6/5 {                                                               %! baca.skeleton()
+    \times 6/5                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [08 Violin_Music_Voice measure 215 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
@@ -2471,7 +2472,8 @@ h_Violin_Music_Voice = {                                                       %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 9/5 {                                                               %! baca.skeleton()
+    \times 9/5                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [08 Violin_Music_Voice measure 217 / measure 8]                      %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -2526,7 +2528,8 @@ h_Violin_Music_Voice = {                                                       %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 6/5 {                                                               %! baca.skeleton()
+    \times 6/5                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [08 Violin_Music_Voice measure 218 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
         as'!2                                                                  %! baca.skeleton()
@@ -2809,7 +2812,8 @@ h_Viola_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 9/5 {                                                               %! baca.skeleton()
+    \times 9/5                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [08 Viola_Music_Voice measure 217 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.SegmentMaker._style_fermata_measures(3)
@@ -2869,7 +2873,8 @@ h_Viola_Music_Voice = {                                                        %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 6/5 {                                                               %! baca.skeleton()
+    \times 6/5                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [08 Viola_Music_Voice measure 218 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
         as'!4                                                                  %! baca.skeleton()

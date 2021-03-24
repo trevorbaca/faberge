@@ -261,7 +261,8 @@ i_Flute_Music_Voice = {                                                        %
     - \espressivo                                                              %! baca.espressivo():baca.IndicatorCommand._call()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm()
-    \times 5/6 {                                                               %! faberge.even_tuplet_rhythm()
+    \times 5/6                                                                 %! faberge.even_tuplet_rhythm()
+    {                                                                          %! faberge.even_tuplet_rhythm()
 
         % [09 Flute_Music_Voice measure 221 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
         g'2                                                                    %! faberge.even_tuplet_rhythm()
@@ -629,7 +630,8 @@ i_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! baca.skeleton()
 
         \tweak text #tuplet-number::calc-fraction-text                         %! baca.skeleton()
-        \times 5/4 {                                                           %! baca.skeleton()
+        \times 5/4                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             % [09 English_Horn_Music_Voice measure 223 / measure 4]            %! baca.SegmentMaker._comment_measure_numbers()
             \override DynamicLineSpanner.staff-padding = 6                     %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
@@ -673,7 +675,8 @@ i_English_Horn_Music_Voice = {                                                 %
         }                                                                      %! baca.skeleton()
 
         \tweak text #tuplet-number::calc-fraction-text                         %! baca.skeleton()
-        \times 5/4 {                                                           %! baca.skeleton()
+        \times 5/4                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             es''!4                                                             %! baca.skeleton()
             \stopTrillSpan                                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
@@ -826,7 +829,8 @@ i_English_Horn_Music_Staff = <<                                                %
 i_Clarinet_Music_Voice = {                                                     %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm()
-    \times 6/7 {                                                               %! faberge.even_tuplet_rhythm()
+    \times 6/7                                                                 %! faberge.even_tuplet_rhythm()
+    {                                                                          %! faberge.even_tuplet_rhythm()
 
         % [09 Clarinet_Music_Voice measure 220 / measure 1]                    %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-bcl-markup                   %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1570,7 +1574,8 @@ i_Violin_Music_Voice = {                                                       %
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1612,7 +1617,8 @@ i_Violin_Music_Voice = {                                                       %
         \p                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1653,7 +1659,8 @@ i_Violin_Music_Voice = {                                                       %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 5/6 {                                                               %! baca.skeleton()
+    \times 5/6                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 221 / measure 2]                      %! baca.SegmentMaker._comment_measure_numbers()
         as'!2                                                                  %! baca.skeleton()
@@ -1667,7 +1674,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1709,7 +1717,8 @@ i_Violin_Music_Voice = {                                                       %
         \mp                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1763,7 +1772,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1805,7 +1815,8 @@ i_Violin_Music_Voice = {                                                       %
         \mf                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1846,7 +1857,8 @@ i_Violin_Music_Voice = {                                                       %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 5/6 {                                                               %! baca.skeleton()
+    \times 5/6                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 223 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
         as'!2                                                                  %! baca.skeleton()
@@ -1860,7 +1872,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1902,7 +1915,8 @@ i_Violin_Music_Voice = {                                                       %
         \f                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -1943,7 +1957,8 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! baca.skeleton()
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 224 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
         \override DynamicLineSpanner.staff-padding = 9                         %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
@@ -1958,7 +1973,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             b'2                                                                %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2000,7 +2016,8 @@ i_Violin_Music_Voice = {                                                       %
         \baca-effort-ff                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             b'2                                                                %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2054,7 +2071,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             b'2                                                                %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2094,7 +2112,8 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! baca.skeleton()
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Violin_Music_Voice measure 226 / measure 7]                      %! baca.SegmentMaker._comment_measure_numbers()
         b'2                                                                    %! baca.skeleton()
@@ -2108,7 +2127,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             b'2                                                                %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2150,7 +2170,8 @@ i_Violin_Music_Voice = {                                                       %
         \baca-effort-ff                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             b'2                                                                %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2239,7 +2260,8 @@ i_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             dtqf''!2                                                           %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2364,7 +2386,8 @@ i_Viola_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2403,7 +2426,8 @@ i_Viola_Music_Voice = {                                                        %
 
         }                                                                      %! baca.skeleton()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2455,9 +2479,11 @@ i_Viola_Music_Voice = {                                                        %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 5/6 {                                                               %! baca.skeleton()
+    \times 5/6                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             % [09 Viola_Music_Voice measure 221 / measure 2]                   %! baca.SegmentMaker._comment_measure_numbers()
             as'!2                                                              %! baca.skeleton()
@@ -2512,7 +2538,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2581,7 +2608,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2620,7 +2648,8 @@ i_Viola_Music_Voice = {                                                        %
 
         }                                                                      %! baca.skeleton()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2672,9 +2701,11 @@ i_Viola_Music_Voice = {                                                        %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton()
-    \times 5/6 {                                                               %! baca.skeleton()
+    \times 5/6                                                                 %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             % [09 Viola_Music_Voice measure 223 / measure 4]                   %! baca.SegmentMaker._comment_measure_numbers()
             as'!2                                                              %! baca.skeleton()
@@ -2739,7 +2770,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanSCP                                                  %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             as'!2                                                              %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2780,7 +2812,8 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Viola_Music_Voice measure 224 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!2                                                                 %! baca.skeleton()
@@ -2796,7 +2829,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             aqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2838,7 +2872,8 @@ i_Viola_Music_Voice = {                                                        %
         \baca-effort-ff                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             aqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2892,7 +2927,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             aqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2932,7 +2968,8 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Viola_Music_Voice measure 226 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         aqs'!2                                                                 %! baca.skeleton()
@@ -2946,7 +2983,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             aqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -2988,7 +3026,8 @@ i_Viola_Music_Voice = {                                                        %
         \baca-effort-ff                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \baca-staccati #4                                                    %! baca.quadruple_staccato():baca.IndicatorCommand._call()
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             aqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -3075,7 +3114,8 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 8                                               %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanRhythmAnnotation                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
-        \times 2/3 {                                                           %! baca.skeleton()
+        \times 2/3                                                             %! baca.skeleton()
+        {                                                                      %! baca.skeleton()
 
             bqs'!2                                                             %! baca.skeleton()
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
@@ -3232,7 +3272,8 @@ i_Cello_Music_Voice = {                                                        %
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Cello_Music_Voice measure 224 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
         \override DynamicLineSpanner.staff-padding = 8                         %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
@@ -3339,7 +3380,8 @@ i_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! baca.skeleton()
 
-    \times 8/12 {                                                              %! baca.skeleton()
+    \times 8/12                                                                %! baca.skeleton()
+    {                                                                          %! baca.skeleton()
 
         % [09 Cello_Music_Voice measure 226 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         e,2                                                                    %! baca.skeleton()

@@ -209,7 +209,8 @@ l_Global_Rests = {                                                             %
 l_Flute_Music_Voice = {                                                        %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm()
-    \times 10/12 {                                                             %! faberge.even_tuplet_rhythm()
+    \times 10/12                                                               %! faberge.even_tuplet_rhythm()
+    {                                                                          %! faberge.even_tuplet_rhythm()
 
         % [12 Flute_Music_Voice measure 245 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-bfl-markup                   %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -624,7 +625,8 @@ l_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm()
-    \times 6/4 {                                                               %! faberge.even_tuplet_rhythm()
+    \times 6/4                                                                 %! faberge.even_tuplet_rhythm()
+    {                                                                          %! faberge.even_tuplet_rhythm()
 
         % [12 Clarinet_Music_Voice measure 247 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         f16                                                                    %! faberge.even_tuplet_rhythm()
@@ -904,7 +906,8 @@ l_Piano_RH_Music_Voice = {                                                     %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 8/13 {                                                              %! faberge.clb_rhythm()
+    \times 8/13                                                                %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Piano_RH_Music_Voice measure 250 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -954,7 +957,8 @@ l_Piano_RH_Music_Voice = {                                                     %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 14/19 {                                                             %! faberge.clb_rhythm()
+    \times 14/19                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Piano_RH_Music_Voice measure 252 / measure 8]                    %! baca.SegmentMaker._comment_measure_numbers()
         a''8                                                                   %! faberge.clb_rhythm()
@@ -1535,7 +1539,8 @@ l_Percussion_Music_Staff = <<                                                  %
 l_Violin_Music_Voice = {                                                       %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 18/20 {                                                             %! faberge.clb_rhythm()
+    \times 18/20                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Violin_Music_Voice measure 245 / measure 1]                      %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -1661,7 +1666,8 @@ l_Violin_Music_Voice = {                                                       %
     ]                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 4/6 {                                                               %! faberge.clb_rhythm()
+    \times 4/6                                                                 %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Violin_Music_Voice measure 248 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()
@@ -1768,7 +1774,8 @@ l_Violin_Music_Voice = {                                                       %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 8/10 {                                                              %! faberge.clb_rhythm()
+    \times 8/10                                                                %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Violin_Music_Voice measure 250 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -1852,7 +1859,8 @@ l_Violin_Music_Voice = {                                                       %
     ]                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 8/10 {                                                              %! faberge.clb_rhythm()
+    \times 8/10                                                                %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Violin_Music_Voice measure 253 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()
@@ -2026,7 +2034,8 @@ l_Viola_Music_Voice = {                                                        %
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 4/6 {                                                               %! faberge.clb_rhythm()
+    \times 4/6                                                                 %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Viola_Music_Voice measure 250 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -2076,7 +2085,8 @@ l_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 10/16 {                                                             %! faberge.clb_rhythm()
+    \times 10/16                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Viola_Music_Voice measure 251 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         c'8                                                                    %! faberge.clb_rhythm()
@@ -2132,7 +2142,8 @@ l_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 8/10 {                                                              %! faberge.clb_rhythm()
+    \times 8/10                                                                %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Viola_Music_Voice measure 253 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
         d'8                                                                    %! faberge.clb_rhythm()
@@ -2218,7 +2229,8 @@ l_Viola_Music_Staff = <<                                                       %
 l_Cello_Music_Voice = {                                                        %! ide.Path.extern()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 10/12 {                                                             %! faberge.clb_rhythm()
+    \times 10/12                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 245 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
         \set Staff.shortInstrumentName = \faberge-vc-markup                    %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_MARGIN_MARKUP
@@ -2299,7 +2311,8 @@ l_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 8/14 {                                                              %! faberge.clb_rhythm()
+    \times 8/14                                                                %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 246 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()
@@ -2351,7 +2364,8 @@ l_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 10/12 {                                                             %! faberge.clb_rhythm()
+    \times 10/12                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 247 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()
@@ -2476,7 +2490,8 @@ l_Cello_Music_Voice = {                                                        %
     }                                                                          %! baca.skeleton()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 4/6 {                                                               %! faberge.clb_rhythm()
+    \times 4/6                                                                 %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 250 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -2526,7 +2541,8 @@ l_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 4/6 {                                                               %! faberge.clb_rhythm()
+    \times 4/6                                                                 %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 251 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()
@@ -2552,7 +2568,8 @@ l_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm()
-    \times 14/16 {                                                             %! faberge.clb_rhythm()
+    \times 14/16                                                               %! faberge.clb_rhythm()
+    {                                                                          %! faberge.clb_rhythm()
 
         % [12 Cello_Music_Voice measure 252 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
         b'8                                                                    %! faberge.clb_rhythm()

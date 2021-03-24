@@ -170,7 +170,8 @@ m_Flute_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [13 Flute_Music_Voice measure 256 / measure 3]
         af'!4
@@ -560,7 +561,8 @@ m_Clarinet_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/8
+    {
 
         % [13 Clarinet_Music_Voice measure 256 / measure 3]
         b8
@@ -652,7 +654,8 @@ m_Clarinet_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Clarinet_Music_Voice measure 258 / measure 5]
         b8
@@ -707,7 +710,8 @@ m_Clarinet_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Clarinet_Music_Voice measure 260 / measure 7]
         bf!8
@@ -756,7 +760,8 @@ m_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [13 Clarinet_Music_Voice measure 261 / measure 8]
         bf8
@@ -838,7 +843,8 @@ m_Clarinet_Music_Staff = <<
 m_Piano_RH_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/21 {
+    \times 14/21
+    {
 
         % [13 Piano_RH_Music_Voice measure 254 / measure 1]
         \set PianoStaff.shortInstrumentName = \faberge-pf-markup
@@ -1013,7 +1019,8 @@ m_Piano_RH_Music_Voice = {
     \bacaStopTextSpanMaterialAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/15 {
+    \times 8/15
+    {
 
         % [13 Piano_RH_Music_Voice measure 258 / measure 5]
         \stopStaff
@@ -1528,7 +1535,8 @@ m_Percussion_Music_Staff = <<
 m_Violin_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [13 Violin_Music_Voice measure 254 / measure 1]
         \set Staff.shortInstrumentName = \faberge-vn-markup
@@ -1620,7 +1628,8 @@ m_Violin_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/18 {
+    \times 14/18
+    {
 
         % [13 Violin_Music_Voice measure 256 / measure 3]
         b'8
@@ -1688,7 +1697,8 @@ m_Violin_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+    \times 8/14
+    {
 
         % [13 Violin_Music_Voice measure 258 / measure 5]
         b'8
@@ -1816,7 +1826,8 @@ m_Violin_Music_Staff = <<
 m_Viola_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [13 Viola_Music_Voice measure 254 / measure 1]
         \set Staff.shortInstrumentName = \faberge-va-markup
@@ -1920,7 +1931,8 @@ m_Viola_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [13 Viola_Music_Voice measure 256 / measure 3]
         d'8
@@ -1982,7 +1994,8 @@ m_Viola_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [13 Viola_Music_Voice measure 258 / measure 5]
         b8
@@ -2114,7 +2127,8 @@ m_Viola_Music_Staff = <<
 m_Cello_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/18 {
+    \times 14/18
+    {
 
         % [13 Cello_Music_Voice measure 254 / measure 1]
         \set Staff.shortInstrumentName = \faberge-vc-markup
@@ -2212,7 +2226,8 @@ m_Cello_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [13 Cello_Music_Voice measure 256 / measure 3]
         a'8
@@ -2286,7 +2301,8 @@ m_Cello_Music_Voice = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [13 Cello_Music_Voice measure 258 / measure 5]
         a'8

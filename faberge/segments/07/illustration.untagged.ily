@@ -172,7 +172,8 @@ g_Flute_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [07 Flute_Music_Voice measure 203 / measure 2]
         af'!4
@@ -229,7 +230,8 @@ g_Flute_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 Flute_Music_Voice measure 205 / measure 4]
         af'!4
@@ -264,7 +266,8 @@ g_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/5 {
+    \times 7/5
+    {
 
         % [07 Flute_Music_Voice measure 206 / measure 5]
         fs'!4
@@ -426,7 +429,8 @@ g_English_Horn_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 English_Horn_Music_Voice measure 205 / measure 4]
         \override TrillSpanner.staff-padding = 5.5
@@ -514,7 +518,8 @@ g_English_Horn_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 English_Horn_Music_Voice measure 209 / measure 8]
         ds'''!4
@@ -635,7 +640,8 @@ g_Clarinet_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [07 Clarinet_Music_Voice measure 203 / measure 2]
         g'4
@@ -692,7 +698,8 @@ g_Clarinet_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [07 Clarinet_Music_Voice measure 205 / measure 4]
         g'4
@@ -728,7 +735,8 @@ g_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/6
+    {
 
         % [07 Clarinet_Music_Voice measure 206 / measure 5]
         \override DynamicLineSpanner.staff-padding = 9
@@ -1900,7 +1908,8 @@ g_Violin_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/11 {
+    \times 8/11
+    {
 
         % [07 Violin_Music_Voice measure 204 / measure 3]
         \stopStaff
@@ -1974,7 +1983,8 @@ g_Violin_Music_Voice = {
     \bacaStopTextSpanMaterialAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 26/28 {
+    \times 26/28
+    {
 
         % [07 Violin_Music_Voice measure 206 / measure 5]
         \override Stem.direction = #down
@@ -2074,7 +2084,8 @@ g_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 8/9
+    {
 
         % [07 Violin_Music_Voice measure 208 / measure 7]
         \once \override DynamicText.extra-offset = #'(-4 . 0)
@@ -2191,7 +2202,8 @@ g_Violin_Music_Staff = <<
 
 g_Viola_Music_Voice = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [07 Viola_Music_Voice measure 202 / measure 1]
         \set Staff.shortInstrumentName = \faberge-va-markup
@@ -2232,7 +2244,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         cs''!8
         ]
@@ -2241,7 +2254,8 @@ g_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         cs''!8
         [
@@ -2280,7 +2294,8 @@ g_Viola_Music_Voice = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [07 Viola_Music_Voice measure 204 / measure 3]
         \stopStaff
@@ -2382,7 +2397,8 @@ g_Viola_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 20/22 {
+    \times 20/22
+    {
 
         % [07 Viola_Music_Voice measure 207 / measure 6]
         \stopStaff

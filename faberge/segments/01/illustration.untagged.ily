@@ -223,7 +223,8 @@ a_English_Horn_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [01 English_Horn_Music_Voice measure 3]
         \stopStaff
@@ -752,7 +753,8 @@ a_Violin_Music_Staff = <<
 
 a_Viola_Music_Voice = {
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [01 Viola_Music_Voice measure 1]
         \stopStaff
@@ -785,7 +787,8 @@ a_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
 
@@ -793,7 +796,8 @@ a_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         [

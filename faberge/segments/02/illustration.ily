@@ -1670,7 +1670,8 @@ b_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 7 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -1706,7 +1707,8 @@ b_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 10 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -1767,7 +1769,8 @@ b_Flute_Music_Voice = {                                                        %
     r8                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 14 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -1804,7 +1807,8 @@ b_Flute_Music_Voice = {                                                        %
     r2.                                                                        %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 18 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -1902,7 +1906,8 @@ b_Flute_Music_Voice = {                                                        %
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 24 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -1941,7 +1946,8 @@ b_Flute_Music_Voice = {                                                        %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 28 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -1995,7 +2001,8 @@ b_Flute_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 31 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -2016,7 +2023,8 @@ b_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 32 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -2041,7 +2049,8 @@ b_Flute_Music_Voice = {                                                        %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 35 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -2086,7 +2095,8 @@ b_Flute_Music_Voice = {                                                        %
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 38 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -2101,7 +2111,8 @@ b_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 39 / measure 35]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -2148,7 +2159,8 @@ b_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 42 / measure 38]                       %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -2186,7 +2198,8 @@ b_Flute_Music_Voice = {                                                        %
     r1                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 45 / measure 41]                       %! baca.SegmentMaker._comment_measure_numbers()
         f'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -2245,7 +2258,8 @@ b_Flute_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 48 / measure 44]                       %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -2304,7 +2318,8 @@ b_Flute_Music_Voice = {                                                        %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 52 / measure 48]                       %! baca.SegmentMaker._comment_measure_numbers()
         f'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -2360,7 +2375,8 @@ b_Flute_Music_Voice = {                                                        %
     r8                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 55 / measure 51]                       %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -2419,7 +2435,8 @@ b_Flute_Music_Voice = {                                                        %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Flute_Music_Voice measure 59 / measure 55]                       %! baca.SegmentMaker._comment_measure_numbers()
         f'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -2656,7 +2673,8 @@ b_Flute_Music_Voice = {                                                        %
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
-    \times 2/3 {                                                               %! faberge.glow_rhythm()
+    \times 2/3                                                                 %! faberge.glow_rhythm()
+    {                                                                          %! faberge.glow_rhythm()
 
         fs''4                                                                  %! faberge.glow_rhythm()
         \repeatTie
@@ -3323,7 +3341,8 @@ b_English_Horn_Music_Voice = {                                                 %
     % [02 English_Horn_Music_Voice measure 85 / measure 81]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3349,7 +3368,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     ef'!8                                                                      %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r8                                                                     %! faberge.keynoise_rhythm()
 
@@ -3359,7 +3379,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         % [02 English_Horn_Music_Voice measure 87 / measure 83]                %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! faberge.keynoise_rhythm()
@@ -3368,7 +3389,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     }                                                                          %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r4                                                                     %! faberge.keynoise_rhythm()
 
@@ -3384,7 +3406,8 @@ b_English_Horn_Music_Voice = {                                                 %
     bf'!16                                                                     %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3403,7 +3426,8 @@ b_English_Horn_Music_Voice = {                                                 %
     % [02 English_Horn_Music_Voice measure 88 / measure 84]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3424,7 +3448,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     cs'!8                                                                      %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r8                                                                     %! faberge.keynoise_rhythm()
 
@@ -3434,7 +3459,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         % [02 English_Horn_Music_Voice measure 90 / measure 86]                %! baca.SegmentMaker._comment_measure_numbers()
         r16                                                                    %! faberge.keynoise_rhythm()
@@ -3443,7 +3469,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     }                                                                          %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r4                                                                     %! faberge.keynoise_rhythm()
 
@@ -3459,7 +3486,8 @@ b_English_Horn_Music_Voice = {                                                 %
     a'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3478,7 +3506,8 @@ b_English_Horn_Music_Voice = {                                                 %
     % [02 English_Horn_Music_Voice measure 91 / measure 87]                    %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3498,7 +3527,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     ef'!8                                                                      %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         % [02 English_Horn_Music_Voice measure 92 / measure 88]                %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.keynoise_rhythm()
@@ -3509,7 +3539,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     r4                                                                         %! faberge.keynoise_rhythm()
 
-    \times 4/5 {                                                               %! faberge.keynoise_rhythm()
+    \times 4/5                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r16                                                                    %! faberge.keynoise_rhythm()
 
@@ -3517,7 +3548,8 @@ b_English_Horn_Music_Voice = {                                                 %
 
     }                                                                          %! faberge.keynoise_rhythm()
 
-    \times 2/3 {                                                               %! faberge.keynoise_rhythm()
+    \times 2/3                                                                 %! faberge.keynoise_rhythm()
+    {                                                                          %! faberge.keynoise_rhythm()
 
         r4                                                                     %! faberge.keynoise_rhythm()
 
@@ -3677,7 +3709,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 7 / measure 3]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -3702,7 +3735,8 @@ b_Clarinet_Music_Voice = {                                                     %
     r2.                                                                        %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 10 / measure 6]                     %! baca.SegmentMaker._comment_measure_numbers()
         gs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -3719,7 +3753,8 @@ b_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 11 / measure 7]                     %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -3764,7 +3799,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 14 / measure 10]                    %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -3802,7 +3838,8 @@ b_Clarinet_Music_Voice = {                                                     %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 17 / measure 13]                    %! baca.SegmentMaker._comment_measure_numbers()
         g'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -3819,7 +3856,8 @@ b_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 18 / measure 14]                    %! baca.SegmentMaker._comment_measure_numbers()
         r2.                                                                    %! faberge.shell_exchange_rhythm()
@@ -3866,7 +3904,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 21 / measure 17]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -3920,7 +3959,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 24 / measure 20]                    %! baca.SegmentMaker._comment_measure_numbers()
         r2.                                                                    %! faberge.shell_exchange_rhythm()
@@ -3937,7 +3977,8 @@ b_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 25 / measure 21]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -4004,7 +4045,8 @@ b_Clarinet_Music_Voice = {                                                     %
     r1                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 31 / measure 27]                    %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -4034,7 +4076,8 @@ b_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 32 / measure 28]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -4070,7 +4113,8 @@ b_Clarinet_Music_Voice = {                                                     %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 35 / measure 31]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -4106,7 +4150,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 38 / measure 34]                    %! baca.SegmentMaker._comment_measure_numbers()
         gs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -4123,7 +4168,8 @@ b_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 39 / measure 35]                    %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -4170,7 +4216,8 @@ b_Clarinet_Music_Voice = {                                                     %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Clarinet_Music_Voice measure 42 / measure 38]                    %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -6084,7 +6131,8 @@ b_Percussion_Music_Voice = {                                                   %
     r1                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 7 / measure 3]                    %! baca.SegmentMaker._comment_measure_numbers()
         fs'!8                                                                  %! faberge.shell_exchange_rhythm()
@@ -6133,7 +6181,8 @@ b_Percussion_Music_Voice = {                                                   %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 11 / measure 7]                   %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6202,7 +6251,8 @@ b_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 17 / measure 13]                  %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -6218,7 +6268,8 @@ b_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 18 / measure 14]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -6270,7 +6321,8 @@ b_Percussion_Music_Voice = {                                                   %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 21 / measure 17]                  %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -6294,7 +6346,8 @@ b_Percussion_Music_Voice = {                                                   %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 24 / measure 20]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -6314,7 +6367,8 @@ b_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 25 / measure 21]                  %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -6397,7 +6451,8 @@ b_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 31 / measure 27]                  %! baca.SegmentMaker._comment_measure_numbers()
         r2.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6467,7 +6522,8 @@ b_Percussion_Music_Voice = {                                                   %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 38 / measure 34]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6487,7 +6543,8 @@ b_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 39 / measure 35]                  %! baca.SegmentMaker._comment_measure_numbers()
         fs'!8                                                                  %! faberge.shell_exchange_rhythm()
@@ -6556,7 +6613,8 @@ b_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 45 / measure 41]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6604,7 +6662,8 @@ b_Percussion_Music_Voice = {                                                   %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 48 / measure 44]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6654,7 +6713,8 @@ b_Percussion_Music_Voice = {                                                   %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 51 / measure 47]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -6717,7 +6777,8 @@ b_Percussion_Music_Voice = {                                                   %
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 55 / measure 51]                  %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -6768,7 +6829,8 @@ b_Percussion_Music_Voice = {                                                   %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 59 / measure 55]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -6815,7 +6877,8 @@ b_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 61 / measure 57]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -6900,7 +6963,8 @@ b_Percussion_Music_Voice = {                                                   %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 65 / measure 61]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7000,7 +7064,8 @@ b_Percussion_Music_Voice = {                                                   %
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 75 / measure 71]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7020,7 +7085,8 @@ b_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 76 / measure 72]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7098,7 +7164,8 @@ b_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 79 / measure 75]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7163,7 +7230,8 @@ b_Percussion_Music_Voice = {                                                   %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 83 / measure 79]                  %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7334,7 +7402,8 @@ b_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 93 / measure 89]                  %! baca.SegmentMaker._comment_measure_numbers()
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
@@ -7370,7 +7439,8 @@ b_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Percussion_Music_Voice measure 94 / measure 90]                  %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7545,7 +7615,8 @@ b_Violin_Music_Voice = {                                                       %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 7 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
         r2.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7584,7 +7655,8 @@ b_Violin_Music_Voice = {                                                       %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 11 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -7620,7 +7692,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 14 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -7656,7 +7729,8 @@ b_Violin_Music_Voice = {                                                       %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 17 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7675,7 +7749,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 18 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7713,7 +7788,8 @@ b_Violin_Music_Voice = {                                                       %
     r1                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 21 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7760,7 +7836,8 @@ b_Violin_Music_Voice = {                                                       %
     r4                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 24 / measure 20]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7781,7 +7858,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 25 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
         f'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -7855,7 +7933,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 31 / measure 27]                      %! baca.SegmentMaker._comment_measure_numbers()
         r2                                                                     %! faberge.shell_exchange_rhythm()
@@ -7876,7 +7955,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 32 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4.                                                                    %! faberge.shell_exchange_rhythm()
@@ -7941,7 +8021,8 @@ b_Violin_Music_Voice = {                                                       %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 38 / measure 34]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -7978,7 +8059,8 @@ b_Violin_Music_Voice = {                                                       %
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 42 / measure 38]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -8049,7 +8131,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 45 / measure 41]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -8094,7 +8177,8 @@ b_Violin_Music_Voice = {                                                       %
     r2                                                                         %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 48 / measure 44]                      %! baca.SegmentMaker._comment_measure_numbers()
         f'''8                                                                  %! faberge.shell_exchange_rhythm()
@@ -8151,7 +8235,8 @@ b_Violin_Music_Voice = {                                                       %
     r2.                                                                        %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 52 / measure 48]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -8240,7 +8325,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 58 / measure 54]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -8255,7 +8341,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 59 / measure 55]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -8292,7 +8379,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 61 / measure 57]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8320,7 +8408,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 62 / measure 58]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8374,7 +8463,8 @@ b_Violin_Music_Voice = {                                                       %
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 65 / measure 61]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8597,7 +8687,8 @@ b_Violin_Music_Voice = {                                                       %
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 75 / measure 71]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8615,7 +8706,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 76 / measure 72]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8691,7 +8783,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 79 / measure 75]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8747,7 +8840,8 @@ b_Violin_Music_Voice = {                                                       %
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 4/3 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 4/3                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 82 / measure 78]                      %! baca.SegmentMaker._comment_measure_numbers()
         r8                                                                     %! faberge.shell_exchange_rhythm()
@@ -8766,7 +8860,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 83 / measure 79]                      %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.shell_exchange_rhythm()
@@ -8968,7 +9063,8 @@ b_Violin_Music_Voice = {                                                       %
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 6/5 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 6/5                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 93 / measure 89]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -8997,7 +9093,8 @@ b_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm()
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm()
-    \times 8/7 {                                                               %! faberge.shell_exchange_rhythm()
+    \times 8/7                                                                 %! faberge.shell_exchange_rhythm()
+    {                                                                          %! faberge.shell_exchange_rhythm()
 
         % [02 Violin_Music_Voice measure 94 / measure 90]                      %! baca.SegmentMaker._comment_measure_numbers()
         fs'''!8                                                                %! faberge.shell_exchange_rhythm()
@@ -9418,7 +9515,8 @@ b_Viola_Music_Voice = {                                                        %
     \bacaStopTextSpanSCP                                                       %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 67 / measure 63]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.spazzolati_rhythm()
@@ -9436,7 +9534,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9444,7 +9543,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9456,7 +9556,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 68 / measure 64]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.spazzolati_rhythm()
@@ -9465,7 +9566,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9477,7 +9579,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r4                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9485,7 +9588,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9493,7 +9597,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 69 / measure 65]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9506,7 +9611,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r4                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9526,7 +9632,8 @@ b_Viola_Music_Voice = {                                                        %
     % [02 Viola_Music_Voice measure 72 / measure 68]                           %! baca.SegmentMaker._comment_measure_numbers()
     r1                                                                         %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 73 / measure 69]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9545,7 +9652,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r4                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9553,7 +9661,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9561,7 +9670,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9573,7 +9683,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 74 / measure 70]                       %! baca.SegmentMaker._comment_measure_numbers()
         r4                                                                     %! faberge.spazzolati_rhythm()
@@ -9582,7 +9693,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9590,7 +9702,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9675,7 +9788,8 @@ b_Viola_Music_Voice = {                                                        %
     \bacaStopTextSpanSCP                                                       %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 85 / measure 81]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9697,7 +9811,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r8                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9709,7 +9824,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 86 / measure 82]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9718,7 +9834,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9730,7 +9847,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9738,7 +9856,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 87 / measure 83]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9751,7 +9870,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r8                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9778,7 +9898,8 @@ b_Viola_Music_Voice = {                                                        %
     % [02 Viola_Music_Voice measure 91 / measure 87]                           %! baca.SegmentMaker._comment_measure_numbers()
     r4                                                                         %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -9796,7 +9917,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9804,7 +9926,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [02 Viola_Music_Voice measure 92 / measure 88]                       %! baca.SegmentMaker._comment_measure_numbers()
         e'8                                                                    %! faberge.spazzolati_rhythm()
@@ -9817,7 +9940,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         r8                                                                     %! faberge.spazzolati_rhythm()
 
@@ -9829,7 +9953,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -9837,7 +9962,8 @@ b_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
