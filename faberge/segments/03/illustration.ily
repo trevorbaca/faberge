@@ -4296,7 +4296,8 @@ c_English_Horn_Music_Voice = {                                                 %
                     c'2.
                 }
             >>
-            \layout {
+            \layout
+            {
                 indent = 0
                 ragged-right = ##t
             }
