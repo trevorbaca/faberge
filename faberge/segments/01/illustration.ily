@@ -263,7 +263,8 @@ a_English_Horn_Music_Voice = {                                                 %
                 ragged-right = ##t
             }
         }
-    \times 1/1 {                                                               %! faberge.ratchet_rhythm()
+    \times 1/1                                                                 %! faberge.ratchet_rhythm()
+    {                                                                          %! faberge.ratchet_rhythm()
 
         % [01 English_Horn_Music_Voice measure 3]                              %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -852,7 +853,8 @@ a_Violin_Music_Staff = <<                                                      %
 
 a_Viola_Music_Voice = {                                                        %! ide.Path.extern()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         % [01 Viola_Music_Voice measure 1]                                     %! baca.SegmentMaker._comment_measure_numbers()
         \stopStaff                                                             %! baca.staff_lines():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_STAFF_LINES
@@ -886,7 +888,8 @@ a_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
 
@@ -894,7 +897,8 @@ a_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.spazzolati_rhythm()
 
-    \times 2/3 {                                                               %! faberge.spazzolati_rhythm()
+    \times 2/3                                                                 %! faberge.spazzolati_rhythm()
+    {                                                                          %! faberge.spazzolati_rhythm()
 
         e'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__

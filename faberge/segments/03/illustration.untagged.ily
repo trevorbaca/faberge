@@ -979,7 +979,8 @@ c_Flute_Music_Voice = {
     ~
     ]
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Flute_Music_Voice measure 98 / measure 2]
         g''8
@@ -996,7 +997,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g''4
         \repeatTie
@@ -1032,7 +1034,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g''8
         - \tweak color #(x11-color 'blue)
@@ -1052,7 +1055,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'4
         \repeatTie
@@ -1133,7 +1137,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         - \tweak color #(x11-color 'blue)
@@ -1155,7 +1160,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
 
@@ -1200,7 +1206,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         :32
@@ -1232,7 +1239,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Flute_Music_Voice measure 111 / measure 15]
         g'16
@@ -1303,7 +1311,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'4
         :32
@@ -1341,7 +1350,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         :32
@@ -1423,7 +1433,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         :32
@@ -1506,7 +1517,8 @@ c_Flute_Music_Voice = {
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'8
 
@@ -1542,7 +1554,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         - \tweak color #(x11-color 'blue)
@@ -1571,7 +1584,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         [
@@ -1603,7 +1617,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g'8
         \repeatTie
@@ -1657,7 +1672,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         \repeatTie
@@ -1674,7 +1690,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Flute_Music_Voice measure 129 / measure 33]
         g'16
@@ -1723,7 +1740,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         \repeatTie
@@ -1770,7 +1788,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         :32
@@ -1822,7 +1841,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         :32
@@ -1874,7 +1894,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         :32
@@ -1932,7 +1953,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g'16
         :32
@@ -1981,7 +2003,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g''4
         \repeatTie
@@ -2033,7 +2056,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         g''8
         - \tweak color #(x11-color 'blue)
@@ -2048,7 +2072,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 Flute_Music_Voice measure 146 / measure 50]
         g'16
@@ -2145,7 +2170,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         - \tweak color #(x11-color 'blue)
@@ -2160,7 +2186,8 @@ c_Flute_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Flute_Music_Voice measure 152 / measure 56]
         g'4
@@ -2174,7 +2201,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         \repeatTie
@@ -2227,7 +2255,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Flute_Music_Voice measure 155 / measure 59]
         g'4
@@ -2244,7 +2273,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         g''16
         \repeatTie
@@ -2349,7 +2379,8 @@ c_Flute_Music_Voice = {
     - \tweak stencil ##f
     ~
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         gs''16
         \repeatTie
@@ -2514,7 +2545,8 @@ c_English_Horn_Music_Voice = {
     \set Staff.shortInstrumentName = \faberge-eh-markup
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2537,7 +2569,8 @@ c_English_Horn_Music_Voice = {
 
     aqf'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 98 / measure 2]
         r8
@@ -2548,7 +2581,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2556,7 +2590,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2573,7 +2608,8 @@ c_English_Horn_Music_Voice = {
     e'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2591,7 +2627,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2612,7 +2649,8 @@ c_English_Horn_Music_Voice = {
 
     bf'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2623,7 +2661,8 @@ c_English_Horn_Music_Voice = {
     % [03 English_Horn_Music_Voice measure 101 / measure 5]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2631,7 +2670,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2648,7 +2688,8 @@ c_English_Horn_Music_Voice = {
     cs'!16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2667,7 +2708,8 @@ c_English_Horn_Music_Voice = {
     % [03 English_Horn_Music_Voice measure 103 / measure 7]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2687,7 +2729,8 @@ c_English_Horn_Music_Voice = {
 
     fqs'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 104 / measure 8]
         r8
@@ -2698,7 +2741,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2706,7 +2750,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2723,7 +2768,8 @@ c_English_Horn_Music_Voice = {
     bf'!16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2741,7 +2787,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 106 / measure 10]
         r16
@@ -2762,7 +2809,8 @@ c_English_Horn_Music_Voice = {
 
     a'8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 107 / measure 11]
         r8
@@ -2773,7 +2821,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2781,7 +2830,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2798,7 +2848,8 @@ c_English_Horn_Music_Voice = {
     a'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2875,7 +2926,8 @@ c_English_Horn_Music_Voice = {
     - \tweak color #(x11-color 'blue)
     \baca-effort-ff
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2883,7 +2935,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 114 / measure 18]
         r16
@@ -2898,7 +2951,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2914,7 +2968,8 @@ c_English_Horn_Music_Voice = {
     e'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 115 / measure 19]
         r16
@@ -2931,7 +2986,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2952,7 +3008,8 @@ c_English_Horn_Music_Voice = {
 
     bf'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -2960,7 +3017,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -2975,7 +3033,8 @@ c_English_Horn_Music_Voice = {
     % [03 English_Horn_Music_Voice measure 117 / measure 21]
     r4
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -2991,7 +3050,8 @@ c_English_Horn_Music_Voice = {
     fqs'!16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3007,7 +3067,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 118 / measure 22]
         r16
@@ -3208,7 +3269,8 @@ c_English_Horn_Music_Voice = {
     r4
     \stopTrillSpan
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3231,7 +3293,8 @@ c_English_Horn_Music_Voice = {
 
     gs'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3242,7 +3305,8 @@ c_English_Horn_Music_Voice = {
     % [03 English_Horn_Music_Voice measure 142 / measure 46]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3250,7 +3314,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3267,7 +3332,8 @@ c_English_Horn_Music_Voice = {
     f'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3285,7 +3351,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 144 / measure 48]
         r16
@@ -3306,7 +3373,8 @@ c_English_Horn_Music_Voice = {
 
     f'8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 145 / measure 49]
         r8
@@ -3317,7 +3385,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3325,7 +3394,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 146 / measure 50]
         r4
@@ -3342,7 +3412,8 @@ c_English_Horn_Music_Voice = {
     d'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3360,7 +3431,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 147 / measure 51]
         r16
@@ -3381,7 +3453,8 @@ c_English_Horn_Music_Voice = {
 
     gs'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3391,7 +3464,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 148 / measure 52]
         r16
@@ -3400,7 +3474,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -3425,7 +3500,8 @@ c_English_Horn_Music_Voice = {
     aqf'!16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3443,7 +3519,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 150 / measure 54]
         r16
@@ -3464,7 +3541,8 @@ c_English_Horn_Music_Voice = {
 
     aqf'!8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 151 / measure 55]
         r8
@@ -3475,7 +3553,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3483,7 +3562,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 152 / measure 56]
         r4
@@ -3500,7 +3580,8 @@ c_English_Horn_Music_Voice = {
     d'16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3518,7 +3599,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 153 / measure 57]
         r16
@@ -3539,7 +3621,8 @@ c_English_Horn_Music_Voice = {
 
     e'8
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r8
 
@@ -3550,7 +3633,8 @@ c_English_Horn_Music_Voice = {
     % [03 English_Horn_Music_Voice measure 154 / measure 58]
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3558,7 +3642,8 @@ c_English_Horn_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 English_Horn_Music_Voice measure 155 / measure 59]
         r4
@@ -3575,7 +3660,8 @@ c_English_Horn_Music_Voice = {
     aqf'!16
     ]
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         r16
 
@@ -3593,7 +3679,8 @@ c_English_Horn_Music_Voice = {
 
     r4
 
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [03 English_Horn_Music_Voice measure 156 / measure 60]
         r16
@@ -3776,7 +3863,8 @@ c_English_Horn_Music_Voice = {
                 ragged-right = ##t
             }
         }
-    \times 1/1 {
+    \times 1/1
+    {
 
         % [03 English_Horn_Music_Voice measure 175 / measure 79]
         \override DynamicLineSpanner.staff-padding = 8.5
@@ -4887,7 +4975,8 @@ c_Piano_RH_Music_Voice = {
     R1 * 1/2
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/16 {
+    \times 10/16
+    {
 
         % [03 Piano_RH_Music_Voice measure 149 / measure 53]
         \stopStaff
@@ -4988,7 +5077,8 @@ c_Piano_RH_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/20 {
+    \times 12/20
+    {
 
         % [03 Piano_RH_Music_Voice measure 154 / measure 58]
         c''8
@@ -5036,7 +5126,8 @@ c_Piano_RH_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 18/34 {
+    \times 18/34
+    {
 
         % [03 Piano_RH_Music_Voice measure 156 / measure 60]
         g'8
@@ -5112,7 +5203,8 @@ c_Piano_RH_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [03 Piano_RH_Music_Voice measure 159 / measure 63]
         f''8
@@ -5160,7 +5252,8 @@ c_Piano_RH_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 18/26 {
+    \times 18/26
+    {
 
         % [03 Piano_RH_Music_Voice measure 161 / measure 65]
         d'''8
@@ -5256,7 +5349,8 @@ c_Piano_RH_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 16/20 {
+    \times 16/20
+    {
 
         % [03 Piano_RH_Music_Voice measure 166 / measure 70]
         g''8
@@ -5304,7 +5398,8 @@ c_Piano_RH_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/22 {
+    \times 14/22
+    {
 
         % [03 Piano_RH_Music_Voice measure 169 / measure 73]
         d''8
@@ -5356,7 +5451,8 @@ c_Piano_RH_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 18/34 {
+    \times 18/34
+    {
 
         % [03 Piano_RH_Music_Voice measure 171 / measure 75]
         d'''8
@@ -6624,7 +6720,8 @@ c_Percussion_Music_Voice = {
         \bacaStartTextSpanRhythmAnnotation
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4 {
+        \times 5/4
+        {
 
             c'4
             - \tweak color #(x11-color 'blue)
@@ -7335,7 +7432,8 @@ c_Violin_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/12 {
+    \times 10/12
+    {
 
         % [03 Violin_Music_Voice measure 149 / measure 53]
         \stopStaff
@@ -7398,7 +7496,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [03 Violin_Music_Voice measure 151 / measure 55]
         c''8
@@ -7466,7 +7565,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [03 Violin_Music_Voice measure 153 / measure 57]
         b'8
@@ -7540,7 +7640,8 @@ c_Violin_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/14 {
+    \times 10/14
+    {
 
         % [03 Violin_Music_Voice measure 156 / measure 60]
         b'8
@@ -7590,7 +7691,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \times 8/10
+    {
 
         % [03 Violin_Music_Voice measure 158 / measure 62]
         a'8
@@ -7628,7 +7730,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [03 Violin_Music_Voice measure 159 / measure 63]
         b'8
@@ -7696,7 +7799,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Violin_Music_Voice measure 161 / measure 65]
         c''8
@@ -7767,7 +7871,8 @@ c_Violin_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [03 Violin_Music_Voice measure 164 / measure 68]
         b'8
@@ -7848,7 +7953,8 @@ c_Violin_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Violin_Music_Voice measure 169 / measure 73]
         \override Stem.direction = #down
@@ -7915,7 +8021,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20 {
+    \times 14/20
+    {
 
         % [03 Violin_Music_Voice measure 171 / measure 75]
         c''8
@@ -7983,7 +8090,8 @@ c_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [03 Violin_Music_Voice measure 173 / measure 77]
         a'8
@@ -8043,7 +8151,8 @@ c_Violin_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [03 Violin_Music_Voice measure 176 / measure 80]
         b'8
@@ -8200,7 +8309,8 @@ c_Viola_Music_Voice = {
     :32
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 105 / measure 9]
         r4
@@ -8218,7 +8328,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8226,7 +8337,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8238,7 +8350,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 106 / measure 10]
         r4
@@ -8247,7 +8360,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8259,7 +8373,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 107 / measure 11]
         r4
@@ -8268,7 +8383,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8276,7 +8392,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8288,7 +8405,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8296,7 +8414,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 108 / measure 12]
         f'8
@@ -8305,7 +8424,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8317,7 +8437,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 109 / measure 13]
         r4
@@ -8332,7 +8453,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8344,7 +8466,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8352,7 +8475,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 110 / measure 14]
         f'8
@@ -8361,7 +8485,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8373,7 +8498,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8381,7 +8507,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8389,7 +8516,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 111 / measure 15]
         f'8
@@ -8402,7 +8530,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8410,7 +8539,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8422,7 +8552,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 112 / measure 16]
         r4
@@ -8431,7 +8562,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8439,7 +8571,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8451,7 +8584,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8459,7 +8593,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 113 / measure 17]
         f'8
@@ -8468,7 +8603,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8480,7 +8616,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8488,7 +8625,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 114 / measure 18]
         f'8
@@ -8501,7 +8639,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8509,7 +8648,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8517,7 +8657,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8529,7 +8670,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 115 / measure 19]
         r4
@@ -8538,7 +8680,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8546,7 +8689,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 116 / measure 20]
         f'8
@@ -8559,7 +8703,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8567,7 +8712,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8579,7 +8725,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8587,7 +8734,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 117 / measure 21]
         f'8
@@ -8596,7 +8744,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8608,7 +8757,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8616,7 +8766,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
 
@@ -8624,7 +8775,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [03 Viola_Music_Voice measure 118 / measure 22]
         f'8
@@ -8637,7 +8789,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         r4
 
@@ -8645,7 +8798,8 @@ c_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         f'8
         [
@@ -8789,7 +8943,8 @@ c_Viola_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [03 Viola_Music_Voice measure 149 / measure 53]
         \stopStaff
@@ -8839,7 +8994,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/16 {
+    \times 10/16
+    {
 
         % [03 Viola_Music_Voice measure 150 / measure 54]
         c'8
@@ -8895,7 +9051,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Viola_Music_Voice measure 152 / measure 56]
         b8
@@ -8968,7 +9125,8 @@ c_Viola_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 12/16 {
+    \times 12/16
+    {
 
         % [03 Viola_Music_Voice measure 155 / measure 59]
         d'8
@@ -9024,7 +9182,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Viola_Music_Voice measure 157 / measure 61]
         b8
@@ -9101,7 +9260,8 @@ c_Viola_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Viola_Music_Voice measure 160 / measure 64]
         d'8
@@ -9197,7 +9357,8 @@ c_Viola_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [03 Viola_Music_Voice measure 164 / measure 68]
         c'8
@@ -9241,7 +9402,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Viola_Music_Voice measure 165 / measure 69]
         c'8
@@ -9297,7 +9459,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/16 {
+    \times 10/16
+    {
 
         % [03 Viola_Music_Voice measure 167 / measure 71]
         b8
@@ -9353,7 +9516,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/8
+    {
 
         % [03 Viola_Music_Voice measure 169 / measure 73]
         d'8
@@ -9437,7 +9601,8 @@ c_Viola_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/14 {
+    \times 10/14
+    {
 
         % [03 Viola_Music_Voice measure 172 / measure 76]
         c'8
@@ -9487,7 +9652,8 @@ c_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 4/6
+    {
 
         % [03 Viola_Music_Voice measure 174 / measure 78]
         d'8
@@ -9995,7 +10161,8 @@ c_Cello_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 20/22 {
+    \times 20/22
+    {
 
         % [03 Cello_Music_Voice measure 157 / measure 61]
         \stopStaff
@@ -10087,7 +10254,8 @@ c_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 22/28 {
+    \times 22/28
+    {
 
         % [03 Cello_Music_Voice measure 160 / measure 64]
         c8
@@ -10179,7 +10347,8 @@ c_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 20/22 {
+    \times 20/22
+    {
 
         % [03 Cello_Music_Voice measure 163 / measure 67]
         e8
@@ -10306,7 +10475,8 @@ c_Cello_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 22/26 {
+    \times 22/26
+    {
 
         % [03 Cello_Music_Voice measure 169 / measure 73]
         e8
@@ -10392,7 +10562,8 @@ c_Cello_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \times 14/16
+    {
 
         % [03 Cello_Music_Voice measure 172 / measure 76]
         e8

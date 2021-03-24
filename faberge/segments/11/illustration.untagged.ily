@@ -131,7 +131,8 @@ k_Global_Rests = {
 k_Flute_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [11 Flute_Music_Voice measure 237 / measure 1]
         \set Staff.shortInstrumentName = \faberge-bfl-markup
@@ -188,7 +189,8 @@ k_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [11 Flute_Music_Voice measure 238 / measure 2]
         af''!4
@@ -223,7 +225,8 @@ k_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/10 {
+    \times 9/10
+    {
 
         % [11 Flute_Music_Voice measure 239 / measure 3]
         af''!4
@@ -258,7 +261,8 @@ k_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [11 Flute_Music_Voice measure 240 / measure 4]
         af''!4
@@ -325,7 +329,8 @@ k_Flute_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [11 Flute_Music_Voice measure 242 / measure 6]
         f'4
@@ -387,7 +392,8 @@ k_Flute_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [11 Flute_Music_Voice measure 244 / measure 8]
         f'4
@@ -653,7 +659,8 @@ k_English_Horn_Music_Staff = <<
 k_Clarinet_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [11 Clarinet_Music_Voice measure 237 / measure 1]
         \set Staff.shortInstrumentName = \faberge-bcl-markup
@@ -710,7 +717,8 @@ k_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [11 Clarinet_Music_Voice measure 238 / measure 2]
         gs''!4
@@ -745,7 +753,8 @@ k_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/10 {
+    \times 9/10
+    {
 
         % [11 Clarinet_Music_Voice measure 239 / measure 3]
         gs''!4
@@ -780,7 +789,8 @@ k_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [11 Clarinet_Music_Voice measure 240 / measure 4]
         gs''!4
@@ -816,7 +826,8 @@ k_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [11 Clarinet_Music_Voice measure 241 / measure 5]
         \override Script.X-extent = #'(0 . 0)
@@ -884,7 +895,8 @@ k_Clarinet_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 5/4
+    {
 
         % [11 Clarinet_Music_Voice measure 243 / measure 7]
         f4
@@ -1750,7 +1762,8 @@ k_Violin_Music_Voice = {
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5 {
+    \times 9/5
+    {
 
         % [11 Violin_Music_Voice measure 239 / measure 3]
         as'!2
@@ -1985,7 +1998,8 @@ k_Viola_Music_Voice = {
 
     >>
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         % [11 Viola_Music_Voice measure 238 / measure 2]
         r4
@@ -2008,7 +2022,8 @@ k_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
 
@@ -2016,7 +2031,8 @@ k_Viola_Music_Voice = {
 
     }
 
-    \times 2/3 {
+    \times 2/3
+    {
 
         e'8
         [

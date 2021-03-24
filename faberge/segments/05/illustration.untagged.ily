@@ -190,7 +190,8 @@ e_Flute_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Flute_Music_Voice measure 187 / measure 3]
         gs'!4
@@ -249,7 +250,8 @@ e_Flute_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Flute_Music_Voice measure 190 / measure 6]
         a'4
@@ -284,7 +286,8 @@ e_Flute_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Flute_Music_Voice measure 191 / measure 7]
         a'4
@@ -663,7 +666,8 @@ e_Clarinet_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Clarinet_Music_Voice measure 187 / measure 3]
         d'4
@@ -722,7 +726,8 @@ e_Clarinet_Music_Voice = {
     <> \bacaStopTextSpanRhythmAnnotation
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Clarinet_Music_Voice measure 190 / measure 6]
         cs'!4
@@ -757,7 +762,8 @@ e_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [05 Clarinet_Music_Voice measure 191 / measure 7]
         cs'!4

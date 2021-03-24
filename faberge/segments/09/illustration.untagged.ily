@@ -197,7 +197,8 @@ i_Flute_Music_Voice = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [09 Flute_Music_Voice measure 221 / measure 2]
         g'2
@@ -550,7 +551,8 @@ i_English_Horn_Music_Voice = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4 {
+        \times 5/4
+        {
 
             % [09 English_Horn_Music_Voice measure 223 / measure 4]
             \override DynamicLineSpanner.staff-padding = 6
@@ -594,7 +596,8 @@ i_English_Horn_Music_Voice = {
         }
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4 {
+        \times 5/4
+        {
 
             es''!4
             \stopTrillSpan
@@ -738,7 +741,8 @@ i_English_Horn_Music_Staff = <<
 i_Clarinet_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 6/7
+    {
 
         % [09 Clarinet_Music_Voice measure 220 / measure 1]
         \set Staff.shortInstrumentName = \faberge-bcl-markup
@@ -1415,7 +1419,8 @@ i_Violin_Music_Voice = {
         \set Staff.shortInstrumentName = \faberge-vn-markup
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1457,7 +1462,8 @@ i_Violin_Music_Voice = {
         \p
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1498,7 +1504,8 @@ i_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [09 Violin_Music_Voice measure 221 / measure 2]
         as'!2
@@ -1512,7 +1519,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1554,7 +1562,8 @@ i_Violin_Music_Voice = {
         \mp
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1608,7 +1617,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1650,7 +1660,8 @@ i_Violin_Music_Voice = {
         \mf
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1691,7 +1702,8 @@ i_Violin_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [09 Violin_Music_Voice measure 223 / measure 4]
         as'!2
@@ -1705,7 +1717,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1747,7 +1760,8 @@ i_Violin_Music_Voice = {
         \f
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -1788,7 +1802,8 @@ i_Violin_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Violin_Music_Voice measure 224 / measure 5]
         \override DynamicLineSpanner.staff-padding = 9
@@ -1803,7 +1818,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             b'2
             :32
@@ -1845,7 +1861,8 @@ i_Violin_Music_Voice = {
         \baca-effort-ff
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             b'2
             :32
@@ -1899,7 +1916,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             b'2
             :32
@@ -1939,7 +1957,8 @@ i_Violin_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Violin_Music_Voice measure 226 / measure 7]
         b'2
@@ -1953,7 +1972,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             b'2
             :32
@@ -1995,7 +2015,8 @@ i_Violin_Music_Voice = {
         \baca-effort-ff
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             b'2
             :32
@@ -2081,7 +2102,8 @@ i_Violin_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             dtqf''!2
             :32
@@ -2202,7 +2224,8 @@ i_Viola_Music_Voice = {
         \set Staff.shortInstrumentName = \faberge-va-markup
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2241,7 +2264,8 @@ i_Viola_Music_Voice = {
 
         }
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2293,9 +2317,11 @@ i_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [09 Viola_Music_Voice measure 221 / measure 2]
             as'!2
@@ -2350,7 +2376,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanSCP
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2419,7 +2446,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanSCP
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2458,7 +2486,8 @@ i_Viola_Music_Voice = {
 
         }
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2510,9 +2539,11 @@ i_Viola_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [09 Viola_Music_Voice measure 223 / measure 4]
             as'!2
@@ -2577,7 +2608,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanSCP
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             as'!2
             :32
@@ -2618,7 +2650,8 @@ i_Viola_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Viola_Music_Voice measure 224 / measure 5]
         aqs'!2
@@ -2634,7 +2667,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             aqs'!2
             :32
@@ -2676,7 +2710,8 @@ i_Viola_Music_Voice = {
         \baca-effort-ff
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             aqs'!2
             :32
@@ -2730,7 +2765,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             aqs'!2
             :32
@@ -2770,7 +2806,8 @@ i_Viola_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Viola_Music_Voice measure 226 / measure 7]
         aqs'!2
@@ -2784,7 +2821,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             aqs'!2
             :32
@@ -2826,7 +2864,8 @@ i_Viola_Music_Voice = {
         \baca-effort-ff
         - \baca-staccati #4
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             aqs'!2
             :32
@@ -2910,7 +2949,8 @@ i_Viola_Music_Voice = {
         - \tweak staff-padding 8
         \bacaStartTextSpanRhythmAnnotation
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             bqs'!2
             :32
@@ -3063,7 +3103,8 @@ i_Cello_Music_Voice = {
     \revert DynamicLineSpanner.staff-padding
     <> \bacaStopTextSpanRhythmAnnotation
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Cello_Music_Voice measure 224 / measure 5]
         \override DynamicLineSpanner.staff-padding = 8
@@ -3170,7 +3211,8 @@ i_Cello_Music_Voice = {
 
     }
 
-    \times 8/12 {
+    \times 8/12
+    {
 
         % [09 Cello_Music_Voice measure 226 / measure 7]
         e,2

@@ -478,7 +478,8 @@ o_English_Horn_Music_Staff = <<
 o_Clarinet_Music_Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [15 Clarinet_Music_Voice measure 270 / measure 1]
         \set Staff.shortInstrumentName = \faberge-bcl-markup
@@ -542,7 +543,8 @@ o_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [15 Clarinet_Music_Voice measure 271 / measure 2]
         g4.
@@ -595,7 +597,8 @@ o_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 3/4
+    {
 
         % [15 Clarinet_Music_Voice measure 272 / measure 3]
         g4
@@ -630,7 +633,8 @@ o_Clarinet_Music_Voice = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [15 Clarinet_Music_Voice measure 273 / measure 4]
         g8
@@ -809,7 +813,8 @@ o_Piano_RH_Music_Voice = {
     R1 * 3/4
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 4/5
+    {
 
         % [15 Piano_RH_Music_Voice measure 273 / measure 4]
         \stopStaff
@@ -1187,7 +1192,8 @@ o_Percussion_Music_Voice = {
 
     {
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [15 Percussion_Music_Voice measure 277 / measure 8]
             \stopStaff
@@ -1230,7 +1236,8 @@ o_Percussion_Music_Voice = {
 
         }
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             c'4
 
@@ -1365,7 +1372,8 @@ o_Violin_Music_Voice = {
     R1 * 1
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [15 Violin_Music_Voice measure 274 / measure 5]
         <fs''! aqs''!>2.
@@ -1587,7 +1595,8 @@ o_Viola_Music_Voice = {
     \bacaStopTextSpanBowSpeed
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [15 Viola_Music_Voice measure 274 / measure 5]
         dqf''!2.
@@ -1824,7 +1833,8 @@ o_Cello_Music_Voice = {
     \>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/6
+    {
 
         % [15 Cello_Music_Voice measure 274 / measure 5]
         e,2.
