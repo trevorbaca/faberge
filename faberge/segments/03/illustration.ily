@@ -4,6 +4,7 @@ c_Global_Skips = {                                                             %
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \bar ""                                                                    %! EMPTY_START_BAR:+SEGMENT:baca.SegmentMaker._make_global_skips(4)
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
 %%% - \tweak extra-offset #'(0 . 9)                                            %! baca.rehearsal_mark():+PARTS:baca.IndicatorCommand._call()
 %%% - \baca-rehearsal-mark-markup "B" #10                                      %! baca.rehearsal_mark():+PARTS:baca.IndicatorCommand._call()
@@ -29,6 +30,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 98 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -41,6 +43,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 99 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -55,6 +58,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 100 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -69,6 +73,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 101 / measure 5]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -83,6 +88,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 102 / measure 6]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -97,6 +103,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 103 / measure 7]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -111,6 +118,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 104 / measure 8]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -125,6 +133,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 105 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -142,6 +151,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 106 / measure 10]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -156,6 +166,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 107 / measure 11]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -173,6 +184,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 108 / measure 12]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -187,6 +199,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 109 / measure 13]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -204,6 +217,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 110 / measure 14]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -218,6 +232,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 111 / measure 15]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -232,6 +247,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 112 / measure 16]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -246,6 +262,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 113 / measure 17]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -263,6 +280,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 114 / measure 18]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -277,6 +295,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 115 / measure 19]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -291,6 +310,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 116 / measure 20]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -303,6 +323,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 117 / measure 21]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -317,6 +338,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 118 / measure 22]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -331,6 +353,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 119 / measure 23]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -348,6 +371,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 120 / measure 24]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -360,6 +384,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 121 / measure 25]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -374,6 +399,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 122 / measure 26]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -386,6 +412,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 123 / measure 27]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -403,6 +430,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 124 / measure 28]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -417,6 +445,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 125 / measure 29]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -429,6 +458,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 126 / measure 30]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -443,6 +473,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 127 / measure 31]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -460,6 +491,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 128 / measure 32]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -474,6 +506,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 129 / measure 33]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -488,6 +521,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 130 / measure 34]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -502,6 +536,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 131 / measure 35]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -516,6 +551,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 132 / measure 36]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -530,6 +566,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 133 / measure 37]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -547,6 +584,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 134 / measure 38]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -561,6 +599,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 135 / measure 39]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -575,6 +614,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 136 / measure 40]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -589,6 +629,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 137 / measure 41]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -603,6 +644,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 138 / measure 42]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -617,6 +659,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 139 / measure 43]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -631,6 +674,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 140 / measure 44]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -643,6 +687,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 141 / measure 45]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -660,6 +705,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 142 / measure 46]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -672,6 +718,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 143 / measure 47]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -686,6 +733,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 144 / measure 48]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -700,6 +748,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 145 / measure 49]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -717,6 +766,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 146 / measure 50]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -729,6 +779,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 147 / measure 51]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -743,6 +794,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 148 / measure 52]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -757,6 +809,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 149 / measure 53]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -774,6 +827,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 150 / measure 54]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -788,6 +842,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 151 / measure 55]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -805,6 +860,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 152 / measure 56]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -819,6 +875,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 153 / measure 57]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -836,6 +893,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 154 / measure 58]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -850,6 +908,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 155 / measure 59]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -864,6 +923,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 156 / measure 60]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -878,6 +938,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 157 / measure 61]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -895,6 +956,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 158 / measure 62]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -909,6 +971,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 159 / measure 63]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -923,6 +986,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 160 / measure 64]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -937,6 +1001,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 161 / measure 65]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -951,6 +1016,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 162 / measure 66]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -965,6 +1031,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 163 / measure 67]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -979,6 +1046,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 164 / measure 68]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -991,6 +1059,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 165 / measure 69]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1008,6 +1077,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 166 / measure 70]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1022,6 +1092,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 167 / measure 71]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1036,6 +1107,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 168 / measure 72]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1048,6 +1120,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 169 / measure 73]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1065,6 +1138,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 170 / measure 74]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1077,6 +1151,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 171 / measure 75]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1091,6 +1166,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 172 / measure 76]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1105,6 +1181,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 173 / measure 77]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 2/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1117,6 +1194,7 @@ c_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [03 Global_Skips measure 174 / measure 78]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1/2                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1131,6 +1209,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 175 / measure 79]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 3/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 3/4                                                                   %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1145,6 +1224,7 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 176 / measure 80]                               %! baca.SegmentMaker._comment_measure_numbers()
     \time 4/4                                                                  %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
     \baca-time-signature-color #'blue                                          %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca.SegmentMaker._make_global_skips(1)
     s1 * 1                                                                     %! baca.SegmentMaker._make_global_skips(1)
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
@@ -1159,6 +1239,8 @@ c_Global_Skips = {                                                             %
     % [03 Global_Skips measure 177 / measure 81]                               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
     \time 1/4                                                                  %! baca.SegmentMaker._make_global_skips(3):PHANTOM:baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._style_phantom_measures(1)
     \baca-time-signature-transparent                                           %! baca.SegmentMaker._style_phantom_measures(2):PHANTOM
+    %! baca.SegmentMaker._make_global_skips(3)
+    %! PHANTOM
     s1 * 1/4                                                                   %! baca.SegmentMaker._make_global_skips(3):PHANTOM
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers():baca.SegmentMaker._style_phantom_measures(1):PHANTOM
@@ -1174,246 +1256,328 @@ c_Global_Skips = {                                                             %
 c_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [03 Global_Rests measure 97 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 98 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 99 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 100 / measure 4]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 101 / measure 5]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 102 / measure 6]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 103 / measure 7]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 104 / measure 8]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 105 / measure 9]                                %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 106 / measure 10]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 107 / measure 11]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 108 / measure 12]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 109 / measure 13]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 110 / measure 14]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 111 / measure 15]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 112 / measure 16]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 113 / measure 17]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 114 / measure 18]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 115 / measure 19]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 116 / measure 20]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 117 / measure 21]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 118 / measure 22]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 119 / measure 23]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 120 / measure 24]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 121 / measure 25]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 122 / measure 26]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 123 / measure 27]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 124 / measure 28]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 125 / measure 29]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 126 / measure 30]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 127 / measure 31]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 128 / measure 32]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 129 / measure 33]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 130 / measure 34]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 131 / measure 35]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 132 / measure 36]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 133 / measure 37]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 134 / measure 38]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 135 / measure 39]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 136 / measure 40]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 137 / measure 41]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 138 / measure 42]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 139 / measure 43]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 140 / measure 44]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 141 / measure 45]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 142 / measure 46]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 143 / measure 47]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 144 / measure 48]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 145 / measure 49]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 146 / measure 50]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 147 / measure 51]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 148 / measure 52]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 149 / measure 53]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 150 / measure 54]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 151 / measure 55]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 152 / measure 56]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 153 / measure 57]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 154 / measure 58]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 155 / measure 59]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 156 / measure 60]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 157 / measure 61]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 158 / measure 62]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 159 / measure 63]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 160 / measure 64]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 161 / measure 65]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 162 / measure 66]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 163 / measure 67]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 164 / measure 68]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 165 / measure 69]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 166 / measure 70]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 167 / measure 71]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 168 / measure 72]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 169 / measure 73]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 170 / measure 74]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 171 / measure 75]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 172 / measure 76]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 173 / measure 77]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 174 / measure 78]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 175 / measure 79]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 176 / measure 80]                               %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_global_rests(1)
     R1 * 1                                                                     %! baca.SegmentMaker._make_global_rests(1)
 
     % [03 Global_Rests measure 177 / measure 81]                               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
+    %! baca.SegmentMaker._make_global_rests(2)
+    %! PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
 }                                                                              %! ide.Path.extern()
@@ -1436,6 +1600,7 @@ c_Flute_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1450,12 +1615,14 @@ c_Flute_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! -PARTS:baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(3):baca.SegmentMaker._set_status_tag():REDRAWN_REAPPLIED_MARGIN_MARKUP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
+    %! faberge.glow_rhythm()
     g''8                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g''8                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
@@ -1467,8 +1634,10 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 98 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -1477,6 +1646,7 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1484,9 +1654,11 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'8                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -1496,6 +1668,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 99 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1504,11 +1677,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 100 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1521,11 +1696,13 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -1535,6 +1712,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 101 / measure 5]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1542,20 +1720,24 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 102 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 103 / measure 7]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2.                                                                      %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1566,10 +1748,12 @@ c_Flute_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 104 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1577,10 +1761,12 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     % [03 Flute_Music_Voice measure 105 / measure 9]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1594,6 +1780,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 106 / measure 10]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1603,12 +1790,14 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 107 / measure 11]                          %! baca.SegmentMaker._comment_measure_numbers()
     \override TupletBracket.staff-padding = 2.5                                %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1624,17 +1813,20 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g''8.                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -1647,14 +1839,17 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 108 / measure 12]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1663,11 +1858,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 109 / measure 13]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1682,6 +1879,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 110 / measure 14]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1693,26 +1891,31 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -1727,25 +1930,30 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 111 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -1756,6 +1964,7 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1767,10 +1976,12 @@ c_Flute_Music_Voice = {                                                        %
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     % [03 Flute_Music_Voice measure 112 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1779,9 +1990,11 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 113 / measure 17]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1798,12 +2011,14 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         ~                                                                      %! faberge.glow_rhythm()
@@ -1811,16 +2026,19 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 114 / measure 18]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''8                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g'16                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+    %! faberge.glow_rhythm()
     g''16                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X -0.5
@@ -1829,6 +2047,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1837,26 +2056,31 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         ~                                                                      %! faberge.glow_rhythm()
@@ -1865,12 +2089,14 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 115 / measure 19]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 116 / measure 20]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1881,10 +2107,12 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g''4.                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1896,6 +2124,7 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g''16                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1904,6 +2133,7 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+    %! faberge.glow_rhythm()
     g'16                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X -0.5
@@ -1912,6 +2142,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 117 / measure 21]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1920,26 +2151,31 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -1950,12 +2186,14 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 118 / measure 22]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1966,11 +2204,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 119 / measure 23]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1984,6 +2224,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 120 / measure 24]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -1992,9 +2233,11 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 121 / measure 25]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'4.                                                                       %! faberge.glow_rhythm()
     \repeatTie
 
+    %! faberge.glow_rhythm()
     g'8                                                                        %! faberge.glow_rhythm()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
@@ -2004,14 +2247,17 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'8                                                                    %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 122 / measure 26]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2020,12 +2266,14 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r2                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 123 / measure 27]                          %! baca.SegmentMaker._comment_measure_numbers()
     \override TupletBracket.staff-padding = 2                                  %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2041,24 +2289,29 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2071,21 +2324,26 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2097,6 +2355,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 124 / measure 28]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2104,9 +2363,11 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'8                                                                    %! faberge.glow_rhythm()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2116,11 +2377,13 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 125 / measure 29]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 126 / measure 30]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mp-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2130,11 +2393,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 127 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2.                                                                      %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2149,6 +2414,7 @@ c_Flute_Music_Voice = {                                                        %
 
     % [03 Flute_Music_Voice measure 128 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
     \override TupletBracket.staff-padding = 2.5                                %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
+    %! faberge.glow_rhythm()
     g''2.                                                                      %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2159,12 +2425,15 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2178,19 +2447,23 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 129 / measure 33]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(2)
 
     % [03 Flute_Music_Voice measure 130 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2200,10 +2473,12 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2217,6 +2492,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 131 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2227,15 +2503,18 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2246,6 +2525,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 132 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2254,11 +2534,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 133 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2275,6 +2557,7 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2282,21 +2565,25 @@ c_Flute_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -2308,10 +2595,12 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 134 / measure 38]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''8                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g'8                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak parent-alignment-X -0.5
@@ -2320,6 +2609,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2328,10 +2618,12 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         ~                                                                      %! faberge.glow_rhythm()
@@ -2339,6 +2631,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 135 / measure 39]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2.                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2349,10 +2642,12 @@ c_Flute_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 136 / measure 40]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g'4.                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2364,6 +2659,7 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g''4.                                                                      %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2372,6 +2668,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 137 / measure 41]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     \repeatTie
@@ -2381,10 +2678,12 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -2394,12 +2693,14 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 138 / measure 42]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'1                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2411,10 +2712,12 @@ c_Flute_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 139 / measure 43]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2429,6 +2732,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 140 / measure 44]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2440,10 +2744,12 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         :32                                                                    %! baca.stem_tremolo():baca.IndicatorCommand._call()
         - \tweak parent-alignment-X -0.5
@@ -2453,6 +2759,7 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2462,11 +2769,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 141 / measure 45]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''1                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2480,6 +2789,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 142 / measure 46]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2490,9 +2800,11 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''4                                                                   %! faberge.glow_rhythm()
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2502,11 +2814,14 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 143 / measure 47]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''8                                                                       %! faberge.glow_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g''16                                                                      %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'16                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
@@ -2514,6 +2829,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! faberge.glow_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2523,11 +2839,13 @@ c_Flute_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 144 / measure 48]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r2                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 145 / measure 49]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2543,11 +2861,13 @@ c_Flute_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2560,11 +2880,14 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 146 / measure 50]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g'8.                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2574,16 +2897,20 @@ c_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'2                                                                        %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
+    %! faberge.glow_rhythm()
     g'8                                                                        %! faberge.glow_rhythm()
     \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.glow_rhythm()
     g'16                                                                       %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g'16                                                                       %! faberge.glow_rhythm()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
@@ -2592,6 +2919,7 @@ c_Flute_Music_Voice = {                                                        %
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Flute_Music_Voice measure 147 / measure 51]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2600,11 +2928,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 148 / measure 52]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2612,9 +2942,11 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 149 / measure 53]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2.                                                                      %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2628,6 +2960,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 150 / measure 54]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2637,11 +2970,13 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 151 / measure 55]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2657,11 +2992,13 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2674,13 +3011,16 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 152 / measure 56]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2688,25 +3028,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2714,6 +3059,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 153 / measure 57]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g'2.                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2723,10 +3069,12 @@ c_Flute_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Flute_Music_Voice measure 154 / measure 58]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     g'4                                                                        %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2743,16 +3091,19 @@ c_Flute_Music_Voice = {                                                        %
     {                                                                          %! faberge.glow_rhythm()
 
         % [03 Flute_Music_Voice measure 155 / measure 59]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.glow_rhythm()
         g'4                                                                    %! faberge.glow_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         \repeatTie
 
+        %! faberge.glow_rhythm()
         g''8                                                                   %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
 
     }                                                                          %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     g''2                                                                       %! faberge.glow_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -2760,25 +3111,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         g'16                                                                   %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         g''16                                                                  %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
@@ -2789,6 +3145,7 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 156 / measure 60]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     g''4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2797,6 +3154,7 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r4                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2810,6 +3168,9 @@ c_Flute_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -2819,6 +3180,9 @@ c_Flute_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Flute_Rest_Voice measure 157 / measure 61]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -2827,35 +3191,43 @@ c_Flute_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Flute_Music_Voice measure 158 / measure 62]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 159 / measure 63]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 160 / measure 64]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 161 / measure 65]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 162 / measure 66]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 163 / measure 67]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 164 / measure 68]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 165 / measure 69]                          %! baca.SegmentMaker._comment_measure_numbers()
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(1)
+    %! faberge.glow_rhythm()
     gs''!1                                                                     %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2866,6 +3238,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 166 / measure 70]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     gs''2                                                                      %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2876,25 +3249,30 @@ c_Flute_Music_Voice = {                                                        %
     \times 4/5                                                                 %! faberge.glow_rhythm()
     {                                                                          %! faberge.glow_rhythm()
 
+        %! faberge.glow_rhythm()
         gs''16                                                                 %! faberge.glow_rhythm()
         \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.glow_rhythm()
         gs''!16                                                                %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         gs''!16                                                                %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
+        %! faberge.glow_rhythm()
         gs'!16                                                                 %! faberge.glow_rhythm()
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
+        %! faberge.glow_rhythm()
         gs''!16                                                                %! faberge.glow_rhythm()
         ~                                                                      %! faberge.glow_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
@@ -2902,8 +3280,10 @@ c_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.glow_rhythm()
 
     % [03 Flute_Music_Voice measure 167 / measure 71]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     gs''8                                                                      %! faberge.glow_rhythm()
 
+    %! faberge.glow_rhythm()
     gs'!4.                                                                     %! faberge.glow_rhythm()
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
@@ -2912,6 +3292,7 @@ c_Flute_Music_Voice = {                                                        %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Flute_Music_Voice measure 168 / measure 72]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.glow_rhythm()
     gs'4                                                                       %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2921,6 +3302,7 @@ c_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
+    %! faberge.glow_rhythm()
     r2                                                                         %! faberge.glow_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -2939,6 +3321,9 @@ c_Flute_Music_Voice = {                                                        %
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
             \override Staff.BarLine.bar-extent = #'(-2 . 0)                    %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
@@ -2949,6 +3334,9 @@ c_Flute_Music_Voice = {                                                        %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Flute_Rest_Voice measure 169 / measure 73]                   %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -2957,30 +3345,37 @@ c_Flute_Music_Voice = {                                                        %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Flute_Music_Voice measure 170 / measure 74]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 171 / measure 75]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 172 / measure 76]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 173 / measure 77]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 174 / measure 78]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 175 / measure 79]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Flute_Music_Voice measure 176 / measure 80]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -2993,6 +3388,10 @@ c_Flute_Music_Voice = {                                                        %
             % [03 Flute_Music_Voice measure 177 / measure 81]                  %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -3007,6 +3406,10 @@ c_Flute_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -3044,6 +3447,7 @@ c_English_Horn_Music_Voice = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -3056,44 +3460,56 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
         \override NoteHead.style = #'cross                                     %! baca.note_head_style_cross():baca.OverrideCommand._call(1)
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     aqf'!8                                                                     %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 98 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3101,79 +3517,102 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!8                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 99 / measure 3]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     ef'!16                                                                     %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     e'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 100 / measure 4]                    %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     bf'!8                                                                      %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 101 / measure 5]                    %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3181,79 +3620,102 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!8                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 102 / measure 6]                    %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     d'16                                                                       %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     cs'!16                                                                     %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 103 / measure 7]                    %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     fqs'!8                                                                     %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 104 / measure 8]                %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3261,79 +3723,102 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!8                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 105 / measure 9]                    %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     aqf'!16                                                                    %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     bf'!16                                                                     %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 106 / measure 10]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     a'8                                                                        %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 107 / measure 11]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3341,33 +3826,43 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'8                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 108 / measure 12]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     cs'!16                                                                     %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     a'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
         \revert NoteHead.style                                                 %! baca.note_head_style_cross():baca.OverrideCommand._call(2)
@@ -3376,19 +3871,24 @@ c_English_Horn_Music_Voice = {                                                 %
 
     % [03 English_Horn_Music_Voice measure 109 / measure 13]                   %! baca.SegmentMaker._comment_measure_numbers()
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(1)
+    %! faberge.eh_trill_rhythm()
     r4                                                                         %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     af'!8.                                                                     %! faberge.eh_trill_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak bound-details.right.padding 2                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
+    %! faberge.eh_trill_rhythm()
     atqf'!8.                                                                   %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding 2                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
@@ -3396,40 +3896,49 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 110 / measure 14]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     atqf'16                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
 
+    %! faberge.eh_trill_rhythm()
     af'!2                                                                      %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     atqf'!4..                                                                  %! faberge.eh_trill_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 111 / measure 15]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     atqf'2                                                                     %! faberge.eh_trill_rhythm()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
+    %! faberge.eh_trill_rhythm()
     atqf'16                                                                    %! faberge.eh_trill_rhythm()
     \repeatTie
     [                                                                          %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     aqf'!8.                                                                    %! faberge.eh_trill_rhythm()
     ]                                                                          %! faberge.eh_trill_rhythm()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 112 / measure 16]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     aqf'1                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
 
     % [03 English_Horn_Music_Voice measure 113 / measure 17]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4.                                                                        %! faberge.keynoise_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     \override NoteHead.style = #'cross                                         %! baca.note_head_style_cross():baca.OverrideCommand._call(1)
+    %! faberge.keynoise_rhythm()
     gs'!8                                                                      %! faberge.keynoise_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3437,8 +3946,10 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3447,32 +3958,41 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 114 / measure 18]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         a'8.                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!8                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     ef'!16                                                                     %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     e'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
@@ -3480,15 +4000,20 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 115 / measure 19]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -3497,30 +4022,39 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 116 / measure 20]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4.                                                                        %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     bf'!8                                                                      %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3528,48 +4062,62 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         aqf'!8.                                                                %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 117 / measure 21]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'8                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     cs'!16                                                                     %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     fqs'!16                                                                    %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -3579,31 +4127,41 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 118 / measure 22]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4.                                                                        %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     ef'!8                                                                      %! faberge.keynoise_rhythm()
     \revert NoteHead.style                                                     %! baca.note_head_style_cross():baca.OverrideCommand._call(2)
 
     % [03 English_Horn_Music_Voice measure 119 / measure 23]                   %! baca.SegmentMaker._comment_measure_numbers()
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(1)
+    %! faberge.eh_trill_rhythm()
     r4                                                                         %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
 
+    %! faberge.eh_trill_rhythm()
     a'8.                                                                       %! faberge.eh_trill_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3613,26 +4171,32 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 120 / measure 24]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     a'2.                                                                       %! faberge.eh_trill_rhythm()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 121 / measure 25]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     a'2                                                                        %! faberge.eh_trill_rhythm()
     \repeatTie
 
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
+    %! faberge.eh_trill_rhythm()
     aqs'!8.                                                                    %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding 2                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
     % [03 English_Horn_Music_Voice measure 122 / measure 26]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
+    %! faberge.eh_trill_rhythm()
     aqf'!2...                                                                  %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding 2                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
@@ -3640,18 +4204,22 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 123 / measure 27]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     aqf'1                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 124 / measure 28]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     aqf'4                                                                      %! faberge.eh_trill_rhythm()
     \repeatTie
 
+    %! faberge.eh_trill_rhythm()
     r16                                                                        %! faberge.eh_trill_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
+    %! faberge.eh_trill_rhythm()
     af'!4..                                                                    %! faberge.eh_trill_rhythm()
     - \tweak bound-details.right.padding 2                                     %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
     \startTrillSpan                                                            %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(2):SPANNER_START
@@ -3659,16 +4227,19 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 125 / measure 29]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     af'2                                                                       %! faberge.eh_trill_rhythm()
     \repeatTie
 
     % [03 English_Horn_Music_Voice measure 126 / measure 30]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.eh_trill_rhythm()
     r2                                                                         %! faberge.eh_trill_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
 
     % [03 English_Horn_Music_Voice measure 127 / measure 31]                   %! baca.SegmentMaker._comment_measure_numbers()
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(1)
+    %! baca.make_repeat_tied_notes()
     bf'!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -3686,6 +4257,7 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 128 / measure 32]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     bf'1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -3693,18 +4265,21 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 129 / measure 33]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     bf'2                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 130 / measure 34]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     bf'2.                                                                      %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 131 / measure 35]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     bf'1                                                                       %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -3712,12 +4287,14 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 132 / measure 36]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     bf'2                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset():baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 English_Horn_Music_Voice measure 133 / measure 37]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_repeat_tied_notes()"                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -3729,6 +4306,7 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 134 / measure 38]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -3736,12 +4314,14 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 135 / measure 39]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 136 / measure 40]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -3749,12 +4329,14 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 137 / measure 41]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 138 / measure 42]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
@@ -3762,62 +4344,77 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 139 / measure 43]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 140 / measure 44]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak direction #up                                                     %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 English_Horn_Music_Voice measure 141 / measure 45]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
     \stopTrillSpan                                                             %! baca.trill_spanner():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
         \override NoteHead.style = #'cross                                     %! baca.note_head_style_cross():baca.OverrideCommand._call(1)
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     gs'!8                                                                      %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 142 / measure 46]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3825,79 +4422,102 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!8                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 143 / measure 47]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     fqs'!16                                                                    %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     f'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 144 / measure 48]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     f'8                                                                        %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 145 / measure 49]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'4                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3906,78 +4526,101 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 146 / measure 50]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!8                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     f'16                                                                       %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     d'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 147 / measure 51]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     gs'!8                                                                      %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 148 / measure 52]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -3985,8 +4628,10 @@ c_English_Horn_Music_Voice = {                                                 %
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'8                                                                    %! faberge.keynoise_rhythm()
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
 
@@ -3994,8 +4639,10 @@ c_English_Horn_Music_Voice = {                                                 %
 
     % [03 English_Horn_Music_Voice measure 149 / measure 53]                   %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.staff-padding = 8                             %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     gs'!16                                                                     %! faberge.keynoise_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4005,67 +4652,86 @@ c_English_Horn_Music_Voice = {                                                 %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     aqf'!16                                                                    %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 150 / measure 54]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     aqf'!8                                                                     %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 151 / measure 55]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -4074,78 +4740,101 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 152 / measure 56]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         fqs'!8                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     f'16                                                                       %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     d'16                                                                       %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         d'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 153 / measure 57]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         cs'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         fqs'!16                                                                %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     e'8                                                                        %! faberge.keynoise_rhythm()
 
     \times 2/3                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r8                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!4                                                                 %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
     % [03 English_Horn_Music_Voice measure 154 / measure 58]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!4                                                                  %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
@@ -4154,59 +4843,77 @@ c_English_Horn_Music_Voice = {                                                 %
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 155 / measure 59]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r4                                                                     %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         a'8                                                                    %! faberge.keynoise_rhythm()
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     gs'!16                                                                     %! faberge.keynoise_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.keynoise_rhythm()
     aqf'!16                                                                    %! faberge.keynoise_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         eqs'!16                                                                %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         ef'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         e'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         aqf'!16                                                                %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r4                                                                         %! faberge.keynoise_rhythm()
 
     \times 4/5                                                                 %! faberge.keynoise_rhythm()
     {                                                                          %! faberge.keynoise_rhythm()
 
         % [03 English_Horn_Music_Voice measure 156 / measure 60]               %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.keynoise_rhythm()
         r16                                                                    %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         bf'!16                                                                 %! faberge.keynoise_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.keynoise_rhythm()
         a'16                                                                   %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         gs'!16                                                                 %! faberge.keynoise_rhythm()
 
+        %! faberge.keynoise_rhythm()
         f'16                                                                   %! faberge.keynoise_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     r8                                                                         %! faberge.keynoise_rhythm()
 
+    %! faberge.keynoise_rhythm()
     d'8                                                                        %! faberge.keynoise_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4227,6 +4934,9 @@ c_English_Horn_Music_Voice = {                                                 %
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -4236,6 +4946,9 @@ c_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 English_Horn_Rest_Voice measure 157 / measure 61]            %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -4244,35 +4957,43 @@ c_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 English_Horn_Music_Voice measure 158 / measure 62]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 159 / measure 63]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 160 / measure 64]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 161 / measure 65]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 162 / measure 66]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 163 / measure 67]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 164 / measure 68]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 165 / measure 69]                   %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.staff-padding = 4                             %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak X-extent #'(0 . 0)                                                %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4291,18 +5012,21 @@ c_English_Horn_Music_Voice = {                                                 %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 166 / measure 70]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 167 / measure 71]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 English_Horn_Music_Voice measure 168 / measure 72]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -4317,6 +5041,9 @@ c_English_Horn_Music_Voice = {                                                 %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -4326,6 +5053,9 @@ c_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 English_Horn_Rest_Voice measure 169 / measure 73]            %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -4334,22 +5064,27 @@ c_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 English_Horn_Music_Voice measure 170 / measure 74]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 171 / measure 75]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 172 / measure 76]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 173 / measure 77]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 English_Horn_Music_Voice measure 174 / measure 78]                   %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -4396,6 +5131,7 @@ c_English_Horn_Music_Voice = {                                                 %
         \override DynamicLineSpanner.staff-padding = 8.5                       %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
         \once \override Beam.grow-direction = #right
         \override Staff.Stem.stemlet-length = 0.75                             %! faberge.ratchet_rhythm()
+        %! faberge.ratchet_rhythm()
         b'16 * 381/64                                                          %! faberge.ratchet_rhythm()
         - \tweak X-extent #'(0 . 0)                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4407,13 +5143,16 @@ c_English_Horn_Music_Voice = {                                                 %
     %@% ^ \baca-duration-multiplier-markup #"381" #"64"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
         [                                                                      %! faberge.ratchet_rhythm()
 
+        %! faberge.ratchet_rhythm()
         b'16 * 111/32                                                          %! faberge.ratchet_rhythm()
     %@% ^ \baca-duration-multiplier-markup #"111" #"32"                        %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
+        %! faberge.ratchet_rhythm()
         b'16 * 3/2                                                             %! faberge.ratchet_rhythm()
     %@% ^ \baca-duration-multiplier-markup #"3" #"2"                           %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
         \revert Staff.Stem.stemlet-length                                      %! faberge.ratchet_rhythm()
+        %! faberge.ratchet_rhythm()
         b'16 * 69/64                                                           %! faberge.ratchet_rhythm()
     %@% ^ \baca-duration-multiplier-markup #"69" #"64"                         %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
         ]                                                                      %! faberge.ratchet_rhythm()
@@ -4431,6 +5170,9 @@ c_English_Horn_Music_Voice = {                                                 %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -4440,6 +5182,9 @@ c_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 English_Horn_Rest_Voice measure 176 / measure 80]            %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -4455,6 +5200,10 @@ c_English_Horn_Music_Voice = {                                                 %
             % [03 English_Horn_Music_Voice measure 177 / measure 81]           %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -4469,6 +5218,10 @@ c_English_Horn_Music_Voice = {                                                 %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -4503,6 +5256,7 @@ c_Clarinet_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4520,20 +5274,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 98 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f1                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 99 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4544,6 +5302,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 100 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4556,20 +5315,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 101 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 102 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4580,6 +5343,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 103 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4592,26 +5356,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 104 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f1                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 105 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 106 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 107 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4622,6 +5392,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 108 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4634,20 +5405,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 109 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 110 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4658,6 +5433,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 111 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4670,17 +5446,20 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 112 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4691,6 +5470,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 113 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4703,26 +5483,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!2                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 114 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!1                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 115 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 116 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!1                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 117 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4733,6 +5519,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 118 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4745,26 +5532,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 119 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 120 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 121 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 122 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4775,6 +5568,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 123 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4787,20 +5581,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 124 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 125 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4811,6 +5609,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 126 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4823,20 +5622,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 127 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 128 / measure 32]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4847,6 +5650,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 129 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4859,26 +5663,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 130 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 131 / measure 35]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!1                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 132 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 133 / measure 37]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2                                                                      %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4889,6 +5699,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 134 / measure 38]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4901,20 +5712,24 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 135 / measure 39]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 136 / measure 40]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4925,6 +5740,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 137 / measure 41]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4937,17 +5753,20 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!2                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 138 / measure 42]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4958,6 +5777,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 139 / measure 43]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -4970,26 +5790,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 140 / measure 44]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f1                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 141 / measure 45]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f1                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 142 / measure 46]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 143 / measure 47]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     f2                                                                         %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     f4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5000,6 +5826,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 144 / measure 48]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5012,26 +5839,32 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 145 / measure 49]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!2.                                                                     %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 146 / measure 50]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!1                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 147 / measure 51]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!1                                                                      %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 148 / measure 52]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     fqs!4                                                                      %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5042,6 +5875,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 149 / measure 53]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     e4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5054,23 +5888,28 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     e2                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 150 / measure 54]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     e2                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 151 / measure 55]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     e2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 152 / measure 56]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     e2.                                                                        %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     e4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5081,6 +5920,7 @@ c_Clarinet_Music_Voice = {                                                     %
     \breathe                                                                   %! baca.breathe():baca.IndicatorCommand._call()
 
     % [03 Clarinet_Music_Voice measure 153 / measure 57]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     ds!4                                                                       %! faberge.single_taper()
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5094,23 +5934,28 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     ds!2                                                                       %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 154 / measure 58]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     ds!2                                                                       %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 155 / measure 59]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     ds!1                                                                       %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 156 / measure 60]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     ds!4                                                                       %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     ds!4                                                                       %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5129,6 +5974,9 @@ c_Clarinet_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             \!                                                                 %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5141,6 +5989,9 @@ c_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Clarinet_Rest_Voice measure 157 / measure 61]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -5149,34 +6000,42 @@ c_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Clarinet_Music_Voice measure 158 / measure 62]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 159 / measure 63]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 160 / measure 64]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 161 / measure 65]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 162 / measure 66]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 163 / measure 67]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 164 / measure 68]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 165 / measure 69]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     d4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5189,23 +6048,28 @@ c_Clarinet_Music_Voice = {                                                     %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! faberge.single_taper()
     d2.                                                                        %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Clarinet_Music_Voice measure 166 / measure 70]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     d2.                                                                        %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 167 / measure 71]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     d2                                                                         %! faberge.single_taper()
 
     % [03 Clarinet_Music_Voice measure 168 / measure 72]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.single_taper()
     d2                                                                         %! faberge.single_taper()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! faberge.single_taper()
     d4                                                                         %! faberge.single_taper()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -5228,6 +6092,9 @@ c_Clarinet_Music_Voice = {                                                     %
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             \!                                                                 %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
@@ -5239,6 +6106,9 @@ c_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Clarinet_Rest_Voice measure 169 / measure 73]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -5247,30 +6117,37 @@ c_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Clarinet_Music_Voice measure 170 / measure 74]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 171 / measure 75]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 172 / measure 76]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 173 / measure 77]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 174 / measure 78]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 175 / measure 79]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Clarinet_Music_Voice measure 176 / measure 80]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -5283,6 +6160,10 @@ c_Clarinet_Music_Voice = {                                                     %
             % [03 Clarinet_Music_Voice measure 177 / measure 81]               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -5297,6 +6178,10 @@ c_Clarinet_Music_Voice = {                                                     %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -5354,6 +6239,7 @@ c_Piano_RH_Music_Voice = {                                                     %
     % [03 Piano_RH_Music_Voice measure 98 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
     \override Dots.transparent = ##t                                           %! baca.dots_transparent():baca.OverrideCommand._call(1)
     \override Rest.transparent = ##t                                           %! baca.rest_transparent():baca.OverrideCommand._call(1)
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "make_rests()"                              %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -5363,129 +6249,171 @@ c_Piano_RH_Music_Voice = {                                                     %
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     % [03 Piano_RH_Music_Voice measure 99 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 100 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 101 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 102 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 103 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 104 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 105 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 106 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 107 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 108 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 109 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 110 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 111 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 112 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 113 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 114 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 115 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 116 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 117 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 118 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 119 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 120 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 121 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 122 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 123 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 124 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 125 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 126 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 127 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 128 / measure 32]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 129 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 130 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 131 / measure 35]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 132 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 133 / measure 37]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 134 / measure 38]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 135 / measure 39]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 136 / measure 40]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 137 / measure 41]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2.                                                                        %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 138 / measure 42]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 139 / measure 43]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r2                                                                         %! baca.make_rests()
 
     % [03 Piano_RH_Music_Voice measure 140 / measure 44]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_rests()
     r1                                                                         %! baca.make_rests()
     \revert Dots.transparent                                                   %! baca.dots_transparent():baca.OverrideCommand._call(2)
     \revert Rest.transparent                                                   %! baca.rest_transparent():baca.OverrideCommand._call(2)
@@ -5500,6 +6428,9 @@ c_Piano_RH_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
             \stopTextSpan                                                      %! baca.text_spanner():baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -5510,6 +6441,9 @@ c_Piano_RH_Music_Voice = {                                                     %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Piano_RH_Rest_Voice measure 141 / measure 45]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -5518,30 +6452,37 @@ c_Piano_RH_Music_Voice = {                                                     %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Piano_RH_Music_Voice measure 142 / measure 46]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 143 / measure 47]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 144 / measure 48]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 145 / measure 49]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 146 / measure 50]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 147 / measure 51]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_RH_Music_Voice measure 148 / measure 52]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -5558,6 +6499,7 @@ c_Piano_RH_Music_Voice = {                                                     %
         \override TupletBracket.transparent = ##t                              %! baca.tuplet_bracket_transparent():baca.OverrideCommand._call(1)
         \override TupletNumber.transparent = ##t                               %! baca.tuplet_number_transparent():baca.OverrideCommand._call(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
         - \tweak X-extent #'(0 . 0)                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5569,81 +6511,116 @@ c_Piano_RH_Music_Voice = {                                                     %
         [                                                                      %! faberge.clb_rhythm()
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 151 / measure 55]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     g''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 152 / measure 56]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     g''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     g'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 153 / measure 57]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     ]                                                                          %! faberge.clb_rhythm()
 
@@ -5652,45 +6629,65 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 154 / measure 58]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
@@ -5701,73 +6698,107 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 156 / measure 60]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
@@ -5778,45 +6809,65 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 159 / measure 63]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
@@ -5827,95 +6878,137 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 161 / measure 65]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 164 / measure 68]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b''8                                                                       %! faberge.clb_rhythm()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e'''8                                                                      %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     g'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 165 / measure 69]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
     ]                                                                          %! faberge.clb_rhythm()
 
@@ -5924,45 +7017,65 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 166 / measure 70]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
@@ -5973,49 +7086,71 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 169 / measure 73]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
@@ -6026,107 +7161,153 @@ c_Piano_RH_Music_Voice = {                                                     %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Piano_RH_Music_Voice measure 171 / measure 75]                   %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         f''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b''8                                                                   %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e'''8                                                                  %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         g'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         ]                                                                      %! faberge.clb_rhythm()
 
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 174 / measure 78]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d''8                                                                       %! faberge.clb_rhythm()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 175 / measure 79]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
+    %! faberge.clb_rhythm()
     d''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     e''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     f''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     g''8                                                                       %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a''8                                                                       %! faberge.clb_rhythm()
 
     % [03 Piano_RH_Music_Voice measure 176 / measure 80]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.downbeat_attack()
     d''8                                                                       %! faberge.downbeat_attack()
     ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \revert NoteHead.stencil                                                   %! baca.note_head_stencil_false():baca.OverrideCommand._call(2)
 
+    %! faberge.downbeat_attack()
     r2..                                                                       %! faberge.downbeat_attack()
     \revert Beam.positions                                                     %! baca.beam_positions():baca.OverrideCommand._call(2)
     \revert TupletBracket.transparent                                          %! baca.tuplet_bracket_transparent():baca.OverrideCommand._call(2)
@@ -6141,6 +7322,10 @@ c_Piano_RH_Music_Voice = {                                                     %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6155,6 +7340,10 @@ c_Piano_RH_Music_Voice = {                                                     %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6186,323 +7375,403 @@ c_Piano_LH_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
     % [03 Piano_LH_Music_Voice measure 98 / measure 2]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 99 / measure 3]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 100 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 101 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 102 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 103 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 104 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 105 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 106 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 107 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 108 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 109 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 110 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 111 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 112 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 113 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 114 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 115 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 116 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 117 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 118 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 119 / measure 23]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 120 / measure 24]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 121 / measure 25]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 122 / measure 26]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 123 / measure 27]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 124 / measure 28]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 125 / measure 29]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 126 / measure 30]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 127 / measure 31]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 128 / measure 32]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 129 / measure 33]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 130 / measure 34]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 131 / measure 35]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 132 / measure 36]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 133 / measure 37]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 134 / measure 38]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 135 / measure 39]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 136 / measure 40]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 137 / measure 41]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 138 / measure 42]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 139 / measure 43]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 140 / measure 44]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 141 / measure 45]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 142 / measure 46]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 143 / measure 47]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 144 / measure 48]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 145 / measure 49]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 146 / measure 50]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 147 / measure 51]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 148 / measure 52]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 149 / measure 53]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 150 / measure 54]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 151 / measure 55]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 152 / measure 56]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 153 / measure 57]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 154 / measure 58]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 155 / measure 59]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 156 / measure 60]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 157 / measure 61]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 158 / measure 62]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 159 / measure 63]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 160 / measure 64]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 161 / measure 65]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 162 / measure 66]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 163 / measure 67]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 164 / measure 68]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 165 / measure 69]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 166 / measure 70]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 167 / measure 71]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 168 / measure 72]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 169 / measure 73]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 170 / measure 74]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 171 / measure 75]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 172 / measure 76]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 173 / measure 77]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 174 / measure 78]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 2/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"2" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 175 / measure 79]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 3/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Piano_LH_Music_Voice measure 176 / measure 80]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._call_rhythm_commands()
     R1 * 4/4                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 %@% ^ \baca-duration-multiplier-markup #"4" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
     \revert MultiMeasureRest.transparent                                       %! baca.mmrest_transparent():baca.OverrideCommand._call(2)
@@ -6515,6 +7784,10 @@ c_Piano_LH_Music_Voice = {                                                     %
             % [03 Piano_LH_Music_Voice measure 177 / measure 81]               %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(5):PHANTOM
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:MULTIMEASURE_REST:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6529,6 +7802,10 @@ c_Piano_LH_Music_Voice = {                                                     %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6563,71 +7840,94 @@ c_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
+    %! faberge.piano_attack_rhythm()
     r8.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 98 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 99 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 100 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 101 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 102 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 103 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 104 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 105 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 106 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 107 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 108 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 109 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 110 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 111 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 112 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 113 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 114 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 115 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 116 / measure 20]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 117 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 118 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 119 / measure 23]                      %! baca.SegmentMaker._comment_measure_numbers()
@@ -6651,177 +7951,235 @@ c_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
+    %! faberge.piano_attack_rhythm()
     r4..                                                                       %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 120 / measure 24]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 121 / measure 25]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 122 / measure 26]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 123 / measure 27]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 124 / measure 28]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 125 / measure 29]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 126 / measure 30]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 127 / measure 31]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 128 / measure 32]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 129 / measure 33]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 130 / measure 34]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 131 / measure 35]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 132 / measure 36]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 133 / measure 37]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 134 / measure 38]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 135 / measure 39]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 136 / measure 40]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 137 / measure 41]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 138 / measure 42]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 139 / measure 43]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 140 / measure 44]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 141 / measure 45]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 142 / measure 46]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 143 / measure 47]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 144 / measure 48]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 145 / measure 49]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 146 / measure 50]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 147 / measure 51]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 148 / measure 52]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 149 / measure 53]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 150 / measure 54]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 151 / measure 55]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 152 / measure 56]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 153 / measure 57]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 154 / measure 58]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 155 / measure 59]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 156 / measure 60]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 157 / measure 61]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 158 / measure 62]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 159 / measure 63]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 160 / measure 64]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 161 / measure 65]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 162 / measure 66]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 163 / measure 67]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 164 / measure 68]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 165 / measure 69]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 166 / measure 70]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 167 / measure 71]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 168 / measure 72]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 169 / measure 73]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 170 / measure 74]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 171 / measure 75]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 172 / measure 76]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 173 / measure 77]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 174 / measure 78]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2                                                                         %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 175 / measure 79]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r2.                                                                        %! faberge.piano_attack_rhythm()
 
     % [03 Piano_LH_Attack_Voice measure 176 / measure 80]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.piano_attack_rhythm()
     r1                                                                         %! faberge.piano_attack_rhythm()
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
 
@@ -6834,6 +8192,10 @@ c_Piano_LH_Attack_Voice = {                                                    %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             d1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6848,6 +8210,10 @@ c_Piano_LH_Attack_Voice = {                                                    %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -6885,6 +8251,7 @@ c_Percussion_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.make_single_attack()
     g'2.                                                                       %! baca.make_single_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -6916,6 +8283,9 @@ c_Percussion_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -6927,6 +8297,9 @@ c_Percussion_Music_Voice = {                                                   %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Percussion_Rest_Voice measure 98 / measure 2]                %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
             - \tweak staff-padding 6                                           %! baca.markup():baca.IndicatorCommand._call()
             ^ \baca-to-marimba-markup                                          %! baca.markup():baca.IndicatorCommand._call()
@@ -6937,82 +8310,102 @@ c_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Percussion_Music_Voice measure 99 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 100 / measure 4]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 101 / measure 5]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 102 / measure 6]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 103 / measure 7]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 104 / measure 8]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 105 / measure 9]                      %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 106 / measure 10]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 107 / measure 11]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 108 / measure 12]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 109 / measure 13]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 110 / measure 14]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 111 / measure 15]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 112 / measure 16]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 113 / measure 17]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 114 / measure 18]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 115 / measure 19]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 116 / measure 20]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 117 / measure 21]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 118 / measure 22]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -7023,6 +8416,7 @@ c_Percussion_Music_Voice = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):EXPLICIT_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.clef():baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():EXPLICIT_CLEF
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7047,9 +8441,11 @@ c_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 121 / measure 25]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7057,9 +8453,11 @@ c_Percussion_Music_Voice = {                                                   %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 122 / measure 26]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 123 / measure 27]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7067,9 +8465,11 @@ c_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 124 / measure 28]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 125 / measure 29]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7077,9 +8477,11 @@ c_Percussion_Music_Voice = {                                                   %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 126 / measure 30]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 127 / measure 31]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7087,12 +8489,15 @@ c_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 128 / measure 32]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 129 / measure 33]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 130 / measure 34]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7100,12 +8505,15 @@ c_Percussion_Music_Voice = {                                                   %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 131 / measure 35]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 132 / measure 36]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 133 / measure 37]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7113,15 +8521,19 @@ c_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 134 / measure 38]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 135 / measure 39]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 136 / measure 40]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 137 / measure 41]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7129,15 +8541,19 @@ c_Percussion_Music_Voice = {                                                   %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 138 / measure 42]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 139 / measure 43]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 140 / measure 44]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 141 / measure 45]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7145,9 +8561,11 @@ c_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 142 / measure 46]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 143 / measure 47]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7161,11 +8579,13 @@ c_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Percussion_Music_Voice measure 145 / measure 49]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,2.                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7187,9 +8607,11 @@ c_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     d,1                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 147 / measure 51]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7197,9 +8619,11 @@ c_Percussion_Music_Voice = {                                                   %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 148 / measure 52]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,2                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 149 / measure 53]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7207,9 +8631,11 @@ c_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Percussion_Music_Voice measure 150 / measure 54]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,2                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 151 / measure 55]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     d,2.                                                                       %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7225,11 +8651,13 @@ c_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     d,1                                                                        %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Percussion_Music_Voice measure 153 / measure 57]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     cs,!2.                                                                     %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -7247,9 +8675,11 @@ c_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     cs,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 155 / measure 59]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     cs,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Percussion_Music_Voice measure 156 / measure 60]                     %! baca.SegmentMaker._comment_measure_numbers()
@@ -7259,6 +8689,7 @@ c_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     cs,!2                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -7272,6 +8703,9 @@ c_Percussion_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             d1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7283,6 +8717,9 @@ c_Percussion_Music_Voice = {                                                   %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Percussion_Rest_Voice measure 157 / measure 61]              %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -7291,30 +8728,37 @@ c_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Percussion_Music_Voice measure 158 / measure 62]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 159 / measure 63]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 160 / measure 64]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 161 / measure 65]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 162 / measure 66]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 163 / measure 67]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 164 / measure 68]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -7330,6 +8774,7 @@ c_Percussion_Music_Voice = {                                                   %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_COLOR
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):EXPLICIT_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.clef():baca.IndicatorCommand._call():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():EXPLICIT_CLEF
+    %! baca.make_repeat_tied_notes()
     b1                                                                         %! baca.make_repeat_tied_notes()
     - \tweak X-extent #'(0 . 0)                                                %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -7350,18 +8795,21 @@ c_Percussion_Music_Voice = {                                                   %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_CLEF_REDRAW_COLOR
 
     % [03 Percussion_Music_Voice measure 166 / measure 70]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 167 / measure 71]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b2                                                                         %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Percussion_Music_Voice measure 168 / measure 72]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b2.                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     \revert Stem.direction                                                     %! baca.stem_down():baca.OverrideCommand._call(2)
@@ -7376,6 +8824,9 @@ c_Percussion_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             c'1 * 3/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
@@ -7385,6 +8836,9 @@ c_Percussion_Music_Voice = {                                                   %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Percussion_Rest_Voice measure 169 / measure 73]              %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 3/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"3" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -7393,22 +8847,27 @@ c_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Percussion_Music_Voice measure 170 / measure 74]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 171 / measure 75]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 172 / measure 76]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 173 / measure 77]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Percussion_Music_Voice measure 174 / measure 78]                     %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
@@ -7416,6 +8875,7 @@ c_Percussion_Music_Voice = {                                                   %
 
         % [03 Percussion_Music_Voice measure 175 / measure 79]                 %! baca.SegmentMaker._comment_measure_numbers()
         \override DynamicLineSpanner.staff-padding = 9                         %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+        %! baca.skeleton()
         r2                                                                     %! baca.skeleton()
         - \abjad-dashed-line-with-hook                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         - \baca-text-spanner-left-text "baca.skeleton()"                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -7428,6 +8888,7 @@ c_Percussion_Music_Voice = {                                                   %
         \times 5/4                                                             %! baca.skeleton()
         {                                                                      %! baca.skeleton()
 
+            %! baca.skeleton()
             c'4                                                                %! baca.skeleton()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7439,10 +8900,13 @@ c_Percussion_Music_Voice = {                                                   %
             - \tweak staff-padding 8                                           %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):RIGHT_BROKEN:SPANNER_START
             \bacaStartTextSpanMaterialAnnotation                               %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):RIGHT_BROKEN:SPANNER_START
 
+            %! baca.skeleton()
             c'4                                                                %! baca.skeleton()
 
+            %! baca.skeleton()
             c'4                                                                %! baca.skeleton()
 
+            %! baca.skeleton()
             c'4                                                                %! baca.skeleton()
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
@@ -7461,6 +8925,10 @@ c_Percussion_Music_Voice = {                                                   %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
             \bacaStopTextSpanMaterialAnnotation                                %! baca.material_annotation_spanner():MATERIAL_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):RIGHT_BROKEN:SPANNER_STOP:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
@@ -7476,6 +8944,10 @@ c_Percussion_Music_Voice = {                                                   %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -7510,6 +8982,7 @@ c_Violin_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.make_single_attack()
     g'''2.                                                                     %! baca.make_single_attack()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7540,6 +9013,9 @@ c_Violin_Music_Voice = {                                                       %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):NOTE:INVISIBLE_MUSIC_COLORING
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):NOTE:INVISIBLE_MUSIC_COMMAND
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
             b'1 * 1                                                            %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ff                                                                %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7551,6 +9027,9 @@ c_Violin_Music_Voice = {                                                       %
         {                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container(6)
 
             % [03 Violin_Rest_Voice measure 98 / measure 2]                    %! baca.SegmentMaker._comment_measure_numbers()
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1                                                             %! baca.SegmentMaker._make_multimeasure_rest_container(5):REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"1"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:REST_VOICE
 
@@ -7559,30 +9038,37 @@ c_Violin_Music_Voice = {                                                       %
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7)
 
     % [03 Violin_Music_Voice measure 99 / measure 3]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 100 / measure 4]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 101 / measure 5]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 102 / measure 6]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1/2                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"2"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 103 / measure 7]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 3/4                                                                   %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"3" #"4"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 104 / measure 8]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.SegmentMaker._make_measure_silences()
     R1 * 1                                                                     %! baca.SegmentMaker._make_measure_silences()
 %@% ^ \baca-duration-multiplier-markup #"1" #"1"                               %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
 
     % [03 Violin_Music_Voice measure 105 / measure 9]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7594,107 +9080,146 @@ c_Violin_Music_Voice = {                                                       %
     - \tweak staff-padding 3                                                   %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanSpazzolato                                               %! baca.spazzolato_spanner():SPAZZOLATO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
-    f'16                                                                       %! faberge.spazzolati_rhythm()
-    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-
-    r16                                                                        %! faberge.spazzolati_rhythm()
-
-    r16                                                                        %! faberge.spazzolati_rhythm()
-
-    f'16                                                                       %! faberge.spazzolati_rhythm()
-    [                                                                          %! rmakers.RewriteMeterCommand.__call__
-
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
+    f'16                                                                       %! faberge.spazzolati_rhythm()
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
+
+    %! faberge.spazzolati_rhythm()
+    r16                                                                        %! faberge.spazzolati_rhythm()
+
+    %! faberge.spazzolati_rhythm()
+    r16                                                                        %! faberge.spazzolati_rhythm()
+
+    %! faberge.spazzolati_rhythm()
+    f'16                                                                       %! faberge.spazzolati_rhythm()
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
+
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 106 / measure 10]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 107 / measure 11]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 108 / measure 12]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 109 / measure 13]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff-parenthesized                                              %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -7704,323 +9229,443 @@ c_Violin_Music_Voice = {                                                       %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 110 / measure 14]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 111 / measure 15]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 112 / measure 16]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 113 / measure 17]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 114 / measure 18]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 115 / measure 19]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 116 / measure 20]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 117 / measure 21]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r8                                                                         %! faberge.spazzolati_rhythm()
 
     % [03 Violin_Music_Voice measure 118 / measure 22]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     r16                                                                        %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
 
+    %! faberge.spazzolati_rhythm()
     f'16                                                                       %! faberge.spazzolati_rhythm()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [03 Violin_Music_Voice measure 119 / measure 23]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8045,45 +9690,59 @@ c_Violin_Music_Voice = {                                                       %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 121 / measure 25]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 122 / measure 26]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 123 / measure 27]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 124 / measure 28]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 125 / measure 29]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 126 / measure 30]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 127 / measure 31]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 128 / measure 32]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 129 / measure 33]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 130 / measure 34]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 131 / measure 35]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 132 / measure 36]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 133 / measure 37]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8091,27 +9750,35 @@ c_Violin_Music_Voice = {                                                       %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Violin_Music_Voice measure 134 / measure 38]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 135 / measure 39]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 136 / measure 40]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 137 / measure 41]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 138 / measure 42]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 139 / measure 43]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 140 / measure 44]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 141 / measure 45]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8119,21 +9786,27 @@ c_Violin_Music_Voice = {                                                       %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Violin_Music_Voice measure 142 / measure 46]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 143 / measure 47]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 144 / measure 48]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 145 / measure 49]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!2.                                                                    %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 146 / measure 50]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 147 / measure 51]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     eqf'!1                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Violin_Music_Voice measure 148 / measure 52]                         %! baca.SegmentMaker._comment_measure_numbers()
@@ -8143,6 +9816,7 @@ c_Violin_Music_Voice = {                                                       %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     eqf'!2                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8161,6 +9835,7 @@ c_Violin_Music_Voice = {                                                       %
         \override Beam.positions = #'(-3.5 . -3.5)                             %! baca.beam_positions():baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 10                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-p                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -8177,36 +9852,47 @@ c_Violin_Music_Voice = {                                                       %
         \bacaStartTextSpanCLB                                                  %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8218,64 +9904,84 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 151 / measure 55]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8287,30 +9993,38 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 153 / measure 57]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8318,41 +10032,53 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Violin_Music_Voice measure 154 / measure 58]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Violin_Music_Voice measure 155 / measure 59]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -8362,46 +10088,60 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 156 / measure 60]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8413,34 +10153,44 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 158 / measure 62]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8452,64 +10202,84 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 159 / measure 63]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8521,52 +10291,68 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 161 / measure 65]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8574,16 +10360,20 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Violin_Music_Voice measure 163 / measure 67]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -8593,40 +10383,52 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 164 / measure 68]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8635,6 +10437,7 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Violin_Music_Voice measure 165 / measure 69]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'1                                                                        %! baca.make_repeat_tied_notes()
     - \tweak X-extent #'(0 . 0)                                                %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8654,18 +10457,21 @@ c_Violin_Music_Voice = {                                                       %
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Violin_Music_Voice measure 166 / measure 70]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Violin_Music_Voice measure 167 / measure 71]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2                                                                        %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     - \tweak stencil ##f                                                       %! baca.SegmentMaker._attach_shadow_tie_indicators()
     ~                                                                          %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
     % [03 Violin_Music_Voice measure 168 / measure 72]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     b'2.                                                                       %! baca.make_repeat_tied_notes()
     \repeatTie                                                                 %! baca.make_repeat_tied_notes()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -8676,6 +10482,7 @@ c_Violin_Music_Voice = {                                                       %
 
         % [03 Violin_Music_Voice measure 169 / measure 73]                     %! baca.SegmentMaker._comment_measure_numbers()
         \override Stem.direction = #down                                       %! baca.stem_down():baca.OverrideCommand._call(1)
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \tweak X-extent #'(0 . 0)                                            %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():REDUNDANT_DYNAMIC
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8690,48 +10497,63 @@ c_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding 5.5                                             %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCLB                                                  %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8743,64 +10565,84 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 171 / measure 75]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8812,22 +10654,28 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 173 / measure 77]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8835,35 +10683,45 @@ c_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Violin_Music_Voice measure 174 / measure 78]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     a'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Violin_Music_Voice measure 175 / measure 79]                         %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c''8                                                                       %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -8873,40 +10731,52 @@ c_Violin_Music_Voice = {                                                       %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Violin_Music_Voice measure 176 / measure 80]                     %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c''8                                                                   %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         a'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -8925,6 +10795,10 @@ c_Violin_Music_Voice = {                                                       %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             b'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
             \bacaStopTextSpanCLB                                               %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
@@ -8940,6 +10814,10 @@ c_Violin_Music_Voice = {                                                       %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -8973,6 +10851,7 @@ c_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.make_repeat_tied_notes()
     ef!2.                                                                      %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9003,21 +10882,27 @@ c_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     ef!1                                                                       %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 99 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef!1                                                                       %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 100 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef!2                                                                       %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 101 / measure 5]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef!2.                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 102 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef!2                                                                       %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 103 / measure 7]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef!2.                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 104 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
@@ -9027,6 +10912,7 @@ c_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     ef!1                                                                       %! baca.make_repeat_tied_notes()
     :32                                                                        %! baca.stem_tremolo():baca.IndicatorCommand._call()
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
@@ -9035,9 +10921,11 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 105 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
         \bacaStopTextSpanBowSpeed                                              %! baca.xfb_spanner():BOW_SPEED_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9053,8 +10941,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9062,11 +10952,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9076,8 +10969,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 106 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9085,11 +10980,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9099,8 +10997,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 107 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9108,8 +11008,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9117,11 +11019,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9130,8 +11035,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9140,8 +11047,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 108 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9149,11 +11058,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9163,8 +11075,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 109 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff-parenthesized                                          %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9178,11 +11092,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9191,8 +11108,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9201,8 +11120,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 110 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9210,11 +11131,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9223,8 +11147,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9232,8 +11158,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9242,11 +11170,14 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 111 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9255,8 +11186,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9264,11 +11197,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9278,8 +11214,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 112 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9287,8 +11225,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9296,11 +11236,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9309,8 +11252,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9319,8 +11264,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 113 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9328,11 +11275,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9341,8 +11291,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9351,11 +11303,14 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 114 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9364,8 +11319,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9373,8 +11330,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9382,11 +11341,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9396,8 +11358,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 115 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9405,8 +11369,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9415,11 +11381,14 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 116 / measure 20]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9428,8 +11397,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9437,11 +11408,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9450,8 +11424,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9460,8 +11436,10 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 117 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9469,11 +11447,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9482,8 +11463,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9491,8 +11474,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9501,11 +11486,14 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.spazzolati_rhythm()
 
         % [03 Viola_Music_Voice measure 118 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
@@ -9514,8 +11502,10 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         r4                                                                     %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
     }                                                                          %! faberge.spazzolati_rhythm()
@@ -9523,11 +11513,14 @@ c_Viola_Music_Voice = {                                                        %
     \times 2/3                                                                 %! faberge.spazzolati_rhythm()
     {                                                                          %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
 
+        %! faberge.spazzolati_rhythm()
         f'8                                                                    %! faberge.spazzolati_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9536,6 +11529,7 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.spazzolati_rhythm()
 
     % [03 Viola_Music_Voice measure 119 / measure 23]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9560,45 +11554,59 @@ c_Viola_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 121 / measure 25]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 122 / measure 26]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 123 / measure 27]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 124 / measure 28]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 125 / measure 29]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 126 / measure 30]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 127 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 128 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 129 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 130 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 131 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 132 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 133 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-pp-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9606,27 +11614,35 @@ c_Viola_Music_Voice = {                                                        %
     \<                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Viola_Music_Voice measure 134 / measure 38]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 135 / measure 39]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 136 / measure 40]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 137 / measure 41]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 138 / measure 42]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 139 / measure 43]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 140 / measure 44]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 141 / measure 45]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9634,21 +11650,27 @@ c_Viola_Music_Voice = {                                                        %
     \>                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Viola_Music_Voice measure 142 / measure 46]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 143 / measure 47]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 144 / measure 48]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 145 / measure 49]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g2.                                                                        %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 146 / measure 50]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 147 / measure 51]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     g1                                                                         %! baca.make_repeat_tied_notes()
 
     % [03 Viola_Music_Voice measure 148 / measure 52]                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -9658,6 +11680,7 @@ c_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     g2                                                                         %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9676,6 +11699,7 @@ c_Viola_Music_Voice = {                                                        %
         \override DynamicLineSpanner.staff-padding = 10                        %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
         \override Stem.direction = #down                                       %! baca.stem_down():baca.OverrideCommand._call(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-p                                                         %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -9691,24 +11715,31 @@ c_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding 5.5                                             %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \bacaStartTextSpanCLB                                                  %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -9720,52 +11751,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 150 / measure 54]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -9777,54 +11824,70 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 152 / measure 56]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -9832,16 +11895,20 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Viola_Music_Voice measure 154 / measure 58]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -9851,52 +11918,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 155 / measure 59]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -9908,52 +11991,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 157 / measure 61]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -9961,22 +12060,28 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Viola_Music_Voice measure 159 / measure 63]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -9986,52 +12091,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 160 / measure 64]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10039,41 +12160,53 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Viola_Music_Voice measure 162 / measure 66]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Viola_Music_Voice measure 163 / measure 67]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -10083,40 +12216,52 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 164 / measure 68]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10128,52 +12273,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 165 / measure 69]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10185,52 +12346,68 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 167 / measure 71]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10242,28 +12419,36 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 169 / measure 73]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10271,53 +12456,69 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Viola_Music_Voice measure 170 / measure 74]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Viola_Music_Voice measure 171 / measure 75]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     b8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -10327,46 +12528,60 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 172 / measure 76]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         b8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10378,22 +12593,28 @@ c_Viola_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Viola_Music_Voice measure 174 / measure 78]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d'8                                                                    %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10401,31 +12622,39 @@ c_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Viola_Music_Voice measure 175 / measure 79]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
+    %! faberge.clb_rhythm()
     c'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d'8                                                                        %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Viola_Music_Voice measure 176 / measure 80]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.downbeat_attack()
     d'8                                                                        %! faberge.downbeat_attack()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \revert Stem.direction                                                     %! baca.stem_down():baca.OverrideCommand._call(2)
 
+    %! faberge.downbeat_attack()
     r2..                                                                       %! faberge.downbeat_attack()
     \bacaStopTextSpanCLB                                                       %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
     \revert Beam.positions                                                     %! baca.beam_positions():baca.OverrideCommand._call(2)
@@ -10440,6 +12669,10 @@ c_Viola_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             c'1 * 1/4                                                          %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -10454,6 +12687,10 @@ c_Viola_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -10488,6 +12725,7 @@ c_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
     \set Staff.forceClef = ##t                                                 %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_STAFF_LINES_COLOR
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
@@ -10511,27 +12749,35 @@ c_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
     \override Dots.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
     \override Stem.transparent = ##t                                           %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 99 / measure 3]                            %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 100 / measure 4]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 101 / measure 5]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 102 / measure 6]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 103 / measure 7]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 104 / measure 8]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 105 / measure 9]                           %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10553,15 +12799,19 @@ c_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanVibrato                                                  %! baca.vibrato_spanner():VIBRATO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     % [03 Cello_Music_Voice measure 106 / measure 10]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 107 / measure 11]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 108 / measure 12]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 109 / measure 13]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10569,33 +12819,43 @@ c_Cello_Music_Voice = {                                                        %
     \bacaStopTextSpanVibrato                                                   %! baca.vibrato_spanner():VIBRATO_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
 
     % [03 Cello_Music_Voice measure 110 / measure 14]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 111 / measure 15]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 112 / measure 16]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 113 / measure 17]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 114 / measure 18]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 115 / measure 19]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 116 / measure 20]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 117 / measure 21]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 118 / measure 22]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 119 / measure 23]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ff-parenthesized                                                     %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10617,43 +12877,55 @@ c_Cello_Music_Voice = {                                                        %
     \bacaStartTextSpanVibrato                                                  %! baca.vibrato_spanner():VIBRATO_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     % [03 Cello_Music_Voice measure 120 / measure 24]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 121 / measure 25]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 122 / measure 26]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 123 / measure 27]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
 
     % [03 Cello_Music_Voice measure 124 / measure 28]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 125 / measure 29]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 126 / measure 30]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 127 / measure 31]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
     \bacaStopTextSpanSCP                                                       %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
     \bacaStopTextSpanVibrato                                                   %! baca.vibrato_spanner():VIBRATO_SPANNER:baca.PiecewiseCommand._call(3):SPANNER_STOP
 
     % [03 Cello_Music_Voice measure 128 / measure 32]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 129 / measure 33]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 130 / measure 34]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!2.                                                                     %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 131 / measure 35]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeat_tied_notes()
     ef,!1                                                                      %! baca.make_repeat_tied_notes()
 
     % [03 Cello_Music_Voice measure 132 / measure 36]                          %! baca.SegmentMaker._comment_measure_numbers()
@@ -10663,12 +12935,14 @@ c_Cello_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
     \revert Dots.transparent                                                   %! baca.glissando():abjad.glissando(6)
     \revert Stem.transparent                                                   %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeat_tied_notes()
     ef,!2                                                                      %! baca.make_repeat_tied_notes()
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding():baca.OverrideCommand._call(2)
     <> \bacaStopTextSpanRhythmAnnotation                                       %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
 
     % [03 Cello_Music_Voice measure 133 / measure 37]                          %! baca.SegmentMaker._comment_measure_numbers()
     \override DynamicLineSpanner.staff-padding = 8                             %! baca.dls_staff_padding():baca.OverrideCommand._call(1)
+    %! baca.make_repeated_duration_notes()
     ef,!4                                                                      %! baca.make_repeated_duration_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10692,94 +12966,133 @@ c_Cello_Music_Voice = {                                                        %
     \override Accidental.stencil = ##f                                         %! baca.glissando():abjad.glissando(1)
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando():abjad.glissando(1)
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando():abjad.glissando(1)
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 134 / measure 38]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 135 / measure 39]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 136 / measure 40]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 137 / measure 41]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 138 / measure 42]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     e,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 139 / measure 43]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 140 / measure 44]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 141 / measure 45]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 142 / measure 46]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 143 / measure 47]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 144 / measure 48]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 145 / measure 49]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10796,89 +13109,124 @@ c_Cello_Music_Voice = {                                                        %
     - \tweak staff-padding 3                                                   %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanSCP                                                      %! baca.scp_spanner():SCP_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 146 / measure 50]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 147 / measure 51]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 148 / measure 52]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 149 / measure 53]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 150 / measure 54]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     d,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 151 / measure 55]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 152 / measure 56]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 153 / measure 57]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 154 / measure 58]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 155 / measure 59]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     % [03 Cello_Music_Voice measure 156 / measure 60]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
 
     \revert Accidental.stencil                                                 %! baca.glissando():abjad.glissando(6)
     \revert NoteColumn.glissando-skip                                          %! baca.glissando():abjad.glissando(6)
     \revert NoteHead.no-ledgers                                                %! baca.glissando():abjad.glissando(6)
     \undo \hide NoteHead                                                       %! baca.glissando():abjad.glissando(6)
+    %! baca.make_repeated_duration_notes()
     c,4                                                                        %! baca.make_repeated_duration_notes()
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10900,6 +13248,7 @@ c_Cello_Music_Voice = {                                                        %
         \override TextScript.staff-padding = 8                                 %! baca.text_script_staff_padding():baca.OverrideCommand._call(1)
         \override TupletBracket.staff-padding = 3                              %! baca.tuplet_bracket_staff_padding():baca.OverrideCommand._call(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! baca.SegmentMaker._attach_color_literal(2):EXPLICIT_STAFF_LINES_COLOR
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -10913,66 +13262,87 @@ c_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanCLB                                                  %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
         \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! -PARTS:baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_BAR_EXTENT
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -10984,88 +13354,116 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Cello_Music_Voice measure 160 / measure 64]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -11077,70 +13475,92 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Cello_Music_Voice measure 163 / measure 67]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -11148,54 +13568,70 @@ c_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Cello_Music_Voice measure 166 / measure 70]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! faberge.clb_rhythm()
 
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Cello_Music_Voice measure 167 / measure 71]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Cello_Music_Voice measure 168 / measure 72]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     e8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! faberge.clb_rhythm()
@@ -11205,82 +13641,108 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Cello_Music_Voice measure 169 / measure 73]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -11292,52 +13754,68 @@ c_Cello_Music_Voice = {                                                        %
     {                                                                          %! faberge.clb_rhythm()
 
         % [03 Cello_Music_Voice measure 172 / measure 76]                      %! baca.SegmentMaker._comment_measure_numbers()
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         [                                                                      %! faberge.clb_rhythm()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         d8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         e8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
 
+        %! faberge.clb_rhythm()
         c8                                                                     %! faberge.clb_rhythm()
         - \staccato                                                            %! baca.staccato():baca.IndicatorCommand._call()
         ]                                                                      %! faberge.clb_rhythm()
@@ -11345,31 +13823,39 @@ c_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge.clb_rhythm()
 
     % [03 Cello_Music_Voice measure 175 / measure 79]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     [                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
+    %! faberge.clb_rhythm()
     d8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
+    %! faberge.clb_rhythm()
     c8                                                                         %! faberge.clb_rhythm()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
 
     % [03 Cello_Music_Voice measure 176 / measure 80]                          %! baca.SegmentMaker._comment_measure_numbers()
+    %! faberge.downbeat_attack()
     c8                                                                         %! faberge.downbeat_attack()
     - \staccato                                                                %! baca.staccato():baca.IndicatorCommand._call()
     ]                                                                          %! baca.beam():baca.SpannerIndicatorCommand._call(4):SPANNER_STOP
     \revert Stem.direction                                                     %! baca.stem_down():baca.OverrideCommand._call(2)
 
+    %! faberge.downbeat_attack()
     r2..                                                                       %! faberge.downbeat_attack()
     \bacaStopTextSpanCLB                                                       %! baca.clb_spanner():CLB_SPANNER:baca.PiecewiseCommand._call(4):SPANNER_STOP
     \revert Beam.positions                                                     %! baca.beam_positions():baca.OverrideCommand._call(2)
@@ -11386,6 +13872,10 @@ c_Cello_Music_Voice = {                                                        %
             \abjad-invisible-music-coloring                                    %! baca.SegmentMaker._make_multimeasure_rest_container(2):PHANTOM:NOTE:INVISIBLE_MUSIC_COLORING:baca.SegmentMaker._style_phantom_measures(5)
         %@% \abjad-invisible-music                                             %! baca.SegmentMaker._make_multimeasure_rest_container(3):PHANTOM:NOTE:INVISIBLE_MUSIC_COMMAND:baca.SegmentMaker._style_phantom_measures(5)
             \baca-not-yet-pitched-coloring                                     %! baca.SegmentMaker._color_not_yet_pitched():NOT_YET_PITCHED_COLORING:HIDDEN:NOTE:baca.SegmentMaker._style_phantom_measures(5):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(1)
+            %! PHANTOM
+            %! HIDDEN
+            %! NOTE
             d1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
@@ -11400,6 +13890,10 @@ c_Cello_Music_Voice = {                                                        %
             \stopStaff                                                         %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \once \override Staff.StaffSymbol.transparent = ##t                %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
             \startStaff                                                        %! baca.SegmentMaker._style_phantom_measures(8):PHANTOM
+            %! baca.SegmentMaker._make_multimeasure_rest_container(5)
+            %! PHANTOM
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
             R1 * 1/4                                                           %! baca.SegmentMaker._make_multimeasure_rest_container(5):PHANTOM:REST_VOICE:MULTIMEASURE_REST
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:MULTIMEASURE_REST:PHANTOM:REST_VOICE:baca.SegmentMaker._style_phantom_measures(5)
 
