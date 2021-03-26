@@ -1,9 +1,20 @@
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_format_pieces()
 \version "2.23.1"                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_format_pieces()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_format_pieces()
 \language "english"                                                            %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_format_pieces()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"                                                %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
 \include "illustration.ily"                                                    %! ide.Path.extern()
 
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
+
 \score                                                                         %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
 {                                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
 
     %! baca.SegmentMaker._make_lilypond_file()
@@ -11,6 +22,7 @@
 
         %! baca.SegmentMaker._make_lilypond_file()
         {                                                                      %! baca.SegmentMaker._make_lilypond_file()
+            %! baca.SegmentMaker._make_lilypond_file()
             \include "layout.ly"                                               %! baca.SegmentMaker._make_lilypond_file()
         %! baca.SegmentMaker._make_lilypond_file()
         }                                                                      %! baca.SegmentMaker._make_lilypond_file()
@@ -43,18 +55,21 @@
                 %! faberge.ScoreTemplate.__call__()
                 <<                                                             %! faberge.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Flute                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Flute_Music_Staff"                       %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
                     \a_Flute_Music_Staff                                       %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag EnglishHorn                                           %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "English_Horn_Music_Staff"                %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
                     \a_English_Horn_Music_Staff                                %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Clarinet                                              %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Clarinet_Music_Staff"                    %! faberge.ScoreTemplate.__call__()
@@ -69,6 +84,7 @@
                 %! faberge.ScoreTemplate.__call__()
                 <<                                                             %! faberge.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Piano                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context PianoStaff = "Piano_Staff_Group"                  %! faberge.ScoreTemplate.__call__()
@@ -88,6 +104,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     >>                                                         %! faberge.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Percussion                                            %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Percussion_Music_Staff"                  %! faberge.ScoreTemplate.__call__()
@@ -102,18 +119,21 @@
                 %! faberge.ScoreTemplate.__call__()
                 <<                                                             %! faberge.ScoreTemplate.__call__()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Violin                                                %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Violin_Music_Staff"                      %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
                     \a_Violin_Music_Staff                                      %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Viola                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff"                       %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
                     \a_Viola_Music_Staff                                       %! ide.Path.extern()
 
+                    %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Cello                                                 %! baca.ScoreTemplate._attach_liypond_tag()
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff"                       %! faberge.ScoreTemplate.__call__()
@@ -132,4 +152,6 @@
     %! baca.SegmentMaker._make_lilypond_file()
     >>                                                                         %! baca.SegmentMaker._make_lilypond_file()
 
+                                                                               %! baca.SegmentMaker._make_lilypond_file()
+                                                                               %! abjad.LilyPondFile._get_formatted_blocks()
 }                                                                              %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_blocks()
