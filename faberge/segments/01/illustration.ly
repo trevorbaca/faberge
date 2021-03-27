@@ -7,6 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily" %! baca.SegmentMaker._make_lilypond_file():abjad.LilyPondFile._get_formatted_includes()
+%! ide.Path.extern()
 \include "illustration.ily" %! ide.Path.extern()
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -40,6 +41,7 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips" %! abjad.ScoreTemplate._make_global_context()
                 %! abjad.ScoreTemplate._make_global_context()
+                %! ide.Path.extern()
                 \a_Global_Skips %! ide.Path.extern()
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -60,6 +62,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Flute_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Flute_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -67,6 +70,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "English_Horn_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_English_Horn_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -74,6 +78,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Clarinet_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Clarinet_Music_Staff %! ide.Path.extern()
 
                 %! faberge.ScoreTemplate.__call__()
@@ -94,11 +99,13 @@
                         %! faberge.ScoreTemplate.__call__()
                         \context Staff = "Piano_RH_Music_Staff" %! faberge.ScoreTemplate.__call__()
                         %! faberge.ScoreTemplate.__call__()
+                        %! ide.Path.extern()
                         \a_Piano_RH_Music_Staff %! ide.Path.extern()
 
                         %! faberge.ScoreTemplate.__call__()
                         \context Staff = "Piano_LH_Music_Staff" %! faberge.ScoreTemplate.__call__()
                         %! faberge.ScoreTemplate.__call__()
+                        %! ide.Path.extern()
                         \a_Piano_LH_Music_Staff %! ide.Path.extern()
 
                     %! faberge.ScoreTemplate.__call__()
@@ -109,6 +116,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Percussion_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Percussion_Music_Staff %! ide.Path.extern()
 
                 %! faberge.ScoreTemplate.__call__()
@@ -124,6 +132,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Violin_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Violin_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -131,6 +140,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Viola_Music_Staff %! ide.Path.extern()
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
@@ -138,6 +148,7 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff" %! faberge.ScoreTemplate.__call__()
                     %! faberge.ScoreTemplate.__call__()
+                    %! ide.Path.extern()
                     \a_Cello_Music_Staff %! ide.Path.extern()
 
                 %! faberge.ScoreTemplate.__call__()
