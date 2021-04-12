@@ -425,7 +425,7 @@ def glow_rhythm(
     if tuplet_ratios is None:
         tuplet_ratios = tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
-    tuplet_ratios_ = abjad.sequence(tuplet_ratios)
+    tuplet_ratios_ = abjad.Sequence(tuplet_ratios)
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
@@ -514,7 +514,7 @@ def keynoise_rhythm(
         negated_tuplet_ratio = abjad.Ratio(numbers)
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
-    tuplet_ratios_ = abjad.sequence(tuplet_ratios)
+    tuplet_ratios_ = abjad.Sequence(tuplet_ratios)
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
@@ -720,7 +720,7 @@ def shell_exchange_rhythm(
     counts = grouped_rests
 
     extras_ = [0, 0, -1, 0, 0, -1, -1]
-    extras = abjad.sequence(extras_)
+    extras = abjad.Sequence(extras_)
     extras = extras.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
@@ -790,7 +790,7 @@ def spazzolati_rhythm(
         [1, 1],
         [-2],
     ]
-    counts = abjad.sequence(counts_)
+    counts = abjad.Sequence(counts_)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
 
