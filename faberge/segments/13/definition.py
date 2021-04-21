@@ -700,7 +700,7 @@ maker(
         baca.hairpin(
             "niente o< pp >o",
             final_hairpin=False,
-            map=baca.runs().map(baca.rleak())[0],
+            map=baca.rleak_runs(None, 1),
             pieces=baca.clparts([1]),
         ),
     ),
