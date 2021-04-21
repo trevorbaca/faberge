@@ -430,7 +430,7 @@ def glow_rhythm(
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
-        rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
+        rmakers.tie(baca.pleaf_in_each_tuplet(-1, (None, -1))),
         *commands,
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),

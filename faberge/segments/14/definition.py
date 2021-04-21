@@ -530,19 +530,19 @@ maker(
         baca.hairpin(
             "niente o< mp >o",
             final_hairpin=False,
-            map=baca.runs().map(baca.rleak())[0],
+            map=baca.rleak_runs(None, 1),
             pieces=baca.clparts([1]),
         ),
         baca.hairpin(
             "niente o< mf >o",
             final_hairpin=False,
-            map=baca.runs().map(baca.rleak())[1],
+            map=baca.rleak_runs(1, 2),
             pieces=baca.clparts([1]),
         ),
         baca.hairpin(
             "niente o< f >o",
             final_hairpin=False,
-            map=baca.runs().map(baca.rleak())[2],
+            map=baca.rleak_runs(2, 3),
             pieces=baca.clparts([1]),
         ),
     ),
