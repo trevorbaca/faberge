@@ -1147,7 +1147,9 @@ maker(
     baca.hairpin(
         "ppp < pp >",
         bookend=False,
-        pieces=lambda _: baca.Selection(_).mgroups([2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
+        pieces=lambda _: baca.Selection(_).mgroups(
+            [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]
+        ),
     ),
     baca.markup(
         r"\baca-marimba-attackless-markup",

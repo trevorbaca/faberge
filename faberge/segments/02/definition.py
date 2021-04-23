@@ -1312,7 +1312,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=lambda _:baca.Selection(_).mgroups([9, 10]),
+        pieces=lambda _: baca.Selection(_).mgroups([9, 10]),
         selector=baca.leaves(),
     ),
 )
