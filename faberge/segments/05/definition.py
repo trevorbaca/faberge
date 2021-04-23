@@ -149,7 +149,7 @@ maker(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -384,25 +384,25 @@ maker(
                 "niente o< mf >o",
                 final_hairpin=False,
                 map=baca.rleak_runs(None, 1),
-                pieces=baca.clparts([1]),
+                pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< mp >o",
                 final_hairpin=False,
                 map=baca.rleak_runs(1, 2),
-                pieces=baca.clparts([1]),
+                pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< p >o",
                 final_hairpin=False,
                 map=baca.rleak_runs(2, 4),
-                pieces=baca.clparts([1]),
+                pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< pp >o",
                 final_hairpin=False,
                 map=baca.rleak_runs(4, 6),
-                pieces=baca.clparts([1]),
+                pieces=baca.selectors.clparts([1]),
             ),
         ),
     ),

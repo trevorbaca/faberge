@@ -1036,7 +1036,7 @@ maker(
         abjad.tweak(3).staff_padding,
         bookend=-1,
         autodetect_right_padding=False,
-        pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
+        pieces=baca.selectors.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
         selector=baca.leaves(),
     ),
     baca.stem_tremolo(

@@ -96,7 +96,7 @@ maker(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.material_annotation_spanner(
         "2-1 -|",
@@ -138,7 +138,7 @@ maker(
     baca.hairpin(
         "o< mf >o niente",
         map=baca.runs(),
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.material_annotation_spanner(
@@ -701,7 +701,7 @@ maker(
             "niente o< pp >o",
             final_hairpin=False,
             map=baca.rleak_runs(None, 1),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
     ),
     faberge.airtone_chain_rhythm(

@@ -303,7 +303,7 @@ maker(
     (["vn", "va", "vc"], 5),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -312,7 +312,7 @@ maker(
     (["vn", "va", "vc"], 6),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -321,7 +321,7 @@ maker(
     (["vn", "va", "vc"], 7),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -330,7 +330,7 @@ maker(
     (["vn", "va", "vc"], 8),
     baca.hairpin(
         "o< ff >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -383,7 +383,7 @@ maker(
     ("vc", [1, 2, 3, 4]),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.pitch("F2"),
