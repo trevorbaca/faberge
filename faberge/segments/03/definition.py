@@ -144,7 +144,7 @@ maker(
     ("fl", (9, 10)),
     baca.hairpin(
         "niente o< mp >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.tleaves().rleak(),
     ),
     faberge.glow_rhythm(
@@ -490,7 +490,7 @@ maker(
     ("fl", (53, 54)),
     baca.hairpin(
         "niente o< pp >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.tleaves().rleak(),
     ),
     faberge.glow_rhythm(
@@ -1302,7 +1302,7 @@ maker(
     ("vn", (37, 52)),
     baca.hairpin(
         "(ppp) < f > ppp",
-        pieces=baca.cmgroups([8]),
+        pieces=baca.selectors.cmgroups([8]),
     ),
 )
 
@@ -1441,7 +1441,7 @@ maker(
     ("va", (37, 52)),
     baca.hairpin(
         "(pp) < f > pp",
-        pieces=baca.cmgroups([8]),
+        pieces=baca.selectors.cmgroups([8]),
     ),
 )
 

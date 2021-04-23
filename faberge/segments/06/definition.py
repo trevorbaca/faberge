@@ -170,7 +170,7 @@ maker(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -423,7 +423,7 @@ maker(
     ("vn", 2),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.pitches(
         "D4 Eb4 Eb4 Eb4",
@@ -437,7 +437,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -546,7 +546,7 @@ maker(
     ("va", 2),
     baca.hairpin(
         "niente o< p > pp p",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.pitches(
         "D4 D4 D4 Eb4",
@@ -560,7 +560,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[:3],
     ),
 )

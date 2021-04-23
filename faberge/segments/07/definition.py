@@ -113,7 +113,7 @@ maker(
     (["fl", "cl"], 2),
     baca.hairpin(
         "o< p >o pp > ppp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -142,7 +142,7 @@ maker(
     (["fl", "cl"], 4),
     baca.hairpin(
         "o< pp >o ppp > pppp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 

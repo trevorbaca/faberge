@@ -96,7 +96,7 @@ maker(
     baca.staff_lines(5),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -112,7 +112,7 @@ maker(
     ("fl", 6),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -135,7 +135,7 @@ maker(
     ("fl", 7),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -146,7 +146,7 @@ maker(
     ("fl", 8),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -275,7 +275,7 @@ maker(
     baca.hairpin(
         "o< mf >o niente",
         map=baca.runs(),
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.material_annotation_spanner(
@@ -531,19 +531,19 @@ maker(
             "niente o< mp >o",
             final_hairpin=False,
             map=baca.rleak_runs(None, 1),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< mf >o",
             final_hairpin=False,
             map=baca.rleak_runs(1, 2),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< f >o",
             final_hairpin=False,
             map=baca.rleak_runs(2, 3),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
     ),
     faberge.airtone_chain_rhythm(
@@ -567,7 +567,7 @@ maker(
     ("vc", [5, 6, 7, 8]),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
     baca.pitch("F2"),

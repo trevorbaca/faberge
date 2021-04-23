@@ -108,7 +108,7 @@ maker(
     (["fl", "cl"], 1),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -116,7 +116,7 @@ maker(
     (["fl", "cl"], 2),
     baca.hairpin(
         "o< mf >o mp > p",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -124,7 +124,7 @@ maker(
     (["fl", "cl"], 3),
     baca.hairpin(
         "o< f >o mf > mp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -132,7 +132,7 @@ maker(
     (["fl", "cl"], [4, 5]),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -140,7 +140,7 @@ maker(
     (["fl", "cl"], [6, 7, 8]),
     baca.hairpin(
         "o< p >o pp > ppp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -403,14 +403,14 @@ maker(
     ("vn", [1, 2, 3]),
     baca.hairpin(
         "mp niente o< mp > p",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -503,7 +503,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -548,7 +548,7 @@ maker(
     baca.hairpin(
         "mp p >o",
         bookend=False,
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -558,7 +558,7 @@ maker(
     baca.hairpin(
         "p pp >o niente",
         bookend=False,
-        pieces=baca.lparts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -567,7 +567,7 @@ maker(
     (["vn", "va"], 8),
     baca.hairpin(
         "pp ppp",
-        pieces=baca.lparts([1, 1]),
+        pieces=baca.selectors.lparts([1, 1]),
     ),
 )
 
@@ -598,14 +598,14 @@ maker(
     ("va", [1, 2, 3]),
     baca.hairpin(
         "mp niente o< mp > p",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -676,7 +676,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -722,7 +722,7 @@ maker(
     ("vc", [1, 2, 3]),
     baca.hairpin(
         "pp p >o",
-        pieces=baca.clparts([1]),
+        pieces=baca.selectors.clparts([1]),
     ),
     baca.up_bow(
         baca.pheads().get([1], 2),
@@ -836,7 +836,7 @@ maker(
             "niente o< p >o",
             final_hairpin=False,
             map=baca.rleak_runs(),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
     ),
     faberge.airtone_chain_rhythm(

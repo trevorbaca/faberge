@@ -125,7 +125,7 @@ maker(
     (["fl", "cl"], 1),
     baca.hairpin(
         "o< p >o pp > ppp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -133,7 +133,7 @@ maker(
     (["fl", "cl"], [2, 3, 4]),
     baca.hairpin(
         "o< pp >o ppp > pppp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
 )
 
@@ -152,7 +152,7 @@ maker(
     ),
     baca.hairpin(
         "o< mp >o niente",
-        map=baca.cmgroups(),
+        map=baca.selectors.cmgroups(),
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
         selector=baca.leaves().rleak(),
     ),
@@ -446,7 +446,7 @@ maker(
     ("vn", 3),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.material_annotation_spanner(
         "3-1 -|",
@@ -462,7 +462,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
     baca.stem_tremolo(
@@ -581,7 +581,7 @@ maker(
             "niente o< p >o",
             final_hairpin=False,
             map=baca.rleak_runs(),
-            pieces=baca.clparts([1]),
+            pieces=baca.selectors.clparts([1]),
         ),
     ),
     faberge.airtone_chain_rhythm(

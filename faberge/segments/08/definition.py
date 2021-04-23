@@ -559,14 +559,14 @@ maker(
     ("vn", [6, 8, 9, 10]),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[-3:],
     ),
 )
@@ -652,14 +652,14 @@ maker(
     ("va", [8, 9, 10]),
     baca.hairpin(
         "niente o< p > pp p",
-        pieces=baca.lparts([1, 1, 2]),
+        pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.lparts([1, 2]),
+        pieces=baca.selectors.lparts([1, 2]),
         selector=baca.leaves()[:3],
     ),
 )
