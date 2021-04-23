@@ -1147,7 +1147,7 @@ maker(
     baca.hairpin(
         "ppp < pp >",
         bookend=False,
-        pieces=baca.mgroups([2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
+        pieces=lambda _: baca.Selection(_).mgroups([2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
     ),
     baca.markup(
         r"\baca-marimba-attackless-markup",
@@ -1172,7 +1172,7 @@ maker(
     ("perc", (53, 60)),
     baca.hairpin(
         "ppp < pp >o niente",
-        pieces=baca.mgroups([2, 6 + 1]),
+        pieces=lambda _: baca.Selection(_).mgroups([2, 6 + 1]),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -1556,7 +1556,7 @@ maker(
     baca.interpolate_pitches("Eb2", "C2"),
     baca.hairpin(
         "(p) < ff >o",
-        pieces=baca.mgroups([12, 12]),
+        pieces=lambda _: baca.Selection(_).mgroups([12, 12]),
     ),
     baca.make_repeated_duration_notes([(1, 4)]),
     baca.markup(
@@ -1568,7 +1568,7 @@ maker(
         "(tasto) -> PO -> tasto poss.",
         abjad.tweak(3).staff_padding,
         bookend=-1,
-        pieces=baca.mgroups([12, 12]),
+        pieces=lambda _: baca.Selection(_).mgroups([12, 12]),
     ),
 )
 
