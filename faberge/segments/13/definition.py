@@ -137,7 +137,7 @@ maker(
     ("eh", (5, 8)),
     baca.hairpin(
         "o< mf >o niente",
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
@@ -147,7 +147,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
 )
 
@@ -208,7 +208,7 @@ maker(
     ("cl", (3, 6)),
     baca.hairpin(
         "pp < p > pp",
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
         selector=baca.tleaves()[:-1],
     ),
@@ -241,7 +241,7 @@ maker(
     ("cl", (7, 8)),
     baca.hairpin(
         "p < mp > p",
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
         selector=baca.tleaves()[:-1],
     ),

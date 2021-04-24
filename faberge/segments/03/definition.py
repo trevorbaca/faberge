@@ -644,7 +644,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
@@ -674,7 +674,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
@@ -1120,7 +1120,7 @@ maker(
         r"\baca-to-marimba-markup",
         abjad.tweak(6).staff_padding,
         literal=True,
-        selector=baca.mmrest(0),
+        selector=baca.selectors.mmrest(0),
     ),
 )
 
@@ -1234,7 +1234,7 @@ maker(
         "MM =|",
         abjad.tweak(8).staff_padding,
         right_broken=True,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.skeleton(
         r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",

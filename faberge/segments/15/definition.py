@@ -159,7 +159,7 @@ maker(
     baca.dls_staff_padding(8),
     baca.hairpin(
         "pp < p > pp",
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((2, 3)),
     ),
     baca.material_annotation_spanner(
