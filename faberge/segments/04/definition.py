@@ -82,7 +82,7 @@ maker(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -137,7 +137,7 @@ maker(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -166,7 +166,7 @@ maker(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -307,7 +307,7 @@ maker(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
 )
 
@@ -365,7 +365,7 @@ maker(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.staff_position(0),
 )

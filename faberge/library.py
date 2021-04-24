@@ -309,7 +309,7 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
     Makes dal niente hairpins.
     """
     return baca.hairpin(
-        f"niente o< {stop}", map=baca.runs(), selector=baca.leaves().rleak()
+        f"niente o< {stop}", map=baca.selectors.runs(), selector=baca.leaves().rleak()
     )
 
 
@@ -473,11 +473,13 @@ def increasing_dal_niente_hairpins() -> baca.Suite:
         baca.hairpin("niente o< mp", map=baca.run(1), selector=baca.leaves().rleak()),
         baca.hairpin(
             "niente o< mf",
-            map=baca.runs()[2:4],
+            map=baca.selectors.runs((2, 4)),
             selector=baca.leaves().rleak(),
         ),
         baca.hairpin(
-            "niente o< f", map=baca.runs()[4:], selector=baca.leaves().rleak()
+            "niente o< f",
+            map=baca.selectors.runs((4, None)),
+            selector=baca.leaves().rleak(),
         ),
     )
 
@@ -561,7 +563,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
     return baca.chunk(
         baca.hairpin(f"niente o< {dynamic}", selector=baca.tleaves()[:2]),
         baca.hairpin(f"({dynamic}) >o niente", selector=baca.leaves().rleak()[-2:]),
-        map=baca.ntruns().filter_length(">", 2),
+        map=lambda _: baca.Selection(_).ntruns().filter_length(">", 2),
     )
 
 

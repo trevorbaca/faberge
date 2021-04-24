@@ -173,7 +173,7 @@ maker(
         r"\baca-to-bass-flute-markup",
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.mmrest(0),
+        selector=baca.selectors.mmrest(0),
     ),
 )
 
@@ -258,7 +258,7 @@ maker(
     baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
@@ -279,7 +279,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
@@ -300,7 +300,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
@@ -321,7 +321,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 15, -4, -1, 4, 23],
@@ -359,7 +359,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
     ),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 7, -1, 7, -1, 16, 3],
@@ -434,7 +434,7 @@ maker(
         r"\baca-to-bass-clarinet-markup",
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.mmrest(0),
+        selector=baca.selectors.mmrest(0),
     ),
 )
 
@@ -1153,7 +1153,7 @@ maker(
         abjad.tweak(3).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.ltleaves(),
+        selector=baca.selectors.ltleaves(),
     ),
     baca.stem_tremolo(
         selector=baca.pleaves().get([0, -1]),
@@ -1204,7 +1204,7 @@ maker(
         abjad.tweak(3).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.ltleaves(),
+        selector=baca.selectors.ltleaves(),
     ),
     baca.stem_tremolo(
         selector=baca.pleaves().get([0, -1]),
@@ -1322,6 +1322,6 @@ maker(
     baca.hairpin(
         "ff > pp < p",
         bookend=False,
-        pieces=baca.omgroups([9, 9]),
+        pieces=baca.selectors.omgroups([9, 9]),
     ),
 )

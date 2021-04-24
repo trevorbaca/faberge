@@ -197,7 +197,7 @@ maker(
     baca.pitch("A4"),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         selector=baca.leaves().rleak(),
     ),
 )
@@ -269,7 +269,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
+        map=baca.selectors.runs(),
         selector=baca.leaves().rleak(),
     ),
     faberge.downbeat_attack(denominator=2),
