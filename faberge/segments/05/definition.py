@@ -276,22 +276,22 @@ maker(
         baca.hairpin(
             'o< "f"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[0],
+            map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[1],
+            map=baca.selectors.plts((1, 2)),
         ),
         baca.hairpin(
             'o< "mp"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[2:4],
+            map=baca.selectors.plts((2, 4)),
         ),
         baca.hairpin(
             'o< "p"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[4:6],
+            map=baca.selectors.plts((4, 6)),
         ),
     ),
     baca.dynamic(
@@ -331,22 +331,22 @@ maker(
         baca.hairpin(
             'o< "f"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[0],
+            map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[1],
+            map=baca.selectors.plts((1, 2)),
         ),
         baca.hairpin(
             'o< "mp"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[2:4],
+            map=baca.selectors.plts((2, 4)),
         ),
         baca.hairpin(
             'o< "p"',
             selector=baca.leaves().rleak(),
-            map=baca.plts()[4:6],
+            map=baca.selectors.plts((4, 6)),
         ),
     ),
     faberge.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
@@ -383,25 +383,25 @@ maker(
             baca.hairpin(
                 "niente o< mf >o",
                 final_hairpin=False,
-                map=baca.rleak_runs(None, 1),
+                map=baca.selectors.rleak_runs(None, 1),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< mp >o",
                 final_hairpin=False,
-                map=baca.rleak_runs(1, 2),
+                map=baca.selectors.rleak_runs(1, 2),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< p >o",
                 final_hairpin=False,
-                map=baca.rleak_runs(2, 4),
+                map=baca.selectors.rleak_runs(2, 4),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< pp >o",
                 final_hairpin=False,
-                map=baca.rleak_runs(4, 6),
+                map=baca.selectors.rleak_runs(4, 6),
                 pieces=baca.selectors.clparts([1]),
             ),
         ),

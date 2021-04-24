@@ -160,17 +160,17 @@ maker(
     baca.hairpin(
         'o< "mf"',
         selector=baca.leaves().rleak(),
-        map=baca.plts()[0],
+        map=baca.selectors.plts((None, 1)),
     ),
     baca.hairpin(
         'o< "f"',
         selector=baca.leaves().rleak(),
-        map=baca.plts()[1],
+        map=baca.selectors.plts((1, 2)),
     ),
     baca.hairpin(
         'o< "ff"',
         selector=baca.leaves().rleak(),
-        map=baca.plts()[2],
+        map=baca.selectors.plts((2, 3)),
     ),
 )
 
@@ -372,7 +372,7 @@ maker(
     baca.staff_position(0),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -489,7 +489,7 @@ maker(
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     faberge.back_incised_divisions(),
 )
@@ -530,19 +530,19 @@ maker(
         baca.hairpin(
             "niente o< mp >o",
             final_hairpin=False,
-            map=baca.rleak_runs(None, 1),
+            map=baca.selectors.rleak_runs(None, 1),
             pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< mf >o",
             final_hairpin=False,
-            map=baca.rleak_runs(1, 2),
+            map=baca.selectors.rleak_runs(1, 2),
             pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< f >o",
             final_hairpin=False,
-            map=baca.rleak_runs(2, 3),
+            map=baca.selectors.rleak_runs(2, 3),
             pieces=baca.selectors.clparts([1]),
         ),
     ),
