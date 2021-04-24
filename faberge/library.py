@@ -430,7 +430,7 @@ def glow_rhythm(
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
-        rmakers.tie(baca.pleaf_in_each_tuplet(-1, (None, -1))),
+        rmakers.tie(baca.selectors.pleaf_in_each_tuplet(-1, (None, -1))),
         *commands,
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),
@@ -469,8 +469,16 @@ def increasing_dal_niente_hairpins() -> baca.Suite:
     """
 
     return baca.chunk(
-        baca.hairpin("niente o< p", map=baca.run(0), selector=baca.leaves().rleak()),
-        baca.hairpin("niente o< mp", map=baca.run(1), selector=baca.leaves().rleak()),
+        baca.hairpin(
+            "niente o< p",
+            map=baca.selectors.runs((None, 1)),
+            selector=baca.leaves().rleak(),
+        ),
+        baca.hairpin(
+            "niente o< mp",
+            map=baca.selectors.runs((1, 2)),
+            selector=baca.leaves().rleak(),
+        ),
         baca.hairpin(
             "niente o< mf",
             map=baca.selectors.runs((2, 4)),

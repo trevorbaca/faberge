@@ -229,7 +229,7 @@ maker(
     faberge.glow_rhythm(
         rmakers.force_note(baca.tuplets().exclude([6, 7], 18)),
         rmakers.tie(
-            baca.leaves_in_exclude_tuplets(([6, 7], 18), (None, -1)),
+            baca.selectors.leaves_in_exclude_tuplets(([6, 7], 18), (None, -1)),
         ),
         tuplet_ratio_rotation=0,
     ),
