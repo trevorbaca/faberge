@@ -319,8 +319,10 @@ def downbeat_attack(*, count: int = 1, denominator: int = 4) -> baca.RhythmComma
     """
     return baca.rhythm(
         rmakers.talea([count], denominator),
-        rmakers.force_rest(baca.tuplets()[1:]),
-        rmakers.force_rest(baca.lts()[1:]),
+        rmakers.force_rest(baca.selectors.tuplets((1, None))),
+        rmakers.force_rest(
+            baca.lts()[1:],
+        ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
@@ -735,7 +737,7 @@ def shell_exchange_rhythm(
 
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extras),
-        rmakers.force_rest(baca.lt(-1)),
+        rmakers.force_rest(baca.selectors.lt(-1)),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),
@@ -774,7 +776,7 @@ def single_taper(
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        rmakers.repeat_tie(baca.notes()[1:]),
+        rmakers.repeat_tie(baca.selectors.notes((1, None))),
         tag=abjad.Tag("faberge.single_taper()"),
     )
 
