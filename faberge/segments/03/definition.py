@@ -100,29 +100,37 @@ maker(
     ),
     baca.tuplet_bracket_staff_padding(1),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=0,
     ),
     faberge.niente_swells("p"),
@@ -148,29 +156,37 @@ maker(
         selector=baca.tleaves().rleak(),
     ),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-1,
     ),
 )
@@ -178,29 +194,37 @@ maker(
 maker(
     ("fl", (11, 12)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-2,
     ),
     faberge.niente_swells("mf"),
@@ -214,29 +238,37 @@ maker(
 maker(
     ("fl", (13, 16)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-3,
     ),
 )
@@ -256,29 +288,37 @@ maker(
 maker(
     ("fl", (17, 22)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-4,
     ),
 )
@@ -286,29 +326,37 @@ maker(
 maker(
     ("fl", (23, 26)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-5,
     ),
     faberge.niente_swells("mf"),
@@ -322,29 +370,37 @@ maker(
 maker(
     ("fl", (27, 30)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-6,
     ),
     faberge.niente_swells("mp"),
@@ -353,29 +409,37 @@ maker(
 maker(
     ("fl", (31, 36)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-7,
     ),
     faberge.niente_swells("mf"),
@@ -392,29 +456,37 @@ maker(
         selector=baca.pleaves(),
     ),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-8,
     ),
     faberge.niente_swells("f"),
@@ -423,29 +495,37 @@ maker(
 maker(
     ("fl", (45, 48)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-9,
     ),
     faberge.niente_swells("mf"),
@@ -458,29 +538,37 @@ maker(
         measures=52,
     ),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-10,
     ),
     faberge.niente_swells("p"),
@@ -494,29 +582,37 @@ maker(
         selector=baca.tleaves().rleak(),
     ),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-11,
     ),
 )
@@ -524,29 +620,37 @@ maker(
 maker(
     ("fl", (55, 60)),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([2, 3, 6], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-12,
     ),
     faberge.niente_swells("ppp"),
@@ -572,29 +676,37 @@ maker(
         abjad.tweak(3.5).staff_padding,
     ),
     faberge.glow_rhythm(
-        rmakers.force_note(baca.tuplets().exclude([0, 6, 7], 9)),
+        rmakers.force_note(
+            baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
         ),
-        rmakers.force_note(baca.tuplets().get([0, -2])),
+        rmakers.force_note(
+            baca.selectors.tuplets([0, -2]),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplets().get([10], 11)),
-        rmakers.force_note(baca.tuplets().get([9, 11], 11)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([10], 11)),
+        ),
+        rmakers.force_note(
+            baca.selectors.tuplets(([9, 11], 11)),
+        ),
         rmakers.untie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
         ),
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-13,
     ),
     faberge.niente_swells("ppp"),
@@ -620,7 +732,9 @@ maker(
         rotation=-1,
     ),
     faberge.keynoise_rhythm(
-        rmakers.force_rest(baca.tuplets().get([0, 4], 9)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([0, 4], 9)),
+        ),
     ),
 )
 
@@ -659,7 +773,9 @@ maker(
         rotation=-2,
     ),
     faberge.keynoise_rhythm(
-        rmakers.force_rest(baca.tuplets().get([0, 4], 9)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([0, 4], 9)),
+        ),
         tuplet_ratio_rotation=-1,
     ),
 )
@@ -678,7 +794,7 @@ maker(
     ),
     faberge.eh_trill_rhythm(
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        rmakers.force_rest(baca.tuplet(-1)),
+        rmakers.force_rest(baca.selectors.tuplet(-1)),
     ),
 )
 
@@ -719,7 +835,9 @@ maker(
         rotation=-3,
     ),
     faberge.keynoise_rhythm(
-        rmakers.force_rest(baca.tuplets().get([0, 4], 9)),
+        rmakers.force_rest(
+            baca.selectors.tuplets(([0, 4], 9)),
+        ),
     ),
 )
 
