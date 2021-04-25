@@ -153,7 +153,7 @@ maker(
     baca.hairpin(
         "niente o< mp >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.glow_rhythm(
         rmakers.force_note(
@@ -579,7 +579,7 @@ maker(
     baca.hairpin(
         "niente o< pp >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.glow_rhythm(
         rmakers.force_note(
@@ -846,7 +846,7 @@ maker(
     baca.dls_staff_padding(8),
     baca.hairpin(
         '"ff" >o niente',
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
 )
 
@@ -918,11 +918,11 @@ maker(
     baca.chunk(
         baca.hairpin(
             "niente o< p",
-            selector=baca.tleaves()[:2],
+            selector=baca.selectors.tleaves((None, 2)),
         ),
         baca.hairpin(
             "(p) >o",
-            selector=baca.tleaves()[-1:],
+            selector=baca.selectors.tleaves((-1, None)),
         ),
         map=baca.plts().filter_length(">", 2),
     ),
@@ -1033,11 +1033,11 @@ maker(
     baca.chunk(
         baca.hairpin(
             "niente o< pp",
-            selector=baca.tleaves()[:2],
+            selector=baca.selectors.tleaves((None, 2)),
         ),
         baca.hairpin(
             "(pp) >o !",
-            selector=baca.tleaves().rleak()[-2:],
+            selector=lambda _: baca.Selection(_).rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
     ),
@@ -1051,11 +1051,11 @@ maker(
     baca.chunk(
         baca.hairpin(
             "niente o< pp",
-            selector=baca.tleaves()[:2],
+            selector=baca.selectors.tleaves((None, 2)),
         ),
         baca.hairpin(
             "(pp) >o !",
-            selector=baca.tleaves().rleak()[-2:],
+            selector=lambda _: baca.Selection(_).rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
     ),
@@ -1079,11 +1079,11 @@ maker(
     baca.chunk(
         baca.hairpin(
             "niente o< ppp",
-            selector=baca.tleaves()[:2],
+            selector=baca.selectors.tleaves((None, 2)),
         ),
         baca.hairpin(
             "(ppp) >o !",
-            selector=baca.tleaves().rleak()[-2:],
+            selector=lambda _: baca.Selection(_).rleak()[-2:],
         ),
         map=baca.plts().filter_length(">", 2),
     ),
@@ -1537,7 +1537,7 @@ maker(
     ("va", (13, 22)),
     baca.hairpin(
         '("ff") >o niente',
-        selector=baca.tleaves(),
+        selector=baca.selectors.tleaves(),
     ),
 )
 
@@ -1584,7 +1584,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(10),
     baca.staccato(
@@ -1706,7 +1706,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(10),
     baca.dynamic('"mf"'),

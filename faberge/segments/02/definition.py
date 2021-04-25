@@ -194,11 +194,11 @@ maker(
     baca.flat_glissando("F#4"),
     baca.hairpin(
         "niente o< p",
-        selector=baca.tleaves()[:2],
+        selector=baca.selectors.tleaves((None, 2)),
     ),
     baca.hairpin(
         "(p) >o",
-        selector=baca.tleaves()[-1:],
+        selector=baca.selectors.tleaves((-1, None)),
     ),
     faberge.single_taper(),
 )
@@ -208,11 +208,11 @@ maker(
     baca.breathe(),
     baca.hairpin(
         "niente o< p",
-        selector=baca.tleaves()[:2],
+        selector=baca.selectors.tleaves((None, 2)),
     ),
     baca.hairpin(
         "(p) >o !",
-        selector=baca.tleaves().rleak()[-2:],
+        selector=lambda _: baca.Selection(_).tleaves().rleak()[-2:],
     ),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
@@ -785,7 +785,7 @@ maker(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 

@@ -181,7 +181,7 @@ maker(
     baca.material_annotation_spanner(
         "MM =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("Db5"),
     baca.trill_spanner(
@@ -817,7 +817,7 @@ maker(
         "1-1 -|",
         abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(

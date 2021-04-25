@@ -325,7 +325,7 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
         selector=baca.pheads(),
