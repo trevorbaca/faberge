@@ -276,7 +276,7 @@ maker(
     ("rh", 4),
     baca.clef(
         "bass",
-        selector=baca.leaf(-2),
+        selector=baca.selectors.leaf(-2),
     ),
     baca.dynamic(
         "f-sempre",
