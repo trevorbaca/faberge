@@ -99,12 +99,16 @@ maker(
 maker(
     (["fl", "eh", "rh"], (1, 5)),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
 maker(
-    (["fl", "eh", "rh"], 5), baca.repeat_tie(baca.pleaf(0)), faberge.downbeat_attack()
+    (["fl", "eh", "rh"], 5),
+    baca.repeat_tie(
+        baca.selectors.pleaf(0),
+    ),
+    faberge.downbeat_attack(),
 )
 
 # eh
@@ -161,7 +165,7 @@ maker(
     "vn",
     baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -182,7 +186,7 @@ maker(
 maker(
     ["vn", "va", "vc"],
     baca.accent(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.dls_staff_padding(6),
 )
@@ -203,7 +207,7 @@ maker(
     "va",
     baca.pitch("Dqf5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -225,7 +229,7 @@ maker(
     "vc",
     baca.pitch("E2"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 

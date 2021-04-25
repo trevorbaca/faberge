@@ -104,15 +104,15 @@ maker(
     (["fl", "cl"], [1, 2, 3, 4]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -148,7 +148,7 @@ maker(
 maker(
     (["fl", "cl"], (5, 8)),
     baca.espressivo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "o< mp >o niente",
@@ -184,7 +184,7 @@ maker(
         "4-5 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.pleaves().rleak(),
+        selector=baca.selectors.pleaves(rleak=True),
     ),
     baca.pitch("A5"),
     baca.trill_spanner(
@@ -237,7 +237,7 @@ maker(
         selector=baca.ptails(),
     ),
     baca.stopped(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.end_of_cell_attack(
         denominator=8,
@@ -247,10 +247,10 @@ maker(
 maker(
     ("rh", 3),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.clef("treble"),
     baca.dynamic(
@@ -307,15 +307,15 @@ maker(
 maker(
     ("lh", 3),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.ottava(),
     baca.ottava_bracket_staff_padding(7),
@@ -369,7 +369,7 @@ maker(
         "4-5 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(14.5).staff_padding,
-        selector=baca.pleaves().rleak(),
+        selector=baca.selectors.pleaves(rleak=True),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -485,7 +485,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
@@ -526,7 +526,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
 )
 
@@ -571,7 +571,7 @@ maker(
         selector=baca.leaves().rleak(),
     ),
     baca.suite(
-        baca.untie(baca.pleaves()),
+        baca.untie(baca.selectors.pleaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -610,7 +610,7 @@ maker(
         "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -632,7 +632,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,

@@ -213,7 +213,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.pitch("<G3 A3 C4>"),
 )
@@ -328,7 +328,7 @@ maker(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.clb_staff_positions(),
 )

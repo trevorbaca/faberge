@@ -116,7 +116,7 @@ maker(
     ),
     baca.pitch("G#5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -149,7 +149,7 @@ maker(
 maker(
     (["fl", "cl"], (1, 2)),
     baca.espressivo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.hairpin(
         "o< mp >o niente",
@@ -185,7 +185,7 @@ maker(
     baca.dls_staff_padding(4),
     baca.hairpin(
         "o< mf >o niente",
-        map=baca.pleaves().partition_by_counts([2], cyclic=True),
+        map=lambda _: baca.Selection(_).pleaves().partition_by_counts([2], cyclic=True),
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
     ),
@@ -721,13 +721,13 @@ maker(
     ("vc", [5, 6, 7, 9]),
     baca.chunk(
         baca.down_bow(
-            baca.pheads().get([0], 2),
+            baca.selectors.pheads(([0], 2)),
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
             full=True,
         ),
         baca.up_bow(
-            baca.pheads().get([1], 2),
+            baca.selectors.pheads(([1], 2)),
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
         ),

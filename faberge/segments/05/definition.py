@@ -137,15 +137,15 @@ maker(
     (["fl", "cl"], [3, 6, 7]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.hairpin(
         "o< mp >o p > pp",
@@ -254,7 +254,7 @@ maker(
     ),
     baca.stem_down(),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
 )
 
@@ -373,7 +373,7 @@ maker(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.suite(
-        baca.untie(baca.pleaves()),
+        baca.untie(baca.selectors.pleaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",

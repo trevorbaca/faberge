@@ -121,15 +121,15 @@ maker(
     (["fl", "cl"], [2, 4]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -149,7 +149,7 @@ maker(
 maker(
     (["fl", "cl"], 5),
     baca.espressivo(
-        baca.pheads(),
+        baca.selectors.pheads(),
         abjad.tweak(
             (0, 0),
             tag=baca.tags.NOT_PARTS,
@@ -266,10 +266,10 @@ maker(
     ("rh", [1, 5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
 )
 
@@ -278,7 +278,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.pitch("<G3 A3 C4>"),
 )
@@ -362,10 +362,10 @@ maker(
     ("lh", [1, 5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
 )
 
@@ -397,10 +397,10 @@ maker(
     ("lh", [5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
 )
 
@@ -417,7 +417,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.ottava(
         right_broken=True,
@@ -575,7 +575,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -692,7 +692,7 @@ maker(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.clb_staff_positions(),
 )
@@ -741,7 +741,7 @@ maker(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.staff_lines(1),
     faberge.clb_staff_positions(rotation=-4),
@@ -801,13 +801,13 @@ maker(
     ("vc", [5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.accent(
-        selector=baca.pleaf(-3),
+        selector=baca.selectors.pleaf(-3),
     ),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 

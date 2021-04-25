@@ -89,9 +89,7 @@ maker(
     ),
     baca.pitch("C#5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -99,7 +97,9 @@ maker(
     ("fl", (1, 4)),
     baca.hairpin(
         "o< f >o",
-        pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
+        pieces=lambda _: baca.Selection(_)
+        .pleaves()
+        .partition_by_counts([1], cyclic=True),
         selector=baca.leaves(),
     ),
 )
@@ -294,7 +294,7 @@ maker(
 maker(
     (["vn", "va"], [5, 6, 7, 8]),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.halves_rhythm(),
 )
@@ -394,7 +394,7 @@ maker(
 maker(
     ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.halves_rhythm(),
 )
