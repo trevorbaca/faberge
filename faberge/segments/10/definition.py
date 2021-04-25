@@ -148,15 +148,15 @@ maker(
     (["fl", "cl"], [1, 2, 3, 4, 5, 6, 7, 8]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -234,10 +234,10 @@ maker(
 maker(
     ("rh", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.dynamic(
         "f",
@@ -280,10 +280,10 @@ maker(
 maker(
     ("lh", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
@@ -296,7 +296,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.ottava(),
     baca.pitch("<F6 G6 A6>"),
@@ -320,7 +320,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.phead(-1),
+        selector=baca.selectors.phead(-1),
     ),
 )
 
@@ -464,10 +464,10 @@ maker(
 maker(
     ("vn", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(3),
+        selector=baca.selectors.pleaf(3),
     ),
     baca.beam(),
     baca.dynamic(
@@ -485,7 +485,7 @@ maker(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -655,7 +655,7 @@ maker(
         abjad.tweak(8).staff_padding,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
@@ -725,7 +725,7 @@ maker(
         pieces=baca.selectors.clparts([1]),
     ),
     baca.up_bow(
-        baca.pheads().get([1], 2),
+        baca.selectors.pheads(([1], 2)),
         abjad.tweak(1).padding,
         abjad.tweak(0.5).parent_alignment_X,
     ),
@@ -734,7 +734,7 @@ maker(
 maker(
     ("vc", [1, 2, 3, 4]),
     baca.down_bow(
-        baca.phead(0),
+        baca.selectors.phead(0),
         abjad.tweak(1).padding,
         abjad.tweak(0.5).parent_alignment_X,
         full=True,
@@ -784,10 +784,10 @@ maker(
 maker(
     ("vc", 5),
     baca.accent(
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.accent(
-        selector=baca.pleaf(-3),
+        selector=baca.selectors.pleaf(-3),
     ),
     baca.beam(),
     baca.clef("treble"),
@@ -806,7 +806,7 @@ maker(
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -826,7 +826,7 @@ maker(
         right_broken=True,
     ),
     baca.suite(
-        baca.untie(baca.pleaves()),
+        baca.untie(baca.selectors.pleaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",

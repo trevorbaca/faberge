@@ -103,7 +103,9 @@ maker(
     ("fl", (1, 2)),
     baca.hairpin(
         "o< mf >o",
-        pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
+        pieces=lambda _: baca.Selection(_)
+        .pleaves()
+        .partition_by_counts([1], cyclic=True),
         selector=baca.leaves(),
     ),
     baca.material_annotation_spanner(
@@ -113,7 +115,7 @@ maker(
     ),
     baca.pitch("F5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.halves_rhythm(),
 )
@@ -158,15 +160,15 @@ maker(
     ),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.hairpin(
         "o< mp >o p > pp",
@@ -240,7 +242,7 @@ maker(
         literal=True,
     ),
     baca.note_head_stencil_false(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -276,7 +278,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.material_annotation_spanner(
         "2-1 =|",
@@ -529,7 +531,7 @@ maker(
         abjad.tweak(10.5).staff_padding,
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     faberge.clb_staff_positions(),

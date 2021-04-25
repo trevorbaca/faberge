@@ -127,7 +127,7 @@ maker(
     ),
     baca.pitch("C#5"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
 )
 
@@ -195,9 +195,7 @@ maker(
     ("cl", (1, 2)),
     baca.pitch(
         "Ab2",
-        selector=baca.pleaves(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -225,9 +223,7 @@ maker(
     ("cl", (3, 4)),
     baca.pitch(
         "Gb2",
-        selector=baca.pleaves(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -235,9 +231,7 @@ maker(
     ("cl", (5, 8)),
     baca.pitch(
         "F2",
-        selector=baca.pleaves(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -521,7 +515,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.suite(
-        baca.untie(baca.pleaves()),
+        baca.untie(baca.selectors.pleaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -572,7 +566,7 @@ maker(
     ),
     baca.pitch("F2"),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.halves_rhythm(),
 )

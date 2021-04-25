@@ -84,15 +84,15 @@ maker(
     ("fl", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.pleaf(2),
+        selector=baca.selectors.pleaf(2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.pleaves()[2:],
+        selector=baca.selectors.pleaves((2, None)),
     ),
     baca.hairpin(
         "o< mp >o p > pp",
@@ -259,7 +259,7 @@ maker(
 maker(
     ("rh", 1),
     baca.note_head_stencil_false(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -294,7 +294,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.material_annotation_spanner(
         "2-1 -|",
@@ -327,7 +327,7 @@ maker(
         literal=True,
     ),
     baca.note_head_stencil_false(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -518,7 +518,7 @@ maker(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     faberge.clb_staff_positions(),
@@ -691,7 +691,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.suite(
-        baca.untie(baca.pleaves()),
+        baca.untie(baca.selectors.pleaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",

@@ -280,7 +280,7 @@ maker(
         measures=16,
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.niente_swells("f"),
 )
@@ -453,7 +453,7 @@ maker(
 maker(
     ("fl", (37, 44)),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     faberge.glow_rhythm(
         rmakers.force_note(
@@ -1153,7 +1153,7 @@ maker(
     ("rh", (53, 80)),
     baca.beam_positions(-3),
     baca.note_head_stencil_false(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -1188,10 +1188,10 @@ maker(
     ("attack", (1, 44)),
     baca.dynamic(
         "sfz",
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.marcato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.piano_clusters(),
 )
@@ -1256,7 +1256,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
 )
 
@@ -1284,7 +1284,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
 )
 
@@ -1304,7 +1304,7 @@ maker(
         hide_middle_stems=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -1440,7 +1440,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     faberge.clb_rhythm(
@@ -1486,7 +1486,7 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     faberge.clb_rhythm(
@@ -1507,7 +1507,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -1588,7 +1588,7 @@ maker(
     ),
     baca.dls_staff_padding(10),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.staff_lines(1),
     baca.stem_down(),
@@ -1711,7 +1711,7 @@ maker(
     baca.dls_staff_padding(10),
     baca.dynamic('"mf"'),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     baca.text_script_staff_padding(8),

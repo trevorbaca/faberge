@@ -200,10 +200,10 @@ maker(
 maker(
     ("rh", [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
 )
 
@@ -280,9 +280,7 @@ maker(
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.pitch("<F6 G6 A6>"),
 )
@@ -316,10 +314,10 @@ maker(
 maker(
     ("lh", [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
 )
 
@@ -464,7 +462,7 @@ maker(
         literal=True,
     ),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
 )
 
@@ -497,10 +495,10 @@ maker(
 maker(
     ("vn", [1, 3]),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(3),
+        selector=baca.selectors.pleaf(3),
     ),
     baca.beam(),
 )
@@ -508,7 +506,7 @@ maker(
 maker(
     ("vn", [1, 3]),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -634,7 +632,7 @@ maker(
         abjad.tweak(8).staff_padding,
     ),
     baca.stem_tremolo(
-        selector=baca.pheads().get([0, -1]),
+        selector=baca.selectors.pheads([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
@@ -700,10 +698,10 @@ maker(
 maker(
     ("vc", [1, 3]),
     baca.accent(
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.accent(
-        selector=baca.pleaf(-3),
+        selector=baca.selectors.pleaf(-3),
     ),
     baca.beam(),
 )
@@ -711,7 +709,7 @@ maker(
 maker(
     ("vc", [1, 3, 6, (8, 10)]),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -762,7 +760,7 @@ maker(
 maker(
     ("vc", [6, 8, 9, 10]),
     baca.accent(
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 

@@ -124,7 +124,7 @@ maker(
 maker(
     (["fl", "cl"], [1, 3]),
     baca.espressivo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -183,7 +183,7 @@ maker(
         selector=baca.ptails(),
     ),
     baca.stopped(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.end_of_cell_attack(denominator=8),
 )
@@ -191,10 +191,10 @@ maker(
 maker(
     ("rh", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.beam(),
     baca.clef("treble"),
@@ -227,7 +227,7 @@ maker(
         literal=True,
     ),
     baca.note_head_stencil_false(
-        selector=baca.pleaves(),
+        selector=baca.selectors.pleaves(),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -243,16 +243,16 @@ maker(
 maker(
     ("lh", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(-1),
+        selector=baca.selectors.pleaf(-1),
     ),
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.ottava(),
     baca.pitch("<F6 G6 A6>"),
@@ -367,10 +367,10 @@ maker(
 maker(
     ("vn", 5),
     baca.accent(
-        selector=baca.pleaf(1),
+        selector=baca.selectors.pleaf(1),
     ),
     baca.accent(
-        selector=baca.pleaf(3),
+        selector=baca.selectors.pleaf(3),
     ),
     baca.beam(),
     baca.staff_lines(5),
@@ -424,7 +424,7 @@ maker(
 maker(
     (["vn", "vc"], [(1, 4), (6, 9)]),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     baca.tuplet_bracket_staff_padding(3.5),
@@ -433,7 +433,7 @@ maker(
 maker(
     (["vn", "vc"], 5),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -448,7 +448,7 @@ maker(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.phead(-1),
+        selector=baca.selectors.phead(-1),
     ),
 )
 
@@ -469,7 +469,7 @@ maker(
     baca.flat_glissando("F3"),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
 )
 
@@ -491,7 +491,7 @@ maker(
         abjad.tweak(7 + 2.5).staff_padding,
     ),
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
     baca.staff_lines(1),
@@ -527,10 +527,10 @@ maker(
 maker(
     ("vc", 5),
     baca.accent(
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.accent(
-        selector=baca.pleaf(-3),
+        selector=baca.selectors.pleaf(-3),
     ),
     baca.beam(),
     baca.staff_lines(5),

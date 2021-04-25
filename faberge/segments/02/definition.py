@@ -601,10 +601,10 @@ maker(
     ("attack", (1, 88)),
     baca.dynamic(
         "sfz",
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     baca.marcato(
-        selector=baca.pheads(),
+        selector=baca.selectors.pheads(),
     ),
     faberge.piano_clusters(),
 )
@@ -665,7 +665,7 @@ maker(
         abjad.tweak((-6, 0)).extra_offset,
         abjad.tweak(6).staff_padding,
         literal=True,
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 
@@ -985,7 +985,7 @@ maker(
     ("vn", (81, 88)),
     baca.chunk(
         baca.beam(
-            selector=baca.pleaves()[:2],
+            selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.beam(
             selector=baca.leaves()[-4:],
@@ -1046,7 +1046,7 @@ maker(
         selector=baca.leaves(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -1057,7 +1057,7 @@ maker(
     ("va", (13, 16)),
     baca.dynamic(
         "pp",
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 
@@ -1073,7 +1073,7 @@ maker(
     ("va", (27, 30)),
     baca.dynamic(
         "pp",
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 
@@ -1089,7 +1089,7 @@ maker(
     ("va", (41, 46)),
     baca.dynamic(
         "pp",
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 
@@ -1105,7 +1105,7 @@ maker(
     ("va", (57, 62)),
     baca.dynamic(
         "pp",
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
 )
 
@@ -1162,7 +1162,7 @@ maker(
         selector=baca.selectors.ltleaves(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -1215,7 +1215,7 @@ maker(
         selector=baca.selectors.ltleaves(),
     ),
     baca.stem_tremolo(
-        selector=baca.pleaves().get([0, -1]),
+        selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -1293,7 +1293,7 @@ maker(
     ("vc", (63, 70)),
     baca.dynamic(
         "ppp",
-        selector=baca.pleaf(0),
+        selector=baca.selectors.pleaf(0),
     ),
     baca.markup(
         r"\baca-sub-non-vib-markup",
