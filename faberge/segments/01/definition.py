@@ -37,7 +37,7 @@ maker(
     "Global_Skips",
     baca.metronome_mark(
         "100",
-        selector=baca.leaf(1 - 1),
+        selector=baca.selectors.leaf(1 - 1),
     ),
 )
 
@@ -45,11 +45,11 @@ maker(
     "Global_Rests",
     baca.global_fermata(
         "short",
-        selector=baca.leaf(2 - 1),
+        selector=baca.selectors.leaf(2 - 1),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.leaf(4 - 1),
+        selector=baca.selectors.leaf(4 - 1),
     ),
 )
 

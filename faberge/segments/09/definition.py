@@ -78,7 +78,7 @@ maker(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.leaf(8 - 1),
+        selector=baca.selectors.leaf(8 - 1),
     ),
 )
 
