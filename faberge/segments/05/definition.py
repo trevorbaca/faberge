@@ -85,7 +85,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -165,7 +165,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
     baca.staff_position(0),
 )
@@ -178,7 +178,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -227,7 +227,7 @@ maker(
     baca.material_annotation_spanner(
         "MM =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
 )
@@ -266,7 +266,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -321,7 +321,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -360,7 +360,7 @@ maker(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -370,7 +370,7 @@ maker(
     baca.string_number_spanner(
         "IV =|",
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.suite(
         baca.untie(baca.pleaves()),

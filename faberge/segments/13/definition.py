@@ -210,7 +210,7 @@ maker(
         "pp < p > pp",
         map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
-        selector=baca.tleaves()[:-1],
+        selector=baca.selectors.tleaves((None, -1)),
     ),
 )
 
@@ -243,7 +243,7 @@ maker(
         "p < mp > p",
         map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
-        selector=baca.tleaves()[:-1],
+        selector=baca.selectors.tleaves((None, -1)),
     ),
     baca.pitch(
         "Ab2",
@@ -300,7 +300,7 @@ maker(
         "2-1 -|",
         abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("<G3 A3 C4>"),
 )
@@ -466,7 +466,7 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 
@@ -515,7 +515,7 @@ maker(
     baca.material_annotation_spanner(
         "4-3 =|",
         abjad.tweak(7 + 2.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
         selector=baca.pheads(),
@@ -619,7 +619,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 

@@ -85,7 +85,7 @@ maker(
         "1-1 -|",
         abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [1, 3, 5]),
@@ -217,7 +217,7 @@ maker(
         "p < mp > p",
         map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
-        selector=baca.tleaves()[:-1],
+        selector=baca.selectors.tleaves((None, -1)),
     ),
 )
 
@@ -247,7 +247,7 @@ maker(
         "pp < p > pp",
         map=baca.selectors.runs(),
         pieces=baca.plts().partition_by_ratio((1, 1)),
-        selector=baca.tleaves()[:-1],
+        selector=baca.selectors.tleaves((None, -1)),
     ),
 )
 
@@ -448,7 +448,7 @@ maker(
         "1-1 -|",
         abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [0, 2, 4]),
@@ -513,7 +513,7 @@ maker(
         "1-1 -|",
         abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(

@@ -290,7 +290,7 @@ maker(
     baca.material_annotation_spanner(
         "3-7 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("A3"),
 )

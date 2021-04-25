@@ -215,12 +215,12 @@ maker(
     baca.dls_staff_padding(6),
     baca.hairpin(
         "f >o niente",
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.material_annotation_spanner(
         "MM =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,

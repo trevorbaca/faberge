@@ -113,7 +113,7 @@ maker(
         "1-2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 
@@ -395,7 +395,7 @@ maker(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 
@@ -405,7 +405,7 @@ maker(
         "A.2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 
@@ -440,7 +440,7 @@ maker(
         "1-2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -542,7 +542,7 @@ maker(
         "1-2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(6, [1, 4]),
@@ -745,7 +745,7 @@ maker(
         "1-2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(6, [0, 3]),

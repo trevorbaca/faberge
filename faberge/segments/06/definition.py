@@ -460,7 +460,7 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(8),
 )
@@ -616,7 +616,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(8),
 )

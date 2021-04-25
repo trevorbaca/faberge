@@ -316,7 +316,7 @@ maker(
         "A.2 -|",
         abjad.tweak("#red").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -351,7 +351,7 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -393,7 +393,7 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.dynamic(
@@ -478,7 +478,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.dynamic(
@@ -511,7 +511,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -563,7 +563,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(

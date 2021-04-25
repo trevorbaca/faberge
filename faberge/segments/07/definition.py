@@ -99,7 +99,7 @@ maker(
         "3-7 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("F#3"),
     faberge.even_tuplet_rhythm(
@@ -235,7 +235,7 @@ maker(
         "3-7 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("D2"),
     faberge.even_tuplet_rhythm(
@@ -480,7 +480,7 @@ maker(
         "4-3 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -512,7 +512,7 @@ maker(
         "3-7 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -528,12 +528,12 @@ maker(
         "A.3 -|",
         abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("C#5"),
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.spazzolati_rhythm(
         rmakers.force_rest(
@@ -563,7 +563,7 @@ maker(
         "4-3 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(2.5 + 3 * 2.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.clb_staff_positions(),
 )
@@ -597,7 +597,7 @@ maker(
         "4-2 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
@@ -646,12 +646,12 @@ maker(
         "A.3 -|",
         abjad.tweak("#red").color,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("C#5"),
     baca.spazzolato_spanner(
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     faberge.spazzolati_rhythm(
         rmakers.force_rest(
@@ -683,13 +683,13 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.material_annotation_spanner(
         "4-3 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(2.5 + 3 * 2.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
         selector=baca.pheads(),
@@ -714,7 +714,7 @@ maker(
         "3-7 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("D3"),
     baca.staff_lines(5),
@@ -738,7 +738,7 @@ maker(
         "4-2 -|",
         abjad.tweak("#darkgreen").color,
         abjad.tweak(10.5).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
         selector=baca.pheads(),
@@ -777,7 +777,7 @@ maker(
     ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
-        selector=baca.tleaves().rleak(),
+        selector=baca.selectors.tleaves(rleak=True),
     ),
 )
 

@@ -275,7 +275,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -345,7 +345,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
@@ -377,7 +377,7 @@ maker(
     baca.material_annotation_spanner(
         "5-3 =|",
         abjad.tweak(8).staff_padding,
-        selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
+        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
     ),
 )
 
