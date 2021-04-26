@@ -41,21 +41,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "I",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "I",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "I",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -64,15 +64,15 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("156", selector=baca.skip(5 - 1)),
-    baca.metronome_mark("5:4(4)=4", selector=baca.skip(5 - 1)),
-    baca.metronome_mark("125", selector=baca.skip(6 - 1)),
+    baca.metronome_mark("156", selector=baca.selectors.skip(5 - 1)),
+    baca.metronome_mark("5:4(4)=4", selector=baca.selectors.skip(5 - 1)),
+    baca.metronome_mark("125", selector=baca.selectors.skip(6 - 1)),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(4 - 1)),
-    baca.close_volta(baca.skip(6 - 1)),
+    baca.open_volta(baca.selectors.skip(4 - 1)),
+    baca.close_volta(baca.selectors.skip(6 - 1)),
 )
 
 # fl
@@ -346,7 +346,7 @@ maker(
     ("perc", (5, 6)),
     baca.dynamic("p"),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.selectors.ptails(),
     ),
     baca.markup(
         r"\baca-bd-struck-markup",

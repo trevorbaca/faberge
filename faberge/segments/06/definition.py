@@ -41,21 +41,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "E",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "E",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "E",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -66,22 +66,22 @@ maker(
     "Global_Skips",
     baca.metronome_mark(
         "156",
-        selector=baca.skip(2 - 1),
+        selector=baca.selectors.skip(2 - 1),
     ),
     baca.metronome_mark(
         "41",
-        selector=baca.skip(4 - 1),
+        selector=baca.selectors.skip(4 - 1),
     ),
     baca.metronome_mark(
         "80",
-        selector=baca.skip(6 - 1),
+        selector=baca.selectors.skip(6 - 1),
     ),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(2 - 1)),
-    baca.close_volta(baca.skip(5 - 1)),
+    baca.open_volta(baca.selectors.skip(2 - 1)),
+    baca.close_volta(baca.selectors.skip(5 - 1)),
 )
 
 maker(
