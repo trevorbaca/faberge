@@ -56,21 +56,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "B",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "B",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "B",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -1219,14 +1219,14 @@ maker(
 maker(
     ("perc", 1),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.selectors.ptails(),
     ),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.ptail(0),
+        selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G4"),
     faberge.dal_niente_hairpins("ff"),
@@ -1369,7 +1369,7 @@ maker(
         r"\baca-lv-possibile-markup",
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.ptail(0),
+        selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G6"),
     faberge.dal_niente_hairpins("ff"),

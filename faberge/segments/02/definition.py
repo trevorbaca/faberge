@@ -55,21 +55,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "A",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "A",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 6)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "A",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -656,7 +656,7 @@ maker(
     ("perc", (1, 80)),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.ptails(
+        selector=baca.selectors.ptails(
             exclude=baca.const.HIDDEN,
         ),
     ),
@@ -799,7 +799,7 @@ maker(
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
         literal=True,
-        selector=baca.plt(-1),
+        selector=baca.selectors.plt(-1),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -811,7 +811,7 @@ maker(
     baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.ptails(
+        selector=baca.selectors.ptails(
             exclude=baca.const.HIDDEN,
         ),
     ),

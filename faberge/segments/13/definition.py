@@ -40,21 +40,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "L",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "L",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "L",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -65,11 +65,11 @@ maker(
     "Global_Skips",
     baca.metronome_mark(
         "80",
-        selector=baca.skip(3 - 1),
+        selector=baca.selectors.skip(3 - 1),
     ),
     baca.metronome_mark(
         "64",
-        selector=baca.skip(4 - 1),
+        selector=baca.selectors.skip(4 - 1),
     ),
 )
 

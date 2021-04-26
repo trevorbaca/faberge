@@ -42,21 +42,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "D",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "D",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "D",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -65,8 +65,8 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("4:5(4)=4", baca.skip(1 - 1)),
-    baca.metronome_mark("41", baca.skip(1 - 1)),
+    baca.metronome_mark("4:5(4)=4", baca.selectors.skip(1 - 1)),
+    baca.metronome_mark("41", baca.selectors.skip(1 - 1)),
 )
 
 maker(
@@ -296,7 +296,7 @@ maker(
     ),
     baca.dynamic(
         '"ff"',
-        selector=baca.rest(0),
+        selector=baca.selectors.rest(0),
     ),
     faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
 )

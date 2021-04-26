@@ -40,21 +40,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 "J",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "J",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "J",
-                baca.skip(1 - 1),
+                baca.selectors.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
             ),
         ),
@@ -63,16 +63,16 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("100", selector=baca.skip(1 - 1)),
-    baca.metronome_mark("4:5(4)=4", selector=baca.skip(1 - 1)),
-    baca.metronome_mark("156", selector=baca.skip(3 - 1)),
-    baca.metronome_mark("100", selector=baca.skip(4 - 1)),
+    baca.metronome_mark("100", selector=baca.selectors.skip(1 - 1)),
+    baca.metronome_mark("4:5(4)=4", selector=baca.selectors.skip(1 - 1)),
+    baca.metronome_mark("156", selector=baca.selectors.skip(3 - 1)),
+    baca.metronome_mark("100", selector=baca.selectors.skip(4 - 1)),
 )
 
 maker(
     "Global_Skips",
-    baca.open_volta(baca.skip(2 - 1)),
-    baca.close_volta(baca.skip(6 - 1)),
+    baca.open_volta(baca.selectors.skip(2 - 1)),
+    baca.close_volta(baca.selectors.skip(6 - 1)),
 )
 
 # fl
@@ -234,7 +234,7 @@ maker(
 maker(
     ("rh", [4, 5, 6, 7, 8]),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.selectors.ptails(),
     ),
     baca.stopped(
         selector=baca.selectors.pheads(),
