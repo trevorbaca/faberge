@@ -158,7 +158,7 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -487,7 +487,7 @@ maker(
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -632,7 +632,7 @@ maker(
     baca.dynamic_text_x_extent_zero(),
     baca.hairpin(
         '("mf") >o niente',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.hairpin_shorten_pair((4, 0)),
 )

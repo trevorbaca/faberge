@@ -100,7 +100,7 @@ maker(
         pieces=lambda _: baca.Selection(_)
         .pleaves()
         .partition_by_counts([1], cyclic=True),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -109,7 +109,7 @@ maker(
     baca.hairpin(
         "o< mf >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -118,7 +118,7 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -127,7 +127,7 @@ maker(
     baca.hairpin(
         "o< p >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -136,7 +136,7 @@ maker(
     baca.hairpin(
         "o< pp >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -306,7 +306,7 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -315,7 +315,7 @@ maker(
     baca.hairpin(
         "o< mf >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -324,7 +324,7 @@ maker(
     baca.hairpin(
         "o< f >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -333,7 +333,7 @@ maker(
     baca.hairpin(
         "o< ff >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -386,7 +386,7 @@ maker(
     baca.hairpin(
         "o< p >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.pitch("F2"),
 )

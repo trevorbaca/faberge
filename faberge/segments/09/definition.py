@@ -99,7 +99,7 @@ maker(
     baca.hairpin(
         "o< f >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
         "{ c2. c2. r2 }",
@@ -125,7 +125,7 @@ maker(
     baca.hairpin(
         "o< mf >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.skeleton(
         "{ c2. c2. }",
@@ -137,7 +137,7 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
         "{ c2. c2. r2 }",
@@ -155,7 +155,7 @@ maker(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
         "3-7 -|",
@@ -187,7 +187,7 @@ maker(
         "o< mf >o niente",
         map=lambda _: baca.Selection(_).pleaves().partition_by_counts([2], cyclic=True),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
         "4-5 -|",
@@ -198,7 +198,7 @@ maker(
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.selectors.runs(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -270,7 +270,7 @@ maker(
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.selectors.runs(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     faberge.downbeat_attack(denominator=2),
 )
@@ -519,7 +519,7 @@ maker(
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.selectors.clparts([1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -551,7 +551,7 @@ maker(
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.selectors.clparts([1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -578,7 +578,7 @@ maker(
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.selectors.clparts([1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -605,7 +605,7 @@ maker(
         abjad.tweak(8).staff_padding,
         autodetect_right_padding=False,
         pieces=baca.selectors.clparts([1]),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -687,7 +687,7 @@ maker(
     baca.clef("bass"),
     baca.hairpin(
         "p < f-poco-scratch",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 

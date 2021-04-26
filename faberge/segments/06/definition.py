@@ -106,7 +106,7 @@ maker(
         pieces=lambda _: baca.Selection(_)
         .pleaves()
         .partition_by_counts([1], cyclic=True),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.material_annotation_spanner(
         "5-2 -|",

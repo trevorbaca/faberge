@@ -139,7 +139,7 @@ maker(
         "o< mf >o niente",
         map=baca.selectors.runs(),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
         "4-4 =|",

@@ -107,12 +107,12 @@ maker(
     baca.chunk(
         baca.hairpin(
             'o< "mp"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((1, 2)),
         ),
     ),
@@ -375,22 +375,22 @@ maker(
     baca.chunk(
         baca.hairpin(
             'o< "mp"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((1, 3)),
         ),
         baca.hairpin(
             'o< "f"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((3, 5)),
         ),
         baca.hairpin(
             'o< "ff"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((5, 7)),
         ),
     ),
@@ -414,7 +414,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.suite(
-        baca.untie(baca.leaves()),
+        baca.untie(baca.selectors.leaves()),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",

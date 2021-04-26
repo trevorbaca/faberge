@@ -669,7 +669,7 @@ maker(
     ),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     faberge.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,
@@ -754,7 +754,7 @@ maker(
     baca.pitches("Db4 Db~4 Db4 Db~4 D~4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -786,7 +786,7 @@ maker(
     baca.pitches("D4 D+4 D~4 Db4 D~4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -810,7 +810,7 @@ maker(
     baca.pitch("Eb4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.leaves(),
+        selector=baca.selectors.leaves(),
     ),
 )
 
@@ -1118,7 +1118,7 @@ maker(
         autodetect_right_padding=True,
         bookend=False,
         left_broken_text=r"\faberge-left-broken-rf-two-markup",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1293,7 +1293,7 @@ maker(
     baca.hairpin(
         "ppp < pp >o niente",
         pieces=lambda _: baca.Selection(_).mgroups([2, 6 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1428,7 +1428,7 @@ maker(
     ("vn", (53, 56)),
     baca.hairpin(
         '"p" < "mf"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1567,7 +1567,7 @@ maker(
     ("va", (53, 56)),
     baca.hairpin(
         '"p" < "mf"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1626,19 +1626,19 @@ maker(
     ("vc", (9, 12)),
     baca.hairpin(
         "(p) < ff",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.scp_spanner(
         "(tasto) -> molto pont.",
         abjad.tweak(3).staff_padding,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.vibrato_spanner(
         "(poco vib.) -> vib. molto",
         abjad.tweak(5.5).staff_padding,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1646,7 +1646,7 @@ maker(
     ("vc", (23, 26)),
     baca.hairpin(
         "(ff) > p",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -1656,13 +1656,13 @@ maker(
         "(molto pont.) -> tasto",
         abjad.tweak(3).staff_padding,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.vibrato_spanner(
         "(vib. molto) -> poco vib.",
         abjad.tweak(5.5).staff_padding,
         bookend=-1,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
