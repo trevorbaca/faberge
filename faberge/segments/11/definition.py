@@ -154,7 +154,7 @@ maker(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
         pieces=baca.leaves().partition_by_counts([2], overhang=True),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
         "3-7 =|",
@@ -190,7 +190,7 @@ maker(
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -375,7 +375,7 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         map=baca.plts(),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -481,7 +481,7 @@ maker(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -568,7 +568,7 @@ maker(
     baca.string_number_spanner(
         "IV =|",
         abjad.tweak(5.5).staff_padding,
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.suite(
         baca.untie(baca.selectors.pleaves()),
@@ -628,7 +628,7 @@ maker(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(

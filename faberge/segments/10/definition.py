@@ -549,7 +549,7 @@ maker(
         "mp p >o",
         bookend=False,
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -559,7 +559,7 @@ maker(
         "p pp >o niente",
         bookend=False,
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 

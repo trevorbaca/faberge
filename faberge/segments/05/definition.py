@@ -275,22 +275,22 @@ maker(
     baca.chunk(
         baca.hairpin(
             'o< "f"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((1, 2)),
         ),
         baca.hairpin(
             'o< "mp"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((2, 4)),
         ),
         baca.hairpin(
             'o< "p"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((4, 6)),
         ),
     ),
@@ -330,22 +330,22 @@ maker(
     baca.chunk(
         baca.hairpin(
             'o< "f"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((1, 2)),
         ),
         baca.hairpin(
             'o< "mp"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((2, 4)),
         ),
         baca.hairpin(
             'o< "p"',
-            selector=baca.leaves().rleak(),
+            selector=baca.selectors.rleaves(),
             map=baca.selectors.plts((4, 6)),
         ),
     ),

@@ -117,7 +117,7 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         pieces=baca.leaves().partition_by_ratio((2, 3)),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -133,7 +133,7 @@ maker(
     baca.hairpin(
         "o< p >o niente",
         pieces=baca.leaves().partition_by_ratio((2, 3)),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -332,7 +332,7 @@ maker(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -417,7 +417,7 @@ maker(
     (["vn", "vc"], 1),
     baca.hairpin(
         '"pp" < "mf"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 

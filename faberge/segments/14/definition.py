@@ -159,17 +159,17 @@ maker(
     (["fl", "vn"], (1, 3)),
     baca.hairpin(
         'o< "mf"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
         map=baca.selectors.plts((None, 1)),
     ),
     baca.hairpin(
         'o< "f"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
         map=baca.selectors.plts((1, 2)),
     ),
     baca.hairpin(
         'o< "ff"',
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
         map=baca.selectors.plts((2, 3)),
     ),
 )
@@ -270,7 +270,7 @@ maker(
         "o< mf >o niente",
         map=baca.selectors.runs(),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
         "4-5 / 5-1 =|",
@@ -562,7 +562,7 @@ maker(
     baca.hairpin(
         "o< p >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.leaves().rleak(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.pitch("F2"),
     baca.stem_tremolo(
