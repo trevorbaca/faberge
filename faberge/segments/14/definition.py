@@ -63,10 +63,22 @@ maker(
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("80", selector=baca.selectors.skip(3 - 1)),
-    baca.metronome_mark("5:4(4)=4", selector=baca.selectors.skip(3 - 1)),
-    baca.metronome_mark("100", selector=baca.selectors.skip(5 - 1)),
-    baca.metronome_mark("5:4(4)=4", selector=baca.selectors.skip(5 - 1)),
+    baca.metronome_mark(
+        "80",
+        selector=baca.selectors.skip(3 - 1),
+    ),
+    baca.metronome_mark(
+        "5:4(4)=4",
+        selector=baca.selectors.skip(3 - 1),
+    ),
+    baca.metronome_mark(
+        "100",
+        selector=baca.selectors.skip(5 - 1),
+    ),
+    baca.metronome_mark(
+        "5:4(4)=4",
+        selector=baca.selectors.skip(5 - 1),
+    ),
 )
 
 # fl
