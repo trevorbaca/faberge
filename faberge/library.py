@@ -309,7 +309,9 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
     Makes dal niente hairpins.
     """
     return baca.hairpin(
-        f"niente o< {stop}", map=baca.selectors.runs(), selector=baca.leaves().rleak()
+        f"niente o< {stop}",
+        map=baca.selectors.runs(),
+        selector=baca.leaves().rleak(),
     )
 
 
@@ -555,7 +557,10 @@ def margin_markup(
 
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
-        margin_markup, alert=alert, context=context, selector=selector
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
     )
     return baca.not_parts(command)
 
@@ -575,7 +580,10 @@ def niente_swells(dynamic: str) -> baca.Suite:
             f"niente o< {dynamic}",
             selector=baca.selectors.tleaves((None, 2)),
         ),
-        baca.hairpin(f"({dynamic}) >o niente", selector=baca.leaves().rleak()[-2:]),
+        baca.hairpin(
+            f"({dynamic}) >o niente",
+            selector=baca.leaves().rleak()[-2:],
+        ),
         map=lambda _: baca.Selection(_).ntruns().filter_length(">", 2),
     )
 
