@@ -550,7 +550,7 @@ maker(
     baca.breathe(),
     baca.dynamic(
         "niente",
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.flat_glissando("Dqs2"),
     faberge.single_swell("p"),
