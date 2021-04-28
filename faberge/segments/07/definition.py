@@ -145,7 +145,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        selector=baca.leaves()[:3],
+        selector=baca.selectors.leaves((None, 3)),
     ),
     faberge.suffixed_colortrill_rhythm(),
 )
@@ -507,7 +507,7 @@ maker(
     ("perc", 5),
     baca.hairpin(
         "o<| mf",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
     faberge.downbeat_attack(denominator=2),
 )

@@ -272,7 +272,7 @@ maker(
     ("perc", 1),
     baca.hairpin(
         "o<| mp",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
 )
 
@@ -299,7 +299,7 @@ maker(
     ("perc", 3),
     baca.hairpin(
         "o<| p",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
 )
 

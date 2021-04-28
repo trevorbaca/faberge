@@ -231,7 +231,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.hairpin(
         "o<| f",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
     baca.laissez_vibrer(),
     baca.markup(

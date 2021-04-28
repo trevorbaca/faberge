@@ -988,7 +988,7 @@ maker(
             selector=baca.selectors.pleaves((None, 2)),
         ),
         baca.beam(
-            selector=baca.leaves()[-4:],
+            selector=baca.selectors.leaves((-4, None)),
         ),
         measures=87,
     ),
