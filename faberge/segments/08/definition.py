@@ -565,7 +565,7 @@ maker(
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.leaves()[-3:],
+        selector=baca.selectors.leaves((-3, None)),
     ),
 )
 
@@ -658,7 +658,7 @@ maker(
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.leaves()[:3],
+        selector=baca.selectors.leaves((None, 3)),
     ),
 )
 

@@ -294,7 +294,7 @@ maker(
     baca.clef("treble"),
     baca.hairpin(
         "o<| f",
-        selector=baca.leaves()[:2],
+        selector=baca.selectors.leaves((None, 2)),
     ),
     baca.laissez_vibrer(),
     baca.markup(
@@ -365,7 +365,7 @@ maker(
         bookend=-1,
         map=baca.selectors.clparts([4]),
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.leaves()[-3:],
+        selector=baca.selectors.leaves((-3, None)),
     ),
 )
 
@@ -625,7 +625,7 @@ maker(
         bookend=-1,
         map=baca.selectors.clparts([4]),
         pieces=baca.selectors.lparts([1, 2]),
-        selector=baca.leaves()[-3:],
+        selector=baca.selectors.leaves((-3, None)),
     ),
 )
 
