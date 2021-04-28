@@ -149,7 +149,7 @@ maker(
     baca.staff_lines(1),
     baca.staff_lines(
         5,
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.staff_position(0),
 )

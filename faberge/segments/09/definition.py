@@ -735,7 +735,7 @@ maker(
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
         map=baca.leaves().get([0], 2),
-        selector=baca.leaves()[:1].rleak(),
+        selector=baca.selectors.leaves((None, 1), rleak=True),
     ),
 )
 
@@ -782,7 +782,7 @@ maker(
     baca.dls_staff_padding(6),
     baca.dynamic(
         "!",
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
     baca.hairpin(
         "pp p >o",
