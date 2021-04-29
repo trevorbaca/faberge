@@ -573,7 +573,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
     # TODO: allow:
     #   baca.hairpin(
     #        'niente o< {dynamic} {dynamic} >o niente',
-    #        pieces=baca.leaves().partition([2, 'most', 2])
+    #        pieces=lambda _: baca.Selection(_).leaves().partition([2, 'most', 2])
     #        )
     return baca.chunk(
         baca.hairpin(

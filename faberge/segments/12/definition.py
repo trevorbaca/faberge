@@ -116,7 +116,7 @@ maker(
     (["fl", "cl"], 1),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.leaves().partition_by_ratio((2, 3)),
+        pieces=lambda _: baca.Selection(_).leaves().partition_by_ratio((2, 3)),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -132,7 +132,7 @@ maker(
     (["fl", "cl"], 3),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.leaves().partition_by_ratio((2, 3)),
+        pieces=lambda _: baca.Selection(_).leaves().partition_by_ratio((2, 3)),
         selector=baca.selectors.rleaves(),
     ),
 )

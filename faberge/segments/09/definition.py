@@ -98,7 +98,7 @@ maker(
     ("fl", 5),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
@@ -124,7 +124,7 @@ maker(
     ("fl", 6),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
     baca.skeleton(
@@ -136,7 +136,7 @@ maker(
     ("fl", 7),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
@@ -154,7 +154,9 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
         selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
@@ -734,7 +736,7 @@ maker(
     ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
-        map=baca.leaves().get([0], 2),
+        map=baca.selectors.leaves(([0], 2)),
         selector=baca.selectors.leaves((None, 1), rleak=True),
     ),
 )

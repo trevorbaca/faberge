@@ -114,7 +114,7 @@ maker(
     ("fl", 5),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -123,7 +123,7 @@ maker(
     ("fl", 6),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -132,7 +132,7 @@ maker(
     ("fl", 7),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -141,7 +141,7 @@ maker(
     ("fl", 8),
     baca.hairpin(
         "o< pp >o niente",
-        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
