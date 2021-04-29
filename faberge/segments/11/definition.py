@@ -165,7 +165,9 @@ maker(
     baca.hairpin(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
         selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(

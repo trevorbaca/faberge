@@ -169,7 +169,9 @@ maker(
     ),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        pieces=lambda _: baca.Selection(_)
+        .leaves()
+        .partition_by_counts([2], overhang=True),
         selector=baca.selectors.rleaves(),
     ),
 )
