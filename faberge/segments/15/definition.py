@@ -180,7 +180,7 @@ maker(
     ),
     faberge.bcl_color_fingering_rhythm(
         rmakers.force_rest(
-            baca.lts().get([6, 7, 12, 17]),
+            baca.selectors.lts(([6, 7, 12, 17])),
         ),
     ),
     faberge.bcl_color_fingerings(
