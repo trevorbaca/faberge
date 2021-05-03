@@ -195,7 +195,7 @@ maker(
     baca.pitch("Db5"),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
 )
@@ -545,10 +545,10 @@ maker(
 maker(
     (["vn", "va"], [(1, 4), (6, 8)]),
     baca.quadruple_staccato(
-        selector=baca.plts().filter_duration(">=", (1, 2)),
+        selector=baca.selectors.plts_filter_duration((">=", (1, 2))),
     ),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration("==", (1, 3)),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 3))),
     ),
 )
 

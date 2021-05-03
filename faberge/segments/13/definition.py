@@ -193,9 +193,7 @@ maker(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -209,7 +207,7 @@ maker(
     baca.hairpin(
         "pp < p > pp",
         map=baca.selectors.runs(),
-        pieces=baca.plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
 )
@@ -242,14 +240,12 @@ maker(
     baca.hairpin(
         "p < mp > p",
         map=baca.selectors.runs(),
-        pieces=baca.plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
     baca.pitch(
         "Ab2",
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
     faberge.bcl_color_fingering_rhythm(),
 )
@@ -388,7 +384,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -607,7 +603,7 @@ maker(
     baca.pitch("Eb3"),
     baca.xfb_spanner(
         abjad.tweak(5).staff_padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     faberge.back_incised_divisions(),
 )

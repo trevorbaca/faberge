@@ -226,7 +226,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
 )
@@ -380,10 +380,10 @@ maker(
 maker(
     ("vn", [(1, 7), 9]),
     baca.quadruple_staccato(
-        selector=baca.plts().get([0], 4),
+        selector=baca.selectors.plts(([0], 4)),
     ),
     baca.stem_tremolo(
-        selector=baca.plts().exclude([0], 4),
+        selector=baca.selectors.plts(omit=([0], 4)),
     ),
 )
 
@@ -502,10 +502,10 @@ maker(
     ("va", 1),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.plts().filter_duration("==", (1, 2)),
+            selector=baca.selectors.plts_filter_duration(("==", (1, 2))),
         ),
         baca.stem_tremolo(
-            selector=baca.plts().filter_duration("==", (1, 3)),
+            selector=baca.selectors.plts_filter_duration(("==", (1, 3))),
         ),
     ),
     baca.hairpin(
@@ -534,10 +534,10 @@ maker(
     ("va", 2),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.plts().filter_duration("==", (5, 12)),
+            selector=baca.selectors.plts_filter_duration(("==", (5, 12))),
         ),
         baca.stem_tremolo(
-            selector=baca.plts().filter_duration("==", (5, 18)),
+            selector=baca.selectors.plts_filter_duration(("==", (5, 18))),
         ),
     ),
     baca.hairpin(
@@ -561,10 +561,10 @@ maker(
     ("va", 3),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.plts().filter_duration("==", (1, 2)),
+            selector=baca.selectors.plts_filter_duration(("==", (1, 2))),
         ),
         baca.stem_tremolo(
-            selector=baca.plts().filter_duration("==", (1, 3)),
+            selector=baca.selectors.plts_filter_duration(("==", (1, 3))),
         ),
     ),
     baca.hairpin(
@@ -588,10 +588,10 @@ maker(
     ("va", 4),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.plts().filter_duration("==", (5, 12)),
+            selector=baca.selectors.plts_filter_duration(("==", (5, 12))),
         ),
         baca.stem_tremolo(
-            selector=baca.plts().filter_duration("==", (5, 18)),
+            selector=baca.selectors.plts_filter_duration(("==", (5, 18))),
         ),
     ),
     baca.hairpin(
@@ -644,14 +644,10 @@ maker(
         literal=True,
     ),
     baca.quadruple_staccato(
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-        ).get([0], 4),
+        selector=baca.selectors.plts(([0], 4), exclude=baca.const.HIDDEN),
     ),
     baca.stem_tremolo(
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-        ).exclude([0], 4),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN, omit=([0], 4)),
     ),
 )
 

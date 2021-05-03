@@ -166,7 +166,7 @@ maker(
     baca.hairpin(
         "pp < p > pp",
         map=baca.selectors.runs(),
-        pieces=baca.plts().partition_by_ratio((2, 3)),
+        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((2, 3)),
     ),
     baca.material_annotation_spanner(
         "5-2 =|",
@@ -174,9 +174,7 @@ maker(
     ),
     baca.pitch(
         "F2",
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
     faberge.bcl_color_fingering_rhythm(
         rmakers.force_rest(
@@ -360,7 +358,7 @@ maker(
     baca.pitch("F3"),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     faberge.back_incised_divisions(),
 )

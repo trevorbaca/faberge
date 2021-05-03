@@ -197,7 +197,7 @@ maker(
     ("eh", [4, 5, 8]),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -500,7 +500,7 @@ maker(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
         selector=baca.selectors.rleaves(),
     ),
 )
