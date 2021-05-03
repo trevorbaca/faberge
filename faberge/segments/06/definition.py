@@ -382,7 +382,7 @@ maker(
     baca.staff_position(1),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     faberge.downbeat_attack(),
 )
@@ -508,10 +508,10 @@ maker(
         abjad.tweak(8).staff_padding,
     ),
     baca.quadruple_staccato(
-        selector=baca.plts().filter_duration("==", (1, 2), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 2)), preprolated=True),
     ),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration("==", (1, 4), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 4)), preprolated=True),
     ),
 )
 

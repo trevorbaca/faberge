@@ -226,7 +226,7 @@ maker(
     baca.hairpin(
         "p < mp > p",
         map=baca.selectors.runs(),
-        pieces=baca.plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
 )
@@ -252,7 +252,7 @@ maker(
     baca.hairpin(
         "pp < p > pp",
         map=baca.selectors.runs(),
-        pieces=baca.plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
 )

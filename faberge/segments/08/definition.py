@@ -127,7 +127,7 @@ maker(
     ),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
 )
@@ -473,7 +473,7 @@ maker(
     baca.hairpin(
         'o< "f"',
         selector=baca.selectors.rleaves(),
-        map=baca.plts(),
+        map=baca.selectors.plts(),
     ),
 )
 
@@ -605,13 +605,13 @@ maker(
 maker(
     (["vn", "va"], [6, (8, 10)]),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration("==", (1, 4), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 4)), preprolated=True),
     ),
     baca.quadruple_staccato(
-        selector=baca.plts().filter_duration("==", (1, 2), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 2)), preprolated=True),
     ),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration("==", (3, 4), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (3, 4)), preprolated=True),
     ),
 )
 

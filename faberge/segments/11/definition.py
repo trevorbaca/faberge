@@ -203,7 +203,7 @@ maker(
     baca.pitch("A5"),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -388,7 +388,7 @@ maker(
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
-        map=baca.plts(),
+        map=baca.selectors.plts(),
         selector=baca.selectors.rleaves(),
     ),
     baca.staff_position(1),
@@ -469,7 +469,7 @@ maker(
     ),
     baca.pitch("A#4"),
     baca.quadruple_staccato(
-        selector=baca.plts().filter_duration("==", (1, 2), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 2)), preprolated=True),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -480,7 +480,7 @@ maker(
         selector=baca.selectors.leaves((-3, None)),
     ),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration("==", (1, 4), preprolated=True),
+        selector=baca.selectors.plts_filter_duration(("==", (1, 4)), preprolated=True),
     ),
     baca.skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
