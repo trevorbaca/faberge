@@ -1,7 +1,7 @@
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 12)
 
-\include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "baca.ily"
 
 \paper {
     %bottom-margin = 10\mm
