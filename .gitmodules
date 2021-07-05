@@ -1,3 +1,0 @@
-[submodule "faberge/test"]
-	path = faberge/test
-	url = https://github.com/trevorbaca/test.git
