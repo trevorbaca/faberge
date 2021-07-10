@@ -1,6 +1,4 @@
-import abjad
-
-metadata = abjad.OrderedDict(
+abjad.OrderedDict(
     [
         ("catalog_number", "AWN-015"),
         ("composer", "Trevor Bača"),
