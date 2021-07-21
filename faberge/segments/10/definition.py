@@ -855,3 +855,6 @@ maker(
         do_not_overlap_counts=True,
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

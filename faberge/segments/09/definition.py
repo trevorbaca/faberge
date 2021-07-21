@@ -792,3 +792,6 @@ maker(
         r"{ c2 c1 }",
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

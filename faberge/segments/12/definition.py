@@ -571,3 +571,6 @@ maker(
         fuse_counts=[1, 1, 2],
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)
