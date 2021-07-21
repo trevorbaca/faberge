@@ -251,3 +251,6 @@ spacing.override(166, (1, 48))
 spacing.override(195, (1, 16))
 spacing.override(202, (1, 48))
 spacing.override((203, 206), (1, 24))
+
+if __name__ == "__main__":
+    baca.build.make_layout_ly(__file__)
