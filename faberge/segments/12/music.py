@@ -3,7 +3,7 @@ import pathlib
 import abjad
 import baca
 
-import faberge
+from faberge import library as faberge
 
 ###############################################################################
 ##################################### [K] #####################################
