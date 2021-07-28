@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import faberge
+from faberge import library as faberge
 
 ###############################################################################
 ##################################### [F] #####################################
