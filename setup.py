@@ -16,5 +16,6 @@ if __name__ == "__main__":
         name="faberge",
         packages=["faberge"],
         platforms="Any",
+        python_requires=">=3.9",
         url="https://github.com/trevorbaca/faberge",
     )
