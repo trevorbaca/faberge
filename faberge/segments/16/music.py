@@ -19,6 +19,7 @@ maker = baca.SegmentMaker(
     ],
     check_all_are_pitched=True,
     final_segment=True,
+    score_template=faberge.ScoreTemplate(),
     stage_markup=stage_markup,
     time_signatures=[
         (8, 4),
