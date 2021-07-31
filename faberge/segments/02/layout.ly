@@ -27,7 +27,7 @@
         \context PageLayout = "Page_Layout"
         {   %*% b_Page_Layout
 
-            % [02 Page_Layout measure 5]
+            % [Page_Layout measure 5]
             \baca-new-spacing-section #1 #56
             \autoPageBreaksOff
             \noBreak
@@ -35,488 +35,488 @@
             \pageBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 6]
+            % [Page_Layout measure 6]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 7]
+            % [Page_Layout measure 7]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 8]
+            % [Page_Layout measure 8]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 9]
+            % [Page_Layout measure 9]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 10]
+            % [Page_Layout measure 10]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 11]
+            % [Page_Layout measure 11]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 12]
+            % [Page_Layout measure 12]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1
 
-            % [02 Page_Layout measure 13]
+            % [Page_Layout measure 13]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 14]
+            % [Page_Layout measure 14]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 15]
+            % [Page_Layout measure 15]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 16]
+            % [Page_Layout measure 16]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 17]
+            % [Page_Layout measure 17]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 18]
+            % [Page_Layout measure 18]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 19]
+            % [Page_Layout measure 19]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 20]
+            % [Page_Layout measure 20]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 21]
+            % [Page_Layout measure 21]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 22]
+            % [Page_Layout measure 22]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 23]
+            % [Page_Layout measure 23]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 24]
+            % [Page_Layout measure 24]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 25]
+            % [Page_Layout measure 25]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 26]
+            % [Page_Layout measure 26]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 27]
+            % [Page_Layout measure 27]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 28]
+            % [Page_Layout measure 28]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 29]
+            % [Page_Layout measure 29]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 30]
+            % [Page_Layout measure 30]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 31]
+            % [Page_Layout measure 31]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 32]
+            % [Page_Layout measure 32]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 33]
+            % [Page_Layout measure 33]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 34]
+            % [Page_Layout measure 34]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 35]
+            % [Page_Layout measure 35]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 36]
+            % [Page_Layout measure 36]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 37]
+            % [Page_Layout measure 37]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 38]
+            % [Page_Layout measure 38]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 39]
+            % [Page_Layout measure 39]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 40]
+            % [Page_Layout measure 40]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 41]
+            % [Page_Layout measure 41]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 42]
+            % [Page_Layout measure 42]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 43]
+            % [Page_Layout measure 43]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 44]
+            % [Page_Layout measure 44]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 45]
+            % [Page_Layout measure 45]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 46]
+            % [Page_Layout measure 46]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 47]
+            % [Page_Layout measure 47]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 48]
+            % [Page_Layout measure 48]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 49]
+            % [Page_Layout measure 49]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 50]
+            % [Page_Layout measure 50]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 51]
+            % [Page_Layout measure 51]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 52]
+            % [Page_Layout measure 52]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 53]
+            % [Page_Layout measure 53]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 54]
+            % [Page_Layout measure 54]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1
 
-            % [02 Page_Layout measure 55]
+            % [Page_Layout measure 55]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 56]
+            % [Page_Layout measure 56]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 57]
+            % [Page_Layout measure 57]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 58]
+            % [Page_Layout measure 58]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 59]
+            % [Page_Layout measure 59]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 60]
+            % [Page_Layout measure 60]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 61]
+            % [Page_Layout measure 61]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 62]
+            % [Page_Layout measure 62]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 63]
+            % [Page_Layout measure 63]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 64]
+            % [Page_Layout measure 64]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 65]
+            % [Page_Layout measure 65]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 66]
+            % [Page_Layout measure 66]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 67]
+            % [Page_Layout measure 67]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 68]
+            % [Page_Layout measure 68]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1
 
-            % [02 Page_Layout measure 69]
+            % [Page_Layout measure 69]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 70]
+            % [Page_Layout measure 70]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 71]
+            % [Page_Layout measure 71]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 72]
+            % [Page_Layout measure 72]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 73]
+            % [Page_Layout measure 73]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 74]
+            % [Page_Layout measure 74]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 75]
+            % [Page_Layout measure 75]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 76]
+            % [Page_Layout measure 76]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 77]
+            % [Page_Layout measure 77]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 78]
+            % [Page_Layout measure 78]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 79]
+            % [Page_Layout measure 79]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 80]
+            % [Page_Layout measure 80]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 81]
+            % [Page_Layout measure 81]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 82]
+            % [Page_Layout measure 82]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 83]
+            % [Page_Layout measure 83]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 84]
+            % [Page_Layout measure 84]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 85]
+            % [Page_Layout measure 85]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 86]
+            % [Page_Layout measure 86]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 87]
+            % [Page_Layout measure 87]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 88]
+            % [Page_Layout measure 88]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 89]
+            % [Page_Layout measure 89]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 90]
+            % [Page_Layout measure 90]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 91]
+            % [Page_Layout measure 91]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 92]
+            % [Page_Layout measure 92]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 93]
+            % [Page_Layout measure 93]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 3/4
 
-            % [02 Page_Layout measure 94]
+            % [Page_Layout measure 94]
             \baca-new-spacing-section #1 #48
             \noBreak
             s1 * 1
 
-            % [02 Page_Layout measure 95]
+            % [Page_Layout measure 95]
             \baca-new-spacing-section #35 #1152
             \noBreak
             s1 * 1/2
 
-            % [02 Page_Layout measure 96]
+            % [Page_Layout measure 96]
             \baca-new-spacing-section #1 #48
             \noBreak
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)
             \pageBreak
             s1 * 1
 
-            % [02 Page_Layout measure 97]
+            % [Page_Layout measure 97]
             \baca-new-spacing-section #1 #4
             \noBreak
             \baca-time-signature-transparent
