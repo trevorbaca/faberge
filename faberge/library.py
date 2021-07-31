@@ -1,5 +1,3 @@
-import typing
-
 import abjad
 import baca
 from abjadext import rmakers
@@ -109,13 +107,13 @@ tuplet_ratios_a = (
 
 
 def airtone_chain_rhythm(
-    total_events: int,
-    my_event_indices: abjad.IntegerSequence,
+    total_events,
+    my_event_indices,
     *,
-    counts: abjad.IntegerSequence = (4, 8, 6, 4, 8, 8, 6),
-    do_not_overlap_counts: bool = False,
-    prolong_last_count: bool = False,
-) -> baca.RhythmCommand:
+    counts=(4, 8, 6, 4, 8, 8, 6),
+    do_not_overlap_counts=False,
+    prolong_last_count=False,
+):
     """
     Makes airtone chain rhythm.
     """
@@ -195,9 +193,7 @@ def back_incised_divisions() -> baca.RhythmCommand:
     )
 
 
-def bcl_color_fingering_rhythm(
-    *commands: rmakers.Command, rotation: int = None
-) -> baca.RhythmCommand:
+def bcl_color_fingering_rhythm(*commands, rotation=None):
     """
     Makes bass clarinet colorfinger rhythm.
     """
@@ -220,9 +216,7 @@ def bcl_color_fingering_rhythm(
     )
 
 
-def bcl_color_fingerings(
-    *tweaks: abjad.IndexedTweakManager, rotation: int = None
-) -> baca.ColorFingeringCommand:
+def bcl_color_fingerings(*tweaks, rotation=None):
     """
     Makes bass clarinet color fingerings.
     """
@@ -241,12 +235,7 @@ def bfl_color_fingerings(
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
-def clb_rhythm(
-    *,
-    extra_counts: abjad.IntegerSequence = None,
-    fuse_counts: abjad.IntegerSequence = None,
-    rotation: int = None,
-) -> baca.RhythmCommand:
+def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
     """
     Makes clb rhythm.
     """
@@ -280,7 +269,7 @@ def clb_rhythm(
     )
 
 
-def clb_staff_positions(*, rotation: int = None) -> baca.StaffPositionCommand:
+def clb_staff_positions(*, rotation=None):
     """
     Makes clb staff positions.
     """
@@ -315,7 +304,7 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
     )
 
 
-def downbeat_attack(*, count: int = 1, denominator: int = 4) -> baca.RhythmCommand:
+def downbeat_attack(*, count=1, denominator=4):
     """
     Makes downbeat attack.
     """
@@ -333,12 +322,7 @@ def downbeat_attack(*, count: int = 1, denominator: int = 4) -> baca.RhythmComma
     )
 
 
-def eh_trill_rhythm(
-    counts: abjad.IntegerSequence,
-    *commands: rmakers.Command,
-    division_fuse_counts: abjad.IntegerSequence = None,
-    extra_counts: abjad.IntegerSequence = None,
-) -> baca.RhythmCommand:
+def eh_trill_rhythm(counts, *commands, division_fuse_counts=None, extra_counts=None):
     """
     Makes English horn trill rhythm.
     """
@@ -356,7 +340,7 @@ def eh_trill_rhythm(
     )
 
 
-def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
+def end_of_cell_attack(*, denominator=4):
     """
     Makes end-of-cell attack.
     """
@@ -373,9 +357,7 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
     )
 
 
-def even_tuplet_rhythm(
-    *, denominator: int = 4, extra_counts: abjad.IntegerSequence = (0,)
-) -> baca.RhythmCommand:
+def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
     """
     Makes even tuplet rhythm.
     """
@@ -394,10 +376,7 @@ def even_tuplet_rhythm(
     )
 
 
-def front_incised_divisions(
-    *commands: rmakers.Command,
-    start_rest_durations: abjad.DurationSequenceTyping = (),
-) -> baca.RhythmCommand:
+def front_incised_divisions(*commands, start_rest_durations=()):
     """
     Makes front-incised divisions.
     """
@@ -418,11 +397,7 @@ def front_incised_divisions(
     )
 
 
-def glow_rhythm(
-    *commands: rmakers.Command,
-    tuplet_ratios: abjad.RatioSequenceTyping = None,
-    tuplet_ratio_rotation: int = None,
-) -> baca.RhythmCommand:
+def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
     """
     Makes glow rhythm.
     """
@@ -448,9 +423,7 @@ def glow_rhythm(
     )
 
 
-def halves_rhythm(
-    *, tuplet_ratios: abjad.RatioSequenceTyping = [(1, 1)]
-) -> baca.RhythmCommand:
+def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
     """
     Makes halves rhythm.
     """
@@ -496,11 +469,10 @@ def increasing_dal_niente_hairpins() -> baca.Suite:
     )
 
 
-def keynoise_pitches(*, rotation: int = None) -> baca.PitchCommand:
+def keynoise_pitches(*, rotation=None):
     """
     Makes keynoise pitches.
     """
-
     keynoise_pitches_ = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.Sequence(keynoise_pitches_)
     keynoise_pitches = keynoise_pitches.helianthate(-1, 1)
@@ -509,11 +481,7 @@ def keynoise_pitches(*, rotation: int = None) -> baca.PitchCommand:
     return baca.pitches(keynoise_pitches)
 
 
-def keynoise_rhythm(
-    *commands: rmakers.Command,
-    tuplet_ratios: abjad.RatioSequenceTyping = None,
-    tuplet_ratio_rotation: int = None,
-) -> baca.RhythmCommand:
+def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
     """
     Makes keynoise rhythm.
     """
@@ -545,12 +513,12 @@ def keynoise_rhythm(
 
 
 def margin_markup(
-    key: str,
+    key,
     *,
-    alert: baca.IndicatorCommand = None,
-    context: str = "Staff",
-    selector: abjad.Expression = baca.selectors.leaf(0),
-) -> baca.CommandTyping:
+    alert=None,
+    context="Staff",
+    selector=baca.selectors.leaf(0),
+):
     """
     Makes tagged margin markup indicator command.
     """
@@ -626,12 +594,12 @@ def ratchet_rhythm() -> baca.RhythmCommand:
 
 
 def shell_exchange_rhythm(
-    total_parts: int,
-    this_part: typing.Union[int, typing.Tuple[int, ...]],
+    total_parts,
+    this_part,
     *,
-    extra_counts_rotation: int = None,
-    rotation: int = None,
-) -> baca.RhythmCommand:
+    extra_counts_rotation=None,
+    rotation=None,
+):
     """
     Makes shell exchange rhythm.
     """
@@ -731,7 +699,7 @@ def shell_exchange_rhythm(
     counts = filtered_counts
 
     grouped_counts = baca.Sequence(counts).group_by_sign()
-    grouped_rests: typing.List[int] = []
+    grouped_rests = []
     for group in grouped_counts:
         if 0 < group[0]:
             grouped_rests.extend(group)
@@ -773,12 +741,7 @@ def single_swell(dynamic: str) -> baca.Suite:
     )
 
 
-def single_taper(
-    *,
-    denominator: int = 16,
-    start_talea: abjad.IntegerSequence = (4,),
-    stop_talea: abjad.IntegerSequence = (4,),
-) -> baca.RhythmCommand:
+def single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
     """
     Makes single taper.
     """
@@ -799,11 +762,11 @@ def single_taper(
 
 
 def spazzolati_rhythm(
-    *commands: rmakers.Command,
-    counts_rotation: int = None,
-    denominator: int = 16,
-    extra_counts: abjad.IntegerSequence = None,
-) -> baca.RhythmCommand:
+    *commands,
+    counts_rotation=None,
+    denominator=16,
+    extra_counts=None,
+):
     """
     Makes spazzolati rhythm.
     """
@@ -856,7 +819,7 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     )
 
 
-def tuning_peg_staff_positions(*, rotation: int = None) -> baca.StaffPositionCommand:
+def tuning_peg_staff_positions(*, rotation=None):
     """
     Makes tuning peg staff positions.
     """
