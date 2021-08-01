@@ -26,7 +26,7 @@
 \score {
     <<
         {
-        \include "layout.ly"
+        \include "layout.ly.tagged"
         }
         {
         \include "_segments/01.ly"
