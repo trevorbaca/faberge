@@ -1,4 +1,4 @@
-b_Global_Skips = {
+segment.02.Global.Skips = {
 
     % [Global_Skips measure 5 / measure 1]
     \time 3/4
@@ -784,7 +784,7 @@ b_Global_Skips = {
 }
 
 
-b_Global_Rests = {
+segment.02.Global.Rests = {
 
     % [Global_Rests measure 5 / measure 1]
     R1 * 3/4
@@ -1068,7 +1068,7 @@ b_Global_Rests = {
 }
 
 
-b_Flute_Music_Voice = {
+segment.02.Flute.Music.Voice = {
 
     % [Flute_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-fl-markup
@@ -2169,18 +2169,18 @@ b_Flute_Music_Voice = {
 }
 
 
-b_Flute_Music_Staff = <<
+segment.02.Flute.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \b_Global_Rests
+    { \segment.02.Global.Rests }
 
     \context Voice = "Flute_Music_Voice"
-    \b_Flute_Music_Voice
+    { \segment.02.Flute.Music.Voice }
 
 >>
 
 
-b_English_Horn_Music_Voice = {
+segment.02.English.Horn.Music.Voice = {
 
     <<
 
@@ -2980,15 +2980,15 @@ b_English_Horn_Music_Voice = {
 }
 
 
-b_English_Horn_Music_Staff = <<
+segment.02.English.Horn.Music.Staff = <<
 
     \context Voice = "English_Horn_Music_Voice"
-    \b_English_Horn_Music_Voice
+    { \segment.02.English.Horn.Music.Voice }
 
 >>
 
 
-b_Clarinet_Music_Voice = {
+segment.02.Clarinet.Music.Voice = {
 
     % [Clarinet_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-cl-markup
@@ -4154,15 +4154,15 @@ b_Clarinet_Music_Voice = {
 }
 
 
-b_Clarinet_Music_Staff = <<
+segment.02.Clarinet.Music.Staff = <<
 
     \context Voice = "Clarinet_Music_Voice"
-    \b_Clarinet_Music_Voice
+    { \segment.02.Clarinet.Music.Voice }
 
 >>
 
 
-b_Piano_RH_Music_Voice = {
+segment.02.Piano.RH.Music.Voice = {
 
     % [Piano_RH_Music_Voice measure 5 / measure 1]
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
@@ -4530,15 +4530,15 @@ b_Piano_RH_Music_Voice = {
 }
 
 
-b_Piano_RH_Music_Staff = <<
+segment.02.Piano.RH.Music.Staff = <<
 
     \context Voice = "Piano_RH_Music_Voice"
-    \b_Piano_RH_Music_Voice
+    { \segment.02.Piano.RH.Music.Voice }
 
 >>
 
 
-b_Piano_LH_Music_Voice = {
+segment.02.Piano.LH.Music.Voice = {
 
     % [Piano_LH_Music_Voice measure 5 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -4856,7 +4856,7 @@ b_Piano_LH_Music_Voice = {
 }
 
 
-b_Piano_LH_Attack_Voice = {
+segment.02.Piano.LH.Attack.Voice = {
 
     % [Piano_LH_Attack_Voice measure 5 / measure 1]
     \override DynamicLineSpanner.staff-padding = 6
@@ -5292,18 +5292,18 @@ b_Piano_LH_Attack_Voice = {
 }
 
 
-b_Piano_LH_Music_Staff = <<
+segment.02.Piano.LH.Music.Staff = <<
 
     \context Voice = "Piano_LH_Music_Voice"
-    \b_Piano_LH_Music_Voice
+    { \segment.02.Piano.LH.Music.Voice }
 
     \context Voice = "Piano_LH_Attack_Voice"
-    \b_Piano_LH_Attack_Voice
+    { \segment.02.Piano.LH.Attack.Voice }
 
 >>
 
 
-b_Percussion_Music_Voice = {
+segment.02.Percussion.Music.Voice = {
 
     % [Percussion_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-perc-markup
@@ -6738,15 +6738,15 @@ b_Percussion_Music_Voice = {
 }
 
 
-b_Percussion_Music_Staff = <<
+segment.02.Percussion.Music.Staff = <<
 
     \context Voice = "Percussion_Music_Voice"
-    \b_Percussion_Music_Voice
+    { \segment.02.Percussion.Music.Voice }
 
 >>
 
 
-b_Violin_Music_Voice = {
+segment.02.Violin.Music.Voice = {
 
     % [Violin_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-vn-markup
@@ -8390,15 +8390,15 @@ b_Violin_Music_Voice = {
 }
 
 
-b_Violin_Music_Staff = <<
+segment.02.Violin.Music.Staff = <<
 
     \context Voice = "Violin_Music_Voice"
-    \b_Violin_Music_Voice
+    { \segment.02.Violin.Music.Voice }
 
 >>
 
 
-b_Viola_Music_Voice = {
+segment.02.Viola.Music.Voice = {
 
     % [Viola_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-va-markup
@@ -9244,15 +9244,15 @@ b_Viola_Music_Voice = {
 }
 
 
-b_Viola_Music_Staff = <<
+segment.02.Viola.Music.Staff = <<
 
     \context Voice = "Viola_Music_Voice"
-    \b_Viola_Music_Voice
+    { \segment.02.Viola.Music.Voice }
 
 >>
 
 
-b_Cello_Music_Voice = {
+segment.02.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 5 / measure 1]
     \set Staff.shortInstrumentName = \faberge-vc-markup
@@ -9686,9 +9686,9 @@ b_Cello_Music_Voice = {
 }
 
 
-b_Cello_Music_Staff = <<
+segment.02.Cello.Music.Staff = <<
 
     \context Voice = "Cello_Music_Voice"
-    \b_Cello_Music_Voice
+    { \segment.02.Cello.Music.Voice }
 
 >>

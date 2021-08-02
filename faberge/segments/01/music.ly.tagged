@@ -7,7 +7,7 @@
 %! baca.SegmentMaker._make_lilypond_file()
 %! abjad.LilyPondFile._get_formatted_includes()
 \include "../../stylesheet.ily"
-%! baca.Path.extern()
+%! baca.path.extern()
 \include "music.ily.tagged"
 
 %! baca.SegmentMaker._make_lilypond_file()
@@ -40,8 +40,8 @@
                 %! abjad.ScoreTemplate._make_global_context()
                 \context GlobalSkips = "Global_Skips"
                 %! abjad.ScoreTemplate._make_global_context()
-                %! baca.Path.extern()
-                \a_Global_Skips
+                %! baca.path.extern()
+                { \segment.01.Global.Skips }
 
             %! abjad.ScoreTemplate._make_global_context()
             >>
@@ -61,24 +61,24 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Flute_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Flute_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Flute.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag EnglishHorn
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "English_Horn_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_English_Horn_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.English.Horn.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Clarinet
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Clarinet_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Clarinet_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Clarinet.Music.Staff }
 
                 %! faberge.ScoreTemplate.__call__()
                 >>
@@ -98,14 +98,14 @@
                         %! faberge.ScoreTemplate.__call__()
                         \context Staff = "Piano_RH_Music_Staff"
                         %! faberge.ScoreTemplate.__call__()
-                        %! baca.Path.extern()
-                        \a_Piano_RH_Music_Staff
+                        %! baca.path.extern()
+                        { \segment.01.Piano.RH.Music.Staff }
 
                         %! faberge.ScoreTemplate.__call__()
                         \context Staff = "Piano_LH_Music_Staff"
                         %! faberge.ScoreTemplate.__call__()
-                        %! baca.Path.extern()
-                        \a_Piano_LH_Music_Staff
+                        %! baca.path.extern()
+                        { \segment.01.Piano.LH.Music.Staff }
 
                     %! faberge.ScoreTemplate.__call__()
                     >>
@@ -115,8 +115,8 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Percussion_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Percussion_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Percussion.Music.Staff }
 
                 %! faberge.ScoreTemplate.__call__()
                 >>
@@ -131,24 +131,24 @@
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Violin_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Violin_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Violin.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Viola
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Viola_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Viola_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Viola.Music.Staff }
 
                     %! baca.ScoreTemplate._attach_liypond_tag()
                     \tag Cello
                     %! faberge.ScoreTemplate.__call__()
                     \context Staff = "Cello_Music_Staff"
                     %! faberge.ScoreTemplate.__call__()
-                    %! baca.Path.extern()
-                    \a_Cello_Music_Staff
+                    %! baca.path.extern()
+                    { \segment.01.Cello.Music.Staff }
 
                 %! faberge.ScoreTemplate.__call__()
                 >>

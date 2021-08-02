@@ -1,5 +1,5 @@
-%! baca.Path.extern()
-a_Global_Skips = {
+%! baca.path.extern()
+segment.01.Global.Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Skips measure 1]
@@ -227,12 +227,12 @@ a_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Global_Rests = {
+%! baca.path.extern()
+segment.01.Global.Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Global_Rests measure 1]
@@ -275,12 +275,12 @@ a_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Flute_Music_Voice = {
+%! baca.path.extern()
+segment.01.Flute.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Flute_Music_Voice measure 1]
@@ -476,32 +476,32 @@ a_Flute_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Flute_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Flute.Music.Staff = <<
 
     %! abjad.ScoreTemplate._make_global_context()
     \context GlobalRests = "Global_Rests"
     %! abjad.ScoreTemplate._make_global_context()
-    %! baca.Path.extern()
-    \a_Global_Rests
+    %! baca.path.extern()
+    { \segment.01.Global.Rests }
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Flute_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Flute_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Flute.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_English_Horn_Music_Voice = {
+%! baca.path.extern()
+segment.01.English.Horn.Music.Voice = {
 
     %! baca.SegmentMaker._make_multimeasure_rest_container(7)
     <<
@@ -933,26 +933,26 @@ a_English_Horn_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_English_Horn_Music_Staff = <<
+%! baca.path.extern()
+segment.01.English.Horn.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "English_Horn_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_English_Horn_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.English.Horn.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Clarinet_Music_Voice = {
+%! baca.path.extern()
+segment.01.Clarinet.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 1]
@@ -1148,26 +1148,26 @@ a_Clarinet_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Clarinet_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Clarinet.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Clarinet_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Clarinet_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Clarinet.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Piano_RH_Music_Voice = {
+%! baca.path.extern()
+segment.01.Piano.RH.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 1]
@@ -1363,26 +1363,26 @@ a_Piano_RH_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Piano_RH_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Piano.RH.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Piano_RH_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Piano_RH_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Piano.RH.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Piano_LH_Music_Voice = {
+%! baca.path.extern()
+segment.01.Piano.LH.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 1]
@@ -1549,12 +1549,12 @@ a_Piano_LH_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Piano_LH_Attack_Voice = {
+%! baca.path.extern()
+segment.01.Piano.LH.Attack.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Piano_LH_Attack_Voice measure 1]
@@ -1680,32 +1680,32 @@ a_Piano_LH_Attack_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Piano_LH_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Piano.LH.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Piano_LH_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Piano_LH_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Piano.LH.Music.Voice }
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Piano_LH_Attack_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Piano_LH_Attack_Voice
+    %! baca.path.extern()
+    { \segment.01.Piano.LH.Attack.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Percussion_Music_Voice = {
+%! baca.path.extern()
+segment.01.Percussion.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Percussion_Music_Voice measure 1]
@@ -1901,26 +1901,26 @@ a_Percussion_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Percussion_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Percussion.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Percussion_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Percussion_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Percussion.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Violin_Music_Voice = {
+%! baca.path.extern()
+segment.01.Violin.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Violin_Music_Voice measure 1]
@@ -2267,26 +2267,26 @@ a_Violin_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Violin_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Violin.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Violin_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Violin_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Violin.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Viola_Music_Voice = {
+%! baca.path.extern()
+segment.01.Viola.Music.Voice = {
 
     %! faberge.spazzolati_rhythm()
     \times 2/3
@@ -2629,26 +2629,26 @@ a_Viola_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Viola_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Viola.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Viola_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Viola_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Viola.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>
 
 
-%! baca.Path.extern()
-a_Cello_Music_Voice = {
+%! baca.path.extern()
+segment.01.Cello.Music.Voice = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
     % [Cello_Music_Voice measure 1]
@@ -2844,19 +2844,19 @@ a_Cello_Music_Voice = {
     >>
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 }
 
 
-%! baca.Path.extern()
-a_Cello_Music_Staff = <<
+%! baca.path.extern()
+segment.01.Cello.Music.Staff = <<
 
     %! faberge.ScoreTemplate.__call__()
     \context Voice = "Cello_Music_Voice"
     %! faberge.ScoreTemplate.__call__()
-    %! baca.Path.extern()
-    \a_Cello_Music_Voice
+    %! baca.path.extern()
+    { \segment.01.Cello.Music.Voice }
 
 %! faberge.ScoreTemplate.__call__()
-%! baca.Path.extern()
+%! baca.path.extern()
 >>

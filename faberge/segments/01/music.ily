@@ -1,4 +1,4 @@
-a_Global_Skips = {
+segment.01.Global.Skips = {
 
     % [Global_Skips measure 1]
     \time 3/4
@@ -51,7 +51,7 @@ a_Global_Skips = {
 }
 
 
-a_Global_Rests = {
+segment.01.Global.Rests = {
 
     % [Global_Rests measure 1]
     R1 * 3/4
@@ -75,7 +75,7 @@ a_Global_Rests = {
 }
 
 
-a_Flute_Music_Voice = {
+segment.01.Flute.Music.Voice = {
 
     % [Flute_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -134,18 +134,18 @@ a_Flute_Music_Voice = {
 }
 
 
-a_Flute_Music_Staff = <<
+segment.01.Flute.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \a_Global_Rests
+    { \segment.01.Global.Rests }
 
     \context Voice = "Flute_Music_Voice"
-    \a_Flute_Music_Voice
+    { \segment.01.Flute.Music.Voice }
 
 >>
 
 
-a_English_Horn_Music_Voice = {
+segment.01.English.Horn.Music.Voice = {
 
     <<
 
@@ -311,15 +311,15 @@ a_English_Horn_Music_Voice = {
 }
 
 
-a_English_Horn_Music_Staff = <<
+segment.01.English.Horn.Music.Staff = <<
 
     \context Voice = "English_Horn_Music_Voice"
-    \a_English_Horn_Music_Voice
+    { \segment.01.English.Horn.Music.Voice }
 
 >>
 
 
-a_Clarinet_Music_Voice = {
+segment.01.Clarinet.Music.Voice = {
 
     % [Clarinet_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -378,15 +378,15 @@ a_Clarinet_Music_Voice = {
 }
 
 
-a_Clarinet_Music_Staff = <<
+segment.01.Clarinet.Music.Staff = <<
 
     \context Voice = "Clarinet_Music_Voice"
-    \a_Clarinet_Music_Voice
+    { \segment.01.Clarinet.Music.Voice }
 
 >>
 
 
-a_Piano_RH_Music_Voice = {
+segment.01.Piano.RH.Music.Voice = {
 
     % [Piano_RH_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -445,15 +445,15 @@ a_Piano_RH_Music_Voice = {
 }
 
 
-a_Piano_RH_Music_Staff = <<
+segment.01.Piano.RH.Music.Staff = <<
 
     \context Voice = "Piano_RH_Music_Voice"
-    \a_Piano_RH_Music_Voice
+    { \segment.01.Piano.RH.Music.Voice }
 
 >>
 
 
-a_Piano_LH_Music_Voice = {
+segment.01.Piano.LH.Music.Voice = {
 
     % [Piano_LH_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -505,7 +505,7 @@ a_Piano_LH_Music_Voice = {
 }
 
 
-a_Piano_LH_Attack_Voice = {
+segment.01.Piano.LH.Attack.Voice = {
 
     % [Piano_LH_Attack_Voice measure 1]
     R1 * 3/4
@@ -548,18 +548,18 @@ a_Piano_LH_Attack_Voice = {
 }
 
 
-a_Piano_LH_Music_Staff = <<
+segment.01.Piano.LH.Music.Staff = <<
 
     \context Voice = "Piano_LH_Music_Voice"
-    \a_Piano_LH_Music_Voice
+    { \segment.01.Piano.LH.Music.Voice }
 
     \context Voice = "Piano_LH_Attack_Voice"
-    \a_Piano_LH_Attack_Voice
+    { \segment.01.Piano.LH.Attack.Voice }
 
 >>
 
 
-a_Percussion_Music_Voice = {
+segment.01.Percussion.Music.Voice = {
 
     % [Percussion_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -618,15 +618,15 @@ a_Percussion_Music_Voice = {
 }
 
 
-a_Percussion_Music_Staff = <<
+segment.01.Percussion.Music.Staff = <<
 
     \context Voice = "Percussion_Music_Voice"
-    \a_Percussion_Music_Voice
+    { \segment.01.Percussion.Music.Voice }
 
 >>
 
 
-a_Violin_Music_Voice = {
+segment.01.Violin.Music.Voice = {
 
     % [Violin_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -743,15 +743,15 @@ a_Violin_Music_Voice = {
 }
 
 
-a_Violin_Music_Staff = <<
+segment.01.Violin.Music.Staff = <<
 
     \context Voice = "Violin_Music_Voice"
-    \a_Violin_Music_Voice
+    { \segment.01.Violin.Music.Voice }
 
 >>
 
 
-a_Viola_Music_Voice = {
+segment.01.Viola.Music.Voice = {
 
     \times 2/3
     {
@@ -868,15 +868,15 @@ a_Viola_Music_Voice = {
 }
 
 
-a_Viola_Music_Staff = <<
+segment.01.Viola.Music.Staff = <<
 
     \context Voice = "Viola_Music_Voice"
-    \a_Viola_Music_Voice
+    { \segment.01.Viola.Music.Voice }
 
 >>
 
 
-a_Cello_Music_Voice = {
+segment.01.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -935,9 +935,9 @@ a_Cello_Music_Voice = {
 }
 
 
-a_Cello_Music_Staff = <<
+segment.01.Cello.Music.Staff = <<
 
     \context Voice = "Cello_Music_Voice"
-    \a_Cello_Music_Voice
+    { \segment.01.Cello.Music.Voice }
 
 >>

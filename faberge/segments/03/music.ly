@@ -24,7 +24,7 @@
             <<
 
                 \context GlobalSkips = "Global_Skips"
-                \c_Global_Skips
+                { \segment.03.Global.Skips }
 
             >>
 
@@ -36,15 +36,15 @@
 
                     \tag Flute
                     \context Staff = "Flute_Music_Staff"
-                    \c_Flute_Music_Staff
+                    { \segment.03.Flute.Music.Staff }
 
                     \tag EnglishHorn
                     \context Staff = "English_Horn_Music_Staff"
-                    \c_English_Horn_Music_Staff
+                    { \segment.03.English.Horn.Music.Staff }
 
                     \tag Clarinet
                     \context Staff = "Clarinet_Music_Staff"
-                    \c_Clarinet_Music_Staff
+                    { \segment.03.Clarinet.Music.Staff }
 
                 >>
 
@@ -56,16 +56,16 @@
                     <<
 
                         \context Staff = "Piano_RH_Music_Staff"
-                        \c_Piano_RH_Music_Staff
+                        { \segment.03.Piano.RH.Music.Staff }
 
                         \context Staff = "Piano_LH_Music_Staff"
-                        \c_Piano_LH_Music_Staff
+                        { \segment.03.Piano.LH.Music.Staff }
 
                     >>
 
                     \tag Percussion
                     \context Staff = "Percussion_Music_Staff"
-                    \c_Percussion_Music_Staff
+                    { \segment.03.Percussion.Music.Staff }
 
                 >>
 
@@ -74,15 +74,15 @@
 
                     \tag Violin
                     \context Staff = "Violin_Music_Staff"
-                    \c_Violin_Music_Staff
+                    { \segment.03.Violin.Music.Staff }
 
                     \tag Viola
                     \context Staff = "Viola_Music_Staff"
-                    \c_Viola_Music_Staff
+                    { \segment.03.Viola.Music.Staff }
 
                     \tag Cello
                     \context Staff = "Cello_Music_Staff"
-                    \c_Cello_Music_Staff
+                    { \segment.03.Cello.Music.Staff }
 
                 >>
 
