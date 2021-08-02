@@ -1,4 +1,4 @@
-i_Global_Skips = {
+segment.09.Global.Skips = {
 
     % [Global_Skips measure 220 / measure 1]
     \time 12/4
@@ -105,7 +105,7 @@ i_Global_Skips = {
 }
 
 
-i_Global_Rests = {
+segment.09.Global.Rests = {
 
     % [Global_Rests measure 220 / measure 1]
     R1 * 3
@@ -143,7 +143,7 @@ i_Global_Rests = {
 }
 
 
-i_Flute_Music_Voice = {
+segment.09.Flute.Music.Voice = {
 
     % [Flute_Music_Voice measure 220 / measure 1]
     \set Staff.shortInstrumentName = \faberge-bfl-markup
@@ -425,18 +425,18 @@ i_Flute_Music_Voice = {
 }
 
 
-i_Flute_Music_Staff = <<
+segment.09.Flute.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \i_Global_Rests
+    { \segment.09.Global.Rests }
 
     \context Voice = "Flute_Music_Voice"
-    \i_Flute_Music_Voice
+    { \segment.09.Flute.Music.Voice }
 
 >>
 
 
-i_English_Horn_Music_Voice = {
+segment.09.English.Horn.Music.Voice = {
 
     {
 
@@ -730,15 +730,15 @@ i_English_Horn_Music_Voice = {
 }
 
 
-i_English_Horn_Music_Staff = <<
+segment.09.English.Horn.Music.Staff = <<
 
     \context Voice = "English_Horn_Music_Voice"
-    \i_English_Horn_Music_Voice
+    { \segment.09.English.Horn.Music.Voice }
 
 >>
 
 
-i_Clarinet_Music_Voice = {
+segment.09.Clarinet.Music.Voice = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7
@@ -908,15 +908,15 @@ i_Clarinet_Music_Voice = {
 }
 
 
-i_Clarinet_Music_Staff = <<
+segment.09.Clarinet.Music.Staff = <<
 
     \context Voice = "Clarinet_Music_Voice"
-    \i_Clarinet_Music_Voice
+    { \segment.09.Clarinet.Music.Voice }
 
 >>
 
 
-i_Piano_RH_Music_Voice = {
+segment.09.Piano.RH.Music.Voice = {
 
     % [Piano_RH_Music_Voice measure 220 / measure 1]
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
@@ -1000,15 +1000,15 @@ i_Piano_RH_Music_Voice = {
 }
 
 
-i_Piano_RH_Music_Staff = <<
+segment.09.Piano.RH.Music.Staff = <<
 
     \context Voice = "Piano_RH_Music_Voice"
-    \i_Piano_RH_Music_Voice
+    { \segment.09.Piano.RH.Music.Voice }
 
 >>
 
 
-i_Piano_LH_Music_Voice = {
+segment.09.Piano.LH.Music.Voice = {
 
     % [Piano_LH_Music_Voice measure 220 / measure 1]
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -1083,7 +1083,7 @@ i_Piano_LH_Music_Voice = {
 }
 
 
-i_Piano_LH_Attack_Voice = {
+segment.09.Piano.LH.Attack.Voice = {
 
     % [Piano_LH_Attack_Voice measure 220 / measure 1]
     R1 * 12/4
@@ -1143,18 +1143,18 @@ i_Piano_LH_Attack_Voice = {
 }
 
 
-i_Piano_LH_Music_Staff = <<
+segment.09.Piano.LH.Music.Staff = <<
 
     \context Voice = "Piano_LH_Music_Voice"
-    \i_Piano_LH_Music_Voice
+    { \segment.09.Piano.LH.Music.Voice }
 
     \context Voice = "Piano_LH_Attack_Voice"
-    \i_Piano_LH_Attack_Voice
+    { \segment.09.Piano.LH.Attack.Voice }
 
 >>
 
 
-i_Percussion_Music_Voice = {
+segment.09.Percussion.Music.Voice = {
 
     % [Percussion_Music_Voice measure 220 / measure 1]
     \set Staff.shortInstrumentName = \faberge-perc-markup
@@ -1373,15 +1373,15 @@ i_Percussion_Music_Voice = {
 }
 
 
-i_Percussion_Music_Staff = <<
+segment.09.Percussion.Music.Staff = <<
 
     \context Voice = "Percussion_Music_Voice"
-    \i_Percussion_Music_Voice
+    { \segment.09.Percussion.Music.Voice }
 
 >>
 
 
-i_Violin_Music_Voice = {
+segment.09.Violin.Music.Voice = {
 
     {
 
@@ -2175,15 +2175,15 @@ i_Violin_Music_Voice = {
 }
 
 
-i_Violin_Music_Staff = <<
+segment.09.Violin.Music.Staff = <<
 
     \context Voice = "Violin_Music_Voice"
-    \i_Violin_Music_Voice
+    { \segment.09.Violin.Music.Voice }
 
 >>
 
 
-i_Viola_Music_Voice = {
+segment.09.Viola.Music.Voice = {
 
     {
 
@@ -3022,15 +3022,15 @@ i_Viola_Music_Voice = {
 }
 
 
-i_Viola_Music_Staff = <<
+segment.09.Viola.Music.Staff = <<
 
     \context Voice = "Viola_Music_Voice"
-    \i_Viola_Music_Voice
+    { \segment.09.Viola.Music.Voice }
 
 >>
 
 
-i_Cello_Music_Voice = {
+segment.09.Cello.Music.Voice = {
 
     % [Cello_Music_Voice measure 220 / measure 1]
     \set Staff.shortInstrumentName = \faberge-vc-markup
@@ -3378,9 +3378,9 @@ i_Cello_Music_Voice = {
 }
 
 
-i_Cello_Music_Staff = <<
+segment.09.Cello.Music.Staff = <<
 
     \context Voice = "Cello_Music_Voice"
-    \i_Cello_Music_Voice
+    { \segment.09.Cello.Music.Voice }
 
 >>
