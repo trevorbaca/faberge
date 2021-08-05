@@ -14,7 +14,7 @@ for page_index in range(page_count):
     start_measure_number = measures_per_page * page_index + 1
     page = baca.page(
         baca.system(
-            *distances,
+            distances,
             measure=start_measure_number,
             y_offset=40,
         ),
