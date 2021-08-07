@@ -18,10 +18,7 @@ for page_index in range(page_count):
     )
     pages.append(page)
 
-breaks = baca.breaks(
-    *pages,
-    local_measure_numbers=True,
-)
+breaks = baca.breaks(*pages)
 
 spacing = baca.scorewide_spacing(
     __file__,
