@@ -25,7 +25,6 @@ for page_index in range(page_count):
 breaks = baca.breaks(*pages)
 
 spacing = baca.spacing(
-    __file__,
     breaks=breaks,
     fallback_duration=(1, 48),
     overrides=(
