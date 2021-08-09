@@ -83,10 +83,9 @@ breaks = baca.breaks(
         baca.system(measure=229, y_offset=y_offset_5, distances=distances),
         baca.system(measure=233, y_offset=y_offset_6, distances=distances),
         baca.system(
-            (10),
             measure=237,
             y_offset=y_offset_7,
-            distances=distances,
+            distances=(10,),
         ),
         baca.system(measure=241, y_offset=y_offset_8, distances=distances),
         number=7,
@@ -114,8 +113,10 @@ spacing = baca.spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 16),
+    overrides=(
+        baca.space((221, 223), (1, 4)),
+    ),
 )
-spacing.override((221, 223), (1, 4)),
 
 if __name__ == "__main__":
     baca.build.make_layout_ly(__file__, breaks, spacing)

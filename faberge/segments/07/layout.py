@@ -12,9 +12,11 @@ spacing = baca.spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 20),
+    overrides=(
+        baca.space(1, (1, 40)),
+        baca.space((2, 4), (1, 24)),
+    ),
 )
-spacing.override(1, (1, 40))
-spacing.override((2, 4), (1, 24))
 
 if __name__ == "__main__":
     baca.build.make_layout_ly(__file__, breaks, spacing)
