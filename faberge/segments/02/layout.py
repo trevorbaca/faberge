@@ -22,11 +22,11 @@ for page_index in range(page_count):
     )
     pages.append(page)
 
-breaks = baca.breaks(*pages)
+spacing = baca.SpacingSpecifier(
+    breaks=baca.breaks(*pages),
+    fallback_duration=(1, 48),
+    overrides=(baca.space(1, (1, 56)),),
+)
 
 if __name__ == "__main__":
-    baca.build.make_layout_ly(
-        breaks,
-        fallback_duration=(1, 48),
-        overrides=(baca.space(1, (1, 56)),),
-    )
+    baca.build.make_layout_ly(spacing)
