@@ -13,6 +13,7 @@ y_offset_8 = 208
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             # baca.system(measure=1, y_offset=57, distances=distances),
             baca.system(measure=1, y_offset=y_offset_3, distances=distances),
             baca.system(measure=9, y_offset=y_offset_4, distances=distances),
@@ -20,9 +21,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=25, y_offset=y_offset_6, distances=distances),
             baca.system(measure=33, y_offset=y_offset_7, distances=distances),
             baca.system(measure=41, y_offset=y_offset_8, distances=distances),
-            number=1,
         ),
         baca.page(
+            2,
             baca.system(measure=49, y_offset=y_offset_1, distances=distances),
             baca.system(measure=57, y_offset=y_offset_2, distances=distances),
             baca.system(measure=65, y_offset=y_offset_3, distances=distances),
@@ -31,9 +32,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=89, y_offset=y_offset_6, distances=distances),
             baca.system(measure=97, y_offset=y_offset_7, distances=distances),
             baca.system(measure=105, y_offset=y_offset_8, distances=distances),
-            number=2,
         ),
         baca.page(
+            3,
             baca.system(measure=113, y_offset=y_offset_1, distances=distances),
             baca.system(measure=121, y_offset=y_offset_2, distances=distances),
             baca.system(measure=129, y_offset=y_offset_3, distances=distances),
@@ -42,9 +43,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=153, y_offset=y_offset_6, distances=distances),
             baca.system(measure=157, y_offset=y_offset_7, distances=distances),
             baca.system(measure=162, y_offset=y_offset_8, distances=distances),
-            number=3,
         ),
         baca.page(
+            4,
             baca.system(measure=167, y_offset=y_offset_1, distances=distances),
             baca.system(measure=171, y_offset=y_offset_2, distances=distances),
             baca.system(measure=175, y_offset=y_offset_3, distances=distances),
@@ -53,9 +54,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=187, y_offset=y_offset_6, distances=distances),
             baca.system(measure=191, y_offset=y_offset_7, distances=distances),
             baca.system(measure=195, y_offset=y_offset_8, distances=distances),
-            number=4,
         ),
         baca.page(
+            5,
             baca.system(measure=199, y_offset=y_offset_1, distances=distances),
             baca.system(measure=203, y_offset=y_offset_2, distances=distances),
             baca.system(measure=207, y_offset=y_offset_3, distances=distances),
@@ -64,9 +65,9 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=219, y_offset=y_offset_6, distances=distances),
             baca.system(measure=223, y_offset=y_offset_7, distances=distances),
             baca.system(measure=226, y_offset=y_offset_8, distances=distances),
-            number=5,
         ),
         baca.page(
+            6,
             baca.system(measure=230, y_offset=y_offset_1, distances=distances),
             baca.system(measure=234, y_offset=y_offset_2, distances=distances),
             baca.system(measure=239, y_offset=y_offset_3, distances=distances),
@@ -75,16 +76,15 @@ spacing = baca.SpacingSpecifier(
             baca.system(measure=250, y_offset=y_offset_6, distances=distances),
             baca.system(measure=255, y_offset=y_offset_7, distances=distances),
             baca.system(measure=259, y_offset=y_offset_8, distances=distances),
-            number=6,
         ),
         baca.page(
+            7,
             baca.system(measure=263, y_offset=y_offset_1, distances=distances),
             baca.system(measure=267, y_offset=y_offset_2, distances=distances),
             baca.system(measure=271, y_offset=y_offset_3, distances=distances),
             baca.system(measure=275, y_offset=y_offset_4, distances=distances),
             baca.system(measure=279, y_offset=y_offset_5, distances=distances),
             baca.system(measure=283, y_offset=y_offset_6, distances=distances),
-            number=7,
         ),
     ),
     fallback_duration=(1, 16),
