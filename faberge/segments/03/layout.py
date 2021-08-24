@@ -18,7 +18,10 @@ for page_index in range(page_count):
     )
     pages.append(page)
 
-spacing = baca.SpacingSpecifier(breaks=baca.breaks(*pages), fallback_duration=(1, 48))
+spacing = baca.make_layout(
+    *pages,
+    fallback_duration=(1, 48),
+)
 
 if __name__ == "__main__":
     baca.build.make_layout_ly(spacing)
