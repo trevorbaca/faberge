@@ -24,7 +24,7 @@ for page_index in range(page_count):
 
 spacing = baca.make_layout(
     *pages,
-    fallback_duration=(1, 48),
+    spacing=(1, 48),
     overrides=(baca.space(1, (1, 56)),),
 )
 
