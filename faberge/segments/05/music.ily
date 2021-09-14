@@ -558,11 +558,6 @@ segment.05.Flute.Music.Voice = {
             %! baca.dls_staff_padding()
             %! baca.OverrideCommand._call(1)
             \override DynamicLineSpanner.staff-padding = 4
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_CLEF
@@ -1371,11 +1366,6 @@ segment.05.Flute.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -1591,11 +1581,6 @@ segment.05.English.Horn.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_CLEF
@@ -1777,11 +1762,6 @@ segment.05.English.Horn.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -1932,11 +1912,6 @@ segment.05.English.Horn.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2053,11 +2028,6 @@ segment.05.English.Horn.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -2258,11 +2228,6 @@ segment.05.Clarinet.Music.Voice = {
             %! baca.dls_staff_padding()
             %! baca.OverrideCommand._call(1)
             \override DynamicLineSpanner.staff-padding = 7
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_CLEF
@@ -3059,11 +3024,6 @@ segment.05.Clarinet.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4203,11 +4163,6 @@ segment.05.Percussion.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -4798,11 +4753,6 @@ segment.05.Violin.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._attach_color_literal(2)
             %! EXPLICIT_STAFF_LINES_COLOR
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
@@ -5406,11 +5356,6 @@ segment.05.Viola.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._attach_color_literal(2)
             %! EXPLICIT_STAFF_LINES_COLOR
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
@@ -6636,11 +6581,6 @@ segment.05.Cello.Music.Voice = {
             %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %@% \abjad-invisible-music
-            %! baca.SegmentMaker._color_not_yet_pitched()
-            %! NOT_YET_PITCHED_COLORING
-            %! HIDDEN
-            %! NOTE
-            \baca-not-yet-pitched-coloring
             %! baca.SegmentMaker._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
