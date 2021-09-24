@@ -37,10 +37,6 @@ time_signatures = maker_.run()
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    activate=[
-        baca.tags.LOCAL_MEASURE_NUMBER,
-        baca.tags.STAGE_NUMBER,
-    ],
     error_on_not_yet_pitched=True,
     do_not_check_wellformedness=True,
     ignore_repeat_pitch_classes=True,
@@ -1737,4 +1733,11 @@ maker(
 )
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+        activate=[
+            baca.tags.LOCAL_MEASURE_NUMBER,
+            baca.tags.STAGE_NUMBER,
+        ],
+    )
