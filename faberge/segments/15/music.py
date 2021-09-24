@@ -15,13 +15,10 @@ stage_markup = (
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    fermata_measure_empty_overrides=[9],
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
     score_template=faberge.ScoreTemplate(),
-    stage_markup=stage_markup,
     time_signatures=[
         (3, 4),
         (4, 4),
@@ -33,7 +30,6 @@ maker = baca.SegmentMaker(
         (8, 4),
         (1, 4),
     ],
-    transpose_score=True,
 )
 
 maker(
@@ -415,4 +411,8 @@ if __name__ == "__main__":
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
+        error_on_not_yet_pitched=True,
+        fermata_measure_empty_overrides=[9],
+        stage_markup=stage_markup,
+        transpose_score=True,
     )

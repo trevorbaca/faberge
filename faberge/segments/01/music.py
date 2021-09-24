@@ -22,14 +22,11 @@ time_signatures = maker_.run()
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
     score_template=faberge.ScoreTemplate(),
-    stage_markup=stage_markup,
     time_signatures=time_signatures,
-    transpose_score=True,
 )
 
 maker(
@@ -208,4 +205,7 @@ if __name__ == "__main__":
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
+        error_on_not_yet_pitched=True,
+        stage_markup=stage_markup,
+        transpose_score=True,
     )
