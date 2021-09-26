@@ -12,7 +12,7 @@ stage_markup = (
     ("[4-4]", 5),
 )
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
