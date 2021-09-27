@@ -20,7 +20,7 @@ maker_ = baca.TimeSignatureMaker(
 )
 time_signatures = maker_.run()
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -29,7 +29,7 @@ maker = baca.CommandAccumulator(
     time_signatures=time_signatures,
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "100",
@@ -37,7 +37,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
@@ -51,7 +51,7 @@ maker(
 
 # fl
 
-maker(
+commands(
     "fl",
     baca.staff_lines(5),
     baca.chunk(
@@ -62,7 +62,7 @@ maker(
 
 # eh
 
-maker(
+commands(
     "eh",
     baca.staff_lines(5),
     baca.chunk(
@@ -71,7 +71,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", 3),
     baca.dls_staff_padding(8.5),
     baca.dynamic(
@@ -92,7 +92,7 @@ maker(
 
 # cl
 
-maker(
+commands(
     "cl",
     baca.staff_lines(5),
     baca.chunk(
@@ -103,7 +103,7 @@ maker(
 
 # rh
 
-maker(
+commands(
     "rh",
     baca.staff_lines(5),
     baca.chunk(
@@ -120,14 +120,14 @@ maker(
 
 # lh
 
-maker(
+commands(
     "lh",
     baca.staff_lines(5),
 )
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.staff_lines(5),
     baca.chunk(
@@ -138,7 +138,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     "vn",
     baca.staff_lines(5),
     baca.dls_staff_padding(4),
@@ -148,7 +148,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 1),
     baca.dynamic('"f"'),
     baca.pitch("E4"),
@@ -162,7 +162,7 @@ maker(
 
 # va
 
-maker(
+commands(
     "va",
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
@@ -172,7 +172,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 1),
     baca.dynamic('"f"'),
     baca.pitch("E4"),
@@ -188,7 +188,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.staff_lines(5),
     baca.chunk(
@@ -199,7 +199,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

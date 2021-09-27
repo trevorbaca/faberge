@@ -12,7 +12,7 @@ stage_markup = (
     ("[5-5]", 5),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -30,7 +30,7 @@ maker = baca.CommandAccumulator(
     ],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.chunk(
         baca.only_parts(
@@ -57,7 +57,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "156",
@@ -75,20 +75,20 @@ maker(
 
 # fl
 
-maker(
+commands(
     "fl",
     baca.staff_lines(1),
 )
 
 # fl, eh, pf
 
-maker(
+commands(
     ["fl", "eh", "rh"],
     baca.dls_staff_padding(7),
     baca.staff_position(0),
 )
 
-maker(
+commands(
     (["fl", "eh", "rh"], (1, 4)),
     baca.dynamic('"ff"'),
     baca.make_repeat_tied_notes(),
@@ -100,14 +100,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["fl", "eh", "rh"], (1, 5)),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
 )
 
-maker(
+commands(
     (["fl", "eh", "rh"], 5),
     baca.repeat_tie(
         baca.selectors.pleaf(0),
@@ -117,14 +117,14 @@ maker(
 
 # eh
 
-maker(
+commands(
     "eh",
     baca.staff_lines(1),
 )
 
 # cl
 
-maker(
+commands(
     "cl",
     baca.dls_staff_padding(6),
     baca.dynamic("p"),
@@ -137,14 +137,14 @@ maker(
 
 # rh
 
-maker(
+commands(
     "rh",
     baca.staff_lines(1),
 )
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.dls_staff_padding(4),
     baca.dynamic("p"),
@@ -165,7 +165,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     "vn",
     baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
@@ -173,21 +173,21 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (1, 7)),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 3)],
     ),
 )
 
-maker(
+commands(
     ("vn", 8),
     baca.make_notes(),
 )
 
 # vn, va, vc
 
-maker(
+commands(
     ["vn", "va", "vc"],
     baca.accent(
         selector=baca.selectors.pheads(),
@@ -195,19 +195,19 @@ maker(
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     (["vn", "va", "vc"], 1),
     baca.dynamic("ff"),
 )
 
-maker(
+commands(
     (["vn", "va", "vc"], 5),
     baca.dynamic("pp"),
 )
 
 # va
 
-maker(
+commands(
     "va",
     baca.pitch("Dqf5"),
     baca.stem_tremolo(
@@ -215,21 +215,21 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 7)),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 1)],
     ),
 )
 
-maker(
+commands(
     ("va", 8),
     baca.make_notes(),
 )
 
 # vc
 
-maker(
+commands(
     "vc",
     baca.pitch("E2"),
     baca.stem_tremolo(
@@ -237,17 +237,17 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 7)),
     faberge.halves_rhythm(),
 )
 
-maker(
+commands(
     ("vc", 8),
     baca.make_notes(),
 )
 
-maker(
+commands(
     ("vc", -1),
     baca.chunk(
         baca.mark(r"\faberge-colophon-markup"),
@@ -260,7 +260,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
