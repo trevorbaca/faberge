@@ -13,7 +13,7 @@ stage_markup = (
     ("[2-3 (3-7) (4-2)]", 5),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -31,7 +31,7 @@ maker = baca.CommandAccumulator(
     ],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.chunk(
         baca.only_parts(
@@ -58,7 +58,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "100",
@@ -80,12 +80,12 @@ maker(
 
 # fl
 
-maker(
+commands(
     "fl",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("fl", (1, 4)),
     baca.material_annotation_spanner(
         "2-2 =|",
@@ -93,7 +93,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", [2, 4]),
     baca.pitches(
         "Ab3 Ab3 Ab3 G3 G3",
@@ -101,7 +101,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", 5),
     baca.material_annotation_spanner(
         "3-7 -|",
@@ -117,7 +117,7 @@ maker(
 
 # fl, cl
 
-maker(
+commands(
     (["fl", "cl"], 2),
     baca.hairpin(
         "o< p >o pp > ppp",
@@ -125,7 +125,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["fl", "cl"], [2, 4]),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -146,7 +146,7 @@ maker(
     faberge.suffixed_colortrill_rhythm(),
 )
 
-maker(
+commands(
     (["fl", "cl"], 4),
     baca.hairpin(
         "o< pp >o ppp > pppp",
@@ -154,7 +154,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["fl", "cl"], 5),
     baca.espressivo(
         baca.selectors.pheads(),
@@ -174,13 +174,13 @@ maker(
 
 # eh
 
-maker(
+commands(
     "eh",
     baca.dls_staff_padding(6),
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("eh", 4),
     baca.dynamic("p"),
     baca.pitch("F5"),
@@ -189,7 +189,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", [4, 5, 8]),
     baca.trill_spanner(
         abjad.tweak(2).bound_details__right__padding,
@@ -197,12 +197,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", (4, 8)),
     baca.trill_spanner_staff_padding(5.5),
 )
 
-maker(
+commands(
     ("eh", 5),
     baca.pitch("F#5"),
     baca.skeleton(
@@ -210,7 +210,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", 8),
     baca.dynamic("f"),
     baca.pitch("G#5"),
@@ -221,7 +221,7 @@ maker(
 
 # cl
 
-maker(
+commands(
     ("cl", (1, 4)),
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -230,7 +230,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", [2, 4]),
     baca.pitches(
         "F3 F3 F3 E3 E3",
@@ -238,7 +238,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", 5),
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -255,7 +255,7 @@ maker(
 
 # rh
 
-maker(
+commands(
     "rh",
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -264,7 +264,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", 1),
     baca.beam(),
     baca.skeleton(
@@ -272,7 +272,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", [1, 5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
@@ -283,7 +283,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", (1, 3)),
     baca.markup(
         r"\baca-sharp-markup",
@@ -293,26 +293,26 @@ maker(
     baca.pitch("<G3 A3 C4>"),
 )
 
-maker(
+commands(
     ("rh", 2),
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
-maker(
+commands(
     ("rh", (2, 3)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("rh", 3),
     baca.skeleton(
         "{ c8 r8 r2. }",
     ),
 )
 
-maker(
+commands(
     ("rh", 5),
     baca.clef("treble"),
     baca.dynamic("f"),
@@ -321,7 +321,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", (5, 8)),
     baca.ottava(
         right_broken=True,
@@ -330,21 +330,21 @@ maker(
     baca.pitch("<G6 A6 B6 C7>"),
 )
 
-maker(
+commands(
     ("rh", 6),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
-maker(
+commands(
     ("rh", 7),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
 )
 
-maker(
+commands(
     ("rh", 8),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
@@ -353,14 +353,14 @@ maker(
 
 # attack
 
-maker(
+commands(
     "attack",
     baca.mmrest_transparent(),
 )
 
 # lh
 
-maker(
+commands(
     ("lh", 1),
     baca.beam(),
     baca.skeleton(
@@ -368,7 +368,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("lh", [1, 5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
@@ -379,31 +379,31 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("lh", (1, 3)),
     baca.pitch("<G3 A3 B3 C4>"),
 )
 
-maker(
+commands(
     ("lh", 2),
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
-maker(
+commands(
     ("lh", (2, 3)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("lh", 3),
     baca.skeleton(
         "{ c8 r8 r2. }",
     ),
 )
 
-maker(
+commands(
     ("lh", [5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
@@ -414,7 +414,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("lh", 5),
     baca.clef("treble"),
     baca.skeleton(
@@ -422,7 +422,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("lh", (5, 8)),
     baca.markup(
         r"\baca-sharp-markup",
@@ -436,21 +436,21 @@ maker(
     baca.pitch("<F6 G6 A6>"),
 )
 
-maker(
+commands(
     ("lh", 6),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
-maker(
+commands(
     ("lh", 7),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
 )
 
-maker(
+commands(
     ("lh", 8),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
@@ -459,12 +459,12 @@ maker(
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("perc", 1),
     baca.skeleton(
         r"{ c4 c4 c4 r1 }",
@@ -472,12 +472,12 @@ maker(
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("perc", [3, 4]),
     faberge.downbeat_attack(),
 )
 
-maker(
+commands(
     ("perc", (3, 4)),
     baca.dynamic("f"),
     baca.markup(
@@ -501,7 +501,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", 5),
     baca.hairpin(
         "o<| mf",
@@ -510,7 +510,7 @@ maker(
     faberge.downbeat_attack(denominator=2),
 )
 
-maker(
+commands(
     ("perc", 5),
     baca.markup(
         r"\baca-bd-superball-markup",
@@ -530,7 +530,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     ("vn", 1),
     baca.dls_staff_padding(4),
     baca.dynamic('"f"'),
@@ -553,7 +553,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 3),
     baca.staff_lines(1),
     baca.dynamic(
@@ -566,7 +566,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (3, 4)),
     baca.beam(),
     baca.material_annotation_spanner(
@@ -578,7 +578,7 @@ maker(
     faberge.clb_staff_positions(),
 )
 
-maker(
+commands(
     ("vn", (3, 7)),
     baca.clb_spanner(
         3,
@@ -589,19 +589,19 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (3, 8)),
     baca.dls_staff_padding(8),
 )
 
-maker(
+commands(
     ("vn", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vn", (5, 7)),
     baca.material_annotation_spanner(
         "4-2 -|",
@@ -616,14 +616,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 8),
     baca.staff_lines(5),
 )
 
 # vn, va
 
-maker(
+commands(
     (
         [
             ("vn", 3),
@@ -636,7 +636,7 @@ maker(
     baca.tuplet_bracket_staff_padding(3.5),
 )
 
-maker(
+commands(
     (["vn", "va"], 7),
     baca.dynamic_text_extra_offset((-4, 0)),
     baca.dynamic_text_x_extent_zero(),
@@ -649,7 +649,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", 1),
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
@@ -673,7 +673,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 3),
     baca.dls_staff_padding(8),
     baca.dynamic(
@@ -687,7 +687,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (3, 4)),
     baca.beam(),
     baca.clb_spanner(
@@ -707,14 +707,14 @@ maker(
     faberge.clb_staff_positions(),
 )
 
-maker(
+commands(
     ("va", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("va", 5),
     baca.breathe(),
     baca.dls_staff_padding(5),
@@ -733,7 +733,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (6, 7)),
     baca.clb_spanner(
         2,
@@ -761,24 +761,24 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (6, 8)),
     baca.dls_staff_padding(8),
 )
 
-maker(
+commands(
     ("va", 8),
     baca.staff_lines(5),
 )
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 3)),
     baca.make_notes(),
 )
 
-maker(
+commands(
     ("vc", (1, 4)),
     baca.flat_glissando(
         "B2",
@@ -791,13 +791,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 4),
     baca.stem_tremolo(),
     faberge.downbeat_attack(),
 )
 
-maker(
+commands(
     ("vc", 5),
     baca.clef("treble"),
     baca.dls_staff_padding(4),
@@ -807,7 +807,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
@@ -821,7 +821,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (5, 8)),
     baca.material_annotation_spanner(
         "2-3 =|",
@@ -830,21 +830,21 @@ maker(
     baca.pitch("F#5"),
 )
 
-maker(
+commands(
     ("vc", 6),
     baca.skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
-maker(
+commands(
     ("vc", 7),
     baca.skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
-maker(
+commands(
     ("vc", 8),
     baca.skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
@@ -853,7 +853,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

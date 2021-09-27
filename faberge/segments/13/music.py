@@ -12,7 +12,7 @@ stage_markup = (
     ("[4-4]", 5),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -30,7 +30,7 @@ maker = baca.CommandAccumulator(
     ],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.chunk(
         baca.only_parts(
@@ -57,7 +57,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "80",
@@ -71,12 +71,12 @@ maker(
 
 # fl
 
-maker(
+commands(
     "fl",
     baca.dls_staff_padding(4),
 )
 
-maker(
+commands(
     ("fl", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -112,24 +112,24 @@ maker(
 
 # eh
 
-maker(
+commands(
     "eh",
     baca.dls_staff_padding(4),
 )
 
-maker(
+commands(
     ("eh", 5),
     baca.skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
-maker(
+commands(
     ("eh", (5, 6)),
     baca.pitch("A#4"),
 )
 
-maker(
+commands(
     ("eh", (5, 8)),
     baca.hairpin(
         "o< mf >o niente",
@@ -147,26 +147,26 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", 6),
     baca.skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
-maker(
+commands(
     ("eh", 7),
     baca.skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
-maker(
+commands(
     ("eh", (7, 8)),
     baca.pitch("B4"),
 )
 
-maker(
+commands(
     ("eh", 8),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -175,7 +175,7 @@ maker(
 
 # cl
 
-maker(
+commands(
     "cl",
     baca.dls_staff_padding(10),
     faberge.bcl_color_fingerings(
@@ -185,7 +185,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
@@ -193,12 +193,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", 3),
     faberge.bcl_color_fingering_rhythm(),
 )
 
-maker(
+commands(
     ("cl", (3, 6)),
     baca.hairpin(
         "pp < p > pp",
@@ -208,7 +208,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", (3, 8)),
     baca.material_annotation_spanner(
         "4-3 / 4-4 =|",
@@ -216,22 +216,22 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("cl", 4),
     faberge.downbeat_attack(denominator=8),
 )
 
-maker(
+commands(
     ("cl", 5),
     faberge.bcl_color_fingering_rhythm(),
 )
 
-maker(
+commands(
     ("cl", 6),
     faberge.downbeat_attack(denominator=8),
 )
 
-maker(
+commands(
     ("cl", (7, 8)),
     baca.hairpin(
         "p < mp > p",
@@ -248,7 +248,7 @@ maker(
 
 # rh
 
-maker(
+commands(
     ("rh", 1),
     baca.note_head_stencil_false(
         selector=baca.selectors.pleaves(),
@@ -261,12 +261,12 @@ maker(
     faberge.tuning_peg_staff_positions(),
 )
 
-maker(
+commands(
     ("rh", 2),
     baca.staff_lines(5),
 )
 
-maker(
+commands(
     ("rh", 3),
     baca.clef("bass"),
     baca.dls_staff_padding(6),
@@ -280,7 +280,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", (3, 4)),
     baca.beam(),
     baca.markup(
@@ -297,14 +297,14 @@ maker(
     baca.pitch("<G3 A3 C4>"),
 )
 
-maker(
+commands(
     ("rh", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("rh", 5),
     baca.staff_lines(3),
     baca.dynamic(
@@ -329,21 +329,21 @@ maker(
     faberge.tuning_peg_staff_positions(),
 )
 
-maker(
+commands(
     ("rh", 6),
     baca.staff_lines(5),
 )
 
 # attack
 
-maker(
+commands(
     "attack",
     baca.mmrest_transparent(),
 )
 
 # lh
 
-maker(
+commands(
     ("lh", 3),
     baca.clef("bass"),
     baca.skeleton(
@@ -351,13 +351,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("lh", (3, 4)),
     baca.beam(),
     baca.pitch("<G3 A3 B3 C4>"),
 )
 
-maker(
+commands(
     ("lh", 4),
     faberge.downbeat_attack(
         denominator=8,
@@ -366,7 +366,7 @@ maker(
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.markup(
         r"\baca-castanets-markup",
@@ -384,12 +384,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", [1, 2, 3, 4, 5, 6]),
     faberge.downbeat_attack(),
 )
 
-maker(
+commands(
     ("perc", (1, 6)),
     baca.dls_staff_padding(4),
     baca.dynamic(
@@ -401,7 +401,7 @@ maker(
     baca.stem_up(),
 )
 
-maker(
+commands(
     ("perc", 7),
     baca.markup(
         r"\baca-woodblock-markup",
@@ -414,7 +414,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", (7, 8)),
     baca.dls_staff_padding(6),
     baca.dynamic(
@@ -425,7 +425,7 @@ maker(
     baca.staff_position(0),
 )
 
-maker(
+commands(
     ("perc", 8),
     baca.skeleton(
         "{ c2. r4 }",
@@ -434,26 +434,26 @@ maker(
 
 # vn
 
-maker(
+commands(
     ("vn", 1),
     faberge.clb_rhythm(
         extra_counts=[2],
     ),
 )
 
-maker(
+commands(
     ("vn", 2),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vn", (1, 2)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("vn", (1, 6)),
     baca.clb_spanner(
         3,
@@ -462,47 +462,47 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 3),
     faberge.clb_rhythm(
         extra_counts=[4],
     ),
 )
 
-maker(
+commands(
     ("vn", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vn", (3, 4)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("vn", 5),
     faberge.clb_rhythm(
         extra_counts=[6],
     ),
 )
 
-maker(
+commands(
     ("vn", 6),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vn", (5, 6)),
     baca.beam(),
 )
 
 # vn, va, vc
 
-maker(
+commands(
     (["vn", "va", "vc"], (1, 6)),
     baca.material_annotation_spanner(
         "4-3 =|",
@@ -516,76 +516,76 @@ maker(
     faberge.clb_staff_positions(),
 )
 
-maker(
+commands(
     (["vn", "va", "vc"], 7),
     baca.staff_lines(5),
 )
 
 # va
 
-maker(
+commands(
     "va",
     baca.dls_staff_padding(5),
 )
 
-maker(
+commands(
     ("va", 1),
     faberge.clb_rhythm(
         extra_counts=[6],
     ),
 )
 
-maker(
+commands(
     ("va", 2),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("va", (1, 2)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("va", 3),
     faberge.clb_rhythm(
         extra_counts=[2],
     ),
 )
 
-maker(
+commands(
     ("va", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("va", (3, 4)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("va", 5),
     faberge.clb_rhythm(
         extra_counts=[4],
     ),
 )
 
-maker(
+commands(
     ("va", 6),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("va", (5, 6)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("va", (7, 8)),
     baca.dynamic(
         "p-sempre",
@@ -606,7 +606,7 @@ maker(
 
 # va, vc
 
-maker(
+commands(
     (["va", "vc"], (1, 6)),
     baca.clb_spanner(
         2,
@@ -617,64 +617,64 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", 1),
     faberge.clb_rhythm(
         extra_counts=[4],
     ),
 )
 
-maker(
+commands(
     ("vc", 2),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 2)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("vc", 3),
     faberge.clb_rhythm(
         extra_counts=[6],
     ),
 )
 
-maker(
+commands(
     ("vc", 4),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vc", (3, 4)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("vc", 5),
     faberge.clb_rhythm(
         extra_counts=[2],
     ),
 )
 
-maker(
+commands(
     ("vc", (5, 6)),
     baca.beam(),
 )
 
-maker(
+commands(
     ("vc", 6),
     faberge.downbeat_attack(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("vc", (7, 8)),
     baca.dls_staff_padding(8),
     baca.note_head_style_harmonic(),
@@ -705,7 +705,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

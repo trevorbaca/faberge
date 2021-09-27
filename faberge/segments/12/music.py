@@ -13,7 +13,7 @@ stage_markup = (
     ("[4-2]", 6),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -32,7 +32,7 @@ maker = baca.CommandAccumulator(
     ],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.chunk(
         baca.only_parts(
@@ -59,7 +59,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark(
         "51",
@@ -77,7 +77,7 @@ maker(
 
 # fl
 
-maker(
+commands(
     ("fl", 1),
     faberge.even_tuplet_rhythm(
         denominator=8,
@@ -85,7 +85,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", (1, 4)),
     baca.material_annotation_spanner(
         "4-1 =|",
@@ -94,7 +94,7 @@ maker(
     baca.pitch("F3"),
 )
 
-maker(
+commands(
     ("fl", 3),
     faberge.even_tuplet_rhythm(
         denominator=8,
@@ -103,12 +103,12 @@ maker(
 
 # fl, cl
 
-maker(
+commands(
     ["fl", "cl"],
     baca.dls_staff_padding(7),
 )
 
-maker(
+commands(
     (["fl", "cl"], 1),
     baca.hairpin(
         "o< mp >o niente",
@@ -117,14 +117,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["fl", "cl"], [1, 3]),
     baca.espressivo(
         selector=baca.selectors.pheads(),
     ),
 )
 
-maker(
+commands(
     (["fl", "cl"], 3),
     baca.hairpin(
         "o< p >o niente",
@@ -137,14 +137,14 @@ maker(
 
 # cl
 
-maker(
+commands(
     ("cl", 1),
     faberge.even_tuplet_rhythm(
         denominator=8,
     ),
 )
 
-maker(
+commands(
     ("cl", (1, 4)),
     baca.material_annotation_spanner(
         "4-1 =|",
@@ -153,7 +153,7 @@ maker(
     baca.pitch("Eb2"),
 )
 
-maker(
+commands(
     ("cl", 3),
     faberge.even_tuplet_rhythm(
         denominator=8,
@@ -163,7 +163,7 @@ maker(
 
 # rh
 
-maker(
+commands(
     ("rh", (1, 3)),
     baca.dls_staff_padding(2.5),
     baca.material_annotation_spanner(
@@ -173,7 +173,7 @@ maker(
     baca.pitch("A3"),
 )
 
-maker(
+commands(
     ("rh", [1, 2, 3]),
     baca.laissez_vibrer(
         selector=baca.selectors.ptails(),
@@ -184,7 +184,7 @@ maker(
     faberge.end_of_cell_attack(denominator=8),
 )
 
-maker(
+commands(
     ("rh", 5),
     baca.accent(
         selector=baca.selectors.pleaf(1),
@@ -208,7 +208,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("rh", (6, 9)),
     baca.staff_lines(3),
     baca.dynamic(
@@ -236,7 +236,7 @@ maker(
 
 # lh
 
-maker(
+commands(
     ("lh", 5),
     baca.accent(
         selector=baca.selectors.pleaf(1),
@@ -259,12 +259,12 @@ maker(
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.dls_staff_padding(6),
 )
 
-maker(
+commands(
     ("perc", 1),
     baca.hairpin(
         "o<| mp",
@@ -272,18 +272,18 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", [1, 3]),
     faberge.downbeat_attack(denominator=4),
 )
 
-maker(
+commands(
     ("perc", (1, 3)),
     baca.staff_position(-1),
     baca.stem_down(),
 )
 
-maker(
+commands(
     ("perc", (1, 4)),
     baca.material_annotation_spanner(
         "4-1 =|",
@@ -291,7 +291,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", 3),
     baca.hairpin(
         "o<| p",
@@ -299,7 +299,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", 5),
     baca.dynamic("p"),
     baca.laissez_vibrer(),
@@ -319,7 +319,7 @@ maker(
     faberge.downbeat_attack(),
 )
 
-maker(
+commands(
     ("perc", (6, 8)),
     # TODO: use staff position instead of pitch
     baca.flat_glissando(
@@ -341,7 +341,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     ("vn", (1, 4)),
     baca.staff_lines(1),
     baca.clb_spanner(
@@ -360,7 +360,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 5),
     baca.accent(
         selector=baca.selectors.pleaf(1),
@@ -383,7 +383,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (6, 9)),
     baca.staff_lines(1),
     baca.clb_spanner(
@@ -409,7 +409,7 @@ maker(
 
 # vn, vc
 
-maker(
+commands(
     (["vn", "vc"], 1),
     baca.hairpin(
         '"pp" < "mf"',
@@ -417,7 +417,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["vn", "vc"], [(1, 4), (6, 9)]),
     baca.staccato(
         selector=baca.selectors.pheads(),
@@ -426,7 +426,7 @@ maker(
     baca.tuplet_bracket_staff_padding(3.5),
 )
 
-maker(
+commands(
     (["vn", "vc"], 5),
     baca.stem_tremolo(
         selector=baca.selectors.pheads(),
@@ -435,7 +435,7 @@ maker(
 
 # va
 
-maker(
+commands(
     ("va", (1, 4)),
     baca.flat_glissando(
         "Eb3",
@@ -448,7 +448,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 5)),
     baca.material_annotation_spanner(
         "A.4 -|",
@@ -460,7 +460,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 5),
     baca.flat_glissando("F3"),
     baca.make_repeat_tied_notes(),
@@ -469,7 +469,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (6, 9)),
     baca.clb_spanner(
         2,
@@ -500,7 +500,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 4)),
     baca.staff_lines(1),
     baca.clef("treble"),
@@ -520,7 +520,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 5),
     baca.accent(
         selector=baca.selectors.pleaf(0),
@@ -543,7 +543,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (6, 9)),
     baca.staff_lines(1),
     baca.dls_staff_padding(9),
@@ -569,7 +569,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,

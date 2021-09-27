@@ -12,7 +12,7 @@ stage_markup = (
     ("[3-3 (A.1) (5-2)]", 5),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
@@ -31,7 +31,7 @@ maker = baca.CommandAccumulator(
     ],
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.chunk(
         baca.only_parts(
@@ -58,18 +58,18 @@ maker(
     ),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("125", baca.selectors.skip(5 - 1)),
     baca.metronome_mark("4:5(4)=4", baca.selectors.skip(5 - 1)),
 )
 
-maker(
+commands(
     "Global_Skips",
     baca.close_volta(baca.selectors.skip(2 - 1)),
 )
 
-maker(
+commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
@@ -79,7 +79,7 @@ maker(
 
 # fl
 
-maker(
+commands(
     ("fl", (1, 2)),
     baca.dls_staff_padding(6),
     baca.pitch("G3"),
@@ -89,7 +89,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", 5),
     baca.hairpin(
         "o< f >o niente",
@@ -101,7 +101,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", (5, 7)),
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -115,7 +115,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", 6),
     baca.hairpin(
         "o< mf >o niente",
@@ -127,7 +127,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("fl", 7),
     baca.hairpin(
         "o< mp >o niente",
@@ -141,7 +141,7 @@ maker(
 
 # fl, cl
 
-maker(
+commands(
     (["fl", "cl"], (1, 2)),
     baca.espressivo(
         selector=baca.selectors.pheads(),
@@ -163,21 +163,21 @@ maker(
 
 # eh
 
-maker(
+commands(
     ("eh", 1),
     baca.skeleton(
         "{ c1 c1 r1 }",
     ),
 )
 
-maker(
+commands(
     ("eh", 2),
     baca.skeleton(
         "{ c2. c2. r1 }",
     ),
 )
 
-maker(
+commands(
     ("eh", (1, 2)),
     baca.dls_staff_padding(4),
     baca.hairpin(
@@ -199,7 +199,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", 4),
     baca.pitch("A#4"),
     baca.skeleton(
@@ -207,7 +207,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("eh", (4, 5)),
     baca.dls_staff_padding(6),
     baca.hairpin(
@@ -226,7 +226,7 @@ maker(
     baca.trill_spanner_staff_padding(5.5),
 )
 
-maker(
+commands(
     ("eh", 5),
     baca.pitch("B4"),
     baca.skeleton(
@@ -236,7 +236,7 @@ maker(
 
 # cl
 
-maker(
+commands(
     ("cl", (1, 2)),
     baca.dls_staff_padding(8),
     baca.pitch("F2"),
@@ -250,13 +250,13 @@ maker(
 
 # perc
 
-maker(
+commands(
     "perc",
     baca.clef("percussion"),
     baca.dls_staff_padding(4),
 )
 
-maker(
+commands(
     ("perc", [1, 2]),
     baca.markup(
         r"\baca-castanets-markup",
@@ -272,7 +272,7 @@ maker(
     faberge.downbeat_attack(denominator=2),
 )
 
-maker(
+commands(
     ("perc", (1, 2)),
     baca.staff_lines(1),
     baca.dynamic("f"),
@@ -285,7 +285,7 @@ maker(
     baca.stem_up(),
 )
 
-maker(
+commands(
     ("perc", 5),
     baca.staff_lines(5),
     baca.clef("treble"),
@@ -310,7 +310,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("perc", 9),
     baca.clef("bass"),
     baca.dynamic("p"),
@@ -333,7 +333,7 @@ maker(
 
 # vn
 
-maker(
+commands(
     "vn",
     baca.material_annotation_spanner(
         "3-2 / 3-3 =|",
@@ -341,7 +341,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 1),
     baca.hairpin(
         "p niente o< p > pp",
@@ -353,7 +353,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", [1, 2, 3, 4, 5, 6, 7, 9]),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -366,13 +366,13 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", (1, 4)),
     baca.dls_staff_padding(4),
     baca.pitch("A#4"),
 )
 
-maker(
+commands(
     ("vn", [(1, 7), 9]),
     baca.quadruple_staccato(
         selector=baca.selectors.plts(([0], 4)),
@@ -382,7 +382,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 2),
     baca.hairpin(
         "mp niente o< mp > pp",
@@ -394,7 +394,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 3),
     baca.hairpin(
         "mf niente o< mf > pp",
@@ -406,7 +406,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 4),
     baca.hairpin(
         "f niente o< f > pp",
@@ -418,38 +418,38 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vn", 5),
     baca.skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("vn", (5, 8)),
     baca.pitch("B4"),
 )
 
-maker(
+commands(
     ("vn", (5, 9)),
     baca.dls_staff_padding(9),
 )
 
-maker(
+commands(
     ("vn", 6),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("vn", 7),
     baca.skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("vn", 9),
     baca.markup(
         r"\baca-seven-e-flat",
@@ -464,7 +464,7 @@ maker(
 
 # vn, va
 
-maker(
+commands(
     (["vn", "va"], [5, 6, 7]),
     baca.hairpin(
         '"ff" niente o< ff > pp',
@@ -473,7 +473,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     (["vn", "va"], 9),
     baca.hairpin(
         "mp niente o< mp > pp",
@@ -484,7 +484,7 @@ maker(
 
 # va
 
-maker(
+commands(
     "va",
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -493,7 +493,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 1),
     baca.chunk(
         baca.quadruple_staccato(
@@ -520,12 +520,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (1, 4)),
     baca.pitch("A#4"),
 )
 
-maker(
+commands(
     ("va", 2),
     baca.chunk(
         baca.quadruple_staccato(
@@ -552,7 +552,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 3),
     baca.chunk(
         baca.quadruple_staccato(
@@ -579,7 +579,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 4),
     baca.chunk(
         baca.quadruple_staccato(
@@ -606,14 +606,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 5),
     baca.skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("va", [5, 6, 7, 9]),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -626,12 +626,12 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", (5, 8)),
     baca.pitch("Aqs4"),
 )
 
-maker(
+commands(
     ("va", (5, 9)),
     baca.markup(
         r"\faberge-eleventh-degree-of-e-markup",
@@ -646,21 +646,21 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("va", 6),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("va", 7),
     baca.skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
-maker(
+commands(
     ("va", 9),
     baca.markup(
         r"\baca-thirteen-e-flat",
@@ -675,7 +675,7 @@ maker(
 
 # vc
 
-maker(
+commands(
     ("vc", (1, 3)),
     baca.clef("bass"),
     baca.hairpin(
@@ -684,7 +684,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (1, 4)),
     baca.dls_staff_padding(5),
     baca.flat_glissando("F2"),
@@ -695,14 +695,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 5),
     baca.skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",
     ),
 )
 
-maker(
+commands(
     ("vc", [5, 6, 7]),
     baca.hairpin(
         "p f >o",
@@ -710,7 +710,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", [5, 6, 7, 9]),
     baca.chunk(
         baca.down_bow(
@@ -732,18 +732,18 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", (5, 7)),
     baca.dls_staff_padding(8),
     baca.tuplet_bracket_down(),
 )
 
-maker(
+commands(
     ("vc", (5, 8)),
     baca.pitch("E2"),
 )
 
-maker(
+commands(
     ("vc", (5, 9)),
     baca.material_annotation_spanner(
         "3-3 =|",
@@ -751,26 +751,26 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("vc", 6),
     baca.skeleton(
         r"{ c2 c1 }",
     ),
 )
 
-maker(
+commands(
     ("vc", 7),
     baca.skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",
     ),
 )
 
-maker(
+commands(
     ("vc", 8),
     baca.dynamic("!"),
 )
 
-maker(
+commands(
     ("vc", 9),
     baca.dls_staff_padding(6),
     baca.dynamic(
@@ -789,7 +789,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
