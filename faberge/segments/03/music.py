@@ -1731,11 +1731,10 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
         **baca.segment_interpretation_defaults(),
-        activate=[
+        activate=(
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
-        ],
-        do_not_check_wellformedness=True,
+        ),
         error_on_not_yet_pitched=True,
         stage_markup=stage_markup,
         transpose_score=True,
