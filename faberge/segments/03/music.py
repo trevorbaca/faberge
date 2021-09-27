@@ -36,7 +36,7 @@ maker_ = baca.TimeSignatureMaker(
 time_signatures = maker_.run()
 
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
@@ -1730,7 +1730,7 @@ commands(
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
