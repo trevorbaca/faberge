@@ -17,7 +17,7 @@ commands = baca.CommandAccumulator(
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
-    score_template=faberge.ScoreTemplate(),
+    score_template=faberge.make_empty_score,
     time_signatures=[
         (4, 4),
         (9, 4),
@@ -28,6 +28,7 @@ commands = baca.CommandAccumulator(
         (5, 4),
         (8, 4),
     ],
+    voice_abbreviations=faberge.voice_abbreviations,
 )
 
 commands(
@@ -688,6 +689,8 @@ if __name__ == "__main__":
             baca.tags.LOCAL_MEASURE_NUMBER,
             baca.tags.STAGE_NUMBER,
         ],
+        always_make_global_rests=True,
+        global_rests_in_topmost_staff=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[3],
         stage_markup=stage_markup,
