@@ -4,9 +4,9 @@ from abjadext import rmakers
 
 from faberge import library as faberge
 
-###############################################################################
-##################################### [A] #####################################
-###############################################################################
+#########################################################################################
+######################################### 02 [A] ########################################
+#########################################################################################
 
 stage_markup = (
     ("[A.1]", 1),
@@ -35,14 +35,17 @@ maker_ = baca.TimeSignatureMaker(
 )
 time_signatures = maker_.run()
 
+score = faberge.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
-    score_template=faberge.make_empty_score,
     time_signatures=time_signatures,
     voice_abbreviations=faberge.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 commands(
@@ -1341,6 +1344,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         global_rests_in_topmost_staff=True,
         error_on_not_yet_pitched=True,
+        score=score,
         stage_markup=stage_markup,
         transpose_score=True,
     )
