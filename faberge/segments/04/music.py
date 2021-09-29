@@ -3,21 +3,23 @@ import baca
 
 from faberge import library as faberge
 
-###############################################################################
-##################################### [C] #####################################
-###############################################################################
+#########################################################################################
+######################################### 04 [C] ########################################
+#########################################################################################
 
 stage_markup = (
     ("[1-1 (2-1)]", 1),
     ("[1-2]", 5),
 )
 
+score = faberge.make_empty_score()
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=faberge.instruments,
     margin_markups=faberge.margin_markups,
     metronome_marks=faberge.metronome_marks,
-    score_template=faberge.make_empty_score,
     time_signatures=[
         (3, 4),
         (5, 4),
@@ -29,6 +31,7 @@ commands = baca.CommandAccumulator(
         (5, 4),
     ],
     voice_abbreviations=faberge.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 commands(
@@ -462,6 +465,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         global_rests_in_topmost_staff=True,
         error_on_not_yet_pitched=True,
+        score=score,
         stage_markup=stage_markup,
         transpose_score=True,
     )
