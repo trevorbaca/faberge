@@ -1,3 +1,5 @@
+import inspect
+
 import abjad
 import baca
 from abjadext import rmakers
@@ -880,8 +882,7 @@ voice_abbreviations = {
 
 
 def make_empty_score():
-    site = "faberge.ScoreTemplate.__call__()"
-    tag = abjad.Tag(site)
+    tag = baca.site(inspect.currentframe())
     # GLOBAL CONTEXT
     global_context = baca.score.make_global_context()
 
