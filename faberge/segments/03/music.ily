@@ -16041,9 +16041,8 @@ segment.03.Piano.LH.Attack.Voice = {
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
     \once \override NoteHead.stencil = #ly:text-interface::print
-    \once \override NoteHead.text = \markup {
-    	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
-    }
+    \once \override NoteHead.text =
+    \markup \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
     <c, e, g, b,>16
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -16060,14 +16059,7 @@ segment.03.Piano.LH.Attack.Voice = {
     %! baca.marcato()
     %! baca.IndicatorCommand._call()
     - \marcato
-    ^ \markup {
-        \center-align
-            \concat
-                {
-                    \natural
-                    \flat
-                }
-        }
+    ^ \markup \center-align \concat { \natural \flat }
 
     %! faberge.piano_attack_rhythm()
     r2
@@ -16186,9 +16178,8 @@ segment.03.Piano.LH.Attack.Voice = {
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
     \once \override NoteHead.stencil = #ly:text-interface::print
-    \once \override NoteHead.text = \markup {
-    	\filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
-    }
+    \once \override NoteHead.text =
+    \markup \filled-box #'(-0.6 . 0.6) #'(-0.7 . 0.7) #0.25
     <c, e, g, b,>16
     %! EXPLICIT_DYNAMIC_COLOR
     %! _treat_persistent_wrapper(1)
@@ -16205,14 +16196,7 @@ segment.03.Piano.LH.Attack.Voice = {
     %! baca.marcato()
     %! baca.IndicatorCommand._call()
     - \marcato
-    ^ \markup {
-        \center-align
-            \concat
-                {
-                    \natural
-                    \flat
-                }
-        }
+    ^ \markup \center-align \concat { \natural \flat }
 
     %! faberge.piano_attack_rhythm()
     r4..
