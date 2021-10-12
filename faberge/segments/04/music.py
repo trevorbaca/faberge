@@ -77,7 +77,6 @@ commands(
         r"\baca-airtone-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -132,7 +131,6 @@ commands(
     baca.markup(
         r"\baca-airtone-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -161,7 +159,6 @@ commands(
     baca.markup(
         r"\baca-airtone-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -212,7 +209,6 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.pitch("<G3 A3 C4>"),
@@ -360,7 +356,6 @@ commands(
         r"\baca-ob-markup",
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",

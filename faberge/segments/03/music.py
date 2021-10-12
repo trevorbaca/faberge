@@ -803,7 +803,6 @@ commands(
     baca.markup(
         r"\baca-doubletrill-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Eb4"),
     baca.repeat_tie_extra_offset(
@@ -871,7 +870,6 @@ commands(
         r"\baca-airtone-markup",
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.staff_position(0),
 )
@@ -893,7 +891,6 @@ commands(
         r"\baca-ratchet-markup",
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.staff_position(0),
     faberge.ratchet_rhythm(),
@@ -1139,7 +1136,6 @@ commands(
         r"\baca-tuning-pegs-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     faberge.clb_rhythm(
         extra_counts=[16, 20, 8],
@@ -1223,7 +1219,6 @@ commands(
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G4"),
@@ -1235,7 +1230,6 @@ commands(
     baca.markup(
         r"\baca-to-marimba-markup",
         abjad.tweak(6).staff_padding,
-        literal=True,
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -1270,7 +1264,6 @@ commands(
     baca.markup(
         r"\baca-marimba-attackless-markup",
         abjad.tweak(6).staff_padding,
-        literal=True,
     ),
 )
 
@@ -1326,7 +1319,6 @@ commands(
         r"\baca-bd-sponge-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(6).staff_padding,
-        literal=True,
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -1344,7 +1336,6 @@ commands(
     baca.markup(
         r"\baca-woodblock-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -1366,7 +1357,6 @@ commands(
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G6"),
@@ -1467,7 +1457,6 @@ commands(
         r"\baca-ob-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.staff_position(0),
 )
@@ -1680,7 +1669,6 @@ commands(
     baca.markup(
         r"\baca-non-vib-markup",
         abjad.tweak(5.5).staff_padding,
-        literal=True,
     ),
     baca.scp_spanner(
         "(tasto) -> PO -> tasto poss.",

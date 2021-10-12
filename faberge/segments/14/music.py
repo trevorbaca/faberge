@@ -91,7 +91,6 @@ commands(
         r"\baca-airtone-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 -|",
@@ -349,7 +348,6 @@ commands(
     baca.markup(
         r"\baca-woodblock-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -448,7 +446,6 @@ commands(
         r"\baca-ob-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-1 -|",
@@ -467,7 +464,6 @@ commands(
     baca.markup(
         r"\baca-woodblock-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",

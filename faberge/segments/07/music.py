@@ -291,7 +291,6 @@ commands(
     ("rh", (1, 3)),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.pitch("<G3 A3 C4>"),
@@ -430,7 +429,6 @@ commands(
     ("lh", (5, 8)),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.ottava(
@@ -488,7 +486,6 @@ commands(
         r"\baca-castanets-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "4-3 -|",
@@ -520,7 +517,6 @@ commands(
         r"\baca-bd-superball-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "3-7 -|",

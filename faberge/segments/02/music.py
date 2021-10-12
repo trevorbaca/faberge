@@ -87,7 +87,6 @@ commands(
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("F#6"),
     faberge.dal_niente_hairpins("f"),
@@ -171,7 +170,6 @@ commands(
     baca.markup(
         r"\baca-to-bass-flute-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -340,7 +338,6 @@ commands(
     baca.markup(
         r"\baca-keynoise-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=0),
@@ -376,7 +373,6 @@ commands(
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("F#6"),
     faberge.dal_niente_hairpins("f"),
@@ -436,7 +432,6 @@ commands(
     baca.markup(
         r"\baca-to-bass-clarinet-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -663,7 +658,6 @@ commands(
         r"\baca-crotales-bowed-markup",
         abjad.tweak((-6, 0)).extra_offset,
         abjad.tweak(6).staff_padding,
-        literal=True,
         selector=baca.selectors.pleaf(0),
     ),
 )
@@ -775,7 +769,6 @@ commands(
     baca.markup(
         r"\baca-castanets-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.skeleton(
         "{ r4 c2 c1 }",
@@ -797,7 +790,6 @@ commands(
         r"\baca-bd-struck-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
         selector=baca.selectors.plt(-1),
     ),
     baca.staff_position(-1),
@@ -818,7 +810,6 @@ commands(
     baca.markup(
         r"\baca-crotales-bowed-markup",
         abjad.tweak(6).staff_padding,
-        literal=True,
     ),
     faberge.dal_niente_hairpins("f"),
 )
@@ -835,7 +826,6 @@ commands(
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("F#6"),
     faberge.dal_niente_hairpins("f"),
@@ -1236,7 +1226,6 @@ commands(
         r"\faberge-poco-vib-sempre-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(5.5).staff_padding,
-        literal=True,
     ),
 )
 
@@ -1297,7 +1286,6 @@ commands(
     baca.markup(
         r"\baca-sub-non-vib-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
 )
 

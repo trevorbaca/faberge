@@ -265,7 +265,6 @@ commands(
     baca.markup(
         r"\baca-castanets-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
         match=0,
     ),
     baca.trill_spanner(
@@ -301,7 +300,6 @@ commands(
     baca.markup(
         r"\baca-crotales-bowed-markup",
         abjad.tweak(6).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
@@ -327,7 +325,6 @@ commands(
         r"\baca-marimba-attackless-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(6).staff_padding,
-        literal=True,
     ),
     baca.skeleton(
         "{ c2 c1 }",
@@ -458,7 +455,6 @@ commands(
     baca.markup(
         r"\baca-seven-e-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Dtqf5"),
     baca.skeleton(
@@ -640,7 +636,6 @@ commands(
     baca.markup(
         r"\faberge-eleventh-degree-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.quadruple_staccato(
         selector=baca.selectors.plts(([0], 4), exclude=baca.const.HIDDEN),
@@ -669,7 +664,6 @@ commands(
     baca.markup(
         r"\baca-thirteen-e-flat",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Bqs4"),
     baca.skeleton(

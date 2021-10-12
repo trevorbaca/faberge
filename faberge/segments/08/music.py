@@ -143,7 +143,6 @@ commands(
         r"\baca-airtone-markup",
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.staff_lines(1),
     baca.staff_lines(
@@ -278,7 +277,6 @@ commands(
     baca.dls_staff_padding(4.5),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
     ),
     baca.pitch("<F6 G6 A6>"),
@@ -386,7 +384,6 @@ commands(
         r"\baca-castanets-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -419,7 +416,6 @@ commands(
         r"\baca-bd-struck-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -431,7 +427,6 @@ commands(
     baca.markup(
         r"\baca-bd-sponge-markup",
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
@@ -458,7 +453,6 @@ commands(
         r"\baca-marimba-attackless-markup",
         abjad.tweak(6).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pheads([0, -1]),
@@ -533,7 +527,6 @@ commands(
     baca.markup(
         r"\baca-ob-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
@@ -736,7 +729,6 @@ commands(
         r"\baca-ob-markup",
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "1-2 -|",

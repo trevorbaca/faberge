@@ -304,7 +304,6 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.ottava(),
@@ -361,7 +360,6 @@ commands(
         r"\baca-bd-struck-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "A.2 -|",
@@ -387,7 +385,6 @@ commands(
         r"\baca-woodblock-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",
