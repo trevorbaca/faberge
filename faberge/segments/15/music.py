@@ -202,7 +202,6 @@ commands(
         r"\baca-woodblock-markup",
         abjad.tweak(8).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -235,7 +234,6 @@ commands(
         r"\baca-crotales-bowed-markup",
         abjad.tweak(6).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
@@ -258,7 +256,6 @@ commands(
         r"\baca-woodblock-markup",
         abjad.tweak(8).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -287,7 +284,6 @@ commands(
     baca.markup(
         r"\faberge-nine-plus-eleven-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("<F#5 Aqs5>"),
 )
@@ -367,7 +363,6 @@ commands(
     baca.markup(
         r"\faberge-seventh-degree-of-e-markup",
         abjad.tweak(1.5).padding,
-        literal=True,
     ),
     baca.pitch("Dqf5"),
 )

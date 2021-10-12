@@ -290,7 +290,6 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.material_annotation_spanner(
@@ -321,7 +320,6 @@ commands(
         r"\baca-tuning-pegs-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.note_head_stencil_false(
         selector=baca.selectors.pleaves(),
@@ -377,7 +375,6 @@ commands(
         r"\baca-castanets-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "4-3 / 4-4 =|",
@@ -412,7 +409,6 @@ commands(
         r"\baca-woodblock-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.skeleton(
         "{ c2. r4 }",

@@ -249,7 +249,6 @@ commands(
         r"\baca-bd-rolled-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
-        literal=True,
     ),
     baca.stem_down(),
     baca.stem_tremolo(

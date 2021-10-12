@@ -328,7 +328,6 @@ commands(
     ),
     baca.markup(
         r"\baca-sharp-markup",
-        literal=True,
         selector=baca.selectors.pheads(),
     ),
     baca.ottava(),
@@ -377,7 +376,6 @@ commands(
         r"\baca-castanets-markup",
         abjad.tweak(10).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "4-5 -|",
@@ -422,7 +420,6 @@ commands(
         r"\baca-bd-superball-markup",
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(10).staff_padding,
-        literal=True,
     ),
     baca.material_annotation_spanner(
         "3-7 =|",
