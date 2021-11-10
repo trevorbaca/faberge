@@ -1,7 +1,6 @@
 % Fabergé Investigations (2016/19) for eight players
 
 \version "2.19.84"
-\language "english"
 
 \include "stylesheet.ily"
 \include "_segments/01.ily"
