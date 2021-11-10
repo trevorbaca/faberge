@@ -1,7 +1,6 @@
 % Fabergé Investigations (2019) cello part
 
 \version "2.19.82"
-\language "english"
 
 \include "../stylesheet.ily"
 \include "stylesheet.ily"
