@@ -33,18 +33,18 @@
         %! faberge.make_empty_score()
         <<
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             \context GlobalContext = "Global_Context"
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             <<
 
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 \context GlobalSkips = "Global_Skips"
-                %! abjad.ScoreTemplate._make_global_context()
+                %! baca.make_global_context()
                 %! baca.path.extern()
                 { \segment.12.Global.Skips }
 
-            %! abjad.ScoreTemplate._make_global_context()
+            %! baca.make_global_context()
             >>
 
             %! faberge.make_empty_score()
@@ -57,7 +57,7 @@
                 %! faberge.make_empty_score()
                 <<
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Flute
                     %! faberge.make_empty_score()
                     \context Staff = "Flute_Music_Staff"
@@ -65,7 +65,7 @@
                     %! baca.path.extern()
                     { \segment.12.Flute.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag EnglishHorn
                     %! faberge.make_empty_score()
                     \context Staff = "English_Horn_Music_Staff"
@@ -73,7 +73,7 @@
                     %! baca.path.extern()
                     { \segment.12.English.Horn.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Clarinet
                     %! faberge.make_empty_score()
                     \context Staff = "Clarinet_Music_Staff"
@@ -89,7 +89,7 @@
                 %! faberge.make_empty_score()
                 <<
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Piano
                     %! faberge.make_empty_score()
                     \context PianoStaff = "Piano_Staff_Group"
@@ -111,7 +111,7 @@
                     %! faberge.make_empty_score()
                     >>
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Percussion
                     %! faberge.make_empty_score()
                     \context Staff = "Percussion_Music_Staff"
@@ -127,7 +127,7 @@
                 %! faberge.make_empty_score()
                 <<
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Violin
                     %! faberge.make_empty_score()
                     \context Staff = "Violin_Music_Staff"
@@ -135,7 +135,7 @@
                     %! baca.path.extern()
                     { \segment.12.Violin.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Viola
                     %! faberge.make_empty_score()
                     \context Staff = "Viola_Music_Staff"
@@ -143,7 +143,7 @@
                     %! baca.path.extern()
                     { \segment.12.Viola.Music.Staff }
 
-                    %! baca.ScoreTemplate._attach_liypond_tag()
+                    %! baca.attach_lilypond_tag()
                     \tag Cello
                     %! faberge.make_empty_score()
                     \context Staff = "Cello_Music_Staff"
