@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 15 [N] ########################################
@@ -13,14 +13,14 @@ stage_markup = (
     ("[5-3]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (3, 4),
         (4, 4),
@@ -32,7 +32,7 @@ commands = baca.CommandAccumulator(
         (8, 4),
         (1, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -147,7 +147,7 @@ commands(
 
 commands(
     ("fl", (1, 4)),
-    faberge.halves_rhythm(),
+    library.halves_rhythm(),
 )
 
 commands(
@@ -175,12 +175,12 @@ commands(
         "F2",
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
-    faberge.bcl_color_fingering_rhythm(
+    library.bcl_color_fingering_rhythm(
         rmakers.force_rest(
             baca.selectors.lts(([6, 7, 12, 17])),
         ),
     ),
-    faberge.bcl_color_fingerings(
+    library.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(4.5).staff_padding,
@@ -208,7 +208,7 @@ commands(
         abjad.tweak(8).staff_padding,
     ),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         extra_counts=[1, 0],
     ),
 )
@@ -241,7 +241,7 @@ commands(
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("E4"),
-    faberge.downbeat_attack(
+    library.downbeat_attack(
         denominator=2,
     ),
 )
@@ -295,7 +295,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    faberge.halves_rhythm(),
+    library.halves_rhythm(),
 )
 
 # vn, va, vc
@@ -355,7 +355,7 @@ commands(
         abjad.tweak(3).staff_padding,
         map=baca.selectors.plts(),
     ),
-    faberge.back_incised_divisions(),
+    library.back_incised_divisions(),
 )
 
 commands(
@@ -394,7 +394,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    faberge.halves_rhythm(),
+    library.halves_rhythm(),
 )
 
 commands(

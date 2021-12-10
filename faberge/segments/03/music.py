@@ -2,7 +2,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 03 [B] ########################################
@@ -29,22 +29,22 @@ stage_markup = (
 )
 
 maker_ = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
+    library.time_signatures_b,
     count=80,
     rotation=0,
 )
 time_signatures = maker_.run()
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -97,7 +97,7 @@ commands(
         measures=8,
     ),
     baca.tuplet_bracket_staff_padding(1),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -131,7 +131,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=0,
     ),
-    faberge.niente_swells("p"),
+    library.niente_swells("p"),
 )
 
 commands(
@@ -140,7 +140,7 @@ commands(
         "G4 G4 G4 G3 G4 G3 G4 G3 G3 G3",
         allow_repeats=True,
     ),
-    faberge.bfl_color_fingerings(
+    library.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(3.5).staff_padding,
     ),
@@ -153,7 +153,7 @@ commands(
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.tleaves(rleak=True),
     ),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -191,7 +191,7 @@ commands(
 
 commands(
     ("fl", (11, 12)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -225,7 +225,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-2,
     ),
-    faberge.niente_swells("mf"),
+    library.niente_swells("mf"),
 )
 
 commands(
@@ -235,7 +235,7 @@ commands(
 
 commands(
     ("fl", (13, 16)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -280,12 +280,12 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    faberge.niente_swells("f"),
+    library.niente_swells("f"),
 )
 
 commands(
     ("fl", (17, 22)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -323,7 +323,7 @@ commands(
 
 commands(
     ("fl", (23, 26)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -357,7 +357,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-5,
     ),
-    faberge.niente_swells("mf"),
+    library.niente_swells("mf"),
 )
 
 commands(
@@ -367,7 +367,7 @@ commands(
 
 commands(
     ("fl", (27, 30)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -401,12 +401,12 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-6,
     ),
-    faberge.niente_swells("mp"),
+    library.niente_swells("mp"),
 )
 
 commands(
     ("fl", (31, 36)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -440,7 +440,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-7,
     ),
-    faberge.niente_swells("mf"),
+    library.niente_swells("mf"),
 )
 
 commands(
@@ -453,7 +453,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -487,12 +487,12 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-8,
     ),
-    faberge.niente_swells("f"),
+    library.niente_swells("f"),
 )
 
 commands(
     ("fl", (45, 48)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -526,7 +526,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-9,
     ),
-    faberge.niente_swells("mf"),
+    library.niente_swells("mf"),
 )
 
 commands(
@@ -535,7 +535,7 @@ commands(
         "p",
         measures=52,
     ),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -569,7 +569,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-10,
     ),
-    faberge.niente_swells("p"),
+    library.niente_swells("p"),
 )
 
 commands(
@@ -579,7 +579,7 @@ commands(
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.tleaves(rleak=True),
     ),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -617,7 +617,7 @@ commands(
 
 commands(
     ("fl", (55, 60)),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -651,7 +651,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-12,
     ),
-    faberge.niente_swells("ppp"),
+    library.niente_swells("ppp"),
 )
 
 commands(
@@ -669,11 +669,11 @@ commands(
         (-1.5, 0),
         selector=baca.selectors.leaves(),
     ),
-    faberge.bfl_color_fingerings(
+    library.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(3.5).staff_padding,
     ),
-    faberge.glow_rhythm(
+    library.glow_rhythm(
         rmakers.force_note(
             baca.selectors.tuplets(~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -707,7 +707,7 @@ commands(
         rmakers.force_rest(baca.selectors.tuplet(-1)),
         tuplet_ratio_rotation=-13,
     ),
-    faberge.niente_swells("ppp"),
+    library.niente_swells("ppp"),
 )
 
 commands(
@@ -726,10 +726,10 @@ commands(
     ("eh", (1, 12)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(
+    library.keynoise_pitches(
         rotation=-1,
     ),
-    faberge.keynoise_rhythm(
+    library.keynoise_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(([0, 4], 9)),
         ),
@@ -758,7 +758,7 @@ commands(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.selectors.runs(),
     ),
-    faberge.eh_trill_rhythm(
+    library.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
     ),
 )
@@ -767,10 +767,10 @@ commands(
     ("eh", (17, 22)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(
+    library.keynoise_pitches(
         rotation=-2,
     ),
-    faberge.keynoise_rhythm(
+    library.keynoise_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(([0, 4], 9)),
         ),
@@ -790,7 +790,7 @@ commands(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.selectors.runs(),
     ),
-    faberge.eh_trill_rhythm(
+    library.eh_trill_rhythm(
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
         rmakers.force_rest(baca.selectors.tuplet(-1)),
     ),
@@ -828,10 +828,10 @@ commands(
     ("eh", (45, 60)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(
+    library.keynoise_pitches(
         rotation=-3,
     ),
-    faberge.keynoise_rhythm(
+    library.keynoise_rhythm(
         rmakers.force_rest(
             baca.selectors.tuplets(([0, 4], 9)),
         ),
@@ -893,7 +893,7 @@ commands(
         abjad.tweak(0).parent_alignment_X,
     ),
     baca.staff_position(0),
-    faberge.ratchet_rhythm(),
+    library.ratchet_rhythm(),
 )
 
 commands(
@@ -927,63 +927,63 @@ commands(
     ("cl", (1, 3)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (4, 6)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (7, 11)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (12, 14)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (15, 16)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (17, 21)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (22, 26)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (27, 29)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (30, 32)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 
@@ -991,35 +991,35 @@ commands(
     ("cl", (33, 37)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (38, 40)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (41, 42)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (43, 47)),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
     ("cl", (48, 52)),
     baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
@@ -1037,7 +1037,7 @@ commands(
         map=baca.selectors.plts_filter_length((">", 2)),
     ),
     baca.flat_glissando("D2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
@@ -1055,7 +1055,7 @@ commands(
         map=baca.selectors.plts_filter_length((">", 2)),
     ),
     baca.flat_glissando("C#2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
@@ -1083,7 +1083,7 @@ commands(
         map=baca.selectors.plts_filter_length((">", 2)),
     ),
     baca.flat_glissando("C2"),
-    faberge.single_taper(),
+    library.single_taper(),
 )
 
 commands(
@@ -1137,7 +1137,7 @@ commands(
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
     ),
-    faberge.clb_rhythm(
+    library.clb_rhythm(
         extra_counts=[16, 20, 8],
         fuse_counts=[2, 3],
     ),
@@ -1151,7 +1151,7 @@ commands(
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
-    faberge.tuning_peg_staff_positions(),
+    library.tuning_peg_staff_positions(),
 )
 
 commands(
@@ -1161,7 +1161,7 @@ commands(
 
 commands(
     ("rh", 80),
-    faberge.downbeat_attack(
+    library.downbeat_attack(
         denominator=8,
     ),
 )
@@ -1175,7 +1175,7 @@ commands(
 
 commands(
     ("attack", (1, 22)),
-    faberge.piano_attack_rhythm(),
+    library.piano_attack_rhythm(),
 )
 
 commands(
@@ -1187,12 +1187,12 @@ commands(
     baca.marcato(
         selector=baca.selectors.pheads(),
     ),
-    faberge.piano_clusters(),
+    library.piano_clusters(),
 )
 
 commands(
     ("attack", (23, 80)),
-    faberge.piano_attack_rhythm(),
+    library.piano_attack_rhythm(),
 )
 
 # lh
@@ -1222,7 +1222,7 @@ commands(
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G4"),
-    faberge.dal_niente_hairpins("ff"),
+    library.dal_niente_hairpins("ff"),
 )
 
 commands(
@@ -1360,7 +1360,7 @@ commands(
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G6"),
-    faberge.dal_niente_hairpins("ff"),
+    library.dal_niente_hairpins("ff"),
 )
 
 commands(
@@ -1377,7 +1377,7 @@ commands(
     ("vn", (9, 22)),
     baca.dynamic('"ff"'),
     baca.pitch("F4"),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=-20,
     ),
     baca.spazzolato_spanner(
@@ -1431,10 +1431,10 @@ commands(
         selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
-    faberge.clb_rhythm(
+    library.clb_rhythm(
         fuse_counts=[2, 2, 1],
     ),
-    faberge.clb_staff_positions(
+    library.clb_staff_positions(
         rotation=-3,
     ),
 )
@@ -1476,10 +1476,10 @@ commands(
         selector=baca.selectors.pheads(),
     ),
     baca.stem_down(),
-    faberge.clb_rhythm(
+    library.clb_rhythm(
         fuse_counts=[2, 2, 1],
     ),
-    faberge.clb_staff_positions(
+    library.clb_staff_positions(
         rotation=-3,
     ),
 )
@@ -1513,7 +1513,7 @@ commands(
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=-21,
         denominator=8,
         extra_counts=[1],
@@ -1560,7 +1560,7 @@ commands(
 
 commands(
     ("va", (53, 79)),
-    faberge.clb_rhythm(
+    library.clb_rhythm(
         fuse_counts=[1, 2, 2],
     ),
 )
@@ -1579,7 +1579,7 @@ commands(
     ),
     baca.staff_lines(1),
     baca.stem_down(),
-    faberge.clb_staff_positions(
+    library.clb_staff_positions(
         rotation=-4,
     ),
 )
@@ -1592,7 +1592,7 @@ commands(
 
 commands(
     ("va", 80),
-    faberge.downbeat_attack(
+    library.downbeat_attack(
         denominator=8,
     ),
 )
@@ -1680,7 +1680,7 @@ commands(
 
 commands(
     ("vc", (61, 79)),
-    faberge.clb_rhythm(
+    library.clb_rhythm(
         fuse_counts=[3],
     ),
 )
@@ -1702,7 +1702,7 @@ commands(
     baca.stem_down(),
     baca.text_script_staff_padding(8),
     baca.tuplet_bracket_staff_padding(3),
-    faberge.clb_staff_positions(
+    library.clb_staff_positions(
         rotation=-5,
     ),
 )
@@ -1714,7 +1714,7 @@ commands(
 
 commands(
     ("vc", 80),
-    faberge.downbeat_attack(
+    library.downbeat_attack(
         denominator=8,
     ),
 )

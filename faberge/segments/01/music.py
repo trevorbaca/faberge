@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 01 [_] ########################################
@@ -13,23 +13,23 @@ stage_markup = (
 )
 
 maker_ = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
+    library.time_signatures_b,
     count=4,
     fermata_measures=[2, 4],
     rotation=0,
 )
 time_signatures = maker_.run()
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -60,7 +60,7 @@ commands(
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-flute-markup"),
-        faberge.margin_markup("Fl."),
+        library.margin_markup("Fl."),
     ),
 )
 
@@ -71,7 +71,7 @@ commands(
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-english-horn-markup"),
-        faberge.margin_markup("Eng. hn."),
+        library.margin_markup("Eng. hn."),
     ),
 )
 
@@ -90,7 +90,7 @@ commands(
     ),
     baca.staff_lines(1),
     baca.staff_position(0),
-    faberge.ratchet_rhythm(),
+    library.ratchet_rhythm(),
 )
 
 # cl
@@ -100,7 +100,7 @@ commands(
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-clarinet-markup"),
-        faberge.margin_markup("Cl."),
+        library.margin_markup("Cl."),
     ),
 )
 
@@ -114,7 +114,7 @@ commands(
             r"\faberge-piano-markup",
             context="PianoStaff",
         ),
-        faberge.margin_markup(
+        library.margin_markup(
             "Pf.",
             context="PianoStaff",
         ),
@@ -135,7 +135,7 @@ commands(
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-percussion-markup"),
-        faberge.margin_markup("Perc."),
+        library.margin_markup("Perc."),
     ),
 )
 
@@ -147,7 +147,7 @@ commands(
     baca.dls_staff_padding(4),
     baca.chunk(
         baca.start_markup(r"\faberge-violin-markup"),
-        faberge.margin_markup("Vn."),
+        library.margin_markup("Vn."),
     ),
 )
 
@@ -158,7 +158,7 @@ commands(
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=0,
     ),
 )
@@ -171,7 +171,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.chunk(
         baca.start_markup(r"\faberge-viola-markup"),
-        faberge.margin_markup("Va."),
+        library.margin_markup("Va."),
     ),
 )
 
@@ -182,7 +182,7 @@ commands(
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
@@ -196,7 +196,7 @@ commands(
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-cello-markup"),
-        faberge.margin_markup("Vc."),
+        library.margin_markup("Vc."),
     ),
 )
 

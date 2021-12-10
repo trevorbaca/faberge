@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 09 [H] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[3-3 (A.1) (5-2)]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (12, 4),
         (10, 4),
@@ -31,7 +31,7 @@ commands = baca.CommandAccumulator(
         (1, 4),
         (6, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -87,7 +87,7 @@ commands(
     ("fl", (1, 2)),
     baca.dls_staff_padding(6),
     baca.pitch("G3"),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[0, 1],
     ),
@@ -244,7 +244,7 @@ commands(
     ("cl", (1, 2)),
     baca.dls_staff_padding(8),
     baca.pitch("F2"),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[1, 0],
     ),
@@ -272,7 +272,7 @@ commands(
         map=baca.selectors.runs(),
         selector=baca.selectors.rleaves(),
     ),
-    faberge.downbeat_attack(denominator=2),
+    library.downbeat_attack(denominator=2),
 )
 
 commands(
@@ -307,7 +307,7 @@ commands(
         abjad.tweak(8).staff_padding,
     ),
     baca.pitch("F#4"),
-    faberge.downbeat_attack(
+    library.downbeat_attack(
         denominator=2,
     ),
 )
