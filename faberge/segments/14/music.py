@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 14 [M] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[5-1]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (4, 4),
         (4, 4),
@@ -30,7 +30,7 @@ commands = baca.CommandAccumulator(
         (4, 4),
         (4, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -99,7 +99,7 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
-    faberge.airtone_chain_rhythm(20, [1, 3, 5]),
+    library.airtone_chain_rhythm(20, [1, 3, 5]),
 )
 
 commands(
@@ -194,7 +194,7 @@ commands(
         "4-5 / 5-1 =|",
         abjad.tweak(5.5).staff_padding,
     ),
-    faberge.bcl_color_fingerings(
+    library.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(5).staff_padding,
@@ -212,12 +212,12 @@ commands(
 
 commands(
     ("cl", [1, 5]),
-    faberge.downbeat_attack(denominator=8),
+    library.downbeat_attack(denominator=8),
 )
 
 commands(
     ("cl", [(2, 4), (6, 8)]),
-    faberge.bcl_color_fingering_rhythm(),
+    library.bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -354,7 +354,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         extra_counts=[1, 0, 0],
     ),
 )
@@ -454,7 +454,7 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
-    faberge.airtone_chain_rhythm(20, [0, 2, 4]),
+    library.airtone_chain_rhythm(20, [0, 2, 4]),
 )
 
 commands(
@@ -470,7 +470,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         extra_counts=[1, 0, 0],
     ),
 )
@@ -493,7 +493,7 @@ commands(
         abjad.tweak(3).staff_padding,
         map=baca.selectors.plts(),
     ),
-    faberge.back_incised_divisions(),
+    library.back_incised_divisions(),
 )
 
 commands(
@@ -548,7 +548,7 @@ commands(
             pieces=baca.selectors.clparts([1]),
         ),
     ),
-    faberge.airtone_chain_rhythm(
+    library.airtone_chain_rhythm(
         20,
         [0, 1, 4, 5, 7, 8],
         do_not_overlap_counts=True,
@@ -576,7 +576,7 @@ commands(
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
-    faberge.halves_rhythm(),
+    library.halves_rhythm(),
 )
 
 if __name__ == "__main__":

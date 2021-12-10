@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 16 [O] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[5-5]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (8, 4),
         (7, 4),
@@ -30,7 +30,7 @@ commands = baca.CommandAccumulator(
         (8, 4),
         (7, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -115,7 +115,7 @@ commands(
     baca.repeat_tie(
         baca.selectors.pleaf(0),
     ),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 # eh
@@ -177,7 +177,7 @@ commands(
 
 commands(
     ("vn", (1, 7)),
-    faberge.halves_rhythm(
+    library.halves_rhythm(
         tuplet_ratios=[(2, 3)],
     ),
 )
@@ -219,7 +219,7 @@ commands(
 
 commands(
     ("va", (1, 7)),
-    faberge.halves_rhythm(
+    library.halves_rhythm(
         tuplet_ratios=[(2, 1)],
     ),
 )
@@ -241,7 +241,7 @@ commands(
 
 commands(
     ("vc", (1, 7)),
-    faberge.halves_rhythm(),
+    library.halves_rhythm(),
 )
 
 commands(

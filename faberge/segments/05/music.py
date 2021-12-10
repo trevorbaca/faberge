@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 05 [D] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[1-4]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (4, 4),
         (4, 4),
@@ -31,7 +31,7 @@ commands = baca.CommandAccumulator(
         (3, 4),
         (1, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -154,7 +154,7 @@ commands(
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.selectors.leaves((None, 3)),
     ),
-    faberge.suffixed_colortrill_rhythm(),
+    library.suffixed_colortrill_rhythm(),
 )
 
 # eh
@@ -218,7 +218,7 @@ commands(
 
 commands(
     ("perc", 1),
-    faberge.even_tuplet_rhythm(),
+    library.even_tuplet_rhythm(),
 )
 
 commands(
@@ -233,7 +233,7 @@ commands(
 
 commands(
     ("perc", 2),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 commands(
@@ -296,7 +296,7 @@ commands(
         '"ff"',
         selector=baca.selectors.rest(0),
     ),
-    faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
+    library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
 )
 
 # vn, va
@@ -347,7 +347,7 @@ commands(
             map=baca.selectors.plts((4, 6)),
         ),
     ),
-    faberge.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
+    library.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
 )
 
 # vc
@@ -404,7 +404,7 @@ commands(
             ),
         ),
     ),
-    faberge.airtone_chain_rhythm(
+    library.airtone_chain_rhythm(
         20,
         [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
         do_not_overlap_counts=True,

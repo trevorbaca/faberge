@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 08 [G] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[3-1]", 6),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (6, 4),
         (1, 4),
@@ -32,7 +32,7 @@ commands = baca.CommandAccumulator(
         (6, 4),
         (5, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -419,7 +419,7 @@ commands(
     ),
     baca.staff_position(-1),
     baca.stem_down(),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 commands(
@@ -436,7 +436,7 @@ commands(
     ),
     baca.staff_position(-1),
     baca.stem_down(),
-    faberge.airtone_chain_rhythm(6, [2, 5]),
+    library.airtone_chain_rhythm(6, [2, 5]),
 )
 
 commands(
@@ -535,7 +535,7 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
-    faberge.airtone_chain_rhythm(6, [1, 4]),
+    library.airtone_chain_rhythm(6, [1, 4]),
 )
 
 commands(
@@ -737,7 +737,7 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staff_position(0),
-    faberge.airtone_chain_rhythm(6, [0, 3]),
+    library.airtone_chain_rhythm(6, [0, 3]),
 )
 
 commands(

@@ -1,7 +1,7 @@
 import abjad
 import baca
 
-from faberge import library as faberge
+from faberge import library
 
 #########################################################################################
 ######################################### 11 [J] ########################################
@@ -12,14 +12,14 @@ stage_markup = (
     ("[3-7 (A.4)]", 5),
 )
 
-score = faberge.make_empty_score()
+score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=faberge.instruments,
-    margin_markups=faberge.margin_markups,
-    metronome_marks=faberge.metronome_marks,
+    instruments=library.instruments,
+    margin_markups=library.margin_markups,
+    metronome_marks=library.metronome_marks,
     time_signatures=[
         (4, 4),
         (3, 4),
@@ -30,7 +30,7 @@ commands = baca.CommandAccumulator(
         (5, 4),
         (5, 4),
     ],
-    voice_abbreviations=faberge.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -105,7 +105,7 @@ commands(
 commands(
     ("fl", (5, 8)),
     baca.pitch("F3"),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         extra_counts=[0, 1, 0, -1],
     ),
 )
@@ -130,7 +130,7 @@ commands(
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.selectors.leaves((None, 3)),
     ),
-    faberge.suffixed_colortrill_rhythm(),
+    library.suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -210,7 +210,7 @@ commands(
 
 commands(
     ("eh", 4),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 # cl
@@ -232,7 +232,7 @@ commands(
     ("cl", (5, 8)),
     baca.dls_staff_padding(8),
     baca.pitch("Eb2"),
-    faberge.even_tuplet_rhythm(
+    library.even_tuplet_rhythm(
         extra_counts=[1, 0, -1, 0],
     ),
 )
@@ -253,7 +253,7 @@ commands(
     baca.stopped(
         selector=baca.selectors.pheads(),
     ),
-    faberge.end_of_cell_attack(
+    library.end_of_cell_attack(
         denominator=8,
     ),
 )
@@ -347,7 +347,7 @@ commands(
 
 commands(
     ("perc", 1),
-    faberge.even_tuplet_rhythm(),
+    library.even_tuplet_rhythm(),
 )
 
 commands(
@@ -361,7 +361,7 @@ commands(
 
 commands(
     ("perc", 2),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 commands(
@@ -402,7 +402,7 @@ commands(
 
 commands(
     ("perc", 4),
-    faberge.downbeat_attack(),
+    library.downbeat_attack(),
 )
 
 commands(
@@ -411,7 +411,7 @@ commands(
         "o<| mf",
         selector=baca.selectors.leaves((None, 2)),
     ),
-    faberge.downbeat_attack(denominator=2),
+    library.downbeat_attack(denominator=2),
 )
 
 commands(
@@ -448,7 +448,7 @@ commands(
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=0,
     ),
 )
@@ -522,7 +522,7 @@ commands(
     baca.spazzolato_spanner(
         abjad.tweak(3).staff_padding,
     ),
-    faberge.spazzolati_rhythm(
+    library.spazzolati_rhythm(
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
@@ -595,7 +595,7 @@ commands(
             pieces=baca.selectors.clparts([1]),
         ),
     ),
-    faberge.airtone_chain_rhythm(
+    library.airtone_chain_rhythm(
         20,
         [1, 2, 3],
         do_not_overlap_counts=True,
