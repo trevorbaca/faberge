@@ -58,28 +58,6 @@
     top-margin = 0\mm
 }
 
-\header {
-    composer = \markup {
-        \override #'(font-name . "Palatino")
-        \fontsize #5
-        \line { Trevor Bača (*1975) }
-    }
-    tagline = \markup { "" }
-    title = \markup \column {
-        \center-align {
-            \override #'(font-name . "Palatino")
-            \fontsize #14 {
-               \line { FABERGÉ \hspace #4 INVESTIGATIONS }
-            }
-            \null
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3 {
-               " for ensemble recherche "
-            }
-        }
-    }
-}
-
 \layout {
     \accidentalStyle neo-modern
     indent = 5
