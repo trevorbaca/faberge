@@ -43,14 +43,6 @@
         "Cello_Music_Staff": [
             baca.Memento(
                 context="Cello_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Vc.",
-            ),
-            baca.Memento(
-                context="Cello_Music_Voice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -81,6 +73,14 @@
                 synthetic_offset=Offset((99, 1)),
                 value=5,
             ),
+            baca.Memento(
+                context="Cello_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Vc.",
+            ),
         ],
         "Cello_Music_Voice": [
             baca.Memento(
@@ -93,14 +93,6 @@
             )
         ],
         "Clarinet_Music_Staff": [
-            baca.Memento(
-                context="Clarinet_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="B. cl.",
-            ),
             baca.Memento(
                 context="Clarinet_Music_Voice",
                 edition=None,
@@ -133,6 +125,14 @@
                 synthetic_offset=Offset((99, 1)),
                 value=5,
             ),
+            baca.Memento(
+                context="Clarinet_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="B. cl.",
+            ),
         ],
         "Clarinet_Music_Voice": [
             baca.Memento(
@@ -145,14 +145,6 @@
             )
         ],
         "English_Horn_Music_Staff": [
-            baca.Memento(
-                context="English_Horn_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Eng. hn.",
-            ),
             baca.Memento(
                 context="English_Horn_Music_Voice",
                 edition=None,
@@ -185,6 +177,14 @@
                 synthetic_offset=Offset((99, 1)),
                 value=5,
             ),
+            baca.Memento(
+                context="English_Horn_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Eng. hn.",
+            ),
         ],
         "English_Horn_Music_Voice": [
             baca.Memento(
@@ -197,14 +197,6 @@
             )
         ],
         "Flute_Music_Staff": [
-            baca.Memento(
-                context="Flute_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="B. fl.",
-            ),
             baca.Memento(
                 context="Flute_Music_Voice",
                 edition=None,
@@ -237,6 +229,14 @@
                 synthetic_offset=Offset((99, 1)),
                 value=5,
             ),
+            baca.Memento(
+                context="Flute_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="B. fl.",
+            ),
         ],
         "Flute_Music_Voice": [
             baca.Memento(
@@ -249,14 +249,6 @@
             )
         ],
         "Percussion_Music_Staff": [
-            baca.Memento(
-                context="Percussion_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Perc.",
-            ),
             baca.Memento(
                 context="Percussion_Music_Voice",
                 edition=None,
@@ -288,6 +280,14 @@
                 prototype="baca.StaffLines",
                 synthetic_offset=Offset((99, 1)),
                 value=1,
+            ),
+            baca.Memento(
+                context="Percussion_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Perc.",
             ),
         ],
         "Percussion_Music_Voice": [
@@ -375,19 +375,19 @@
         "Piano_Staff_Group": [
             baca.Memento(
                 context="Piano_RH_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Pf.",
-            ),
-            baca.Memento(
-                context="Piano_RH_Music_Voice",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
                 value="Piano",
+            ),
+            baca.Memento(
+                context="Piano_RH_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Pf.",
             ),
         ],
         "Score": [
@@ -409,14 +409,6 @@
             ),
         ],
         "Viola_Music_Staff": [
-            baca.Memento(
-                context="Viola_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Va.",
-            ),
             baca.Memento(
                 context="Viola_Music_Voice",
                 edition=None,
@@ -449,6 +441,14 @@
                 synthetic_offset=Offset((99, 1)),
                 value=5,
             ),
+            baca.Memento(
+                context="Viola_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Va.",
+            ),
         ],
         "Viola_Music_Voice": [
             baca.Memento(
@@ -461,14 +461,6 @@
             )
         ],
         "Violin_Music_Staff": [
-            baca.Memento(
-                context="Violin_Music_Voice",
-                edition=Tag("-PARTS"),
-                manifest="margin_markups",
-                prototype=None,
-                synthetic_offset=None,
-                value="Vn.",
-            ),
             baca.Memento(
                 context="Violin_Music_Voice",
                 edition=None,
@@ -500,6 +492,14 @@
                 prototype="baca.StaffLines",
                 synthetic_offset=Offset((99, 1)),
                 value=5,
+            ),
+            baca.Memento(
+                context="Violin_Music_Voice",
+                edition=Tag("-PARTS"),
+                manifest="margin_markups",
+                prototype=None,
+                synthetic_offset=None,
+                value="Vn.",
             ),
         ],
         "Violin_Music_Voice": [
