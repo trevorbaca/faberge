@@ -502,10 +502,18 @@ commands(
         abjad.tweak(8).staff_padding,
     ),
     baca.quadruple_staccato(
-        selector=baca.selectors.plts_filter_duration(("==", (1, 2)), preprolated=True),
+        selector=lambda _: baca.Selection(_)
+        .plts()
+        .filter(
+            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        )
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.plts_filter_duration(("==", (1, 4)), preprolated=True),
+        selector=lambda _: baca.Selection(_)
+        .plts()
+        .filter(
+            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        )
     ),
 )
 

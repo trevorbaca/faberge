@@ -466,7 +466,11 @@ commands(
     ),
     baca.pitch("A#4"),
     baca.quadruple_staccato(
-        selector=baca.selectors.plts_filter_duration(("==", (1, 2)), preprolated=True),
+        selector=lambda _: baca.Selection(_)
+        .plts()
+        .filter(
+            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        )
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -477,7 +481,11 @@ commands(
         selector=baca.selectors.leaves((-3, None)),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.plts_filter_duration(("==", (1, 4)), preprolated=True),
+        selector=lambda _: baca.Selection(_)
+        .plts()
+        .filter(
+            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        )
     ),
     baca.skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
