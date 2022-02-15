@@ -497,10 +497,14 @@ commands(
     ("va", 1),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.selectors.plts_filter_duration(("==", (1, 2))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 2)))
         ),
         baca.stem_tremolo(
-            selector=baca.selectors.plts_filter_duration(("==", (1, 3))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 3)))
         ),
     ),
     baca.hairpin(
@@ -529,10 +533,14 @@ commands(
     ("va", 2),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.selectors.plts_filter_duration(("==", (5, 12))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 12)))
         ),
         baca.stem_tremolo(
-            selector=baca.selectors.plts_filter_duration(("==", (5, 18))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 18)))
         ),
     ),
     baca.hairpin(
@@ -556,10 +564,14 @@ commands(
     ("va", 3),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.selectors.plts_filter_duration(("==", (1, 2))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 2)))
         ),
         baca.stem_tremolo(
-            selector=baca.selectors.plts_filter_duration(("==", (1, 3))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 3)))
         ),
     ),
     baca.hairpin(
@@ -583,10 +595,14 @@ commands(
     ("va", 4),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=baca.selectors.plts_filter_duration(("==", (5, 12))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 12)))
         ),
         baca.stem_tremolo(
-            selector=baca.selectors.plts_filter_duration(("==", (5, 18))),
+            selector=lambda _: baca.Selection(_)
+            .plts()
+            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 18)))
         ),
     ),
     baca.hairpin(
