@@ -554,7 +554,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
             f"({dynamic}) >o niente",
             selector=baca.selectors.rleaves((-2, None)),
         ),
-        map=lambda _: baca.Selection(_).ntruns().filter_length(">", 2),
+        map=lambda _: [x for x in baca.Selection(_).ntruns() if len(x) > 2],
     )
 
 
