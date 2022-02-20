@@ -76,7 +76,7 @@ metronome_marks = dict(
 # time signatures
 
 numerators = baca.Sequence([[4, 6, 6], [4, 7], [3, 4, 6]])
-numerator_groups = numerators.helianthate(-1, 1)
+numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.Sequence(numerator_groups).flatten()
@@ -85,7 +85,7 @@ time_signature_groups = baca.Sequence(time_signatures_a).partition_by_counts(len
 time_signatures_a = time_signature_groups
 
 numerators = baca.Sequence([[3, 4, 4], [2, 3], [2, 3, 4]])
-numerator_groups = numerators.helianthate(-1, 1)
+numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.Sequence(numerator_groups).flatten()
@@ -477,7 +477,7 @@ def keynoise_pitches(*, rotation=None):
     """
     keynoise_pitches_ = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.Sequence(keynoise_pitches_)
-    keynoise_pitches = keynoise_pitches.helianthate(-1, 1)
+    keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
     keynoise_pitches = keynoise_pitches.rotate(n=rotation)
     keynoise_pitches = keynoise_pitches.flatten()
     return baca.pitches(keynoise_pitches)
@@ -700,7 +700,7 @@ def shell_exchange_rhythm(
     assert abjad.math.weight(filtered_counts) == abjad.math.weight(counts)
     counts = filtered_counts
 
-    grouped_counts = baca.Sequence(counts).group_by_sign()
+    grouped_counts = baca.sequence.group_by_sign(counts)
     grouped_rests = []
     for group in grouped_counts:
         if 0 < group[0]:
