@@ -81,7 +81,7 @@ assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = abjad.sequence.flatten(numerator_groups)
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = abjad.Sequence(time_signatures_a).partition_by_counts(lengths)
+time_signature_groups = abjad.sequence.partition_by_counts(time_signatures_a, lengths)
 time_signatures_a = time_signature_groups
 
 numerators = [[3, 4, 4], [2, 3], [2, 3, 4]]
@@ -90,7 +90,7 @@ assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
 numerators = abjad.sequence.flatten(numerator_groups)
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = abjad.Sequence(time_signatures_a).partition_by_counts(lengths)
+time_signature_groups = abjad.sequence.partition_by_counts(time_signatures_a, lengths)
 time_signatures_b = time_signature_groups
 
 # tuplet ratios
@@ -122,7 +122,6 @@ def airtone_chain_rhythm(
 
     assert isinstance(total_events, int), repr(total_events)
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
-    counts = abjad.Sequence(counts)
     counts_ = abjad.CyclicTuple(counts)
 
     for index in my_event_indices:
@@ -248,9 +247,8 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
     if fuse_counts is not None:
 
         def divisions(divisions_):
-            divisions_ = abjad.Sequence(divisions_)
-            divisions_ = divisions_.partition_by_counts(
-                fuse_counts, cyclic=True, overhang=True
+            divisions_ = abjad.sequence.partition_by_counts(
+                divisions_, fuse_counts, cyclic=True, overhang=True
             )
             divisions_ = [sum(_) for _ in divisions_]
             return divisions_
