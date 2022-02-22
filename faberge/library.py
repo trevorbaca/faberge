@@ -79,7 +79,7 @@ numerators = [[4, 6, 6], [4, 7], [3, 4, 6]]
 numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
-numerators = abjad.Sequence(numerator_groups).flatten()
+numerators = abjad.sequence.flatten(numerator_groups)
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_groups = abjad.Sequence(time_signatures_a).partition_by_counts(lengths)
 time_signatures_a = time_signature_groups
@@ -88,7 +88,7 @@ numerators = [[3, 4, 4], [2, 3], [2, 3, 4]]
 numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 18, repr(len(numerator_groups))
 lengths = [len(_) for _ in numerator_groups]
-numerators = abjad.Sequence(numerator_groups).flatten()
+numerators = abjad.sequence.flatten(numerator_groups)
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_groups = abjad.Sequence(time_signatures_a).partition_by_counts(lengths)
 time_signatures_b = time_signature_groups
@@ -201,7 +201,7 @@ def bcl_color_fingering_rhythm(*commands, rotation=None):
     """
 
     counts = [1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3]
-    counts = abjad.Sequence(counts).rotate(n=rotation)
+    counts = abjad.sequence.rotate(counts, n=rotation)
 
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[2]),
@@ -224,7 +224,7 @@ def bcl_color_fingerings(*tweaks, rotation=None):
     """
 
     numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
-    numbers = abjad.Sequence(numbers).rotate(n=rotation)
+    numbers = abjad.sequence.rotate(numbers, n=rotation)
     return baca.color_fingerings(numbers, *tweaks)
 
 
@@ -242,8 +242,7 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
     Makes clb rhythm.
     """
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
-    extra_counts_ = abjad.Sequence(extra_counts)
-    extra_counts_ = extra_counts_.rotate(n=rotation)
+    extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
     divisions = None
 
     if fuse_counts is not None:
@@ -257,7 +256,7 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
             return divisions_
 
     return baca.rhythm(
-        rmakers.talea([1], 8, extra_counts=extra_counts_),
+        rmakers.talea([1], 8, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.denominator((1, 8)),
         rmakers.force_fraction(),
@@ -288,9 +287,8 @@ def clb_staff_positions(*, rotation=None):
         [-1, -1],
         [0, 0],
     ]
-    staff_positions = abjad.Sequence(staff_positions_)
-    staff_positions = staff_positions.rotate(n=rotation)
-    staff_positions = staff_positions.flatten()
+    staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
+    staff_positions = abjad.sequence.flatten(staff_positions)
 
     return baca.staff_positions(staff_positions, allow_repeats=True)
 
@@ -406,8 +404,7 @@ def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
     if tuplet_ratios is None:
         tuplet_ratios = tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
-    tuplet_ratios_ = abjad.Sequence(tuplet_ratios)
-    tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
+    tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
 
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
@@ -482,8 +479,8 @@ def keynoise_pitches(*, rotation=None):
     """
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
-    keynoise_pitches = abjad.Sequence(keynoise_pitches).rotate(n=rotation)
-    keynoise_pitches = keynoise_pitches.flatten()
+    keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
+    keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
     return baca.pitches(keynoise_pitches)
 
 
@@ -502,8 +499,7 @@ def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
         negated_tuplet_ratio = abjad.Ratio(numbers)
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
-    tuplet_ratios_ = abjad.Sequence(tuplet_ratios)
-    tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
+    tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
 
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
@@ -651,9 +647,8 @@ def shell_exchange_rhythm(
         [1, 1, -2],
         [1, 1, 1, -1],
     ]
-    counts = abjad.Sequence(counts_)
-    counts = counts.rotate(n=rotation)
-    counts = counts.flatten()
+    counts = abjad.sequence.rotate(counts_, n=rotation)
+    counts = abjad.sequence.flatten(counts)
 
     if total_parts == 2:
         interaction_series_ = [0, 1]
@@ -722,8 +717,7 @@ def shell_exchange_rhythm(
     counts = grouped_rests
 
     extras_ = [0, 0, -1, 0, 0, -1, -1]
-    extras = abjad.Sequence(extras_)
-    extras = extras.rotate(n=extra_counts_rotation)
+    extras = abjad.sequence.rotate(extras_, n=extra_counts_rotation)
 
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extras),
@@ -793,9 +787,8 @@ def spazzolati_rhythm(
         [1, 1],
         [-2],
     ]
-    counts = abjad.Sequence(counts_)
-    counts = counts.rotate(n=counts_rotation)
-    counts = counts.flatten()
+    counts = abjad.sequence.rotate(counts_, n=counts_rotation)
+    counts = abjad.sequence.flatten(counts)
 
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
@@ -839,15 +832,14 @@ def tuning_peg_staff_positions(*, rotation=None):
     """
     Makes tuning peg staff positions.
     """
-    staff_positions_ = [
+    staff_positions = [
         [-2, -1, 0, 1, 2, 3, 4],
         [0, 1, 2, 3, 4, 5, 6],
         [2, 3, 4, 5, 6, 7, 8],
         [4, 5, 6, 7, 8, 9, 10],
     ]
-    staff_positions = abjad.Sequence(staff_positions_)
-    staff_positions = staff_positions.flatten()
-    staff_positions = staff_positions.rotate(n=rotation)
+    staff_positions = abjad.sequence.flatten(staff_positions)
+    staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
     return baca.staff_positions(staff_positions, allow_repeats=True)
 
 
