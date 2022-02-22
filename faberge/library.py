@@ -253,7 +253,7 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
             divisions_ = divisions_.partition_by_counts(
                 fuse_counts, cyclic=True, overhang=True
             )
-            divisions_ = divisions_.map(lambda _: abjad.Sequence(_).sum())
+            divisions_ = [sum(_) for _ in divisions_]
             return divisions_
 
     return baca.rhythm(
