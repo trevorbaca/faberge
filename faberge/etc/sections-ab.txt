@@ -1,4 +1,4 @@
-SEGMENTS (INTRO & A)
+SECTIONS (INTRO & A)
 ====================
 
 [intro.1]
