@@ -209,7 +209,7 @@ commands(
     ),
     baca.hairpin(
         "(p) >o !",
-        selector=lambda _: baca.Selection(_).tleaves().rleak()[-2:],
+        selector=lambda _: baca.rleak(baca.tleaves(_))[-2:],
     ),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
@@ -1307,7 +1307,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=lambda _: baca.Selection(_).mgroups([9, 10]),
+        pieces=lambda _: baca.mgroups(_, [9, 10]),
         selector=baca.selectors.leaves(),
     ),
 )

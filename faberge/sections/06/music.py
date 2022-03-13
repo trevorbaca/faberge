@@ -102,9 +102,11 @@ commands(
     ("fl", (1, 2)),
     baca.hairpin(
         "o< mf >o",
-        pieces=lambda _: baca.Selection(_)
-        .pleaves()
-        .partition_by_counts([1], cyclic=True),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            baca.pleaves(_),
+            [1],
+            cyclic=True,
+        ),
         selector=baca.selectors.leaves(),
     ),
     baca.material_annotation_spanner(
@@ -502,18 +504,18 @@ commands(
         abjad.tweak(8).staff_padding,
     ),
     baca.quadruple_staccato(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        ],
     ),
     baca.stem_tremolo(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        ],
     ),
 )
 

@@ -116,9 +116,6 @@ def airtone_chain_rhythm(
     do_not_overlap_counts=False,
     prolong_last_count=False,
 ):
-    """
-    Makes airtone chain rhythm.
-    """
 
     assert isinstance(total_events, int), repr(total_events)
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
@@ -183,9 +180,6 @@ def airtone_chain_rhythm(
 
 
 def back_incised_divisions() -> baca.RhythmCommand:
-    """
-    Makes back-incised divisions.
-    """
     return baca.rhythm(
         rmakers.incised(suffix_talea=[-1], suffix_counts=[1], talea_denominator=4),
         rmakers.beam(),
@@ -195,9 +189,6 @@ def back_incised_divisions() -> baca.RhythmCommand:
 
 
 def bcl_color_fingering_rhythm(*commands, rotation=None):
-    """
-    Makes bass clarinet colorfinger rhythm.
-    """
 
     counts = [1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3]
     counts = abjad.sequence.rotate(counts, n=rotation)
@@ -218,9 +209,6 @@ def bcl_color_fingering_rhythm(*commands, rotation=None):
 
 
 def bcl_color_fingerings(*tweaks, rotation=None):
-    """
-    Makes bass clarinet color fingerings.
-    """
 
     numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
     numbers = abjad.sequence.rotate(numbers, n=rotation)
@@ -230,16 +218,10 @@ def bcl_color_fingerings(*tweaks, rotation=None):
 def bfl_color_fingerings(
     *tweaks: abjad.IndexedTweakManager,
 ) -> baca.ColorFingeringCommand:
-    """
-    Makes bass flute color fingerings.
-    """
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
 def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
-    """
-    Makes clb rhythm.
-    """
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
     extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
     divisions = None
@@ -269,9 +251,6 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
 
 
 def clb_staff_positions(*, rotation=None):
-    """
-    Makes clb staff positions.
-    """
 
     staff_positions_ = [
         [-1, -1, -1, -1, -1, -1],
@@ -292,9 +271,6 @@ def clb_staff_positions(*, rotation=None):
 
 
 def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
-    """
-    Makes dal niente hairpins.
-    """
     return baca.hairpin(
         f"niente o< {stop}",
         map=baca.selectors.runs(),
@@ -303,9 +279,6 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
 
 
 def downbeat_attack(*, count=1, denominator=4):
-    """
-    Makes downbeat attack.
-    """
     return baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(baca.selectors.tuplets((1, None))),
@@ -321,9 +294,6 @@ def downbeat_attack(*, count=1, denominator=4):
 
 
 def eh_trill_rhythm(counts, *commands, division_fuse_counts=None, extra_counts=None):
-    """
-    Makes English horn trill rhythm.
-    """
     counts = list(counts) + [-1000]
 
     return baca.rhythm(
@@ -339,9 +309,6 @@ def eh_trill_rhythm(counts, *commands, division_fuse_counts=None, extra_counts=N
 
 
 def end_of_cell_attack(*, denominator=4):
-    """
-    Makes end-of-cell attack.
-    """
     return baca.rhythm(
         rmakers.incised(
             fill_with_rests=True,
@@ -356,9 +323,6 @@ def end_of_cell_attack(*, denominator=4):
 
 
 def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
-    """
-    Makes even tuplet rhythm.
-    """
     assert denominator in (2, 4, 8), repr(denominator)
 
     return baca.rhythm(
@@ -375,9 +339,6 @@ def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
 
 
 def front_incised_divisions(*commands, start_rest_durations=()):
-    """
-    Makes front-incised divisions.
-    """
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
     lcm = abjad.math.least_common_multiple(*denominators)
@@ -396,9 +357,6 @@ def front_incised_divisions(*commands, start_rest_durations=()):
 
 
 def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
-    """
-    Makes glow rhythm.
-    """
     if tuplet_ratios is None:
         tuplet_ratios = tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
@@ -426,9 +384,6 @@ def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
 
 
 def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
-    """
-    Makes halves rhythm.
-    """
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam(),
@@ -443,9 +398,6 @@ def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
 
 
 def increasing_dal_niente_hairpins() -> baca.Suite:
-    """
-    Makes increasing dal niente hairpins.
-    """
 
     return baca.chunk(
         baca.hairpin(
@@ -472,9 +424,6 @@ def increasing_dal_niente_hairpins() -> baca.Suite:
 
 
 def keynoise_pitches(*, rotation=None):
-    """
-    Makes keynoise pitches.
-    """
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
     keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
@@ -483,9 +432,6 @@ def keynoise_pitches(*, rotation=None):
 
 
 def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
-    """
-    Makes keynoise rhythm.
-    """
     if tuplet_ratios is None:
         tuplet_ratios = tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
@@ -524,9 +470,6 @@ def margin_markup(
     context="Staff",
     selector=baca.selectors.leaf(0),
 ):
-    """
-    Makes tagged margin markup indicator command.
-    """
 
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
@@ -539,9 +482,6 @@ def margin_markup(
 
 
 def niente_swells(dynamic: str) -> baca.Suite:
-    """
-    Makes niente swells.
-    """
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
@@ -557,14 +497,11 @@ def niente_swells(dynamic: str) -> baca.Suite:
             f"({dynamic}) >o niente",
             selector=baca.selectors.rleaves((-2, None)),
         ),
-        map=lambda _: [x for x in baca.Selection(_).ntruns() if len(x) > 2],
+        map=lambda _: [x for x in baca.ntruns(_) if 2 < len(x)],
     )
 
 
 def piano_attack_rhythm() -> baca.RhythmCommand:
-    """
-    Makes piano attack rhythm.
-    """
     return baca.rhythm(
         rmakers.incised(
             fill_with_rests=True,
@@ -580,16 +517,10 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
 
 
 def piano_clusters() -> baca.ClusterCommand:
-    """
-    Makes piano clusters.
-    """
     return baca.clusters([4], start_pitch="C2")
 
 
 def ratchet_rhythm() -> baca.RhythmCommand:
-    """
-    Makes ratchet rhythm.
-    """
     return baca.rhythm(
         rmakers.accelerando([(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]),
         rmakers.duration_bracket(),
@@ -605,9 +536,6 @@ def shell_exchange_rhythm(
     extra_counts_rotation=None,
     rotation=None,
 ):
-    """
-    Makes shell exchange rhythm.
-    """
 
     assert total_parts in (2, 3, 4), repr(total_parts)
     if isinstance(this_part, int):
@@ -729,9 +657,6 @@ def shell_exchange_rhythm(
 
 
 def single_swell(dynamic: str) -> baca.Suite:
-    """
-    Makes single swell.
-    """
     return baca.chunk(
         baca.hairpin(
             f"niente o< {dynamic}",
@@ -745,9 +670,6 @@ def single_swell(dynamic: str) -> baca.Suite:
 
 
 def single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
-    """
-    Makes single taper.
-    """
     return baca.rhythm(
         rmakers.incised(
             outer_divisions_only=True,
@@ -770,9 +692,6 @@ def spazzolati_rhythm(
     denominator=16,
     extra_counts=None,
 ):
-    """
-    Makes spazzolati rhythm.
-    """
     counts_ = [
         [1, 1, 1],
         [-2],
@@ -806,9 +725,6 @@ def spazzolati_rhythm(
 
 
 def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
-    """
-    Makes suffixed colortrill rhtyhm.
-    """
     return baca.rhythm(
         rmakers.incised(
             extra_counts=[1],
@@ -827,9 +743,6 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
 
 
 def tuning_peg_staff_positions(*, rotation=None):
-    """
-    Makes tuning peg staff positions.
-    """
     staff_positions = [
         [-2, -1, 0, 1, 2, 3, 4],
         [0, 1, 2, 3, 4, 5, 6],

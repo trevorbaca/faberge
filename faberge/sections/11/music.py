@@ -165,9 +165,9 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
-        pieces=lambda _: baca.Selection(_)
-        .leaves()
-        .partition_by_counts([2], overhang=True),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            abjad.select.leaves(_), [2], overhang=True
+        ),
         selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
@@ -466,11 +466,11 @@ commands(
     ),
     baca.pitch("A#4"),
     baca.quadruple_staccato(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        ],
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -481,11 +481,11 @@ commands(
         selector=baca.selectors.leaves((-3, None)),
     ),
     baca.stem_tremolo(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        ],
     ),
     baca.skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",

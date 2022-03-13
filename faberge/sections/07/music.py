@@ -169,9 +169,9 @@ commands(
     ),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=lambda _: baca.Selection(_)
-        .leaves()
-        .partition_by_counts([2], overhang=True),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            abjad.select.leaves(_), [2], overhang=True
+        ),
         selector=baca.selectors.rleaves(),
     ),
 )
