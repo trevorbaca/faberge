@@ -153,9 +153,9 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         map=baca.selectors.cmgroups(),
-        pieces=lambda _: baca.Selection(_)
-        .leaves()
-        .partition_by_counts([2], overhang=True),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            abjad.select.leaves(_), [2], overhang=True
+        ),
         selector=baca.selectors.rleaves(),
     ),
     baca.material_annotation_spanner(
@@ -186,7 +186,9 @@ commands(
     baca.dls_staff_padding(4),
     baca.hairpin(
         "o< mf >o niente",
-        map=lambda _: baca.Selection(_).pleaves().partition_by_counts([2], cyclic=True),
+        map=lambda _: abjad.select.partition_by_counts(
+            baca.pleaves(_), [2], overhang=True
+        ),
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -497,14 +499,18 @@ commands(
     ("va", 1),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 2)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 2))
+            ],
         ),
         baca.stem_tremolo(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 3)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 3))
+            ],
         ),
     ),
     baca.hairpin(
@@ -533,14 +539,18 @@ commands(
     ("va", 2),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 12)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 12))
+            ],
         ),
         baca.stem_tremolo(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 18)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 18))
+            ],
         ),
     ),
     baca.hairpin(
@@ -564,14 +574,18 @@ commands(
     ("va", 3),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 2)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 2))
+            ],
         ),
         baca.stem_tremolo(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 3)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 3))
+            ],
         ),
     ),
     baca.hairpin(
@@ -595,14 +609,18 @@ commands(
     ("va", 4),
     baca.chunk(
         baca.quadruple_staccato(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 12)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 12))
+            ],
         ),
         baca.stem_tremolo(
-            selector=lambda _: baca.Selection(_)
-            .plts()
-            .filter(lambda _: abjad.get.duration(_) == abjad.Duration((5, 18)))
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 18))
+            ],
         ),
     ),
     baca.hairpin(

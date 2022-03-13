@@ -919,7 +919,7 @@ commands(
             "(p) >o",
             selector=baca.selectors.tleaves((-1, None)),
         ),
-        map=lambda _: [x for x in baca.Selection(_).plts() if len(x) > 2],
+        map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
 )
 
@@ -1032,9 +1032,9 @@ commands(
         ),
         baca.hairpin(
             "(pp) >o !",
-            selector=lambda _: baca.Selection(_).rleak()[-2:],
+            selector=lambda _: baca.rleak(_)[-2:],
         ),
-        map=lambda _: [x for x in baca.Selection(_).plts() if len(x) > 2],
+        map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("D2"),
     library.single_taper(),
@@ -1050,9 +1050,9 @@ commands(
         ),
         baca.hairpin(
             "(pp) >o !",
-            selector=lambda _: baca.Selection(_).rleak()[-2:],
+            selector=lambda _: baca.rleak(_)[-2:],
         ),
-        map=lambda _: [x for x in baca.Selection(_).plts() if len(x) > 2],
+        map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("C#2"),
     library.single_taper(),
@@ -1078,9 +1078,9 @@ commands(
         ),
         baca.hairpin(
             "(ppp) >o !",
-            selector=lambda _: baca.Selection(_).rleak()[-2:],
+            selector=lambda _: baca.rleak(_)[-2:],
         ),
-        map=lambda _: [x for x in baca.Selection(_).plts() if len(x) > 2],
+        map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("C2"),
     library.single_taper(),
@@ -1257,9 +1257,7 @@ commands(
     baca.hairpin(
         "ppp < pp >",
         bookend=False,
-        pieces=lambda _: baca.Selection(_).mgroups(
-            [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]
-        ),
+        pieces=lambda _: baca.mgroups(_, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
     ),
     baca.markup(
         r"\baca-marimba-attackless-markup",
@@ -1283,7 +1281,7 @@ commands(
     ("perc", (53, 60)),
     baca.hairpin(
         "ppp < pp >o niente",
-        pieces=lambda _: baca.Selection(_).mgroups([2, 6 + 1]),
+        pieces=lambda _: baca.mgroups(_, [2, 6 + 1]),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -1663,7 +1661,7 @@ commands(
     baca.interpolate_pitches("Eb2", "C2"),
     baca.hairpin(
         "(p) < ff >o",
-        pieces=lambda _: baca.Selection(_).mgroups([12, 12]),
+        pieces=lambda _: baca.mgroups(_, [12, 12]),
     ),
     baca.make_repeated_duration_notes([(1, 4)]),
     baca.markup(
@@ -1674,7 +1672,7 @@ commands(
         "(tasto) -> PO -> tasto poss.",
         abjad.tweak(3).staff_padding,
         bookend=-1,
-        pieces=lambda _: baca.Selection(_).mgroups([12, 12]),
+        pieces=lambda _: baca.mgroups(_, [12, 12]),
     ),
 )
 

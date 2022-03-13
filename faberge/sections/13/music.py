@@ -208,7 +208,7 @@ commands(
     baca.hairpin(
         "pp < p > pp",
         map=baca.selectors.runs(),
-        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
 )
@@ -241,7 +241,7 @@ commands(
     baca.hairpin(
         "p < mp > p",
         map=baca.selectors.runs(),
-        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((1, 1)),
+        pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
         selector=baca.selectors.tleaves((None, -1)),
     ),
     baca.pitch(

@@ -102,9 +102,9 @@ commands(
     ("fl", (1, 4)),
     baca.hairpin(
         "o< f >o",
-        pieces=lambda _: baca.Selection(_)
-        .pleaves()
-        .partition_by_counts([1], cyclic=True),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            baca.pleaves(_), [1], cyclic=True
+        ),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -165,7 +165,7 @@ commands(
     baca.hairpin(
         "pp < p > pp",
         map=baca.selectors.runs(),
-        pieces=lambda _: baca.Selection(_).plts().partition_by_ratio((2, 3)),
+        pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
     ),
     baca.material_annotation_spanner(
         "5-2 =|",

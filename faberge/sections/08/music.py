@@ -597,25 +597,25 @@ commands(
 commands(
     (["vn", "va"], [6, (8, 10)]),
     baca.stem_tremolo(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        ],
     ),
     baca.quadruple_staccato(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        ],
     ),
     baca.stem_tremolo(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(
-            lambda _: abjad.get.duration(_, preprolated=True) == abjad.Duration((3, 4))
-        )
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((3, 4))
+        ],
     ),
 )
 

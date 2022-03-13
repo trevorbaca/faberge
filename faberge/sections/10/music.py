@@ -542,14 +542,14 @@ commands(
 commands(
     (["vn", "va"], [(1, 4), (6, 8)]),
     baca.quadruple_staccato(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(lambda _: abjad.get.duration(_) >= abjad.Duration((1, 2)))
+        selector=lambda x: [
+            _ for _ in baca.plts(x) if abjad.get.duration(_) >= abjad.Duration((1, 2))
+        ],
     ),
     baca.stem_tremolo(
-        selector=lambda _: baca.Selection(_)
-        .plts()
-        .filter(lambda _: abjad.get.duration(_) == abjad.Duration((1, 3)))
+        selector=lambda x: [
+            _ for _ in baca.plts(x) if abjad.get.duration(_) == abjad.Duration((1, 3))
+        ],
     ),
 )
 
