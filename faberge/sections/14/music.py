@@ -195,7 +195,7 @@ commands(
         abjad.tweak(5.5).staff_padding,
     ),
     library.bcl_color_fingerings(
-        abjad.tweak(abjad.Down).direction,
+        abjad.tweak(abjad.DOWN).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(5).staff_padding,
         rotation=-16,
