@@ -831,7 +831,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, english_horn_music_staff)
     abjad.annotate(
@@ -854,7 +854,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, clarinet_music_staff)
     abjad.annotate(
@@ -877,7 +877,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, piano_rh_music_staff)
     abjad.annotate(piano_rh_music_staff, "default_clef", abjad.Clef("treble"))
@@ -915,7 +915,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, percussion_music_staff)
     abjad.annotate(
@@ -938,7 +938,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, violin_music_staff)
     abjad.annotate(
@@ -961,7 +961,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, viola_music_staff)
     abjad.annotate(
@@ -984,7 +984,7 @@ def make_empty_score():
     #            [ r'\context GlobalRests = "Global_Rests"',
     #            r'\X_Global_Rests',
     #            ],
-    #            format_slot='opening',
+    #            site='opening',
     #            )
     #        abjad.attach(literal, cello_music_staff)
     abjad.annotate(
