@@ -215,9 +215,7 @@ def bcl_color_fingerings(*tweaks, rotation=None):
     return baca.color_fingerings(numbers, *tweaks)
 
 
-def bfl_color_fingerings(
-    *tweaks: abjad.IndexedTweakManager,
-) -> baca.ColorFingeringCommand:
+def bfl_color_fingerings(*tweaks) -> baca.ColorFingeringCommand:
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
