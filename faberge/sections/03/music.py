@@ -55,21 +55,21 @@ commands(
             baca.rehearsal_mark(
                 "B",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "B",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "B",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -802,7 +802,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-doubletrill-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Eb4"),
     baca.repeat_tie_extra_offset(
@@ -868,8 +868,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_position(0),
 )
@@ -889,8 +890,9 @@ commands(
     ),
     baca.markup(
         r"\baca-ratchet-markup",
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_position(0),
     library.ratchet_rhythm(),
@@ -1134,8 +1136,8 @@ commands(
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     library.clb_rhythm(
         extra_counts=[16, 20, 8],
@@ -1218,7 +1220,7 @@ commands(
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r"\baca-lv-possibile-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G4"),
@@ -1229,7 +1231,7 @@ commands(
     ("percr", 2),
     baca.markup(
         r"\baca-to-marimba-markup",
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 6"),
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -1261,7 +1263,7 @@ commands(
     ),
     baca.markup(
         r"\baca-marimba-attackless-markup",
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
 )
 
@@ -1315,8 +1317,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-bd-sponge-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -1333,7 +1335,7 @@ commands(
     baca.dynamic("f"),
     baca.markup(
         r"\baca-woodblock-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -1354,7 +1356,7 @@ commands(
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r"\baca-lv-possibile-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         selector=baca.selectors.ptail(0),
     ),
     baca.pitch("G6"),
@@ -1453,8 +1455,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-ob-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_position(0),
 )
@@ -1666,7 +1668,7 @@ commands(
     baca.make_repeated_duration_notes([(1, 4)]),
     baca.markup(
         r"\baca-non-vib-markup",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.scp_spanner(
         "(tasto) -> PO -> tasto poss.",

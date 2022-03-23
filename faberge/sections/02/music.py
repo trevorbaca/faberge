@@ -55,21 +55,21 @@ commands(
             baca.rehearsal_mark(
                 "A",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "A",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 6)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "A",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -86,7 +86,7 @@ commands(
     ("fl", (1, 12)),
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
@@ -169,7 +169,7 @@ commands(
     ("flr", 57),
     baca.markup(
         r"\baca-to-bass-flute-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -337,7 +337,7 @@ commands(
     baca.dynamic('"ff"'),
     baca.markup(
         r"\baca-keynoise-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.note_head_style_cross(),
     library.keynoise_pitches(rotation=0),
@@ -372,7 +372,7 @@ commands(
     ("cl", (1, 12)),
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
@@ -431,7 +431,7 @@ commands(
     ("clr", 41),
     baca.markup(
         r"\baca-to-bass-clarinet-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         selector=baca.selectors.mmrest(0),
     ),
 )
@@ -656,8 +656,8 @@ commands(
     ),
     baca.markup(
         r"\baca-crotales-bowed-markup",
-        abjad.tweak((-6, 0)).extra_offset,
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak extra-offset #'(-6 . 0)"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
         selector=baca.selectors.pleaf(0),
     ),
 )
@@ -768,7 +768,7 @@ commands(
     baca.dynamic("ff"),
     baca.markup(
         r"\baca-castanets-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.skeleton(
         "{ r4 c2 c1 }",
@@ -788,8 +788,8 @@ commands(
     baca.laissez_vibrer(),
     baca.markup(
         r"\baca-bd-struck-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.plt(-1),
     ),
     baca.staff_position(-1),
@@ -809,7 +809,7 @@ commands(
     baca.pitch("F#4"),
     baca.markup(
         r"\baca-crotales-bowed-markup",
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     library.dal_niente_hairpins("f"),
 )
@@ -825,7 +825,7 @@ commands(
     ("vn", (1, 12)),
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
@@ -1224,8 +1224,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\faberge-poco-vib-sempre-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -1285,7 +1285,7 @@ commands(
     ),
     baca.markup(
         r"\baca-sub-non-vib-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
 )
 

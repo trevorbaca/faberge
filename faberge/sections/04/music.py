@@ -41,21 +41,21 @@ commands(
             baca.rehearsal_mark(
                 "C",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "C",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "C",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -75,8 +75,8 @@ commands(
     "fl",
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -130,7 +130,7 @@ commands(
     "eh",
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -158,7 +158,7 @@ commands(
     "cl",
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -354,8 +354,8 @@ commands(
     baca.dls_staff_padding(6),
     baca.markup(
         r"\baca-ob-markup",
-        abjad.tweak(1.5).padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",

@@ -41,21 +41,21 @@ commands(
             baca.rehearsal_mark(
                 "O",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "O",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "O",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -98,8 +98,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-very-small-maraca-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
 )
 
@@ -160,8 +160,8 @@ commands(
     baca.make_notes(),
     baca.markup(
         r"\baca-bd-sponge-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
 )
 

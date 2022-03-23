@@ -43,21 +43,21 @@ commands(
             baca.rehearsal_mark(
                 "N",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "N",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "N",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -200,8 +200,8 @@ commands(
     baca.dls_staff_padding(8),
     baca.markup(
         r"\baca-woodblock-markup",
-        abjad.tweak(8).staff_padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -232,8 +232,8 @@ commands(
     baca.laissez_vibrer(),
     baca.markup(
         r"\baca-crotales-bowed-markup",
-        abjad.tweak(6).staff_padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
@@ -254,8 +254,8 @@ commands(
     baca.dynamic("f"),
     baca.markup(
         r"\baca-woodblock-markup",
-        abjad.tweak(8).staff_padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "MM =|",
@@ -283,7 +283,7 @@ commands(
     ("vn", (5, 8)),
     baca.markup(
         r"\faberge-nine-plus-eleven-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F#5 Aqs5>"),
 )
@@ -362,7 +362,7 @@ commands(
     ("va", (5, 8)),
     baca.markup(
         r"\faberge-seventh-degree-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Dqf5"),
 )
