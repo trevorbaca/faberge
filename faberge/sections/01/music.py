@@ -85,8 +85,8 @@ commands(
     ),
     baca.markup(
         r"\baca-ratchet-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.staff_lines(1),
     baca.staff_position(0),

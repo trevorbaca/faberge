@@ -42,21 +42,21 @@ commands(
             baca.rehearsal_mark(
                 "F",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "F",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "F",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -162,10 +162,11 @@ commands(
     (["fl", "cl"], 5),
     baca.espressivo(
         baca.selectors.pheads(),
-        abjad.tweak(
-            (0, 0),
-            tag=baca.tags.NOT_PARTS,
-        ).X_extent,
+        #        abjad.tweak(
+        #            (0, 0),
+        #            tag=baca.tags.NOT_PARTS,
+        #        ).X_extent,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)", tag=baca.tags.NOT_PARTS),
     ),
     baca.hairpin(
         "o< mp >o niente",
@@ -484,8 +485,8 @@ commands(
     baca.dynamic("f"),
     baca.markup(
         r"\baca-castanets-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "4-3 -|",
@@ -515,8 +516,8 @@ commands(
     ("perc", 5),
     baca.markup(
         r"\baca-bd-superball-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "3-7 -|",

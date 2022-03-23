@@ -41,21 +41,21 @@ commands(
             baca.rehearsal_mark(
                 "E",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "E",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "E",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -238,8 +238,8 @@ commands(
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.note_head_stencil_false(
         selector=baca.selectors.pleaves(),
@@ -349,8 +349,8 @@ commands(
     baca.laissez_vibrer(),
     baca.markup(
         r"\baca-bd-struck-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "A.2 -|",
@@ -369,8 +369,8 @@ commands(
     baca.dynamic("f"),
     baca.markup(
         r"\baca-castanets-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -401,8 +401,8 @@ commands(
     baca.dynamic("f-ancora"),
     baca.markup(
         r"\baca-woodblock-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.skeleton(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",

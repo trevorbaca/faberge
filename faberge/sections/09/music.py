@@ -42,21 +42,21 @@ commands(
             baca.rehearsal_mark(
                 "H",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "H",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "H",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -266,7 +266,7 @@ commands(
     ("perc", [1, 2]),
     baca.markup(
         r"\baca-castanets-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
         match=0,
     ),
     baca.trill_spanner(
@@ -301,7 +301,7 @@ commands(
     baca.laissez_vibrer(),
     baca.markup(
         r"\baca-crotales-bowed-markup",
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.material_annotation_spanner(
         "A.1 -|",
@@ -325,8 +325,8 @@ commands(
     ),
     baca.markup(
         r"\baca-marimba-attackless-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(6).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.skeleton(
         "{ c2 c1 }",
@@ -456,7 +456,7 @@ commands(
     ("vn", 9),
     baca.markup(
         r"\baca-seven-e-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Dtqf5"),
     baca.skeleton(
@@ -669,7 +669,7 @@ commands(
     ("va", (5, 9)),
     baca.markup(
         r"\faberge-eleventh-degree-of-e-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.quadruple_staccato(
         selector=baca.selectors.plts(([0], 4), exclude=baca.const.HIDDEN),
@@ -697,7 +697,7 @@ commands(
     ("va", 9),
     baca.markup(
         r"\baca-thirteen-e-flat",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Bqs4"),
     baca.skeleton(
@@ -747,14 +747,14 @@ commands(
     baca.chunk(
         baca.down_bow(
             baca.selectors.pheads(([0], 2)),
-            abjad.tweak(1).padding,
-            abjad.tweak(0.5).parent_alignment_X,
+            abjad.Tweak(r"- \tweak padding 1"),
+            abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             full=True,
         ),
         baca.up_bow(
             baca.selectors.pheads(([1], 2)),
-            abjad.tweak(1).padding,
-            abjad.tweak(0.5).parent_alignment_X,
+            abjad.Tweak(r"- \tweak padding 1"),
+            abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
         ),
     ),
     baca.half_clt_spanner(

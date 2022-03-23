@@ -43,21 +43,21 @@ commands(
             baca.rehearsal_mark(
                 "G",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 9)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "G",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "G",
                 baca.selectors.skip(1 - 1),
-                abjad.tweak((0, 18)).extra_offset,
+                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
     ),
@@ -141,8 +141,8 @@ commands(
     ),
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(1.5).padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_lines(1),
     baca.staff_lines(
@@ -382,8 +382,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-castanets-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -414,8 +414,8 @@ commands(
     baca.laissez_vibrer(),
     baca.markup(
         r"\baca-bd-struck-markup",
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -426,7 +426,7 @@ commands(
     ("perc", (4, 5)),
     baca.markup(
         r"\baca-bd-sponge-markup",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
@@ -451,8 +451,8 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-marimba-attackless-markup",
-        abjad.tweak(6).staff_padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pheads([0, -1]),
@@ -526,7 +526,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.markup(
         r"\baca-ob-markup",
-        abjad.tweak(1.5).padding,
+        abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
@@ -739,8 +739,8 @@ commands(
     baca.dls_staff_padding(6),
     baca.markup(
         r"\baca-ob-markup",
-        abjad.tweak(1.5).padding,
-        abjad.tweak(0).parent_alignment_X,
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.material_annotation_spanner(
         "1-2 -|",
