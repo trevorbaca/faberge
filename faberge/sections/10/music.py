@@ -109,7 +109,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         "3-4 / 3-5 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -189,7 +189,7 @@ commands(
     baca.dynamic("f"),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.pitch("Db5"),
@@ -263,8 +263,8 @@ commands(
     baca.beam(),
     baca.material_annotation_spanner(
         "2-4 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.ottava(),
     baca.pitch("<G6 A6 B6 C7>"),
@@ -363,8 +363,8 @@ commands(
     ),
     baca.material_annotation_spanner(
         "A.2 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -388,7 +388,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(0),
     library.even_tuplet_rhythm(
@@ -413,7 +413,7 @@ commands(
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
@@ -435,7 +435,7 @@ commands(
     ("vn", (1, 4)),
     baca.material_annotation_spanner(
         "3-4 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -483,8 +483,8 @@ commands(
     ),
     baca.material_annotation_spanner(
         "2-4 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("A6"),
     baca.skeleton(
@@ -506,7 +506,7 @@ commands(
     ("vn", [6, 7]),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
@@ -518,7 +518,7 @@ commands(
     ("vn", (6, 8)),
     baca.material_annotation_spanner(
         "3-5 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("C5"),
 )
@@ -600,7 +600,7 @@ commands(
     ("va", (1, 4)),
     baca.material_annotation_spanner(
         "3-4 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -612,7 +612,7 @@ commands(
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
@@ -661,14 +661,14 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         "A.4 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves(),
     ),
     baca.xfb_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -683,7 +683,7 @@ commands(
     ("va", [6, 7]),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.selectors.lparts([1, 2]),
@@ -695,7 +695,7 @@ commands(
     ("va", (6, 8)),
     baca.material_annotation_spanner(
         "3-5 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("Bb3"),
 )
@@ -750,7 +750,7 @@ commands(
         full=True,
     ),
     baca.half_clt_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.leaves((None, 1), rleak=True),
     ),
 )
@@ -764,7 +764,7 @@ commands(
     ("vc", (1, 4)),
     baca.material_annotation_spanner(
         "3-4 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
 )
 
@@ -808,8 +808,8 @@ commands(
     ),
     baca.material_annotation_spanner(
         "2-4 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("F#5"),
     baca.skeleton(
@@ -825,14 +825,14 @@ commands(
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         "1-1 -|",
-        abjad.tweak("#red").color,
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
         "IV =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         right_broken=True,
     ),
     baca.suite(

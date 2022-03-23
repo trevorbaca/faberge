@@ -80,7 +80,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -134,7 +134,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -162,7 +162,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -195,8 +195,8 @@ commands(
     baca.dynamic("mp"),
     baca.material_annotation_spanner(
         "2-1 -|",
-        abjad.tweak("#darkgreen").color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak color #darkgreen"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.skeleton(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
@@ -263,7 +263,7 @@ commands(
     ("perc", 1),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     library.even_tuplet_rhythm(
         extra_counts=[0],
@@ -275,7 +275,7 @@ commands(
     baca.dynamic("f"),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     library.even_tuplet_rhythm(
         extra_counts=[-1, 0],
@@ -287,7 +287,7 @@ commands(
     baca.dynamic("f"),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         right_broken=True,
     ),
     library.even_tuplet_rhythm(
@@ -302,7 +302,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
 )
@@ -320,7 +320,7 @@ commands(
     ("vn", (1, 4)),
     baca.clb_spanner(
         3,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.staccato(
@@ -359,7 +359,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=baca.selectors.ltleaves_rleak(),
     ),
     baca.staff_position(0),
@@ -401,12 +401,12 @@ commands(
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
         "IV =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.suite(
         baca.untie(baca.selectors.leaves()),
