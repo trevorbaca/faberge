@@ -564,7 +564,7 @@ commands(
     ("rh", (1, 88)),
     baca.text_spanner(
         r"\faberge-rf-one-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         left_broken_text=r"\faberge-left-broken-rf-one-markup",
@@ -918,7 +918,7 @@ commands(
 commands(
     ("vn", (63, 65)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -939,7 +939,7 @@ commands(
 commands(
     ("vn", (69, 70)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -966,7 +966,7 @@ commands(
 commands(
     ("vn", (81, 83)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -996,7 +996,7 @@ commands(
 commands(
     ("vn", (87, 88)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1028,7 +1028,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         "tasto -> pont. ->",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
         autodetect_right_padding=False,
         pieces=baca.selectors.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
@@ -1038,7 +1038,7 @@ commands(
         selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -1101,7 +1101,7 @@ commands(
 commands(
     ("va", (63, 65)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1124,7 +1124,7 @@ commands(
 commands(
     ("va", (69, 70)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1145,7 +1145,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         "tasto -> pont.",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.ltleaves(),
@@ -1154,14 +1154,14 @@ commands(
         selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
 commands(
     ("va", (81, 83)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1184,7 +1184,7 @@ commands(
 commands(
     ("va", (87, 88)),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1198,7 +1198,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         "pont. -> tasto",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.ltleaves(),
@@ -1207,7 +1207,7 @@ commands(
         selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         right_broken=True,
     ),
 )
@@ -1237,7 +1237,7 @@ commands(
     ),
     baca.scp_spanner(
         "tasto -> PO",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
     ),
@@ -1251,7 +1251,7 @@ commands(
     ),
     baca.scp_spanner(
         "(PO) -> tasto",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
     ),
@@ -1265,13 +1265,13 @@ commands(
     ),
     baca.scp_spanner(
         "(tasto) -> poco pont.",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
     ),
     baca.vibrato_spanner(
         "(poco vib.) -> vib. mod.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
     ),
@@ -1293,7 +1293,7 @@ commands(
     ("vc", (71, 80)),
     baca.scp_spanner(
         "(poco pont.) -> tasto",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
         selector=baca.selectors.leaves(),
@@ -1304,7 +1304,7 @@ commands(
     ("vc", (71, 89)),
     baca.vibrato_spanner(
         "sub. vib. mod. -> non vib. -> poco vib.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
         pieces=lambda _: baca.mgroups(_, [9, 10]),

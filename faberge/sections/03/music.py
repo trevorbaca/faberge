@@ -1111,7 +1111,7 @@ commands(
     ("rh", (1, 44)),
     baca.text_spanner(
         r"\faberge-rf-two-markup =|",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=True,
         bookend=False,
         left_broken_text=r"\faberge-left-broken-rf-two-markup",
@@ -1339,7 +1339,7 @@ commands(
     ),
     baca.material_annotation_spanner(
         "MM =|",
-        abjad.tweak(8).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         right_broken=True,
         selector=baca.selectors.ltleaves_rleak(),
     ),
@@ -1381,7 +1381,7 @@ commands(
         counts_rotation=-20,
     ),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1400,7 +1400,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         r"\baca-tasto-plus-pochiss-scratch-markup =|",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1425,7 +1425,7 @@ commands(
     baca.staff_lines(1),
     baca.clb_spanner(
         3,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.staccato(
         selector=baca.selectors.pheads(),
@@ -1465,7 +1465,7 @@ commands(
     ("vn", (73, 80)),
     baca.clb_spanner(
         3,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.dynamic(
         '("mf")',
@@ -1497,7 +1497,7 @@ commands(
         selector=baca.selectors.pleaves([0, -1]),
     ),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -1511,7 +1511,7 @@ commands(
     baca.dynamic('"ff"'),
     baca.pitch("F4"),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
     library.spazzolati_rhythm(
         counts_rotation=-21,
@@ -1538,7 +1538,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         r"\baca-tasto-plus-pochiss-scratch-markup =|",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1570,7 +1570,7 @@ commands(
     baca.beam_positions(-3.5),
     baca.clb_spanner(
         2,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(10),
@@ -1617,13 +1617,13 @@ commands(
     ),
     baca.scp_spanner(
         "(tasto) -> molto pont.",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
         selector=baca.selectors.rleaves(),
     ),
     baca.vibrato_spanner(
         "(poco vib.) -> vib. molto",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         bookend=-1,
         selector=baca.selectors.rleaves(),
     ),
@@ -1641,13 +1641,13 @@ commands(
     ("vc", (23, 30)),
     baca.scp_spanner(
         "(molto pont.) -> tasto",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
         selector=baca.selectors.rleaves(),
     ),
     baca.vibrato_spanner(
         "(vib. molto) -> poco vib.",
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         bookend=-1,
         selector=baca.selectors.rleaves(),
     ),
@@ -1672,7 +1672,7 @@ commands(
     ),
     baca.scp_spanner(
         "(tasto) -> PO -> tasto poss.",
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
         pieces=lambda _: baca.mgroups(_, [12, 12]),
     ),
@@ -1691,7 +1691,7 @@ commands(
     baca.staff_lines(1),
     baca.clb_spanner(
         2,
-        abjad.tweak(5.5).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.dls_staff_padding(10),

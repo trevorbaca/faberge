@@ -156,7 +156,7 @@ commands(
     baca.dynamic('"f"'),
     baca.pitch("E4"),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
     library.spazzolati_rhythm(
         counts_rotation=0,
@@ -180,7 +180,7 @@ commands(
     baca.dynamic('"f"'),
     baca.pitch("E4"),
     baca.spazzolato_spanner(
-        abjad.tweak(3).staff_padding,
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
     library.spazzolati_rhythm(
         counts_rotation=-1,
