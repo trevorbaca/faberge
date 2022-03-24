@@ -868,7 +868,6 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-airtone-markup",
-        abjad.tweak(0).parent_alignment_X,
         abjad.Tweak(r"- \tweak padding 1.5"),
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
@@ -890,7 +889,6 @@ commands(
     ),
     baca.markup(
         r"\baca-ratchet-markup",
-        abjad.tweak(0).parent_alignment_X,
         abjad.Tweak(r"- \tweak padding 1.5"),
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
