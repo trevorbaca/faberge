@@ -184,9 +184,9 @@ commands(
     "cl",
     baca.dls_staff_padding(10),
     library.bcl_color_fingerings(
-        abjad.tweak(abjad.DOWN).direction,
-        abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(5).staff_padding,
+        abjad.Tweak(r"- \tweak direction #down"),
+        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+        abjad.Tweak(r"- \tweak staff-padding 5"),
     ),
 )
 
