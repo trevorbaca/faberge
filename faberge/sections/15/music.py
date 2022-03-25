@@ -194,8 +194,8 @@ commands(
     baca.staff_lines(1),
     baca.dynamic(
         "f-whiteout",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.dls_staff_padding(8),
     baca.markup(

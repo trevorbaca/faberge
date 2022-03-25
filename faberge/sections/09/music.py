@@ -199,7 +199,7 @@ commands(
     ),
     baca.pitch("A4"),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
         selector=baca.selectors.rleaves(),
     ),
@@ -226,7 +226,7 @@ commands(
         selector=baca.selectors.tleaves(rleak=True),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
@@ -270,7 +270,7 @@ commands(
         match=0,
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
         selector=baca.selectors.rleaves(),
     ),

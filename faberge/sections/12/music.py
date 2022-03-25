@@ -217,8 +217,8 @@ commands(
     baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
@@ -394,8 +394,8 @@ commands(
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.material_annotation_spanner(
         "4-2 =|",
@@ -479,8 +479,8 @@ commands(
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.material_annotation_spanner(
         "4-2 =|",
@@ -549,8 +549,8 @@ commands(
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.material_annotation_spanner(
         "4-2 =|",

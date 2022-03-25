@@ -125,7 +125,7 @@ commands(
         "{ c4 c4 c4 r2. }",
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
@@ -136,8 +136,8 @@ commands(
     baca.dls_staff_padding(6),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.markup(
         r"\baca-airtone-markup",
@@ -388,7 +388,7 @@ commands(
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
 )

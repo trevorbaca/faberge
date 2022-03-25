@@ -256,7 +256,7 @@ commands(
     baca.dynamic("f"),
     baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -277,7 +277,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -298,7 +298,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -319,7 +319,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -358,7 +358,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -776,7 +776,7 @@ commands(
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.tleaves(rleak=True),
     ),
 )

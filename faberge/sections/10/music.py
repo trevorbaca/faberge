@@ -168,7 +168,7 @@ commands(
         selector=baca.selectors.pleaves((2, None)),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.leaves((None, 3)),
     ),
     library.suffixed_colortrill_rhythm(),
@@ -194,7 +194,7 @@ commands(
     ),
     baca.pitch("Db5"),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
     ),
     baca.trill_spanner_staff_padding(5.5),
@@ -250,8 +250,8 @@ commands(
     ),
     baca.dynamic(
         "f",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
@@ -478,8 +478,8 @@ commands(
     baca.beam(),
     baca.dynamic(
         "f",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-0.75, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-0.75 . 0)"),
     ),
     baca.material_annotation_spanner(
         "2-4 -|",
@@ -652,8 +652,8 @@ commands(
     ("va", 5),
     baca.dynamic(
         "mp-ancora",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.flat_glissando(
         "D3",
@@ -803,8 +803,8 @@ commands(
     baca.clef("treble"),
     baca.dynamic(
         "f",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.material_annotation_spanner(
         "2-4 -|",

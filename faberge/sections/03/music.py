@@ -755,7 +755,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -787,7 +787,7 @@ commands(
         selector=baca.selectors.leaves(),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
     library.eh_trill_rhythm(
@@ -814,7 +814,7 @@ commands(
 commands(
     ("eh", (31, 44)),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
 )
 
@@ -862,8 +862,8 @@ commands(
     baca.dls_staff_padding(4),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -884,8 +884,8 @@ commands(
     baca.dls_staff_padding(8.5),
     baca.dynamic(
         "(f)",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.markup(
         r"\baca-ratchet-markup",
@@ -1129,8 +1129,8 @@ commands(
     baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
@@ -1309,8 +1309,8 @@ commands(
     baca.clef("percussion"),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -1447,8 +1447,8 @@ commands(
     ("vn", (69, 72)),
     baca.dynamic(
         '("mf")',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -1467,8 +1467,8 @@ commands(
     ),
     baca.dynamic(
         '("mf")',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.staccato(
         selector=baca.selectors.pheads(),

@@ -109,7 +109,7 @@ commands(
         allow_repeats=True,
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.leaves((None, 3)),
     ),
     library.suffixed_colortrill_rhythm(),
@@ -147,7 +147,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.runs(),
     ),
 )
@@ -277,8 +277,8 @@ commands(
     baca.dls_staff_padding(6),
     baca.dynamic(
         "mp",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
@@ -313,8 +313,8 @@ commands(
     baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
@@ -381,7 +381,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 13"),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
     ),
 )
@@ -396,8 +396,8 @@ commands(
     baca.dls_staff_padding(4),
     baca.dynamic(
         "f-sempre",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -420,8 +420,8 @@ commands(
     baca.dls_staff_padding(6),
     baca.dynamic(
         "p-sempre",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.staff_position(0),
 )
@@ -590,8 +590,8 @@ commands(
     ("va", (7, 8)),
     baca.dynamic(
         "p-sempre",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.material_annotation_spanner(
         "4-4 =|",
