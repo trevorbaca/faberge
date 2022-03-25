@@ -151,7 +151,7 @@ commands(
         pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.leaves((None, 3)),
     ),
     library.suffixed_colortrill_rhythm(),

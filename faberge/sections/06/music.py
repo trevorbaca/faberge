@@ -176,7 +176,7 @@ commands(
         pieces=baca.selectors.lparts([1, 1, 2]),
     ),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=baca.selectors.leaves((None, 3)),
     ),
     library.suffixed_colortrill_rhythm(),
@@ -233,8 +233,8 @@ commands(
     baca.clef("percussion"),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.markup(
         r"\baca-tuning-pegs-markup",
@@ -264,8 +264,8 @@ commands(
     baca.clef("bass"),
     baca.dynamic(
         "mp",
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
@@ -378,7 +378,7 @@ commands(
     ("perc", [4, 5, 6, 7]),
     baca.staff_position(1),
     baca.trill_spanner(
-        abjad.tweak(2).bound_details__right__padding,
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
     ),
     library.downbeat_attack(),
@@ -526,8 +526,8 @@ commands(
     baca.beam_positions(-3.5),
     baca.dynamic(
         '"mf"',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.material_annotation_spanner(
         "4-3 -|",
