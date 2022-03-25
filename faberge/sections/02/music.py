@@ -220,8 +220,8 @@ commands(
         allow_repeats=True,
     ),
     library.bfl_color_fingerings(
-        abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(3.5).staff_padding,
+        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+        abjad.Tweak(r"- \tweak staff-padding 3.5"),
     ),
     library.glow_rhythm(
         rmakers.force_note(
