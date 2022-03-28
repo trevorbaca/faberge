@@ -721,6 +721,9 @@ segment.01.English.Horn.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \baca-f-parenthesized
+        %! baca._label_duration_multipliers()
+        %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"187" #"32"
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         - \tweak parent-alignment-X 0
@@ -730,9 +733,6 @@ segment.01.English.Horn.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-ratchet-markup
-        %! baca._label_duration_multipliers()
-        %! DURATION_MULTIPLIER
-        %@% ^ \baca-duration-multiplier-markup #"187" #"32"
         %! faberge.ratchet_rhythm()
         [
 
