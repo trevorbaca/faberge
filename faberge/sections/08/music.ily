@@ -1289,7 +1289,12 @@ segment.08.English.Horn.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -2373,7 +2378,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -2552,7 +2562,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -2644,7 +2659,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -2731,7 +2751,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -2850,7 +2875,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3035,7 +3065,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3111,7 +3146,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3194,7 +3234,12 @@ segment.08.Piano.RH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3502,7 +3547,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3708,7 +3758,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3818,7 +3873,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -3920,7 +3980,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -4054,7 +4119,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -4248,7 +4318,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -4330,7 +4405,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -4419,7 +4499,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -5753,7 +5838,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -5971,7 +6061,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -6442,7 +6537,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -6745,7 +6845,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -6976,7 +7081,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -7206,7 +7316,12 @@ segment.08.Violin.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -7963,7 +8078,12 @@ segment.08.Viola.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -8194,7 +8314,12 @@ segment.08.Viola.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -8424,7 +8549,12 @@ segment.08.Viola.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -8764,7 +8894,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -8979,7 +9114,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -9320,7 +9460,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -9530,7 +9675,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -9611,7 +9761,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }
@@ -9686,7 +9841,12 @@ segment.08.Cello.Music.Voice = {
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
-        <> \bacaStopTextSpanRhythmAnnotation
+        <>
+        %! baca.rhythm_annotation_spanner()
+        %! RHYTHM_ANNOTATION_SPANNER
+        %! baca.PiecewiseCommand._call(4)
+        %! SPANNER_STOP
+        \bacaStopTextSpanRhythmAnnotation
 
     %! baca.skeleton()
     }

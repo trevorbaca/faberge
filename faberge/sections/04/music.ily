@@ -2281,7 +2281,12 @@ segment.04.Piano.RH.Music.Voice = {
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(4)
             %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
+            <>
+            %! baca.rhythm_annotation_spanner()
+            %! RHYTHM_ANNOTATION_SPANNER
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanRhythmAnnotation
 
         %! baca.skeleton()
         }
@@ -2708,7 +2713,12 @@ segment.04.Piano.LH.Music.Voice = {
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(4)
             %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
+            <>
+            %! baca.rhythm_annotation_spanner()
+            %! RHYTHM_ANNOTATION_SPANNER
+            %! baca.PiecewiseCommand._call(4)
+            %! SPANNER_STOP
+            \bacaStopTextSpanRhythmAnnotation
 
         %! baca.skeleton()
         }
