@@ -1045,7 +1045,7 @@ commands(
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
-            "niente o< pp",
+            "o< pp",
             selector=baca.selectors.tleaves((None, 2)),
         ),
         baca.hairpin(
@@ -1056,11 +1056,6 @@ commands(
     ),
     baca.flat_glissando("C#2"),
     library.single_taper(),
-)
-
-commands(
-    ("cl", 61),
-    baca.dynamic("niente"),
 )
 
 commands(
@@ -1154,16 +1149,17 @@ commands(
     library.tuning_peg_staff_positions(),
 )
 
-commands(
-    ("rh", (79, 80)),
-    baca.beam(),
-)
 
 commands(
     ("rh", 80),
     library.downbeat_attack(
         denominator=8,
     ),
+)
+
+commands(
+    ("rh", (78, 80)),
+    baca.beam(),
 )
 
 # attack

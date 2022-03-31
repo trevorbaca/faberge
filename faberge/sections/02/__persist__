@@ -243,9 +243,9 @@
                 context="Flute_Music_Voice",
                 edition=None,
                 manifest=None,
-                prototype="abjad.StartHairpin",
+                prototype="abjad.Dynamic",
                 synthetic_offset=None,
-                value=">o",
+                value="\\baca-p-parenthesized",
             )
         ],
         "Percussion_Music_Staff": [

@@ -208,7 +208,7 @@ commands(
         selector=baca.selectors.tleaves((None, 2)),
     ),
     baca.hairpin(
-        "(p) >o !",
+        "(p) >o",
         selector=lambda _: baca.rleak(baca.tleaves(_))[-2:],
     ),
     baca.repeat_tie_extra_offset(

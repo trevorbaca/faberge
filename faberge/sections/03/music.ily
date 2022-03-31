@@ -12876,20 +12876,6 @@ segment.03.Clarinet.Music.Voice = {
     %! _treat_persistent_wrapper(1)
     %! baca.hairpin()
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_STOP
-    %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
-    \!
-    %! EXPLICIT_DYNAMIC_COLOR
-    %! _treat_persistent_wrapper(1)
-    %! baca.hairpin()
-    %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
@@ -13037,18 +13023,6 @@ segment.03.Clarinet.Music.Voice = {
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
-            \!
-            %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
-            %! baca.dynamic()
-            %! baca.IndicatorCommand._call()
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
-            - \tweak color #(x11-color 'blue)
-            %! baca.dynamic()
-            %! baca.IndicatorCommand._call()
-            %! baca._set_status_tag()
-            %! EXPLICIT_DYNAMIC
             \!
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
@@ -14875,7 +14849,9 @@ segment.03.Piano.RH.Music.Voice = {
     % [Piano_RH_Music_Voice measure 78]
     %! faberge.clb_rhythm()
     d''8
-    %! faberge.clb_rhythm()
+    %! baca.beam()
+    %! baca.SpannerIndicatorCommand._call(2)
+    %! SPANNER_START
     [
 
     %! faberge.clb_rhythm()
@@ -14891,10 +14867,6 @@ segment.03.Piano.RH.Music.Voice = {
     % [Piano_RH_Music_Voice measure 79]
     %! faberge.clb_rhythm()
     c''8
-    %! baca.beam()
-    %! baca.SpannerIndicatorCommand._call(2)
-    %! SPANNER_START
-    [
 
     %! faberge.clb_rhythm()
     d''8

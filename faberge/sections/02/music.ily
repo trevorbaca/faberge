@@ -8263,12 +8263,24 @@ segment.02.Flute.Music.Voice = {
             %! HIDDEN
             %! NOTE
             b'1 * 1/4
+            %! REDUNDANT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
+            %! baca._set_status_tag()
+            %! REDUNDANT_DYNAMIC
             %! baca._style_phantom_measures(5)
             %! PHANTOM
-            \!
+            - \tweak color #(x11-color 'DeepPink1)
+            %! baca.hairpin()
+            %! baca.PiecewiseCommand._call(3)
+            %! SPANNER_STOP
+            %! baca._set_status_tag()
+            %! REDUNDANT_DYNAMIC
+            %! baca._style_phantom_measures(5)
+            %! PHANTOM
+            \baca-p-parenthesized
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
