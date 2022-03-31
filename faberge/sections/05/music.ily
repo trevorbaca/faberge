@@ -662,16 +662,6 @@ segment.05.Flute.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -684,6 +674,16 @@ segment.05.Flute.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "1-3 / 1-4"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -1513,16 +1513,6 @@ segment.05.English.Horn.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -1535,6 +1525,16 @@ segment.05.English.Horn.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "1-3 / 1-4"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -2012,16 +2012,6 @@ segment.05.Clarinet.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -2034,6 +2024,16 @@ segment.05.Clarinet.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "1-3 / 1-4"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -3461,16 +3461,6 @@ segment.05.Percussion.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "MM"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -3483,6 +3473,16 @@ segment.05.Percussion.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "MM"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -3904,16 +3904,6 @@ segment.05.Violin.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -3926,6 +3916,16 @@ segment.05.Violin.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "1-3 / 1-4"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -4483,16 +4483,6 @@ segment.05.Viola.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -4505,6 +4495,16 @@ segment.05.Viola.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 8
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "1-3 / 1-4"
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -5090,16 +5090,6 @@ segment.05.Cello.Music.Voice = {
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "1-3 / 1-4"
-    %! baca.material_annotation_spanner()
-    %! MATERIAL_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
     %! AUTODETECT
     %! SPANNER_START
     %! baca.material_annotation_spanner()
@@ -5116,17 +5106,17 @@ segment.05.Cello.Music.Voice = {
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    \bacaStartTextSpanMaterialAnnotation
-    %! baca.string_number_spanner()
-    %! STRING_NUMBER_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
     - \abjad-dashed-line-with-hook
-    %! baca.string_number_spanner()
-    %! STRING_NUMBER_SPANNER
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
-    - \baca-text-spanner-left-text "IV"
+    - \baca-text-spanner-left-text "1-3 / 1-4"
+    %! baca.material_annotation_spanner()
+    %! MATERIAL_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
     %! baca.string_number_spanner()
     %! STRING_NUMBER_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -5142,6 +5132,16 @@ segment.05.Cello.Music.Voice = {
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak staff-padding 5.5
+    %! baca.string_number_spanner()
+    %! STRING_NUMBER_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+    %! baca.string_number_spanner()
+    %! STRING_NUMBER_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \baca-text-spanner-left-text "IV"
     %! baca.string_number_spanner()
     %! STRING_NUMBER_SPANNER
     %! baca.PiecewiseCommand._call(2)
