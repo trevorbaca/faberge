@@ -10446,9 +10446,6 @@ segment.03.English.Horn.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \baca-f-parenthesized
-        %! baca._label_duration_multipliers()
-        %! DURATION_MULTIPLIER
-        %@% ^ \baca-duration-multiplier-markup #"381" #"64"
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         - \tweak padding 1.5
@@ -10458,6 +10455,9 @@ segment.03.English.Horn.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-ratchet-markup
+        %! baca._label_duration_multipliers()
+        %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"381" #"64"
         %! faberge.ratchet_rhythm()
         [
 
@@ -16551,17 +16551,17 @@ segment.03.Percussion.Music.Voice = {
             %! REST_VOICE
             %! MULTIMEASURE_REST
             R1 * 1
-            %! baca._label_duration_multipliers()
-            %! DURATION_MULTIPLIER
-            %! MULTIMEASURE_REST
-            %! REST_VOICE
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             %! baca.markup()
             %! baca.IndicatorCommand._call()
             - \tweak staff-padding 6
             %! baca.markup()
             %! baca.IndicatorCommand._call()
             ^ \baca-to-marimba-markup
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
         %! baca._make_multimeasure_rest_container(6)
         }
