@@ -3891,10 +3891,6 @@ segment.11.Piano.RH.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Piano_RH_Music_Voice measure 3]
-        %! baca.ottava()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \ottava 1
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override Staff.OttavaBracket.staff-padding = 5.5
@@ -3910,6 +3906,10 @@ segment.11.Piano.RH.Music.Voice = {
         %! MEASURE_239
         %! baca.OverrideCommand._call(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        %! baca.ottava()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \ottava 1
         %! baca.clef()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -4157,12 +4157,12 @@ segment.11.Piano.RH.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \baca-f-sempre
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
     %! baca.material_annotation_spanner()
     %! MATERIAL_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -4204,12 +4204,12 @@ segment.11.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 6]
@@ -4221,12 +4221,12 @@ segment.11.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 7]
@@ -4238,12 +4238,12 @@ segment.11.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 8]
@@ -4255,12 +4255,12 @@ segment.11.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(2)
     \revert DynamicLineSpanner.staff-padding
@@ -4490,13 +4490,13 @@ segment.11.Piano.LH.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 3]
+        %! baca.ottava_bracket_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override Staff.OttavaBracket.staff-padding = 7
         %! baca.ottava()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
         \ottava 1
-        %! baca.ottava_bracket_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override Staff.OttavaBracket.staff-padding = 7
         <f''' g''' a'''>8
         %! baca.markup()
         %! baca.IndicatorCommand._call()

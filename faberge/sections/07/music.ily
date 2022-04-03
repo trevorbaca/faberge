@@ -3382,10 +3382,6 @@ segment.07.Piano.RH.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Piano_RH_Music_Voice measure 5]
-        %! baca.ottava()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \ottava 1
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override Staff.OttavaBracket.staff-padding = 5.5
@@ -3401,6 +3397,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! MEASURE_206
         %! baca.OverrideCommand._call(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        %! baca.ottava()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \ottava 1
         %! baca.clef()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -4283,10 +4283,6 @@ segment.07.Piano.LH.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 5]
-        %! baca.ottava()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \ottava 1
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override Staff.OttavaBracket.staff-padding = 8
@@ -4302,6 +4298,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! MEASURE_206
         %! baca.OverrideCommand._call(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        %! baca.ottava()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \ottava 1
         %! baca.clef()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
