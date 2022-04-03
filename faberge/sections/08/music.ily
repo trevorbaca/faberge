@@ -2210,13 +2210,13 @@ segment.08.Piano.RH.Music.Voice = {
         %! baca.dls_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 4.5
+        %! baca.ottava_bracket_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override Staff.OttavaBracket.staff-padding = 8
         %! baca.ottava()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
         \ottava 1
-        %! baca.ottava_bracket_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override Staff.OttavaBracket.staff-padding = 8
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_CLEF
@@ -3389,13 +3389,13 @@ segment.08.Piano.LH.Music.Voice = {
         %! baca.dls_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 4.5
+        %! baca.ottava_bracket_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override Staff.OttavaBracket.staff-padding = 8
         %! baca.ottava()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
         \ottava 1
-        %! baca.ottava_bracket_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override Staff.OttavaBracket.staff-padding = 8
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_CLEF

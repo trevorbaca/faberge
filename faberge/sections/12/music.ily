@@ -2234,12 +2234,12 @@ segment.12.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 2]
@@ -2248,12 +2248,12 @@ segment.12.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 3]
@@ -2265,12 +2265,12 @@ segment.12.Piano.RH.Music.Voice = {
 
     %! faberge.end_of_cell_attack()
     a8
-    %! baca.laissez_vibrer()
-    %! baca.IndicatorCommand._call()
-    \laissezVibrer
     %! baca.stopped()
     %! baca.IndicatorCommand._call()
     - \stopped
+    %! baca.laissez_vibrer()
+    %! baca.IndicatorCommand._call()
+    \laissezVibrer
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(2)
     \revert DynamicLineSpanner.staff-padding
@@ -2342,10 +2342,6 @@ segment.12.Piano.RH.Music.Voice = {
         %! baca.dls_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 5
-        %! baca.ottava()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        \ottava 1
         %! baca.clef_x_extent_false()
         %! baca.clef_shift()
         %! SHIFTED_CLEF
@@ -2358,6 +2354,10 @@ segment.12.Piano.RH.Music.Voice = {
         %! MEASURE_249
         %! baca.OverrideCommand._call(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+        %! baca.ottava()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        \ottava 1
         %! baca.clef()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
