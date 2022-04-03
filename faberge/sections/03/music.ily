@@ -24432,8 +24432,13 @@ segment.03.Cello.Music.Voice = {
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
     %! SPANNER_START
-    - \tweak bound-details.right.padding 0.5
+    %! baca.scp_spanner()
+    %! SCP_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 2.75
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -24467,8 +24472,13 @@ segment.03.Cello.Music.Voice = {
     %! baca.vibrato_spanner()
     %! VIBRATO_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
     %! SPANNER_START
-    - \tweak bound-details.right.padding 0.5
+    %! baca.vibrato_spanner()
+    %! VIBRATO_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 2.75
     %! baca.vibrato_spanner()
     %! VIBRATO_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -24624,8 +24634,13 @@ segment.03.Cello.Music.Voice = {
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
     %! SPANNER_START
-    - \tweak bound-details.right.padding 0.5
+    %! baca.scp_spanner()
+    %! SCP_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 2.75
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -24659,8 +24674,13 @@ segment.03.Cello.Music.Voice = {
     %! baca.vibrato_spanner()
     %! VIBRATO_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
     %! SPANNER_START
-    - \tweak bound-details.right.padding 0.5
+    %! baca.vibrato_spanner()
+    %! VIBRATO_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 2.75
     %! baca.vibrato_spanner()
     %! VIBRATO_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -25067,8 +25087,13 @@ segment.03.Cello.Music.Voice = {
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
     %! SPANNER_START
-    - \tweak bound-details.right.padding 0.5
+    %! baca.scp_spanner()
+    %! SCP_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! SPANNER_START
+    - \tweak bound-details.right.padding 2.75
     %! baca.scp_spanner()
     %! SCP_SPANNER
     %! baca.PiecewiseCommand._call(2)
