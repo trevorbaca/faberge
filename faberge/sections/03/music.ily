@@ -8624,6 +8624,10 @@ segment.03.English.Horn.Music.Voice = {
 
     %! faberge.eh_trill_rhythm()
     atqf'!8.
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -8632,10 +8636,6 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 14]
@@ -9002,6 +9002,10 @@ segment.03.English.Horn.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \ff
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -9010,10 +9014,6 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 24]
@@ -9060,6 +9060,10 @@ segment.03.English.Horn.Music.Voice = {
 
     %! faberge.eh_trill_rhythm()
     aqf'!2...
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -9068,10 +9072,6 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 27]
@@ -9098,6 +9098,10 @@ segment.03.English.Horn.Music.Voice = {
 
     %! faberge.eh_trill_rhythm()
     af'!4..
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -9106,10 +9110,6 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 29]
@@ -9154,6 +9154,10 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.markup()
     %! baca.IndicatorCommand._call()
     ^ \baca-doubletrill-markup
+    %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+    %! baca._attach_shadow_tie_indicators()
+    ~
     %! baca.trill_spanner()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -9162,10 +9166,6 @@ segment.03.English.Horn.Music.Voice = {
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
     \startTrillSpan
-    %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-    %! baca._attach_shadow_tie_indicators()
-    ~
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 32]
