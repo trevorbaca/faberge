@@ -2117,6 +2117,10 @@ segment.04.Piano.RH.Music.Voice = {
             %! baca.markup()
             %! baca.IndicatorCommand._call()
             ^ \baca-sharp-markup
+            %! baca.beam()
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! SPANNER_START
+            [
             %! baca.rhythm_annotation_spanner()
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(2)
@@ -2187,10 +2191,6 @@ segment.04.Piano.RH.Music.Voice = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             \bacaStartTextSpanMaterialAnnotation
-            %! baca.beam()
-            %! baca.SpannerIndicatorCommand._call(2)
-            %! SPANNER_START
-            [
             %! baca.attach_color_literal(2)
             %! EXPLICIT_CLEF_REDRAW_COLOR
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -2614,6 +2614,10 @@ segment.04.Piano.LH.Music.Voice = {
             %! baca._comment_measure_numbers()
             % [Piano_LH_Music_Voice measure 3]
             <g a b c'>8
+            %! baca.beam()
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! SPANNER_START
+            [
             %! baca.rhythm_annotation_spanner()
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(2)
@@ -2649,10 +2653,6 @@ segment.04.Piano.LH.Music.Voice = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             \bacaStartTextSpanRhythmAnnotation
-            %! baca.beam()
-            %! baca.SpannerIndicatorCommand._call(2)
-            %! SPANNER_START
-            [
 
             %! baca.skeleton()
             r8

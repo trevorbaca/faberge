@@ -3845,6 +3845,10 @@ segment.06.Piano.RH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3880,10 +3884,6 @@ segment.06.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4470,6 +4470,10 @@ segment.06.Piano.LH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 6]
         <g a b c'>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4505,10 +4509,6 @@ segment.06.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -7278,6 +7278,10 @@ segment.06.Viola.Music.Voice = {
         %! baca.staccato()
         %! baca.IndicatorCommand._call()
         - \staccato
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -7313,10 +7317,6 @@ segment.06.Viola.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.clb_spanner()
         %! CLB_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8009,6 +8009,10 @@ segment.06.Cello.Music.Voice = {
         %! baca.staccato()
         %! baca.IndicatorCommand._call()
         - \staccato
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8079,10 +8083,6 @@ segment.06.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanCLB
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! faberge.clb_rhythm()
         a'8
