@@ -580,6 +580,11 @@ segment.06.Flute.Music.Voice = {
     %! EXPLICIT_BAR_EXTENT
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-bfl-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -595,11 +600,6 @@ segment.06.Flute.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-bfl-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-bfl-markup
     %! baca.dls_staff_padding()
@@ -924,15 +924,15 @@ segment.06.Flute.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 4]
+        %! baca._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! baca._style_fermata_measures(3)
         \stopStaff
         %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca._style_fermata_measures(3)
         \startStaff
-        %! baca._style_fermata_measures(4)
-        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! FERMATA_MEASURE
         %! MEASURE_196
         %! baca._style_fermata_measures(7)
@@ -943,6 +943,26 @@ segment.06.Flute.Music.Voice = {
     %%% \once \override Score.SpanBar.transparent = ##t
         %! faberge.suffixed_colortrill_rhythm()
         a'4
+        %! EXPLICIT_DYNAMIC_COLOR
+        %! baca.treat_persistent_wrapper()
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak color #(x11-color 'blue)
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak circled-tip ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        \<
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -973,26 +993,6 @@ segment.06.Flute.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-        %! EXPLICIT_DYNAMIC_COLOR
-        %! baca.treat_persistent_wrapper()
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak circled-tip ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        \<
         %! baca.trill_spanner()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -1834,6 +1834,11 @@ segment.06.English.Horn.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [English_Horn_Music_Voice measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-eh-markup
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
@@ -1849,11 +1854,6 @@ segment.06.English.Horn.Music.Voice = {
     %! EXPLICIT_STAFF_LINES
     %! baca._reanalyze_reapplied_synthetic_wrappers()
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-eh-markup
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-eh-markup
     %! baca._reapply_persistent_indicators(3)
@@ -2106,6 +2106,11 @@ segment.06.Clarinet.Music.Voice = {
         %! EXPLICIT_BAR_EXTENT
         %! baca._reanalyze_reapplied_synthetic_wrappers()
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+        %! -PARTS
+        %! baca._reapply_persistent_indicators(3)
+        %! baca._set_status_tag()
+        %! REAPPLIED_MARGIN_MARKUP
+        \set Staff.shortInstrumentName = \faberge-bcl-markup
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! EXPLICIT_STAFF_LINES
@@ -2121,11 +2126,6 @@ segment.06.Clarinet.Music.Voice = {
         %! EXPLICIT_STAFF_LINES
         %! baca._reanalyze_reapplied_synthetic_wrappers()
         \startStaff
-        %! -PARTS
-        %! baca._reapply_persistent_indicators(3)
-        %! baca._set_status_tag()
-        %! REAPPLIED_MARGIN_MARKUP
-        \set Staff.shortInstrumentName = \faberge-bcl-markup
         %! baca._clone_segment_initial_short_instrument_name()
         \set Staff.instrumentName = \faberge-bcl-markup
         %! baca.dls_staff_padding()
@@ -2557,15 +2557,15 @@ segment.06.Clarinet.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 4]
+        %! baca._style_fermata_measures(4)
+        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! baca._style_fermata_measures(3)
         \stopStaff
         %! baca._style_fermata_measures(3)
         \once \override Staff.StaffSymbol.line-count = 5
         %! baca._style_fermata_measures(3)
         \startStaff
-        %! baca._style_fermata_measures(4)
-        %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-        \override Staff.BarLine.bar-extent = #'(-2 . 2)
         %! faberge.suffixed_colortrill_rhythm()
         fs'!4
         %! EXPLICIT_DYNAMIC_COLOR
@@ -3431,16 +3431,16 @@ segment.06.Piano.RH.Music.Voice = {
 
             %! baca._comment_measure_numbers()
             % [Piano_RH_Music_Voice measure 1]
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set PianoStaff.shortInstrumentName = \faberge-pf-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_BAR_EXTENT
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set PianoStaff.shortInstrumentName = \faberge-pf-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_STAFF_LINES
@@ -4441,15 +4441,15 @@ segment.06.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 4]
+    %! baca._style_fermata_measures(4)
+    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     %! baca._style_fermata_measures(3)
     \stopStaff
     %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 5
     %! baca._style_fermata_measures(3)
     \startStaff
-    %! baca._style_fermata_measures(4)
-    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)
     %! baca._make_measure_silences()
     R1 * 1
     %! baca._label_duration_multipliers()
@@ -5044,6 +5044,11 @@ segment.06.Percussion.Music.Voice = {
             %! EXPLICIT_BAR_EXTENT
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(0 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \faberge-perc-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_STAFF_LINES
@@ -5059,11 +5064,6 @@ segment.06.Percussion.Music.Voice = {
             %! EXPLICIT_STAFF_LINES
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \faberge-perc-markup
             %! baca._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \faberge-perc-markup
             %! baca._make_multimeasure_rest_container(2)
@@ -5305,15 +5305,15 @@ segment.06.Percussion.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Percussion_Music_Voice measure 4]
+    %! baca._style_fermata_measures(4)
+    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._style_fermata_measures(3)
     \stopStaff
     %! baca._style_fermata_measures(3)
     \once \override Staff.StaffSymbol.line-count = 1
     %! baca._style_fermata_measures(3)
     \startStaff
-    %! baca._style_fermata_measures(4)
-    %! FERMATA_MEASURE_NEXT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override DynamicLineSpanner.staff-padding = 4
@@ -5719,6 +5719,11 @@ segment.06.Violin.Music.Voice = {
             %! EXPLICIT_BAR_EXTENT
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \faberge-vn-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_STAFF_LINES
@@ -5734,11 +5739,6 @@ segment.06.Violin.Music.Voice = {
             %! EXPLICIT_STAFF_LINES
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \faberge-vn-markup
             %! baca._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \faberge-vn-markup
             %! baca._make_multimeasure_rest_container(2)
@@ -6758,6 +6758,11 @@ segment.06.Viola.Music.Voice = {
 
             %! baca._comment_measure_numbers()
             % [Viola_Music_Voice measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \faberge-va-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_STAFF_LINES
@@ -6773,11 +6778,6 @@ segment.06.Viola.Music.Voice = {
             %! EXPLICIT_STAFF_LINES
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \faberge-va-markup
             %! baca._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \faberge-va-markup
             %! baca._make_multimeasure_rest_container(2)
@@ -6904,6 +6904,26 @@ segment.06.Viola.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \!
+        %! EXPLICIT_DYNAMIC_COLOR
+        %! baca.treat_persistent_wrapper()
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak color #(x11-color 'blue)
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        - \tweak circled-tip ##t
+        %! baca.hairpin()
+        %! baca.PiecewiseCommand._call(2)
+        %! SPANNER_START
+        %! baca._set_status_tag()
+        %! EXPLICIT_DYNAMIC
+        \<
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -6974,26 +6994,6 @@ segment.06.Viola.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-        %! EXPLICIT_DYNAMIC_COLOR
-        %! baca.treat_persistent_wrapper()
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        - \tweak circled-tip ##t
-        %! baca.hairpin()
-        %! baca.PiecewiseCommand._call(2)
-        %! SPANNER_START
-        %! baca._set_status_tag()
-        %! EXPLICIT_DYNAMIC
-        \<
         %! baca.scp_spanner()
         %! SCP_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -7801,6 +7801,11 @@ segment.06.Cello.Music.Voice = {
             %! EXPLICIT_BAR_EXTENT
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \faberge-vc-markup
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! EXPLICIT_STAFF_LINES
@@ -7816,11 +7821,6 @@ segment.06.Cello.Music.Voice = {
             %! EXPLICIT_STAFF_LINES
             %! baca._reanalyze_reapplied_synthetic_wrappers()
             \startStaff
-            %! -PARTS
-            %! baca._reapply_persistent_indicators(3)
-            %! baca._set_status_tag()
-            %! REAPPLIED_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \faberge-vc-markup
             %! baca._clone_segment_initial_short_instrument_name()
             \set Staff.instrumentName = \faberge-vc-markup
             %! baca._make_multimeasure_rest_container(2)
@@ -8421,6 +8421,9 @@ segment.06.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
+        %! baca.glissando()
+        %! abjad.glissando(7)
+        \glissando
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8456,9 +8459,6 @@ segment.06.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.glissando()
-        %! abjad.glissando(7)
-        \glissando
         %! baca.xfb_spanner()
         %! BOW_SPEED_SPANNER
         %! baca.PiecewiseCommand._call(2)
