@@ -289,6 +289,12 @@ segment.01.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-fl-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -308,12 +314,6 @@ segment.01.Flute.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \faberge-flute-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-fl-markup
     %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -513,6 +513,12 @@ segment.01.English.Horn.Music.Voice = {
 
             %! baca._comment_measure_numbers()
             % [English_Horn_Music_Voice measure 1]
+            %! baca.margin_markup()
+            %! -PARTS
+            %! baca.IndicatorCommand._call()
+            %! baca._set_status_tag()
+            %! EXPLICIT_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \faberge-eh-markup
             %! baca.staff_lines()
             %! baca.IndicatorCommand._call()
             %! baca._set_status_tag()
@@ -532,12 +538,6 @@ segment.01.English.Horn.Music.Voice = {
             %! -PARTS
             %! baca.IndicatorCommand._call()
             \set Staff.instrumentName = \faberge-english-horn-markup
-            %! baca.margin_markup()
-            %! -PARTS
-            %! baca.IndicatorCommand._call()
-            %! baca._set_status_tag()
-            %! EXPLICIT_MARGIN_MARKUP
-            \set Staff.shortInstrumentName = \faberge-eh-markup
             %! baca._make_multimeasure_rest_container(2)
             %! NOTE
             %! INVISIBLE_MUSIC_COLORING
@@ -951,6 +951,12 @@ segment.01.Clarinet.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-cl-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -970,12 +976,6 @@ segment.01.Clarinet.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \faberge-clarinet-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-cl-markup
     %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1166,6 +1166,12 @@ segment.01.Piano.RH.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set PianoStaff.shortInstrumentName = \faberge-pf-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1185,12 +1191,6 @@ segment.01.Piano.RH.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set PianoStaff.instrumentName = \faberge-piano-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set PianoStaff.shortInstrumentName = \faberge-pf-markup
     %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1704,6 +1704,12 @@ segment.01.Percussion.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-perc-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1723,12 +1729,6 @@ segment.01.Percussion.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \faberge-percussion-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-perc-markup
     %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
@@ -1919,6 +1919,12 @@ segment.01.Violin.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-vn-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -1938,12 +1944,6 @@ segment.01.Violin.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \faberge-violin-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-vn-markup
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(1)
     \override DynamicLineSpanner.staff-padding = 4
@@ -2280,6 +2280,12 @@ segment.01.Viola.Music.Voice = {
 
         %! baca._comment_measure_numbers()
         % [Viola_Music_Voice measure 1]
+        %! baca.margin_markup()
+        %! -PARTS
+        %! baca.IndicatorCommand._call()
+        %! baca._set_status_tag()
+        %! EXPLICIT_MARGIN_MARKUP
+        \set Staff.shortInstrumentName = \faberge-va-markup
         %! baca.staff_lines()
         %! baca.IndicatorCommand._call()
         %! baca._set_status_tag()
@@ -2299,12 +2305,6 @@ segment.01.Viola.Music.Voice = {
         %! -PARTS
         %! baca.IndicatorCommand._call()
         \set Staff.instrumentName = \faberge-viola-markup
-        %! baca.margin_markup()
-        %! -PARTS
-        %! baca.IndicatorCommand._call()
-        %! baca._set_status_tag()
-        %! EXPLICIT_MARGIN_MARKUP
-        \set Staff.shortInstrumentName = \faberge-va-markup
         %! baca.dls_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 6
@@ -2637,6 +2637,12 @@ segment.01.Cello.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \faberge-vc-markup
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -2656,12 +2662,6 @@ segment.01.Cello.Music.Voice = {
     %! -PARTS
     %! baca.IndicatorCommand._call()
     \set Staff.instrumentName = \faberge-cello-markup
-    %! baca.margin_markup()
-    %! -PARTS
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \faberge-vc-markup
     %! baca._attach_default_indicators(3)
     %! baca._set_status_tag()
     %! DEFAULT_CLEF
