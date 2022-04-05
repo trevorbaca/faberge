@@ -3828,9 +3828,9 @@ segment.03.Flute.Music.Voice = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \p
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! faberge.glow_rhythm()
     g''8
@@ -4332,9 +4332,9 @@ segment.03.Flute.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mf
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -4519,9 +4519,9 @@ segment.03.Flute.Music.Voice = {
         %! baca.stem_tremolo()
         %! baca.IndicatorCommand._call()
         :32
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -4848,9 +4848,9 @@ segment.03.Flute.Music.Voice = {
         %! baca.stem_tremolo()
         %! baca.IndicatorCommand._call()
         :32
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g'16
@@ -5066,9 +5066,9 @@ segment.03.Flute.Music.Voice = {
         %! baca.stem_tremolo()
         %! baca.IndicatorCommand._call()
         :32
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -5418,9 +5418,9 @@ segment.03.Flute.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \mp
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -5672,9 +5672,9 @@ segment.03.Flute.Music.Voice = {
 
         %! faberge.glow_rhythm()
         g''16
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -5858,9 +5858,9 @@ segment.03.Flute.Music.Voice = {
 
         %! faberge.glow_rhythm()
         g'16
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -6016,9 +6016,9 @@ segment.03.Flute.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \f
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g'16
@@ -6819,9 +6819,9 @@ segment.03.Flute.Music.Voice = {
 
     %! faberge.glow_rhythm()
     g'8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! faberge.glow_rhythm()
     g'16
@@ -7142,9 +7142,9 @@ segment.03.Flute.Music.Voice = {
 
         %! faberge.glow_rhythm()
         g''16
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g'16
@@ -7329,9 +7329,9 @@ segment.03.Flute.Music.Voice = {
 
         %! faberge.glow_rhythm()
         g''16
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         g''16
@@ -7613,9 +7613,9 @@ segment.03.Flute.Music.Voice = {
 
         %! faberge.glow_rhythm()
         gs''16
-        \repeatTie
         %! rmakers.RewriteMeterCommand.__call__
         [
+        \repeatTie
 
         %! faberge.glow_rhythm()
         gs''!16
@@ -8665,9 +8665,9 @@ segment.03.English.Horn.Music.Voice = {
 
     %! faberge.eh_trill_rhythm()
     atqf'16
-    \repeatTie
     %! faberge.eh_trill_rhythm()
     [
+    \repeatTie
 
     %! faberge.eh_trill_rhythm()
     aqf'!8.

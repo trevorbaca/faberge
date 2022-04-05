@@ -8870,9 +8870,9 @@ segment.02.English.Horn.Music.Voice = {
     % [English_Horn_Music_Voice measure 28]
     %! faberge.eh_trill_rhythm()
     ctqs''16
-    \repeatTie
     %! faberge.eh_trill_rhythm()
     [
+    \repeatTie
 
     %! faberge.eh_trill_rhythm()
     bs'!8.
@@ -10054,9 +10054,9 @@ segment.02.English.Horn.Music.Voice = {
     % [English_Horn_Music_Voice measure 92]
     %! faberge.eh_trill_rhythm()
     gqf'16
-    \repeatTie
     %! faberge.eh_trill_rhythm()
     [
+    \repeatTie
 
     %! faberge.eh_trill_rhythm()
     gs'!8.
