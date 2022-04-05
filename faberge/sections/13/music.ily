@@ -3017,6 +3017,10 @@ segment.13.Piano.RH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3052,10 +3056,6 @@ segment.13.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3655,6 +3655,10 @@ segment.13.Piano.LH.Music.Voice = {
         %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
         <g a b c'>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3690,10 +3694,6 @@ segment.13.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -5497,6 +5497,10 @@ segment.13.Viola.Music.Voice = {
         %! REAPPLIED_MARGIN_MARKUP_ALERT
         %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Va.”]"
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -5527,10 +5531,6 @@ segment.13.Viola.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.clb_spanner()
         %! CLB_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -6322,6 +6322,10 @@ segment.13.Cello.Music.Voice = {
         %! REAPPLIED_MARGIN_MARKUP_ALERT
         %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -6387,10 +6391,6 @@ segment.13.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanCLB
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)

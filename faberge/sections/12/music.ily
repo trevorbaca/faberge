@@ -2388,6 +2388,10 @@ segment.12.Piano.RH.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \baca-f-parenthesized
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -2423,10 +2427,6 @@ segment.12.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -2986,6 +2986,10 @@ segment.12.Piano.LH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3021,10 +3025,6 @@ segment.12.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -4651,6 +4651,10 @@ segment.12.Violin.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4686,10 +4690,6 @@ segment.12.Violin.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -6577,6 +6577,10 @@ segment.12.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(4)
         %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -6612,10 +6616,6 @@ segment.12.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)

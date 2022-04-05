@@ -2994,6 +2994,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3059,10 +3063,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
         \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3159,6 +3159,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3194,10 +3198,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -3264,6 +3264,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(4)
+        %! SPANNER_STOP
+        ]
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3299,10 +3303,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(4)
-        %! SPANNER_STOP
-        ]
 
         %! baca.skeleton()
         r8
@@ -3431,6 +3431,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
         \f
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3466,10 +3470,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -3536,6 +3536,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_RH_Music_Voice measure 6]
         <g''' a''' b''' c''''>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3571,10 +3575,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -3633,6 +3633,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_RH_Music_Voice measure 7]
         <g''' a''' b''' c''''>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3668,10 +3672,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -3720,6 +3720,10 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_RH_Music_Voice measure 8]
         <g''' a''' b''' c''''>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -3755,10 +3759,6 @@ segment.07.Piano.RH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -3973,6 +3973,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         <g a b c'>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4008,10 +4012,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4078,6 +4078,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 2]
         <g a b c'>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4113,10 +4117,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -4165,6 +4165,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 3]
         <g a b c'>8
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(4)
+        %! SPANNER_STOP
+        ]
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4200,10 +4204,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(4)
-        %! SPANNER_STOP
-        ]
 
         %! baca.skeleton()
         r8
@@ -4323,6 +4323,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4358,10 +4362,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.attach_color_literal(2)
         %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -4455,6 +4455,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4490,10 +4494,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -4576,6 +4576,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4611,10 +4615,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -4681,6 +4681,10 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.markup()
         %! baca.IndicatorCommand._call()
         ^ \baca-sharp-markup
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -4716,10 +4720,6 @@ segment.07.Piano.LH.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r8
@@ -8150,6 +8150,10 @@ segment.07.Cello.Music.Voice = {
         %! baca.accent()
         %! baca.IndicatorCommand._call()
         - \accent
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8185,10 +8189,6 @@ segment.07.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
         %! baca.material_annotation_spanner()
         %! MATERIAL_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8316,6 +8316,10 @@ segment.07.Cello.Music.Voice = {
         %! baca.accent()
         %! baca.IndicatorCommand._call()
         - \accent
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8351,10 +8355,6 @@ segment.07.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r16
@@ -8437,6 +8437,10 @@ segment.07.Cello.Music.Voice = {
         %! baca.accent()
         %! baca.IndicatorCommand._call()
         - \accent
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8472,10 +8476,6 @@ segment.07.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r16
@@ -8540,6 +8540,10 @@ segment.07.Cello.Music.Voice = {
         %! baca.accent()
         %! baca.IndicatorCommand._call()
         - \accent
+        %! baca.beam()
+        %! baca.SpannerIndicatorCommand._call(2)
+        %! SPANNER_START
+        [
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(2)
@@ -8575,10 +8579,6 @@ segment.07.Cello.Music.Voice = {
         %! baca.PiecewiseCommand._call(2)
         %! SPANNER_START
         \bacaStartTextSpanRhythmAnnotation
-        %! baca.beam()
-        %! baca.SpannerIndicatorCommand._call(2)
-        %! SPANNER_START
-        [
 
         %! baca.skeleton()
         r16

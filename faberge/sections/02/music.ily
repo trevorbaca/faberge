@@ -8164,10 +8164,10 @@ segment.02.Flute.Music.Voice = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-    %! faberge.glow_rhythm()
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    %! faberge.glow_rhythm()
+    ~
 
     %! faberge.glow_rhythm()
     fs'4
