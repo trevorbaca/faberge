@@ -6,7 +6,7 @@
 \paper {
     %bottom-margin = 10\mm
     evenFooterMarkup = \markup
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         \fill-line {
             " "
             \bold
@@ -19,7 +19,7 @@
                 \hspace #3
                 —
                 \hspace #3
-                \on-the-fly #print-page-number-check-first
+                \if \should-print-page-number
                 \fromproperty #'page:page-number-string
                 \hspace #3
                 —
@@ -254,7 +254,7 @@
         autoBeaming = ##f
         % activate in score:
         barNumberFormatter = #baca-oval-bar-numbers
-        markFormatter = #format-mark-box-alphabet
+        rehearsalMarkFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
     }
