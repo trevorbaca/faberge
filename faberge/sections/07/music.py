@@ -544,7 +544,7 @@ commands(
     ),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((3, None)),
+            lambda _: baca.select.tuplets(_, (3, None)),
         ),
         counts_rotation=0,
     ),
@@ -662,7 +662,7 @@ commands(
     ),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets((3, None)),
+            lambda _: baca.select.tuplets(_, (3, None)),
         ),
         counts_rotation=-1,
         denominator=8,

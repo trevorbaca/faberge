@@ -225,7 +225,7 @@ commands(
     ),
     library.glow_rhythm(
         rmakers.force_note(
-            baca.selectors.tuplets(~abjad.Pattern([6, 7], period=18)),
+            lambda _: baca.select.tuplets(_, ~abjad.Pattern([6, 7], period=18)),
         ),
         rmakers.tie(
             baca.selectors.leaves_in_exclude_tuplets(([6, 7], 18), (None, -1)),
@@ -343,7 +343,7 @@ commands(
     library.keynoise_pitches(rotation=0),
     library.keynoise_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(([0, 4], 9)),
+            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
         tuplet_ratio_rotation=0,
     ),
@@ -928,8 +928,9 @@ commands(
     baca.pitch("E4"),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1])
+            lambda _: baca.select.tuplets(
+                _,
+                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
             ),
         ),
         counts_rotation=-10,
@@ -985,8 +986,8 @@ commands(
     baca.pitch("E4"),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
+            lambda _: baca.select.tuplets(
+                _, ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
             ),
         ),
         counts_rotation=-11,
@@ -1111,8 +1112,9 @@ commands(
     baca.pitch("E4"),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1])
+            lambda _: baca.select.tuplets(
+                _,
+                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
             ),
         ),
         counts_rotation=-11,
@@ -1171,7 +1173,8 @@ commands(
     baca.pitch("E4"),
     library.spazzolati_rhythm(
         rmakers.force_rest(
-            baca.selectors.tuplets(
+            lambda _: baca.select.tuplets(
+                _,
                 ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]),
             ),
         ),
