@@ -279,7 +279,9 @@ def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
 def downbeat_attack(*, count=1, denominator=4):
     return baca.rhythm(
         rmakers.talea([count], denominator),
-        rmakers.force_rest(baca.selectors.tuplets((1, None))),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (1, None)),
+        ),
         rmakers.force_rest(
             baca.selectors.lts((1, None)),
         ),
