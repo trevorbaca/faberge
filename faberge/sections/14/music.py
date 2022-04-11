@@ -40,21 +40,21 @@ commands(
         baca.only_parts(
             baca.rehearsal_mark(
                 "M",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "M",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "M",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
@@ -65,19 +65,19 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "80",
-        selector=baca.selectors.skip(3 - 1),
+        selector=lambda _: baca.select.skip(_, 3 - 1),
     ),
     baca.metronome_mark(
         "5:4(4)=4",
-        selector=baca.selectors.skip(3 - 1),
+        selector=lambda _: baca.select.skip(_, 3 - 1),
     ),
     baca.metronome_mark(
         "100",
-        selector=baca.selectors.skip(5 - 1),
+        selector=lambda _: baca.select.skip(_, 5 - 1),
     ),
     baca.metronome_mark(
         "5:4(4)=4",
-        selector=baca.selectors.skip(5 - 1),
+        selector=lambda _: baca.select.skip(_, 5 - 1),
     ),
 )
 
@@ -532,19 +532,19 @@ commands(
         baca.hairpin(
             "niente o< mp >o",
             final_hairpin=False,
-            map=baca.selectors.rleak_runs(None, 1),
+            map=lambda _: baca.select.rleak_runs(_, None, 1),
             pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< mf >o",
             final_hairpin=False,
-            map=baca.selectors.rleak_runs(1, 2),
+            map=lambda _: baca.select.rleak_runs(_, 1, 2),
             pieces=baca.selectors.clparts([1]),
         ),
         baca.hairpin(
             "niente o< f >o",
             final_hairpin=False,
-            map=baca.selectors.rleak_runs(2, 3),
+            map=lambda _: baca.select.rleak_runs(_, 2, 3),
             pieces=baca.selectors.clparts([1]),
         ),
     ),

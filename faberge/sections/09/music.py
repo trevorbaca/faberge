@@ -41,21 +41,21 @@ commands(
         baca.only_parts(
             baca.rehearsal_mark(
                 "H",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "H",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "H",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
@@ -64,13 +64,13 @@ commands(
 
 commands(
     "Global_Skips",
-    baca.metronome_mark("125", baca.selectors.skip(5 - 1)),
-    baca.metronome_mark("4:5(4)=4", baca.selectors.skip(5 - 1)),
+    baca.metronome_mark("125", lambda _: baca.select.skip(_, 5 - 1)),
+    baca.metronome_mark("4:5(4)=4", lambda _: baca.select.skip(_, 5 - 1)),
 )
 
 commands(
     "Global_Skips",
-    baca.close_volta(baca.selectors.skip(2 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 2 - 1)),
 )
 
 commands(
