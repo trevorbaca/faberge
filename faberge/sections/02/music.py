@@ -257,7 +257,7 @@ commands(
     baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
     library.eh_trill_rhythm(
         counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
@@ -278,7 +278,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
     library.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
@@ -299,7 +299,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
     library.eh_trill_rhythm(
         counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
@@ -320,7 +320,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
     library.eh_trill_rhythm(
         counts=[-4, -1, 15, -4, -1, 4, 23],
@@ -359,7 +359,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
     library.eh_trill_rhythm(
         counts=[-4, -1, 7, -1, 7, -1, 16, 3],
