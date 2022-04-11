@@ -191,11 +191,11 @@ commands(
     baca.flat_glissando("F#4"),
     baca.hairpin(
         "niente o< p",
-        selector=baca.selectors.tleaves((None, 2)),
+        selector=lambda _: baca.select.tleaves(_)[:2],
     ),
     baca.hairpin(
         "(p) >o",
-        selector=baca.selectors.tleaves((-1, None)),
+        selector=lambda _: baca.select.tleaves(_)[-1:],
     ),
     library.single_taper(),
 )
@@ -205,7 +205,7 @@ commands(
     baca.breathe(),
     baca.hairpin(
         "niente o< p",
-        selector=baca.selectors.tleaves((None, 2)),
+        selector=lambda _: baca.select.tleaves(_)[:2],
     ),
     baca.hairpin(
         "(p) >o",
@@ -777,7 +777,7 @@ commands(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 

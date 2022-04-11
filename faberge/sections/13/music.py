@@ -209,7 +209,7 @@ commands(
         "pp < p > pp",
         map=baca.selectors.runs(),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
-        selector=baca.selectors.tleaves((None, -1)),
+        selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
 )
 
@@ -242,7 +242,7 @@ commands(
         "p < mp > p",
         map=baca.selectors.runs(),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
-        selector=baca.selectors.tleaves((None, -1)),
+        selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
     baca.pitch(
         "Ab2",
@@ -296,7 +296,7 @@ commands(
         "2-1 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.pitch("<G3 A3 C4>"),
 )
@@ -459,7 +459,7 @@ commands(
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -508,7 +508,7 @@ commands(
     baca.material_annotation_spanner(
         "4-3 =|",
         abjad.Tweak(r"- \tweak staff-padding 9.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staccato(
         selector=baca.selectors.pheads(),
@@ -612,7 +612,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 

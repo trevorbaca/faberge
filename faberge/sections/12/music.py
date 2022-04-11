@@ -313,7 +313,7 @@ commands(
         "A.2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -347,7 +347,7 @@ commands(
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -389,7 +389,7 @@ commands(
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.dynamic(
@@ -474,7 +474,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.dynamic(
@@ -507,7 +507,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
@@ -559,7 +559,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.clb_staff_positions(),
     library.clb_rhythm(

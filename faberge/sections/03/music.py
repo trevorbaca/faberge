@@ -153,7 +153,7 @@ commands(
     baca.hairpin(
         "niente o< mp >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.glow_rhythm(
         rmakers.force_note(
@@ -599,7 +599,7 @@ commands(
     baca.hairpin(
         "niente o< pp >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.glow_rhythm(
         rmakers.force_note(
@@ -873,7 +873,9 @@ commands(
     baca.dls_staff_padding(8),
     baca.hairpin(
         '"ff" >o niente',
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
 )
 
@@ -943,11 +945,11 @@ commands(
     baca.chunk(
         baca.hairpin(
             "niente o< p",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             "(p) >o",
-            selector=baca.selectors.tleaves((-1, None)),
+            selector=lambda _: baca.select.tleaves(_)[-1:],
         ),
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
@@ -1058,7 +1060,7 @@ commands(
     baca.chunk(
         baca.hairpin(
             "niente o< pp",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             "(pp) >o !",
@@ -1076,7 +1078,7 @@ commands(
     baca.chunk(
         baca.hairpin(
             "o< pp",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             "(pp) >o !",
@@ -1099,7 +1101,7 @@ commands(
     baca.chunk(
         baca.hairpin(
             "niente o< ppp",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             "(ppp) >o !",
@@ -1548,7 +1550,9 @@ commands(
     ("va", (13, 22)),
     baca.hairpin(
         '("ff") >o niente',
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
 )
 
@@ -1595,7 +1599,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(10),
     baca.staccato(
@@ -1716,7 +1720,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(10),
     baca.dynamic('"mf"'),

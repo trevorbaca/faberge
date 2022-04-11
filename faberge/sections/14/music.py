@@ -96,7 +96,7 @@ commands(
         "1-1 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(0),
     library.airtone_chain_rhythm(20, [1, 3, 5]),
@@ -226,7 +226,7 @@ commands(
         "p < mp > p",
         map=baca.selectors.runs(),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
-        selector=baca.selectors.tleaves((None, -1)),
+        selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
 )
 
@@ -252,7 +252,7 @@ commands(
         "pp < p > pp",
         map=baca.selectors.runs(),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
-        selector=baca.selectors.tleaves((None, -1)),
+        selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
 )
 
@@ -451,7 +451,7 @@ commands(
         "1-1 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(0),
     library.airtone_chain_rhythm(20, [0, 2, 4]),
@@ -515,7 +515,7 @@ commands(
         "1-1 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
