@@ -147,7 +147,7 @@ commands(
     baca.staff_lines(1),
     baca.staff_lines(
         5,
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.staff_position(0),
 )

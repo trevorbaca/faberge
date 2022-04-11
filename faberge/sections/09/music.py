@@ -807,7 +807,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.dynamic(
         "!",
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.hairpin(
         "pp p >o",

@@ -248,7 +248,7 @@ commands(
 commands(
     ("rh", [4, 5, 6, 7, 8]),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
     baca.stopped(
         selector=baca.selectors.pheads(),

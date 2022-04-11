@@ -354,7 +354,7 @@ commands(
     ("perc", (5, 6)),
     baca.dynamic("p"),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
     baca.markup(
         r"\baca-bd-struck-markup",
