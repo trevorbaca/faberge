@@ -140,7 +140,7 @@ commands(
         "o< mf >o niente",
         map=lambda _: baca.select.runs(_),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
         "4-4 =|",

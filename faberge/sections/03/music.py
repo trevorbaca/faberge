@@ -1140,7 +1140,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         left_broken_text=r"\faberge-left-broken-rf-two-markup",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1310,7 +1310,7 @@ commands(
     baca.hairpin(
         "ppp < pp >o niente",
         pieces=lambda _: baca.mgroups(_, [2, 6 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1442,7 +1442,7 @@ commands(
     ("vn", (53, 56)),
     baca.hairpin(
         '"p" < "mf"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1582,7 +1582,7 @@ commands(
     ("va", (53, 56)),
     baca.hairpin(
         '"p" < "mf"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1641,19 +1641,19 @@ commands(
     ("vc", (9, 12)),
     baca.hairpin(
         "(p) < ff",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "(tasto) -> molto pont.",
         abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.vibrato_spanner(
         "(poco vib.) -> vib. molto",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         bookend=-1,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1661,7 +1661,7 @@ commands(
     ("vc", (23, 26)),
     baca.hairpin(
         "(ff) > p",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1671,13 +1671,13 @@ commands(
         "(molto pont.) -> tasto",
         abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.vibrato_spanner(
         "(vib. molto) -> poco vib.",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         bookend=-1,
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

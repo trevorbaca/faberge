@@ -272,7 +272,7 @@ def dal_niente_hairpins(stop: str):
     return baca.hairpin(
         f"niente o< {stop}",
         map=lambda _: baca.select.runs(_),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     )
 
 
@@ -403,22 +403,22 @@ def increasing_dal_niente_hairpins():
         baca.hairpin(
             "niente o< p",
             map=lambda _: baca.select.runs(_)[:1],
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.hairpin(
             "niente o< mp",
             map=lambda _: baca.select.runs(_)[1:2],
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.hairpin(
             "niente o< mf",
             map=lambda _: baca.select.runs(_)[2:4],
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.hairpin(
             "niente o< f",
             map=lambda _: baca.select.runs(_)[4:],
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -495,7 +495,7 @@ def niente_swells(dynamic: str):
         ),
         baca.hairpin(
             f"({dynamic}) >o niente",
-            selector=baca.selectors.rleaves((-2, None)),
+            selector=lambda _: baca.select.rleaves(_)[-2:],
         ),
         map=lambda _: [x for x in baca.ntruns(_) if 2 < len(x)],
     )

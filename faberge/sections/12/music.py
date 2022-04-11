@@ -117,7 +117,7 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -133,7 +133,7 @@ commands(
     baca.hairpin(
         "o< p >o niente",
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -329,7 +329,7 @@ commands(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
     baca.markup(
@@ -413,7 +413,7 @@ commands(
     (["vn", "vc"], 1),
     baca.hairpin(
         '"pp" < "mf"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

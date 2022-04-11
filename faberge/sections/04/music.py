@@ -106,12 +106,12 @@ commands(
     baca.chunk(
         baca.hairpin(
             'o< "mp"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((1, 2)),
         ),
     ),
@@ -370,22 +370,22 @@ commands(
     baca.chunk(
         baca.hairpin(
             'o< "mp"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((None, 1)),
         ),
         baca.hairpin(
             'o< "mf"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((1, 3)),
         ),
         baca.hairpin(
             'o< "f"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((3, 5)),
         ),
         baca.hairpin(
             'o< "ff"',
-            selector=baca.selectors.rleaves(),
+            selector=lambda _: baca.select.rleaves(_),
             map=baca.selectors.plts((5, 7)),
         ),
     ),

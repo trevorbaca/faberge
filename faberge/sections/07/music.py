@@ -169,7 +169,7 @@ commands(
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -495,7 +495,7 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -639,7 +639,7 @@ commands(
     baca.dynamic_text_x_extent_zero(),
     baca.hairpin(
         '("mf") >o niente',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.hairpin_shorten_pair((4, 0)),
 )
