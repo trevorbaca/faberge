@@ -171,17 +171,17 @@ commands(
     baca.hairpin(
         'o< "mf"',
         selector=lambda _: baca.select.rleaves(_),
-        map=baca.selectors.plts((None, 1)),
+        map=lambda _: baca.select.plts(_)[:1],
     ),
     baca.hairpin(
         'o< "f"',
         selector=lambda _: baca.select.rleaves(_),
-        map=baca.selectors.plts((1, 2)),
+        map=lambda _: baca.select.plts(_)[1:2],
     ),
     baca.hairpin(
         'o< "ff"',
         selector=lambda _: baca.select.rleaves(_),
-        map=baca.selectors.plts((2, 3)),
+        map=lambda _: baca.select.plts(_)[2:3],
     ),
 )
 
@@ -376,7 +376,7 @@ commands(
     baca.staff_position(0),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -491,7 +491,7 @@ commands(
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     library.back_incised_divisions(),
 )

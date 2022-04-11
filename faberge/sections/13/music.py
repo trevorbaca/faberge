@@ -194,7 +194,7 @@ commands(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -246,7 +246,7 @@ commands(
     ),
     baca.pitch(
         "Ab2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
     library.bcl_color_fingering_rhythm(),
 )
@@ -382,7 +382,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -600,7 +600,7 @@ commands(
     baca.pitch("Eb3"),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     library.back_incised_divisions(),
 )

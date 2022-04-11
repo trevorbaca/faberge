@@ -107,12 +107,12 @@ commands(
         baca.hairpin(
             'o< "mp"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((None, 1)),
+            map=lambda _: baca.select.plts(_)[:1],
         ),
         baca.hairpin(
             'o< "mf"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((1, 2)),
+            map=lambda _: baca.select.plts(_)[1:2],
         ),
     ),
     baca.dls_staff_padding(6),
@@ -371,22 +371,22 @@ commands(
         baca.hairpin(
             'o< "mp"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((None, 1)),
+            map=lambda _: baca.select.plts(_)[:1],
         ),
         baca.hairpin(
             'o< "mf"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((1, 3)),
+            map=lambda _: baca.select.plts(_)[1:3],
         ),
         baca.hairpin(
             'o< "f"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((3, 5)),
+            map=lambda _: baca.select.plts(_)[3:5],
         ),
         baca.hairpin(
             'o< "ff"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((5, 7)),
+            map=lambda _: baca.select.plts(_)[5:7],
         ),
     ),
     library.airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
