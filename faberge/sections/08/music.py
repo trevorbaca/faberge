@@ -465,7 +465,7 @@ commands(
     (["perc", "vn", "vc"], (4, 5)),
     baca.hairpin(
         'o< "f"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
         map=baca.selectors.plts(),
     ),
 )

@@ -124,7 +124,7 @@ commands(
     baca.hairpin(
         "o< mf >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.skeleton(
         "{ c2. c2. }",
@@ -156,7 +156,7 @@ commands(
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
         "3-7 -|",
@@ -190,7 +190,7 @@ commands(
             baca.pleaves(_), [2], overhang=True
         ),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
         "4-5 -|",
@@ -201,7 +201,7 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=lambda _: baca.select.runs(_),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -272,7 +272,7 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=lambda _: baca.select.runs(_),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     library.downbeat_attack(denominator=2),
 )
@@ -712,7 +712,7 @@ commands(
     baca.clef("bass"),
     baca.hairpin(
         "p < f-poco-scratch",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

@@ -568,7 +568,7 @@ commands(
         autodetect_right_padding=True,
         bookend=False,
         left_broken_text=r"\faberge-left-broken-rf-one-markup",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1055,7 +1055,7 @@ commands(
     ("va", (17, 22)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1071,7 +1071,7 @@ commands(
     ("va", (31, 36)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1087,7 +1087,7 @@ commands(
     ("va", (47, 52)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1134,7 +1134,7 @@ commands(
     ("va", (71, 76)),
     baca.hairpin(
         "pp < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -1236,7 +1236,7 @@ commands(
     ("vc", (1, 16)),
     baca.hairpin(
         "p < f",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "tasto -> PO",
@@ -1250,7 +1250,7 @@ commands(
     ("vc", (23, 36)),
     baca.hairpin(
         "f > p",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "(PO) -> tasto",
@@ -1264,7 +1264,7 @@ commands(
     ("vc", (47, 54)),
     baca.hairpin(
         "p < ff",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.scp_spanner(
         "(tasto) -> poco pont.",

@@ -559,7 +559,7 @@ commands(
         "mp p >o",
         bookend=False,
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -569,7 +569,7 @@ commands(
         "p pp >o niente",
         bookend=False,
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

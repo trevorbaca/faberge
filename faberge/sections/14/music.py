@@ -170,17 +170,17 @@ commands(
     (["fl", "vn"], (1, 3)),
     baca.hairpin(
         'o< "mf"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
         map=baca.selectors.plts((None, 1)),
     ),
     baca.hairpin(
         'o< "f"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
         map=baca.selectors.plts((1, 2)),
     ),
     baca.hairpin(
         'o< "ff"',
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
         map=baca.selectors.plts((2, 3)),
     ),
 )
@@ -281,7 +281,7 @@ commands(
         "o< mf >o niente",
         map=lambda _: baca.select.runs(_),
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
         "4-5 / 5-1 =|",
@@ -570,7 +570,7 @@ commands(
     baca.hairpin(
         "o< p >o niente",
         pieces=baca.selectors.lparts([1, 1 + 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("F2"),
     baca.stem_tremolo(

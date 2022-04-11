@@ -168,7 +168,7 @@ commands(
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
         "3-7 =|",
@@ -204,7 +204,7 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=baca.selectors.plts(),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -387,7 +387,7 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         abjad.Tweak(r"- \tweak staff-padding 7"),
         map=baca.selectors.plts(),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -500,7 +500,7 @@ commands(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -587,7 +587,7 @@ commands(
     baca.string_number_spanner(
         "IV =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.suite(
         baca.untie(baca.selectors.pleaves()),
@@ -647,7 +647,7 @@ commands(
     ),
     baca.hairpin(
         "mp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
