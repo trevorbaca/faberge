@@ -203,7 +203,7 @@ commands(
     baca.pitch("A5"),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -386,7 +386,7 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         abjad.Tweak(r"- \tweak staff-padding 7"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.staff_position(1),

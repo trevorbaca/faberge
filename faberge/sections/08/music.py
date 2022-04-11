@@ -126,7 +126,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.trill_spanner_staff_padding(5.5),
 )
@@ -466,7 +466,7 @@ commands(
     baca.hairpin(
         'o< "f"',
         selector=lambda _: baca.select.rleaves(_),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 

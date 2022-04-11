@@ -227,7 +227,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     baca.trill_spanner_staff_padding(5.5),
 )
@@ -378,10 +378,10 @@ commands(
 commands(
     ("vn", [(1, 7), 9]),
     baca.quadruple_staccato(
-        selector=baca.selectors.plts(([0], 4)),
+        selector=lambda _: abjad.select.get(baca.select.plts(_), [0], 4),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.plts(omit=([0], 4)),
+        selector=lambda _: abjad.select.get(baca.select.plts(_), [1, 2, 3], 4),
     ),
 )
 
@@ -672,10 +672,14 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.quadruple_staccato(
-        selector=baca.selectors.plts(([0], 4), exclude=baca.const.HIDDEN),
+        selector=lambda _: abjad.select.get(
+            baca.select.plts(_, exclude=baca.const.HIDDEN), [0], 4,
+        ),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN, omit=([0], 4)),
+        selector=lambda _: abjad.select.get(
+            baca.select.plts(_, exclude=baca.const.HIDDEN), [1, 2, 3], 4,
+        ),
     ),
 )
 

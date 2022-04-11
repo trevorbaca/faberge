@@ -194,7 +194,7 @@ commands(
     ("eh", [4, 5, 8]),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -494,7 +494,7 @@ commands(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )

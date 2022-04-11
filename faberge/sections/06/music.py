@@ -379,7 +379,7 @@ commands(
     baca.staff_position(1),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     library.downbeat_attack(),
 )

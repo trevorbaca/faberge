@@ -173,7 +173,7 @@ commands(
     ),
     baca.pitch(
         "F2",
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
     library.bcl_color_fingering_rhythm(
         rmakers.force_rest(
@@ -357,7 +357,7 @@ commands(
     baca.pitch("F3"),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
-        map=baca.selectors.plts(),
+        map=lambda _: baca.select.plts(_),
     ),
     library.back_incised_divisions(),
 )

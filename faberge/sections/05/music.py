@@ -282,22 +282,22 @@ commands(
         baca.hairpin(
             'o< "f"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((None, 1)),
+            map=lambda _: baca.select.plts(_)[:1],
         ),
         baca.hairpin(
             'o< "mf"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((1, 2)),
+            map=lambda _: baca.select.plts(_)[1:2],
         ),
         baca.hairpin(
             'o< "mp"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((2, 4)),
+            map=lambda _: baca.select.plts(_)[2:4],
         ),
         baca.hairpin(
             'o< "p"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((4, 6)),
+            map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
     baca.dynamic(
@@ -339,22 +339,22 @@ commands(
         baca.hairpin(
             'o< "f"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((None, 1)),
+            map=lambda _: baca.select.plts(_)[:1],
         ),
         baca.hairpin(
             'o< "mf"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((1, 2)),
+            map=lambda _: baca.select.plts(_)[1:2],
         ),
         baca.hairpin(
             'o< "mp"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((2, 4)),
+            map=lambda _: baca.select.plts(_)[2:4],
         ),
         baca.hairpin(
             'o< "p"',
             selector=lambda _: baca.select.rleaves(_),
-            map=baca.selectors.plts((4, 6)),
+            map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
     library.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
