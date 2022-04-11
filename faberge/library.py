@@ -179,7 +179,7 @@ def airtone_chain_rhythm(
     )
 
 
-def back_incised_divisions() -> baca.RhythmCommand:
+def back_incised_divisions():
     return baca.rhythm(
         rmakers.incised(suffix_talea=[-1], suffix_counts=[1], talea_denominator=4),
         rmakers.beam(),
@@ -215,7 +215,7 @@ def bcl_color_fingerings(*tweaks, rotation=None):
     return baca.color_fingerings(numbers, *tweaks)
 
 
-def bfl_color_fingerings(*tweaks) -> baca.ColorFingeringCommand:
+def bfl_color_fingerings(*tweaks):
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
@@ -268,10 +268,10 @@ def clb_staff_positions(*, rotation=None):
     return baca.staff_positions(staff_positions, allow_repeats=True)
 
 
-def dal_niente_hairpins(stop: str) -> baca.PiecewiseCommand:
+def dal_niente_hairpins(stop: str):
     return baca.hairpin(
         f"niente o< {stop}",
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         selector=baca.selectors.rleaves(),
     )
 
@@ -397,27 +397,27 @@ def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
     )
 
 
-def increasing_dal_niente_hairpins() -> baca.Suite:
+def increasing_dal_niente_hairpins():
 
     return baca.chunk(
         baca.hairpin(
             "niente o< p",
-            map=baca.selectors.runs((None, 1)),
+            map=lambda _: baca.select.runs(_)[:1],
             selector=baca.selectors.rleaves(),
         ),
         baca.hairpin(
             "niente o< mp",
-            map=baca.selectors.runs((1, 2)),
+            map=lambda _: baca.select.runs(_)[1:2],
             selector=baca.selectors.rleaves(),
         ),
         baca.hairpin(
             "niente o< mf",
-            map=baca.selectors.runs((2, 4)),
+            map=lambda _: baca.select.runs(_)[2:4],
             selector=baca.selectors.rleaves(),
         ),
         baca.hairpin(
             "niente o< f",
-            map=baca.selectors.runs((4, None)),
+            map=lambda _: baca.select.runs(_)[4:],
             selector=baca.selectors.rleaves(),
         ),
     )
@@ -481,7 +481,7 @@ def margin_markup(
     return baca.not_parts(command)
 
 
-def niente_swells(dynamic: str) -> baca.Suite:
+def niente_swells(dynamic: str):
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
@@ -501,7 +501,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
     )
 
 
-def piano_attack_rhythm() -> baca.RhythmCommand:
+def piano_attack_rhythm():
     return baca.rhythm(
         rmakers.incised(
             fill_with_rests=True,
@@ -516,11 +516,11 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
     )
 
 
-def piano_clusters() -> baca.ClusterCommand:
+def piano_clusters():
     return baca.clusters([4], start_pitch="C2")
 
 
-def ratchet_rhythm() -> baca.RhythmCommand:
+def ratchet_rhythm():
     return baca.rhythm(
         rmakers.accelerando([(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]),
         rmakers.duration_bracket(),
@@ -656,7 +656,7 @@ def shell_exchange_rhythm(
     )
 
 
-def single_swell(dynamic: str) -> baca.Suite:
+def single_swell(dynamic: str):
     return baca.chunk(
         baca.hairpin(
             f"niente o< {dynamic}",
@@ -724,7 +724,7 @@ def spazzolati_rhythm(
     )
 
 
-def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
+def suffixed_colortrill_rhythm():
     return baca.rhythm(
         rmakers.incised(
             extra_counts=[1],

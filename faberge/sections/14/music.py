@@ -224,7 +224,7 @@ commands(
     ("cl", (2, 5)),
     baca.hairpin(
         "p < mp > p",
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
         selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
@@ -250,7 +250,7 @@ commands(
     ("cl", (6, 8)),
     baca.hairpin(
         "pp < p > pp",
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
         selector=lambda _: baca.select.tleaves(_)[:-1],
     ),
@@ -279,7 +279,7 @@ commands(
     ("eh", (1, 6)),
     baca.hairpin(
         "o< mf >o niente",
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         pieces=baca.selectors.lparts([1, 1 + 1]),
         selector=baca.selectors.rleaves(),
     ),
@@ -289,7 +289,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
     ),
 )
 

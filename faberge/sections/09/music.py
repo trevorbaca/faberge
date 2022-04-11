@@ -200,7 +200,7 @@ commands(
     baca.pitch("A4"),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         selector=baca.selectors.rleaves(),
     ),
 )
@@ -271,7 +271,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         selector=baca.selectors.rleaves(),
     ),
     library.downbeat_attack(denominator=2),

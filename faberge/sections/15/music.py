@@ -164,7 +164,7 @@ commands(
     baca.dls_staff_padding(8),
     baca.hairpin(
         "pp < p > pp",
-        map=baca.selectors.runs(),
+        map=lambda _: baca.select.runs(_),
         pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
     ),
     baca.material_annotation_spanner(
