@@ -218,12 +218,12 @@ commands(
     baca.dls_staff_padding(6),
     baca.hairpin(
         "f >o niente",
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.material_annotation_spanner(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),

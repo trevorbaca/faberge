@@ -112,7 +112,7 @@ commands(
         "1-2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -389,7 +389,7 @@ commands(
     baca.stem_up(),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -399,7 +399,7 @@ commands(
         "A.2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -432,7 +432,7 @@ commands(
         "1-2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -532,7 +532,7 @@ commands(
         "1-2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(0),
     library.airtone_chain_rhythm(6, [1, 4]),
@@ -746,7 +746,7 @@ commands(
         "1-2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(0),
     library.airtone_chain_rhythm(6, [0, 3]),

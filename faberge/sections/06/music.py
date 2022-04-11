@@ -458,7 +458,7 @@ commands(
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(8),
 )
@@ -622,7 +622,7 @@ commands(
     baca.clb_spanner(
         2,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.dls_staff_padding(8),
 )

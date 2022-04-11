@@ -84,7 +84,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
 )
 
@@ -164,7 +166,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
     baca.staff_position(0),
 )
@@ -177,7 +181,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
 )
 
@@ -226,7 +232,7 @@ commands(
     baca.material_annotation_spanner(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staff_position(0),
 )
@@ -264,7 +270,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
 )
 
@@ -319,7 +327,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
 )
 
@@ -358,7 +368,9 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(exclude=baca.const.HIDDEN, rleak=True),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.const.HIDDEN, rleak=True
+        ),
     ),
 )
 
@@ -368,7 +380,7 @@ commands(
     baca.string_number_spanner(
         "IV =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.suite(
         baca.untie(baca.selectors.pleaves()),

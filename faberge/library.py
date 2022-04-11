@@ -491,7 +491,7 @@ def niente_swells(dynamic: str) -> baca.Suite:
     return baca.chunk(
         baca.hairpin(
             f"niente o< {dynamic}",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             f"({dynamic}) >o niente",
@@ -660,11 +660,11 @@ def single_swell(dynamic: str) -> baca.Suite:
     return baca.chunk(
         baca.hairpin(
             f"niente o< {dynamic}",
-            selector=baca.selectors.tleaves((None, 2)),
+            selector=lambda _: baca.select.tleaves(_)[:2],
         ),
         baca.hairpin(
             f"({dynamic}) >o",
-            selector=baca.selectors.tleaves((-1, None)),
+            selector=lambda _: baca.select.tleaves(_)[-1:],
         ),
     )
 

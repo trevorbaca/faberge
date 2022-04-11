@@ -190,7 +190,7 @@ commands(
     baca.material_annotation_spanner(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.pitch("Db5"),
     baca.trill_spanner(
@@ -827,7 +827,7 @@ commands(
         "1-1 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.tleaves(rleak=True),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
