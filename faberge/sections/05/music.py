@@ -41,21 +41,21 @@ commands(
         baca.only_parts(
             baca.rehearsal_mark(
                 "D",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "D",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "D",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
@@ -64,8 +64,8 @@ commands(
 
 commands(
     "Global_Skips",
-    baca.metronome_mark("4:5(4)=4", baca.selectors.skip(1 - 1)),
-    baca.metronome_mark("41", baca.selectors.skip(1 - 1)),
+    baca.metronome_mark("4:5(4)=4", lambda _: baca.select.skip(_, 1 - 1)),
+    baca.metronome_mark("41", lambda _: baca.select.skip(_, 1 - 1)),
 )
 
 commands(
@@ -302,7 +302,7 @@ commands(
     ),
     baca.dynamic(
         '"ff"',
-        selector=baca.selectors.rest(0),
+        selector=lambda _: baca.select.rest(_, 0),
     ),
     library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
 )
@@ -393,25 +393,25 @@ commands(
             baca.hairpin(
                 "niente o< mf >o",
                 final_hairpin=False,
-                map=baca.selectors.rleak_runs(None, 1),
+                map=lambda _: baca.select.rleak_runs(_, None, 1),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< mp >o",
                 final_hairpin=False,
-                map=baca.selectors.rleak_runs(1, 2),
+                map=lambda _: baca.select.rleak_runs(_, 1, 2),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< p >o",
                 final_hairpin=False,
-                map=baca.selectors.rleak_runs(2, 4),
+                map=lambda _: baca.select.rleak_runs(_, 2, 4),
                 pieces=baca.selectors.clparts([1]),
             ),
             baca.hairpin(
                 "niente o< pp >o",
                 final_hairpin=False,
-                map=baca.selectors.rleak_runs(4, 6),
+                map=lambda _: baca.select.rleak_runs(_, 4, 6),
                 pieces=baca.selectors.clparts([1]),
             ),
         ),

@@ -40,21 +40,21 @@ commands(
         baca.only_parts(
             baca.rehearsal_mark(
                 "J",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "J",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "J",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
@@ -65,26 +65,26 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "100",
-        selector=baca.selectors.skip(1 - 1),
+        selector=lambda _: baca.select.skip(_, 1 - 1),
     ),
     baca.metronome_mark(
         "4:5(4)=4",
-        selector=baca.selectors.skip(1 - 1),
+        selector=lambda _: baca.select.skip(_, 1 - 1),
     ),
     baca.metronome_mark(
         "156",
-        selector=baca.selectors.skip(3 - 1),
+        selector=lambda _: baca.select.skip(_, 3 - 1),
     ),
     baca.metronome_mark(
         "100",
-        selector=baca.selectors.skip(4 - 1),
+        selector=lambda _: baca.select.skip(_, 4 - 1),
     ),
 )
 
 commands(
     "Global_Skips",
-    baca.open_volta(baca.selectors.skip(2 - 1)),
-    baca.close_volta(baca.selectors.skip(6 - 1)),
+    baca.open_volta(lambda _: baca.select.skip(_, 2 - 1)),
+    baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
 # fl
@@ -599,7 +599,7 @@ commands(
         baca.hairpin(
             "niente o< p >o",
             final_hairpin=False,
-            map=baca.selectors.rleak_runs(),
+            map=lambda _: baca.select.rleak_runs(_),
             pieces=baca.selectors.clparts([1]),
         ),
     ),

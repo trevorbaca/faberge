@@ -54,21 +54,21 @@ commands(
         baca.only_parts(
             baca.rehearsal_mark(
                 "B",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
             ),
         ),
         baca.only_score(
             baca.rehearsal_mark(
                 "B",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
         baca.only_segment(
             baca.rehearsal_mark(
                 "B",
-                baca.selectors.skip(1 - 1),
+                lambda _: baca.select.skip(_, 1 - 1),
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
