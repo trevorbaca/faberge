@@ -180,7 +180,7 @@ commands(
 commands(
     ("rh", [1, 2, 3]),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
     baca.stopped(
         selector=baca.selectors.pheads(),

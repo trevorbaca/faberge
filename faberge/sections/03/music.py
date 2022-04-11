@@ -1241,13 +1241,13 @@ commands(
 commands(
     ("perc", 1),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(),
+        selector=lambda _: baca.select.ptails(_),
     ),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
-        selector=baca.selectors.ptail(0),
+        selector=lambda _: baca.select.ptail(_, 0),
     ),
     baca.pitch("G4"),
     library.dal_niente_hairpins("ff"),
@@ -1383,7 +1383,7 @@ commands(
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
-        selector=baca.selectors.ptail(0),
+        selector=lambda _: baca.select.ptail(_, 0),
     ),
     baca.pitch("G6"),
     library.dal_niente_hairpins("ff"),

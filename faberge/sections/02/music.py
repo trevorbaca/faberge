@@ -544,7 +544,7 @@ commands(
     baca.breathe(),
     baca.dynamic(
         "niente",
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
     baca.flat_glissando("Dqs2"),
     library.single_swell("p"),
@@ -650,9 +650,7 @@ commands(
     ("perc", (1, 80)),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=lambda _: baca.select.ptails(_, exclude=baca.const.HIDDEN),
     ),
     baca.markup(
         r"\baca-crotales-bowed-markup",
@@ -802,9 +800,7 @@ commands(
     baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.selectors.ptails(
-            exclude=baca.const.HIDDEN,
-        ),
+        selector=lambda _: baca.select.ptails(_, exclude=baca.const.HIDDEN),
     ),
     baca.pitch("F#4"),
     baca.markup(
