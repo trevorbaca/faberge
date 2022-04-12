@@ -756,13 +756,13 @@ commands(
     ("vc", [5, 6, 7, 9]),
     baca.chunk(
         baca.down_bow(
-            baca.selectors.pheads(([0], 2)),
+            lambda _: abjad.select.get(baca.select.pheads(_), [0], 2),
             abjad.Tweak(r"- \tweak padding 1"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             full=True,
         ),
         baca.up_bow(
-            baca.selectors.pheads(([1], 2)),
+            lambda _: abjad.select.get(baca.select.pheads(_), [1], 2),
             abjad.Tweak(r"- \tweak padding 1"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
         ),

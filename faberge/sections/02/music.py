@@ -971,7 +971,7 @@ commands(
     ("vn", (81, 88)),
     baca.chunk(
         baca.beam(
-            selector=baca.selectors.pleaves((None, 2)),
+            selector=lambda _: baca.select.pleaves(_)[:2],
         ),
         baca.beam(
             selector=baca.selectors.leaves((-4, None)),
@@ -1032,7 +1032,7 @@ commands(
         selector=lambda _: baca.select.leaves(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1149,7 +1149,7 @@ commands(
         selector=lambda _: baca.select.ltleaves(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1203,7 +1203,7 @@ commands(
         selector=lambda _: baca.select.ltleaves(_),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -141,7 +141,7 @@ commands(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),

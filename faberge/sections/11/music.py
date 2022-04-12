@@ -124,7 +124,7 @@ commands(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -200,7 +200,7 @@ commands(
         "4-5 -|",
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.pleaves(rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.pleaves(_)),
     ),
     baca.pitch("A5"),
     baca.trill_spanner(
@@ -383,7 +383,7 @@ commands(
         "4-5 -|",
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 14.5"),
-        selector=baca.selectors.pleaves(rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.pleaves(_)),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -506,7 +506,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -547,7 +547,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
 )
 
@@ -653,7 +653,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
