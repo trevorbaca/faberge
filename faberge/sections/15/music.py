@@ -177,7 +177,7 @@ commands(
     ),
     library.bcl_color_fingering_rhythm(
         rmakers.force_rest(
-            baca.selectors.lts(([6, 7, 12, 17])),
+            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
         ),
     ),
     library.bcl_color_fingerings(
@@ -227,7 +227,7 @@ commands(
     baca.dls_staff_padding(6),
     baca.hairpin(
         "o<| f",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
     baca.laissez_vibrer(),
     baca.markup(

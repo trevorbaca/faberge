@@ -270,7 +270,7 @@ commands(
     ("perc", 1),
     baca.hairpin(
         "o<| mp",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 
@@ -297,7 +297,7 @@ commands(
     ("perc", 3),
     baca.hairpin(
         "o<| p",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
 )
 

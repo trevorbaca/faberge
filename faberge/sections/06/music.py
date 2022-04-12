@@ -177,7 +177,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=baca.selectors.leaves((None, 3)),
+        selector=lambda _: baca.select.leaves(_)[:3],
     ),
     library.suffixed_colortrill_rhythm(),
 )
@@ -436,7 +436,7 @@ commands(
         autodetect_right_padding=False,
         bookend=-1,
         pieces=lambda _: baca.select.lparts(_, [1, 2]),
-        selector=baca.selectors.leaves((-3, None)),
+        selector=lambda _: baca.select.leaves(_)[-3:],
     ),
 )
 
@@ -567,7 +567,7 @@ commands(
         autodetect_right_padding=False,
         bookend=-1,
         pieces=lambda _: baca.select.lparts(_, [1, 2]),
-        selector=baca.selectors.leaves((None, 3)),
+        selector=lambda _: baca.select.leaves(_)[:3],
     ),
 )
 

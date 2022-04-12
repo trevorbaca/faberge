@@ -110,7 +110,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=baca.selectors.leaves((None, 3)),
+        selector=lambda _: baca.select.leaves(_)[:3],
     ),
     library.suffixed_colortrill_rhythm(),
 )

@@ -974,7 +974,7 @@ commands(
             selector=lambda _: baca.select.pleaves(_)[:2],
         ),
         baca.beam(
-            selector=baca.selectors.leaves((-4, None)),
+            selector=lambda _: baca.select.leaves(_)[-4:],
         ),
         measures=87,
     ),

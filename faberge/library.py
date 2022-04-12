@@ -283,7 +283,7 @@ def downbeat_attack(*, count=1, denominator=4):
             lambda _: baca.select.tuplets(_, (1, None)),
         ),
         rmakers.force_rest(
-            baca.selectors.lts((1, None)),
+            lambda _: baca.select.lts(_)[1:],
         ),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
