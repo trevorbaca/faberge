@@ -292,7 +292,7 @@ commands(
     ("rh", 4),
     baca.clef(
         "bass",
-        selector=baca.selectors.leaf(-2),
+        selector=lambda _: abjad.select.leaf(_, -2),
     ),
     baca.dynamic(
         "f-sempre",

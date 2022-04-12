@@ -81,11 +81,11 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(2 - 1),
+        selector=lambda _: abjad.select.leaf(_, 2 - 1),
     ),
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(7 - 1),
+        selector=lambda _: abjad.select.leaf(_, 7 - 1),
     ),
 )
 

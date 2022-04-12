@@ -64,9 +64,9 @@ commands(
 commands(
     "Global_Skips",
     baca.metronome_mark("64", lambda _: baca.select.skip(_, 1 - 1)),
-    baca.metronome_mark("4:5(4)=4", baca.selectors.leaf(1 - 1)),
+    baca.metronome_mark("4:5(4)=4", lambda _: abjad.select.leaf(_, 1 - 1)),
     baca.metronome_mark("51", lambda _: baca.select.skip(_, 5 - 1)),
-    baca.metronome_mark("4:5(4)=4", baca.selectors.leaf(5 - 1)),
+    baca.metronome_mark("4:5(4)=4", lambda _: abjad.select.leaf(_, 5 - 1)),
 )
 
 # fl
@@ -81,7 +81,7 @@ commands(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -135,7 +135,7 @@ commands(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -163,7 +163,7 @@ commands(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -303,7 +303,7 @@ commands(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
 )
 
@@ -360,7 +360,7 @@ commands(
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.staff_position(0),
 )
@@ -409,7 +409,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.suite(
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",

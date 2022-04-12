@@ -77,7 +77,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(8 - 1),
+        selector=lambda _: abjad.select.leaf(_, 8 - 1),
     ),
 )
 
@@ -98,7 +98,7 @@ commands(
     baca.hairpin(
         "o< f >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.skeleton(
         "{ c2. c2. r2 }",
@@ -136,7 +136,7 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.skeleton(
         "{ c2. c2. r2 }",
@@ -528,7 +528,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.clparts(_, [1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -568,7 +568,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.clparts(_, [1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -603,7 +603,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.clparts(_, [1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -638,7 +638,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.clparts(_, [1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 

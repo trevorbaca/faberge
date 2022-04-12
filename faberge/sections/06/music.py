@@ -87,7 +87,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(3 - 1),
+        selector=lambda _: abjad.select.leaf(_, 3 - 1),
     ),
 )
 
@@ -107,7 +107,7 @@ commands(
             [1],
             cyclic=True,
         ),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.material_annotation_spanner(
         "5-2 -|",

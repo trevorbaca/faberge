@@ -79,7 +79,7 @@ commands(
     "Global_Skips",
     baca.metronome_mark(
         "80",
-        selector=baca.selectors.leaf(1 - 1),
+        selector=lambda _: abjad.select.leaf(_, 1 - 1),
     ),
 )
 
@@ -693,7 +693,7 @@ commands(
     ),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     library.bfl_color_fingerings(
         abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
@@ -780,7 +780,7 @@ commands(
     baca.pitches("Db4 Db~4 Db4 Db~4 D~4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -812,7 +812,7 @@ commands(
     baca.pitches("D4 D+4 D~4 Db4 D~4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -837,7 +837,7 @@ commands(
     baca.pitch("Eb4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -1367,7 +1367,7 @@ commands(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         right_broken=True,
-        selector=baca.selectors.ltleaves_rleak(),
+        selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
     baca.skeleton(
         r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",
