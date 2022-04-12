@@ -145,7 +145,7 @@ commands(
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=baca.selectors.leaves((None, 3)),
+        selector=lambda _: baca.select.leaves(_)[:3],
     ),
     library.suffixed_colortrill_rhythm(),
 )
@@ -503,7 +503,7 @@ commands(
     ("perc", 5),
     baca.hairpin(
         "o<| mf",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
     library.downbeat_attack(denominator=2),
 )

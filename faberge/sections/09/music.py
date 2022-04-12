@@ -298,7 +298,7 @@ commands(
     baca.clef("treble"),
     baca.hairpin(
         "o<| f",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
     baca.laissez_vibrer(),
     baca.markup(
@@ -367,7 +367,7 @@ commands(
         bookend=-1,
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 2]),
-        selector=baca.selectors.leaves((-3, None)),
+        selector=lambda _: baca.select.leaves(_)[-3:],
     ),
 )
 
@@ -658,7 +658,7 @@ commands(
         bookend=-1,
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 2]),
-        selector=baca.selectors.leaves((-3, None)),
+        selector=lambda _: baca.select.leaves(_)[-3:],
     ),
 )
 
@@ -769,8 +769,8 @@ commands(
     ),
     baca.half_clt_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        map=baca.selectors.leaves(([0], 2)),
-        selector=baca.selectors.leaves((None, 1), rleak=True),
+        map=lambda _: abjad.select.get(baca.select.leaves(_), ([0], 2)),
+        selector=lambda _: baca.select.rleak(baca.select.leaves(_)[:1]),
     ),
 )
 
