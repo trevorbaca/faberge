@@ -198,10 +198,10 @@ commands(
 commands(
     ("rh", [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
 )
 
@@ -277,7 +277,7 @@ commands(
     baca.dls_staff_padding(4.5),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.pitch("<F6 G6 A6>"),
 )
@@ -311,10 +311,10 @@ commands(
 commands(
     ("lh", [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
 )
 
@@ -488,10 +488,10 @@ commands(
 commands(
     ("vn", [1, 3]),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(3),
+        selector=lambda _: baca.select.pleaf(_, 3),
     ),
     baca.beam(),
 )
@@ -499,7 +499,7 @@ commands(
 commands(
     ("vn", [1, 3]),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
 )
 
@@ -549,14 +549,14 @@ commands(
     ("vn", [6, 8, 9, 10]),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((-3, None)),
     ),
 )
@@ -654,14 +654,14 @@ commands(
     ("va", [8, 9, 10]),
     baca.hairpin(
         "niente o< p > pp p",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((None, 3)),
     ),
 )
@@ -702,10 +702,10 @@ commands(
 commands(
     ("vc", [1, 3]),
     baca.accent(
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-3),
+        selector=lambda _: baca.select.pleaf(_, -3),
     ),
     baca.beam(),
 )
@@ -713,7 +713,7 @@ commands(
 commands(
     ("vc", [1, 3, 6, (8, 10)]),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
 )
 
@@ -763,7 +763,7 @@ commands(
 commands(
     ("vc", [6, 8, 9, 10]),
     baca.accent(
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 

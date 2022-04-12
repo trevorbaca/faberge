@@ -124,7 +124,7 @@ commands(
 commands(
     (["fl", "cl"], [1, 3]),
     baca.espressivo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
 )
 
@@ -183,7 +183,7 @@ commands(
         selector=lambda _: baca.select.ptails(_),
     ),
     baca.stopped(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     library.end_of_cell_attack(denominator=8),
 )
@@ -191,10 +191,10 @@ commands(
 commands(
     ("rh", 5),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.beam(),
     baca.clef("treble"),
@@ -226,7 +226,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.note_head_stencil_false(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -242,15 +242,15 @@ commands(
 commands(
     ("lh", 5),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.ottava(),
     baca.pitch("<F6 G6 A6>"),
@@ -363,10 +363,10 @@ commands(
 commands(
     ("vn", 5),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(3),
+        selector=lambda _: baca.select.pleaf(_, 3),
     ),
     baca.beam(),
     baca.staff_lines(5),
@@ -420,7 +420,7 @@ commands(
 commands(
     (["vn", "vc"], [(1, 4), (6, 9)]),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     baca.tuplet_bracket_staff_padding(3.5),
@@ -429,7 +429,7 @@ commands(
 commands(
     (["vn", "vc"], 5),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
 )
 
@@ -465,7 +465,7 @@ commands(
     baca.flat_glissando("F3"),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
 )
 
@@ -487,7 +487,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 9.5"),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     baca.staff_lines(1),
@@ -523,10 +523,10 @@ commands(
 commands(
     ("vc", 5),
     baca.accent(
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-3),
+        selector=lambda _: baca.select.pleaf(_, -3),
     ),
     baca.beam(),
     baca.staff_lines(5),

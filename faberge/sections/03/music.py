@@ -152,7 +152,7 @@ commands(
     ("fl", (9, 10)),
     baca.hairpin(
         "niente o< mp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.glow_rhythm(
@@ -286,7 +286,7 @@ commands(
         measures=16,
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.niente_swells("f"),
 )
@@ -467,7 +467,7 @@ commands(
 commands(
     ("fl", (37, 44)),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.glow_rhythm(
         rmakers.force_note(
@@ -598,7 +598,7 @@ commands(
     ("fl", (53, 54)),
     baca.hairpin(
         "niente o< pp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     library.glow_rhythm(
@@ -1174,7 +1174,7 @@ commands(
     ("rh", (53, 80)),
     baca.beam_positions(-3),
     baca.note_head_stencil_false(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -1210,10 +1210,10 @@ commands(
     ("attack", (1, 44)),
     baca.dynamic(
         "sfz",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.marcato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     library.piano_clusters(),
 )
@@ -1258,7 +1258,7 @@ commands(
     baca.markup(
         r"\baca-to-marimba-markup",
         abjad.Tweak(r"- \tweak staff-padding 6"),
-        selector=baca.selectors.mmrest(0),
+        selector=lambda _: baca.select.mmrest(_, 0),
     ),
 )
 
@@ -1434,7 +1434,7 @@ commands(
     ("vn", (37, 52)),
     baca.hairpin(
         "(ppp) < f > ppp",
-        pieces=baca.selectors.cmgroups([8]),
+        pieces=lambda _: baca.select.cmgroups(_, [8]),
     ),
 )
 
@@ -1454,7 +1454,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     library.clb_rhythm(
@@ -1499,7 +1499,7 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     library.clb_rhythm(
@@ -1574,7 +1574,7 @@ commands(
     ("va", (37, 52)),
     baca.hairpin(
         "(pp) < f > pp",
-        pieces=baca.selectors.cmgroups([8]),
+        pieces=lambda _: baca.select.cmgroups(_, [8]),
     ),
 )
 
@@ -1603,7 +1603,7 @@ commands(
     ),
     baca.dls_staff_padding(10),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.staff_lines(1),
     baca.stem_down(),
@@ -1725,7 +1725,7 @@ commands(
     baca.dls_staff_padding(10),
     baca.dynamic('"mf"'),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     baca.text_script_staff_padding(8),

@@ -106,14 +106,14 @@ commands(
 commands(
     (["fl", "eh", "rh"], (1, 5)),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
     (["fl", "eh", "rh"], 5),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
     library.downbeat_attack(),
 )
@@ -171,7 +171,7 @@ commands(
     "vn",
     baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -192,7 +192,7 @@ commands(
 commands(
     ["vn", "va", "vc"],
     baca.accent(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.dls_staff_padding(6),
 )
@@ -213,7 +213,7 @@ commands(
     "va",
     baca.pitch("Dqf5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -235,7 +235,7 @@ commands(
     "vc",
     baca.pitch("E2"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 

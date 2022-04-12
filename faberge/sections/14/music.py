@@ -107,7 +107,7 @@ commands(
     baca.staff_lines(5),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -123,7 +123,7 @@ commands(
     ("fl", 6),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -138,7 +138,7 @@ commands(
     ),
     baca.pitch("C#5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -146,7 +146,7 @@ commands(
     ("fl", 7),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -157,7 +157,7 @@ commands(
     ("fl", 8),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
     baca.skeleton(
         "{ c4. c4. r4 }",
@@ -206,7 +206,7 @@ commands(
     ("cl", (1, 2)),
     baca.pitch(
         "Ab2",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -234,7 +234,7 @@ commands(
     ("cl", (3, 4)),
     baca.pitch(
         "Gb2",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -242,7 +242,7 @@ commands(
     ("cl", (5, 8)),
     baca.pitch(
         "F2",
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -280,7 +280,7 @@ commands(
     baca.hairpin(
         "o< mf >o niente",
         map=lambda _: baca.select.runs(_),
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
@@ -523,7 +523,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.suite(
-        baca.untie(baca.selectors.pleaves()),
+        baca.untie(lambda _: baca.select.pleaves(_)),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -533,19 +533,19 @@ commands(
             "niente o< mp >o",
             final_hairpin=False,
             map=lambda _: baca.select.rleak_runs(_, None, 1),
-            pieces=baca.selectors.clparts([1]),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
         baca.hairpin(
             "niente o< mf >o",
             final_hairpin=False,
             map=lambda _: baca.select.rleak_runs(_, 1, 2),
-            pieces=baca.selectors.clparts([1]),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
         baca.hairpin(
             "niente o< f >o",
             final_hairpin=False,
             map=lambda _: baca.select.rleak_runs(_, 2, 3),
-            pieces=baca.selectors.clparts([1]),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     ),
     library.airtone_chain_rhythm(
@@ -569,12 +569,12 @@ commands(
     ("vc", [5, 6, 7, 8]),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("F2"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.halves_rhythm(),
 )
