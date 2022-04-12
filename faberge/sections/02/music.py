@@ -170,7 +170,7 @@ commands(
     baca.markup(
         r"\baca-to-bass-flute-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
-        selector=baca.selectors.mmrest(0),
+        selector=lambda _: baca.select.mmrest(_, 0),
     ),
 )
 
@@ -432,7 +432,7 @@ commands(
     baca.markup(
         r"\baca-to-bass-clarinet-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
-        selector=baca.selectors.mmrest(0),
+        selector=lambda _: baca.select.mmrest(_, 0),
     ),
 )
 
@@ -595,10 +595,10 @@ commands(
     ("attack", (1, 88)),
     baca.dynamic(
         "sfz",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.marcato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     library.piano_clusters(),
 )
@@ -656,7 +656,7 @@ commands(
         r"\baca-crotales-bowed-markup",
         abjad.Tweak(r"- \tweak extra-offset #'(-6 . 0)"),
         abjad.Tweak(r"- \tweak staff-padding 6"),
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -788,7 +788,7 @@ commands(
         r"\baca-bd-struck-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=baca.selectors.plt(-1),
+        selector=lambda _: baca.select.plt(_, -1),
     ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -1028,7 +1028,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         bookend=-1,
         autodetect_right_padding=False,
-        pieces=baca.selectors.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
+        pieces=lambda _: baca.select.cmgroups(_, [12, 4, 10, 4, 10, 6, 10, 6]),
         selector=baca.selectors.leaves(),
     ),
     baca.stem_tremolo(
@@ -1043,7 +1043,7 @@ commands(
     ("va", (13, 16)),
     baca.dynamic(
         "pp",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -1059,7 +1059,7 @@ commands(
     ("va", (27, 30)),
     baca.dynamic(
         "pp",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -1075,7 +1075,7 @@ commands(
     ("va", (41, 46)),
     baca.dynamic(
         "pp",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -1091,7 +1091,7 @@ commands(
     ("va", (57, 62)),
     baca.dynamic(
         "pp",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -1280,7 +1280,7 @@ commands(
     ("vc", (63, 70)),
     baca.dynamic(
         "ppp",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.markup(
         r"\baca-sub-non-vib-markup",
@@ -1316,7 +1316,7 @@ commands(
     baca.hairpin(
         "ff > pp < p",
         bookend=False,
-        pieces=baca.selectors.omgroups([9, 9]),
+        pieces=lambda _: baca.select.omgroups(_, [9, 9]),
     ),
 )
 

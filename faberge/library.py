@@ -647,7 +647,7 @@ def shell_exchange_rhythm(
 
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extras),
-        rmakers.force_rest(baca.selectors.lt(-1)),
+        rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),
@@ -681,7 +681,7 @@ def single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        rmakers.repeat_tie(baca.selectors.notes((1, None))),
+        rmakers.repeat_tie(lambda _: abjad.select.notes(_)[1:]),
         tag=abjad.Tag("faberge.single_taper()"),
     )
 

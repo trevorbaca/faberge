@@ -209,7 +209,7 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.pitch("<G3 A3 C4>"),
 )
@@ -324,7 +324,7 @@ commands(
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     library.clb_staff_positions(),
 )
@@ -420,25 +420,25 @@ commands(
                 "niente o< p >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, None, 1),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< mp >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 1, 2),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< mf >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 2, 3),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< f >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 3, 4),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
         ),
     ),

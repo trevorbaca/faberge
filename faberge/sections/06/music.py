@@ -116,7 +116,7 @@ commands(
     ),
     baca.pitch("F5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.halves_rhythm(),
 )
@@ -161,11 +161,11 @@ commands(
     ),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.pleaf(2),
+        selector=lambda _: baca.select.pleaf(_, 2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.glissando(
         allow_repeats=True,
@@ -173,7 +173,7 @@ commands(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -242,7 +242,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.note_head_stencil_false(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -277,7 +277,7 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.material_annotation_spanner(
         "2-1 =|",
@@ -421,7 +421,7 @@ commands(
     ("vn", 2),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.pitches(
         "D4 Eb4 Eb4 Eb4",
@@ -435,7 +435,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((-3, None)),
     ),
 )
@@ -535,7 +535,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     library.clb_staff_positions(),
@@ -552,7 +552,7 @@ commands(
     ("va", 2),
     baca.hairpin(
         "niente o< p > pp p",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.pitches(
         "D4 D4 D4 Eb4",
@@ -566,7 +566,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((None, 3)),
     ),
 )

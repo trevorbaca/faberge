@@ -94,7 +94,7 @@ commands(
     ),
     baca.pitch("C#5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -113,7 +113,7 @@ commands(
     ("fl", 5),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -122,7 +122,7 @@ commands(
     ("fl", 6),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -131,7 +131,7 @@ commands(
     ("fl", 7),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -140,7 +140,7 @@ commands(
     ("fl", 8),
     baca.hairpin(
         "o< pp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -295,7 +295,7 @@ commands(
 commands(
     (["vn", "va"], [5, 6, 7, 8]),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.halves_rhythm(),
 )
@@ -306,7 +306,7 @@ commands(
     (["vn", "va", "vc"], 5),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -315,7 +315,7 @@ commands(
     (["vn", "va", "vc"], 6),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -324,7 +324,7 @@ commands(
     (["vn", "va", "vc"], 7),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -333,7 +333,7 @@ commands(
     (["vn", "va", "vc"], 8),
     baca.hairpin(
         "o< ff >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
 )
@@ -389,7 +389,7 @@ commands(
     ("vc", [1, 2, 3, 4]),
     baca.hairpin(
         "o< p >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.pitch("F2"),
@@ -398,7 +398,7 @@ commands(
 commands(
     ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.halves_rhythm(),
 )

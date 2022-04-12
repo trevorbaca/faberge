@@ -85,11 +85,11 @@ commands(
     ("fl", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.pleaf(2),
+        selector=lambda _: baca.select.pleaf(_, 2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.glissando(
         allow_repeats=True,
@@ -97,7 +97,7 @@ commands(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.material_annotation_spanner(
         "2-1 -|",
@@ -139,7 +139,7 @@ commands(
     baca.hairpin(
         "o< mf >o niente",
         map=lambda _: baca.select.runs(_),
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
@@ -256,7 +256,7 @@ commands(
 commands(
     ("rh", 1),
     baca.note_head_stencil_false(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -290,7 +290,7 @@ commands(
     baca.beam(),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.material_annotation_spanner(
         "2-1 -|",
@@ -322,7 +322,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.note_head_stencil_false(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
@@ -511,7 +511,7 @@ commands(
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.staccato(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     library.clb_staff_positions(),
@@ -684,7 +684,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.suite(
-        baca.untie(baca.selectors.pleaves()),
+        baca.untie(lambda _: baca.select.pleaves(_)),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -694,7 +694,7 @@ commands(
             "niente o< pp >o",
             final_hairpin=False,
             map=lambda _: baca.select.rleak_runs(_, None, 1),
-            pieces=baca.selectors.clparts([1]),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     ),
     library.airtone_chain_rhythm(

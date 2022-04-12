@@ -97,7 +97,7 @@ commands(
     ("fl", 5),
     baca.hairpin(
         "o< f >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
@@ -115,7 +115,7 @@ commands(
     ),
     baca.pitch("G#5"),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -123,7 +123,7 @@ commands(
     ("fl", 6),
     baca.hairpin(
         "o< mf >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.skeleton(
@@ -135,7 +135,7 @@ commands(
     ("fl", 7),
     baca.hairpin(
         "o< mp >o niente",
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=baca.selectors.leaves(),
     ),
     baca.skeleton(
@@ -148,11 +148,13 @@ commands(
 commands(
     (["fl", "cl"], (1, 2)),
     baca.espressivo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "o< mp >o niente",
-        map=baca.selectors.cmgroups(),
+        map=lambda _: baca.select.cmgroups(
+            _,
+        ),
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
@@ -189,7 +191,7 @@ commands(
         map=lambda _: abjad.select.partition_by_counts(
             baca.pleaves(_), [2], overhang=True
         ),
-        pieces=baca.selectors.lparts([1, 1 + 1]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.material_annotation_spanner(
@@ -348,8 +350,8 @@ commands(
     ("vn", 1),
     baca.hairpin(
         "p niente o< p > pp",
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
@@ -363,8 +365,8 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         bookend=-1,
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((-3, None)),
     ),
 )
@@ -389,8 +391,8 @@ commands(
     ("vn", 2),
     baca.hairpin(
         "mp niente o< mp > pp",
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.skeleton(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
@@ -401,8 +403,8 @@ commands(
     ("vn", 3),
     baca.hairpin(
         "mf niente o< mf > pp",
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
@@ -413,8 +415,8 @@ commands(
     ("vn", 4),
     baca.hairpin(
         "f niente o< f > pp",
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.skeleton(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
@@ -470,8 +472,8 @@ commands(
     (["vn", "va"], [5, 6, 7]),
     baca.hairpin(
         '"ff" niente o< ff > pp',
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
 )
 
@@ -479,8 +481,8 @@ commands(
     (["vn", "va"], 9),
     baca.hairpin(
         "mp niente o< mp > pp",
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
 )
 
@@ -515,7 +517,7 @@ commands(
     ),
     baca.hairpin(
         "p niente o< p > pp niente o< p > pp p",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
@@ -525,7 +527,7 @@ commands(
         r" ord. -> pont. -> ord. || \baca-null-markup",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -555,7 +557,7 @@ commands(
     ),
     baca.hairpin(
         "niente o< mp > pp mp niente o< mp > pp mp",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.skeleton(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
@@ -565,7 +567,7 @@ commands(
         r" ord. -> pont. -> ord. || \baca-null-markup ||",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -590,7 +592,7 @@ commands(
     ),
     baca.hairpin(
         "mp niente o< mf > pp niente o< mf > pp mf",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
@@ -600,7 +602,7 @@ commands(
         r" ord. -> pont. -> ord. || \baca-null-markup",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -625,7 +627,7 @@ commands(
     ),
     baca.hairpin(
         "niente o< f > pp f f niente o< f > pp",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.skeleton(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
@@ -635,7 +637,7 @@ commands(
         r" \baca-null-markup || ord. -> pont. -> ord. ||",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
         selector=baca.selectors.leaves(),
     ),
 )
@@ -654,8 +656,8 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
         autodetect_right_padding=False,
         bookend=-1,
-        map=baca.selectors.clparts([4]),
-        pieces=baca.selectors.lparts([1, 2]),
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((-3, None)),
     ),
 )
@@ -746,7 +748,7 @@ commands(
     ("vc", [5, 6, 7]),
     baca.hairpin(
         "p f >o",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
 )
 
@@ -819,7 +821,7 @@ commands(
     ),
     baca.hairpin(
         "pp p >o",
-        pieces=baca.selectors.clparts([1]),
+        pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.pitch("Eb2"),
     baca.skeleton(

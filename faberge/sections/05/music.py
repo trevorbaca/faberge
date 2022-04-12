@@ -138,11 +138,11 @@ commands(
     (["fl", "cl"], [3, 6, 7]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.pleaf(2),
+        selector=lambda _: baca.select.pleaf(_, 2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.glissando(
         allow_repeats=True,
@@ -150,7 +150,7 @@ commands(
     ),
     baca.hairpin(
         "o< mp >o p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -383,7 +383,7 @@ commands(
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.suite(
-        baca.untie(baca.selectors.pleaves()),
+        baca.untie(lambda _: baca.select.pleaves(_)),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -394,25 +394,25 @@ commands(
                 "niente o< mf >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, None, 1),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< mp >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 1, 2),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< p >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 2, 4),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
             baca.hairpin(
                 "niente o< pp >o",
                 final_hairpin=False,
                 map=lambda _: baca.select.rleak_runs(_, 4, 6),
-                pieces=baca.selectors.clparts([1]),
+                pieces=lambda _: baca.select.clparts(_, [1]),
             ),
         ),
     ),

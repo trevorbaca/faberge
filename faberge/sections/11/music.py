@@ -116,11 +116,11 @@ commands(
     (["fl", "cl"], [1, 2, 3, 4]),
     baca.dynamic_text_self_alignment_x(
         -1,
-        selector=baca.selectors.pleaf(2),
+        selector=lambda _: baca.select.pleaf(_, 2),
     ),
     baca.dynamic_text_self_alignment_x(
         -0.75,
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.glissando(
         allow_repeats=True,
@@ -137,7 +137,7 @@ commands(
     (["fl", "cl"], 1),
     baca.hairpin(
         "o< p >o pp > ppp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
 )
 
@@ -145,7 +145,7 @@ commands(
     (["fl", "cl"], [2, 3, 4]),
     baca.hairpin(
         "o< pp >o ppp > pppp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
 )
 
@@ -160,11 +160,13 @@ commands(
 commands(
     (["fl", "cl"], (5, 8)),
     baca.espressivo(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.hairpin(
         "o< mp >o niente",
-        map=baca.selectors.cmgroups(),
+        map=lambda _: baca.select.cmgroups(
+            _,
+        ),
         pieces=lambda _: abjad.select.partition_by_counts(
             abjad.select.leaves(_), [2], overhang=True
         ),
@@ -251,7 +253,7 @@ commands(
         selector=lambda _: baca.select.ptails(_),
     ),
     baca.stopped(
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     library.end_of_cell_attack(
         denominator=8,
@@ -261,10 +263,10 @@ commands(
 commands(
     ("rh", 3),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.clef("treble"),
     baca.dynamic(
@@ -321,14 +323,14 @@ commands(
 commands(
     ("lh", 3),
     baca.accent(
-        selector=baca.selectors.pleaf(1),
+        selector=lambda _: baca.select.pleaf(_, 1),
     ),
     baca.accent(
-        selector=baca.selectors.pleaf(-1),
+        selector=lambda _: baca.select.pleaf(_, -1),
     ),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=baca.selectors.pheads(),
+        selector=lambda _: baca.select.pheads(_),
     ),
     baca.ottava(),
     baca.ottava_bracket_staff_padding(7),
@@ -457,7 +459,7 @@ commands(
     ("vn", 3),
     baca.hairpin(
         "p niente o< p > pp",
-        pieces=baca.selectors.lparts([1, 1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
     baca.material_annotation_spanner(
         "3-1 -|",
@@ -477,7 +479,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         autodetect_right_padding=False,
         bookend=-1,
-        pieces=baca.selectors.lparts([1, 2]),
+        pieces=lambda _: baca.select.lparts(_, [1, 2]),
         selector=baca.selectors.leaves((-3, None)),
     ),
     baca.stem_tremolo(
@@ -590,7 +592,7 @@ commands(
         selector=lambda _: baca.select.rleaves(_),
     ),
     baca.suite(
-        baca.untie(baca.selectors.pleaves()),
+        baca.untie(lambda _: baca.select.pleaves(_)),
         baca.pitches(
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
@@ -600,7 +602,7 @@ commands(
             "niente o< p >o",
             final_hairpin=False,
             map=lambda _: baca.select.rleak_runs(_),
-            pieces=baca.selectors.clparts([1]),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     ),
     library.airtone_chain_rhythm(
@@ -629,7 +631,7 @@ commands(
         "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
