@@ -102,19 +102,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -123,10 +127,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -160,19 +164,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -181,10 +189,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -200,19 +208,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -221,10 +233,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -246,19 +258,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -267,10 +283,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -298,19 +314,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -319,10 +339,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -338,19 +358,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -359,10 +383,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -384,19 +408,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -405,10 +433,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -425,19 +453,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -446,10 +478,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -474,19 +506,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -495,10 +531,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -515,19 +551,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -536,10 +576,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -560,19 +600,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -581,10 +625,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -606,19 +650,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -627,10 +675,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -646,19 +694,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([2, 3, 6], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([2, 3, 6], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -667,10 +719,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -704,19 +756,23 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([0, 6, 7], 9), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([0, 6, 7], 9), (None, -1)
+            ),
         ),
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, [0, -2]),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets([0, -2], (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([10], 11)),
@@ -725,10 +781,10 @@ commands(
             lambda _: baca.select.tuplets(_, ([9, 11], 11)),
         ),
         rmakers.untie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_get_tuplets(([9, 11], 11), (None, -1)),
+            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
         ),
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),

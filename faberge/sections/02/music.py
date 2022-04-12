@@ -228,7 +228,9 @@ commands(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([6, 7], period=18)),
         ),
         rmakers.tie(
-            baca.selectors.leaves_in_exclude_tuplets(([6, 7], 18), (None, -1)),
+            lambda _: baca.select.leaves_in_exclude_tuplets(
+                _, ([6, 7], 18), (None, -1)
+            ),
         ),
         tuplet_ratio_rotation=0,
     ),
