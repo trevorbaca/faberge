@@ -165,7 +165,7 @@ commands(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -735,7 +735,7 @@ commands(
         pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.up_bow(
-        baca.selectors.pheads(([1], 2)),
+        lambda _: abjad.select.get(baca.select.pheads(_), [1], 2),
         abjad.Tweak(r"- \tweak padding 1"),
         abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
     ),

@@ -455,7 +455,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
 )
 
@@ -636,7 +636,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),

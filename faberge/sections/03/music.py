@@ -1276,7 +1276,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
 )
 
@@ -1301,7 +1301,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
 )
 
@@ -1321,7 +1321,7 @@ commands(
         hide_middle_stems=True,
     ),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
     baca.make_repeat_tied_notes(),
 )
@@ -1520,7 +1520,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -146,7 +146,7 @@ commands(
     ),
     baca.glissando(
         allow_repeats=True,
-        selector=baca.selectors.pleaves((2, None)),
+        selector=lambda _: baca.select.pleaves(_)[2:],
     ),
     baca.hairpin(
         "o< mp >o p > pp",
@@ -258,7 +258,7 @@ commands(
     ),
     baca.stem_down(),
     baca.stem_tremolo(
-        selector=baca.selectors.pheads([0, -1]),
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
 )
 
