@@ -328,7 +328,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.selectors.phead(-1),
+        selector=lambda _: baca.select.phead(_, -1),
     ),
 )
 
@@ -744,7 +744,7 @@ commands(
 commands(
     ("vc", [1, 2, 3, 4]),
     baca.down_bow(
-        baca.selectors.phead(0),
+        lambda _: baca.select.phead(_, 0),
         abjad.Tweak(r"- \tweak padding 1"),
         abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
         full=True,

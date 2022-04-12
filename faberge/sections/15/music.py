@@ -79,7 +79,7 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "short",
-        selector=baca.selectors.leaf(9 - 1),
+        selector=lambda _: abjad.select.leaf(_, 9 - 1),
     ),
 )
 
@@ -105,7 +105,7 @@ commands(
         pieces=lambda _: abjad.select.partition_by_counts(
             baca.pleaves(_), [1], cyclic=True
         ),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -114,7 +114,7 @@ commands(
     baca.hairpin(
         "o< mf >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -123,7 +123,7 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -132,7 +132,7 @@ commands(
     baca.hairpin(
         "o< p >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -141,7 +141,7 @@ commands(
     baca.hairpin(
         "o< pp >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 

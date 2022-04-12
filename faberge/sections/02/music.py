@@ -213,7 +213,7 @@ commands(
     ),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.pitches(
         "F#4 F#3",
@@ -274,7 +274,7 @@ commands(
     baca.pitches("F#4 F#+4 E#4 E#+4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -295,7 +295,7 @@ commands(
     baca.pitches("G#4 F#+4 G4 G+4 G#+4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -316,7 +316,7 @@ commands(
     baca.pitches("A#4 A+4 A#+4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -355,7 +355,7 @@ commands(
     baca.pitches("C4 C+4 C~4 C#4"),
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -1029,7 +1029,7 @@ commands(
         bookend=-1,
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.cmgroups(_, [12, 4, 10, 4, 10, 6, 10, 6]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves([0, -1]),
@@ -1146,7 +1146,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.selectors.ltleaves(),
+        selector=lambda _: baca.select.ltleaves(_),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves([0, -1]),
@@ -1200,7 +1200,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.selectors.ltleaves(),
+        selector=lambda _: baca.select.ltleaves(_),
     ),
     baca.stem_tremolo(
         selector=baca.selectors.pleaves([0, -1]),
@@ -1295,7 +1295,7 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         autodetect_right_padding=False,
         bookend=-1,
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
@@ -1307,7 +1307,7 @@ commands(
         autodetect_right_padding=False,
         bookend=-1,
         pieces=lambda _: baca.mgroups(_, [9, 10]),
-        selector=baca.selectors.leaves(),
+        selector=lambda _: baca.select.leaves(_),
     ),
 )
 
