@@ -652,7 +652,7 @@ commands(
     ("perc", (1, 80)),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=lambda _: baca.select.ptails(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
     ),
     baca.markup(
         r"\baca-crotales-bowed-markup",
@@ -802,7 +802,7 @@ commands(
     baca.staff_lines(5),
     baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=lambda _: baca.select.ptails(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
     ),
     baca.pitch("F#4"),
     baca.markup(

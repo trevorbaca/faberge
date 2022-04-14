@@ -94,7 +94,7 @@ commands(
     ),
     baca.pitch("C#5"),
     baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -173,7 +173,7 @@ commands(
     ),
     baca.pitch(
         "F2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
     library.bcl_color_fingering_rhythm(
         rmakers.force_rest(
@@ -276,7 +276,7 @@ commands(
         "5-3 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -347,7 +347,7 @@ commands(
         "5-3 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -380,7 +380,7 @@ commands(
         "5-3 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )

@@ -277,7 +277,7 @@ commands(
     baca.dls_staff_padding(4.5),
     baca.markup(
         r"\baca-sharp-markup",
-        selector=lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.pitch("<F6 G6 A6>"),
 )
