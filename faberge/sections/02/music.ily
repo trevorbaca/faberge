@@ -15310,83 +15310,129 @@ segment.02.Piano.RH.Music.Staff = <<
 %! baca.path.extern()
 segment.02.Piano.LH.Music.Voice = {
 
-    %! baca._comment_measure_numbers()
-    % [Piano_LH_Music_Voice measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 5
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \startStaff
-    %! baca.mmrest_transparent()
-    %! baca.OverrideCommand._call(1)
-    \override MultiMeasureRest.transparent = ##t
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "bass"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca._call_rhythm_commands()
-    R1 * 3/4
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Piano_LH_Music_Voice"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Piano_LH_Music_Voice measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_BAR_EXTENT
+            %! EXPLICIT_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(-2 . 2)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \stopStaff
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \once \override Staff.StaffSymbol.line-count = 5
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \startStaff
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "bass"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_STAFF_LINES_COLOR
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 3/4
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Piano_LH_Rest_Voice"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Piano_LH_Rest_Voice measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 3/4
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca.mmrest_transparent()
+    %! baca.OverrideCommand._call(1)
+    \override MultiMeasureRest.transparent = ##t
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 4]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 5]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15394,15 +15440,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 6]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 7]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15410,15 +15456,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 8]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 9]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15426,31 +15472,31 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 10]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 11]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 12]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 13]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15458,15 +15504,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 14]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 15]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15474,15 +15520,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 16]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 17]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15490,39 +15536,39 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 18]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 19]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 20]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 21]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 22]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15530,15 +15576,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 23]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 24]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15546,7 +15592,7 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 25]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15554,23 +15600,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 26]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 27]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 28]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15578,23 +15624,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 29]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 30]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 31]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15602,23 +15648,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 32]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 33]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 34]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15626,23 +15672,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 35]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 36]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 37]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15650,15 +15696,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 38]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 39]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15666,15 +15712,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 40]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 41]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15682,39 +15728,39 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 42]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 43]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 44]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 45]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 46]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15722,7 +15768,7 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 47]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15730,15 +15776,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 48]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 49]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15746,31 +15792,31 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 50]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 51]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 52]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 53]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15778,15 +15824,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 54]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 55]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15794,15 +15840,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 56]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 57]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15810,31 +15856,31 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 58]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 59]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 60]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 61]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15842,15 +15888,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 62]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 63]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15858,15 +15904,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 64]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 65]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15874,39 +15920,39 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 66]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 67]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 68]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 69]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 70]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15914,15 +15960,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 71]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 72]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15930,7 +15976,7 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 73]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15938,23 +15984,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 74]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 75]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 76]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15962,23 +16008,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 77]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 78]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 79]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -15986,23 +16032,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 80]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 81]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 82]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -16010,23 +16056,23 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 83]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 84]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 85]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -16034,15 +16080,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 86]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 87]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -16050,15 +16096,15 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 88]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 89]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     R1 * 3/4
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
@@ -16066,27 +16112,27 @@ segment.02.Piano.LH.Music.Voice = {
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 90]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 91]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano_LH_Music_Voice measure 92]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
     %! baca.mmrest_transparent()
     %! baca.OverrideCommand._call(2)
     \revert MultiMeasureRest.transparent
