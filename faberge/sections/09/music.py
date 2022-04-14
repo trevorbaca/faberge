@@ -675,14 +675,14 @@ commands(
     ),
     baca.quadruple_staccato(
         selector=lambda _: abjad.select.get(
-            baca.select.plts(_, exclude=baca.const.HIDDEN),
+            baca.select.plts(_, exclude=baca.enums.HIDDEN),
             [0],
             4,
         ),
     ),
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(
-            baca.select.plts(_, exclude=baca.const.HIDDEN),
+            baca.select.plts(_, exclude=baca.enums.HIDDEN),
             [1, 2, 3],
             4,
         ),

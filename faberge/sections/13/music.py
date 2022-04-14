@@ -194,7 +194,7 @@ commands(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -246,7 +246,7 @@ commands(
     ),
     baca.pitch(
         "Ab2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
     library.bcl_color_fingering_rhythm(),
 )

@@ -85,7 +85,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -167,7 +167,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
     baca.staff_position(0),
@@ -182,7 +182,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -271,7 +271,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -328,7 +328,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
@@ -369,7 +369,7 @@ commands(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.const.HIDDEN, rleak=True
+            _, exclude=baca.enums.HIDDEN, rleak=True
         ),
     ),
 )
