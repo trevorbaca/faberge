@@ -57,6 +57,8 @@ commands(
 
 commands(
     "fl",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-flute-markup"),
@@ -67,7 +69,9 @@ commands(
 # eh
 
 commands(
-    "eh",
+    ("eh", (1, 2)),
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-english-horn-markup"),
@@ -97,6 +101,8 @@ commands(
 
 commands(
     "cl",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-clarinet-markup"),
@@ -108,6 +114,8 @@ commands(
 
 commands(
     "rh",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(
@@ -125,6 +133,8 @@ commands(
 
 commands(
     "lh",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
 )
 
@@ -132,6 +142,8 @@ commands(
 
 commands(
     "perc",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-percussion-markup"),
@@ -140,6 +152,14 @@ commands(
 )
 
 # vn
+
+commands(
+    ("vn", 1),
+    library.spazzolati_rhythm(
+        counts_rotation=0,
+    ),
+    baca.attach_first_segment_default_indicators(),
+)
 
 commands(
     "vn",
@@ -158,12 +178,19 @@ commands(
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
-    library.spazzolati_rhythm(
-        counts_rotation=0,
-    ),
 )
 
 # va
+
+commands(
+    ("va", 1),
+    library.spazzolati_rhythm(
+        counts_rotation=-1,
+        denominator=8,
+        extra_counts=[1],
+    ),
+    baca.attach_first_segment_default_indicators(),
+)
 
 commands(
     "va",
@@ -182,17 +209,14 @@ commands(
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
-    library.spazzolati_rhythm(
-        counts_rotation=-1,
-        denominator=8,
-        extra_counts=[1],
-    ),
 )
 
 # vc
 
 commands(
     "vc",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-cello-markup"),
