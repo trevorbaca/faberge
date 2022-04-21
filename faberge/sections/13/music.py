@@ -77,8 +77,9 @@ commands(
 # fl
 
 commands(
-    "fl",
-    baca.dls_staff_padding(4),
+    ("fl", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -115,11 +116,17 @@ commands(
     library.suffixed_colortrill_rhythm(),
 )
 
+commands(
+    "fl",
+    baca.dls_staff_padding(4),
+)
+
 # eh
 
 commands(
-    "eh",
-    baca.dls_staff_padding(4),
+    ("eh", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -178,16 +185,17 @@ commands(
     ),
 )
 
+commands(
+    "eh",
+    baca.dls_staff_padding(4),
+)
+
 # cl
 
 commands(
-    "cl",
-    baca.dls_staff_padding(10),
-    library.bcl_color_fingerings(
-        abjad.Tweak(r"- \tweak direction #down"),
-        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-        abjad.Tweak(r"- \tweak staff-padding 5"),
-    ),
+    ("cl", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -251,18 +259,29 @@ commands(
     library.bcl_color_fingering_rhythm(),
 )
 
+commands(
+    "cl",
+    baca.dls_staff_padding(10),
+    library.bcl_color_fingerings(
+        abjad.Tweak(r"- \tweak direction #down"),
+        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+        abjad.Tweak(r"- \tweak staff-padding 5"),
+    ),
+)
+
 # rh
 
 commands(
     ("rh", 1),
+    library.clb_rhythm(
+        extra_counts=[7],
+    ),
+    baca.reapply_persistent_indicators(),
     baca.note_head_stencil_false(
         selector=lambda _: baca.select.pleaves(_),
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
-    library.clb_rhythm(
-        extra_counts=[7],
-    ),
     library.tuning_peg_staff_positions(),
 )
 
@@ -341,10 +360,18 @@ commands(
 
 commands(
     "attack",
+    baca.make_mmrests(),
     baca.mmrest_transparent(),
+    baca.reapply_persistent_indicators(),
 )
 
 # lh
+
+commands(
+    ("lh", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("lh", 3),
@@ -370,25 +397,12 @@ commands(
 # perc
 
 commands(
-    "perc",
-    baca.markup(
-        r"\baca-castanets-markup",
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-    baca.material_annotation_spanner(
-        "4-3 / 4-4 =|",
-        abjad.Tweak(r"- \tweak staff-padding 13"),
-    ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.plts(_),
-    ),
-)
-
-commands(
     ("perc", [1, 2, 3, 4, 5, 6]),
     library.downbeat_attack(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
 )
 
 commands(
@@ -433,6 +447,23 @@ commands(
     ),
 )
 
+commands(
+    "perc",
+    baca.markup(
+        r"\baca-castanets-markup",
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+    ),
+    baca.material_annotation_spanner(
+        "4-3 / 4-4 =|",
+        abjad.Tweak(r"- \tweak staff-padding 13"),
+    ),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.plts(_),
+    ),
+)
+
 # vn
 
 commands(
@@ -440,6 +471,7 @@ commands(
     library.clb_rhythm(
         extra_counts=[2],
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -501,39 +533,14 @@ commands(
     baca.beam(),
 )
 
-# vn, va, vc
-
-commands(
-    (["vn", "va", "vc"], (1, 6)),
-    baca.material_annotation_spanner(
-        "4-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 9.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_),
-    ),
-    baca.stem_down(),
-    library.clb_staff_positions(),
-)
-
-commands(
-    (["vn", "va", "vc"], 7),
-    baca.staff_lines(5),
-)
-
 # va
-
-commands(
-    "va",
-    baca.dls_staff_padding(5),
-)
 
 commands(
     ("va", 1),
     library.clb_rhythm(
         extra_counts=[6],
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -605,15 +612,9 @@ commands(
     library.back_incised_divisions(),
 )
 
-# va, vc
-
 commands(
-    (["va", "vc"], (1, 6)),
-    baca.clb_spanner(
-        2,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
+    "va",
+    baca.dls_staff_padding(5),
 )
 
 # vc
@@ -623,6 +624,7 @@ commands(
     library.clb_rhythm(
         extra_counts=[4],
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -701,6 +703,38 @@ commands(
         20,
         [2, 3, 4],
         do_not_overlap_counts=True,
+    ),
+)
+
+# vn, va, vc
+
+commands(
+    (["vn", "va", "vc"], (1, 6)),
+    baca.material_annotation_spanner(
+        "4-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 9.5"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_),
+    ),
+    baca.stem_down(),
+    library.clb_staff_positions(),
+)
+
+commands(
+    (["vn", "va", "vc"], 7),
+    baca.staff_lines(5),
+)
+
+# va, vc
+
+commands(
+    (["va", "vc"], (1, 6)),
+    baca.clb_spanner(
+        2,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 

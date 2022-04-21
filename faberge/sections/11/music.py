@@ -87,12 +87,34 @@ commands(
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
-# fl
+# fl, cl
 
 commands(
-    "fl",
-    baca.dls_staff_padding(6),
+    (["fl", "cl"], [1, 2, 3, 4]),
+    library.suffixed_colortrill_rhythm(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=[0, 4],
+    ),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=lambda _: baca.select.pleaf(_, 2),
+    ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=lambda _: baca.select.pleaf(_, -1),
+    ),
+    baca.glissando(
+        allow_repeats=True,
+        selector=lambda _: baca.select.pleaves(_)[2:],
+    ),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        selector=lambda _: baca.select.leaves(_)[:3],
+    ),
 )
+
+# fl
 
 commands(
     ("fl", [1, 2, 3, 4]),
@@ -110,28 +132,12 @@ commands(
     ),
 )
 
-# fl, cl
-
 commands(
-    (["fl", "cl"], [1, 2, 3, 4]),
-    baca.dynamic_text_self_alignment_x(
-        -1,
-        selector=lambda _: baca.select.pleaf(_, 2),
-    ),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-    baca.glissando(
-        allow_repeats=True,
-        selector=lambda _: baca.select.pleaves(_)[2:],
-    ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    library.suffixed_colortrill_rhythm(),
+    "fl",
+    baca.dls_staff_padding(6),
 )
+
+# fl, cl
 
 commands(
     (["fl", "cl"], 1),
@@ -180,6 +186,12 @@ commands(
 )
 
 # eh
+
+commands(
+    ("eh", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("eh", 3),
@@ -242,9 +254,9 @@ commands(
 # rh
 
 commands(
-    "rh",
-    baca.clef("bass"),
-    baca.dls_staff_padding(3.5),
+    ("rh", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -311,14 +323,28 @@ commands(
     baca.pitch("A3"),
 )
 
+commands(
+    "rh",
+    baca.clef("bass"),
+    baca.dls_staff_padding(3.5),
+)
+
 # attack
 
 commands(
     "attack",
+    baca.make_mmrests(),
     baca.mmrest_transparent(),
+    baca.reapply_persistent_indicators(),
 )
 
 # lh
+
+commands(
+    ("lh", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("lh", 3),
@@ -343,13 +369,9 @@ commands(
 # perc
 
 commands(
-    "perc",
-    baca.dls_staff_padding(6),
-)
-
-commands(
     ("perc", 1),
     library.even_tuplet_rhythm(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -431,11 +453,17 @@ commands(
     baca.stem_down(),
 )
 
+commands(
+    "perc",
+    baca.dls_staff_padding(6),
+)
+
 # vn
 
 commands(
-    "vn",
-    baca.dls_staff_padding(4),
+    ("vn", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -513,11 +541,17 @@ commands(
     ),
 )
 
+commands(
+    "vn",
+    baca.dls_staff_padding(4),
+)
+
 # va
 
 commands(
-    "va",
-    baca.dls_staff_padding(6),
+    ("va", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -580,10 +614,21 @@ commands(
     baca.stem_tremolo(),
 )
 
+commands(
+    "va",
+    baca.dls_staff_padding(6),
+)
+
 # vc
 
 commands(
     ("vc", (1, 2)),
+    library.airtone_chain_rhythm(
+        20,
+        [1, 2, 3],
+        do_not_overlap_counts=True,
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(8),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
@@ -604,11 +649,6 @@ commands(
             map=lambda _: baca.select.rleak_runs(_),
             pieces=lambda _: baca.select.clparts(_, [1]),
         ),
-    ),
-    library.airtone_chain_rhythm(
-        20,
-        [1, 2, 3],
-        do_not_overlap_counts=True,
     ),
 )
 

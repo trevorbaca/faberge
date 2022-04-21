@@ -77,6 +77,20 @@ commands(
     ),
 )
 
+# fl, eh, pf
+
+commands(
+    (["fl", "eh", "rh"], (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic('"ff"'),
+    baca.markup(
+        r"\baca-very-small-maraca-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+    ),
+)
+
 # fl
 
 commands(
@@ -90,17 +104,6 @@ commands(
     ["fl", "eh", "rh"],
     baca.dls_staff_padding(7),
     baca.staff_position(0),
-)
-
-commands(
-    (["fl", "eh", "rh"], (1, 4)),
-    baca.dynamic('"ff"'),
-    baca.make_repeat_tied_notes(),
-    baca.markup(
-        r"\baca-very-small-maraca-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-    ),
 )
 
 commands(
@@ -129,13 +132,14 @@ commands(
 
 commands(
     "cl",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.dynamic("p"),
     baca.flat_glissando(
         "F2",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
 )
 
 # rh
@@ -145,10 +149,20 @@ commands(
     baca.staff_lines(1),
 )
 
+# attack, lh
+
+commands(
+    ["attack", "lh"],
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 # perc
 
 commands(
     "perc",
+    baca.make_notes(),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(4),
     baca.dynamic("p"),
     # TODO: implement flat glissando based on staff position
@@ -157,7 +171,6 @@ commands(
         "B3",
         hide_middle_stems=True,
     ),
-    baca.make_notes(),
     baca.markup(
         r"\baca-bd-sponge-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -168,6 +181,19 @@ commands(
 # vn
 
 commands(
+    ("vn", (1, 7)),
+    library.halves_rhythm(
+        tuplet_ratios=[(2, 3)],
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_notes(),
+)
+
+commands(
     "vn",
     baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
@@ -175,16 +201,59 @@ commands(
     ),
 )
 
+# va
+
 commands(
-    ("vn", (1, 7)),
+    ("va", (1, 7)),
     library.halves_rhythm(
-        tuplet_ratios=[(2, 3)],
+        tuplet_ratios=[(2, 1)],
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 8),
+    baca.make_notes(),
+)
+
+commands(
+    "va",
+    baca.pitch("Dqf5"),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 7)),
+    library.halves_rhythm(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "vc",
+    baca.pitch("E2"),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
 commands(
-    ("vn", 8),
+    ("vc", 8),
     baca.make_notes(),
+)
+
+commands(
+    ("vc", -1),
+    baca.chunk(
+        baca.mark(r"\faberge-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(6),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+        selector=lambda _: baca.select.rleaf(_, -1),
+    ),
 )
 
 # vn, va, vc
@@ -205,59 +274,6 @@ commands(
 commands(
     (["vn", "va", "vc"], 5),
     baca.dynamic("pp"),
-)
-
-# va
-
-commands(
-    "va",
-    baca.pitch("Dqf5"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ("va", (1, 7)),
-    library.halves_rhythm(
-        tuplet_ratios=[(2, 1)],
-    ),
-)
-
-commands(
-    ("va", 8),
-    baca.make_notes(),
-)
-
-# vc
-
-commands(
-    "vc",
-    baca.pitch("E2"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ("vc", (1, 7)),
-    library.halves_rhythm(),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_notes(),
-)
-
-commands(
-    ("vc", -1),
-    baca.chunk(
-        baca.mark(r"\faberge-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
 )
 
 if __name__ == "__main__":

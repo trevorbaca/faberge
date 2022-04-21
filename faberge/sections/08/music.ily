@@ -1478,12 +1478,12 @@ segment.08.English.Horn.Music.Voice = {
 
     b'2
     \repeatTie
-    %! baca.breathe()
-    %! baca.IndicatorCommand._call()
-    \breathe
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(2)
     \revert DynamicLineSpanner.staff-padding
+    %! baca.breathe()
+    %! baca.IndicatorCommand._call()
+    \breathe
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -1948,12 +1948,12 @@ segment.08.Clarinet.Music.Voice = {
 
     d2
     \repeatTie
-    %! baca.breathe()
-    %! baca.IndicatorCommand._call()
-    \breathe
     %! baca.dls_staff_padding()
     %! baca.OverrideCommand._call(2)
     \revert DynamicLineSpanner.staff-padding
+    %! baca.breathe()
+    %! baca.IndicatorCommand._call()
+    \breathe
 
     %! baca._make_multimeasure_rest_container(7)
     <<
@@ -2207,12 +2207,12 @@ segment.08.Piano.RH.Music.Voice = {
         \startStaff
         %! baca._clone_segment_initial_short_instrument_name()
         \set PianoStaff.instrumentName = \faberge-pf-markup
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override DynamicLineSpanner.staff-padding = 4.5
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override Staff.OttavaBracket.staff-padding = 8
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 4.5
         %! baca.ottava()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -2221,9 +2221,6 @@ segment.08.Piano.RH.Music.Voice = {
         %! baca._set_status_tag()
         %! REAPPLIED_CLEF
         \clef "treble"
-        %! baca._attach_color_literal(2)
-        %! REAPPLIED_MARGIN_MARKUP_COLOR
-        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
         %! baca._attach_color_literal(2)
         %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
@@ -2238,6 +2235,9 @@ segment.08.Piano.RH.Music.Voice = {
         %! baca._attach_color_literal(2)
         %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+        %! baca._attach_color_literal(2)
+        %! REAPPLIED_MARGIN_MARKUP_COLOR
+        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
         <g''' a''' b''' c''''>8
         %! REAPPLIED_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
@@ -2325,6 +2325,9 @@ segment.08.Piano.RH.Music.Voice = {
         %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
         %! baca._attach_color_literal(2)
+        %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
+        %! baca._attach_color_literal(2)
         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
         \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
         %! -PARTS
@@ -2333,9 +2336,6 @@ segment.08.Piano.RH.Music.Voice = {
         %! baca._set_status_tag()
         %! REDRAWN_REAPPLIED_MARGIN_MARKUP
         \set PianoStaff.shortInstrumentName = \faberge-pf-markup
-        %! baca._attach_color_literal(2)
-        %! REAPPLIED_CLEF_REDRAW_COLOR
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
         %! baca.skeleton()
         r8
@@ -3224,12 +3224,12 @@ segment.08.Piano.RH.Music.Voice = {
 
         %! baca.skeleton()
         r16
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(2)
-        \revert DynamicLineSpanner.staff-padding
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(2)
         \revert Staff.OttavaBracket.staff-padding
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(2)
+        \revert DynamicLineSpanner.staff-padding
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)
@@ -3386,12 +3386,12 @@ segment.08.Piano.LH.Music.Voice = {
         %! baca._set_status_tag()
         %! REAPPLIED_STAFF_LINES
         \startStaff
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override DynamicLineSpanner.staff-padding = 4.5
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override Staff.OttavaBracket.staff-padding = 8
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 4.5
         %! baca.ottava()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -4489,12 +4489,12 @@ segment.08.Piano.LH.Music.Voice = {
 
         %! baca.skeleton()
         r16
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(2)
-        \revert DynamicLineSpanner.staff-padding
         %! baca.ottava_bracket_staff_padding()
         %! baca.OverrideCommand._call(2)
         \revert Staff.OttavaBracket.staff-padding
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(2)
+        \revert DynamicLineSpanner.staff-padding
         %! baca.rhythm_annotation_spanner()
         %! RHYTHM_ANNOTATION_SPANNER
         %! baca.PiecewiseCommand._call(4)

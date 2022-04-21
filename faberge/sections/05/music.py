@@ -79,6 +79,12 @@ commands(
 # fl
 
 commands(
+    ("fl", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "fl",
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -124,42 +130,13 @@ commands(
     baca.pitch("B3"),
 )
 
-# fl, eh, cl
-
-commands(
-    (["fl", "eh", "cl"], [2, 4, 5, 8]),
-    baca.breathe(),
-    baca.make_notes(),
-)
-
-# fl, cl
-
-commands(
-    (["fl", "cl"], [3, 6, 7]),
-    baca.dynamic_text_self_alignment_x(
-        -1,
-        selector=lambda _: baca.select.pleaf(_, 2),
-    ),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-    baca.glissando(
-        allow_repeats=True,
-        selector=lambda _: baca.select.pleaves(_)[2:],
-    ),
-    baca.hairpin(
-        "o< mp >o p > pp",
-        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
-    ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    library.suffixed_colortrill_rhythm(),
-)
-
 # eh
+
+commands(
+    ("eh", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     "eh",
@@ -174,6 +151,12 @@ commands(
 )
 
 # cl
+
+commands(
+    ("cl", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     "cl",
@@ -220,11 +203,55 @@ commands(
     baca.pitch("Bb1"),
 )
 
+# fl, eh, cl
+
+commands(
+    (["fl", "eh", "cl"], [2, 4, 5, 8]),
+    baca.breathe(),
+    baca.make_notes(),
+)
+
+# fl, cl
+
+commands(
+    (["fl", "cl"], [3, 6, 7]),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=lambda _: baca.select.pleaf(_, 2),
+    ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=lambda _: baca.select.pleaf(_, -1),
+    ),
+    baca.glissando(
+        allow_repeats=True,
+        selector=lambda _: baca.select.pleaves(_)[2:],
+    ),
+    baca.hairpin(
+        "o< mp >o p > pp",
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+    ),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        selector=lambda _: baca.select.leaves(_)[:3],
+    ),
+    library.suffixed_colortrill_rhythm(),
+)
+
+# rh, lh
+
+commands(
+    ["rh", "attack", "lh"],
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 # perc
 
 commands(
     ("perc", 1),
     library.even_tuplet_rhythm(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -265,19 +292,9 @@ commands(
 # vn
 
 commands(
-    "vn",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "1-3 / 1-4 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
-
-commands(
     ("vn", (1, 8)),
+    library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
+    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.hairpin(
             'o< "f"',
@@ -304,25 +321,10 @@ commands(
         '"ff"',
         selector=lambda _: baca.select.rest(_, 0),
     ),
-    library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
-)
-
-# vn, va
-
-commands(
-    (["vn", "va"], (1, 8)),
-    baca.staff_position(0),
 )
 
 commands(
-    (["vn", "va"], 9),
-    baca.staff_lines(5),
-)
-
-# va
-
-commands(
-    "va",
+    "vn",
     baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
@@ -333,8 +335,12 @@ commands(
     ),
 )
 
+# va
+
 commands(
     ("va", (1, 8)),
+    library.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
+    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.hairpin(
             'o< "f"',
@@ -357,14 +363,11 @@ commands(
             map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
-    library.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
 )
 
-# vc
-
 commands(
-    "vc",
-    baca.dls_staff_padding(8),
+    "va",
+    baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -374,8 +377,28 @@ commands(
     ),
 )
 
+# vn, va
+
+commands(
+    (["vn", "va"], (1, 8)),
+    baca.staff_position(0),
+)
+
+commands(
+    (["vn", "va"], 9),
+    baca.staff_lines(5),
+)
+
+# vc
+
 commands(
     ("vc", (1, 8)),
+    library.airtone_chain_rhythm(
+        20,
+        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
+        do_not_overlap_counts=True,
+    ),
+    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
         "IV =|",
@@ -416,12 +439,20 @@ commands(
             ),
         ),
     ),
-    library.airtone_chain_rhythm(
-        20,
-        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
-        do_not_overlap_counts=True,
+)
+
+commands(
+    "vc",
+    baca.dls_staff_padding(8),
+    baca.material_annotation_spanner(
+        "1-3 / 1-4 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
     ),
 )
+
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

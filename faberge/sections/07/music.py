@@ -85,8 +85,9 @@ commands(
 # fl
 
 commands(
-    "fl",
-    baca.dls_staff_padding(6),
+    ("fl", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -117,6 +118,11 @@ commands(
     library.even_tuplet_rhythm(
         extra_counts=[-2],
     ),
+)
+
+commands(
+    "fl",
+    baca.dls_staff_padding(6),
 )
 
 # fl, cl
@@ -176,6 +182,12 @@ commands(
 # eh
 
 commands(
+    ("eh", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "eh",
     baca.dls_staff_padding(6),
     baca.staff_lines(5),
@@ -223,6 +235,12 @@ commands(
 # cl
 
 commands(
+    ("cl", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("cl", (1, 4)),
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -257,20 +275,12 @@ commands(
 # rh
 
 commands(
-    "rh",
-    baca.dls_staff_padding(4),
-    baca.material_annotation_spanner(
-        "2-2 / 2-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-)
-
-commands(
     ("rh", 1),
     baca.beam(),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -351,10 +361,20 @@ commands(
     ),
 )
 
+commands(
+    "rh",
+    baca.dls_staff_padding(4),
+    baca.material_annotation_spanner(
+        "2-2 / 2-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+    ),
+)
+
 # attack
 
 commands(
     "attack",
+    baca.reapply_persistent_indicators(),
     baca.mmrest_transparent(),
 )
 
@@ -362,10 +382,11 @@ commands(
 
 commands(
     ("lh", 1),
-    baca.beam(),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+    baca.beam(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -459,15 +480,11 @@ commands(
 # perc
 
 commands(
-    "perc",
-    baca.dls_staff_padding(6),
-)
-
-commands(
     ("perc", 1),
     baca.skeleton(
         r"{ c4 c4 c4 r1 }",
     ),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
 )
 
@@ -525,10 +542,22 @@ commands(
     baca.stem_down(),
 )
 
+commands(
+    "perc",
+    baca.dls_staff_padding(6),
+)
+
 # vn
 
 commands(
     ("vn", 1),
+    library.spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (3, None)),
+        ),
+        counts_rotation=0,
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(4),
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
@@ -541,12 +570,6 @@ commands(
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    library.spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
-        counts_rotation=0,
     ),
 )
 
@@ -618,36 +641,19 @@ commands(
     baca.staff_lines(5),
 )
 
-# vn, va
-
-commands(
-    (
-        [
-            ("vn", 3),
-            ("vn", (5, 7)),
-            ("va", 3),
-            ("va", (6, 7)),
-        ]
-    ),
-    baca.stem_down(),
-    baca.tuplet_bracket_staff_padding(3.5),
-)
-
-commands(
-    (["vn", "va"], 7),
-    baca.dynamic_text_extra_offset((-4, 0)),
-    baca.dynamic_text_x_extent_zero(),
-    baca.hairpin(
-        '("mf") >o niente',
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.hairpin_shorten_pair((4, 0)),
-)
-
 # va
 
 commands(
     ("va", 1),
+    library.spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (3, None)),
+        ),
+        counts_rotation=-1,
+        denominator=8,
+        extra_counts=[1],
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
         "A.3 -|",
@@ -659,14 +665,6 @@ commands(
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    library.spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
-        counts_rotation=-1,
-        denominator=8,
-        extra_counts=[1],
     ),
 )
 
@@ -768,11 +766,38 @@ commands(
     baca.staff_lines(5),
 )
 
+# vn, va
+
+commands(
+    (
+        [
+            ("vn", 3),
+            ("vn", (5, 7)),
+            ("va", 3),
+            ("va", (6, 7)),
+        ]
+    ),
+    baca.stem_down(),
+    baca.tuplet_bracket_staff_padding(3.5),
+)
+
+commands(
+    (["vn", "va"], 7),
+    baca.dynamic_text_extra_offset((-4, 0)),
+    baca.dynamic_text_x_extent_zero(),
+    baca.hairpin(
+        '("mf") >o niente',
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+    baca.hairpin_shorten_pair((4, 0)),
+)
+
 # vc
 
 commands(
     ("vc", (1, 3)),
     baca.make_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(

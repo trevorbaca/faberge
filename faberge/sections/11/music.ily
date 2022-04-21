@@ -3797,11 +3797,11 @@ segment.11.Piano.RH.Music.Voice = {
             %! EXPLICIT_CLEF
             \clef "bass"
             %! baca._attach_color_literal(2)
-            %! REAPPLIED_MARGIN_MARKUP_COLOR
-            \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
-            %! baca._attach_color_literal(2)
             %! REAPPLIED_STAFF_LINES_COLOR
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
             %! baca._attach_color_literal(2)
             %! EXPLICIT_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'blue)

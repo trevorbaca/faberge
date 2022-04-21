@@ -78,6 +78,15 @@ commands(
 # fl
 
 commands(
+    ("fl", (1, 40)),
+    library.shell_exchange_rhythm(
+        total_parts=4,
+        this_part=0,
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "fl",
     baca.dls_staff_padding(6),
 )
@@ -90,14 +99,6 @@ commands(
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
-)
-
-commands(
-    ("fl", (1, 40)),
-    library.shell_exchange_rhythm(
-        total_parts=4,
-        this_part=0,
-    ),
 )
 
 commands(
@@ -245,6 +246,8 @@ commands(
 
 commands(
     ("eh", (1, 12)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
     baca.staff_lines(5),
 )
 
@@ -371,6 +374,16 @@ commands(
 # cl
 
 commands(
+    ("cl", (1, 40)),
+    library.shell_exchange_rhythm(
+        total_parts=4,
+        this_part=1,
+    ),
+    baca.reapply_persistent_indicators(),
+    baca.dls_staff_padding(6),
+)
+
+commands(
     ("cl", (1, 12)),
     baca.markup(
         r"\faberge-match-sound-of-crotales-markup",
@@ -378,15 +391,6 @@ commands(
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
-)
-
-commands(
-    ("cl", (1, 40)),
-    baca.dls_staff_padding(6),
-    library.shell_exchange_rhythm(
-        total_parts=4,
-        this_part=1,
-    ),
 )
 
 commands(
@@ -558,6 +562,7 @@ commands(
 commands(
     ("rh", 1),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.pitch("<D4 E4 F#4 G#4 A4 A4 B4 C5 D5>"),
 )
@@ -584,13 +589,14 @@ commands(
 # attack
 
 commands(
-    "attack",
-    baca.dls_staff_padding(6),
+    ("attack", (1, 12)),
+    library.piano_attack_rhythm(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
-    ("attack", (1, 12)),
-    library.piano_attack_rhythm(),
+    "attack",
+    baca.dls_staff_padding(6),
 )
 
 commands(
@@ -635,17 +641,18 @@ commands(
 # perc
 
 commands(
-    ("perc", (1, 12)),
-    baca.pitch("F#4"),
-    library.dal_niente_hairpins("f"),
-)
-
-commands(
     ("perc", (1, 40)),
     library.shell_exchange_rhythm(
         total_parts=4,
         this_part=3,
     ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc", (1, 12)),
+    baca.pitch("F#4"),
+    library.dal_niente_hairpins("f"),
 )
 
 commands(
@@ -815,6 +822,15 @@ commands(
 # vn
 
 commands(
+    ("vn", (1, 40)),
+    library.shell_exchange_rhythm(
+        total_parts=4,
+        this_part=2,
+    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "vn",
     baca.dls_staff_padding(5),
 )
@@ -827,14 +843,6 @@ commands(
     ),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
-)
-
-commands(
-    ("vn", (1, 40)),
-    library.shell_exchange_rhythm(
-        total_parts=4,
-        this_part=2,
-    ),
 )
 
 commands(
@@ -1013,18 +1021,14 @@ commands(
 # va
 
 commands(
-    "va",
-    baca.dls_staff_padding(5),
-)
-
-commands(
     ("va", (1, 62)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("mp"),
     baca.flat_glissando(
         "D3",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         "tasto -> pont. ->",
         abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -1039,6 +1043,11 @@ commands(
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
+)
+
+commands(
+    "va",
+    baca.dls_staff_padding(5),
 )
 
 commands(
@@ -1217,12 +1226,13 @@ commands(
 
 commands(
     "vc",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.flat_glissando(
         "D2",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\faberge-poco-vib-sempre-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),

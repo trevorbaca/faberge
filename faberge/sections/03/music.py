@@ -86,17 +86,7 @@ commands(
 # fl
 
 commands(
-    "fl",
-    baca.dls_staff_padding(7),
-)
-
-commands(
     ("fl", (1, 8)),
-    baca.dynamic(
-        "p",
-        measures=8,
-    ),
-    baca.tuplet_bracket_staff_padding(1),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
@@ -137,7 +127,18 @@ commands(
         ),
         tuplet_ratio_rotation=0,
     ),
+    baca.tuplet_bracket_staff_padding(1),
+    baca.reapply_persistent_indicators(),
     library.niente_swells("p"),
+    baca.dynamic(
+        "p",
+        measures=8,
+    ),
+)
+
+commands(
+    "fl",
+    baca.dls_staff_padding(7),
 )
 
 commands(
@@ -808,16 +809,17 @@ commands(
 
 commands(
     ("eh", (1, 12)),
-    baca.dynamic('"ff"'),
-    baca.note_head_style_cross(),
-    library.keynoise_pitches(
-        rotation=-1,
-    ),
     library.keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
     ),
+    baca.reapply_persistent_indicators(),
+    library.keynoise_pitches(
+        rotation=-1,
+    ),
+    baca.note_head_style_cross(),
+    baca.dynamic('"ff"'),
 )
 
 commands(
@@ -992,12 +994,28 @@ commands(
 # cl
 
 commands(
+    ("cl", (1, 3)),
+    library.single_taper(),
+    baca.reapply_persistent_indicators(),
+    baca.breathe(),
+    baca.flat_glissando("Eb2"),
+    baca.hairpin(
+        "niente o< p",
+        selector=lambda _: baca.select.tleaves(_)[:2],
+    ),
+    baca.hairpin(
+        "(p) >o",
+        selector=lambda _: baca.select.tleaves(_)[-1:],
+    ),
+)
+
+commands(
     "cl",
     baca.dls_staff_padding(8),
 )
 
 commands(
-    ("cl", (1, 52)),
+    ("cl", (4, 52)),
     baca.chunk(
         baca.hairpin(
             "niente o< p",
@@ -1009,13 +1027,6 @@ commands(
         ),
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
-)
-
-commands(
-    ("cl", (1, 3)),
-    baca.breathe(),
-    baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
@@ -1184,6 +1195,7 @@ commands(
 commands(
     ("rh", 1),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.pitch("<Eb4 F4 G4 Ab4 Eb4 C5 Db5 Eb5>"),
 )
@@ -1253,13 +1265,14 @@ commands(
 # attack
 
 commands(
-    "attack",
-    baca.dls_staff_padding(6),
+    ("attack", (1, 22)),
+    library.piano_attack_rhythm(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
-    ("attack", (1, 22)),
-    library.piano_attack_rhythm(),
+    "attack",
+    baca.dls_staff_padding(6),
 )
 
 commands(
@@ -1289,17 +1302,12 @@ commands(
 # perc
 
 commands(
-    "perc",
-    baca.dls_staff_padding(6),
-)
-
-
-commands(
     ("perc", 1),
+    baca.make_single_attack(abjad.Duration(3, 4)),
+    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(
         selector=lambda _: baca.select.ptails(_),
     ),
-    baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1307,6 +1315,11 @@ commands(
     ),
     baca.pitch("G4"),
     library.dal_niente_hairpins("ff"),
+)
+
+commands(
+    "perc",
+    baca.dls_staff_padding(6),
 )
 
 commands(
@@ -1436,6 +1449,7 @@ commands(
 commands(
     ("vn", 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
+    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1570,11 +1584,12 @@ commands(
 
 commands(
     ("va", (1, 8)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb3",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
@@ -1673,7 +1688,6 @@ commands(
     baca.beam(),
 )
 
-
 commands(
     ("va", 80),
     library.downbeat_attack(
@@ -1685,12 +1699,13 @@ commands(
 
 commands(
     ("vc", (1, 36)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(

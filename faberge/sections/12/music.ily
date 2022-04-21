@@ -8,13 +8,13 @@ segment.12.Global.Skips = {
     %! baca._set_status_tag()
     %! REAPPLIED_TIME_SIGNATURE
     \time 5/4
+    %! baca._attach_color_literal(2)
+    %! REAPPLIED_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'green4
     %! EMPTY_START_BAR
     %! +SEGMENT
     %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'green4
     %! baca._make_global_skips(1)
     s1 * 5/4
     %! baca.rehearsal_mark()
@@ -2198,9 +2198,6 @@ segment.12.Piano.RH.Music.Voice = {
     %! REAPPLIED_CLEF
     \clef "bass"
     %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
     %! baca._attach_color_literal(1)
@@ -2214,6 +2211,9 @@ segment.12.Piano.RH.Music.Voice = {
     %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    %! baca._attach_color_literal(2)
+    %! REAPPLIED_MARGIN_MARKUP_COLOR
+    \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
     %! faberge.end_of_cell_attack()
     r1
     %! REAPPLIED_DYNAMIC_COLOR
@@ -2263,6 +2263,9 @@ segment.12.Piano.RH.Music.Voice = {
     %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
     %! baca._attach_color_literal(2)
+    %! REAPPLIED_CLEF_REDRAW_COLOR
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
+    %! baca._attach_color_literal(2)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
     \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
@@ -2271,9 +2274,6 @@ segment.12.Piano.RH.Music.Voice = {
     %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     %! faberge.end_of_cell_attack()
     r8
@@ -3617,12 +3617,12 @@ segment.12.Percussion.Music.Voice = {
     \startStaff
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-perc-markup
-    %! baca.dls_staff_padding()
-    %! baca.OverrideCommand._call(1)
-    \override DynamicLineSpanner.staff-padding = 6
     %! baca.stem_down()
     %! baca.OverrideCommand._call(1)
     \override Stem.direction = #down
+    %! baca.dls_staff_padding()
+    %! baca.OverrideCommand._call(1)
+    \override DynamicLineSpanner.staff-padding = 6
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_CLEF
@@ -6163,15 +6163,15 @@ segment.12.Cello.Music.Voice = {
         \startStaff
         %! baca._clone_segment_initial_short_instrument_name()
         \set Staff.instrumentName = \faberge-vc-markup
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 9
         %! baca.stem_down()
         %! baca.OverrideCommand._call(1)
         \override Stem.direction = #down
         %! baca.tuplet_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override TupletBracket.staff-padding = 3.5
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override DynamicLineSpanner.staff-padding = 9
         %! baca.clef_x_extent_false()
         %! baca.clef_shift()
         %! SHIFTED_CLEF
@@ -6595,15 +6595,15 @@ segment.12.Cello.Music.Voice = {
         - \staccato
         %! faberge.clb_rhythm()
         ]
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(2)
+        \revert DynamicLineSpanner.staff-padding
         %! baca.stem_down()
         %! baca.OverrideCommand._call(2)
         \revert Stem.direction
         %! baca.tuplet_bracket_staff_padding()
         %! baca.OverrideCommand._call(2)
         \revert TupletBracket.staff-padding
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(2)
-        \revert DynamicLineSpanner.staff-padding
 
     %! faberge.clb_rhythm()
     }
@@ -6866,15 +6866,15 @@ segment.12.Cello.Music.Voice = {
         %! baca._set_status_tag()
         %! EXPLICIT_STAFF_LINES
         \startStaff
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(1)
+        \override DynamicLineSpanner.staff-padding = 9
         %! baca.stem_down()
         %! baca.OverrideCommand._call(1)
         \override Stem.direction = #down
         %! baca.tuplet_bracket_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override TupletBracket.staff-padding = 3.5
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(1)
-        \override DynamicLineSpanner.staff-padding = 9
         %! baca._attach_color_literal(2)
         %! EXPLICIT_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
@@ -7178,15 +7178,15 @@ segment.12.Cello.Music.Voice = {
         - \staccato
         %! faberge.clb_rhythm()
         ]
+        %! baca.dls_staff_padding()
+        %! baca.OverrideCommand._call(2)
+        \revert DynamicLineSpanner.staff-padding
         %! baca.stem_down()
         %! baca.OverrideCommand._call(2)
         \revert Stem.direction
         %! baca.tuplet_bracket_staff_padding()
         %! baca.OverrideCommand._call(2)
         \revert TupletBracket.staff-padding
-        %! baca.dls_staff_padding()
-        %! baca.OverrideCommand._call(2)
-        \revert DynamicLineSpanner.staff-padding
 
     %! faberge.clb_rhythm()
     }

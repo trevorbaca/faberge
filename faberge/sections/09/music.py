@@ -85,12 +85,13 @@ commands(
 
 commands(
     ("fl", (1, 2)),
-    baca.dls_staff_padding(6),
-    baca.pitch("G3"),
     library.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[0, 1],
     ),
+    baca.reapply_persistent_indicators(),
+    baca.dls_staff_padding(6),
+    baca.pitch("G3"),
 )
 
 commands(
@@ -143,30 +144,6 @@ commands(
     ),
 )
 
-# fl, cl
-
-commands(
-    (["fl", "cl"], (1, 2)),
-    baca.espressivo(
-        selector=lambda _: baca.select.pheads(_),
-    ),
-    baca.hairpin(
-        "o< mp >o niente",
-        map=lambda _: baca.select.cmgroups(
-            _,
-        ),
-        pieces=lambda _: abjad.select.partition_by_counts(
-            abjad.select.leaves(_), [2], overhang=True
-        ),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.material_annotation_spanner(
-        "3-7 -|",
-        abjad.Tweak(r"- \tweak color #darkgreen"),
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-)
-
 # eh
 
 commands(
@@ -174,6 +151,7 @@ commands(
     baca.skeleton(
         "{ c1 c1 r1 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -246,26 +224,53 @@ commands(
 
 commands(
     ("cl", (1, 2)),
-    baca.dls_staff_padding(8),
-    baca.pitch("F2"),
     library.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[1, 0],
     ),
+    baca.reapply_persistent_indicators(),
+    baca.dls_staff_padding(8),
+    baca.pitch("F2"),
 )
 
-# rh
+# fl, cl
+
+commands(
+    (["fl", "cl"], (1, 2)),
+    baca.espressivo(
+        selector=lambda _: baca.select.pheads(_),
+    ),
+    baca.hairpin(
+        "o< mp >o niente",
+        map=lambda _: baca.select.cmgroups(
+            _,
+        ),
+        pieces=lambda _: abjad.select.partition_by_counts(
+            abjad.select.leaves(_), [2], overhang=True
+        ),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+    baca.material_annotation_spanner(
+        "3-7 -|",
+        abjad.Tweak(r"- \tweak color #darkgreen"),
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+)
+
+# rh, attack, lh
+
+commands(
+    ["rh", "attack", "lh"],
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 # perc
 
 commands(
-    "perc",
-    baca.clef("percussion"),
-    baca.dls_staff_padding(4),
-)
-
-commands(
     ("perc", [1, 2]),
+    library.downbeat_attack(denominator=2),
+    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-castanets-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -276,7 +281,6 @@ commands(
         map=lambda _: baca.select.runs(_),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    library.downbeat_attack(denominator=2),
 )
 
 commands(
@@ -336,25 +340,24 @@ commands(
     baca.stem_tremolo(),
 )
 
+commands(
+    "perc",
+    baca.clef("percussion"),
+    baca.dls_staff_padding(4),
+)
+
 # vn
 
 commands(
-    "vn",
-    baca.material_annotation_spanner(
-        "3-2 / 3-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-)
-
-commands(
     ("vn", 1),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p niente o< p > pp",
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
-    ),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -466,6 +469,14 @@ commands(
     ),
 )
 
+commands(
+    "vn",
+    baca.material_annotation_spanner(
+        "3-2 / 3-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
+    ),
+)
+
 # vn, va
 
 commands(
@@ -489,16 +500,11 @@ commands(
 # va
 
 commands(
-    "va",
-    baca.dls_staff_padding(9),
-    baca.material_annotation_spanner(
-        "3-2 / 3-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-)
-
-commands(
     ("va", 1),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.quadruple_staccato(
             selector=lambda x: [
@@ -518,9 +524,6 @@ commands(
     baca.hairpin(
         "p niente o< p > pp niente o< p > pp p",
         pieces=lambda _: baca.select.clparts(_, [1]),
-    ),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
     baca.scp_spanner(
         r"\baca-null-markup || ord. -> pont. -> ord. ||"
@@ -715,7 +718,28 @@ commands(
     ),
 )
 
+commands(
+    "va",
+    baca.dls_staff_padding(9),
+    baca.material_annotation_spanner(
+        "3-2 / 3-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
+    ),
+)
+
 # vc
+
+commands(
+    ("vc", (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.dls_staff_padding(5),
+    baca.flat_glissando("F2"),
+    baca.scp_spanner(
+        "tasto =|",
+        abjad.Tweak(r"- \tweak staff-padding 3"),
+    ),
+)
 
 commands(
     ("vc", (1, 3)),
@@ -723,17 +747,6 @@ commands(
     baca.hairpin(
         "p < f-poco-scratch",
         selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("vc", (1, 4)),
-    baca.dls_staff_padding(5),
-    baca.flat_glissando("F2"),
-    baca.make_repeat_tied_notes(),
-    baca.scp_spanner(
-        "tasto =|",
-        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
