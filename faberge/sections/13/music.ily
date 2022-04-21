@@ -2754,9 +2754,6 @@ segment.13.Piano.RH.Music.Voice = {
         %! REAPPLIED_CLEF
         \clef "treble"
         %! baca._attach_color_literal(2)
-        %! REAPPLIED_MARGIN_MARKUP_COLOR
-        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
-        %! baca._attach_color_literal(2)
         %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
         %! baca._attach_color_literal(1)
@@ -2770,6 +2767,9 @@ segment.13.Piano.RH.Music.Voice = {
         %! baca._attach_color_literal(2)
         %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+        %! baca._attach_color_literal(2)
+        %! REAPPLIED_MARGIN_MARKUP_COLOR
+        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
         %! faberge.clb_rhythm()
         g'8
         %! REAPPLIED_DYNAMIC_COLOR
@@ -2791,6 +2791,9 @@ segment.13.Piano.RH.Music.Voice = {
         %! faberge.clb_rhythm()
         [
         %! baca._attach_color_literal(2)
+        %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
+        %! baca._attach_color_literal(2)
         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
         \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
         %! -PARTS
@@ -2799,9 +2802,6 @@ segment.13.Piano.RH.Music.Voice = {
         %! baca._set_status_tag()
         %! REDRAWN_REAPPLIED_MARGIN_MARKUP
         \set PianoStaff.shortInstrumentName = \faberge-pf-markup
-        %! baca._attach_color_literal(2)
-        %! REAPPLIED_CLEF_REDRAW_COLOR
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
         %! faberge.clb_rhythm()
         a'8
@@ -5495,12 +5495,12 @@ segment.13.Viola.Music.Voice = {
         \startStaff
         %! baca._clone_segment_initial_short_instrument_name()
         \set Staff.instrumentName = \faberge-va-markup
-        %! baca.stem_down()
-        %! baca.OverrideCommand._call(1)
-        \override Stem.direction = #down
         %! baca.dls_staff_padding()
         %! baca.OverrideCommand._call(1)
         \override DynamicLineSpanner.staff-padding = 5
+        %! baca.stem_down()
+        %! baca.OverrideCommand._call(1)
+        \override Stem.direction = #down
         %! baca._reapply_persistent_indicators(3)
         %! baca._set_status_tag()
         %! REAPPLIED_CLEF

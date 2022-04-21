@@ -94,12 +94,9 @@ commands(
 # fl
 
 commands(
-    "fl",
-    baca.dls_staff_padding(6),
-)
-
-commands(
     ("fl", (1, 2)),
+    library.halves_rhythm(),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "o< mf >o",
         pieces=lambda _: abjad.select.partition_by_counts(
@@ -118,7 +115,6 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.halves_rhythm(),
 )
 
 commands(
@@ -146,6 +142,46 @@ commands(
     ("fl", [6, 7, 8]),
     baca.pitches(
         "Ab3 Ab3 Ab3 G3 G3",
+        allow_repeats=True,
+    ),
+)
+
+commands(
+    "fl",
+    baca.dls_staff_padding(6),
+)
+
+# eh
+
+commands(
+    "eh",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+# cl
+
+commands(
+    "cl",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "1-5 / 2-1 =|",
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+)
+
+commands(
+    ("cl", [1, 2, 4, 5]),
+    baca.pitches(
+        "E3 E3 E3 D#3 D#3",
+        allow_repeats=True,
+    ),
+)
+
+commands(
+    ("cl", [6, 7, 8]),
+    baca.pitches(
+        "F3 F3 F3 E3 E3",
         allow_repeats=True,
     ),
 )
@@ -180,50 +216,21 @@ commands(
         selector=lambda _: baca.select.leaves(_)[:3],
     ),
     library.suffixed_colortrill_rhythm(),
-)
-
-# eh
-
-# cl
-
-commands(
-    "cl",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "1-5 / 2-1 =|",
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-)
-
-commands(
-    ("cl", [1, 2, 4, 5]),
-    baca.pitches(
-        "E3 E3 E3 D#3 D#3",
-        allow_repeats=True,
-    ),
-)
-
-commands(
-    ("cl", [6, 7, 8]),
-    baca.pitches(
-        "F3 F3 F3 E3 E3",
-        allow_repeats=True,
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=5,
     ),
 )
 
 # rh
 
 commands(
-    "rh",
-    baca.dls_staff_padding(4.5),
-)
-
-commands(
     ("rh", 4),
-    baca.staff_lines(3),
     library.clb_rhythm(
         extra_counts=[7],
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_lines(3),
 )
 
 commands(
@@ -300,14 +307,26 @@ commands(
     ),
 )
 
+commands(
+    "rh",
+    baca.dls_staff_padding(4.5),
+)
+
 # attack
 
 commands(
     "attack",
+    baca.reapply_persistent_indicators(),
     baca.mmrest_transparent(),
 )
 
 # lh
+
+commands(
+    ("lh", (1, 5)),
+    baca.reapply_persistent_indicators(),
+    baca.make_mmrests(),
+)
 
 commands(
     ("lh", 6),
@@ -337,6 +356,12 @@ commands(
 )
 
 # perc
+
+commands(
+    ("perc", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("perc", (1, 2)),
@@ -411,6 +436,12 @@ commands(
 )
 
 # vn
+
+commands(
+    ("vn", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("vn", (1, 2)),
@@ -494,6 +525,14 @@ commands(
     baca.staff_lines(5),
 )
 
+# va
+
+commands(
+    ("va", 1),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 # vn, va
 
 commands(
@@ -517,6 +556,14 @@ commands(
             if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
         ],
     ),
+)
+
+# vc
+
+commands(
+    ("vc", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 # vn, va, vc

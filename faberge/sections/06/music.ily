@@ -3520,9 +3520,6 @@ segment.06.Piano.RH.Music.Voice = {
             %! REAPPLIED_CLEF
             \clef "bass"
             %! baca._attach_color_literal(2)
-            %! REAPPLIED_MARGIN_MARKUP_COLOR
-            \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
-            %! baca._attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
             \once \override Staff.Clef.color = #(x11-color 'green4)
             %! baca._attach_color_literal(1)
@@ -3536,6 +3533,9 @@ segment.06.Piano.RH.Music.Voice = {
             %! baca._attach_color_literal(2)
             %! REAPPLIED_STAFF_LINES_COLOR
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
             %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
@@ -3562,6 +3562,9 @@ segment.06.Piano.RH.Music.Voice = {
             %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
             \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
             %! -PARTS
@@ -3570,9 +3573,6 @@ segment.06.Piano.RH.Music.Voice = {
             %! baca._set_status_tag()
             %! REDRAWN_REAPPLIED_MARGIN_MARKUP
             \set PianoStaff.shortInstrumentName = \faberge-pf-markup
-            %! baca._attach_color_literal(2)
-            %! REAPPLIED_CLEF_REDRAW_COLOR
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
         %! baca._make_multimeasure_rest_container(4)
         }

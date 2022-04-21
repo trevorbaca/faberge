@@ -92,38 +92,27 @@ commands(
 # fl
 
 commands(
+    ("fl", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("fl", (4, 5)),
     baca.dls_staff_padding(4),
     baca.dynamic("p"),
     baca.pitch("G#3"),
 )
 
-# fl, eh, cl
-
-commands(
-    (["fl", "eh", "cl"], [4, 5]),
-    baca.breathe(),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    (["fl", "eh", "cl"], (4, 5)),
-    baca.material_annotation_spanner(
-        "1-2 -|",
-        abjad.Tweak(r"- \tweak color #red"),
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-)
-
 # eh
 
 commands(
     ("eh", 1),
-    baca.pitch("G#5"),
     baca.skeleton(
         "{ c4 c4 c4 r2. }",
     ),
+    baca.reapply_persistent_indicators(),
+    baca.pitch("G#5"),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=lambda _: baca.select.plts(_),
@@ -155,25 +144,44 @@ commands(
 # cl
 
 commands(
+    ("cl", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("cl", (4, 5)),
     baca.dls_staff_padding(7),
     baca.dynamic("p"),
     baca.pitch("C2"),
 )
 
-# rh
+# fl, eh, cl
 
 commands(
-    "rh",
-    baca.dls_staff_padding(4.5),
-    baca.pitch("<G6 A6 B6 C7>"),
+    (["fl", "eh", "cl"], [4, 5]),
+    baca.breathe(),
+    baca.make_repeat_tied_notes(),
 )
+
+commands(
+    (["fl", "eh", "cl"], (4, 5)),
+    baca.material_annotation_spanner(
+        "1-2 -|",
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+)
+
+# rh
 
 commands(
     ("rh", 1),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -263,30 +271,28 @@ commands(
     ),
 )
 
+commands(
+    "rh",
+    baca.dls_staff_padding(4.5),
+    baca.pitch("<G6 A6 B6 C7>"),
+)
+
 # attack
 
 commands(
     "attack",
+    baca.reapply_persistent_indicators(),
     baca.mmrest_transparent(),
 )
 
 # lh
 
 commands(
-    "lh",
-    baca.dls_staff_padding(4.5),
-    baca.markup(
-        r"\baca-sharp-markup",
-        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.pitch("<F6 G6 A6>"),
-)
-
-commands(
     ("lh", 1),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -375,11 +381,22 @@ commands(
     ),
 )
 
+commands(
+    "lh",
+    baca.dls_staff_padding(4.5),
+    baca.markup(
+        r"\baca-sharp-markup",
+        selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+    ),
+    baca.pitch("<F6 G6 A6>"),
+)
+
 # perc
 
 commands(
     ("perc", 1),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-castanets-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -459,30 +476,15 @@ commands(
     ),
 )
 
-# perc, vn, vc
-
-commands(
-    (["perc", "vn", "vc"], (4, 5)),
-    baca.hairpin(
-        'o< "f"',
-        selector=lambda _: baca.select.rleaves(_),
-        map=lambda _: baca.select.plts(_),
-    ),
-)
-
-commands(
-    (["perc", "vn", "vc"], 6),
-    baca.staff_lines(5),
-)
-
 # vn
 
 commands(
     ("vn", 1),
-    baca.dynamic("f"),
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("f"),
 )
 
 commands(
@@ -592,34 +594,13 @@ commands(
     ),
 )
 
-# vn, va
+# va
 
 commands(
-    (["vn", "va"], [6, (8, 10)]),
-    baca.stem_tremolo(
-        selector=lambda x: [
-            _
-            for _ in baca.plts(x)
-            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
-        ],
-    ),
-    baca.quadruple_staccato(
-        selector=lambda x: [
-            _
-            for _ in baca.plts(x)
-            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
-        ],
-    ),
-    baca.stem_tremolo(
-        selector=lambda x: [
-            _
-            for _ in baca.plts(x)
-            if abjad.get.duration(_, preprolated=True) == abjad.Duration((3, 4))
-        ],
-    ),
+    ("va", (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
-
-# va
 
 commands(
     ("va", (3, 6)),
@@ -690,6 +671,33 @@ commands(
     ),
 )
 
+# vn, va
+
+commands(
+    (["vn", "va"], [6, (8, 10)]),
+    baca.stem_tremolo(
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        ],
+    ),
+    baca.quadruple_staccato(
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        ],
+    ),
+    baca.stem_tremolo(
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((3, 4))
+        ],
+    ),
+)
+
 # vc
 
 commands(
@@ -697,6 +705,7 @@ commands(
     baca.skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -797,6 +806,22 @@ commands(
     baca.skeleton(
         "{ c8. r16 r4 r4 r4 r4 }",
     ),
+)
+
+# perc, vn, vc
+
+commands(
+    (["perc", "vn", "vc"], (4, 5)),
+    baca.hairpin(
+        'o< "f"',
+        selector=lambda _: baca.select.rleaves(_),
+        map=lambda _: baca.select.plts(_),
+    ),
+)
+
+commands(
+    (["perc", "vn", "vc"], 6),
+    baca.staff_lines(5),
 )
 
 if __name__ == "__main__":

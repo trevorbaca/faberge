@@ -86,6 +86,19 @@ commands(
 # fl
 
 commands(
+    ("fl", (1, 4)),
+    library.halves_rhythm(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("fl", (5, 8)),
+    baca.skeleton(
+        "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
+    ),
+)
+
+commands(
     "fl",
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -145,22 +158,24 @@ commands(
     ),
 )
 
-commands(
-    ("fl", (1, 4)),
-    library.halves_rhythm(),
-)
+# eh
 
 commands(
-    ("fl", (5, 8)),
-    baca.skeleton(
-        "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
-    ),
+    "eh",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 # cl
 
 commands(
     ("cl", (1, 4)),
+    library.bcl_color_fingering_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
+        ),
+    ),
+    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(8),
     baca.hairpin(
         "pp < p > pp",
@@ -175,11 +190,6 @@ commands(
         "F2",
         selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
-    library.bcl_color_fingering_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
-        ),
-    ),
     library.bcl_color_fingerings(
         abjad.Tweak(r"- \tweak direction #down"),
         abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
@@ -188,6 +198,12 @@ commands(
 )
 
 # rh
+
+commands(
+    ("rh", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("rh", (4, 5)),
@@ -218,7 +234,21 @@ commands(
     baca.staff_lines(5),
 )
 
+# attack, lh
+
+commands(
+    ["attack", "lh"],
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 # perc
+
+commands(
+    ("perc", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("perc", 5),
@@ -270,15 +300,9 @@ commands(
 # vn
 
 commands(
-    "vn",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "5-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
+    ("vn", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -288,6 +312,18 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("<F#5 Aqs5>"),
+)
+
+commands(
+    "vn",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "5-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
 )
 
 # vn, va
@@ -341,25 +377,14 @@ commands(
 # va
 
 commands(
-    "va",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "5-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
-
-commands(
     ("va", (1, 4)),
+    library.back_incised_divisions(),
+    baca.reapply_persistent_indicators(),
     baca.pitch("F3"),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         map=lambda _: baca.select.plts(_),
     ),
-    library.back_incised_divisions(),
 )
 
 commands(
@@ -371,10 +396,8 @@ commands(
     baca.pitch("Dqf5"),
 )
 
-# vc
-
 commands(
-    "vc",
+    "va",
     baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         "5-3 =|",
@@ -382,6 +405,20 @@ commands(
         selector=lambda _: baca.select.tleaves(
             _, exclude=baca.enums.HIDDEN, rleak=True
         ),
+    ),
+)
+
+# vc
+
+commands(
+    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
+    library.halves_rhythm(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
     ),
 )
 
@@ -396,16 +433,20 @@ commands(
 )
 
 commands(
-    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-    library.halves_rhythm(),
+    ("vc", (5, 8)),
+    baca.pitch("E2"),
 )
 
 commands(
-    ("vc", (5, 8)),
-    baca.pitch("E2"),
+    "vc",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "5-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
 )
 
 if __name__ == "__main__":

@@ -84,6 +84,34 @@ commands(
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
+# fl, cl
+
+commands(
+    (["fl", "cl"], [1, 2, 3, 4, 5, 6, 7, 8]),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=lambda _: baca.select.pleaf(_, 2),
+    ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=lambda _: baca.select.pleaf(_, -1),
+    ),
+    baca.glissando(
+        allow_repeats=True,
+        selector=lambda _: baca.select.pleaves(_)[2:],
+    ),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        selector=lambda _: baca.select.leaves(_)[:3],
+    ),
+    library.suffixed_colortrill_rhythm(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=[0, 8],
+    ),
+)
+
+
 # fl
 
 commands(
@@ -153,28 +181,13 @@ commands(
     ),
 )
 
-commands(
-    (["fl", "cl"], [1, 2, 3, 4, 5, 6, 7, 8]),
-    baca.dynamic_text_self_alignment_x(
-        -1,
-        selector=lambda _: baca.select.pleaf(_, 2),
-    ),
-    baca.dynamic_text_self_alignment_x(
-        -0.75,
-        selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-    baca.glissando(
-        allow_repeats=True,
-        selector=lambda _: baca.select.pleaves(_)[2:],
-    ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    library.suffixed_colortrill_rhythm(),
-)
-
 # eh
+
+commands(
+    ("eh", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("eh", 4),
@@ -231,6 +244,20 @@ commands(
         "F#4 F#4 F#4 E4 E4",
         allow_repeats=True,
     ),
+)
+
+# rh, attack, lh
+
+commands(
+    (["rh", "lh"], (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 # rh
@@ -321,12 +348,13 @@ commands(
 
 commands(
     ("perc", (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
         left_broken=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=lambda _: baca.select.phead(_, -1),
     ),
@@ -403,6 +431,7 @@ commands(
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -537,50 +566,6 @@ commands(
     ),
 )
 
-# vn, va
-
-commands(
-    (["vn", "va"], [(1, 4), (6, 8)]),
-    baca.quadruple_staccato(
-        selector=lambda x: [
-            _ for _ in baca.plts(x) if abjad.get.duration(_) >= abjad.Duration((1, 2))
-        ],
-    ),
-    baca.stem_tremolo(
-        selector=lambda x: [
-            _ for _ in baca.plts(x) if abjad.get.duration(_) == abjad.Duration((1, 3))
-        ],
-    ),
-)
-
-commands(
-    (["vn", "va"], 6),
-    baca.hairpin(
-        "mp p >o",
-        bookend=False,
-        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    (["vn", "va"], 7),
-    baca.hairpin(
-        "p pp >o niente",
-        bookend=False,
-        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    (["vn", "va"], 8),
-    baca.hairpin(
-        "pp ppp",
-        pieces=lambda _: baca.select.lparts(_, [1, 1]),
-    ),
-)
-
 # va
 
 commands(
@@ -588,6 +573,7 @@ commands(
     baca.skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -714,18 +700,58 @@ commands(
     ),
 )
 
-# vc
+# vn, va
 
 commands(
-    "vc",
-    baca.dls_staff_padding(4),
+    (["vn", "va"], [(1, 4), (6, 8)]),
+    baca.quadruple_staccato(
+        selector=lambda x: [
+            _ for _ in baca.plts(x) if abjad.get.duration(_) >= abjad.Duration((1, 2))
+        ],
+    ),
+    baca.stem_tremolo(
+        selector=lambda x: [
+            _ for _ in baca.plts(x) if abjad.get.duration(_) == abjad.Duration((1, 3))
+        ],
+    ),
 )
+
+commands(
+    (["vn", "va"], 6),
+    baca.hairpin(
+        "mp p >o",
+        bookend=False,
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    (["vn", "va"], 7),
+    baca.hairpin(
+        "p pp >o niente",
+        bookend=False,
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+)
+
+commands(
+    (["vn", "va"], 8),
+    baca.hairpin(
+        "pp ppp",
+        pieces=lambda _: baca.select.lparts(_, [1, 1]),
+    ),
+)
+
+# vc
 
 commands(
     ("vc", 1),
     baca.skeleton(
         "{ c2 c1 }",
     ),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -854,6 +880,11 @@ commands(
         [0, 1, 3, 4, 6, 7, 8, 9],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    "vc",
+    baca.dls_staff_padding(4),
 )
 
 if __name__ == "__main__":
