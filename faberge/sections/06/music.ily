@@ -22,14 +22,6 @@ segment.06.Global.Skips = {
     s1 * 1
     % AFTER:
     % MARKUP:
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \tweak extra-offset #'(0 . 9)
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \baca-rehearsal-mark-markup "E" #10
       %! +SCORE
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
@@ -46,6 +38,14 @@ segment.06.Global.Skips = {
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "E" #10
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \tweak extra-offset #'(0 . 9)
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \baca-rehearsal-mark-markup "E" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -2284,17 +2284,17 @@ segment.06.English.Horn.Music.Voice = {
               %! baca._set_status_tag()
             \baca-effort-mf
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4323,17 +4323,17 @@ segment.06.Piano.RH.Music.Voice = {
               %! baca._set_status_tag()
             \mp
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Piano”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Pf.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -6580,17 +6580,17 @@ segment.06.Percussion.Music.Voice = {
               %! baca._set_status_tag()
             \p
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Percussion”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Perc.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -7457,17 +7457,17 @@ segment.06.Violin.Music.Voice = {
               %! baca._set_status_tag()
             \baca-effort-p
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Violin”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vn.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -8816,17 +8816,17 @@ segment.06.Viola.Music.Voice = {
               %! baca._set_status_tag()
             \baca-effort-p
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Viola”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Va.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -10182,17 +10182,17 @@ segment.06.Cello.Music.Voice = {
               %! baca._set_status_tag()
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Cello”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Vc.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR

@@ -22,14 +22,6 @@ segment.16.Global.Skips = {
     s1 * 2
     % AFTER:
     % MARKUP:
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \tweak extra-offset #'(0 . 9)
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \baca-rehearsal-mark-markup "O" #10
       %! +SCORE
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
@@ -46,6 +38,14 @@ segment.16.Global.Skips = {
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "O" #10
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \tweak extra-offset #'(0 . 9)
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \baca-rehearsal-mark-markup "O" #10
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
@@ -666,12 +666,6 @@ segment.16.Flute.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“BassFlute”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“B. fl.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
@@ -681,6 +675,12 @@ segment.16.Flute.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“BassFlute”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“B. fl.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1131,12 +1131,6 @@ segment.16.English.Horn.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
@@ -1146,6 +1140,12 @@ segment.16.English.Horn.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1939,12 +1939,6 @@ segment.16.Piano.RH.Music.Voice = {
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
@@ -1954,6 +1948,12 @@ segment.16.Piano.RH.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Piano”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3077,12 +3077,6 @@ segment.16.Percussion.Music.Voice = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
@@ -3092,6 +3086,12 @@ segment.16.Percussion.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-bd-sponge-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
     % SPANNER_STARTS:
       %! abjad.glissando(7)
       %! baca.glissando()

@@ -22,14 +22,6 @@ segment.03.Global.Skips = {
     s1 * 3/4
     % AFTER:
     % MARKUP:
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \tweak extra-offset #'(0 . 9)
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \baca-rehearsal-mark-markup "B" #10
       %! +SCORE
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
@@ -46,6 +38,14 @@ segment.03.Global.Skips = {
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "B" #10
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \tweak extra-offset #'(0 . 9)
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \baca-rehearsal-mark-markup "B" #10
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -21978,18 +21978,18 @@ segment.03.Percussion.Music.Voice = {
       %! baca.laissez_vibrer()
     \laissezVibrer
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-lv-possibile-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -24175,18 +24175,18 @@ segment.03.Violin.Music.Voice = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-lv-possibile-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Vn.”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
