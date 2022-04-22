@@ -22,14 +22,6 @@ segment.09.Global.Skips = {
     s1 * 3
     % AFTER:
     % MARKUP:
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \tweak extra-offset #'(0 . 9)
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
-%%% - \baca-rehearsal-mark-markup "H" #10
       %! +SCORE
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
@@ -46,6 +38,14 @@ segment.09.Global.Skips = {
       %! baca.IndicatorCommand._call()
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "H" #10
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \tweak extra-offset #'(0 . 9)
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.rehearsal_mark()
+%%% - \baca-rehearsal-mark-markup "H" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -4177,17 +4177,17 @@ segment.09.Piano.RH.Music.Voice = {
               %! baca._set_status_tag()
             \pp
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"3" #"1"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Piano”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Pf.”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"1"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -5334,18 +5334,18 @@ segment.09.Percussion.Music.Voice = {
       %! baca.dynamic()
     \f
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     - \tweak padding 1.5
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \baca-castanets-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! MATERIAL_ANNOTATION_SPANNER
