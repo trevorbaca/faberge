@@ -9165,6 +9165,12 @@ segment.02.Flute.Music.Voice = {
             b'1 * 3/4
             % AFTER:
             % MARKUP:
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            - \tweak padding 1.5
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \baca-to-bass-flute-markup
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9213,12 +9219,6 @@ segment.02.Flute.Music.Voice = {
             R1 * 3/4
             % AFTER:
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            - \tweak padding 1.5
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \baca-to-bass-flute-markup
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
@@ -15805,6 +15805,12 @@ segment.02.Clarinet.Music.Voice = {
             b'1 * 3/4
             % AFTER:
             % MARKUP:
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            - \tweak padding 1.5
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \baca-to-bass-clarinet-markup
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -15853,12 +15859,6 @@ segment.02.Clarinet.Music.Voice = {
             R1 * 3/4
             % AFTER:
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            - \tweak padding 1.5
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \baca-to-bass-clarinet-markup
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
