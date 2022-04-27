@@ -137,29 +137,7 @@ commands(
 )
 
 commands(
-    "fl",
-    baca.dls_staff_padding(7),
-)
-
-commands(
-    ("fl", (1, 60)),
-    baca.pitches(
-        "G4 G4 G4 G3 G4 G3 G4 G3 G3 G3",
-        allow_repeats=True,
-    ),
-    library.bfl_color_fingerings(
-        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-        abjad.Tweak(r"- \tweak staff-padding 3.5"),
-    ),
-)
-
-commands(
     ("fl", (9, 10)),
-    baca.hairpin(
-        "niente o< mp >o niente",
-        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
@@ -199,6 +177,11 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
         tuplet_ratio_rotation=-1,
+    ),
+    baca.hairpin(
+        "niente o< mp >o niente",
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -248,11 +231,6 @@ commands(
 )
 
 commands(
-    ("fl", (11, 15)),
-    baca.tuplet_bracket_staff_padding(2.5),
-)
-
-commands(
     ("fl", (13, 16)),
     library.glow_rhythm(
         rmakers.force_note(
@@ -297,15 +275,8 @@ commands(
 )
 
 commands(
-    ("fl", (13, 22)),
-    baca.dynamic(
-        "f",
-        measures=16,
-    ),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-    library.niente_swells("f"),
+    ("fl", (11, 15)),
+    baca.tuplet_bracket_staff_padding(2.5),
 )
 
 commands(
@@ -350,6 +321,18 @@ commands(
         ),
         tuplet_ratio_rotation=-4,
     ),
+)
+
+commands(
+    ("fl", (13, 22)),
+    baca.dynamic(
+        "f",
+        measures=16,
+    ),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
+    library.niente_swells("f"),
 )
 
 commands(
@@ -398,11 +381,6 @@ commands(
 )
 
 commands(
-    ("fl", 27),
-    baca.tuplet_bracket_staff_padding(2),
-)
-
-commands(
     ("fl", (27, 30)),
     library.glow_rhythm(
         rmakers.force_note(
@@ -445,6 +423,11 @@ commands(
         tuplet_ratio_rotation=-6,
     ),
     library.niente_swells("mp"),
+)
+
+commands(
+    ("fl", 27),
+    baca.tuplet_bracket_staff_padding(2),
 )
 
 commands(
@@ -499,9 +482,6 @@ commands(
 
 commands(
     ("fl", (37, 44)),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
@@ -541,6 +521,9 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
         tuplet_ratio_rotation=-8,
+    ),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
     ),
     library.niente_swells("f"),
 )
@@ -592,10 +575,6 @@ commands(
 
 commands(
     ("fl", (49, 52)),
-    baca.dynamic(
-        "p",
-        measures=52,
-    ),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
@@ -637,15 +616,14 @@ commands(
         tuplet_ratio_rotation=-10,
     ),
     library.niente_swells("p"),
+    baca.dynamic(
+        "p",
+        measures=52,
+    ),
 )
 
 commands(
     ("fl", (53, 54)),
-    baca.hairpin(
-        "niente o< pp >o niente",
-        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
@@ -685,6 +663,11 @@ commands(
             lambda _: baca.select.tuplet(_, -1),
         ),
         tuplet_ratio_rotation=-11,
+    ),
+    baca.hairpin(
+        "niente o< pp >o niente",
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
 
@@ -734,24 +717,24 @@ commands(
 )
 
 commands(
-    ("flx", (61, 68)),
-    # baca.tacet(),
-)
-
-commands(
-    ("fl", (69, 72)),
+    ("fl", (1, 60)),
     baca.pitches(
-        "G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3",
+        "G4 G4 G4 G3 G4 G3 G4 G3 G3 G3",
         allow_repeats=True,
-    ),
-    baca.repeat_tie_extra_offset(
-        (-1.5, 0),
-        selector=lambda _: baca.select.leaves(_),
     ),
     library.bfl_color_fingerings(
         abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
         abjad.Tweak(r"- \tweak staff-padding 3.5"),
     ),
+)
+
+commands(
+    ("fl", (61, 68)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (69, 72)),
     library.glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
@@ -792,17 +775,31 @@ commands(
         ),
         tuplet_ratio_rotation=-13,
     ),
+    baca.pitches(
+        "G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3",
+        allow_repeats=True,
+    ),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=lambda _: baca.select.leaves(_),
+    ),
+    library.bfl_color_fingerings(
+        abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+        abjad.Tweak(r"- \tweak staff-padding 3.5"),
+    ),
     library.niente_swells("ppp"),
 )
 
 commands(
-    ("fl", 73),
+    ("fl", (73, 80)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
     baca.staff_lines(1),
 )
 
 commands(
-    ("flx", (73, 80)),
-    # baca.tacet(),
+    "fl",
+    baca.dls_staff_padding(7),
 )
 
 # eh
@@ -823,17 +820,10 @@ commands(
 )
 
 commands(
-    ("eh", (1, 52)),
-    baca.dls_staff_padding(4),
-)
-
-commands(
-    ("eh", (1, 60)),
-    baca.tuplet_bracket_staff_padding(1),
-)
-
-commands(
     ("eh", (13, 16)),
+    library.eh_trill_rhythm(
+        counts=[-4, -1, 3, -1, 4, 8, 16, 23],
+    ),
     baca.dynamic("f"),
     baca.pitches("Db4 Db~4 Db4 Db~4 D~4"),
     baca.repeat_tie_extra_offset(
@@ -844,28 +834,31 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=lambda _: baca.select.runs(_),
     ),
-    library.eh_trill_rhythm(
-        counts=[-4, -1, 3, -1, 4, 8, 16, 23],
-    ),
 )
 
 commands(
     ("eh", (17, 22)),
-    baca.dynamic('"ff"'),
-    baca.note_head_style_cross(),
-    library.keynoise_pitches(
-        rotation=-2,
-    ),
     library.keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
         tuplet_ratio_rotation=-1,
     ),
+    baca.dynamic('"ff"'),
+    baca.note_head_style_cross(),
+    library.keynoise_pitches(
+        rotation=-2,
+    ),
 )
 
 commands(
     ("eh", (23, 30)),
+    library.eh_trill_rhythm(
+        [-4, -1, 23, -1, 3, -1, 35, -1, 47],
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, -1),
+        ),
+    ),
     baca.dynamic("ff"),
     baca.pitches("D4 D+4 D~4 Db4 D~4"),
     baca.repeat_tie_extra_offset(
@@ -876,18 +869,12 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         map=lambda _: baca.select.runs(_),
     ),
-    library.eh_trill_rhythm(
-        [-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-    ),
 )
 
 commands(
     ("eh", (31, 36)),
-    baca.dynamic("fff"),
     baca.make_repeat_tied_notes(),
+    baca.dynamic("fff"),
     baca.markup(
         r"\baca-doubletrill-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -900,6 +887,12 @@ commands(
 )
 
 commands(
+    ("eh", (37, 44)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch("E4"),
+)
+
+commands(
     ("eh", (31, 44)),
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -907,23 +900,27 @@ commands(
 )
 
 commands(
-    ("eh", (37, 44)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch("E4"),
-)
-
-commands(
     ("eh", (45, 60)),
-    baca.dynamic('"ff"'),
-    baca.note_head_style_cross(),
-    library.keynoise_pitches(
-        rotation=-3,
-    ),
     library.keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
     ),
+    baca.dynamic('"ff"'),
+    baca.note_head_style_cross(),
+    library.keynoise_pitches(
+        rotation=-3,
+    ),
+)
+
+commands(
+    ("eh", (1, 52)),
+    baca.dls_staff_padding(4),
+)
+
+commands(
+    ("eh", (1, 60)),
+    baca.tuplet_bracket_staff_padding(1),
 )
 
 commands(
@@ -939,23 +936,19 @@ commands(
 
 commands(
     ("eh", (61, 68)),
+    baca.make_mmrests(),
     baca.staff_lines(1),
 )
 
 commands(
-    ("ehx", (61, 68)),
-    # baca.tacet(),
-)
-
-commands(
     ("eh", (69, 72)),
+    baca.make_repeat_tied_notes(),
     baca.dls_staff_padding(4),
     baca.dynamic(
         '"mf"',
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-airtone-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -965,12 +958,13 @@ commands(
 )
 
 commands(
-    ("ehx", (73, 78)),
-    # baca.tacet(),
+    ("eh", (73, 78)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("eh", 79),
+    library.ratchet_rhythm(),
     baca.dls_staff_padding(8.5),
     baca.dynamic(
         "(f)",
@@ -983,12 +977,12 @@ commands(
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_position(0),
-    library.ratchet_rhythm(),
 )
 
 commands(
-    ("ehx", 80),
-    # baca.tacet(),
+    ("eh", 80),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 # cl
@@ -1010,8 +1004,26 @@ commands(
 )
 
 commands(
-    "cl",
-    baca.dls_staff_padding(8),
+    (
+        "cl",
+        [
+            (4, 6),
+            (7, 11),
+            (12, 14),
+            (15, 16),
+            (17, 21),
+            (22, 26),
+            (27, 29),
+            (30, 32),
+            (33, 37),
+            (38, 40),
+            (41, 42),
+            (43, 47),
+            (48, 52),
+        ],
+    ),
+    library.single_taper(),
+    baca.breathe(),
 )
 
 commands(
@@ -1031,98 +1043,73 @@ commands(
 
 commands(
     ("cl", (4, 6)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (7, 11)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (12, 14)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (15, 16)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (17, 21)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (22, 26)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (27, 29)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (30, 32)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 
 commands(
     ("cl", (33, 37)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (38, 40)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (41, 42)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (43, 47)),
-    baca.breathe(),
     baca.flat_glissando("Eb2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (48, 52)),
-    baca.breathe(),
     baca.flat_glissando("Eqf2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (53, 56)),
+    library.single_taper(),
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
@@ -1136,11 +1123,11 @@ commands(
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("D2"),
-    library.single_taper(),
 )
 
 commands(
     ("cl", (57, 60)),
+    library.single_taper(),
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
@@ -1154,16 +1141,16 @@ commands(
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("C#2"),
-    library.single_taper(),
 )
 
 commands(
-    ("clx", (61, 68)),
-    # baca.tacet(),
+    ("cl", (61, 68)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("cl", (69, 72)),
+    library.single_taper(),
     baca.breathe(),
     baca.chunk(
         baca.hairpin(
@@ -1177,17 +1164,18 @@ commands(
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("C2"),
-    library.single_taper(),
 )
 
 commands(
-    ("cl", 73),
+    ("cl", (73, 80)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
     baca.staff_lines(1),
 )
 
 commands(
-    ("clx", (73, 80)),
-    # baca.tacet(),
+    "cl",
+    baca.dls_staff_padding(8),
 )
 
 # rh
@@ -1198,6 +1186,13 @@ commands(
     baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.pitch("<Eb4 F4 G4 Ab4 Eb4 C5 Db5 Eb5>"),
+)
+
+commands(
+    ("rh", (2, 44)),
+    baca.make_rests(),
+    baca.dots_transparent(),
+    baca.rest_transparent(),
 )
 
 commands(
@@ -1213,14 +1208,16 @@ commands(
 )
 
 commands(
-    ("rh", (2, 44)),
-    baca.dots_transparent(),
-    baca.make_rests(),
-    baca.rest_transparent(),
+    ("rh", (45, 52)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("rh", (53, 79)),
+    library.clb_rhythm(
+        extra_counts=[16, 20, 8],
+        fuse_counts=[2, 3],
+    ),
     baca.staff_lines(3),
     baca.dynamic(
         '"mf"',
@@ -1232,10 +1229,14 @@ commands(
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
-    library.clb_rhythm(
-        extra_counts=[16, 20, 8],
-        fuse_counts=[2, 3],
+)
+
+commands(
+    ("rh", 80),
+    library.downbeat_attack(
+        denominator=8,
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -1251,13 +1252,6 @@ commands(
 
 
 commands(
-    ("rh", 80),
-    library.downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("rh", (78, 80)),
     baca.beam(),
 )
@@ -1267,12 +1261,14 @@ commands(
 commands(
     ("attack", (1, 22)),
     library.piano_attack_rhythm(),
-    baca.reapply_persistent_indicators(),
+    # TODO: uncomment and allow to run:
+    # baca.reapply_persistent_indicators(),
 )
 
 commands(
-    "attack",
-    baca.dls_staff_padding(6),
+    ("attack", (23, 80)),
+    library.piano_attack_rhythm(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -1288,14 +1284,17 @@ commands(
 )
 
 commands(
-    ("attack", (23, 80)),
-    library.piano_attack_rhythm(),
+    "attack",
+    baca.dls_staff_padding(6),
 )
 
 # lh
 
 commands(
     "lh",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
@@ -1318,8 +1317,8 @@ commands(
 )
 
 commands(
-    "perc",
-    baca.dls_staff_padding(6),
+    ("perc", (2, 22)),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -1332,18 +1331,25 @@ commands(
 )
 
 commands(
-    ("percx", (2, 22)),
-    # baca.tacet(),
-)
-
-commands(
     ("perc", (23, 48)),
+    baca.make_repeat_tied_notes(),
     baca.clef("bass"),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
     ),
+    baca.stem_tremolo(
+        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
+    ),
+)
+
+commands(
+    ("perc", (49, 56)),
     baca.make_repeat_tied_notes(),
+    baca.flat_glissando(
+        "D2",
+        hide_middle_stems=True,
+    ),
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
@@ -1363,12 +1369,12 @@ commands(
 )
 
 commands(
-    ("perc", (49, 56)),
+    ("perc", (57, 60)),
+    baca.make_repeat_tied_notes(),
     baca.flat_glissando(
-        "D2",
+        "C#2",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
     ),
@@ -1384,24 +1390,13 @@ commands(
 )
 
 commands(
-    ("perc", (57, 60)),
-    baca.flat_glissando(
-        "C#2",
-        hide_middle_stems=True,
-    ),
-    baca.stem_tremolo(
-        selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
-    ),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("percx", (61, 68)),
-    # baca.tacet(),
+    ("perc", (61, 68)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("perc", (69, 72)),
+    baca.make_repeat_tied_notes(),
     baca.staff_lines(1),
     baca.clef("percussion"),
     baca.dynamic(
@@ -1409,7 +1404,6 @@ commands(
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-bd-sponge-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -1420,12 +1414,16 @@ commands(
 )
 
 commands(
-    ("percx", (73, 78)),
-    # baca.tacet(),
+    ("perc", (73, 78)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("perc", (79, 80)),
+    baca.skeleton(
+        r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",
+    ),
+    baca.append_phantom_measure(),
     baca.dls_staff_padding(9),
     baca.dynamic("f"),
     baca.markup(
@@ -1438,10 +1436,12 @@ commands(
         right_broken=True,
         selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
     ),
-    baca.skeleton(
-        r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",
-    ),
     baca.staff_position(0),
+)
+
+commands(
+    "perc",
+    baca.dls_staff_padding(6),
 )
 
 # vn
@@ -1460,22 +1460,17 @@ commands(
 )
 
 commands(
-    ("vn", (1, 52)),
-    baca.dls_staff_padding(5),
-)
-
-commands(
-    ("vnx", (2, 8)),
-    # baca.tacet(),
+    ("vn", (2, 8)),
+    baca.make_mmrests(),
 )
 
 commands(
     ("vn", (9, 22)),
-    baca.dynamic('"ff"'),
-    baca.pitch("F4"),
     library.spazzolati_rhythm(
         counts_rotation=-20,
     ),
+    baca.dynamic('"ff"'),
+    baca.pitch("F4"),
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
@@ -1488,12 +1483,12 @@ commands(
 
 commands(
     ("vn", (23, 52)),
+    baca.make_repeat_tied_notes(),
     baca.dynamic("ppp"),
     baca.flat_glissando(
         "Eqf4",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         r"\baca-tasto-plus-pochiss-scratch-markup =|",
         abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -1501,10 +1496,34 @@ commands(
 )
 
 commands(
+    ("vn", (1, 52)),
+    baca.dls_staff_padding(5),
+)
+
+commands(
     ("vn", (37, 52)),
     baca.hairpin(
         "(ppp) < f > ppp",
         pieces=lambda _: baca.select.cmgroups(_, [8]),
+    ),
+)
+
+commands(
+    ("vn", (53, 68)),
+    library.clb_rhythm(
+        fuse_counts=[2, 2, 1],
+    ),
+    baca.staff_lines(1),
+    baca.clb_spanner(
+        3,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_),
+    ),
+    baca.stem_down(),
+    library.clb_staff_positions(
+        rotation=-3,
     ),
 )
 
@@ -1517,38 +1536,13 @@ commands(
 )
 
 commands(
-    ("vn", (53, 68)),
-    baca.staff_lines(1),
-    baca.clb_spanner(
-        3,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_),
-    ),
-    baca.stem_down(),
-    library.clb_rhythm(
-        fuse_counts=[2, 2, 1],
-    ),
-    library.clb_staff_positions(
-        rotation=-3,
-    ),
-)
-
-commands(
-    ("vn", (53, 80)),
-    baca.beam_positions(-3.5),
-    baca.dls_staff_padding(10),
-)
-
-commands(
     ("vn", (69, 72)),
+    baca.make_repeat_tied_notes(),
     baca.dynamic(
         '("mf")',
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r"\baca-ob-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1559,6 +1553,10 @@ commands(
 
 commands(
     ("vn", (73, 80)),
+    library.clb_rhythm(
+        fuse_counts=[2, 2, 1],
+    ),
+    baca.append_phantom_measure(),
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1572,12 +1570,15 @@ commands(
         selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
-    library.clb_rhythm(
-        fuse_counts=[2, 2, 1],
-    ),
     library.clb_staff_positions(
         rotation=-3,
     ),
+)
+
+commands(
+    ("vn", (53, 80)),
+    baca.beam_positions(-3.5),
+    baca.dls_staff_padding(10),
 )
 
 # va
@@ -1599,21 +1600,16 @@ commands(
 )
 
 commands(
-    ("va", (1, 52)),
-    baca.dls_staff_padding(7),
-)
-
-commands(
     ("va", (9, 22)),
-    baca.dynamic('"ff"'),
-    baca.pitch("F4"),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
     library.spazzolati_rhythm(
         counts_rotation=-21,
         denominator=8,
         extra_counts=[1],
+    ),
+    baca.dynamic('"ff"'),
+    baca.pitch("F4"),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1629,12 +1625,12 @@ commands(
 
 commands(
     ("va", (23, 52)),
+    baca.make_repeat_tied_notes(),
     baca.dynamic("pp"),
     baca.flat_glissando(
         "G3",
         hide_middle_stems=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.scp_spanner(
         r"\baca-tasto-plus-pochiss-scratch-markup =|",
         abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -1642,10 +1638,22 @@ commands(
 )
 
 commands(
+    ("va", (1, 52)),
+    baca.dls_staff_padding(7),
+)
+
+commands(
     ("va", (37, 52)),
     baca.hairpin(
         "(pp) < f > pp",
         pieces=lambda _: baca.select.cmgroups(_, [8]),
+    ),
+)
+
+commands(
+    ("va", (53, 79)),
+    library.clb_rhythm(
+        fuse_counts=[1, 2, 2],
     ),
 )
 
@@ -1658,10 +1666,11 @@ commands(
 )
 
 commands(
-    ("va", (53, 79)),
-    library.clb_rhythm(
-        fuse_counts=[1, 2, 2],
+    ("va", 80),
+    library.downbeat_attack(
+        denominator=8,
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -1686,13 +1695,6 @@ commands(
 commands(
     ("va", (79, 80)),
     baca.beam(),
-)
-
-commands(
-    ("va", 80),
-    library.downbeat_attack(
-        denominator=8,
-    ),
 )
 
 # vc
@@ -1754,6 +1756,7 @@ commands(
 
 commands(
     ("vc", (37, 60)),
+    baca.make_repeated_duration_notes([(1, 4)]),
     baca.dls_staff_padding(8),
     baca.glissando(
         allow_repeats=True,
@@ -1764,7 +1767,6 @@ commands(
         "(p) < ff >o",
         pieces=lambda _: baca.mgroups(_, [12, 12]),
     ),
-    baca.make_repeated_duration_notes([(1, 4)]),
     baca.markup(
         r"\baca-non-vib-markup",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1782,6 +1784,14 @@ commands(
     library.clb_rhythm(
         fuse_counts=[3],
     ),
+)
+
+commands(
+    ("vc", 80),
+    library.downbeat_attack(
+        denominator=8,
+    ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -1811,13 +1821,6 @@ commands(
     baca.beam(),
 )
 
-commands(
-    ("vc", 80),
-    library.downbeat_attack(
-        denominator=8,
-    ),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -1828,8 +1831,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        # do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
