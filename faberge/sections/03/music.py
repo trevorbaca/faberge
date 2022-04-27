@@ -830,10 +830,6 @@ commands(
         (-1.5, 0),
         selector=lambda _: baca.select.leaves(_),
     ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.runs(_),
-    ),
 )
 
 commands(
@@ -852,6 +848,14 @@ commands(
 )
 
 commands(
+    ("eh", (13, 16)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.runs(_),
+    ),
+)
+
+commands(
     ("eh", (23, 30)),
     library.eh_trill_rhythm(
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
@@ -864,10 +868,6 @@ commands(
     baca.repeat_tie_extra_offset(
         (-1.5, 0),
         selector=lambda _: baca.select.leaves(_),
-    ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.runs(_),
     ),
 )
 
@@ -887,16 +887,17 @@ commands(
 )
 
 commands(
-    ("eh", (37, 44)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch("E4"),
+    ("eh", (23, 30)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.runs(_),
+    ),
 )
 
 commands(
-    ("eh", (31, 44)),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-    ),
+    ("eh", (37, 44)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch("E4"),
 )
 
 commands(
@@ -910,6 +911,13 @@ commands(
     baca.note_head_style_cross(),
     library.keynoise_pitches(
         rotation=-3,
+    ),
+)
+
+commands(
+    ("eh", (31, 44)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
     ),
 )
 
@@ -1111,6 +1119,16 @@ commands(
     ("cl", (53, 56)),
     library.single_taper(),
     baca.breathe(),
+)
+
+commands(
+    ("cl", (57, 60)),
+    library.single_taper(),
+    baca.breathe(),
+)
+
+commands(
+    ("cl", (53, 56)),
     baca.chunk(
         baca.hairpin(
             "niente o< pp",
@@ -1126,9 +1144,12 @@ commands(
 )
 
 commands(
+    ("cl", (61, 68)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("cl", (57, 60)),
-    library.single_taper(),
-    baca.breathe(),
     baca.chunk(
         baca.hairpin(
             "o< pp",
@@ -1144,14 +1165,20 @@ commands(
 )
 
 commands(
-    ("cl", (61, 68)),
+    ("cl", (69, 72)),
+    library.single_taper(),
+    baca.breathe(),
+)
+
+commands(
+    ("cl", (73, 80)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
+    baca.staff_lines(1),
 )
 
 commands(
     ("cl", (69, 72)),
-    library.single_taper(),
-    baca.breathe(),
     baca.chunk(
         baca.hairpin(
             "niente o< ppp",
@@ -1164,13 +1191,6 @@ commands(
         map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
     ),
     baca.flat_glissando("C2"),
-)
-
-commands(
-    ("cl", (73, 80)),
-    baca.make_mmrests(),
-    baca.append_phantom_measure(),
-    baca.staff_lines(1),
 )
 
 commands(
@@ -1196,6 +1216,11 @@ commands(
 )
 
 commands(
+    ("rh", (45, 52)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("rh", (1, 44)),
     baca.text_spanner(
         r"\faberge-rf-two-markup =|",
@@ -1205,11 +1230,6 @@ commands(
         left_broken_text=r"\faberge-left-broken-rf-two-markup",
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("rh", (45, 52)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -1313,12 +1333,16 @@ commands(
         selector=lambda _: baca.select.ptail(_, 0),
     ),
     baca.pitch("G4"),
-    library.dal_niente_hairpins("ff"),
 )
 
 commands(
     ("perc", (2, 22)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 1),
+    library.dal_niente_hairpins("ff"),
 )
 
 commands(
@@ -1381,17 +1405,17 @@ commands(
 )
 
 commands(
+    ("perc", (61, 68)),
+    baca.make_mmrests(),
+)
+
+commands(
     ("perc", (53, 60)),
     baca.hairpin(
         "ppp < pp >o niente",
         pieces=lambda _: baca.mgroups(_, [2, 6 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-)
-
-commands(
-    ("perc", (61, 68)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -1456,12 +1480,16 @@ commands(
         selector=lambda _: baca.select.ptail(_, 0),
     ),
     baca.pitch("G6"),
-    library.dal_niente_hairpins("ff"),
 )
 
 commands(
     ("vn", (2, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 1),
+    library.dal_niente_hairpins("ff"),
 )
 
 commands(
@@ -1471,9 +1499,6 @@ commands(
     ),
     baca.dynamic('"ff"'),
     baca.pitch("F4"),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
 )
 
 commands(
@@ -1489,8 +1514,11 @@ commands(
         "Eqf4",
         hide_middle_stems=True,
     ),
-    baca.scp_spanner(
-        r"\baca-tasto-plus-pochiss-scratch-markup =|",
+)
+
+commands(
+    ("vn", (9, 22)),
+    baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
@@ -1514,16 +1542,20 @@ commands(
         fuse_counts=[2, 2, 1],
     ),
     baca.staff_lines(1),
-    baca.clb_spanner(
-        3,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
     baca.staccato(
         selector=lambda _: baca.select.pheads(_),
     ),
     baca.stem_down(),
     library.clb_staff_positions(
         rotation=-3,
+    ),
+)
+
+commands(
+    ("vn", (23, 52)),
+    baca.scp_spanner(
+        r"\baca-tasto-plus-pochiss-scratch-markup =|",
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1549,6 +1581,14 @@ commands(
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
     ),
     baca.staff_position(0),
+)
+
+commands(
+    ("vn", (53, 68)),
+    baca.clb_spanner(
+        3,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
 )
 
 commands(
@@ -1594,9 +1634,6 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
-    baca.xfb_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
 )
 
 commands(
@@ -1608,8 +1645,12 @@ commands(
     ),
     baca.dynamic('"ff"'),
     baca.pitch("F4"),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
+)
+
+commands(
+    ("va", (1, 8)),
+    baca.xfb_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -1631,8 +1672,11 @@ commands(
         "G3",
         hide_middle_stems=True,
     ),
-    baca.scp_spanner(
-        r"\baca-tasto-plus-pochiss-scratch-markup =|",
+)
+
+commands(
+    ("va", (9, 22)),
+    baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
@@ -1654,6 +1698,14 @@ commands(
     ("va", (53, 79)),
     library.clb_rhythm(
         fuse_counts=[1, 2, 2],
+    ),
+)
+
+commands(
+    ("va", (23, 52)),
+    baca.scp_spanner(
+        r"\baca-tasto-plus-pochiss-scratch-markup =|",
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1832,7 +1884,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
-        # do_not_sort_commands=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         intercalate_mmrests_by_hand=True,
