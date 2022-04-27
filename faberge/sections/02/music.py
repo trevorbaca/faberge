@@ -245,15 +245,19 @@ commands(
     ),
     baca.dynamic("f"),
     baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.runs(_),
-    ),
 )
 
 commands(
     ("eh", (17, 26)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (13, 16)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.runs(_),
+    ),
 )
 
 commands(
@@ -266,15 +270,19 @@ commands(
         (-1.5, 0),
         selector=lambda _: baca.select.leaves(_),
     ),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.runs(_),
-    ),
 )
 
 commands(
     ("eh", (31, 40)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (27, 30)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.runs(_),
+    ),
 )
 
 commands(
@@ -786,10 +794,6 @@ commands(
     ),
     baca.staff_position(1),
     baca.stem_up(),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
 )
 
 commands(
@@ -806,6 +810,14 @@ commands(
     ),
     baca.staff_position(-1),
     baca.stem_down(),
+)
+
+commands(
+    ("perc", (85, 86)),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
 )
 
 commands(
@@ -972,13 +984,6 @@ commands(
 )
 
 commands(
-    ("vn", (69, 70)),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
-
-commands(
     ("vn", (71, 80)),
     library.shell_exchange_rhythm(
         extra_counts_rotation=2,
@@ -986,6 +991,13 @@ commands(
         this_part=0,
     ),
     baca.pitch("F#6"),
+)
+
+commands(
+    ("vn", (69, 70)),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
+    ),
 )
 
 commands(
@@ -1029,13 +1041,6 @@ commands(
 )
 
 commands(
-    ("vn", (87, 88)),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
-
-commands(
     ("vn", (89, 92)),
     library.shell_exchange_rhythm(
         extra_counts_rotation=2,
@@ -1045,6 +1050,13 @@ commands(
     baca.append_phantom_measure(),
     baca.pitch("F#6"),
     library.dal_niente_hairpins("f"),
+)
+
+commands(
+    ("vn", (87, 88)),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
+    ),
 )
 
 commands(
@@ -1073,9 +1085,6 @@ commands(
     ),
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
-    ),
-    baca.xfb_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
@@ -1153,14 +1162,14 @@ commands(
 )
 
 commands(
-    ("va", (63, 65)),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
+    ("va", (1, 62)),
+    baca.xfb_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
 )
 
 commands(
-    ("va", (69, 70)),
+    ("va", (63, 65)),
     baca.spazzolato_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
@@ -1183,8 +1192,12 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: abjad.select.get(baca.select.pleaves(_), [0, -1]),
     ),
-    baca.xfb_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+)
+
+commands(
+    ("va", (69, 70)),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -1211,6 +1224,13 @@ commands(
     ),
     baca.dynamic('"f"'),
     baca.pitch("E4"),
+)
+
+commands(
+    ("va", (71, 80)),
+    baca.xfb_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
 )
 
 commands(
@@ -1379,7 +1399,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
-        # do_not_sort_commands=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         intercalate_mmrests_by_hand=True,
