@@ -84,23 +84,18 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    "fl",
-    baca.dls_staff_padding(4),
-    baca.material_annotation_spanner(
-        "1-3 / 1-4 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
-
-commands(
-    ("fl", [2, 4]),
-    baca.dynamic("p"),
-    baca.pitch("G#3"),
-)
+for n in [2, 3, 4, 5, 6, 7, 8]:
+    if n in [2, 4, 5, 8]:
+        commands(
+            ("fl", n),
+            baca.make_notes(),
+            baca.breathe(),
+        )
+    else:
+        commands(
+            ("fl", n),
+            library.suffixed_colortrill_rhythm(),
+        )
 
 commands(
     ("fl", 3),
@@ -109,6 +104,12 @@ commands(
         allow_repeats=True,
         exact=True,
     ),
+)
+
+commands(
+    ("fl", [2, 4]),
+    baca.dynamic("p"),
+    baca.pitch("G#3"),
 )
 
 commands(
@@ -130,12 +131,48 @@ commands(
     baca.pitch("B3"),
 )
 
+commands(
+    ("fl", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "fl",
+    baca.dls_staff_padding(4),
+    baca.material_annotation_spanner(
+        "1-3 / 1-4 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
+)
+
 # eh
+
+for n in [1, 2, 3, 4, 5, (6, 7), 8]:
+    if n in [2, 4, 5, 8]:
+        commands(
+            ("eh", n),
+            baca.make_notes(),
+            baca.breathe(),
+        )
+    else:
+        commands(
+            ("eh", n),
+            baca.make_mmrests(),
+        )
 
 commands(
     ("eh", 1),
-    baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("eh", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -158,17 +195,18 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    "cl",
-    baca.dls_staff_padding(7),
-    baca.material_annotation_spanner(
-        "1-3 / 1-4 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
+for n in [2, 3, 4, 5, (6, 7), 8]:
+    if n in [2, 4, 5, 8]:
+        commands(
+            ("cl", n),
+            baca.make_notes(),
+            baca.breathe(),
+        )
+    else:
+        commands(
+            ("cl", n),
+            library.suffixed_colortrill_rhythm(),
+        )
 
 commands(
     ("cl", [2, 4]),
@@ -203,12 +241,22 @@ commands(
     baca.pitch("Bb1"),
 )
 
-# fl, eh, cl
+commands(
+    ("cl", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
 
 commands(
-    (["fl", "eh", "cl"], [2, 4, 5, 8]),
-    baca.breathe(),
-    baca.make_notes(),
+    "cl",
+    baca.dls_staff_padding(7),
+    baca.material_annotation_spanner(
+        "1-3 / 1-4 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
 )
 
 # fl, cl
@@ -235,15 +283,15 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=lambda _: baca.select.leaves(_)[:3],
     ),
-    library.suffixed_colortrill_rhythm(),
 )
 
-# rh, lh
+# rh, lh, attack
 
 commands(
-    ["rh", "attack", "lh"],
+    ["rh", "lh", "attack"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # perc
@@ -255,29 +303,24 @@ commands(
 )
 
 commands(
-    ("perc", (1, 2)),
-    baca.material_annotation_spanner(
-        "MM =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    baca.staff_position(0),
-)
-
-commands(
     ("perc", 2),
     library.downbeat_attack(),
 )
 
 commands(
+    ("perc", (1, 2)),
+    baca.staff_position(0),
+)
+
+commands(
     ("perc", (3, 8)),
+    baca.make_notes(),
     baca.dls_staff_padding(6),
     baca.dynamic("p"),
     # TODO: use staff position instead of pitch
     baca.flat_glissando(
         "B3",
     ),
-    baca.make_notes(),
     baca.markup(
         r"\baca-bd-rolled-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -289,12 +332,41 @@ commands(
     ),
 )
 
+commands(
+    ("perc", (1, 2)),
+    baca.material_annotation_spanner(
+        "MM =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+)
+
+commands(
+    ("perc", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
 # vn
 
 commands(
     ("vn", (1, 8)),
     library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
     baca.reapply_persistent_indicators(),
+    baca.dynamic(
+        '"ff"',
+        selector=lambda _: baca.select.rest(_, 0),
+    ),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vn", (1, 8)),
     baca.chunk(
         baca.hairpin(
             'o< "f"',
@@ -316,10 +388,6 @@ commands(
             selector=lambda _: baca.select.rleaves(_),
             map=lambda _: baca.select.plts(_)[4:6],
         ),
-    ),
-    baca.dynamic(
-        '"ff"',
-        selector=lambda _: baca.select.rest(_, 0),
     ),
 )
 
@@ -363,6 +431,12 @@ commands(
             map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
+)
+
+commands(
+    ("va", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -442,6 +516,12 @@ commands(
 )
 
 commands(
+    ("vc", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     "vc",
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
@@ -464,9 +544,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )

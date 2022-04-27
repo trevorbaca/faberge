@@ -119,7 +119,13 @@ commands(
 
 commands(
     ("fl", 3),
+    baca.make_mmrests(),
     baca.dynamic("niente"),
+)
+
+commands(
+    ("fl", [4, 5, 6, 7, 8]),
+    library.suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -161,13 +167,19 @@ commands(
 
 # cl
 
+for n in range(1, 8 + 1):
+    if n == 3:
+        function = baca.make_mmrests()
+    else:
+        function = library.suffixed_colortrill_rhythm()
+    commands(
+        ("cl", n),
+        function
+    )
+
 commands(
-    "cl",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "1-5 / 2-1 =|",
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
+    ("cl", 1),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -186,7 +198,16 @@ commands(
     ),
 )
 
-# fl, cl
+commands(
+    "cl",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "1-5 / 2-1 =|",
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+    ),
+)
+
+# fl, cl composites
 
 commands(
     (
@@ -215,21 +236,21 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=lambda _: baca.select.leaves(_)[:3],
     ),
-    library.suffixed_colortrill_rhythm(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=5,
-    ),
 )
 
 # rh
+
+commands(
+    ("rh", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("rh", 4),
     library.clb_rhythm(
         extra_counts=[7],
     ),
-    baca.reapply_persistent_indicators(),
     baca.staff_lines(3),
 )
 
@@ -312,20 +333,12 @@ commands(
     baca.dls_staff_padding(4.5),
 )
 
-# attack
-
-commands(
-    "attack",
-    baca.reapply_persistent_indicators(),
-    baca.mmrest_transparent(),
-)
-
 # lh
 
 commands(
     ("lh", (1, 5)),
-    baca.reapply_persistent_indicators(),
     baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -353,6 +366,15 @@ commands(
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
+)
+
+# attack
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+    baca.mmrest_transparent(),
 )
 
 # perc
@@ -387,6 +409,11 @@ commands(
     library.downbeat_attack(
         denominator=2,
     ),
+)
+
+commands(
+    ("perc", 3),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -435,17 +462,60 @@ commands(
     baca.staff_position(0),
 )
 
+# vn, va, vc composites
+
+def vn_va_2(voice_name):
+    commands(
+        (voice_name, 2),
+        baca.material_annotation_spanner(
+            "3-1 -|",
+            abjad.Tweak(r"- \tweak color #darkgreen"),
+            abjad.Tweak(r"- \tweak staff-padding 8"),
+        ),
+        baca.quadruple_staccato(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+            ],
+        ),
+        baca.stem_tremolo(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+            ],
+        ),
+    )
+
+
+def strings_4_7(voice_name):
+    commands(
+        (voice_name, (4, 7)),
+        baca.beam_positions(-3.5),
+        baca.dynamic(
+            '"mf"',
+            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+        ),
+        baca.material_annotation_spanner(
+            "4-3 -|",
+            abjad.Tweak(r"- \tweak color #darkgreen"),
+            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+        ),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_),
+        ),
+        baca.stem_down(),
+        library.clb_staff_positions(),
+    )
+
 # vn
 
 commands(
     ("vn", 1),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", (1, 2)),
-    baca.dls_staff_padding(4),
 )
 
 commands(
@@ -472,6 +542,18 @@ commands(
 )
 
 commands(
+    ("vn", (1, 2)),
+    baca.dls_staff_padding(4),
+)
+
+commands(
+    ("vn", 3),
+    baca.make_mmrests(),
+)
+
+# vn_va_2("vn")
+
+commands(
     ("vn", 4),
     library.clb_rhythm(
         extra_counts=[2],
@@ -482,16 +564,6 @@ commands(
     ("vn", (4, 5)),
     baca.staff_lines(1),
     baca.beam(),
-)
-
-commands(
-    ("vn", (4, 7)),
-    baca.clb_spanner(
-        3,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    baca.dls_staff_padding(8),
 )
 
 commands(
@@ -509,11 +581,6 @@ commands(
 )
 
 commands(
-    ("vn", (6, 7)),
-    baca.beam(),
-)
-
-commands(
     ("vn", 7),
     library.downbeat_attack(
         denominator=8,
@@ -521,9 +588,27 @@ commands(
 )
 
 commands(
+    ("vn", (6, 7)),
+    baca.beam(),
+)
+
+commands(
     ("vn", 8),
+    baca.make_mmrests(),
     baca.staff_lines(5),
 )
+
+commands(
+    ("vn", (4, 7)),
+    baca.clb_spanner(
+        3,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+    baca.dls_staff_padding(8),
+)
+
+# strings_4_7("vn")
 
 # va
 
@@ -533,70 +618,11 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-# vn, va
-
-commands(
-    (["vn", "va"], 2),
-    baca.material_annotation_spanner(
-        "3-1 -|",
-        abjad.Tweak(r"- \tweak color #darkgreen"),
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-    baca.quadruple_staccato(
-        selector=lambda x: [
-            _
-            for _ in baca.plts(x)
-            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
-        ],
-    ),
-    baca.stem_tremolo(
-        selector=lambda x: [
-            _
-            for _ in baca.plts(x)
-            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
-        ],
-    ),
-)
-
-# vc
-
-commands(
-    ("vc", (1, 3)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-# vn, va, vc
-
-commands(
-    (["vn", "va", "vc"], (4, 7)),
-    baca.beam_positions(-3.5),
-    baca.dynamic(
-        '"mf"',
-        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
-    ),
-    baca.material_annotation_spanner(
-        "4-3 -|",
-        abjad.Tweak(r"- \tweak color #darkgreen"),
-        abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-    baca.staccato(
-        selector=lambda _: baca.select.pheads(_),
-    ),
-    baca.stem_down(),
-    library.clb_staff_positions(),
-)
-
-# va
-
-commands(
-    ("va", (1, 2)),
-    baca.dls_staff_padding(6.5),
-)
-
 commands(
     ("va", 2),
+    baca.skeleton(
+        r"\times 9/5 { c4 c4 c4 c2 }",
+    ),
     baca.hairpin(
         "niente o< p > pp p",
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
@@ -604,9 +630,6 @@ commands(
     baca.pitches(
         "D4 D4 D4 Eb4",
         allow_repeats=True,
-    ),
-    baca.skeleton(
-        r"\times 9/5 { c4 c4 c4 c2 }",
     ),
     baca.scp_spanner(
         "ord. -> pont. -> ord.",
@@ -619,16 +642,24 @@ commands(
 )
 
 commands(
+    ("va", (1, 2)),
+    baca.dls_staff_padding(6.5),
+)
+
+
+commands(
+    ("va", 3),
+    baca.make_mmrests(),
+)
+
+# vn_va_2("va")
+
+commands(
     ("va", 4),
-    baca.staff_lines(1),
     library.clb_rhythm(
         extra_counts=[6],
     ),
-)
-
-commands(
-    ("va", (4, 5)),
-    baca.beam(),
+    baca.staff_lines(1),
 )
 
 commands(
@@ -639,15 +670,15 @@ commands(
 )
 
 commands(
+    ("va", (4, 5)),
+    baca.beam(),
+)
+
+commands(
     ("va", 6),
     library.clb_rhythm(
         extra_counts=[2],
     ),
-)
-
-commands(
-    ("va", (6, 7)),
-    baca.beam(),
 )
 
 commands(
@@ -658,23 +689,25 @@ commands(
 )
 
 commands(
+    ("va", (6, 7)),
+    baca.beam(),
+)
+
+commands(
     ("va", 8),
+    baca.make_mmrests(),
     baca.staff_lines(5),
 )
 
-# va, vc
-
-commands(
-    (["va", "vc"], (4, 7)),
-    baca.clb_spanner(
-        2,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    baca.dls_staff_padding(8),
-)
+# strings_4_7("va")
 
 # vc
+
+commands(
+    ("vc", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("vc", 4),
@@ -736,6 +769,65 @@ commands(
     ),
 )
 
+# strings_4_7("vc")
+
+# composites
+
+commands(
+    (["vn", "va"], 2),
+    baca.material_annotation_spanner(
+        "3-1 -|",
+        abjad.Tweak(r"- \tweak color #darkgreen"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+    ),
+    baca.quadruple_staccato(
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
+        ],
+    ),
+    baca.stem_tremolo(
+        selector=lambda x: [
+            _
+            for _ in baca.plts(x)
+            if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
+        ],
+    ),
+)
+
+
+commands(
+    (["vn", "va", "vc"], (4, 7)),
+    baca.beam_positions(-3.5),
+    baca.dynamic(
+        '"mf"',
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+    ),
+    baca.material_annotation_spanner(
+        "4-3 -|",
+        abjad.Tweak(r"- \tweak color #darkgreen"),
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
+    ),
+    baca.staccato(
+        selector=lambda _: baca.select.pheads(_),
+    ),
+    baca.stem_down(),
+    library.clb_staff_positions(),
+)
+
+
+commands(
+    (["va", "vc"], (4, 7)),
+    baca.clb_spanner(
+        2,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+    baca.dls_staff_padding(8),
+)
+
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -749,6 +841,7 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[3],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
