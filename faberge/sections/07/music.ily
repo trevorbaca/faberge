@@ -4064,6 +4064,10 @@ segment.07.Piano.RH.Music.Voice = {
 
         <g a c'>8
         % AFTER:
+        % ARTICULATIONS:
+          %! baca.IndicatorCommand._call()
+          %! baca.accent()
+        - \accent
         % MARKUP:
           %! baca.IndicatorCommand._call()
           %! baca.markup()
@@ -4161,6 +4165,10 @@ segment.07.Piano.RH.Music.Voice = {
         % [Piano_RH_Music_Voice measure 3]
         <g a c'>8
         % AFTER:
+        % ARTICULATIONS:
+          %! baca.IndicatorCommand._call()
+          %! baca.accent()
+        - \accent
         % MARKUP:
           %! baca.IndicatorCommand._call()
           %! baca.markup()
@@ -5333,6 +5341,11 @@ segment.07.Piano.LH.Music.Voice = {
         % COMMANDS:
 
         <g a b c'>8
+        % AFTER:
+        % ARTICULATIONS:
+          %! baca.IndicatorCommand._call()
+          %! baca.accent()
+        - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -5406,6 +5419,10 @@ segment.07.Piano.LH.Music.Voice = {
         % [Piano_LH_Music_Voice measure 3]
         <g a b c'>8
         % AFTER:
+        % ARTICULATIONS:
+          %! baca.IndicatorCommand._call()
+          %! baca.accent()
+        - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca.SpannerIndicatorCommand._call(4)
