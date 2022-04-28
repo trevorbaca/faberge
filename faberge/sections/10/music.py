@@ -84,7 +84,116 @@ commands(
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
-# fl, cl
+# fl
+
+commands(
+    ("fl", [1, 2, 3, 4, 5, 6, 7, 8]),
+    library.suffixed_colortrill_rhythm(),
+)
+
+commands(
+    ("fl", 8),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", [1, 2, 3]),
+    baca.pitches(
+        "A4 A4 A4 G4 G4",
+        allow_repeats=True,
+    ),
+)
+
+commands(
+    ("fl", [4, 5, 6, 7, 8]),
+    baca.pitches(
+        "Ab4 Ab4 Ab4 G4 G4",
+        allow_repeats=True,
+    ),
+)
+
+# eh
+
+commands(
+    ("eh", (1, 3)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("eh", 4),
+    library.even_tuplet_rhythm(
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.skeleton(
+        r"{ c4 c4 r1.. }",
+    ),
+)
+
+commands(
+    ("eh", (6, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("eh", (4, 5)),
+    baca.pitch("Db5"),
+    baca.dynamic("f"),
+    baca.dls_staff_padding(5),
+    baca.material_annotation_spanner(
+        "MM =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.plts(_),
+    ),
+    baca.trill_spanner_staff_padding(5.5),
+)
+
+# cl
+
+commands(
+    ("cl", [1, 2, 3, 4, 5, 6, 7, 8]),
+    library.suffixed_colortrill_rhythm(),
+)
+
+commands(
+    ("cl", 8),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("cl", [1, 2, 3]),
+    baca.pitches(
+        "Gb4 Gb4 Gb4 F4 F4",
+        allow_repeats=True,
+    ),
+)
+
+commands(
+    ("cl", [4, 5]),
+    baca.pitches(
+        "G4 G4 G4 F4 F4",
+        allow_repeats=True,
+    ),
+)
+
+commands(
+    ("cl", [6, 7, 8]),
+    baca.pitches(
+        "F#4 F#4 F#4 E4 E4",
+        allow_repeats=True,
+    ),
+)
+
+# fl, cl composites
 
 commands(
     (["fl", "cl"], [1, 2, 3, 4, 5, 6, 7, 8]),
@@ -104,33 +213,11 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=lambda _: baca.select.leaves(_)[:3],
     ),
-    library.suffixed_colortrill_rhythm(),
     baca.new(
         baca.reapply_persistent_indicators(),
         match=[0, 8],
     ),
 )
-
-
-# fl
-
-commands(
-    ("fl", [1, 2, 3]),
-    baca.pitches(
-        "A4 A4 A4 G4 G4",
-        allow_repeats=True,
-    ),
-)
-
-commands(
-    ("fl", [4, 5, 6, 7, 8]),
-    baca.pitches(
-        "Ab4 Ab4 Ab4 G4 G4",
-        allow_repeats=True,
-    ),
-)
-
-# fl, cl
 
 commands(
     ["fl", "cl"],
@@ -181,86 +268,33 @@ commands(
     ),
 )
 
-# eh
-
-commands(
-    ("eh", (1, 3)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 4),
-    library.even_tuplet_rhythm(
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("eh", (4, 5)),
-    baca.dls_staff_padding(5),
-    baca.dynamic("f"),
-    baca.material_annotation_spanner(
-        "MM =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-    baca.pitch("Db5"),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.plts(_),
-    ),
-    baca.trill_spanner_staff_padding(5.5),
-)
-
-commands(
-    ("eh", 5),
-    baca.skeleton(
-        r"{ c4 c4 r1.. }",
-    ),
-)
-
-# cl
-
-commands(
-    ("cl", [1, 2, 3]),
-    baca.pitches(
-        "Gb4 Gb4 Gb4 F4 F4",
-        allow_repeats=True,
-    ),
-)
-
-commands(
-    ("cl", [4, 5]),
-    baca.pitches(
-        "G4 G4 G4 F4 F4",
-        allow_repeats=True,
-    ),
-)
-
-commands(
-    ("cl", [6, 7, 8]),
-    baca.pitches(
-        "F#4 F#4 F#4 E4 E4",
-        allow_repeats=True,
-    ),
-)
-
-# rh, attack, lh
-
-commands(
-    (["rh", "lh"], (1, 4)),
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    "attack",
-    baca.make_mmrests(),
-    baca.reapply_persistent_indicators(),
-)
-
 # rh
+
+commands(
+    ("rh", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("rh", 5),
+    baca.skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("rh", 6),
+    library.downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("rh", (7, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
 
 commands(
     "rh",
@@ -280,9 +314,6 @@ commands(
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
-    baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
 )
 
 commands(
@@ -297,21 +328,33 @@ commands(
     baca.pitch("<G6 A6 B6 C7>"),
 )
 
+# lh
+
 commands(
-    ("rh", 6),
+    ("lh", (1, 4)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("lh", 5),
+    baca.skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 6),
     library.downbeat_attack(
         denominator=8,
     ),
 )
 
-# attack
-
 commands(
-    "attack",
-    baca.mmrest_transparent(),
+    ("lh", (7, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
-
-# lh
 
 commands(
     ("lh", 5),
@@ -320,9 +363,6 @@ commands(
     ),
     baca.accent(
         selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-    baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
@@ -337,18 +377,56 @@ commands(
     baca.pitch("<F6 G6 A6>"),
 )
 
-commands(
-    ("lh", 6),
-    library.downbeat_attack(
-        denominator=8,
-    ),
-)
+# attack
 
+commands(
+    "attack",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
+    baca.mmrest_transparent(),
+)
 # perc
 
 commands(
     ("perc", (1, 3)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("perc", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 5),
+    library.downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", 6),
+    library.downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", 7),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 8),
+    library.even_tuplet_rhythm(
+        extra_counts=[-1],
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("perc", (1, 3)),
     baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
@@ -372,13 +450,6 @@ commands(
 )
 
 commands(
-    ("perc", 5),
-    library.downbeat_attack(
-        denominator=2,
-    ),
-)
-
-commands(
     ("perc", (5, 6)),
     baca.dynamic("p"),
     baca.laissez_vibrer(
@@ -399,13 +470,6 @@ commands(
 )
 
 commands(
-    ("perc", 6),
-    library.downbeat_attack(
-        denominator=2,
-    ),
-)
-
-commands(
     ("perc", 8),
     baca.dls_staff_padding(8),
     baca.dynamic("f"),
@@ -419,9 +483,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(0),
-    library.even_tuplet_rhythm(
-        extra_counts=[-1],
-    ),
 )
 
 # vn
@@ -432,6 +493,56 @@ commands(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", 2),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 3),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 4),
+    baca.skeleton(
+        "{ c2 c2 }",
+    ),
+)
+
+commands(
+    ("vn", 5),
+    baca.skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vn", 6),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 7),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.skeleton(
+        r"\times 5/4 { c2 c2 }",
+    ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -469,26 +580,9 @@ commands(
 )
 
 commands(
-    ("vn", 2),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 3),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
     ("vn", 4),
     baca.dynamic("mp"),
     baca.pitch("Eb5"),
-    baca.skeleton(
-        "{ c2 c2 }",
-    ),
 )
 
 commands(
@@ -516,18 +610,8 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("A6"),
-    baca.skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ("vn", 6),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -552,20 +636,6 @@ commands(
     baca.pitch("C5"),
 )
 
-commands(
-    ("vn", 7),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 8),
-    baca.skeleton(
-        r"\times 5/4 { c2 c2 }",
-    ),
-)
-
 # va
 
 commands(
@@ -574,6 +644,54 @@ commands(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 2),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 3),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 4),
+    baca.skeleton(
+        r"{ c2 c2 }",
+    ),
+)
+
+commands(
+    ("va", 5),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 6),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 7),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.skeleton(
+        r"\times 5/4 { c2 c2 }",
+    ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -607,26 +725,9 @@ commands(
 )
 
 commands(
-    ("va", 2),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 3),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
     ("va", 4),
     baca.dynamic("mp"),
     baca.pitch("Db4"),
-    baca.skeleton(
-        r"{ c2 c2 }",
-    ),
 )
 
 commands(
@@ -644,7 +745,6 @@ commands(
     baca.flat_glissando(
         "D3",
     ),
-    baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         "A.4 -|",
         abjad.Tweak(r"- \tweak color #red"),
@@ -655,13 +755,6 @@ commands(
     ),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
-
-commands(
-    ("va", 6),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -686,21 +779,7 @@ commands(
     baca.pitch("Bb3"),
 )
 
-commands(
-    ("va", 7),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 8),
-    baca.skeleton(
-        r"\times 5/4 { c2 c2 }",
-    ),
-)
-
-# vn, va
+# vn, va composites
 
 commands(
     (["vn", "va"], [(1, 4), (6, 8)]),
@@ -755,6 +834,44 @@ commands(
 )
 
 commands(
+    ("vc", 2),
+    baca.skeleton(
+        "{ c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 3),
+    baca.skeleton(
+        "{ c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 4),
+    baca.skeleton(
+        "{ c2 r2 }",
+    ),
+)
+
+commands(
+    ("vc", 5),
+    baca.skeleton(
+        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", (6, 8)),
+    library.airtone_chain_rhythm(
+        20,
+        [0, 1, 3, 4, 6, 7, 8, 9],
+        do_not_overlap_counts=True,
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
     ("vc", [1, 2, 3]),
     baca.hairpin(
         "pp p >o",
@@ -795,26 +912,9 @@ commands(
 )
 
 commands(
-    ("vc", 2),
-    baca.skeleton(
-        "{ c2 c1 }",
-    ),
-)
-
-commands(
-    ("vc", 3),
-    baca.skeleton(
-        "{ c2 c1 }",
-    ),
-)
-
-commands(
     ("vc", 4),
     baca.dynamic("pp"),
     baca.pitch("Db2"),
-    baca.skeleton(
-        "{ c2 r2 }",
-    ),
 )
 
 commands(
@@ -838,9 +938,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("F#5"),
-    baca.skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
@@ -875,11 +972,6 @@ commands(
             pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     ),
-    library.airtone_chain_rhythm(
-        20,
-        [0, 1, 3, 4, 6, 7, 8, 9],
-        do_not_overlap_counts=True,
-    ),
 )
 
 commands(
@@ -897,8 +989,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
