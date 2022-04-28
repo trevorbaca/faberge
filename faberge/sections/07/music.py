@@ -115,6 +115,7 @@ commands(
 commands(
     ("fl", (6, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -181,6 +182,7 @@ commands(
     library.even_tuplet_rhythm(
         extra_counts=[1],
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -252,6 +254,7 @@ commands(
 commands(
     ("cl", (6, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -391,6 +394,7 @@ commands(
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -497,6 +501,7 @@ commands(
     baca.skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -545,6 +550,7 @@ commands(
     "attack",
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
@@ -576,6 +582,7 @@ commands(
 commands(
     ("perc", (6, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -675,6 +682,7 @@ commands(
 commands(
     ("vn", 8),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -798,6 +806,7 @@ commands(
 commands(
     ("va", 8),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -964,6 +973,7 @@ commands(
     baca.skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -1025,6 +1035,8 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         intercalate_mmrests_by_hand=True,
