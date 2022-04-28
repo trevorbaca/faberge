@@ -89,6 +89,42 @@ commands(
         denominator=2,
         extra_counts=[0, 1],
     ),
+)
+
+commands(
+    ("fl", (3, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 5),
+    baca.skeleton(
+        "{ c2. c2. r2 }",
+    ),
+)
+
+commands(
+    ("fl", 6),
+    baca.skeleton(
+        "{ c2. c2. }",
+    ),
+)
+
+commands(
+    ("fl", 7),
+    baca.skeleton(
+        "{ c2. c2. r2 }",
+    ),
+)
+
+commands(
+    ("fl", (8, 9)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", (1, 2)),
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.pitch("G3"),
@@ -101,22 +137,19 @@ commands(
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.leaves(_),
     ),
-    baca.skeleton(
-        "{ c2. c2. r2 }",
-    ),
 )
 
 commands(
     ("fl", (5, 7)),
+    baca.pitch("G#5"),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
         "5-2 -|",
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-    ),
-    baca.pitch("G#5"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -127,9 +160,6 @@ commands(
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.rleaves(_),
     ),
-    baca.skeleton(
-        "{ c2. c2. }",
-    ),
 )
 
 commands(
@@ -138,9 +168,6 @@ commands(
         "o< mp >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
         selector=lambda _: baca.select.leaves(_),
-    ),
-    baca.skeleton(
-        "{ c2. c2. r2 }",
     ),
 )
 
@@ -159,6 +186,31 @@ commands(
     baca.skeleton(
         "{ c2. c2. r1 }",
     ),
+)
+
+commands(
+    ("eh", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 4),
+    baca.skeleton(
+        r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.skeleton(
+        r"{ c4 c4 c4 c4 r1 }",
+    ),
+)
+
+commands(
+    ("eh", (6, 9)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -188,9 +240,11 @@ commands(
 commands(
     ("eh", 4),
     baca.pitch("A#4"),
-    baca.skeleton(
-        r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
-    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.pitch("B4"),
 )
 
 commands(
@@ -212,14 +266,6 @@ commands(
     baca.trill_spanner_staff_padding(5.5),
 )
 
-commands(
-    ("eh", 5),
-    baca.pitch("B4"),
-    baca.skeleton(
-        r"{ c4 c4 c4 c4 r1 }",
-    ),
-)
-
 # cl
 
 commands(
@@ -229,11 +275,21 @@ commands(
         extra_counts=[1, 0],
     ),
     baca.reapply_persistent_indicators(),
-    baca.dls_staff_padding(8),
-    baca.pitch("F2"),
 )
 
-# fl, cl
+commands(
+    ("cl", (1, 2)),
+    baca.pitch("F2"),
+    baca.dls_staff_padding(8),
+)
+
+commands(
+    ("cl", (3, 9)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+# fl, cl composites
 
 commands(
     (["fl", "cl"], (1, 2)),
@@ -260,9 +316,10 @@ commands(
 # rh, attack, lh
 
 commands(
-    ["rh", "attack", "lh"],
+    ["rh", "lh", "attack"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # perc
@@ -270,6 +327,35 @@ commands(
 commands(
     ("perc", [1, 2]),
     library.downbeat_attack(denominator=2),
+)
+
+commands(
+    ("perc", (3, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 5),
+    library.downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 9),
+    baca.skeleton(
+        "{ c2 c1 }",
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("perc", [1, 2]),
     baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-castanets-markup",
@@ -315,9 +401,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("F#4"),
-    library.downbeat_attack(
-        denominator=2,
-    ),
 )
 
 commands(
@@ -333,9 +416,6 @@ commands(
         r"\baca-marimba-attackless-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 6"),
-    ),
-    baca.skeleton(
-        "{ c2 c1 }",
     ),
     baca.stem_tremolo(),
 )
@@ -354,6 +434,65 @@ commands(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", 2),
+    baca.skeleton(
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 3),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 4),
+    baca.skeleton(
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 5),
+    baca.skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 6),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 7),
+    baca.skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 9),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vn", 1),
     baca.hairpin(
         "p niente o< p > pp",
         map=lambda _: baca.select.clparts(_, [4]),
@@ -397,9 +536,6 @@ commands(
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
-    baca.skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -409,9 +545,6 @@ commands(
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -420,16 +553,6 @@ commands(
         "f niente o< f > pp",
         map=lambda _: baca.select.clparts(_, [4]),
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
-    ),
-    baca.skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 5),
-    baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -444,29 +567,12 @@ commands(
 )
 
 commands(
-    ("vn", 6),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 7),
-    baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
     ("vn", 9),
     baca.markup(
         r"\baca-seven-e-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Dtqf5"),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -474,26 +580,6 @@ commands(
     baca.material_annotation_spanner(
         "3-2 / 3-3 =|",
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-)
-
-# vn, va
-
-commands(
-    (["vn", "va"], [5, 6, 7]),
-    baca.hairpin(
-        '"ff" niente o< ff > pp',
-        map=lambda _: baca.select.clparts(_, [4]),
-        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
-    ),
-)
-
-commands(
-    (["vn", "va"], 9),
-    baca.hairpin(
-        "mp niente o< mp > pp",
-        map=lambda _: baca.select.clparts(_, [4]),
-        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
     ),
 )
 
@@ -505,6 +591,65 @@ commands(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("va", 2),
+    baca.skeleton(
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+)
+
+commands(
+    ("va", 3),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+)
+
+commands(
+    ("va", 4),
+    baca.skeleton(
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 5),
+    baca.skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 6),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 7),
+    baca.skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 9),
+    baca.skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", 1),
     baca.chunk(
         baca.quadruple_staccato(
             selector=lambda x: [
@@ -562,9 +707,6 @@ commands(
         "niente o< mp > pp mp niente o< mp > pp mp",
         pieces=lambda _: baca.select.clparts(_, [1]),
     ),
-    baca.skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
-    ),
     baca.scp_spanner(
         r"ord. -> pont. -> ord. || \baca-null-markup ||"
         r" ord. -> pont. -> ord. || \baca-null-markup ||",
@@ -596,9 +738,6 @@ commands(
     baca.hairpin(
         "mp niente o< mf > pp niente o< mf > pp mf",
         pieces=lambda _: baca.select.clparts(_, [1]),
-    ),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
     baca.scp_spanner(
         r"\baca-null-markup || ord. -> pont. -> ord. ||"
@@ -632,9 +771,6 @@ commands(
         "niente o< f > pp f f niente o< f > pp",
         pieces=lambda _: baca.select.clparts(_, [1]),
     ),
-    baca.skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
     baca.scp_spanner(
         r"ord. -> pont. -> ord. || \baca-null-markup ||"
         r" \baca-null-markup || ord. -> pont. -> ord. ||",
@@ -642,13 +778,6 @@ commands(
         autodetect_right_padding=False,
         pieces=lambda _: baca.select.clparts(_, [1]),
         selector=lambda _: baca.select.leaves(_),
-    ),
-)
-
-commands(
-    ("va", 5),
-    baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
@@ -693,29 +822,12 @@ commands(
 )
 
 commands(
-    ("va", 6),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 7),
-    baca.skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
     ("va", 9),
     baca.markup(
         r"\baca-thirteen-e-flat",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
     baca.pitch("Bqs4"),
-    baca.skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -727,11 +839,69 @@ commands(
     ),
 )
 
+# vn, va composites
+
+commands(
+    (["vn", "va"], [5, 6, 7]),
+    baca.hairpin(
+        '"ff" niente o< ff > pp',
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+    ),
+)
+
+commands(
+    (["vn", "va"], 9),
+    baca.hairpin(
+        "mp niente o< mp > pp",
+        map=lambda _: baca.select.clparts(_, [4]),
+        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+    ),
+)
+
 # vc
 
 commands(
     ("vc", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 5),
+    baca.skeleton(
+        r"\times 8/12 { c2 c1 c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 6),
+    baca.skeleton(
+        r"{ c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 7),
+    baca.skeleton(
+        r"\times 8/12 { c2 c1 c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 9),
+    baca.skeleton(
+        r"{ c2 c1 }",
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando("F2"),
@@ -747,13 +917,6 @@ commands(
     baca.hairpin(
         "p < f-poco-scratch",
         selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("vc", 5),
-    baca.skeleton(
-        r"\times 8/12 { c2 c1 c2 c1 }",
     ),
 )
 
@@ -807,20 +970,6 @@ commands(
 )
 
 commands(
-    ("vc", 6),
-    baca.skeleton(
-        r"{ c2 c1 }",
-    ),
-)
-
-commands(
-    ("vc", 7),
-    baca.skeleton(
-        r"\times 8/12 { c2 c1 c2 c1 }",
-    ),
-)
-
-commands(
     ("vc", 8),
     baca.dynamic("!"),
 )
@@ -837,9 +986,6 @@ commands(
         pieces=lambda _: baca.select.clparts(_, [1]),
     ),
     baca.pitch("Eb2"),
-    baca.skeleton(
-        r"{ c2 c1 }",
-    ),
 )
 
 if __name__ == "__main__":
@@ -852,9 +998,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[8],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )

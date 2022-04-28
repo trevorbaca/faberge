@@ -84,6 +84,16 @@ commands(
 
 commands(
     ("fl", 3),
+    library.suffixed_colortrill_rhythm(),
+)
+
+commands(
+    ("fl", (4, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 3),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: baca.select.pleaf(_, 2),
@@ -113,7 +123,6 @@ commands(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=lambda _: baca.select.leaves(_)[:3],
     ),
-    library.suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -131,6 +140,27 @@ commands(
 
 commands(
     ("eh", 5),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 6),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 7),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 8),
     baca.skeleton(
         "{ c4. c4. r4 }",
     ),
@@ -160,29 +190,8 @@ commands(
 )
 
 commands(
-    ("eh", 6),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 7),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
     ("eh", (7, 8)),
     baca.pitch("B4"),
-)
-
-commands(
-    ("eh", 8),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
 )
 
 commands(
@@ -199,16 +208,36 @@ commands(
 )
 
 commands(
+    ("cl", 3),
+    library.bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 4),
+    library.downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", 5),
+    library.bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 6),
+    library.downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", (7, 8)),
+    library.bcl_color_fingering_rhythm(),
+)
+
+commands(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
         selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
-)
-
-commands(
-    ("cl", 3),
-    library.bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -230,21 +259,6 @@ commands(
 )
 
 commands(
-    ("cl", 4),
-    library.downbeat_attack(denominator=8),
-)
-
-commands(
-    ("cl", 5),
-    library.bcl_color_fingering_rhythm(),
-)
-
-commands(
-    ("cl", 6),
-    library.downbeat_attack(denominator=8),
-)
-
-commands(
     ("cl", (7, 8)),
     baca.hairpin(
         "p < mp > p",
@@ -256,7 +270,6 @@ commands(
         "Ab2",
         selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
-    library.bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -277,6 +290,41 @@ commands(
         extra_counts=[7],
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("rh", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 3),
+    baca.skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("rh", 4),
+    library.downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("rh", 5),
+    library.clb_rhythm(
+        extra_counts=[7],
+    ),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 1),
     baca.note_head_stencil_false(
         selector=lambda _: baca.select.pleaves(_),
     ),
@@ -299,9 +347,6 @@ commands(
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
     ),
-    baca.skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
 )
 
 commands(
@@ -318,13 +363,6 @@ commands(
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
     baca.pitch("<G3 A3 C4>"),
-)
-
-commands(
-    ("rh", 4),
-    library.downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -345,24 +383,12 @@ commands(
     ),
     baca.tuplet_bracket_transparent(),
     baca.tuplet_number_transparent(),
-    library.clb_rhythm(
-        extra_counts=[7],
-    ),
     library.tuning_peg_staff_positions(),
 )
 
 commands(
     ("rh", 6),
     baca.staff_lines(5),
-)
-
-# attack
-
-commands(
-    "attack",
-    baca.make_mmrests(),
-    baca.mmrest_transparent(),
-    baca.reapply_persistent_indicators(),
 )
 
 # lh
@@ -375,16 +401,9 @@ commands(
 
 commands(
     ("lh", 3),
-    baca.clef("bass"),
     baca.skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
-)
-
-commands(
-    ("lh", (3, 4)),
-    baca.beam(),
-    baca.pitch("<G3 A3 B3 C4>"),
 )
 
 commands(
@@ -394,14 +413,54 @@ commands(
     ),
 )
 
+commands(
+    ("lh", (5, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", 3),
+    baca.clef("bass"),
+)
+
+commands(
+    ("lh", (3, 4)),
+    baca.beam(),
+    baca.pitch("<G3 A3 B3 C4>"),
+)
+
+# attack
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+    baca.mmrest_transparent(),
+    baca.reapply_persistent_indicators(),
+)
+
 # perc
 
 commands(
     ("perc", [1, 2, 3, 4, 5, 6]),
     library.downbeat_attack(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
+)
+
+commands(
+    ("perc", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc", 7),
+    baca.skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 8),
+    baca.skeleton(
+        "{ c2. r4 }",
     ),
 )
 
@@ -424,9 +483,6 @@ commands(
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
-    baca.skeleton(
-        "{ c2. r4 }",
-    ),
 )
 
 commands(
@@ -438,13 +494,6 @@ commands(
         abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
     ),
     baca.staff_position(0),
-)
-
-commands(
-    ("perc", 8),
-    baca.skeleton(
-        "{ c2. r4 }",
-    ),
 )
 
 commands(
@@ -482,20 +531,6 @@ commands(
 )
 
 commands(
-    ("vn", (1, 2)),
-    baca.beam(),
-)
-
-commands(
-    ("vn", (1, 6)),
-    baca.clb_spanner(
-        3,
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-)
-
-commands(
     ("vn", 3),
     library.clb_rhythm(
         extra_counts=[4],
@@ -510,11 +545,6 @@ commands(
 )
 
 commands(
-    ("vn", (3, 4)),
-    baca.beam(),
-)
-
-commands(
     ("vn", 5),
     library.clb_rhythm(
         extra_counts=[6],
@@ -526,6 +556,30 @@ commands(
     library.downbeat_attack(
         denominator=8,
     ),
+)
+
+commands(
+    ("vn", (7, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (1, 2)),
+    baca.beam(),
+)
+
+commands(
+    ("vn", (1, 6)),
+    baca.clb_spanner(
+        3,
+        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+)
+
+commands(
+    ("vn", (3, 4)),
+    baca.beam(),
 )
 
 commands(
@@ -551,11 +605,6 @@ commands(
 )
 
 commands(
-    ("va", (1, 2)),
-    baca.beam(),
-)
-
-commands(
     ("va", 3),
     library.clb_rhythm(
         extra_counts=[2],
@@ -570,11 +619,6 @@ commands(
 )
 
 commands(
-    ("va", (3, 4)),
-    baca.beam(),
-)
-
-commands(
     ("va", 5),
     library.clb_rhythm(
         extra_counts=[4],
@@ -586,6 +630,21 @@ commands(
     library.downbeat_attack(
         denominator=8,
     ),
+)
+
+commands(
+    ("va", (7, 8)),
+    library.back_incised_divisions(),
+)
+
+commands(
+    ("va", (1, 2)),
+    baca.beam(),
+)
+
+commands(
+    ("va", (3, 4)),
+    baca.beam(),
 )
 
 commands(
@@ -609,7 +668,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5"),
         map=lambda _: baca.select.plts(_),
     ),
-    library.back_incised_divisions(),
 )
 
 commands(
@@ -635,11 +693,6 @@ commands(
 )
 
 commands(
-    ("vc", (1, 2)),
-    baca.beam(),
-)
-
-commands(
     ("vc", 3),
     library.clb_rhythm(
         extra_counts=[6],
@@ -654,11 +707,6 @@ commands(
 )
 
 commands(
-    ("vc", (3, 4)),
-    baca.beam(),
-)
-
-commands(
     ("vc", 5),
     library.clb_rhythm(
         extra_counts=[2],
@@ -666,15 +714,34 @@ commands(
 )
 
 commands(
-    ("vc", (5, 6)),
-    baca.beam(),
-)
-
-commands(
     ("vc", 6),
     library.downbeat_attack(
         denominator=8,
     ),
+)
+
+commands(
+    ("vc", (7, 8)),
+    library.airtone_chain_rhythm(
+        20,
+        [2, 3, 4],
+        do_not_overlap_counts=True,
+    ),
+)
+
+commands(
+    ("vc", (1, 2)),
+    baca.beam(),
+)
+
+commands(
+    ("vc", (3, 4)),
+    baca.beam(),
+)
+
+commands(
+    ("vc", (5, 6)),
+    baca.beam(),
 )
 
 commands(
@@ -699,14 +766,9 @@ commands(
             pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     ),
-    library.airtone_chain_rhythm(
-        20,
-        [2, 3, 4],
-        do_not_overlap_counts=True,
-    ),
 )
 
-# vn, va, vc
+# vn, va, vc composites
 
 commands(
     (["vn", "va", "vc"], (1, 6)),
@@ -727,7 +789,7 @@ commands(
     baca.staff_lines(5),
 )
 
-# va, vc
+# va, vc composites
 
 commands(
     (["va", "vc"], (1, 6)),
@@ -750,6 +812,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
