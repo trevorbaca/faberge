@@ -77,51 +77,53 @@ commands(
     ),
 )
 
-# fl, eh, pf
+# fl
 
 commands(
-    (["fl", "eh", "rh"], (1, 4)),
+    ("fl", (1, 4)),
     baca.make_repeat_tied_notes(),
     baca.reapply_persistent_indicators(),
-    baca.dynamic('"ff"'),
-    baca.markup(
-        r"\baca-very-small-maraca-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-    ),
 )
 
-# fl
+commands(
+    ("fl", 5),
+    library.downbeat_attack(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+commands(
+    ("fl", (6, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
 
 commands(
     "fl",
     baca.staff_lines(1),
 )
 
-# fl, eh, pf
+# eh
 
 commands(
-    ["fl", "eh", "rh"],
-    baca.dls_staff_padding(7),
-    baca.staff_position(0),
+    ("eh", (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
-    (["fl", "eh", "rh"], (1, 5)),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    (["fl", "eh", "rh"], 5),
+    ("eh", 5),
+    library.downbeat_attack(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-    library.downbeat_attack(),
 )
 
-# eh
+commands(
+    ("eh", (6, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
 
 commands(
     "eh",
@@ -133,6 +135,11 @@ commands(
 commands(
     "cl",
     baca.make_repeat_tied_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "cl",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.dynamic("p"),
@@ -145,16 +152,62 @@ commands(
 # rh
 
 commands(
+    ("rh", (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("rh", 5),
+    library.downbeat_attack(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     "rh",
     baca.staff_lines(1),
 )
 
-# attack, lh
+# fl, eh, rh composites
 
 commands(
-    ["attack", "lh"],
+    (["fl", "eh", "rh"], (1, 4)),
+    baca.dynamic('"ff"'),
+    baca.markup(
+        r"\baca-very-small-maraca-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+    ),
+)
+
+commands(
+    (["fl", "eh", "rh"], (1, 5)),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
+)
+
+commands(
+    ["fl", "eh", "rh"],
+    baca.dls_staff_padding(7),
+    baca.staff_position(0),
+)
+
+# lh, attack
+
+commands(
+    ["lh", "attack"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # perc
@@ -162,6 +215,11 @@ commands(
 commands(
     "perc",
     baca.make_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "perc",
     baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(4),
     baca.dynamic("p"),
@@ -191,6 +249,7 @@ commands(
 commands(
     ("vn", 8),
     baca.make_notes(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -214,6 +273,7 @@ commands(
 commands(
     ("va", 8),
     baca.make_notes(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -233,6 +293,12 @@ commands(
 )
 
 commands(
+    ("vc", 8),
+    baca.make_notes(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     "vc",
     baca.pitch("E2"),
     baca.stem_tremolo(
@@ -242,11 +308,6 @@ commands(
 
 commands(
     ("vc", 8),
-    baca.make_notes(),
-)
-
-commands(
-    ("vc", -1),
     baca.chunk(
         baca.mark(r"\faberge-colophon-markup"),
         baca.rehearsal_mark_down(),
@@ -256,7 +317,7 @@ commands(
     ),
 )
 
-# vn, va, vc
+# vn, va, vc composites
 
 commands(
     ["vn", "va", "vc"],
@@ -286,9 +347,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         final_segment=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )

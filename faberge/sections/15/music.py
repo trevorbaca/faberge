@@ -99,6 +99,12 @@ commands(
 )
 
 commands(
+    ("fl", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     "fl",
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -164,6 +170,7 @@ commands(
     "eh",
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # cl
@@ -176,6 +183,16 @@ commands(
         ),
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("cl", (5, 9)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("cl", (1, 4)),
     baca.dls_staff_padding(8),
     baca.hairpin(
         "pp < p > pp",
@@ -207,6 +224,19 @@ commands(
 
 commands(
     ("rh", (4, 5)),
+    library.even_tuplet_rhythm(
+        extra_counts=[1, 0],
+    ),
+)
+
+commands(
+    ("rh", (6, 9)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("rh", (4, 5)),
     baca.staff_lines(1),
     baca.dynamic(
         "f-whiteout",
@@ -224,9 +254,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.staff_position(0),
-    library.even_tuplet_rhythm(
-        extra_counts=[1, 0],
-    ),
 )
 
 commands(
@@ -234,12 +261,13 @@ commands(
     baca.staff_lines(5),
 )
 
-# attack, lh
+# lh, attack
 
 commands(
-    ["attack", "lh"],
+    ["lh", "attack"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # perc
@@ -248,6 +276,31 @@ commands(
     ("perc", (1, 4)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc", 5),
+    library.downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 8),
+    baca.skeleton(
+        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
+    ),
+)
+
+commands(
+    ("perc", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -271,9 +324,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
     baca.pitch("E4"),
-    library.downbeat_attack(
-        denominator=2,
-    ),
 )
 
 commands(
@@ -291,9 +341,6 @@ commands(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
     ),
-    baca.skeleton(
-        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
-    ),
     baca.staff_position(0),
 )
 
@@ -303,6 +350,17 @@ commands(
     ("vn", (1, 4)),
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", [5, 6, 7, 8]),
+    library.halves_rhythm(),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -326,17 +384,113 @@ commands(
     ),
 )
 
-# vn, va
+# va
+
+commands(
+    ("va", (1, 4)),
+    library.back_incised_divisions(),
+    baca.reapply_persistent_indicators(),
+    baca.pitch("F3"),
+    baca.xfb_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
+        map=lambda _: baca.select.plts(_),
+    ),
+)
+
+commands(
+    ("va", [5, 6, 7, 8]),
+    library.halves_rhythm(),
+)
+
+commands(
+    ("va", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("va", (5, 8)),
+    baca.markup(
+        r"\faberge-seventh-degree-of-e-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+    ),
+    baca.pitch("Dqf5"),
+)
+
+commands(
+    "va",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "5-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
+)
+
+# vn, va composites
 
 commands(
     (["vn", "va"], [5, 6, 7, 8]),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
+)
+
+# vc
+
+commands(
+    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
     library.halves_rhythm(),
 )
 
-# vn, va, vc
+commands(
+    ("vc", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
+    baca.stem_tremolo(
+        selector=lambda _: baca.select.pleaves(_),
+    ),
+)
+
+commands(
+    ("vc", [1, 2, 3, 4]),
+    baca.hairpin(
+        "o< p >o niente",
+        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+        selector=lambda _: baca.select.rleaves(_),
+    ),
+    baca.pitch("F2"),
+)
+
+commands(
+    ("vc", (5, 8)),
+    baca.pitch("E2"),
+)
+
+commands(
+    "vc",
+    baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        "5-3 =|",
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(
+            _, exclude=baca.enums.HIDDEN, rleak=True
+        ),
+    ),
+)
+
+# vn, va, vc composites
 
 commands(
     (["vn", "va", "vc"], 5),
@@ -374,81 +528,6 @@ commands(
     ),
 )
 
-# va
-
-commands(
-    ("va", (1, 4)),
-    library.back_incised_divisions(),
-    baca.reapply_persistent_indicators(),
-    baca.pitch("F3"),
-    baca.xfb_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-        map=lambda _: baca.select.plts(_),
-    ),
-)
-
-commands(
-    ("va", (5, 8)),
-    baca.markup(
-        r"\faberge-seventh-degree-of-e-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-    ),
-    baca.pitch("Dqf5"),
-)
-
-commands(
-    "va",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "5-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
-
-# vc
-
-commands(
-    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-    library.halves_rhythm(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
-)
-
-commands(
-    ("vc", [1, 2, 3, 4]),
-    baca.hairpin(
-        "o< p >o niente",
-        pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-    baca.pitch("F2"),
-)
-
-commands(
-    ("vc", (5, 8)),
-    baca.pitch("E2"),
-)
-
-commands(
-    "vc",
-    baca.dls_staff_padding(6),
-    baca.material_annotation_spanner(
-        "5-3 =|",
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
-    ),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -459,9 +538,12 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9],
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )

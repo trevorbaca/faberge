@@ -90,6 +90,7 @@ commands(
 commands(
     ("fl", (4, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -164,6 +165,7 @@ commands(
     baca.skeleton(
         "{ c4. c4. r4 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -230,6 +232,7 @@ commands(
 commands(
     ("cl", (7, 8)),
     library.bcl_color_fingering_rhythm(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -321,6 +324,7 @@ commands(
 commands(
     ("rh", (6, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -416,6 +420,7 @@ commands(
 commands(
     ("lh", (5, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -434,8 +439,9 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
-    baca.mmrest_transparent(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
+    baca.mmrest_transparent(),
 )
 
 # perc
@@ -462,6 +468,7 @@ commands(
     baca.skeleton(
         "{ c2. r4 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -561,6 +568,7 @@ commands(
 commands(
     ("vn", (7, 8)),
     baca.make_mmrests(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -635,6 +643,7 @@ commands(
 commands(
     ("va", (7, 8)),
     library.back_incised_divisions(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -727,6 +736,7 @@ commands(
         [2, 3, 4],
         do_not_overlap_counts=True,
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -810,6 +820,8 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         intercalate_mmrests_by_hand=True,

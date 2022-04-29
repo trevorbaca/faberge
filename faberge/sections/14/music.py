@@ -87,6 +87,44 @@ commands(
     ("fl", (1, 3)),
     library.airtone_chain_rhythm(20, [1, 3, 5]),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("fl", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 5),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("fl", 6),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("fl", 7),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("fl", 8),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", (1, 3)),
     baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
@@ -110,9 +148,6 @@ commands(
         "o< p >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
 )
 
 commands(
@@ -125,9 +160,6 @@ commands(
     baca.hairpin(
         "o< mp >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-    ),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
     ),
 )
 
@@ -149,9 +181,6 @@ commands(
         "o< mf >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
 )
 
 commands(
@@ -160,41 +189,30 @@ commands(
         "o< f >o niente",
         pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
     ),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-# fl, vn
-
-commands(
-    (["fl", "vn"], (1, 3)),
-    baca.hairpin(
-        'o< "mf"',
-        selector=lambda _: baca.select.rleaves(_),
-        map=lambda _: baca.select.plts(_)[:1],
-    ),
-    baca.hairpin(
-        'o< "f"',
-        selector=lambda _: baca.select.rleaves(_),
-        map=lambda _: baca.select.plts(_)[1:2],
-    ),
-    baca.hairpin(
-        'o< "ff"',
-        selector=lambda _: baca.select.rleaves(_),
-        map=lambda _: baca.select.plts(_)[2:3],
-    ),
 )
 
 # cl
 
 commands(
-    ("cl", [1, 5]),
+    ("cl", 1),
     library.downbeat_attack(denominator=8),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("cl", (2, 4)),
+    library.bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 5),
+    library.downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", (6, 8)),
+    library.bcl_color_fingering_rhythm(),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -203,11 +221,6 @@ commands(
         "Ab2",
         selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
-)
-
-commands(
-    ("cl", [(2, 4), (6, 8)]),
-    library.bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -272,6 +285,47 @@ commands(
 )
 
 commands(
+    ("eh", 2),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 3),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 4),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 6),
+    baca.skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", (7, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
     ("eh", (1, 2)),
     baca.pitch("B4"),
 )
@@ -295,48 +349,13 @@ commands(
 )
 
 commands(
-    ("eh", 2),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 3),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
     ("eh", (3, 4)),
     baca.pitch("C5"),
 )
 
 commands(
-    ("eh", 4),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 5),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
     ("eh", (5, 6)),
     baca.pitch("C#5"),
-)
-
-commands(
-    ("eh", 6),
-    baca.skeleton(
-        "{ c4. c4. r4 }",
-    ),
 )
 
 commands(
@@ -354,6 +373,19 @@ commands(
 
 commands(
     ("rh", (2, 4)),
+    library.even_tuplet_rhythm(
+        extra_counts=[1, 0, 0],
+    ),
+)
+
+commands(
+    ("rh", (5, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("rh", (2, 4)),
     baca.staff_lines(1),
     baca.dls_staff_padding(8),
     baca.dynamic("f"),
@@ -366,9 +398,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.staff_position(0),
-    library.even_tuplet_rhythm(
-        extra_counts=[1, 0, 0],
-    ),
 )
 
 commands(
@@ -376,12 +405,13 @@ commands(
     baca.staff_lines(5),
 )
 
-# attack, lh
+# lh, attack
 
 commands(
-    ["attack", "lh"],
+    ["lh", "attack"],
     baca.make_mmrests(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
 )
 
 # perc
@@ -441,6 +471,7 @@ commands(
     baca.skeleton(
         "{ c2. r4 }",
     ),
+    baca.append_phantom_measure(),
 )
 
 commands(
@@ -463,6 +494,23 @@ commands(
     ("vn", (1, 3)),
     library.airtone_chain_rhythm(20, [0, 2, 4]),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", (4, 6)),
+    library.even_tuplet_rhythm(
+        extra_counts=[1, 0, 0],
+    ),
+)
+
+commands(
+    ("vn", (7, 8)),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vn", (1, 3)),
     baca.staff_lines(1),
     baca.dls_staff_padding(6),
     baca.markup(
@@ -492,9 +540,6 @@ commands(
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
     baca.staff_position(0),
-    library.even_tuplet_rhythm(
-        extra_counts=[1, 0, 0],
-    ),
 )
 
 commands(
@@ -508,6 +553,11 @@ commands(
     "va",
     library.back_incised_divisions(),
     baca.reapply_persistent_indicators(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "va",
     baca.dls_staff_padding(5),
     baca.material_annotation_spanner(
         "4-5 / 5-1 =|",
@@ -539,6 +589,20 @@ commands(
         do_not_overlap_counts=True,
     ),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vc", [5, 6, 7, 8]),
+    library.halves_rhythm(),
+)
+
+commands(
+    ("vc", 8),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("vc", (1, 4)),
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         "1-1 -|",
@@ -600,7 +664,27 @@ commands(
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_),
     ),
-    library.halves_rhythm(),
+)
+
+# fl, vn composites
+
+commands(
+    (["fl", "vn"], (1, 3)),
+    baca.hairpin(
+        'o< "mf"',
+        selector=lambda _: baca.select.rleaves(_),
+        map=lambda _: baca.select.plts(_)[:1],
+    ),
+    baca.hairpin(
+        'o< "f"',
+        selector=lambda _: baca.select.rleaves(_),
+        map=lambda _: baca.select.plts(_)[1:2],
+    ),
+    baca.hairpin(
+        'o< "ff"',
+        selector=lambda _: baca.select.rleaves(_),
+        map=lambda _: baca.select.plts(_)[2:3],
+    ),
 )
 
 if __name__ == "__main__":
@@ -613,8 +697,11 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        intercalate_mmrests_by_hand=True,
         stage_markup=stage_markup,
         transpose_score=True,
     )
