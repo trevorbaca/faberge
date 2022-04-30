@@ -4,7 +4,20 @@ import abjad
 import baca
 from abjadext import rmakers
 
-# instruments & margin markups
+
+def _tuplet_ratios_a():
+    return (
+        (1, 1, 1, 1, 1),
+        (1, 1, 1, 1, 1),
+        (1, 1),
+        (1, 2),
+        (1, 1, 3),
+        (1, 4),
+        (2, 1),
+        (2, 1, 1),
+        (1, 1, 1, 1, 1),
+    )
+
 
 instruments = dict(
     [
@@ -43,8 +56,6 @@ margin_markups = dict(
     ]
 )
 
-# metronome marks
-
 metronome_marks = dict(
     [
         ("41", abjad.MetronomeMark((1, 4), 41)),
@@ -73,42 +84,34 @@ metronome_marks = dict(
     ]
 )
 
-# time signatures
 
-numerators = [[4, 6, 6], [4, 7], [3, 4, 6]]
-numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
-assert len(numerator_groups) == 18, repr(len(numerator_groups))
-lengths = [len(_) for _ in numerator_groups]
-numerators = abjad.sequence.flatten(numerator_groups)
-time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = abjad.sequence.partition_by_counts(time_signatures_a, lengths)
-time_signatures_a = time_signature_groups
-
-numerators = [[3, 4, 4], [2, 3], [2, 3, 4]]
-numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
-assert len(numerator_groups) == 18, repr(len(numerator_groups))
-lengths = [len(_) for _ in numerator_groups]
-numerators = abjad.sequence.flatten(numerator_groups)
-time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-time_signature_groups = abjad.sequence.partition_by_counts(time_signatures_a, lengths)
-time_signatures_b = time_signature_groups
-
-# tuplet ratios
-
-tuplet_ratios_a = (
-    (1, 1, 1, 1, 1),
-    (1, 1, 1, 1, 1),
-    (1, 1),
-    (1, 2),
-    (1, 1, 3),
-    (1, 4),
-    (2, 1),
-    (2, 1, 1),
-    (1, 1, 1, 1, 1),
-)
+def time_signatures_a():
+    numerators = [[4, 6, 6], [4, 7], [3, 4, 6]]
+    numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
+    assert len(numerator_groups) == 18, repr(len(numerator_groups))
+    lengths = [len(_) for _ in numerator_groups]
+    numerators = abjad.sequence.flatten(numerator_groups)
+    time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
+    time_signature_groups = abjad.sequence.partition_by_counts(
+        time_signatures_a, lengths
+    )
+    return time_signature_groups
 
 
-def airtone_chain_rhythm(
+def time_signatures_b():
+    numerators = [[3, 4, 4], [2, 3], [2, 3, 4]]
+    numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
+    assert len(numerator_groups) == 18, repr(len(numerator_groups))
+    lengths = [len(_) for _ in numerator_groups]
+    numerators = abjad.sequence.flatten(numerator_groups)
+    time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
+    time_signature_groups = abjad.sequence.partition_by_counts(
+        time_signatures_a, lengths
+    )
+    return time_signature_groups
+
+
+def make_airtone_chain_rhythm(
     total_events,
     my_event_indices,
     *,
@@ -169,30 +172,31 @@ def airtone_chain_rhythm(
 
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea(my_counts, 16, read_talea_once_only=True),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("faberge.airtone_chain_rhythm()"),
+        tag=tag,
     )
 
 
-def back_incised_divisions():
+def make_back_incised_divisions():
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(suffix_talea=[-1], suffix_counts=[1], talea_denominator=4),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.back_incised_divisions()"),
+        tag=tag,
     )
 
 
-def bcl_color_fingering_rhythm(*commands, rotation=None):
-
+def make_bcl_color_fingering_rhythm(*commands, rotation=None):
     counts = [1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3]
     counts = abjad.sequence.rotate(counts, n=rotation)
-
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=[2]),
         *commands,
@@ -204,22 +208,11 @@ def bcl_color_fingering_rhythm(*commands, rotation=None):
         rmakers.rewrite_rest_filled(),
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.bcl_color_fingering_rhythm()"),
+        tag=tag,
     )
 
 
-def bcl_color_fingerings(*tweaks, rotation=None):
-
-    numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
-    numbers = abjad.sequence.rotate(numbers, n=rotation)
-    return baca.color_fingerings(numbers, *tweaks)
-
-
-def bfl_color_fingerings(*tweaks):
-    return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
-
-
-def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
+def make_clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
     extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
     divisions = None
@@ -233,6 +226,7 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
             divisions_ = [sum(_) for _ in divisions_]
             return divisions_
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea([1], 8, extra_counts=extra_counts),
         rmakers.beam(),
@@ -244,39 +238,12 @@ def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
         preprocessor=divisions,
-        tag=abjad.Tag("faberge.clb_rhythm()"),
+        tag=tag,
     )
 
 
-def clb_staff_positions(*, rotation=None):
-
-    staff_positions_ = [
-        [-1, -1, -1, -1, -1, -1],
-        [0, 0, 0, 0],
-        [-1, -1],
-        [0, 0, 0, 0, 0, 0],
-        [-1, -1],
-        [1, 1, 1, 1, 1, 1],
-        [0, 0],
-        [1, 1, 1, 1, 1, 1],
-        [-1, -1],
-        [0, 0],
-    ]
-    staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
-    staff_positions = abjad.sequence.flatten(staff_positions)
-
-    return baca.staff_positions(staff_positions, allow_repeats=True)
-
-
-def dal_niente_hairpins(stop: str):
-    return baca.hairpin(
-        f"niente o< {stop}",
-        map=lambda _: baca.select.runs(_),
-        selector=lambda _: baca.select.rleaves(_),
-    )
-
-
-def downbeat_attack(*, count=1, denominator=4):
+def make_downbeat_attack(*, count=1, denominator=4):
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
@@ -289,13 +256,15 @@ def downbeat_attack(*, count=1, denominator=4):
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        tag=abjad.Tag("faberge.downbeat_attack()"),
+        tag=tag,
     )
 
 
-def eh_trill_rhythm(counts, *commands, division_fuse_counts=None, extra_counts=None):
+def make_eh_trill_rhythm(
+    counts, *commands, division_fuse_counts=None, extra_counts=None
+):
     counts = list(counts) + [-1000]
-
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=extra_counts, read_talea_once_only=True),
         *commands,
@@ -304,11 +273,12 @@ def eh_trill_rhythm(counts, *commands, division_fuse_counts=None, extra_counts=N
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.force_repeat_tie(),
-        tag=abjad.Tag("faberge.eh_trill_rhythm()"),
+        tag=tag,
     )
 
 
-def end_of_cell_attack(*, denominator=4):
+def make_end_of_cell_attack(*, denominator=4):
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(
             fill_with_rests=True,
@@ -318,13 +288,13 @@ def end_of_cell_attack(*, denominator=4):
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.end_of_cell_attack()"),
+        tag=tag,
     )
 
 
-def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
+def make_even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
     assert denominator in (2, 4, 8), repr(denominator)
-
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea([1], denominator, extra_counts=extra_counts),
         rmakers.beam(),
@@ -334,17 +304,17 @@ def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
         rmakers.rewrite_dots(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.even_tuplet_rhythm()"),
+        tag=tag,
     )
 
 
-def front_incised_divisions(*commands, start_rest_durations=()):
+def make_front_incised_divisions(*commands, start_rest_durations=()):
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
     lcm = abjad.math.least_common_multiple(*denominators)
     start_rest_durations = [_.with_denominator(lcm) for _ in start_rest_durations]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
-
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(
             prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
@@ -352,13 +322,13 @@ def front_incised_divisions(*commands, start_rest_durations=()):
         *commands,
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.front_incised_divisions()"),
+        tag=tag,
     )
 
 
-def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
+def make_glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
     if tuplet_ratios is None:
-        tuplet_ratios = tuplet_ratios_a
+        tuplet_ratios = _tuplet_ratios_a()
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
 
@@ -367,6 +337,7 @@ def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
         result = baca.sequence.quarters(result)
         return result
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
         rmakers.tie(
@@ -383,11 +354,12 @@ def glow_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie((1, 4)),
         preprocessor=preprocessor,
-        tag=abjad.Tag("faberge.glow_rhythm()"),
+        tag=tag,
     )
 
 
-def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
+def make_halves_rhythm(*, tuplet_ratios=[(1, 1)]):
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam(),
@@ -397,47 +369,13 @@ def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        tag=abjad.Tag("faberge.halves_rhythm()"),
+        tag=tag,
     )
 
 
-def increasing_dal_niente_hairpins():
-
-    return baca.chunk(
-        baca.hairpin(
-            "niente o< p",
-            map=lambda _: baca.select.runs(_)[:1],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< mp",
-            map=lambda _: baca.select.runs(_)[1:2],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< mf",
-            map=lambda _: baca.select.runs(_)[2:4],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< f",
-            map=lambda _: baca.select.runs(_)[4:],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-
-
-def keynoise_pitches(*, rotation=None):
-    keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
-    keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
-    keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
-    keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
-    return baca.pitches(keynoise_pitches)
-
-
-def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
+def make_keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
     if tuplet_ratios is None:
-        tuplet_ratios = tuplet_ratios_a
+        tuplet_ratios = _tuplet_ratios_a()
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     negated_tuplet_ratios = []
     for tuplet_ratio in tuplet_ratios:
@@ -454,6 +392,7 @@ def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
         result = baca.sequence.quarters(result)
         return result
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
         *commands,
@@ -463,49 +402,12 @@ def keynoise_rhythm(*commands, tuplet_ratios=None, tuplet_ratio_rotation=None):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("faberge.keynoise_rhythm()"),
+        tag=tag,
     )
 
 
-def margin_markup(
-    key,
-    *,
-    alert=None,
-    context="Staff",
-    selector=lambda _: abjad.select.leaf(_, 0),
-):
-
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
-
-
-def niente_swells(dynamic: str):
-    assert isinstance(dynamic, str), repr(dynamic)
-    # TODO: allow:
-    #   baca.hairpin(
-    #        'niente o< {dynamic} {dynamic} >o niente',
-    #        pieces=lambda _: abjad.select.leaves(_).partition([2, 'most', 2])
-    #        )
-    return baca.chunk(
-        baca.hairpin(
-            f"niente o< {dynamic}",
-            selector=lambda _: baca.select.tleaves(_)[:2],
-        ),
-        baca.hairpin(
-            f"({dynamic}) >o niente",
-            selector=lambda _: baca.select.rleaves(_)[-2:],
-        ),
-        map=lambda _: [x for x in baca.ntruns(_) if 2 < len(x)],
-    )
-
-
-def piano_attack_rhythm():
+def make_piano_attack_rhythm():
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(
             fill_with_rests=True,
@@ -516,24 +418,21 @@ def piano_attack_rhythm():
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.piano_attack_rhythm()"),
+        tag=tag,
     )
 
 
-def piano_clusters():
-    return baca.clusters([4], start_pitch="C2")
-
-
-def ratchet_rhythm():
+def make_ratchet_rhythm():
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.accelerando([(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        tag=abjad.Tag("faberge.ratchet_rhythm()"),
+        tag=tag,
     )
 
 
-def shell_exchange_rhythm(
+def make_shell_exchange_rhythm(
     total_parts,
     this_part,
     *,
@@ -649,6 +548,7 @@ def shell_exchange_rhythm(
     extras_ = [0, 0, -1, 0, 0, -1, -1]
     extras = abjad.sequence.rotate(extras_, n=extra_counts_rotation)
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extras),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
@@ -656,24 +556,12 @@ def shell_exchange_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),
         rmakers.extract_trivial(),
-        tag=abjad.Tag("faberge.shell_exchange_rhythm()"),
+        tag=tag,
     )
 
 
-def single_swell(dynamic: str):
-    return baca.chunk(
-        baca.hairpin(
-            f"niente o< {dynamic}",
-            selector=lambda _: baca.select.tleaves(_)[:2],
-        ),
-        baca.hairpin(
-            f"({dynamic}) >o",
-            selector=lambda _: baca.select.tleaves(_)[-1:],
-        ),
-    )
-
-
-def single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
+def make_single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(
             outer_divisions_only=True,
@@ -686,11 +574,11 @@ def single_taper(*, denominator=16, start_talea=(4,), stop_talea=(4,)):
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.repeat_tie(lambda _: abjad.select.notes(_)[1:]),
-        tag=abjad.Tag("faberge.single_taper()"),
+        tag=tag,
     )
 
 
-def spazzolati_rhythm(
+def make_spazzolati_rhythm(
     *commands,
     counts_rotation=None,
     denominator=16,
@@ -716,6 +604,7 @@ def spazzolati_rhythm(
         result = baca.sequence.quarters(result)
         return result
 
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.talea(counts, denominator, extra_counts=extra_counts),
         *commands,
@@ -724,11 +613,12 @@ def spazzolati_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("faberge.spazzolati_rhythm()"),
+        tag=tag,
     )
 
 
-def suffixed_colortrill_rhythm():
+def make_suffixed_colortrill_rhythm():
+    tag = baca.tags.function_name(inspect.currentframe())
     return baca.rhythm(
         rmakers.incised(
             extra_counts=[1],
@@ -742,7 +632,135 @@ def suffixed_colortrill_rhythm():
         rmakers.force_fraction(),
         rmakers.extract_trivial(),
         rmakers.untie(),
-        tag=abjad.Tag("faberge.suffixed_colortrill_rhythm()"),
+        tag=tag,
+    )
+
+
+def bcl_color_fingerings(*tweaks, rotation=None):
+
+    numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
+    numbers = abjad.sequence.rotate(numbers, n=rotation)
+    return baca.color_fingerings(numbers, *tweaks)
+
+
+def bfl_color_fingerings(*tweaks):
+    return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
+
+
+def clb_staff_positions(*, rotation=None):
+
+    staff_positions_ = [
+        [-1, -1, -1, -1, -1, -1],
+        [0, 0, 0, 0],
+        [-1, -1],
+        [0, 0, 0, 0, 0, 0],
+        [-1, -1],
+        [1, 1, 1, 1, 1, 1],
+        [0, 0],
+        [1, 1, 1, 1, 1, 1],
+        [-1, -1],
+        [0, 0],
+    ]
+    staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
+    staff_positions = abjad.sequence.flatten(staff_positions)
+
+    return baca.staff_positions(staff_positions, allow_repeats=True)
+
+
+def dal_niente_hairpins(stop: str):
+    return baca.hairpin(
+        f"niente o< {stop}",
+        map=lambda _: baca.select.runs(_),
+        selector=lambda _: baca.select.rleaves(_),
+    )
+
+
+def increasing_dal_niente_hairpins():
+
+    return baca.chunk(
+        baca.hairpin(
+            "niente o< p",
+            map=lambda _: baca.select.runs(_)[:1],
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.hairpin(
+            "niente o< mp",
+            map=lambda _: baca.select.runs(_)[1:2],
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.hairpin(
+            "niente o< mf",
+            map=lambda _: baca.select.runs(_)[2:4],
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+        baca.hairpin(
+            "niente o< f",
+            map=lambda _: baca.select.runs(_)[4:],
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+
+
+def keynoise_pitches(*, rotation=None):
+    keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
+    keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
+    keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
+    keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
+    return baca.pitches(keynoise_pitches)
+
+
+def margin_markup(
+    key,
+    *,
+    alert=None,
+    context="Staff",
+    selector=lambda _: abjad.select.leaf(_, 0),
+):
+
+    margin_markup = margin_markups[key]
+    command = baca.margin_markup(
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
+    )
+    return baca.not_parts(command)
+
+
+def niente_swells(dynamic: str):
+    assert isinstance(dynamic, str), repr(dynamic)
+    # TODO: allow:
+    #   baca.hairpin(
+    #        'niente o< {dynamic} {dynamic} >o niente',
+    #        pieces=lambda _: abjad.select.leaves(_).partition([2, 'most', 2])
+    #        )
+    return baca.chunk(
+        baca.hairpin(
+            f"niente o< {dynamic}",
+            selector=lambda _: baca.select.tleaves(_)[:2],
+        ),
+        baca.hairpin(
+            f"({dynamic}) >o niente",
+            selector=lambda _: baca.select.rleaves(_)[-2:],
+        ),
+        map=lambda _: [x for x in baca.ntruns(_) if 2 < len(x)],
+    )
+
+
+def piano_clusters():
+    return baca.clusters([4], start_pitch="C2")
+
+
+def single_swell(dynamic: str):
+    return baca.chunk(
+        baca.hairpin(
+            f"niente o< {dynamic}",
+            selector=lambda _: baca.select.tleaves(_)[:2],
+        ),
+        baca.hairpin(
+            f"({dynamic}) >o",
+            selector=lambda _: baca.select.tleaves(_)[-1:],
+        ),
     )
 
 

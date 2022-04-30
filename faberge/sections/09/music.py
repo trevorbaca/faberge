@@ -85,7 +85,7 @@ commands(
 
 commands(
     ("fl", (1, 2)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=2,
         extra_counts=[0, 1],
     ),
@@ -270,7 +270,7 @@ commands(
 
 commands(
     ("cl", (1, 2)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=2,
         extra_counts=[1, 0],
     ),
@@ -326,7 +326,7 @@ commands(
 
 commands(
     ("perc", [1, 2]),
-    library.downbeat_attack(denominator=2),
+    library.make_downbeat_attack(denominator=2),
 )
 
 commands(
@@ -336,7 +336,7 @@ commands(
 
 commands(
     ("perc", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=2,
     ),
 )

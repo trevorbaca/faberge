@@ -91,12 +91,12 @@ commands(
 
 commands(
     ("fl", [1, 2, 3, 4]),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
     ("fl", (5, 8)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[0, 1, 0, -1],
     ),
     baca.append_phantom_measure(),
@@ -137,7 +137,7 @@ commands(
 
 commands(
     ("eh", 4),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -176,13 +176,13 @@ commands(
 
 commands(
     ("cl", [1, 2, 3, 4]),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 
 commands(
     ("cl", (5, 8)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1, 0, -1, 0],
     ),
     baca.append_phantom_measure(),
@@ -296,7 +296,7 @@ commands(
 
 commands(
     ("rh", [4, 5, 6, 7, 8]),
-    library.end_of_cell_attack(
+    library.make_end_of_cell_attack(
         denominator=8,
     ),
 )
@@ -423,13 +423,13 @@ commands(
 
 commands(
     ("perc", 1),
-    library.even_tuplet_rhythm(),
+    library.make_even_tuplet_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("perc", 2),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -441,12 +441,12 @@ commands(
 
 commands(
     ("perc", 4),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
     ("perc", [5, 6, 7, 8]),
-    library.downbeat_attack(denominator=2),
+    library.make_downbeat_attack(denominator=2),
 )
 
 commands(
@@ -530,7 +530,7 @@ commands(
 
 commands(
     ("vn", 2),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=0,
     ),
 )
@@ -641,7 +641,7 @@ commands(
 
 commands(
     ("va", 2),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
@@ -721,7 +721,7 @@ commands(
 
 commands(
     ("vc", (1, 2)),
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [1, 2, 3],
         do_not_overlap_counts=True,

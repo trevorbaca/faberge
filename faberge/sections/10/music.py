@@ -88,7 +88,7 @@ commands(
 
 commands(
     ("fl", [1, 2, 3, 4, 5, 6, 7, 8]),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -122,7 +122,7 @@ commands(
 
 commands(
     ("eh", 4),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1],
     ),
 )
@@ -161,7 +161,7 @@ commands(
 
 commands(
     ("cl", [1, 2, 3, 4, 5, 6, 7, 8]),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -285,7 +285,7 @@ commands(
 
 commands(
     ("rh", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -345,7 +345,7 @@ commands(
 
 commands(
     ("lh", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -400,14 +400,14 @@ commands(
 
 commands(
     ("perc", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=2,
     ),
 )
 
 commands(
     ("perc", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=2,
     ),
 )
@@ -419,7 +419,7 @@ commands(
 
 commands(
     ("perc", 8),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[-1],
     ),
     baca.append_phantom_measure(),
@@ -863,7 +863,7 @@ commands(
 
 commands(
     ("vc", (6, 8)),
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [0, 1, 3, 4, 6, 7, 8, 9],
         do_not_overlap_counts=True,

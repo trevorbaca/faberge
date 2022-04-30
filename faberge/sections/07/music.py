@@ -92,7 +92,7 @@ commands(
 
 commands(
     ("fl", 2),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -102,12 +102,12 @@ commands(
 
 commands(
     ("fl", 4),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
     ("fl", 5),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[-2],
     ),
 )
@@ -160,7 +160,7 @@ commands(
 
 commands(
     ("eh", 4),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1],
     ),
 )
@@ -179,7 +179,7 @@ commands(
 
 commands(
     ("eh", 8),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1],
     ),
     baca.append_phantom_measure(),
@@ -231,7 +231,7 @@ commands(
 
 commands(
     ("cl", 2),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -241,12 +241,12 @@ commands(
 
 commands(
     ("cl", 4),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
     ("cl", 5),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[-1],
     ),
 )
@@ -571,12 +571,12 @@ commands(
 
 commands(
     ("perc", [3, 4]),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
     ("perc", 5),
-    library.downbeat_attack(denominator=2),
+    library.make_downbeat_attack(denominator=2),
 )
 
 commands(
@@ -643,7 +643,7 @@ commands(
 
 commands(
     ("vn", 1),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (3, None)),
         ),
@@ -659,21 +659,21 @@ commands(
 
 commands(
     ("vn", 3),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[3],
     ),
 )
 
 commands(
     ("vn", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vn", (5, 7)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2, 1],
         fuse_counts=[2, 1],
     ),
@@ -760,7 +760,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (3, None)),
         ),
@@ -778,14 +778,14 @@ commands(
 
 commands(
     ("va", 3),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
 )
 
 commands(
     ("va", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -797,7 +797,7 @@ commands(
 
 commands(
     ("va", (6, 7)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
         fuse_counts=[2],
     ),
@@ -944,7 +944,7 @@ commands(
 
 commands(
     ("vc", 4),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(

@@ -87,7 +87,7 @@ commands(
 
 commands(
     ("fl", 5),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
@@ -113,7 +113,7 @@ commands(
 
 commands(
     ("eh", 5),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
@@ -159,7 +159,7 @@ commands(
 
 commands(
     ("rh", 5),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
@@ -240,7 +240,7 @@ commands(
 
 commands(
     ("vn", (1, 7)),
-    library.halves_rhythm(
+    library.make_halves_rhythm(
         tuplet_ratios=[(2, 3)],
     ),
     baca.reapply_persistent_indicators(),
@@ -264,7 +264,7 @@ commands(
 
 commands(
     ("va", (1, 7)),
-    library.halves_rhythm(
+    library.make_halves_rhythm(
         tuplet_ratios=[(2, 1)],
     ),
     baca.reapply_persistent_indicators(),
@@ -288,7 +288,7 @@ commands(
 
 commands(
     ("vc", (1, 7)),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 

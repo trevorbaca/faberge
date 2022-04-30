@@ -95,7 +95,7 @@ commands(
 
 commands(
     ("fl", (1, 2)),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
     baca.reapply_persistent_indicators(),
     baca.hairpin(
         "o< mf >o",
@@ -129,7 +129,7 @@ commands(
 
 commands(
     ("fl", [4, 5, 6, 7, 8]),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -181,7 +181,7 @@ for n in range(1, 8 + 1):
     if n == 3:
         function = baca.make_mmrests()
     else:
-        function = library.suffixed_colortrill_rhythm()
+        function = library.make_suffixed_colortrill_rhythm()
     commands(("cl", n), function)
 
 commands(
@@ -260,7 +260,7 @@ commands(
 
 commands(
     ("rh", 4),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[7],
     ),
     baca.staff_lines(3),
@@ -268,7 +268,7 @@ commands(
 
 commands(
     ("rh", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -402,7 +402,7 @@ commands(
 
 commands(
     ("perc", 2),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=2,
     ),
     baca.dynamic("mf"),
@@ -437,7 +437,7 @@ commands(
 
 commands(
     ("perc", [4, 5, 6, 7]),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -529,14 +529,14 @@ commands(
 
 commands(
     ("vn", 4),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
 )
 
 commands(
     ("vn", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -549,14 +549,14 @@ commands(
 
 commands(
     ("vn", 6),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[4],
     ),
 )
 
 commands(
     ("vn", 7),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -627,7 +627,7 @@ commands(
 
 commands(
     ("va", 4),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6],
     ),
     baca.staff_lines(1),
@@ -635,7 +635,7 @@ commands(
 
 commands(
     ("va", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -647,14 +647,14 @@ commands(
 
 commands(
     ("va", 6),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
 )
 
 commands(
     ("va", 7),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -681,7 +681,7 @@ commands(
 
 commands(
     ("vc", 4),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[4],
     ),
     baca.staff_lines(1),
@@ -689,7 +689,7 @@ commands(
 
 commands(
     ("vc", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -701,14 +701,14 @@ commands(
 
 commands(
     ("vc", 6),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6],
     ),
 )
 
 commands(
     ("vc", 7),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )

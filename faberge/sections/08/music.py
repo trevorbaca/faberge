@@ -466,12 +466,12 @@ commands(
 
 commands(
     ("perc", 3),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
     ("perc", (4, 5)),
-    library.airtone_chain_rhythm(6, [2, 5]),
+    library.make_airtone_chain_rhythm(6, [2, 5]),
 )
 
 commands(
@@ -593,7 +593,7 @@ commands(
 
 commands(
     ("vn", (4, 5)),
-    library.airtone_chain_rhythm(6, [1, 4]),
+    library.make_airtone_chain_rhythm(6, [1, 4]),
 )
 
 commands(
@@ -840,7 +840,7 @@ commands(
 
 commands(
     ("vc", (4, 5)),
-    library.airtone_chain_rhythm(6, [0, 3]),
+    library.make_airtone_chain_rhythm(6, [0, 3]),
 )
 
 

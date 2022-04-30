@@ -85,7 +85,7 @@ commands(
 
 commands(
     ("fl", (1, 3)),
-    library.airtone_chain_rhythm(20, [1, 3, 5]),
+    library.make_airtone_chain_rhythm(20, [1, 3, 5]),
     baca.reapply_persistent_indicators(),
 )
 
@@ -195,23 +195,23 @@ commands(
 
 commands(
     ("cl", 1),
-    library.downbeat_attack(denominator=8),
+    library.make_downbeat_attack(denominator=8),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("cl", (2, 4)),
-    library.bcl_color_fingering_rhythm(),
+    library.make_bcl_color_fingering_rhythm(),
 )
 
 commands(
     ("cl", 5),
-    library.downbeat_attack(denominator=8),
+    library.make_downbeat_attack(denominator=8),
 )
 
 commands(
     ("cl", (6, 8)),
-    library.bcl_color_fingering_rhythm(),
+    library.make_bcl_color_fingering_rhythm(),
     baca.append_phantom_measure(),
 )
 
@@ -373,7 +373,7 @@ commands(
 
 commands(
     ("rh", (2, 4)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1, 0, 0],
     ),
 )
@@ -492,13 +492,13 @@ commands(
 
 commands(
     ("vn", (1, 3)),
-    library.airtone_chain_rhythm(20, [0, 2, 4]),
+    library.make_airtone_chain_rhythm(20, [0, 2, 4]),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("vn", (4, 6)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1, 0, 0],
     ),
 )
@@ -551,7 +551,7 @@ commands(
 
 commands(
     "va",
-    library.back_incised_divisions(),
+    library.make_back_incised_divisions(),
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -583,7 +583,7 @@ commands(
 
 commands(
     ("vc", (1, 4)),
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [0, 1, 4, 5, 7, 8],
         do_not_overlap_counts=True,
@@ -593,7 +593,7 @@ commands(
 
 commands(
     ("vc", [5, 6, 7, 8]),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
 )
 
 commands(

@@ -643,7 +643,7 @@ segment.14.Flute.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -681,7 +681,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'2
     % AFTER:
     % MARKUP:
@@ -757,7 +757,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'8
     % AFTER:
     % SPANNER_STARTS:
@@ -765,7 +765,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r8
     % AFTER:
     % ARTICULATIONS:
@@ -788,12 +788,12 @@ segment.14.Flute.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 2]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'4.
     % AFTER:
     % SPANNER_STARTS:
@@ -820,7 +820,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -841,7 +841,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'8
     % AFTER:
     % SPANNER_STARTS:
@@ -874,7 +874,7 @@ segment.14.Flute.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Flute_Music_Voice measure 3]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'2
     % AFTER:
     % SPANNER_STARTS:
@@ -882,7 +882,7 @@ segment.14.Flute.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -3331,7 +3331,7 @@ segment.14.Clarinet.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.downbeat_attack()
+      %! faberge.make_downbeat_attack()
     bf!8
     % AFTER:
     % ARTICULATIONS:
@@ -3404,24 +3404,24 @@ segment.14.Clarinet.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.downbeat_attack()
+      %! faberge.make_downbeat_attack()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 2]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!8
         % AFTER:
         % ARTICULATIONS:
@@ -3445,7 +3445,7 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3465,7 +3465,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!8
         % AFTER:
         % MARKUP:
@@ -3474,12 +3474,12 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!4
         % AFTER:
         % MARKUP:
@@ -3490,7 +3490,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!4.
         % AFTER:
         % MARKUP:
@@ -3501,7 +3501,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!8
         % AFTER:
         % MARKUP:
@@ -3512,7 +3512,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf!4
         % AFTER:
         % MARKUP:
@@ -3526,33 +3526,33 @@ segment.14.Clarinet.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 3]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         bf8
         % AFTER:
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % MARKUP:
@@ -3563,7 +3563,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % MARKUP:
@@ -3574,7 +3574,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % MARKUP:
@@ -3585,7 +3585,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % ARTICULATIONS:
@@ -3604,7 +3604,7 @@ segment.14.Clarinet.Music.Voice = {
           %! baca.hairpin()
         \mp
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3624,7 +3624,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!4
         % AFTER:
         % MARKUP:
@@ -3635,30 +3635,30 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!4.
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 4]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % MARKUP:
@@ -3667,21 +3667,21 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!4
         % AFTER:
         % MARKUP:
@@ -3692,7 +3692,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!4.
         % AFTER:
         % MARKUP:
@@ -3703,7 +3703,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!8
         % AFTER:
         % MARKUP:
@@ -3714,7 +3714,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         af!4
         % AFTER:
         % ARTICULATIONS:
@@ -3741,14 +3741,14 @@ segment.14.Clarinet.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet_Music_Voice measure 5]
-      %! faberge.downbeat_attack()
+      %! faberge.make_downbeat_attack()
     g8
     % AFTER:
     % MARKUP:
@@ -3759,24 +3759,24 @@ segment.14.Clarinet.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.downbeat_attack()
+      %! faberge.make_downbeat_attack()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 6]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % ARTICULATIONS:
@@ -3800,7 +3800,7 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3820,7 +3820,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -3829,12 +3829,12 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4
         % AFTER:
         % MARKUP:
@@ -3845,7 +3845,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4.
         % AFTER:
         % MARKUP:
@@ -3856,7 +3856,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -3867,7 +3867,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4
         % AFTER:
         % SPANNER_STARTS:
@@ -3876,33 +3876,33 @@ segment.14.Clarinet.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 7]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -3913,12 +3913,12 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -3929,7 +3929,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % ARTICULATIONS:
@@ -3948,7 +3948,7 @@ segment.14.Clarinet.Music.Voice = {
           %! baca.hairpin()
         \p
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3968,7 +3968,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4
         % AFTER:
         % MARKUP:
@@ -3979,7 +3979,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4.
         % AFTER:
         % MARKUP:
@@ -3991,24 +3991,24 @@ segment.14.Clarinet.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     \times 4/5
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet_Music_Voice measure 8]
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -4017,12 +4017,12 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % START_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % MARKUP:
@@ -4031,12 +4031,12 @@ segment.14.Clarinet.Music.Voice = {
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % STOP_BEAM:
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4
         % AFTER:
         % MARKUP:
@@ -4047,7 +4047,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4.
         % AFTER:
         % MARKUP:
@@ -4058,7 +4058,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g8
         % AFTER:
         % ARTICULATIONS:
@@ -4084,7 +4084,7 @@ segment.14.Clarinet.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.bcl_color_fingering_rhythm()
+          %! faberge.make_bcl_color_fingering_rhythm()
         g4
         % AFTER:
         % MARKUP:
@@ -4100,7 +4100,7 @@ segment.14.Clarinet.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.bcl_color_fingering_rhythm()
+      %! faberge.make_bcl_color_fingering_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4433,11 +4433,11 @@ segment.14.Piano.RH.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     \times 4/5
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4469,7 +4469,7 @@ segment.14.Piano.RH.Music.Voice = {
           %! EXPLICIT_STAFF_LINES_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         d4
         % AFTER:
         % ARTICULATIONS:
@@ -4532,72 +4532,72 @@ segment.14.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         d4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 3]
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano_RH_Music_Voice measure 4]
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     d4
     % AFTER:
     % COMMANDS:
@@ -6638,7 +6638,7 @@ segment.14.Violin.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'4.
     % AFTER:
     % MARKUP:
@@ -6730,7 +6730,7 @@ segment.14.Violin.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -6751,7 +6751,7 @@ segment.14.Violin.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'4
     % AFTER:
     % SPANNER_STARTS:
@@ -6784,7 +6784,7 @@ segment.14.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 2]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     b'4
     % AFTER:
     % SPANNER_STARTS:
@@ -6792,7 +6792,7 @@ segment.14.Violin.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r8
     % AFTER:
     % ARTICULATIONS:
@@ -6852,7 +6852,7 @@ segment.14.Violin.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 3]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -6884,11 +6884,11 @@ segment.14.Violin.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     \times 4/5
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6900,7 +6900,7 @@ segment.14.Violin.Music.Voice = {
           %! baca.OverrideCommand._call(1)
           %! baca.dls_staff_padding()
         \override DynamicLineSpanner.staff-padding = 8
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         b'4
         % AFTER:
         % ARTICULATIONS:
@@ -6957,72 +6957,72 @@ segment.14.Violin.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         b'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm()
         b'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 5]
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violin_Music_Voice measure 6]
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm()
     b'4
     % AFTER:
     % COMMANDS:
@@ -7361,7 +7361,7 @@ segment.14.Viola.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     ef!2.
     % AFTER:
     % ARTICULATIONS:
@@ -7465,7 +7465,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7479,7 +7479,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 2]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     ef!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7521,7 +7521,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7535,7 +7535,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 3]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     ef!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7577,7 +7577,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7591,7 +7591,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 4]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     ef!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7633,7 +7633,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7647,7 +7647,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 5]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     f2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7689,7 +7689,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7703,7 +7703,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 6]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     f2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7745,7 +7745,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7759,7 +7759,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 7]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     f2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7801,7 +7801,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -7815,7 +7815,7 @@ segment.14.Viola.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Viola_Music_Voice measure 8]
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     f2.
     % AFTER:
     % SPANNER_STARTS:
@@ -7857,7 +7857,7 @@ segment.14.Viola.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.back_incised_divisions()
+      %! faberge.make_back_incised_divisions()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -8094,7 +8094,7 @@ segment.14.Cello.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     aqf''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8225,7 +8225,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     c2
     % AFTER:
     % ARTICULATIONS:
@@ -8276,7 +8276,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -8299,7 +8299,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 2]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8398,7 +8398,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     d''8
     % AFTER:
     % ARTICULATIONS:
@@ -8445,7 +8445,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 3]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     c'4.
     % AFTER:
     % ARTICULATIONS:
@@ -8496,7 +8496,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -8517,7 +8517,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     fqs''!4
     % AFTER:
     % ARTICULATIONS:
@@ -8564,7 +8564,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 4]
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     e'2
     % AFTER:
     % ARTICULATIONS:
@@ -8616,7 +8616,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -8685,7 +8685,7 @@ segment.14.Cello.Music.Voice = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8727,7 +8727,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8781,7 +8781,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 6]
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8827,7 +8827,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8881,7 +8881,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 7]
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8927,7 +8927,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8981,7 +8981,7 @@ segment.14.Cello.Music.Voice = {
 
       %! baca._comment_measure_numbers()
     % [Cello_Music_Voice measure 8]
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -9027,7 +9027,7 @@ segment.14.Cello.Music.Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.halves_rhythm()
+      %! faberge.make_halves_rhythm()
     f,2
     % AFTER:
     % STEM_TREMOLOS:

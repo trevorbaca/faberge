@@ -87,7 +87,7 @@ commands(
 
 commands(
     ("fl", (1, 4)),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -177,7 +177,7 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    library.bcl_color_fingering_rhythm(
+    library.make_bcl_color_fingering_rhythm(
         rmakers.force_rest(
             lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
         ),
@@ -224,7 +224,7 @@ commands(
 
 commands(
     ("rh", (4, 5)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[1, 0],
     ),
 )
@@ -280,7 +280,7 @@ commands(
 
 commands(
     ("perc", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=2,
     ),
 )
@@ -354,7 +354,7 @@ commands(
 
 commands(
     ("vn", [5, 6, 7, 8]),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
 )
 
 commands(
@@ -388,7 +388,7 @@ commands(
 
 commands(
     ("va", (1, 4)),
-    library.back_incised_divisions(),
+    library.make_back_incised_divisions(),
     baca.reapply_persistent_indicators(),
     baca.pitch("F3"),
     baca.xfb_spanner(
@@ -399,7 +399,7 @@ commands(
 
 commands(
     ("va", [5, 6, 7, 8]),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
 )
 
 commands(
@@ -442,7 +442,7 @@ commands(
 
 commands(
     ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
-    library.halves_rhythm(),
+    library.make_halves_rhythm(),
 )
 
 commands(
