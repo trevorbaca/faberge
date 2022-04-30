@@ -15750,10 +15750,6 @@ segment.02.Clarinet.Music.Voice = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \f
-    % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.dls_staff_padding()
-    \revert DynamicLineSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -17951,6 +17947,9 @@ segment.02.Clarinet.Music.Voice = {
       %! baca.IndicatorCommand._call()
       %! baca.breathe()
     \breathe
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
       %! baca.OverrideCommand._call(2)
       %! baca.dls_staff_padding()
     \revert DynamicLineSpanner.staff-padding
