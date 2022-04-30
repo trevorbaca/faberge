@@ -29,7 +29,7 @@ stage_markup = (
 )
 
 maker_ = baca.TimeSignatureMaker(
-    library.time_signatures_b,
+    library.time_signatures_b(),
     count=80,
     rotation=0,
 )
@@ -87,7 +87,7 @@ commands(
 
 commands(
     ("fl", (1, 8)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -138,7 +138,7 @@ commands(
 
 commands(
     ("fl", (9, 10)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -187,7 +187,7 @@ commands(
 
 commands(
     ("fl", (11, 12)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -232,7 +232,7 @@ commands(
 
 commands(
     ("fl", (13, 16)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -281,7 +281,7 @@ commands(
 
 commands(
     ("fl", (17, 22)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -337,7 +337,7 @@ commands(
 
 commands(
     ("fl", (23, 26)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -382,7 +382,7 @@ commands(
 
 commands(
     ("fl", (27, 30)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -432,7 +432,7 @@ commands(
 
 commands(
     ("fl", (31, 36)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -482,7 +482,7 @@ commands(
 
 commands(
     ("fl", (37, 44)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -530,7 +530,7 @@ commands(
 
 commands(
     ("fl", (45, 48)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -575,7 +575,7 @@ commands(
 
 commands(
     ("fl", (49, 52)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -624,7 +624,7 @@ commands(
 
 commands(
     ("fl", (53, 54)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -673,7 +673,7 @@ commands(
 
 commands(
     ("fl", (55, 60)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
         ),
@@ -735,7 +735,7 @@ commands(
 
 commands(
     ("fl", (69, 72)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
         ),
@@ -806,7 +806,7 @@ commands(
 
 commands(
     ("eh", (1, 12)),
-    library.keynoise_rhythm(
+    library.make_keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
@@ -821,7 +821,7 @@ commands(
 
 commands(
     ("eh", (13, 16)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
     ),
     baca.dynamic("f"),
@@ -834,7 +834,7 @@ commands(
 
 commands(
     ("eh", (17, 22)),
-    library.keynoise_rhythm(
+    library.make_keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
@@ -857,7 +857,7 @@ commands(
 
 commands(
     ("eh", (23, 30)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, -1),
@@ -902,7 +902,7 @@ commands(
 
 commands(
     ("eh", (45, 60)),
-    library.keynoise_rhythm(
+    library.make_keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
@@ -972,7 +972,7 @@ commands(
 
 commands(
     ("eh", 79),
-    library.ratchet_rhythm(),
+    library.make_ratchet_rhythm(),
     baca.dls_staff_padding(8.5),
     baca.dynamic(
         "(f)",
@@ -997,7 +997,7 @@ commands(
 
 commands(
     ("cl", (1, 3)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.reapply_persistent_indicators(),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
@@ -1030,7 +1030,7 @@ commands(
             (48, 52),
         ],
     ),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
 )
 
@@ -1117,13 +1117,13 @@ commands(
 
 commands(
     ("cl", (53, 56)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
 )
 
 commands(
     ("cl", (57, 60)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
 )
 
@@ -1166,7 +1166,7 @@ commands(
 
 commands(
     ("cl", (69, 72)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
 )
 
@@ -1234,7 +1234,7 @@ commands(
 
 commands(
     ("rh", (53, 79)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[16, 20, 8],
         fuse_counts=[2, 3],
     ),
@@ -1253,7 +1253,7 @@ commands(
 
 commands(
     ("rh", 80),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
     baca.append_phantom_measure(),
@@ -1280,14 +1280,14 @@ commands(
 
 commands(
     ("attack", (1, 22)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
     # TODO: uncomment and allow to run:
     # baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("attack", (23, 80)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
     baca.append_phantom_measure(),
 )
 
@@ -1494,7 +1494,7 @@ commands(
 
 commands(
     ("vn", (9, 22)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=-20,
     ),
     baca.dynamic('"ff"'),
@@ -1538,7 +1538,7 @@ commands(
 
 commands(
     ("vn", (53, 68)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[2, 2, 1],
     ),
     baca.staff_lines(1),
@@ -1593,7 +1593,7 @@ commands(
 
 commands(
     ("vn", (73, 80)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[2, 2, 1],
     ),
     baca.append_phantom_measure(),
@@ -1638,7 +1638,7 @@ commands(
 
 commands(
     ("va", (9, 22)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=-21,
         denominator=8,
         extra_counts=[1],
@@ -1696,7 +1696,7 @@ commands(
 
 commands(
     ("va", (53, 79)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[1, 2, 2],
     ),
 )
@@ -1719,7 +1719,7 @@ commands(
 
 commands(
     ("va", 80),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
     baca.append_phantom_measure(),
@@ -1833,14 +1833,14 @@ commands(
 
 commands(
     ("vc", (61, 79)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[3],
     ),
 )
 
 commands(
     ("vc", 80),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
     baca.append_phantom_measure(),

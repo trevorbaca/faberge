@@ -83,7 +83,7 @@ commands(
 
 commands(
     ("fl", 1),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=8,
         extra_counts=[2],
     ),
@@ -97,7 +97,7 @@ commands(
 
 commands(
     ("fl", 3),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=8,
     ),
 )
@@ -131,7 +131,7 @@ commands(
 
 commands(
     ("cl", 1),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=8,
     ),
     baca.reapply_persistent_indicators(),
@@ -144,7 +144,7 @@ commands(
 
 commands(
     ("cl", 3),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         denominator=8,
         extra_counts=[2],
     ),
@@ -201,7 +201,7 @@ commands(
 
 commands(
     ("rh", [1, 2, 3]),
-    library.end_of_cell_attack(denominator=8),
+    library.make_end_of_cell_attack(denominator=8),
 )
 
 commands(
@@ -218,7 +218,7 @@ commands(
 
 commands(
     ("rh", (6, 9)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[2, 2],
         extra_counts=[5, 5],
     ),
@@ -339,7 +339,7 @@ commands(
 
 commands(
     ("perc", 1),
-    library.downbeat_attack(denominator=4),
+    library.make_downbeat_attack(denominator=4),
     baca.reapply_persistent_indicators(),
 )
 
@@ -350,7 +350,7 @@ commands(
 
 commands(
     ("perc", 3),
-    library.downbeat_attack(denominator=4),
+    library.make_downbeat_attack(denominator=4),
 )
 
 commands(
@@ -360,7 +360,7 @@ commands(
 
 commands(
     ("perc", 5),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -449,7 +449,7 @@ commands(
 
 commands(
     ("vn", (1, 4)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[2, 1, 1],
     ),
     baca.reapply_persistent_indicators(),
@@ -464,7 +464,7 @@ commands(
 
 commands(
     ("vn", (6, 9)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[2, 1, 1],
     ),
     baca.append_phantom_measure(),
@@ -542,7 +542,7 @@ commands(
 
 commands(
     ("va", (6, 9)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[1, 2, 1],
     ),
     baca.append_phantom_measure(),
@@ -610,7 +610,7 @@ commands(
 
 commands(
     ("vc", (1, 4)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[1, 1, 2],
     ),
     baca.reapply_persistent_indicators(),
@@ -625,7 +625,7 @@ commands(
 
 commands(
     ("vc", (6, 9)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         fuse_counts=[1, 1, 2],
     ),
     baca.append_phantom_measure(),

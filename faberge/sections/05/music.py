@@ -94,7 +94,7 @@ for n in [2, 3, 4, 5, 6, 7, 8]:
     else:
         commands(
             ("fl", n),
-            library.suffixed_colortrill_rhythm(),
+            library.make_suffixed_colortrill_rhythm(),
         )
 
 commands(
@@ -205,7 +205,7 @@ for n in [2, 3, 4, 5, (6, 7), 8]:
     else:
         commands(
             ("cl", n),
-            library.suffixed_colortrill_rhythm(),
+            library.make_suffixed_colortrill_rhythm(),
         )
 
 commands(
@@ -298,13 +298,13 @@ commands(
 
 commands(
     ("perc", 1),
-    library.even_tuplet_rhythm(),
+    library.make_even_tuplet_rhythm(),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("perc", 2),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -351,7 +351,7 @@ commands(
 
 commands(
     ("vn", (1, 8)),
-    library.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
+    library.make_airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
     baca.reapply_persistent_indicators(),
     baca.dynamic(
         '"ff"',
@@ -407,7 +407,7 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    library.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
+    library.make_airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
     baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.hairpin(
@@ -467,7 +467,7 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
         do_not_overlap_counts=True,

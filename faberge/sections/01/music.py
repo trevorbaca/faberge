@@ -13,7 +13,7 @@ stage_markup = (
 )
 
 maker_ = baca.TimeSignatureMaker(
-    library.time_signatures_b,
+    library.time_signatures_b(),
     count=4,
     fermata_measures=[2, 4],
     rotation=0,
@@ -59,12 +59,16 @@ commands(
     "fl",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "fl",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-flute-markup"),
         library.margin_markup("Fl."),
     ),
-    baca.append_phantom_measure(),
 )
 
 # eh
@@ -73,6 +77,21 @@ commands(
     ("eh", (1, 2)),
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+)
+
+commands(
+    ("eh", 3),
+    library.make_ratchet_rhythm(),
+)
+
+commands(
+    ("eh", 4),
+    baca.make_mmrests(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "eh",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-english-horn-markup"),
@@ -82,26 +101,19 @@ commands(
 
 commands(
     ("eh", 3),
-    library.ratchet_rhythm(),
-    baca.dls_staff_padding(8.5),
-    baca.dynamic(
-        "(f)",
-        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
-    ),
+    baca.staff_lines(1),
+    baca.staff_position(0),
     baca.markup(
         r"\baca-ratchet-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 6"),
     ),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-)
-
-commands(
-    ("eh", 4),
-    baca.make_mmrests(),
-    baca.append_phantom_measure(),
+    baca.dynamic(
+        "(f)",
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+    ),
+    baca.dls_staff_padding(8.5),
 )
 
 # cl
@@ -110,12 +122,16 @@ commands(
     "cl",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "cl",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-clarinet-markup"),
         library.margin_markup("Cl."),
     ),
-    baca.append_phantom_measure(),
 )
 
 # rh
@@ -124,6 +140,11 @@ commands(
     "rh",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    "rh",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(
@@ -135,7 +156,20 @@ commands(
             context="PianoStaff",
         ),
     ),
+)
+
+# lh
+
+commands(
+    "lh",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "lh",
+    baca.staff_lines(5),
 )
 
 # attack
@@ -146,40 +180,30 @@ commands(
     baca.append_phantom_measure(),
 )
 
-# lh
-
-commands(
-    "lh",
-    baca.make_mmrests(),
-    baca.attach_first_segment_default_indicators(),
-    baca.staff_lines(5),
-    baca.append_phantom_measure(),
-)
-
 # perc
 
 commands(
     "perc",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
-    baca.staff_lines(5),
-    baca.chunk(
-        baca.start_markup(r"\faberge-percussion-markup"),
-        library.margin_markup("Perc."),
-    ),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "perc",
+    baca.staff_lines(5),
+    baca.start_markup(r"\faberge-percussion-markup"),
+    library.margin_markup("Perc."),
 )
 
 # vn
 
 commands(
     ("vn", 1),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=0,
     ),
     baca.attach_first_segment_default_indicators(),
-    baca.dynamic('"f"'),
-    baca.pitch("E4"),
 )
 
 commands(
@@ -189,19 +213,19 @@ commands(
 )
 
 commands(
-    ("vn", 1),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
+    "vn",
+    baca.staff_lines(5),
+    baca.start_markup(r"\faberge-violin-markup"),
+    library.margin_markup("Vn."),
+    baca.dls_staff_padding(4),
 )
 
 commands(
-    "vn",
-    baca.staff_lines(5),
-    baca.dls_staff_padding(4),
-    baca.chunk(
-        baca.start_markup(r"\faberge-violin-markup"),
-        library.margin_markup("Vn."),
+    ("vn", 1),
+    baca.pitch("E4"),
+    baca.dynamic('"f"'),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -209,14 +233,12 @@ commands(
 
 commands(
     ("va", 1),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
     ),
     baca.attach_first_segment_default_indicators(),
-    baca.dynamic('"f"'),
-    baca.pitch("E4"),
 )
 
 commands(
@@ -226,19 +248,19 @@ commands(
 )
 
 commands(
-    ("va", 1),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
-
-commands(
     "va",
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
-    baca.chunk(
-        baca.start_markup(r"\faberge-viola-markup"),
-        library.margin_markup("Va."),
+    baca.start_markup(r"\faberge-viola-markup"),
+    library.margin_markup("Va."),
+)
+
+commands(
+    ("va", 1),
+    baca.pitch("E4"),
+    baca.dynamic('"f"'),
+    baca.spazzolato_spanner(
+        abjad.Tweak(r"- \tweak staff-padding 3"),
     ),
 )
 
@@ -248,12 +270,14 @@ commands(
     "vc",
     baca.make_mmrests(),
     baca.attach_first_segment_default_indicators(),
-    baca.staff_lines(5),
-    baca.chunk(
-        baca.start_markup(r"\faberge-cello-markup"),
-        library.margin_markup("Vc."),
-    ),
     baca.append_phantom_measure(),
+)
+
+commands(
+    "vc",
+    baca.staff_lines(5),
+    baca.start_markup(r"\faberge-cello-markup"),
+    library.margin_markup("Vc."),
 )
 
 if __name__ == "__main__":

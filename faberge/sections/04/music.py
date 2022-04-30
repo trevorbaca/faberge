@@ -73,7 +73,7 @@ commands(
 
 commands(
     ("fl", (1, 4)),
-    library.airtone_chain_rhythm(20, [2, 6]),
+    library.make_airtone_chain_rhythm(20, [2, 6]),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -116,7 +116,7 @@ commands(
 
 commands(
     ("eh", (1, 4)),
-    library.airtone_chain_rhythm(20, [1, 5]),
+    library.make_airtone_chain_rhythm(20, [1, 5]),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -158,7 +158,7 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    library.airtone_chain_rhythm(20, [3, 7]),
+    library.make_airtone_chain_rhythm(20, [3, 7]),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -235,7 +235,7 @@ commands(
 
 commands(
     ("rh", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -289,7 +289,7 @@ commands(
 
 commands(
     ("lh", 5),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -320,7 +320,7 @@ commands(
 
 commands(
     ("perc", 1),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[0],
     ),
     baca.reapply_persistent_indicators(),
@@ -341,7 +341,7 @@ commands(
 
 commands(
     ("perc", (4, 5)),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[-1, 0],
     ),
     baca.dynamic("f"),
@@ -362,7 +362,7 @@ commands(
 
 commands(
     ("perc", 8),
-    library.even_tuplet_rhythm(
+    library.make_even_tuplet_rhythm(
         extra_counts=[-1],
     ),
     baca.append_phantom_measure(),
@@ -384,7 +384,7 @@ commands(
 
 commands(
     ("vn", (1, 3)),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6, 2],
         fuse_counts=[2, 1],
     ),
@@ -394,7 +394,7 @@ commands(
 
 commands(
     ("vn", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -419,7 +419,7 @@ commands(
 
 commands(
     ("vn", (5, 8)),
-    library.airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
+    library.make_airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
     baca.append_phantom_measure(),
     baca.staff_position(0),
 )
@@ -438,7 +438,7 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    library.airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
+    library.make_airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.chunk(
@@ -485,7 +485,7 @@ commands(
 
 commands(
     "vc",
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
         do_not_overlap_counts=True,

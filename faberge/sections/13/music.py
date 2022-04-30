@@ -84,7 +84,7 @@ commands(
 
 commands(
     ("fl", 3),
-    library.suffixed_colortrill_rhythm(),
+    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -211,27 +211,27 @@ commands(
 
 commands(
     ("cl", 3),
-    library.bcl_color_fingering_rhythm(),
+    library.make_bcl_color_fingering_rhythm(),
 )
 
 commands(
     ("cl", 4),
-    library.downbeat_attack(denominator=8),
+    library.make_downbeat_attack(denominator=8),
 )
 
 commands(
     ("cl", 5),
-    library.bcl_color_fingering_rhythm(),
+    library.make_bcl_color_fingering_rhythm(),
 )
 
 commands(
     ("cl", 6),
-    library.downbeat_attack(denominator=8),
+    library.make_downbeat_attack(denominator=8),
 )
 
 commands(
     ("cl", (7, 8)),
-    library.bcl_color_fingering_rhythm(),
+    library.make_bcl_color_fingering_rhythm(),
     baca.append_phantom_measure(),
 )
 
@@ -289,7 +289,7 @@ commands(
 
 commands(
     ("rh", 1),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[7],
     ),
     baca.reapply_persistent_indicators(),
@@ -309,14 +309,14 @@ commands(
 
 commands(
     ("rh", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("rh", 5),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[7],
     ),
 )
@@ -412,7 +412,7 @@ commands(
 
 commands(
     ("lh", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -448,7 +448,7 @@ commands(
 
 commands(
     ("perc", [1, 2, 3, 4, 5, 6]),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
 )
 
 commands(
@@ -524,7 +524,7 @@ commands(
 
 commands(
     ("vn", 1),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
     baca.reapply_persistent_indicators(),
@@ -532,35 +532,35 @@ commands(
 
 commands(
     ("vn", 2),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vn", 3),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[4],
     ),
 )
 
 commands(
     ("vn", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vn", 5),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6],
     ),
 )
 
 commands(
     ("vn", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
@@ -599,7 +599,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6],
     ),
     baca.reapply_persistent_indicators(),
@@ -607,42 +607,42 @@ commands(
 
 commands(
     ("va", 2),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("va", 3),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
 )
 
 commands(
     ("va", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("va", 5),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[4],
     ),
 )
 
 commands(
     ("va", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("va", (7, 8)),
-    library.back_incised_divisions(),
+    library.make_back_incised_divisions(),
     baca.append_phantom_measure(),
 )
 
@@ -688,7 +688,7 @@ commands(
 
 commands(
     ("vc", 1),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[4],
     ),
     baca.reapply_persistent_indicators(),
@@ -696,42 +696,42 @@ commands(
 
 commands(
     ("vc", 2),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vc", 3),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[6],
     ),
 )
 
 commands(
     ("vc", 4),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vc", 5),
-    library.clb_rhythm(
+    library.make_clb_rhythm(
         extra_counts=[2],
     ),
 )
 
 commands(
     ("vc", 6),
-    library.downbeat_attack(
+    library.make_downbeat_attack(
         denominator=8,
     ),
 )
 
 commands(
     ("vc", (7, 8)),
-    library.airtone_chain_rhythm(
+    library.make_airtone_chain_rhythm(
         20,
         [2, 3, 4],
         do_not_overlap_counts=True,

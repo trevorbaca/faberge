@@ -29,7 +29,7 @@ stage_markup = (
 )
 
 maker_ = baca.TimeSignatureMaker(
-    library.time_signatures_b,
+    library.time_signatures_b(),
     count=92,
     rotation=0,
 )
@@ -79,7 +79,7 @@ commands(
 
 commands(
     ("fl", (1, 40)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         total_parts=4,
         this_part=0,
     ),
@@ -138,7 +138,7 @@ commands(
 
 commands(
     ("fl", (41, 56)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=1,
         total_parts=3,
         this_part=0,
@@ -174,7 +174,11 @@ commands(
 
 commands(
     ("fl", (81, 88)),
-    library.single_taper(),
+    library.make_single_taper(),
+)
+
+commands(
+    ("fl", (81, 88)),
     baca.breathe(),
     baca.flat_glissando("F#4"),
     baca.hairpin(
@@ -189,7 +193,7 @@ commands(
 
 commands(
     ("fl", (89, 92)),
-    library.glow_rhythm(
+    library.make_glow_rhythm(
         rmakers.force_note(
             lambda _: baca.select.tuplets(_, ~abjad.Pattern([6, 7], period=18)),
         ),
@@ -201,6 +205,10 @@ commands(
         tuplet_ratio_rotation=0,
     ),
     baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", (89, 92)),
     baca.breathe(),
     baca.hairpin(
         "niente o< p",
@@ -240,7 +248,7 @@ commands(
 
 commands(
     ("eh", (13, 16)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
     ),
     baca.dynamic("f"),
@@ -262,7 +270,7 @@ commands(
 
 commands(
     ("eh", (27, 30)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
     ),
     baca.pitches("F#4 F#+4 E#4 E#+4"),
@@ -287,7 +295,7 @@ commands(
 
 commands(
     ("eh", (41, 46)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
     ),
     baca.pitches("G#4 F#+4 G4 G+4 G#+4"),
@@ -308,7 +316,7 @@ commands(
 
 commands(
     ("eh", (57, 62)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-4, -1, 15, -4, -1, 4, 23],
     ),
     baca.pitches("A#4 A+4 A#+4"),
@@ -329,7 +337,7 @@ commands(
 
 commands(
     ("eh", (81, 88)),
-    library.keynoise_rhythm(
+    library.make_keynoise_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, ([0, 4], 9)),
         ),
@@ -346,7 +354,7 @@ commands(
 
 commands(
     ("eh", (89, 92)),
-    library.eh_trill_rhythm(
+    library.make_eh_trill_rhythm(
         counts=[-4, -1, 7, -1, 7, -1, 16, 3],
     ),
     baca.append_phantom_measure(),
@@ -371,7 +379,7 @@ commands(
 
 commands(
     ("cl", (1, 40)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         total_parts=4,
         this_part=1,
     ),
@@ -451,7 +459,7 @@ commands(
 
 commands(
     ("cl", (47, 49)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -459,7 +467,7 @@ commands(
 
 commands(
     ("cl", (50, 52)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("Dqs2"),
     library.single_swell("p"),
@@ -467,7 +475,7 @@ commands(
 
 commands(
     ("cl", (53, 57)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -475,7 +483,7 @@ commands(
 
 commands(
     ("cl", (58, 60)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("Dqs2"),
     library.single_swell("p"),
@@ -483,7 +491,7 @@ commands(
 
 commands(
     ("cl", (61, 62)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -491,14 +499,14 @@ commands(
 
 commands(
     ("cl", (63, 70)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.flat_glissando("Dqs2"),
     library.single_swell("ppp"),
 )
 
 commands(
     ("cl", (71, 73)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -506,7 +514,7 @@ commands(
 
 commands(
     ("cl", (74, 76)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("Dqs2"),
     library.single_swell("p"),
@@ -514,7 +522,7 @@ commands(
 
 commands(
     ("cl", (77, 80)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -522,7 +530,7 @@ commands(
 
 commands(
     ("cl", (81, 88)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("Dqs2"),
     library.single_swell("p"),
@@ -530,7 +538,7 @@ commands(
 
 commands(
     ("cl", (89, 91)),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.breathe(),
     baca.flat_glissando("D2"),
     library.single_swell("p"),
@@ -538,7 +546,7 @@ commands(
 
 commands(
     ("cl", 92),
-    library.single_taper(),
+    library.make_single_taper(),
     baca.append_phantom_measure(),
     baca.breathe(),
     baca.dynamic(
@@ -593,28 +601,28 @@ commands(
 
 commands(
     ("attack", (1, 12)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
     # baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("attack", (13, 26)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
 )
 
 commands(
     ("attack", (27, 40)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
 )
 
 commands(
     ("attack", (41, 56)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
 )
 
 commands(
     ("attack", (57, 88)),
-    library.piano_attack_rhythm(),
+    library.make_piano_attack_rhythm(),
 )
 
 commands(
@@ -654,7 +662,7 @@ commands(
 
 commands(
     ("perc", (1, 40)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         total_parts=4,
         this_part=3,
     ),
@@ -709,7 +717,7 @@ commands(
 
 commands(
     ("perc", (41, 56)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=1,
         total_parts=3,
         this_part=2,
@@ -734,7 +742,7 @@ commands(
 
 commands(
     ("perc", (57, 62)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=1,
@@ -754,7 +762,7 @@ commands(
 
 commands(
     ("perc", (71, 80)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=1,
@@ -798,7 +806,7 @@ commands(
 
 commands(
     ("perc", 87),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.dls_staff_padding(6),
     baca.dynamic("mf"),
     baca.laissez_vibrer(),
@@ -827,7 +835,7 @@ commands(
 
 commands(
     ("perc", (89, 92)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=1,
@@ -868,7 +876,7 @@ commands(
 
 commands(
     ("vn", (1, 40)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         total_parts=4,
         this_part=2,
     ),
@@ -927,7 +935,7 @@ commands(
 
 commands(
     ("vn", (41, 56)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=1,
         total_parts=3,
         this_part=1,
@@ -952,7 +960,7 @@ commands(
 
 commands(
     ("vn", (57, 62)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
@@ -963,7 +971,7 @@ commands(
 
 commands(
     ("vn", (63, 70)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(
                 _,
@@ -985,7 +993,7 @@ commands(
 
 commands(
     ("vn", (71, 80)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
@@ -1012,7 +1020,7 @@ commands(
 
 commands(
     ("vn", (81, 88)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(
                 _, ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
@@ -1042,7 +1050,7 @@ commands(
 
 commands(
     ("vn", (89, 92)),
-    library.shell_exchange_rhythm(
+    library.make_shell_exchange_rhythm(
         extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
@@ -1146,7 +1154,7 @@ commands(
 
 commands(
     ("va", (63, 70)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(
                 _,
@@ -1211,7 +1219,7 @@ commands(
 
 commands(
     ("va", (81, 88)),
-    library.spazzolati_rhythm(
+    library.make_spazzolati_rhythm(
         rmakers.force_rest(
             lambda _: baca.select.tuplets(
                 _,
