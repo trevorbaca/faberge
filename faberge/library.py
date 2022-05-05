@@ -747,8 +747,8 @@ def niente_swells(dynamic: str):
     )
 
 
-def piano_clusters():
-    return baca.clusters([4], start_pitch="C2")
+def replace_with_piano_clusters():
+    return baca.replace_with_clusters([4], start_pitch="C2")
 
 
 def single_swell(dynamic: str):

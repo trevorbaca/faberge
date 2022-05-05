@@ -743,7 +743,7 @@ commands(
     baca.marcato(
         selector=lambda _: baca.select.pheads(_),
     ),
-    library.piano_clusters(),
+    library.replace_with_piano_clusters(),
 )
 
 # perc
