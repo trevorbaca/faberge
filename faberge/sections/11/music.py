@@ -130,7 +130,7 @@ commands(
 
 commands(
     ("eh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     ),
 )
@@ -289,7 +289,7 @@ commands(
 
 commands(
     ("rh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
@@ -381,7 +381,7 @@ commands(
 
 commands(
     ("lh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     ),
 )
@@ -434,7 +434,7 @@ commands(
 
 commands(
     ("perc", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     ),
 )
@@ -537,7 +537,7 @@ commands(
 
 commands(
     ("vn", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
     ),
 )
@@ -731,7 +731,7 @@ commands(
 
 commands(
     ("vc", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     ),
 )

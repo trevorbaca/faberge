@@ -211,7 +211,7 @@ commands(
 
 commands(
     ("rh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
@@ -298,7 +298,7 @@ commands(
 
 commands(
     ("lh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
@@ -457,7 +457,7 @@ commands(
 
 commands(
     ("vn", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
@@ -618,7 +618,7 @@ commands(
 
 commands(
     ("vc", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
 )

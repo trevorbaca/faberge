@@ -98,21 +98,21 @@ commands(
 
 commands(
     ("fl", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. c2. r2 }",
     ),
 )
 
 commands(
     ("fl", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. c2. }",
     ),
 )
 
 commands(
     ("fl", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. c2. r2 }",
     ),
 )
@@ -175,7 +175,7 @@ commands(
 
 commands(
     ("eh", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c1 c1 r1 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -183,7 +183,7 @@ commands(
 
 commands(
     ("eh", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. c2. r1 }",
     ),
 )
@@ -195,14 +195,14 @@ commands(
 
 commands(
     ("eh", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
     ),
 )
 
 commands(
     ("eh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c4 c4 c4 c4 r1 }",
     ),
 )
@@ -348,7 +348,7 @@ commands(
 
 commands(
     ("perc", 9),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2 c1 }",
     ),
     baca.append_phantom_measure(),
@@ -430,7 +430,7 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.reapply_persistent_indicators(),
@@ -438,42 +438,42 @@ commands(
 
 commands(
     ("vn", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("vn", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("vn", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("vn", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("vn", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("vn", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
@@ -485,7 +485,7 @@ commands(
 
 commands(
     ("vn", 9),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.append_phantom_measure(),
@@ -587,7 +587,7 @@ commands(
 
 commands(
     ("va", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -595,42 +595,42 @@ commands(
 
 commands(
     ("va", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
     ),
 )
 
 commands(
     ("va", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
 )
 
 commands(
     ("va", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("va", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("va", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
 
 commands(
     ("va", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     ),
 )
@@ -642,7 +642,7 @@ commands(
 
 commands(
     ("va", 9),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
     baca.append_phantom_measure(),
@@ -868,21 +868,21 @@ commands(
 
 commands(
     ("vc", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",
     ),
 )
 
 commands(
     ("vc", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 c1 }",
     ),
 )
 
 commands(
     ("vc", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",
     ),
 )
@@ -894,7 +894,7 @@ commands(
 
 commands(
     ("vc", 9),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c2 c1 }",
     ),
     baca.append_phantom_measure(),

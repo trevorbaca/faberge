@@ -796,7 +796,7 @@ commands(
 
 commands(
     ("perc", (85, 86)),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ r4 c2 c1 }",
     ),
 )

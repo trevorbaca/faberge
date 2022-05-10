@@ -167,7 +167,7 @@ commands(
 
 commands(
     ("eh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4 c4 c4 r1 }",
     ),
 )
@@ -343,7 +343,7 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -351,14 +351,14 @@ commands(
 
 commands(
     ("rh", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("rh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 r2. }",
     ),
 )
@@ -370,28 +370,28 @@ commands(
 
 commands(
     ("rh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("rh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("rh", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("rh", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
     baca.append_phantom_measure(),
@@ -445,7 +445,7 @@ commands(
 
 commands(
     ("lh", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -453,14 +453,14 @@ commands(
 
 commands(
     ("lh", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("lh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 r2. }",
     ),
 )
@@ -477,28 +477,28 @@ commands(
 
 commands(
     ("lh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("lh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("lh", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
 )
 
 commands(
     ("lh", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
     baca.append_phantom_measure(),
@@ -558,7 +558,7 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ c4 c4 c4 r1 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -949,28 +949,28 @@ commands(
 
 commands(
     ("vc", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("vc", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("vc", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("vc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
     ),
     baca.append_phantom_measure(),

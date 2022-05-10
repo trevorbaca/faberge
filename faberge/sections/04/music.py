@@ -225,7 +225,7 @@ commands(
 
 commands(
     ("rh", (3, 4)),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
         r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
     ),
@@ -281,7 +281,7 @@ commands(
 
 commands(
     ("lh", (3, 4)),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
         r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
     ),

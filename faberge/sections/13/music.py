@@ -141,28 +141,28 @@ commands(
 
 commands(
     ("eh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
     baca.append_phantom_measure(),
@@ -302,7 +302,7 @@ commands(
 
 commands(
     ("rh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
@@ -405,7 +405,7 @@ commands(
 
 commands(
     ("lh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
@@ -458,14 +458,14 @@ commands(
 
 commands(
     ("perc", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
     baca.append_phantom_measure(),
