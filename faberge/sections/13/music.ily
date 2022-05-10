@@ -1483,14 +1483,14 @@ segment.13.English.Horn.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [English_Horn_Music_Voice measure 5]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         es''!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -1523,7 +1523,7 @@ segment.13.English.Horn.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -1591,7 +1591,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         es''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -1639,7 +1639,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -1678,20 +1678,20 @@ segment.13.English.Horn.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [English_Horn_Music_Voice measure 6]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         es''!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -1724,7 +1724,7 @@ segment.13.English.Horn.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -1762,7 +1762,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         es''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -1810,7 +1810,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -1849,20 +1849,20 @@ segment.13.English.Horn.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [English_Horn_Music_Voice measure 7]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         fs''!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -1895,7 +1895,7 @@ segment.13.English.Horn.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -1933,7 +1933,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         fs''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -1981,7 +1981,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -2020,20 +2020,20 @@ segment.13.English.Horn.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [English_Horn_Music_Voice measure 8]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         fs''!4.
         % AFTER:
         % SPANNER_STARTS:
@@ -2066,7 +2066,7 @@ segment.13.English.Horn.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -2104,7 +2104,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         fs''!4.
         % AFTER:
         % ARTICULATIONS:
@@ -2152,7 +2152,7 @@ segment.13.English.Horn.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -2195,7 +2195,7 @@ segment.13.English.Horn.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3734,7 +3734,7 @@ segment.13.Piano.RH.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3841,7 +3841,7 @@ segment.13.Piano.RH.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -3890,7 +3890,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3904,7 +3904,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3918,7 +3918,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3932,7 +3932,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3946,7 +3946,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3960,7 +3960,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3974,7 +3974,7 @@ segment.13.Piano.RH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % AFTER:
         % COMMANDS:
@@ -3997,7 +3997,7 @@ segment.13.Piano.RH.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4637,7 +4637,7 @@ segment.13.Piano.LH.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4714,7 +4714,7 @@ segment.13.Piano.LH.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -4728,7 +4728,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4737,7 +4737,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4746,7 +4746,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4755,7 +4755,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4764,7 +4764,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4773,7 +4773,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4782,7 +4782,7 @@ segment.13.Piano.LH.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r8
         % AFTER:
         % LEAK:
@@ -4801,7 +4801,7 @@ segment.13.Piano.LH.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5743,7 +5743,7 @@ segment.13.Percussion.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5755,7 +5755,7 @@ segment.13.Percussion.Music.Voice = {
           %! baca.OverrideCommand._call(1)
           %! baca.dls_staff_padding()
         \override DynamicLineSpanner.staff-padding = 6
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         c'2.
         % AFTER:
         % ARTICULATIONS:
@@ -5821,7 +5821,7 @@ segment.13.Percussion.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -5839,7 +5839,7 @@ segment.13.Percussion.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -5863,20 +5863,20 @@ segment.13.Percussion.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Percussion_Music_Voice measure 8]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         c'2.
         % AFTER:
         % SPANNER_STARTS:
@@ -5909,7 +5909,7 @@ segment.13.Percussion.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -5927,7 +5927,7 @@ segment.13.Percussion.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % SPANNER_STOPS:
@@ -5955,7 +5955,7 @@ segment.13.Percussion.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -27233,7 +27233,7 @@ segment.02.Percussion.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -27245,7 +27245,7 @@ segment.02.Percussion.Music.Voice = {
           %! baca.OverrideCommand._call(1)
           %! baca.dls_staff_padding()
         \override DynamicLineSpanner.staff-padding = 3.5
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % SPANNER_STARTS:
@@ -27278,7 +27278,7 @@ segment.02.Percussion.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -27292,7 +27292,7 @@ segment.02.Percussion.Music.Voice = {
           %! baca.OverrideCommand._call(1)
           %! baca.stem_up()
         \override Stem.direction = #up
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         c''2
         % AFTER:
         % ARTICULATIONS:
@@ -27329,7 +27329,7 @@ segment.02.Percussion.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Percussion_Music_Voice measure 86]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         c''1
         % AFTER:
         % COMMANDS:
@@ -27355,7 +27355,7 @@ segment.02.Percussion.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

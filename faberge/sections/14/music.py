@@ -96,28 +96,28 @@ commands(
 
 commands(
     ("fl", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("fl", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("fl", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("fl", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
     baca.append_phantom_measure(),
@@ -278,7 +278,7 @@ commands(
 
 commands(
     ("eh", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -286,35 +286,35 @@ commands(
 
 commands(
     ("eh", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
 
 commands(
     ("eh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
 )
@@ -418,7 +418,7 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
     baca.reapply_persistent_indicators(),
@@ -426,49 +426,49 @@ commands(
 
 commands(
     ("perc", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 3),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 4),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 5),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
 )
 
 commands(
     ("perc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c2. r4 }",
     ),
     baca.append_phantom_measure(),

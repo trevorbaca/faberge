@@ -93,7 +93,7 @@ commands(
 
 commands(
     ("fl", (5, 8)),
-    baca.skeleton(
+    baca.make_skeleton(
         "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
     ),
 )
@@ -292,7 +292,7 @@ commands(
 
 commands(
     ("perc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     ),
 )

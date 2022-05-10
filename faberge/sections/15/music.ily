@@ -1115,14 +1115,14 @@ segment.15.Flute.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 5]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1159,7 +1159,7 @@ segment.15.Flute.Music.Voice = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.skeleton()"
+        - \baca-text-spanner-left-text "baca.make_skeleton()"
           %! RHYTHM_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -1188,7 +1188,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1240,7 +1240,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -1263,7 +1263,7 @@ segment.15.Flute.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 6]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1294,7 +1294,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1346,7 +1346,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r2
         % AFTER:
         % ARTICULATIONS:
@@ -1369,7 +1369,7 @@ segment.15.Flute.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 7]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1400,7 +1400,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1452,7 +1452,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r2.
         % AFTER:
         % ARTICULATIONS:
@@ -1475,7 +1475,7 @@ segment.15.Flute.Music.Voice = {
 
           %! baca._comment_measure_numbers()
         % [Flute_Music_Voice measure 8]
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1506,7 +1506,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         cs'''!2
         % AFTER:
         % STEM_TREMOLOS:
@@ -1558,7 +1558,7 @@ segment.15.Flute.Music.Voice = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         r1
         % AFTER:
         % ARTICULATIONS:
@@ -1592,7 +1592,7 @@ segment.15.Flute.Music.Voice = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5194,15 +5194,15 @@ segment.15.Percussion.Music.Voice = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         \times 4/5
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5263,7 +5263,7 @@ segment.15.Percussion.Music.Voice = {
               %! baca.clef()
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % AFTER:
             % ARTICULATIONS:
@@ -5319,7 +5319,7 @@ segment.15.Percussion.Music.Voice = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca.rhythm_annotation_spanner()
-            - \baca-text-spanner-left-text "baca.skeleton()"
+            - \baca-text-spanner-left-text "baca.make_skeleton()"
               %! RHYTHM_ANNOTATION_SPANNER
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
@@ -5369,61 +5369,61 @@ segment.15.Percussion.Music.Voice = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % CLOSING:
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         \times 4/5
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.skeleton()
+              %! baca.make_skeleton()
             c'4
             % AFTER:
             % COMMANDS:
@@ -5446,13 +5446,13 @@ segment.15.Percussion.Music.Voice = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.skeleton()
+          %! baca.make_skeleton()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.skeleton()
+      %! baca.make_skeleton()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

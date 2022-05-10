@@ -300,7 +300,7 @@ commands(
 
 commands(
     ("rh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
     baca.staff_lines(5),
@@ -314,14 +314,14 @@ commands(
 
 commands(
     ("rh", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("rh", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
     baca.append_phantom_measure(),
@@ -356,21 +356,21 @@ commands(
 
 commands(
     ("lh", 6),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("lh", 7),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
 commands(
     ("lh", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
     baca.append_phantom_measure(),
@@ -461,7 +461,7 @@ commands(
 
 commands(
     ("perc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     ),
     baca.append_phantom_measure(),
@@ -496,7 +496,7 @@ commands(
 
 commands(
     ("vn", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
     ),
     baca.hairpin(
@@ -593,7 +593,7 @@ commands(
 
 commands(
     ("va", 2),
-    baca.skeleton(
+    baca.make_skeleton(
         r"\times 9/5 { c4 c4 c4 c2 }",
     ),
     baca.hairpin(
@@ -720,7 +720,7 @@ commands(
 
 commands(
     ("vc", 8),
-    baca.skeleton(
+    baca.make_skeleton(
         "{ c1 c1 }",
     ),
     baca.append_phantom_measure(),

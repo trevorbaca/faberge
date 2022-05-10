@@ -1444,7 +1444,7 @@ commands(
 
 commands(
     ("perc", (79, 80)),
-    baca.skeleton(
+    baca.make_skeleton(
         r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",
     ),
     baca.append_phantom_measure(),
