@@ -83,22 +83,6 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 2)),
     library.make_even_tuplet_rhythm(
@@ -137,6 +121,269 @@ commands(
     ("fl", (8, 9)),
     baca.make_mmrests(),
 )
+
+# EH
+
+commands(
+    ("eh", 1),
+    baca.make_skeleton(
+        "{ c1 c1 r1 }",
+    ),
+)
+
+commands(
+    ("eh", 2),
+    baca.make_skeleton(
+        "{ c2. c2. r1 }",
+    ),
+)
+
+commands(
+    ("eh", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 4),
+    baca.make_skeleton(
+        r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.make_skeleton(
+        r"{ c4 c4 c4 c4 r1 }",
+    ),
+)
+
+commands(
+    ("eh", (6, 9)),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    ("cl", (1, 2)),
+    library.make_even_tuplet_rhythm(
+        denominator=2,
+        extra_counts=[1, 0],
+    ),
+)
+
+commands(
+    ("cl", (3, 9)),
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    ["rh", "lh", "attack"],
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", [1, 2]),
+    library.make_downbeat_attack(denominator=2),
+)
+
+commands(
+    ("perc", (3, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 5),
+    library.make_downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 9),
+    baca.make_skeleton(
+        "{ c2 c1 }",
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 2),
+    baca.make_skeleton(
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 3),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 4),
+    baca.make_skeleton(
+        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 5),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 6),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 7),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+)
+
+commands(
+    ("va", 2),
+    baca.make_skeleton(
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+)
+
+commands(
+    ("va", 3),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
+    ),
+)
+
+commands(
+    ("va", 4),
+    baca.make_skeleton(
+        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 5),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 6),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 7),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 9),
+    baca.make_skeleton(
+        r"{ c2 \times 2/3 { c2 c2 c2 } }",
+    ),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 4)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc", 5),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 c1 c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 6),
+    baca.make_skeleton(
+        r"{ c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_skeleton(
+        r"\times 8/12 { c2 c1 c2 c1 }",
+    ),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_skeleton(
+        r"{ c2 c1 }",
+    ),
+)
+
+# phantom & reapply
+
+# fl
 
 commands(
     ("fl", (8, 9)),
@@ -195,45 +442,7 @@ commands(
 
 commands(
     ("eh", 1),
-    baca.make_skeleton(
-        "{ c1 c1 r1 }",
-    ),
-)
-
-commands(
-    ("eh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 2),
-    baca.make_skeleton(
-        "{ c2. c2. r1 }",
-    ),
-)
-
-commands(
-    ("eh", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", 4),
-    baca.make_skeleton(
-        r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
-    ),
-)
-
-commands(
-    ("eh", 5),
-    baca.make_skeleton(
-        r"{ c4 c4 c4 c4 r1 }",
-    ),
-)
-
-commands(
-    ("eh", (6, 9)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -298,14 +507,6 @@ commands(
 
 commands(
     ("cl", (1, 2)),
-    library.make_even_tuplet_rhythm(
-        denominator=2,
-        extra_counts=[1, 0],
-    ),
-)
-
-commands(
-    ("cl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -313,11 +514,6 @@ commands(
     ("cl", (1, 2)),
     baca.pitch("F2"),
     baca.dls_staff_padding(8),
-)
-
-commands(
-    ("cl", (3, 9)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -353,45 +549,11 @@ commands(
 
 commands(
     ["rh", "lh", "attack"],
-    baca.make_mmrests(),
-)
-
-commands(
-    ["rh", "lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
 
 # perc
-
-commands(
-    ("perc", [1, 2]),
-    library.make_downbeat_attack(denominator=2),
-)
-
-commands(
-    ("perc", (3, 4)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 5),
-    library.make_downbeat_attack(
-        denominator=2,
-    ),
-)
-
-commands(
-    ("perc", (6, 8)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 9),
-    baca.make_skeleton(
-        "{ c2 c1 }",
-    ),
-)
 
 commands(
     ("perc", 9),
@@ -474,68 +636,7 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 2),
-    baca.make_skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 3),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 4),
-    baca.make_skeleton(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 5),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 6),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 7),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("vn", 8),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 9),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -639,68 +740,7 @@ commands(
 
 commands(
     ("va", 1),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
-    ),
-)
-
-commands(
-    ("va", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 2),
-    baca.make_skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
-    ),
-)
-
-commands(
-    ("va", 3),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
-    ),
-)
-
-commands(
-    ("va", 4),
-    baca.make_skeleton(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 5),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 6),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 7),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
-    ),
-)
-
-commands(
-    ("va", 8),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", 9),
-    baca.make_skeleton(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    ),
 )
 
 commands(
@@ -920,44 +960,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc", 5),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 c1 c2 c1 }",
-    ),
-)
-
-commands(
-    ("vc", 6),
-    baca.make_skeleton(
-        r"{ c2 c1 }",
-    ),
-)
-
-commands(
-    ("vc", 7),
-    baca.make_skeleton(
-        r"\times 8/12 { c2 c1 c2 c1 }",
-    ),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", 9),
-    baca.make_skeleton(
-        r"{ c2 c1 }",
-    ),
-)
 
 commands(
     ("vc", 9),

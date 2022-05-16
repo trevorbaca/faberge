@@ -75,30 +75,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 2)),
     baca.make_mmrests(),
-)
-
-commands(
-    ("fl", (1, 2)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -109,6 +88,323 @@ commands(
 commands(
     ("fl", (4, 8)),
     baca.make_mmrests(),
+)
+
+# EH
+
+commands(
+    ("eh", (1, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 5),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 6),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 7),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 8),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+# CL
+
+commands(
+    ("cl", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", 3),
+    library.make_bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 4),
+    library.make_downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", 5),
+    library.make_bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 6),
+    library.make_downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", (7, 8)),
+    library.make_bcl_color_fingering_rhythm(),
+)
+
+# PF
+
+commands(
+    ("rh", 1),
+    library.make_clb_rhythm(
+        extra_counts=[7],
+    ),
+)
+
+commands(
+    ("rh", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 3),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("rh", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("rh", 5),
+    library.make_clb_rhythm(
+        extra_counts=[7],
+    ),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", 3),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("lh", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("lh", (5, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", [1, 2, 3, 4, 5, 6]),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", 7),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 8),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("vn", 2),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", 3),
+    library.make_clb_rhythm(
+        extra_counts=[4],
+    ),
+)
+
+commands(
+    ("vn", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", 5),
+    library.make_clb_rhythm(
+        extra_counts=[6],
+    ),
+)
+
+commands(
+    ("vn", 6),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    library.make_clb_rhythm(
+        extra_counts=[6],
+    ),
+)
+
+commands(
+    ("va", 2),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", 3),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("va", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", 5),
+    library.make_clb_rhythm(
+        extra_counts=[4],
+    ),
+)
+
+commands(
+    ("va", 6),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", (7, 8)),
+    library.make_back_incised_divisions(),
+)
+
+# VC
+
+commands(
+    ("vc", 1),
+    library.make_clb_rhythm(
+        extra_counts=[4],
+    ),
+)
+
+commands(
+    ("vc", 2),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vc", 3),
+    library.make_clb_rhythm(
+        extra_counts=[6],
+    ),
+)
+
+commands(
+    ("vc", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vc", 5),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("vc", 6),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vc", (7, 8)),
+    library.make_airtone_chain_rhythm(
+        20,
+        [2, 3, 4],
+        do_not_overlap_counts=True,
+    ),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 2)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -158,40 +454,7 @@ commands(
 
 commands(
     ("eh", (1, 4)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 5),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 6),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 7),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 8),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
 )
 
 commands(
@@ -236,37 +499,7 @@ commands(
 
 commands(
     ("cl", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cl", (1, 2)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", 3),
-    library.make_bcl_color_fingering_rhythm(),
-)
-
-commands(
-    ("cl", 4),
-    library.make_downbeat_attack(denominator=8),
-)
-
-commands(
-    ("cl", 5),
-    library.make_bcl_color_fingering_rhythm(),
-)
-
-commands(
-    ("cl", 6),
-    library.make_downbeat_attack(denominator=8),
-)
-
-commands(
-    ("cl", (7, 8)),
-    library.make_bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -328,45 +561,7 @@ commands(
 
 commands(
     ("rh", 1),
-    library.make_clb_rhythm(
-        extra_counts=[7],
-    ),
-)
-
-commands(
-    ("rh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", 3),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("rh", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("rh", 5),
-    library.make_clb_rhythm(
-        extra_counts=[7],
-    ),
-)
-
-commands(
-    ("rh", (6, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -446,31 +641,7 @@ commands(
 
 commands(
     ("lh", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("lh", (1, 2)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", 3),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("lh", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("lh", (5, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -493,11 +664,6 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
-)
-
-commands(
-    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -506,27 +672,8 @@ commands(
 # perc
 
 commands(
-    ("perc", [1, 2, 3, 4, 5, 6]),
-    library.make_downbeat_attack(),
-)
-
-commands(
     ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 7),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 8),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
 )
 
 commands(
@@ -587,54 +734,7 @@ commands(
 
 commands(
     ("vn", 1),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("vn", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 2),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vn", 3),
-    library.make_clb_rhythm(
-        extra_counts=[4],
-    ),
-)
-
-commands(
-    ("vn", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vn", 5),
-    library.make_clb_rhythm(
-        extra_counts=[6],
-    ),
-)
-
-commands(
-    ("vn", 6),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vn", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -670,54 +770,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.make_clb_rhythm(
-        extra_counts=[6],
-    ),
-)
-
-commands(
-    ("va", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 2),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("va", 3),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("va", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("va", 5),
-    library.make_clb_rhythm(
-        extra_counts=[4],
-    ),
-)
-
-commands(
-    ("va", 6),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("va", (7, 8)),
-    library.make_back_incised_divisions(),
 )
 
 commands(
@@ -767,58 +820,7 @@ commands(
 
 commands(
     ("vc", 1),
-    library.make_clb_rhythm(
-        extra_counts=[4],
-    ),
-)
-
-commands(
-    ("vc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 2),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vc", 3),
-    library.make_clb_rhythm(
-        extra_counts=[6],
-    ),
-)
-
-commands(
-    ("vc", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vc", 5),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("vc", 6),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vc", (7, 8)),
-    library.make_airtone_chain_rhythm(
-        20,
-        [2, 3, 4],
-        do_not_overlap_counts=True,
-    ),
 )
 
 commands(

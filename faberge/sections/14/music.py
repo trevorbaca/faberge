@@ -83,30 +83,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 3)),
     library.make_airtone_chain_rhythm(20, [1, 3, 5]),
-)
-
-commands(
-    ("fl", (1, 3)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -140,6 +119,210 @@ commands(
     baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
+)
+
+# EH
+
+commands(
+    ("eh", 1),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 2),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 3),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 4),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", 6),
+    baca.make_skeleton(
+        "{ c4. c4. r4 }",
+    ),
+)
+
+commands(
+    ("eh", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    ("cl", 1),
+    library.make_downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", (2, 4)),
+    library.make_bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", 5),
+    library.make_downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", (6, 8)),
+    library.make_bcl_color_fingering_rhythm(),
+)
+
+# PF
+
+commands(
+    ("rh", 1),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (2, 4)),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[1, 0, 0],
+    ),
+)
+
+commands(
+    ("rh", (5, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 2),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 3),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 4),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 5),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 6),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 7),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+commands(
+    ("perc", 8),
+    baca.make_skeleton(
+        "{ c2. r4 }",
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 3)),
+    library.make_airtone_chain_rhythm(20, [0, 2, 4]),
+)
+
+commands(
+    ("vn", (4, 6)),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[1, 0, 0],
+    ),
+)
+
+commands(
+    ("vn", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    "va",
+    library.make_back_incised_divisions(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 4)),
+    library.make_airtone_chain_rhythm(
+        20,
+        [0, 1, 4, 5, 7, 8],
+        do_not_overlap_counts=True,
+    ),
+)
+
+commands(
+    ("vc", [5, 6, 7, 8]),
+    library.make_halves_rhythm(),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 3)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -219,27 +402,7 @@ commands(
 
 commands(
     ("cl", 1),
-    library.make_downbeat_attack(denominator=8),
-)
-
-commands(
-    ("cl", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (2, 4)),
-    library.make_bcl_color_fingering_rhythm(),
-)
-
-commands(
-    ("cl", 5),
-    library.make_downbeat_attack(denominator=8),
-)
-
-commands(
-    ("cl", (6, 8)),
-    library.make_bcl_color_fingering_rhythm(),
 )
 
 commands(
@@ -310,54 +473,7 @@ commands(
 
 commands(
     ("eh", 1),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 2),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 3),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 4),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 5),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", 6),
-    baca.make_skeleton(
-        "{ c4. c4. r4 }",
-    ),
-)
-
-commands(
-    ("eh", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -407,24 +523,7 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (2, 4)),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[1, 0, 0],
-    ),
-)
-
-commands(
-    ("rh", (5, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -457,11 +556,6 @@ commands(
 
 commands(
     ["lh", "attack"],
-    baca.make_mmrests(),
-)
-
-commands(
-    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -470,63 +564,7 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 2),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 3),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 4),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 5),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 6),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 7),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
-)
-
-commands(
-    ("perc", 8),
-    baca.make_skeleton(
-        "{ c2. r4 }",
-    ),
 )
 
 commands(
@@ -552,24 +590,7 @@ commands(
 
 commands(
     ("vn", (1, 3)),
-    library.make_airtone_chain_rhythm(20, [0, 2, 4]),
-)
-
-commands(
-    ("vn", (1, 3)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", (4, 6)),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[1, 0, 0],
-    ),
-)
-
-commands(
-    ("vn", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -619,11 +640,6 @@ commands(
 
 commands(
     "va",
-    library.make_back_incised_divisions(),
-)
-
-commands(
-    "va",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -655,21 +671,7 @@ commands(
 
 commands(
     ("vc", (1, 4)),
-    library.make_airtone_chain_rhythm(
-        20,
-        [0, 1, 4, 5, 7, 8],
-        do_not_overlap_counts=True,
-    ),
-)
-
-commands(
-    ("vc", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", [5, 6, 7, 8]),
-    library.make_halves_rhythm(),
 )
 
 commands(

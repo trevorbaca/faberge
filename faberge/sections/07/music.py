@@ -84,30 +84,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", 1),
     baca.make_mmrests(),
-)
-
-commands(
-    ("fl", 1),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -135,6 +114,366 @@ commands(
 commands(
     ("fl", (6, 8)),
     baca.make_mmrests(),
+)
+
+# EH
+
+commands(
+    ("eh", (1, 3)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 4),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("eh", 5),
+    baca.make_skeleton(
+        "{ c4 c4 c4 r1 }",
+    ),
+)
+
+commands(
+    ("eh", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 8),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[1],
+    ),
+)
+
+# CL
+
+commands(
+    ("cl", 1),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("cl", 2),
+    library.make_suffixed_colortrill_rhythm(),
+)
+
+commands(
+    ("cl", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", 4),
+    library.make_suffixed_colortrill_rhythm(),
+)
+
+commands(
+    ("cl", 5),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[-1],
+    ),
+)
+
+commands(
+    ("cl", (6, 8)),
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    ("rh", 1),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("rh", 2),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("rh", 3),
+    baca.make_skeleton(
+        "{ c8 r8 r2. }",
+    ),
+)
+
+commands(
+    ("rh", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 5),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("rh", 6),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("rh", 7),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("rh", 8),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 1),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 2),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("lh", 3),
+    baca.make_skeleton(
+        "{ c8 r8 r2. }",
+    ),
+)
+
+commands(
+    ("lh", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", 5),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 6),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 7),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    ("lh", 8),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
+    ),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    baca.make_skeleton(
+        r"{ c4 c4 c4 r1 }",
+    ),
+)
+
+commands(
+    ("perc", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", [3, 4]),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", 5),
+    library.make_downbeat_attack(denominator=2),
+)
+
+commands(
+    ("perc", (6, 8)),
+    baca.make_mmrests(),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (3, None)),
+        ),
+        counts_rotation=0,
+    ),
+)
+
+commands(
+    ("vn", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 3),
+    library.make_clb_rhythm(
+        extra_counts=[3],
+    ),
+)
+
+commands(
+    ("vn", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", (5, 7)),
+    library.make_clb_rhythm(
+        extra_counts=[2, 1],
+        fuse_counts=[2, 1],
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, (3, None)),
+        ),
+        counts_rotation=-1,
+        denominator=8,
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("va", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 3),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("va", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", 5),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (6, 7)),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+        fuse_counts=[2],
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 3)),
+    baca.make_notes(),
+)
+
+commands(
+    ("vc", 4),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("vc", 5),
+    baca.make_skeleton(
+        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 6),
+    baca.make_skeleton(
+        "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_skeleton(
+        "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_skeleton(
+        "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", 1),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -178,38 +517,7 @@ commands(
 
 commands(
     ("eh", (1, 3)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 3)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 4),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("eh", 5),
-    baca.make_skeleton(
-        "{ c4 c4 c4 r1 }",
-    ),
-)
-
-commands(
-    ("eh", (6, 7)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", 8),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[1],
-    ),
 )
 
 commands(
@@ -254,43 +562,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cl", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", 2),
-    library.make_suffixed_colortrill_rhythm(),
-)
-
-commands(
-    ("cl", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cl", 4),
-    library.make_suffixed_colortrill_rhythm(),
-)
-
-commands(
-    ("cl", 5),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[-1],
-    ),
-)
-
-commands(
-    ("cl", (6, 8)),
-    baca.make_mmrests(),
-)
 
 commands(
     ("cl", (6, 8)),
@@ -383,61 +654,7 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("rh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 2),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("rh", 3),
-    baca.make_skeleton(
-        "{ c8 r8 r2. }",
-    ),
-)
-
-commands(
-    ("rh", 4),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", 5),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("rh", 6),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("rh", 7),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("rh", 8),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
-    ),
 )
 
 commands(
@@ -493,66 +710,12 @@ commands(
 
 commands(
     ("lh", 1),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("lh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", 2),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("lh", 3),
-    baca.make_skeleton(
-        "{ c8 r8 r2. }",
-    ),
 )
 
 commands(
     ("lh", (1, 3)),
     baca.pitch("<G3 A3 B3 C4>"),
-)
-
-commands(
-    ("lh", 4),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("lh", 5),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("lh", 6),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("lh", 7),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
-    ),
-)
-
-commands(
-    ("lh", 8),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
-    ),
 )
 
 commands(
@@ -604,11 +767,6 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
-)
-
-commands(
-    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -618,34 +776,7 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.make_skeleton(
-        r"{ c4 c4 c4 r1 }",
-    ),
-)
-
-commands(
-    ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", [3, 4]),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("perc", 5),
-    library.make_downbeat_attack(denominator=2),
-)
-
-commands(
-    ("perc", (6, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -711,49 +842,7 @@ commands(
 
 commands(
     ("vn", 1),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
-        counts_rotation=0,
-    ),
-)
-
-commands(
-    ("vn", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 3),
-    library.make_clb_rhythm(
-        extra_counts=[3],
-    ),
-)
-
-commands(
-    ("vn", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("vn", (5, 7)),
-    library.make_clb_rhythm(
-        extra_counts=[2, 1],
-        fuse_counts=[2, 1],
-    ),
-)
-
-commands(
-    ("vn", 8),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -836,56 +925,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
-        counts_rotation=-1,
-        denominator=8,
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("va", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", 3),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("va", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
-    ("va", 5),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", (6, 7)),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-        fuse_counts=[2],
-    ),
-)
-
-commands(
-    ("va", 8),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -1022,45 +1062,7 @@ commands(
 
 commands(
     ("vc", (1, 3)),
-    baca.make_notes(),
-)
-
-commands(
-    ("vc", (1, 3)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 4),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("vc", 5),
-    baca.make_skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 6),
-    baca.make_skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 7),
-    baca.make_skeleton(
-        "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_skeleton(
-        "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
-    ),
 )
 
 commands(

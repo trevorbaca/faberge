@@ -77,33 +77,12 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 40)),
     library.make_shell_exchange_rhythm(
         total_parts=4,
         this_part=0,
     ),
-)
-
-commands(
-    ("fl", (1, 40)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -138,6 +117,427 @@ commands(
         ),
         tuplet_ratio_rotation=0,
     ),
+)
+
+# EH
+
+commands(
+    ("eh", (1, 12)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (13, 16)),
+    library.make_eh_trill_rhythm(
+        counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
+    ),
+)
+
+commands(
+    ("eh", (17, 26)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (27, 30)),
+    library.make_eh_trill_rhythm(
+        counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
+    ),
+)
+
+commands(
+    ("eh", (31, 40)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (41, 46)),
+    library.make_eh_trill_rhythm(
+        counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
+    ),
+)
+
+commands(
+    ("eh", (47, 56)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (57, 62)),
+    library.make_eh_trill_rhythm(
+        counts=[-4, -1, 15, -4, -1, 4, 23],
+    ),
+)
+
+commands(
+    ("eh", (63, 80)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (81, 88)),
+    library.make_keynoise_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
+        ),
+        tuplet_ratio_rotation=0,
+    ),
+)
+
+commands(
+    ("eh", (89, 92)),
+    library.make_eh_trill_rhythm(
+        counts=[-4, -1, 7, -1, 7, -1, 16, 3],
+    ),
+)
+
+# CL
+
+commands(
+    ("cl", (1, 40)),
+    library.make_shell_exchange_rhythm(
+        total_parts=4,
+        this_part=1,
+    ),
+)
+
+commands(
+    ("cl", (41, 46)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (47, 49)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (50, 52)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (53, 57)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (58, 60)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (61, 62)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (63, 70)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (71, 73)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (74, 76)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (77, 80)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (81, 88)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", (89, 91)),
+    library.make_single_taper(),
+)
+
+commands(
+    ("cl", 92),
+    library.make_single_taper(),
+)
+
+# PF
+
+commands(
+    ("rh", 1),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("rh", (2, 88)),
+    baca.make_rests(),
+)
+
+commands(
+    ("rh", (89, 92)),
+    baca.make_mmrests(),
+)
+
+commands(
+    "lh",
+    baca.make_mmrests(),
+)
+
+commands(
+    "lh",
+    baca.mmrest_transparent(),
+)
+
+commands(
+    ("attack", (1, 12)),
+    library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (13, 26)),
+    library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (27, 40)),
+    library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (41, 56)),
+    library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (57, 88)),
+    library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (89, 92)),
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", (1, 40)),
+    library.make_shell_exchange_rhythm(
+        total_parts=4,
+        this_part=3,
+    ),
+)
+
+commands(
+    ("perc", (1, 40)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc", (41, 56)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=1,
+        total_parts=3,
+        this_part=2,
+    ),
+)
+
+commands(
+    ("perc", (57, 62)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=1,
+    ),
+)
+
+commands(
+    ("perc", (63, 70)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (71, 80)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=1,
+    ),
+)
+
+commands(
+    ("perc", (81, 84)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (85, 86)),
+    baca.make_skeleton(
+        "{ r4 c2 c1 }",
+    ),
+)
+
+commands(
+    ("perc", 87),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", 88),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (89, 92)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=1,
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 40)),
+    library.make_shell_exchange_rhythm(
+        total_parts=4,
+        this_part=2,
+    ),
+)
+
+commands(
+    ("vn", (1, 40)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("vn", (41, 56)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=1,
+        total_parts=3,
+        this_part=1,
+    ),
+)
+
+commands(
+    ("vn", (57, 62)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=0,
+    ),
+)
+
+commands(
+    ("vn", (63, 70)),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(
+                _,
+                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
+            ),
+        ),
+        counts_rotation=-10,
+    ),
+)
+
+commands(
+    ("vn", (71, 80)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=0,
+    ),
+)
+
+commands(
+    ("vn", (81, 88)),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(
+                _, ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
+            ),
+        ),
+        counts_rotation=-11,
+    ),
+)
+
+commands(
+    ("vn", (89, 92)),
+    library.make_shell_exchange_rhythm(
+        extra_counts_rotation=2,
+        total_parts=2,
+        this_part=0,
+    ),
+)
+
+# VA
+
+commands(
+    ("va", (1, 62)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (63, 70)),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(
+                _,
+                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
+            ),
+        ),
+        counts_rotation=-11,
+        denominator=8,
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("va", (71, 80)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (81, 88)),
+    library.make_spazzolati_rhythm(
+        rmakers.force_rest(
+            lambda _: baca.select.tuplets(
+                _,
+                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]),
+            ),
+        ),
+        counts_rotation=-12,
+        denominator=8,
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("va", (89, 92)),
+    baca.make_repeat_tied_notes(),
+)
+
+# VC
+
+commands(
+    "vc",
+    baca.make_repeat_tied_notes(),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 40)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -273,77 +673,7 @@ commands(
 
 commands(
     ("eh", (1, 12)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 12)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (13, 16)),
-    library.make_eh_trill_rhythm(
-        counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
-    ),
-)
-
-commands(
-    ("eh", (17, 26)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (27, 30)),
-    library.make_eh_trill_rhythm(
-        counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
-    ),
-)
-
-commands(
-    ("eh", (31, 40)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (41, 46)),
-    library.make_eh_trill_rhythm(
-        counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
-    ),
-)
-
-commands(
-    ("eh", (47, 56)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (57, 62)),
-    library.make_eh_trill_rhythm(
-        counts=[-4, -1, 15, -4, -1, 4, 23],
-    ),
-)
-
-commands(
-    ("eh", (63, 80)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (81, 88)),
-    library.make_keynoise_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
-        tuplet_ratio_rotation=0,
-    ),
-)
-
-commands(
-    ("eh", (89, 92)),
-    library.make_eh_trill_rhythm(
-        counts=[-4, -1, 7, -1, 7, -1, 16, 3],
-    ),
 )
 
 commands(
@@ -439,80 +769,7 @@ commands(
 
 commands(
     ("cl", (1, 40)),
-    library.make_shell_exchange_rhythm(
-        total_parts=4,
-        this_part=1,
-    ),
-)
-
-commands(
-    ("cl", (1, 40)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (41, 46)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cl", (47, 49)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (50, 52)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (53, 57)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (58, 60)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (61, 62)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (63, 70)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (71, 73)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (74, 76)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (77, 80)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (81, 88)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", (89, 91)),
-    library.make_single_taper(),
-)
-
-commands(
-    ("cl", 92),
-    library.make_single_taper(),
 )
 
 commands(
@@ -682,22 +939,7 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("rh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (2, 88)),
-    baca.make_rests(),
-)
-
-commands(
-    ("rh", (89, 92)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -733,55 +975,15 @@ commands(
 
 commands(
     "lh",
-    baca.make_mmrests(),
-)
-
-commands(
-    "lh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
-)
-
-commands(
-    "lh",
-    baca.mmrest_transparent(),
 )
 
 # attack
 
 commands(
     ("attack", (1, 12)),
-    library.make_piano_attack_rhythm(),
-)
-
-commands(
-    ("attack", (1, 12)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("attack", (13, 26)),
-    library.make_piano_attack_rhythm(),
-)
-
-commands(
-    ("attack", (27, 40)),
-    library.make_piano_attack_rhythm(),
-)
-
-commands(
-    ("attack", (41, 56)),
-    library.make_piano_attack_rhythm(),
-)
-
-commands(
-    ("attack", (57, 88)),
-    library.make_piano_attack_rhythm(),
-)
-
-commands(
-    ("attack", (89, 92)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -807,82 +1009,6 @@ commands(
 )
 
 # perc
-
-commands(
-    ("perc", (1, 40)),
-    library.make_shell_exchange_rhythm(
-        total_parts=4,
-        this_part=3,
-    ),
-)
-
-commands(
-    ("perc", (1, 40)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", (41, 56)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=1,
-        total_parts=3,
-        this_part=2,
-    ),
-)
-
-commands(
-    ("perc", (57, 62)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=1,
-    ),
-)
-
-commands(
-    ("perc", (63, 70)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", (71, 80)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=1,
-    ),
-)
-
-commands(
-    ("perc", (81, 84)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", (85, 86)),
-    baca.make_skeleton(
-        "{ r4 c2 c1 }",
-    ),
-)
-
-commands(
-    ("perc", 87),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("perc", 88),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", (89, 92)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=1,
-    ),
-)
 
 commands(
     ("perc", (89, 92)),
@@ -1044,80 +1170,6 @@ commands(
 # vn
 
 commands(
-    ("vn", (1, 40)),
-    library.make_shell_exchange_rhythm(
-        total_parts=4,
-        this_part=2,
-    ),
-)
-
-commands(
-    ("vn", (1, 40)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", (41, 56)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=1,
-        total_parts=3,
-        this_part=1,
-    ),
-)
-
-commands(
-    ("vn", (57, 62)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=0,
-    ),
-)
-
-commands(
-    ("vn", (63, 70)),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
-            ),
-        ),
-        counts_rotation=-10,
-    ),
-)
-
-commands(
-    ("vn", (71, 80)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=0,
-    ),
-)
-
-commands(
-    ("vn", (81, 88)),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _, ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
-            ),
-        ),
-        counts_rotation=-11,
-    ),
-)
-
-commands(
-    ("vn", (89, 92)),
-    library.make_shell_exchange_rhythm(
-        extra_counts_rotation=2,
-        total_parts=2,
-        this_part=0,
-    ),
-)
-
-commands(
     ("vn", (89, 92)),
     baca.append_phantom_measure(),
 )
@@ -1277,52 +1329,7 @@ commands(
 
 commands(
     ("va", (1, 62)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", (1, 62)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (63, 70)),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
-            ),
-        ),
-        counts_rotation=-11,
-        denominator=8,
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("va", (71, 80)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", (81, 88)),
-    library.make_spazzolati_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]),
-            ),
-        ),
-        counts_rotation=-12,
-        denominator=8,
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("va", (89, 92)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -1515,11 +1522,6 @@ commands(
 )
 
 # vc
-
-commands(
-    "vc",
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     "vc",

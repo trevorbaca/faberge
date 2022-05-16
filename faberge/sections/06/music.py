@@ -93,26 +93,290 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 2)),
     library.make_halves_rhythm(),
 )
+
+commands(
+    ("fl", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("fl", [4, 5, 6, 7, 8]),
+    library.make_suffixed_colortrill_rhythm(),
+)
+
+# EH
+
+commands(
+    "eh",
+    baca.make_mmrests(),
+)
+
+# CL
+
+for n in range(1, 8 + 1):
+    if n == 3:
+        function = baca.make_mmrests()
+    else:
+        function = library.make_suffixed_colortrill_rhythm()
+    commands(("cl", n), function)
+
+# PF
+
+commands(
+    ("rh", (1, 3)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 4),
+    library.make_clb_rhythm(
+        extra_counts=[7],
+    ),
+)
+
+commands(
+    ("rh", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("rh", 6),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("rh", 7),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("rh", 8),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("lh", (1, 5)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", 6),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("lh", 7),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("lh", 8),
+    baca.make_skeleton(
+        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 2),
+    library.make_downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", [4, 5, 6, 7]),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", 8),
+    baca.make_skeleton(
+        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 2),
+    baca.make_skeleton(
+        r"\times 9/5 { c2 c4 c4 c4 }",
+    ),
+)
+
+commands(
+    ("vn", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 4),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("vn", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", 6),
+    library.make_clb_rhythm(
+        extra_counts=[4],
+    ),
+)
+
+commands(
+    ("vn", 7),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 2),
+    baca.make_skeleton(
+        r"\times 9/5 { c4 c4 c4 c2 }",
+    ),
+)
+
+commands(
+    ("va", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 4),
+    library.make_clb_rhythm(
+        extra_counts=[6],
+    ),
+)
+
+commands(
+    ("va", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", 6),
+    library.make_clb_rhythm(
+        extra_counts=[2],
+    ),
+)
+
+commands(
+    ("va", 7),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 3)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 4),
+    library.make_clb_rhythm(
+        extra_counts=[4],
+    ),
+)
+
+commands(
+    ("vc", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vc", 6),
+    library.make_clb_rhythm(
+        extra_counts=[6],
+    ),
+)
+
+commands(
+    ("vc", 7),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_skeleton(
+        "{ c1 c1 }",
+    ),
+)
+
+# phantom & reapply
+
+# fl
 
 commands(
     ("fl", (1, 2)),
@@ -134,11 +398,6 @@ commands(
 
 commands(
     ("fl", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("fl", 3),
     baca.dynamic("niente"),
 )
 
@@ -149,11 +408,6 @@ commands(
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-)
-
-commands(
-    ("fl", [4, 5, 6, 7, 8]),
-    library.make_suffixed_colortrill_rhythm(),
 )
 
 commands(
@@ -194,23 +448,11 @@ commands(
 
 commands(
     "eh",
-    baca.make_mmrests(),
-)
-
-commands(
-    "eh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
 
 # cl
-
-for n in range(1, 8 + 1):
-    if n == 3:
-        function = baca.make_mmrests()
-    else:
-        function = library.make_suffixed_colortrill_rhythm()
-    commands(("cl", n), function)
 
 commands(
     ("cl", 1),
@@ -282,31 +524,12 @@ commands(
 
 commands(
     ("rh", (1, 3)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("rh", 4),
-    library.make_clb_rhythm(
-        extra_counts=[7],
-    ),
-)
-
-commands(
-    ("rh", 4),
     baca.staff_lines(3),
-)
-
-commands(
-    ("rh", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -336,33 +559,12 @@ commands(
 
 commands(
     ("rh", 6),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("rh", 6),
     baca.staff_lines(5),
     baca.clef("bass"),
     baca.dynamic(
         "mp",
         abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
         abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
-    ),
-)
-
-commands(
-    ("rh", 7),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("rh", 8),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
 )
 
@@ -394,33 +596,7 @@ commands(
 
 commands(
     ("lh", (1, 5)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("lh", (1, 5)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", 6),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("lh", 7),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("lh", 8),
-    baca.make_skeleton(
-        "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
 )
 
 commands(
@@ -438,11 +614,6 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
-)
-
-commands(
-    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -452,19 +623,7 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 2),
-    library.make_downbeat_attack(
-        denominator=2,
-    ),
 )
 
 commands(
@@ -486,22 +645,12 @@ commands(
 )
 
 commands(
-    ("perc", 3),
-    baca.make_mmrests(),
-)
-
-commands(
     ("perc", 2),
     baca.material_annotation_spanner(
         "A.2 -|",
         abjad.Tweak(r"- \tweak color #red"),
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
     ),
-)
-
-commands(
-    ("perc", [4, 5, 6, 7]),
-    library.make_downbeat_attack(),
 )
 
 commands(
@@ -520,13 +669,6 @@ commands(
         r"\baca-castanets-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-)
-
-commands(
-    ("perc", 8),
-    baca.make_skeleton(
-        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     ),
 )
 
@@ -558,19 +700,7 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 2),
-    baca.make_skeleton(
-        r"\times 9/5 { c2 c4 c4 c4 }",
-    ),
 )
 
 commands(
@@ -599,52 +729,14 @@ commands(
 )
 
 commands(
-    ("vn", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 4),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("vn", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("vn", (4, 5)),
     baca.staff_lines(1),
     baca.beam(),
 )
 
 commands(
-    ("vn", 6),
-    library.make_clb_rhythm(
-        extra_counts=[4],
-    ),
-)
-
-commands(
-    ("vn", 7),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("vn", (6, 7)),
     baca.beam(),
-)
-
-commands(
-    ("vn", 8),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -667,19 +759,7 @@ commands(
 
 commands(
     ("va", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 2),
-    baca.make_skeleton(
-        r"\times 9/5 { c4 c4 c4 c2 }",
-    ),
 )
 
 commands(
@@ -709,27 +789,8 @@ commands(
 
 
 commands(
-    ("va", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", 4),
-    library.make_clb_rhythm(
-        extra_counts=[6],
-    ),
-)
-
-commands(
     ("va", 4),
     baca.staff_lines(1),
-)
-
-commands(
-    ("va", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -738,27 +799,8 @@ commands(
 )
 
 commands(
-    ("va", 6),
-    library.make_clb_rhythm(
-        extra_counts=[2],
-    ),
-)
-
-commands(
-    ("va", 7),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("va", (6, 7)),
     baca.beam(),
-)
-
-commands(
-    ("va", 8),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -771,19 +813,7 @@ commands(
 
 commands(
     ("vc", (1, 3)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", (1, 3)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 4),
-    library.make_clb_rhythm(
-        extra_counts=[4],
-    ),
 )
 
 commands(
@@ -792,41 +822,13 @@ commands(
 )
 
 commands(
-    ("vc", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("vc", (4, 5)),
     baca.beam(),
 )
 
 commands(
-    ("vc", 6),
-    library.make_clb_rhythm(
-        extra_counts=[6],
-    ),
-)
-
-commands(
-    ("vc", 7),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
-)
-
-commands(
     ("vc", (6, 7)),
     baca.beam(),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_skeleton(
-        "{ c1 c1 }",
-    ),
 )
 
 commands(

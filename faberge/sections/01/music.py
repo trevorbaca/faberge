@@ -55,24 +55,97 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
 commands(
     "fl",
     baca.make_mmrests(),
 )
+
+# EH
+
+commands(
+    ("eh", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh", 3),
+    library.make_ratchet_rhythm(),
+)
+
+commands(
+    ("eh", 4),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    "cl",
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    "rh",
+    baca.make_mmrests(),
+)
+
+commands(
+    "lh",
+    baca.make_mmrests(),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    "perc",
+    baca.make_mmrests(),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    library.make_spazzolati_rhythm(
+        counts_rotation=0,
+    ),
+)
+
+commands(
+    ("vn", (2, 4)),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", 1),
+    library.make_spazzolati_rhythm(
+        counts_rotation=-1,
+        denominator=8,
+        extra_counts=[1],
+    ),
+)
+
+commands(
+    ("va", (2, 4)),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    "vc",
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
 
 commands(
     "fl",
@@ -91,22 +164,7 @@ commands(
 
 commands(
     ("eh", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 2)),
     baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("eh", 3),
-    library.make_ratchet_rhythm(),
-)
-
-commands(
-    ("eh", 4),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -144,11 +202,6 @@ commands(
 
 commands(
     "cl",
-    baca.make_mmrests(),
-)
-
-commands(
-    "cl",
     baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
 )
@@ -163,11 +216,6 @@ commands(
 )
 
 # rh
-
-commands(
-    "rh",
-    baca.make_mmrests(),
-)
 
 commands(
     "rh",
@@ -194,11 +242,6 @@ commands(
 
 commands(
     "lh",
-    baca.make_mmrests(),
-)
-
-commands(
-    "lh",
     baca.attach_first_segment_default_indicators(),
     baca.append_phantom_measure(),
 )
@@ -212,20 +255,10 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
-)
-
-commands(
-    "attack",
     baca.append_phantom_measure(),
 )
 
 # perc
-
-commands(
-    "perc",
-    baca.make_mmrests(),
-)
 
 commands(
     "perc",
@@ -244,19 +277,7 @@ commands(
 
 commands(
     ("vn", 1),
-    library.make_spazzolati_rhythm(
-        counts_rotation=0,
-    ),
-)
-
-commands(
-    ("vn", 1),
     baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("vn", (2, 4)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -285,21 +306,7 @@ commands(
 
 commands(
     ("va", 1),
-    library.make_spazzolati_rhythm(
-        counts_rotation=-1,
-        denominator=8,
-        extra_counts=[1],
-    ),
-)
-
-commands(
-    ("va", 1),
     baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("va", (2, 4)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -325,11 +332,6 @@ commands(
 )
 
 # vc
-
-commands(
-    "vc",
-    baca.make_mmrests(),
-)
 
 commands(
     "vc",
