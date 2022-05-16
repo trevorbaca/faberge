@@ -78,30 +78,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", 1),
     baca.make_mmrests(),
-)
-
-commands(
-    ("fl", 1),
-    baca.reapply_persistent_indicators(),
 )
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
@@ -116,6 +95,134 @@ for n in [2, 3, 4, 5, 6, 7, 8]:
             ("fl", n),
             library.make_suffixed_colortrill_rhythm(),
         )
+
+commands(
+    ("fl", 9),
+    baca.make_mmrests(),
+)
+
+for n in [1, 2, 3, 4, 5, (6, 7), 8]:
+    if n in [2, 4, 5, 8]:
+        commands(
+            ("eh", n),
+            baca.make_notes(),
+            baca.breathe(),
+        )
+    else:
+        commands(
+            ("eh", n),
+            baca.make_mmrests(),
+        )
+
+# EH
+
+commands(
+    ("eh", 9),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    ("cl", 1),
+    baca.make_mmrests(),
+)
+
+for n in [2, 3, 4, 5, (6, 7), 8]:
+    if n in [2, 4, 5, 8]:
+        commands(
+            ("cl", n),
+            baca.make_notes(),
+            baca.breathe(),
+        )
+    else:
+        commands(
+            ("cl", n),
+            library.make_suffixed_colortrill_rhythm(),
+        )
+
+commands(
+    ("cl", 9),
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    ["rh", "lh", "attack"],
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    library.make_even_tuplet_rhythm(),
+)
+
+commands(
+    ("perc", 2),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", (3, 8)),
+    baca.make_notes(),
+)
+
+commands(
+    ("perc", 9),
+    baca.make_mmrests(),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 8)),
+    library.make_airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 8)),
+    library.make_airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
+)
+
+commands(
+    ("va", 9),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 8)),
+    library.make_airtone_chain_rhythm(
+        20,
+        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
+        do_not_overlap_counts=True,
+    ),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", 1),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     ("fl", 3),
@@ -153,11 +260,6 @@ commands(
 
 commands(
     ("fl", 9),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("fl", 9),
     baca.append_phantom_measure(),
 )
 
@@ -175,27 +277,9 @@ commands(
 
 # eh
 
-for n in [1, 2, 3, 4, 5, (6, 7), 8]:
-    if n in [2, 4, 5, 8]:
-        commands(
-            ("eh", n),
-            baca.make_notes(),
-            baca.breathe(),
-        )
-    else:
-        commands(
-            ("eh", n),
-            baca.make_mmrests(),
-        )
-
 commands(
     ("eh", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -219,26 +303,8 @@ commands(
 
 commands(
     ("cl", 1),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("cl", 1),
     baca.reapply_persistent_indicators(),
 )
-
-for n in [2, 3, 4, 5, (6, 7), 8]:
-    if n in [2, 4, 5, 8]:
-        commands(
-            ("cl", n),
-            baca.make_notes(),
-            baca.breathe(),
-        )
-    else:
-        commands(
-            ("cl", n),
-            library.make_suffixed_colortrill_rhythm(),
-        )
 
 commands(
     ("cl", [2, 4]),
@@ -271,11 +337,6 @@ commands(
 commands(
     ("cl", 8),
     baca.pitch("Bb1"),
-)
-
-commands(
-    ("cl", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -325,11 +386,6 @@ commands(
 
 commands(
     ["rh", "lh", "attack"],
-    baca.make_mmrests(),
-)
-
-commands(
-    ["rh", "lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -338,27 +394,12 @@ commands(
 
 commands(
     ("perc", 1),
-    library.make_even_tuplet_rhythm(),
-)
-
-commands(
-    ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 2),
-    library.make_downbeat_attack(),
 )
 
 commands(
     ("perc", (1, 2)),
     baca.staff_position(0),
-)
-
-commands(
-    ("perc", (3, 8)),
-    baca.make_notes(),
 )
 
 commands(
@@ -391,20 +432,10 @@ commands(
 
 commands(
     ("perc", 9),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 9),
     baca.append_phantom_measure(),
 )
 
 # vn
-
-commands(
-    ("vn", (1, 8)),
-    library.make_airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
-)
 
 commands(
     ("vn", (1, 8)),
@@ -413,11 +444,6 @@ commands(
         '"ff"',
         selector=lambda _: baca.select.rest(_, 0),
     ),
-)
-
-commands(
-    ("vn", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -467,11 +493,6 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    library.make_airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
-)
-
-commands(
-    ("va", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.hairpin(
@@ -495,11 +516,6 @@ commands(
             map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
-)
-
-commands(
-    ("va", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -532,15 +548,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 8)),
-    library.make_airtone_chain_rhythm(
-        20,
-        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
-        do_not_overlap_counts=True,
-    ),
-)
 
 commands(
     ("vc", (1, 8)),
@@ -585,11 +592,6 @@ commands(
             ),
         ),
     ),
-)
-
-commands(
-    ("vc", 9),
-    baca.make_mmrests(),
 )
 
 commands(

@@ -91,30 +91,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 3)),
     baca.make_mmrests(),
-)
-
-commands(
-    ("fl", (1, 3)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -127,30 +106,13 @@ commands(
     baca.make_mmrests(),
 )
 
-commands(
-    ("fl", (6, 10)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("fl", (4, 5)),
-    baca.pitch("G#3"),
-    baca.dynamic("p"),
-    baca.dls_staff_padding(4),
-)
-
-# eh
+# EH
 
 commands(
     ("eh", 1),
     baca.make_skeleton(
         "{ c4 c4 c4 r2. }",
     ),
-)
-
-commands(
-    ("eh", 1),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -168,52 +130,11 @@ commands(
     baca.make_mmrests(),
 )
 
-commands(
-    ("eh", (6, 10)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("eh", 1),
-    baca.pitch("G#5"),
-    baca.trill_spanner(
-        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-        map=lambda _: baca.select.plts(_),
-    ),
-    baca.trill_spanner_staff_padding(5.5),
-)
-
-commands(
-    ("eh", (4, 5)),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    baca.markup(
-        r"\baca-airtone-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-    ),
-    baca.dynamic(
-        '"mf"',
-        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
-    ),
-    baca.dls_staff_padding(6),
-    baca.staff_lines(
-        5,
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
-)
-
-# cl
+# CL
 
 commands(
     ("cl", (1, 3)),
     baca.make_mmrests(),
-)
-
-commands(
-    ("cl", (1, 3)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -226,47 +147,13 @@ commands(
     baca.make_mmrests(),
 )
 
-commands(
-    ("cl", (6, 10)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("cl", (4, 5)),
-    baca.pitch("C2"),
-    baca.dynamic("p"),
-    baca.dls_staff_padding(7),
-)
-
-# fl, eh, cl
-
-commands(
-    (["fl", "eh", "cl"], [4, 5]),
-    baca.breathe(),
-)
-
-commands(
-    (["fl", "eh", "cl"], (4, 5)),
-    baca.material_annotation_spanner(
-        "1-2 -|",
-        abjad.Tweak(r"- \tweak color #red"),
-        abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
-    ),
-)
-
-# rh
+# PF
 
 commands(
     ("rh", 1),
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
-)
-
-commands(
-    ("rh", 1),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -329,66 +216,10 @@ commands(
 )
 
 commands(
-    ("rh", 10),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("rh", [1, 3, 4, 5]),
-    baca.beam(),
-)
-
-commands(
-    ("rh", [1, 3, 4, 5, 6, 8, 9, 10]),
-    baca.accent(
-        selector=lambda _: baca.select.pleaf(_, 1),
-    ),
-    baca.accent(
-        selector=lambda _: baca.select.pleaf(_, -1),
-    ),
-)
-
-commands(
-    ("rh", 8),
-    baca.dynamic("pp"),
-)
-
-commands(
-    ("rh", (1, 5)),
-    baca.material_annotation_spanner(
-        "2-4 =|",
-        abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-)
-
-commands(
-    ("rh", (6, 10)),
-    baca.material_annotation_spanner(
-        "3-1 =|",
-        abjad.Tweak(r"- \tweak staff-padding 10.5"),
-    ),
-)
-
-commands(
-    "rh",
-    baca.pitch("<G6 A6 B6 C7>"),
-    baca.dls_staff_padding(4.5),
-    baca.ottava(),
-    baca.ottava_bracket_staff_padding(8),
-)
-
-# lh
-
-commands(
     ("lh", 1),
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
-)
-
-commands(
-    ("lh", 1),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -451,6 +282,368 @@ commands(
 )
 
 commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("perc", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 3),
+    library.make_downbeat_attack(),
+)
+
+commands(
+    ("perc", (4, 5)),
+    library.make_airtone_chain_rhythm(6, [2, 5]),
+)
+
+commands(
+    ("perc", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (8, 9)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("perc", 10),
+    baca.make_mmrests(),
+)
+
+# VN
+
+commands(
+    ("vn", 1),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vn", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 3),
+    baca.make_skeleton(
+        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vn", (4, 5)),
+    library.make_airtone_chain_rhythm(6, [1, 4]),
+)
+
+commands(
+    ("vn", 6),
+    baca.make_skeleton(
+        r"\times 6/5 { c2 c4 c4 c4 }",
+    ),
+)
+
+commands(
+    ("vn", 7),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_skeleton(
+        r"\times 9/5 { c2 c4 c4 c4 }",
+    ),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_skeleton(
+        r"\times 6/5 { c2 c4 c4 c4 }",
+    ),
+)
+
+commands(
+    ("vn", 10),
+    baca.make_skeleton(
+        r"{ c2 c4 c4 c4 }",
+    ),
+)
+
+# VA
+
+commands(
+    ("va", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", 7),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("va", 8),
+    baca.make_skeleton(
+        r"\times 9/5 { c4 c4 c4 c2 }",
+    ),
+)
+
+commands(
+    ("va", 9),
+    baca.make_skeleton(
+        r"\times 6/5 { c4 c4 c4 c2 }",
+    ),
+)
+
+commands(
+    ("va", 10),
+    baca.make_skeleton(
+        r"{ c4 c4 c4 c2 }",
+    ),
+)
+
+# VC
+
+commands(
+    ("vc", 1),
+    baca.make_skeleton(
+        "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 2),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 3),
+    baca.make_skeleton(
+        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", (4, 5)),
+    library.make_airtone_chain_rhythm(6, [0, 3]),
+)
+
+
+commands(
+    ("vc", 6),
+    baca.make_skeleton(
+        "{ c8. [ r16 c8 r8 c8 r8 c8. ] r16 r4 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 7),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_skeleton(
+        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
+    ),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_skeleton(
+        "{ c8. r16 r4 r4 r4 r4 c8 r8 }",
+    ),
+)
+
+commands(
+    ("vc", 10),
+    baca.make_skeleton(
+        "{ c8. r16 r4 r4 r4 r4 }",
+    ),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 3)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("fl", (6, 10)),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("fl", (4, 5)),
+    baca.pitch("G#3"),
+    baca.dynamic("p"),
+    baca.dls_staff_padding(4),
+)
+
+# eh
+
+commands(
+    ("eh", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("eh", (6, 10)),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("eh", 1),
+    baca.pitch("G#5"),
+    baca.trill_spanner(
+        abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+        map=lambda _: baca.select.plts(_),
+    ),
+    baca.trill_spanner_staff_padding(5.5),
+)
+
+commands(
+    ("eh", (4, 5)),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    baca.markup(
+        r"\baca-airtone-markup",
+        abjad.Tweak(r"- \tweak padding 1.5"),
+        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+    ),
+    baca.dynamic(
+        '"mf"',
+        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+    ),
+    baca.dls_staff_padding(6),
+    baca.staff_lines(
+        5,
+        selector=lambda _: baca.select.rleaf(_, -1),
+    ),
+)
+
+# cl
+
+commands(
+    ("cl", (1, 3)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("cl", (6, 10)),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("cl", (4, 5)),
+    baca.pitch("C2"),
+    baca.dynamic("p"),
+    baca.dls_staff_padding(7),
+)
+
+# fl, eh, cl
+
+commands(
+    (["fl", "eh", "cl"], [4, 5]),
+    baca.breathe(),
+)
+
+commands(
+    (["fl", "eh", "cl"], (4, 5)),
+    baca.material_annotation_spanner(
+        "1-2 -|",
+        abjad.Tweak(r"- \tweak color #red"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
+        selector=lambda _: baca.select.tleaves(_, rleak=True),
+    ),
+)
+
+# rh
+
+commands(
+    ("rh", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("rh", 10),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("rh", [1, 3, 4, 5]),
+    baca.beam(),
+)
+
+commands(
+    ("rh", [1, 3, 4, 5, 6, 8, 9, 10]),
+    baca.accent(
+        selector=lambda _: baca.select.pleaf(_, 1),
+    ),
+    baca.accent(
+        selector=lambda _: baca.select.pleaf(_, -1),
+    ),
+)
+
+commands(
+    ("rh", 8),
+    baca.dynamic("pp"),
+)
+
+commands(
+    ("rh", (1, 5)),
+    baca.material_annotation_spanner(
+        "2-4 =|",
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
+    ),
+)
+
+commands(
+    ("rh", (6, 10)),
+    baca.material_annotation_spanner(
+        "3-1 =|",
+        abjad.Tweak(r"- \tweak staff-padding 10.5"),
+    ),
+)
+
+commands(
+    "rh",
+    baca.pitch("<G6 A6 B6 C7>"),
+    baca.dls_staff_padding(4.5),
+    baca.ottava(),
+    baca.ottava_bracket_staff_padding(8),
+)
+
+# lh
+
+commands(
+    ("lh", 1),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("lh", 10),
     baca.append_phantom_measure(),
 )
@@ -502,52 +695,12 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
-)
-
-commands(
-    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
 # perc
-
-commands(
-    ("perc", 1),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("perc", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 3),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("perc", (4, 5)),
-    library.make_airtone_chain_rhythm(6, [2, 5]),
-)
-
-commands(
-    ("perc", (6, 7)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", (8, 9)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("perc", 10),
-    baca.make_mmrests(),
-)
 
 commands(
     ("perc", 10),
@@ -637,64 +790,7 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vn", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 3),
-    baca.make_skeleton(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vn", (4, 5)),
-    library.make_airtone_chain_rhythm(6, [1, 4]),
-)
-
-commands(
-    ("vn", 6),
-    baca.make_skeleton(
-        r"\times 6/5 { c2 c4 c4 c4 }",
-    ),
-)
-
-commands(
-    ("vn", 7),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", 8),
-    baca.make_skeleton(
-        r"\times 9/5 { c2 c4 c4 c4 }",
-    ),
-)
-
-commands(
-    ("vn", 9),
-    baca.make_skeleton(
-        r"\times 6/5 { c2 c4 c4 c4 }",
-    ),
-)
-
-commands(
-    ("vn", 10),
-    baca.make_skeleton(
-        r"{ c2 c4 c4 c4 }",
-    ),
 )
 
 commands(
@@ -778,43 +874,7 @@ commands(
 
 commands(
     ("va", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", (1, 2)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va", 7),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("va", 8),
-    baca.make_skeleton(
-        r"\times 9/5 { c4 c4 c4 c2 }",
-    ),
-)
-
-commands(
-    ("va", 9),
-    baca.make_skeleton(
-        r"\times 6/5 { c4 c4 c4 c2 }",
-    ),
-)
-
-commands(
-    ("va", 10),
-    baca.make_skeleton(
-        r"{ c4 c4 c4 c2 }",
-    ),
 )
 
 commands(
@@ -900,65 +960,7 @@ commands(
 
 commands(
     ("vc", 1),
-    baca.make_skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 2),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", 3),
-    baca.make_skeleton(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", (4, 5)),
-    library.make_airtone_chain_rhythm(6, [0, 3]),
-)
-
-
-commands(
-    ("vc", 6),
-    baca.make_skeleton(
-        "{ c8. [ r16 c8 r8 c8 r8 c8. ] r16 r4 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 7),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_skeleton(
-        "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
-    ),
-)
-
-commands(
-    ("vc", 9),
-    baca.make_skeleton(
-        "{ c8. r16 r4 r4 r4 r4 c8 r8 }",
-    ),
-)
-
-commands(
-    ("vc", 10),
-    baca.make_skeleton(
-        "{ c8. r16 r4 r4 r4 r4 }",
-    ),
 )
 
 commands(

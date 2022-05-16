@@ -79,30 +79,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 4)),
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("fl", (1, 4)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -115,6 +94,114 @@ commands(
 commands(
     ("fl", (6, 8)),
     baca.make_mmrests(),
+)
+
+# EH
+
+commands(
+    ("eh", (1, 4)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh", 5),
+    library.make_downbeat_attack(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("eh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    "cl",
+    baca.make_repeat_tied_notes(),
+)
+
+# PF
+
+commands(
+    ("rh", (1, 4)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("rh", 5),
+    library.make_downbeat_attack(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    "perc",
+    baca.make_notes(),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 7)),
+    library.make_halves_rhythm(
+        tuplet_ratios=[(2, 3)],
+    ),
+)
+
+commands(
+    ("vn", 8),
+    baca.make_notes(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 7)),
+    library.make_halves_rhythm(
+        tuplet_ratios=[(2, 1)],
+    ),
+)
+
+commands(
+    ("va", 8),
+    baca.make_notes(),
+)
+
+# VC
+
+commands(
+    ("vc", (1, 7)),
+    library.make_halves_rhythm(),
+)
+
+commands(
+    ("vc", 8),
+    baca.make_notes(),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 4)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -131,25 +218,7 @@ commands(
 
 commands(
     ("eh", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 5),
-    library.make_downbeat_attack(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    ("eh", (6, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -163,11 +232,6 @@ commands(
 )
 
 # cl
-
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     "cl",
@@ -189,25 +253,7 @@ commands(
 
 commands(
     ("rh", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("rh", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 5),
-    library.make_downbeat_attack(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    ("rh", (6, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -249,21 +295,11 @@ commands(
 
 commands(
     ["lh", "attack"],
-    baca.make_mmrests(),
-)
-
-commands(
-    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
 
 # perc
-
-commands(
-    "perc",
-    baca.make_notes(),
-)
 
 commands(
     "perc",
@@ -292,19 +328,7 @@ commands(
 
 commands(
     ("vn", (1, 7)),
-    library.make_halves_rhythm(
-        tuplet_ratios=[(2, 3)],
-    ),
-)
-
-commands(
-    ("vn", (1, 7)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 8),
-    baca.make_notes(),
 )
 
 commands(
@@ -324,19 +348,7 @@ commands(
 
 commands(
     ("va", (1, 7)),
-    library.make_halves_rhythm(
-        tuplet_ratios=[(2, 1)],
-    ),
-)
-
-commands(
-    ("va", (1, 7)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 8),
-    baca.make_notes(),
 )
 
 commands(
@@ -356,17 +368,7 @@ commands(
 
 commands(
     ("vc", (1, 7)),
-    library.make_halves_rhythm(),
-)
-
-commands(
-    ("vc", (1, 7)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 8),
-    baca.make_notes(),
 )
 
 commands(

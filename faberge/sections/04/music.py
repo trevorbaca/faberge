@@ -71,26 +71,193 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 4)),
     library.make_airtone_chain_rhythm(20, [2, 6]),
 )
+
+commands(
+    ("fl", [5, 6]),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("fl", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# EH
+
+commands(
+    ("eh", (1, 4)),
+    library.make_airtone_chain_rhythm(20, [1, 5]),
+)
+
+commands(
+    ("eh", [5, 6]),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    ("cl", (1, 4)),
+    library.make_airtone_chain_rhythm(20, [3, 7]),
+)
+
+commands(
+    ("cl", [5, 6]),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl", (7, 8)),
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    ("rh", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (3, 4)),
+    baca.make_skeleton(
+        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
+        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
+    ),
+)
+
+commands(
+    ("rh", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (6, 8)),
+    baca.append_phantom_measure(),
+)
+
+commands(
+    ("lh", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (3, 4)),
+    baca.make_skeleton(
+        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
+        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
+    ),
+)
+
+commands(
+    ("lh", 5),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("lh", (6, 8)),
+    baca.make_mmrests(),
+)
+
+commands(
+    "attack",
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", 1),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[0],
+    ),
+)
+
+commands(
+    ("perc", (2, 3)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (4, 5)),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[-1, 0],
+    ),
+)
+
+commands(
+    ("perc", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 8),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[-1],
+    ),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 3)),
+    library.make_clb_rhythm(
+        extra_counts=[6, 2],
+        fuse_counts=[2, 1],
+    ),
+)
+
+commands(
+    ("vn", 4),
+    library.make_downbeat_attack(
+        denominator=8,
+    ),
+)
+
+commands(
+    ("vn", (5, 8)),
+    library.make_airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
+)
+
+# VA
+
+commands(
+    ("va", (1, 8)),
+    library.make_airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
+)
+
+# VC
+
+commands(
+    "vc",
+    library.make_airtone_chain_rhythm(
+        20,
+        [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
+        do_not_overlap_counts=True,
+    ),
+)
+
+# phantom & reapply
+
+# fl
 
 commands(
     ("fl", (1, 4)),
@@ -105,11 +272,6 @@ commands(
 
 commands(
     ("fl", [5, 6]),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("fl", [5, 6]),
     baca.breathe(),
 )
 
@@ -119,11 +281,6 @@ commands(
     baca.dynamic("p"),
     baca.pitch("G#3"),
     baca.staff_lines(5),
-)
-
-commands(
-    ("fl", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -144,11 +301,6 @@ commands(
 
 commands(
     ("eh", (1, 4)),
-    library.make_airtone_chain_rhythm(20, [1, 5]),
-)
-
-commands(
-    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -160,11 +312,6 @@ commands(
 
 commands(
     ("eh", [5, 6]),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh", [5, 6]),
     baca.breathe(),
 )
 
@@ -173,11 +320,6 @@ commands(
     baca.dls_staff_padding(6),
     baca.dynamic('"mf"'),
     baca.staff_position(0),
-)
-
-commands(
-    ("eh", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -198,22 +340,12 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    library.make_airtone_chain_rhythm(20, [3, 7]),
-)
-
-commands(
-    ("cl", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
         r"\baca-airtone-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
     ),
-)
-
-commands(
-    ("cl", [5, 6]),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -227,11 +359,6 @@ commands(
     baca.dls_staff_padding(7),
     baca.dynamic("p"),
     baca.pitch("C2"),
-)
-
-commands(
-    ("cl", (7, 8)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -271,33 +398,13 @@ commands(
 
 commands(
     ("rh", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", (1, 2)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (3, 4)),
-    baca.make_skeleton(
-        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
-    ),
 )
 
 commands(
     ("rh", (3, 4)),
     baca.clef("bass"),
     baca.dynamic("mp"),
-)
-
-commands(
-    ("rh", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -320,16 +427,6 @@ commands(
 )
 
 commands(
-    ("rh", (6, 8)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", (6, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "rh",
     baca.staff_lines(5),
     baca.dls_staff_padding(4.5),
@@ -339,27 +436,7 @@ commands(
 
 commands(
     ("lh", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("lh", (1, 2)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", (3, 4)),
-    baca.make_skeleton(
-        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
-    ),
-)
-
-commands(
-    ("lh", 5),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -370,20 +447,10 @@ commands(
 
 commands(
     ("lh", (6, 8)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("lh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
 # attack
-
-commands(
-    "attack",
-    baca.make_mmrests(),
-)
 
 commands(
     "attack",
@@ -396,19 +463,7 @@ commands(
 
 commands(
     ("perc", 1),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[0],
-    ),
-)
-
-commands(
-    ("perc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", (2, 3)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -416,13 +471,6 @@ commands(
     baca.material_annotation_spanner(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-)
-
-commands(
-    ("perc", (4, 5)),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[-1, 0],
     ),
 )
 
@@ -432,22 +480,10 @@ commands(
 )
 
 commands(
-    ("perc", (6, 7)),
-    baca.make_mmrests(),
-)
-
-commands(
     ("perc", (4, 5)),
     baca.material_annotation_spanner(
         "MM =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-    ),
-)
-
-commands(
-    ("perc", 8),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[-1],
     ),
 )
 
@@ -472,23 +508,8 @@ commands(
 
 commands(
     ("vn", (1, 3)),
-    library.make_clb_rhythm(
-        extra_counts=[6, 2],
-        fuse_counts=[2, 1],
-    ),
-)
-
-commands(
-    ("vn", (1, 3)),
     baca.beam_positions(-3.5),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 4),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
 )
 
 commands(
@@ -511,11 +532,6 @@ commands(
 
 commands(
     ("vn", (5, 8)),
-    library.make_airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
-)
-
-commands(
-    ("vn", (5, 8)),
     baca.append_phantom_measure(),
     baca.staff_position(0),
 )
@@ -531,11 +547,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 8)),
-    library.make_airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
-)
 
 commands(
     ("va", (1, 8)),
@@ -582,15 +593,6 @@ commands(
 )
 
 # vc
-
-commands(
-    "vc",
-    library.make_airtone_chain_rhythm(
-        20,
-        [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
-        do_not_overlap_counts=True,
-    ),
-)
 
 commands(
     "vc",

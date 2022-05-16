@@ -85,30 +85,9 @@ commands(
 
 # FL
 
-# EH
-
-# CL
-
-# PF
-
-# PERC
-
-# VN
-
-# VA
-
-# VC
-
-# fl
-
 commands(
     ("fl", (1, 4)),
     library.make_halves_rhythm(),
-)
-
-commands(
-    ("fl", (1, 4)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -121,6 +100,139 @@ commands(
 commands(
     ("fl", 9),
     baca.make_mmrests(),
+)
+
+# EH
+
+commands(
+    "eh",
+    baca.make_mmrests(),
+)
+
+# CL
+
+commands(
+    ("cl", (1, 4)),
+    library.make_bcl_color_fingering_rhythm(
+        rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
+        ),
+    ),
+)
+
+commands(
+    ("cl", (5, 9)),
+    baca.make_mmrests(),
+)
+
+# PF
+
+commands(
+    ("rh", (1, 3)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (4, 5)),
+    library.make_even_tuplet_rhythm(
+        extra_counts=[1, 0],
+    ),
+)
+
+commands(
+    ("rh", (6, 9)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
+    baca.make_mmrests(),
+)
+
+# PERC
+
+commands(
+    ("perc", (1, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 5),
+    library.make_downbeat_attack(
+        denominator=2,
+    ),
+)
+
+commands(
+    ("perc", (6, 7)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 8),
+    baca.make_skeleton(
+        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
+    ),
+)
+
+commands(
+    ("perc", 9),
+    baca.make_mmrests(),
+)
+
+# VN
+
+commands(
+    ("vn", (1, 4)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("vn", [5, 6, 7, 8]),
+    library.make_halves_rhythm(),
+)
+
+commands(
+    ("vn", 9),
+    baca.make_mmrests(),
+)
+
+# VA
+
+commands(
+    ("va", (1, 4)),
+    library.make_back_incised_divisions(),
+)
+
+commands(
+    ("va", [5, 6, 7, 8]),
+    library.make_halves_rhythm(),
+)
+
+commands(
+    ("va", 9),
+    baca.make_mmrests(),
+)
+
+# VC
+
+commands(
+    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
+    library.make_halves_rhythm(),
+)
+
+commands(
+    ("vc", 9),
+    baca.make_mmrests(),
+)
+
+# phantom & reapply
+
+# fl
+
+commands(
+    ("fl", (1, 4)),
+    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -192,11 +304,6 @@ commands(
 
 commands(
     "eh",
-    baca.make_mmrests(),
-)
-
-commands(
-    "eh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -205,21 +312,7 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    library.make_bcl_color_fingering_rhythm(
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
-        ),
-    ),
-)
-
-commands(
-    ("cl", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (5, 9)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -254,24 +347,7 @@ commands(
 
 commands(
     ("rh", (1, 3)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("rh", (1, 3)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (4, 5)),
-    library.make_even_tuplet_rhythm(
-        extra_counts=[1, 0],
-    ),
-)
-
-commands(
-    ("rh", (6, 9)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -309,11 +385,6 @@ commands(
 
 commands(
     ["lh", "attack"],
-    baca.make_mmrests(),
-)
-
-commands(
-    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -322,36 +393,7 @@ commands(
 
 commands(
     ("perc", (1, 4)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 5),
-    library.make_downbeat_attack(
-        denominator=2,
-    ),
-)
-
-commands(
-    ("perc", (6, 7)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc", 8),
-    baca.make_skeleton(
-        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
-    ),
-)
-
-commands(
-    ("perc", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -404,22 +446,7 @@ commands(
 
 commands(
     ("vn", (1, 4)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("vn", (1, 4)),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", [5, 6, 7, 8]),
-    library.make_halves_rhythm(),
-)
-
-commands(
-    ("vn", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -452,27 +479,12 @@ commands(
 
 commands(
     ("va", (1, 4)),
-    library.make_back_incised_divisions(),
-)
-
-commands(
-    ("va", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F3"),
     baca.xfb_spanner(
         abjad.Tweak(r"- \tweak staff-padding 3"),
         map=lambda _: baca.select.plts(_),
     ),
-)
-
-commands(
-    ("va", [5, 6, 7, 8]),
-    library.make_halves_rhythm(),
-)
-
-commands(
-    ("va", 9),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -513,18 +525,8 @@ commands(
 # vc
 
 commands(
-    ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
-    library.make_halves_rhythm(),
-)
-
-commands(
     ("vc", 1),
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 9),
-    baca.make_mmrests(),
 )
 
 commands(
