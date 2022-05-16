@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 16 [O] ########################################
+########################################### 16 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -77,11 +77,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("fl", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -95,6 +115,10 @@ commands(
 commands(
     ("fl", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -108,6 +132,10 @@ commands(
 commands(
     ("eh", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -122,6 +150,10 @@ commands(
 commands(
     ("eh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -135,6 +167,10 @@ commands(
 commands(
     "cl",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cl",
     baca.append_phantom_measure(),
 )
 
@@ -154,6 +190,10 @@ commands(
 commands(
     ("rh", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("rh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -168,6 +208,10 @@ commands(
 commands(
     ("rh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -206,6 +250,10 @@ commands(
 commands(
     ["lh", "attack"],
     baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -215,6 +263,10 @@ commands(
 commands(
     "perc",
     baca.make_notes(),
+)
+
+commands(
+    "perc",
     baca.append_phantom_measure(),
 )
 
@@ -243,12 +295,20 @@ commands(
     library.make_halves_rhythm(
         tuplet_ratios=[(2, 3)],
     ),
+)
+
+commands(
+    ("vn", (1, 7)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("vn", 8),
     baca.make_notes(),
+)
+
+commands(
+    ("vn", 8),
     baca.append_phantom_measure(),
 )
 
@@ -267,12 +327,20 @@ commands(
     library.make_halves_rhythm(
         tuplet_ratios=[(2, 1)],
     ),
+)
+
+commands(
+    ("va", (1, 7)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("va", 8),
     baca.make_notes(),
+)
+
+commands(
+    ("va", 8),
     baca.append_phantom_measure(),
 )
 
@@ -289,12 +357,20 @@ commands(
 commands(
     ("vc", (1, 7)),
     library.make_halves_rhythm(),
+)
+
+commands(
+    ("vc", (1, 7)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("vc", 8),
     baca.make_notes(),
+)
+
+commands(
+    ("vc", 8),
     baca.append_phantom_measure(),
 )
 

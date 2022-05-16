@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 14 [M] ########################################
+########################################### 14 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -81,11 +81,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 3)),
     library.make_airtone_chain_rhythm(20, [1, 3, 5]),
+)
+
+commands(
+    ("fl", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -120,6 +140,10 @@ commands(
     baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
+)
+
+commands(
+    ("fl", 8),
     baca.append_phantom_measure(),
 )
 
@@ -196,6 +220,10 @@ commands(
 commands(
     ("cl", 1),
     library.make_downbeat_attack(denominator=8),
+)
+
+commands(
+    ("cl", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -212,6 +240,10 @@ commands(
 commands(
     ("cl", (6, 8)),
     library.make_bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -281,6 +313,10 @@ commands(
     baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
+)
+
+commands(
+    ("eh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -322,6 +358,10 @@ commands(
 commands(
     ("eh", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -368,6 +408,10 @@ commands(
 commands(
     ("rh", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -381,6 +425,10 @@ commands(
 commands(
     ("rh", (5, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -410,6 +458,10 @@ commands(
 commands(
     ["lh", "attack"],
     baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -421,6 +473,10 @@ commands(
     baca.make_skeleton(
         "{ c2. r4 }",
     ),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -471,6 +527,10 @@ commands(
     baca.make_skeleton(
         "{ c2. r4 }",
     ),
+)
+
+commands(
+    ("perc", 8),
     baca.append_phantom_measure(),
 )
 
@@ -493,6 +553,10 @@ commands(
 commands(
     ("vn", (1, 3)),
     library.make_airtone_chain_rhythm(20, [0, 2, 4]),
+)
+
+commands(
+    ("vn", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -506,6 +570,10 @@ commands(
 commands(
     ("vn", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -552,6 +620,10 @@ commands(
 commands(
     "va",
     library.make_back_incised_divisions(),
+)
+
+commands(
+    "va",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -588,6 +660,10 @@ commands(
         [0, 1, 4, 5, 7, 8],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    ("vc", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 

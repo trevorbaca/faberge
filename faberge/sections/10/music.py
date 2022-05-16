@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 10 [I] ########################################
+########################################### 10 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -84,6 +84,22 @@ commands(
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
@@ -117,6 +133,10 @@ commands(
 commands(
     ("eh", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -137,6 +157,10 @@ commands(
 commands(
     ("eh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -273,6 +297,10 @@ commands(
 commands(
     ("rh", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -293,6 +321,10 @@ commands(
 commands(
     ("rh", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -333,6 +365,10 @@ commands(
 commands(
     ("lh", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -353,6 +389,10 @@ commands(
 commands(
     ("lh", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -382,6 +422,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -422,6 +466,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[-1],
     ),
+)
+
+commands(
+    ("perc", 8),
     baca.append_phantom_measure(),
 )
 
@@ -492,6 +540,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -542,6 +594,10 @@ commands(
     baca.make_skeleton(
         r"\times 5/4 { c2 c2 }",
     ),
+)
+
+commands(
+    ("vn", 8),
     baca.append_phantom_measure(),
 )
 
@@ -643,6 +699,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -691,6 +751,10 @@ commands(
     baca.make_skeleton(
         r"\times 5/4 { c2 c2 }",
     ),
+)
+
+commands(
+    ("va", 8),
     baca.append_phantom_measure(),
 )
 
@@ -830,6 +894,10 @@ commands(
     baca.make_skeleton(
         "{ c2 c1 }",
     ),
+)
+
+commands(
+    ("vc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -868,6 +936,10 @@ commands(
         [0, 1, 3, 4, 6, 7, 8, 9],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    ("vc", (6, 8)),
     baca.append_phantom_measure(),
 )
 

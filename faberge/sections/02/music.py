@@ -5,7 +5,7 @@ from abjadext import rmakers
 from faberge import library
 
 #########################################################################################
-######################################### 02 [A] ########################################
+########################################### 02 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -75,6 +75,22 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
@@ -83,6 +99,10 @@ commands(
         total_parts=4,
         this_part=0,
     ),
+)
+
+commands(
+    ("fl", (1, 40)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -118,6 +138,10 @@ commands(
         ),
         tuplet_ratio_rotation=0,
     ),
+)
+
+commands(
+    ("fl", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -250,6 +274,10 @@ commands(
 commands(
     ("eh", (1, 12)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (1, 12)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -316,6 +344,10 @@ commands(
     library.make_eh_trill_rhythm(
         counts=[-4, -1, 7, -1, 7, -1, 16, 3],
     ),
+)
+
+commands(
+    ("eh", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -411,6 +443,10 @@ commands(
         total_parts=4,
         this_part=1,
     ),
+)
+
+commands(
+    ("cl", (1, 40)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -477,6 +513,10 @@ commands(
 commands(
     ("cl", 92),
     library.make_single_taper(),
+)
+
+commands(
+    ("cl", 92),
     baca.append_phantom_measure(),
 )
 
@@ -643,6 +683,10 @@ commands(
 commands(
     ("rh", 1),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("rh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -654,6 +698,10 @@ commands(
 commands(
     ("rh", (89, 92)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -686,6 +734,10 @@ commands(
 commands(
     "lh",
     baca.make_mmrests(),
+)
+
+commands(
+    "lh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -700,6 +752,10 @@ commands(
 commands(
     ("attack", (1, 12)),
     library.make_piano_attack_rhythm(),
+)
+
+commands(
+    ("attack", (1, 12)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -726,6 +782,10 @@ commands(
 commands(
     ("attack", (89, 92)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("attack", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -754,6 +814,10 @@ commands(
         total_parts=4,
         this_part=3,
     ),
+)
+
+commands(
+    ("perc", (1, 40)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -818,6 +882,10 @@ commands(
         total_parts=2,
         this_part=1,
     ),
+)
+
+commands(
+    ("perc", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -981,6 +1049,10 @@ commands(
         total_parts=4,
         this_part=2,
     ),
+)
+
+commands(
+    ("vn", (1, 40)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -1043,6 +1115,10 @@ commands(
         total_parts=2,
         this_part=0,
     ),
+)
+
+commands(
+    ("vn", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -1202,6 +1278,10 @@ commands(
 commands(
     ("va", (1, 62)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (1, 62)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -1243,6 +1323,10 @@ commands(
 commands(
     ("va", (89, 92)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (89, 92)),
     baca.append_phantom_measure(),
 )
 
@@ -1435,6 +1519,10 @@ commands(
 commands(
     "vc",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "vc",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )

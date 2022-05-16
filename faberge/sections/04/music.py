@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 04 [C] ########################################
+########################################### 04 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -69,11 +69,31 @@ commands(
     baca.metronome_mark("4:5(4)=4", lambda _: abjad.select.leaf(_, 5 - 1)),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 4)),
     library.make_airtone_chain_rhythm(20, [2, 6]),
+)
+
+commands(
+    ("fl", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -86,6 +106,10 @@ commands(
 commands(
     ("fl", [5, 6]),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("fl", [5, 6]),
     baca.breathe(),
 )
 
@@ -100,6 +124,10 @@ commands(
 commands(
     ("fl", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -117,6 +145,10 @@ commands(
 commands(
     ("eh", (1, 4)),
     library.make_airtone_chain_rhythm(20, [1, 5]),
+)
+
+commands(
+    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -129,6 +161,10 @@ commands(
 commands(
     ("eh", [5, 6]),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh", [5, 6]),
     baca.breathe(),
 )
 
@@ -142,6 +178,10 @@ commands(
 commands(
     ("eh", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -159,6 +199,10 @@ commands(
 commands(
     ("cl", (1, 4)),
     library.make_airtone_chain_rhythm(20, [3, 7]),
+)
+
+commands(
+    ("cl", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
@@ -170,6 +214,10 @@ commands(
 commands(
     ("cl", [5, 6]),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl", [5, 6]),
     baca.breathe(),
 )
 
@@ -184,6 +232,10 @@ commands(
 commands(
     ("cl", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -220,6 +272,10 @@ commands(
 commands(
     ("rh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -229,6 +285,10 @@ commands(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
         r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
     ),
+)
+
+commands(
+    ("rh", (3, 4)),
     baca.clef("bass"),
     baca.dynamic("mp"),
 )
@@ -262,6 +322,10 @@ commands(
 commands(
     ("rh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -276,6 +340,10 @@ commands(
 commands(
     ("lh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -303,6 +371,10 @@ commands(
 commands(
     ("lh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -311,6 +383,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -323,6 +399,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[0],
     ),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -344,6 +424,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[-1, 0],
     ),
+)
+
+commands(
+    ("perc", (4, 5)),
     baca.dynamic("f"),
 )
 
@@ -365,6 +449,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[-1],
     ),
+)
+
+commands(
+    ("perc", 8),
     baca.append_phantom_measure(),
     baca.dynamic("f"),
     baca.material_annotation_spanner(
@@ -388,6 +476,10 @@ commands(
         extra_counts=[6, 2],
         fuse_counts=[2, 1],
     ),
+)
+
+commands(
+    ("vn", (1, 3)),
     baca.beam_positions(-3.5),
     baca.reapply_persistent_indicators(),
 )
@@ -420,6 +512,10 @@ commands(
 commands(
     ("vn", (5, 8)),
     library.make_airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
+)
+
+commands(
+    ("vn", (5, 8)),
     baca.append_phantom_measure(),
     baca.staff_position(0),
 )
@@ -439,6 +535,10 @@ commands(
 commands(
     ("va", (1, 8)),
     library.make_airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
+)
+
+commands(
+    ("va", (1, 8)),
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.chunk(
@@ -490,6 +590,10 @@ commands(
         [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    "vc",
     baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
     baca.staff_lines(5),

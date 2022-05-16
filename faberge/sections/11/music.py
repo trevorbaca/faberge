@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 11 [J] ########################################
+########################################### 11 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -87,6 +87,22 @@ commands(
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
@@ -99,6 +115,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[0, 1, 0, -1],
     ),
+)
+
+commands(
+    ("fl", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -125,6 +145,10 @@ commands(
 commands(
     ("eh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -143,6 +167,10 @@ commands(
 commands(
     ("eh", (5, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -185,6 +213,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[1, 0, -1, 0],
     ),
+)
+
+commands(
+    ("cl", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -284,6 +316,10 @@ commands(
 commands(
     ("rh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -376,6 +412,10 @@ commands(
 commands(
     ("lh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -389,6 +429,10 @@ commands(
 commands(
     ("lh", (4, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (4, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -414,6 +458,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.mmrest_transparent(),
     baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
@@ -424,6 +472,10 @@ commands(
 commands(
     ("perc", 1),
     library.make_even_tuplet_rhythm(),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -525,6 +577,10 @@ commands(
 commands(
     ("vn", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -555,6 +611,10 @@ commands(
 commands(
     ("vn", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 8),
     baca.append_phantom_measure(),
 )
 
@@ -636,6 +696,10 @@ commands(
 commands(
     ("va", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -656,6 +720,10 @@ commands(
 commands(
     ("va", (5, 8)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -726,6 +794,10 @@ commands(
         [1, 2, 3],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    ("vc", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -749,6 +821,10 @@ commands(
 commands(
     ("vc", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 8),
     baca.append_phantom_measure(),
 )
 

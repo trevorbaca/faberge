@@ -4,9 +4,8 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 13 [L] ########################################
+########################################### 13 ##########################################
 #########################################################################################
-
 
 stage_markup = (
     ("[4-3 (2-1)]", 1),
@@ -74,11 +73,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -90,6 +109,10 @@ commands(
 commands(
     ("fl", (4, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (4, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -136,6 +159,10 @@ commands(
 commands(
     ("eh", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -165,6 +192,10 @@ commands(
     baca.make_skeleton(
         "{ c4. c4. r4 }",
     ),
+)
+
+commands(
+    ("eh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -206,6 +237,10 @@ commands(
 commands(
     ("cl", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -232,6 +267,10 @@ commands(
 commands(
     ("cl", (7, 8)),
     library.make_bcl_color_fingering_rhythm(),
+)
+
+commands(
+    ("cl", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -292,6 +331,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[7],
     ),
+)
+
+commands(
+    ("rh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -324,6 +367,10 @@ commands(
 commands(
     ("rh", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -400,6 +447,10 @@ commands(
 commands(
     ("lh", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -420,6 +471,10 @@ commands(
 commands(
     ("lh", (5, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (5, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -439,6 +494,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -468,6 +527,10 @@ commands(
     baca.make_skeleton(
         "{ c2. r4 }",
     ),
+)
+
+commands(
+    ("perc", 8),
     baca.append_phantom_measure(),
 )
 
@@ -527,6 +590,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[2],
     ),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -568,6 +635,10 @@ commands(
 commands(
     ("vn", (7, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -602,6 +673,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[6],
     ),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -643,6 +718,10 @@ commands(
 commands(
     ("va", (7, 8)),
     library.make_back_incised_divisions(),
+)
+
+commands(
+    ("va", (7, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -691,6 +770,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[4],
     ),
+)
+
+commands(
+    ("vc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -736,6 +819,10 @@ commands(
         [2, 3, 4],
         do_not_overlap_counts=True,
     ),
+)
+
+commands(
+    ("vc", (7, 8)),
     baca.append_phantom_measure(),
 )
 

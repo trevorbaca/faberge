@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 09 [H] ########################################
+########################################### 09 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -81,6 +81,22 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
@@ -120,6 +136,10 @@ commands(
 commands(
     ("fl", (8, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (8, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -178,6 +198,10 @@ commands(
     baca.make_skeleton(
         "{ c1 c1 r1 }",
     ),
+)
+
+commands(
+    ("eh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -210,6 +234,10 @@ commands(
 commands(
     ("eh", (6, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -274,6 +302,10 @@ commands(
         denominator=2,
         extra_counts=[1, 0],
     ),
+)
+
+commands(
+    ("cl", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -286,6 +318,10 @@ commands(
 commands(
     ("cl", (3, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (3, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -318,6 +354,10 @@ commands(
 commands(
     ["rh", "lh", "attack"],
     baca.make_mmrests(),
+)
+
+commands(
+    ["rh", "lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -351,6 +391,10 @@ commands(
     baca.make_skeleton(
         "{ c2 c1 }",
     ),
+)
+
+commands(
+    ("perc", 9),
     baca.append_phantom_measure(),
 )
 
@@ -433,6 +477,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     ),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -488,6 +536,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+)
+
+commands(
+    ("vn", 9),
     baca.append_phantom_measure(),
 )
 
@@ -590,6 +642,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     ),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -645,6 +701,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     ),
+)
+
+commands(
+    ("va", 9),
     baca.append_phantom_measure(),
 )
 
@@ -897,6 +957,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 c1 }",
     ),
+)
+
+commands(
+    ("vc", 9),
     baca.append_phantom_measure(),
 )
 

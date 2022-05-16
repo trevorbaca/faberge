@@ -5,7 +5,7 @@ from abjadext import rmakers
 from faberge import library
 
 #########################################################################################
-######################################### 15 [N] ########################################
+########################################### 15 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -83,11 +83,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 4)),
     library.make_halves_rhythm(),
+)
+
+commands(
+    ("fl", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -101,6 +121,10 @@ commands(
 commands(
     ("fl", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 9),
     baca.append_phantom_measure(),
 )
 
@@ -169,6 +193,10 @@ commands(
 commands(
     "eh",
     baca.make_mmrests(),
+)
+
+commands(
+    "eh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -182,12 +210,20 @@ commands(
             lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
         ),
     ),
+)
+
+commands(
+    ("cl", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
 commands(
     ("cl", (5, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (5, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -219,6 +255,10 @@ commands(
 commands(
     ("rh", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -232,6 +272,10 @@ commands(
 commands(
     ("rh", (6, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -266,6 +310,10 @@ commands(
 commands(
     ["lh", "attack"],
     baca.make_mmrests(),
+)
+
+commands(
+    ["lh", "attack"],
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -275,6 +323,10 @@ commands(
 commands(
     ("perc", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -300,6 +352,10 @@ commands(
 commands(
     ("perc", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 9),
     baca.append_phantom_measure(),
 )
 
@@ -349,6 +405,10 @@ commands(
 commands(
     ("vn", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -360,6 +420,10 @@ commands(
 commands(
     ("vn", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 9),
     baca.append_phantom_measure(),
 )
 
@@ -389,6 +453,10 @@ commands(
 commands(
     ("va", (1, 4)),
     library.make_back_incised_divisions(),
+)
+
+commands(
+    ("va", (1, 4)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F3"),
     baca.xfb_spanner(
@@ -405,6 +473,10 @@ commands(
 commands(
     ("va", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", 9),
     baca.append_phantom_measure(),
 )
 
@@ -453,6 +525,10 @@ commands(
 commands(
     ("vc", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", 9),
     baca.append_phantom_measure(),
 )
 
