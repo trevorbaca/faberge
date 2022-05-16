@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 06 [E] ########################################
+########################################### 06 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -91,11 +91,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 2)),
     library.make_halves_rhythm(),
+)
+
+commands(
+    ("fl", (1, 2)),
     baca.reapply_persistent_indicators(),
     baca.hairpin(
         "o< mf >o",
@@ -115,6 +135,10 @@ commands(
 commands(
     ("fl", 3),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 3),
     baca.dynamic("niente"),
 )
 
@@ -171,6 +195,10 @@ commands(
 commands(
     "eh",
     baca.make_mmrests(),
+)
+
+commands(
+    "eh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -255,6 +283,10 @@ commands(
 commands(
     ("rh", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("rh", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -263,6 +295,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[7],
     ),
+)
+
+commands(
+    ("rh", 4),
     baca.staff_lines(3),
 )
 
@@ -303,6 +339,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("rh", 6),
     baca.staff_lines(5),
     baca.clef("bass"),
     baca.dynamic(
@@ -324,6 +364,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("rh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -351,6 +395,10 @@ commands(
 commands(
     ("lh", (1, 5)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 5)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -373,6 +421,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("lh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -387,6 +439,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -397,6 +453,10 @@ commands(
 commands(
     ("perc", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -405,6 +465,10 @@ commands(
     library.make_downbeat_attack(
         denominator=2,
     ),
+)
+
+commands(
+    ("perc", 2),
     baca.dynamic("mf"),
     baca.laissez_vibrer(),
     baca.markup(
@@ -464,6 +528,10 @@ commands(
     baca.make_skeleton(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     ),
+)
+
+commands(
+    ("perc", 8),
     baca.append_phantom_measure(),
     baca.dls_staff_padding(8),
     baca.dynamic("f-ancora"),
@@ -491,6 +559,10 @@ commands(
 commands(
     ("vn", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -499,6 +571,10 @@ commands(
     baca.make_skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
     ),
+)
+
+commands(
+    ("vn", 2),
     baca.hairpin(
         "p niente o< p > pp",
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
@@ -569,6 +645,10 @@ commands(
 commands(
     ("vn", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 8),
     baca.append_phantom_measure(),
     baca.staff_lines(5),
 )
@@ -588,6 +668,10 @@ commands(
 commands(
     ("va", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -596,6 +680,10 @@ commands(
     baca.make_skeleton(
         r"\times 9/5 { c4 c4 c4 c2 }",
     ),
+)
+
+commands(
+    ("va", 2),
     baca.hairpin(
         "niente o< p > pp p",
         pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
@@ -630,6 +718,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[6],
     ),
+)
+
+commands(
+    ("va", 4),
     baca.staff_lines(1),
 )
 
@@ -667,6 +759,10 @@ commands(
 commands(
     ("va", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", 8),
     baca.append_phantom_measure(),
     baca.staff_lines(5),
 )
@@ -676,6 +772,10 @@ commands(
 commands(
     ("vc", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vc", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -684,6 +784,10 @@ commands(
     library.make_clb_rhythm(
         extra_counts=[4],
     ),
+)
+
+commands(
+    ("vc", 4),
     baca.staff_lines(1),
 )
 
@@ -723,6 +827,10 @@ commands(
     baca.make_skeleton(
         "{ c1 c1 }",
     ),
+)
+
+commands(
+    ("vc", 8),
     baca.append_phantom_measure(),
     baca.staff_lines(5),
     baca.clef("bass"),

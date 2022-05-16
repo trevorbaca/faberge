@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 12 [K] ########################################
+########################################### 12 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -79,6 +79,22 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
@@ -87,6 +103,10 @@ commands(
         denominator=8,
         extra_counts=[2],
     ),
+)
+
+commands(
+    ("fl", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -105,6 +125,10 @@ commands(
 commands(
     ("fl", (4, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (4, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -123,6 +147,10 @@ commands(
 commands(
     "eh",
     baca.make_mmrests(),
+)
+
+commands(
+    "eh",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -134,6 +162,10 @@ commands(
     library.make_even_tuplet_rhythm(
         denominator=8,
     ),
+)
+
+commands(
+    ("cl", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -153,6 +185,10 @@ commands(
 commands(
     ("cl", (4, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (4, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -222,6 +258,10 @@ commands(
         fuse_counts=[2, 2],
         extra_counts=[5, 5],
     ),
+)
+
+commands(
+    ("rh", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -293,6 +333,10 @@ commands(
 commands(
     ("lh", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -306,6 +350,10 @@ commands(
 commands(
     ("lh", (6, 9)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("lh", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -331,6 +379,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
 )
@@ -340,6 +392,10 @@ commands(
 commands(
     ("perc", 1),
     library.make_downbeat_attack(denominator=4),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -371,6 +427,10 @@ commands(
 commands(
     ("perc", 9),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 9),
     baca.append_phantom_measure(),
 )
 
@@ -452,6 +512,10 @@ commands(
     library.make_clb_rhythm(
         fuse_counts=[2, 1, 1],
     ),
+)
+
+commands(
+    ("vn", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -467,6 +531,10 @@ commands(
     library.make_clb_rhythm(
         fuse_counts=[2, 1, 1],
     ),
+)
+
+commands(
+    ("vn", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -532,6 +600,10 @@ commands(
 commands(
     ("va", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -545,6 +617,10 @@ commands(
     library.make_clb_rhythm(
         fuse_counts=[1, 2, 1],
     ),
+)
+
+commands(
+    ("va", (6, 9)),
     baca.append_phantom_measure(),
 )
 
@@ -613,6 +689,10 @@ commands(
     library.make_clb_rhythm(
         fuse_counts=[1, 1, 2],
     ),
+)
+
+commands(
+    ("vc", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -628,6 +708,10 @@ commands(
     library.make_clb_rhythm(
         fuse_counts=[1, 1, 2],
     ),
+)
+
+commands(
+    ("vc", (6, 9)),
     baca.append_phantom_measure(),
 )
 

@@ -4,7 +4,7 @@ import baca
 from faberge import library
 
 #########################################################################################
-######################################### 08 [G] ########################################
+########################################### 08 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -89,11 +89,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -105,6 +125,10 @@ commands(
 commands(
     ("fl", (6, 10)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (6, 10)),
     baca.append_phantom_measure(),
 )
 
@@ -122,6 +146,10 @@ commands(
     baca.make_skeleton(
         "{ c4 c4 c4 r2. }",
     ),
+)
+
+commands(
+    ("eh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -138,6 +166,10 @@ commands(
 commands(
     ("eh", (6, 10)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (6, 10)),
     baca.append_phantom_measure(),
 )
 
@@ -177,6 +209,10 @@ commands(
 commands(
     ("cl", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -188,6 +224,10 @@ commands(
 commands(
     ("cl", (6, 10)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (6, 10)),
     baca.append_phantom_measure(),
 )
 
@@ -222,6 +262,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("rh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -282,6 +326,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 c8. r16 }",
     ),
+)
+
+commands(
+    ("rh", 10),
     baca.append_phantom_measure(),
 )
 
@@ -336,6 +384,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("lh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -396,6 +448,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 c8. r16 }",
     ),
+)
+
+commands(
+    ("lh", 10),
     baca.append_phantom_measure(),
 )
 
@@ -447,6 +503,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -487,6 +547,10 @@ commands(
 commands(
     ("perc", 10),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", 10),
     baca.append_phantom_measure(),
 )
 
@@ -576,6 +640,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -627,6 +695,10 @@ commands(
     baca.make_skeleton(
         r"{ c2 c4 c4 c4 }",
     ),
+)
+
+commands(
+    ("vn", 10),
     baca.append_phantom_measure(),
 )
 
@@ -707,6 +779,10 @@ commands(
 commands(
     ("va", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", (1, 2)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -739,6 +815,10 @@ commands(
     baca.make_skeleton(
         r"{ c4 c4 c4 c2 }",
     ),
+)
+
+commands(
+    ("va", 10),
     baca.append_phantom_measure(),
 )
 
@@ -823,6 +903,10 @@ commands(
     baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("vc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -875,6 +959,10 @@ commands(
     baca.make_skeleton(
         "{ c8. r16 r4 r4 r4 r4 }",
     ),
+)
+
+commands(
+    ("vc", 10),
     baca.append_phantom_measure(),
 )
 

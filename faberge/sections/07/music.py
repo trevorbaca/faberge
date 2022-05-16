@@ -5,7 +5,7 @@ from abjadext import rmakers
 from faberge import library
 
 #########################################################################################
-######################################### 07 [F] ########################################
+########################################### 07 ##########################################
 #########################################################################################
 
 stage_markup = (
@@ -82,11 +82,31 @@ commands(
     ),
 )
 
+# FL
+
+# EH
+
+# CL
+
+# PF
+
+# PERC
+
+# VN
+
+# VA
+
+# VC
+
 # fl
 
 commands(
     ("fl", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -115,6 +135,10 @@ commands(
 commands(
     ("fl", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("fl", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -155,6 +179,10 @@ commands(
 commands(
     ("eh", (1, 3)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("eh", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -182,6 +210,10 @@ commands(
     library.make_even_tuplet_rhythm(
         extra_counts=[1],
     ),
+)
+
+commands(
+    ("eh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -226,6 +258,10 @@ commands(
 commands(
     ("cl", 1),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -254,6 +290,10 @@ commands(
 commands(
     ("cl", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -346,6 +386,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("rh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -394,6 +438,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("rh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -448,6 +496,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("lh", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -501,6 +553,10 @@ commands(
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 }",
     ),
+)
+
+commands(
+    ("lh", 8),
     baca.append_phantom_measure(),
 )
 
@@ -549,6 +605,10 @@ commands(
 commands(
     "attack",
     baca.make_mmrests(),
+)
+
+commands(
+    "attack",
     baca.reapply_persistent_indicators(),
     baca.append_phantom_measure(),
     baca.mmrest_transparent(),
@@ -561,6 +621,10 @@ commands(
     baca.make_skeleton(
         r"{ c4 c4 c4 r1 }",
     ),
+)
+
+commands(
+    ("perc", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -582,6 +646,10 @@ commands(
 commands(
     ("perc", (6, 8)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc", (6, 8)),
     baca.append_phantom_measure(),
 )
 
@@ -649,6 +717,10 @@ commands(
         ),
         counts_rotation=0,
     ),
+)
+
+commands(
+    ("vn", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -682,6 +754,10 @@ commands(
 commands(
     ("vn", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("vn", 8),
     baca.append_phantom_measure(),
 )
 
@@ -768,6 +844,10 @@ commands(
         denominator=8,
         extra_counts=[1],
     ),
+)
+
+commands(
+    ("va", 1),
     baca.reapply_persistent_indicators(),
 )
 
@@ -806,6 +886,10 @@ commands(
 commands(
     ("va", 8),
     baca.make_mmrests(),
+)
+
+commands(
+    ("va", 8),
     baca.append_phantom_measure(),
 )
 
@@ -939,6 +1023,10 @@ commands(
 commands(
     ("vc", (1, 3)),
     baca.make_notes(),
+)
+
+commands(
+    ("vc", (1, 3)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -973,6 +1061,10 @@ commands(
     baca.make_skeleton(
         "{ c8. r16 c8. r16 c8 r8 c8 r8 }",
     ),
+)
+
+commands(
+    ("vc", 8),
     baca.append_phantom_measure(),
 )
 
