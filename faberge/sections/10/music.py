@@ -132,11 +132,6 @@ commands(
 )
 
 commands(
-    ("rh", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("rh", 5),
     baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
@@ -158,11 +153,6 @@ commands(
 commands(
     ("lh", (1, 4)),
     baca.make_mmrests(),
-)
-
-commands(
-    ("lh", (1, 4)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -389,12 +379,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", 8),
+    music_voice_names,
     baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
 )
+
+# fl
 
 commands(
     ("fl", [1, 2, 3]),
@@ -415,16 +410,6 @@ commands(
 # eh
 
 commands(
-    ("eh", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (6, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("eh", (4, 5)),
     baca.pitch("Db5"),
     baca.dynamic("f"),
@@ -442,11 +427,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("cl", [1, 2, 3]),
@@ -491,10 +471,6 @@ commands(
     baca.trill_spanner(
         abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         selector=lambda _: baca.select.leaves(_)[:3],
-    ),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=[0, 8],
     ),
 )
 
@@ -550,11 +526,6 @@ commands(
 # rh
 
 commands(
-    ("rh", (7, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "rh",
     baca.dls_staff_padding(5),
 )
@@ -589,11 +560,6 @@ commands(
 # lh
 
 commands(
-    ("lh", (7, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", 5),
     baca.accent(
         selector=lambda _: baca.select.pleaf(_, 1),
@@ -618,20 +584,12 @@ commands(
 
 commands(
     "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 # perc
 
 commands(
-    ("perc", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("perc", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb2",
         hide_middle_stems=True,
@@ -690,16 +648,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vn", [1, 2, 3]),
@@ -793,16 +741,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("va", (1, 3)),
@@ -934,16 +872,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (6, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", [1, 2, 3]),

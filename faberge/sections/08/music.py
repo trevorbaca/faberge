@@ -482,17 +482,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", (1, 3)),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ("fl", (6, 10)),
-    baca.append_phantom_measure(),
-)
+# fl
 
 commands(
     ("fl", (4, 5)),
@@ -502,16 +502,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (6, 10)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("eh", 1),
@@ -547,16 +537,6 @@ commands(
 # cl
 
 commands(
-    ("cl", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (6, 10)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("cl", (4, 5)),
     baca.pitch("C2"),
     baca.dynamic("p"),
@@ -581,16 +561,6 @@ commands(
 )
 
 # rh
-
-commands(
-    ("rh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 10),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("rh", [1, 3, 4, 5]),
@@ -639,16 +609,6 @@ commands(
 # lh
 
 commands(
-    ("lh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", 10),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", [1, 3, 4, 5]),
     baca.beam(),
 )
@@ -695,21 +655,13 @@ commands(
 
 commands(
     "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
 # perc
 
 commands(
-    ("perc", 10),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("perc", 1),
-    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-castanets-markup",
         abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -790,16 +742,6 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 10),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("vn", 1),
     baca.dynamic("f"),
 )
 
@@ -871,16 +813,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 10),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("va", (3, 6)),
@@ -957,16 +889,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 10),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", [1, 3]),

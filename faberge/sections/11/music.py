@@ -310,12 +310,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", (5, 8)),
+    music_voice_names,
     baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
 )
+
+# fl
 
 commands(
     ("fl", [1, 2, 3, 4]),
@@ -336,16 +341,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (5, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("eh", 3),
@@ -376,11 +371,6 @@ commands(
 # cl
 
 commands(
-    ("cl", (5, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("cl", [1, 2, 3, 4]),
     baca.pitches(
         "F#4 F#4 F#4 E4 E4",
@@ -403,10 +393,6 @@ commands(
 
 commands(
     (["fl", "cl"], [1, 2, 3, 4]),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=[0, 4],
-    ),
     baca.dynamic_text_self_alignment_x(
         -1,
         selector=lambda _: baca.select.pleaf(_, 2),
@@ -472,16 +458,6 @@ commands(
 )
 
 # rh
-
-commands(
-    ("rh", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("rh", 3),
@@ -551,15 +527,6 @@ commands(
 # lh
 
 commands(
-    ("lh", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-commands(
-    ("lh", (4, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", 3),
     baca.accent(
         selector=lambda _: baca.select.pleaf(_, 1),
@@ -581,21 +548,9 @@ commands(
 commands(
     "attack",
     baca.mmrest_transparent(),
-    baca.append_phantom_measure(),
-    baca.reapply_persistent_indicators(),
 )
 
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("perc", (1, 2)),
@@ -664,16 +619,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vn", 2),
@@ -751,16 +696,6 @@ commands(
 # va
 
 commands(
-    ("va", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (5, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("va", 2),
     baca.dynamic('"f"'),
     baca.material_annotation_spanner(
@@ -819,16 +754,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (1, 2)),

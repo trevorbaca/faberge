@@ -157,11 +157,6 @@ commands(
 )
 
 commands(
-    ("cl", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("cl", 2),
     library.make_suffixed_colortrill_rhythm(),
 )
@@ -469,17 +464,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", 1),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ("fl", (6, 8)),
-    baca.append_phantom_measure(),
-)
+# fl
 
 commands(
     "fl",
@@ -514,16 +509,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "eh",
@@ -562,11 +547,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", (6, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("cl", [2, 4]),
@@ -653,16 +633,6 @@ commands(
 # rh
 
 commands(
-    ("rh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("rh", (1, 3)),
     baca.markup(
         r"\baca-sharp-markup",
@@ -709,18 +679,8 @@ commands(
 # lh
 
 commands(
-    ("lh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("lh", (1, 3)),
     baca.pitch("<G3 A3 B3 C4>"),
-)
-
-commands(
-    ("lh", 8),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -767,22 +727,10 @@ commands(
 
 commands(
     "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", (6, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("perc", 1),
@@ -839,16 +787,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vn", 1),
@@ -922,16 +860,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("va", 1),
@@ -1059,16 +987,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (1, 4)),

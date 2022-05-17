@@ -217,12 +217,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", 1),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
+
+# fl
 
 commands(
     ("fl", 3),
@@ -259,11 +264,6 @@ commands(
 )
 
 commands(
-    ("fl", 9),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "fl",
     baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
@@ -278,16 +278,6 @@ commands(
 # eh
 
 commands(
-    ("eh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", 9),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "eh",
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
@@ -300,11 +290,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("cl", [2, 4]),
@@ -337,11 +322,6 @@ commands(
 commands(
     ("cl", 8),
     baca.pitch("Bb1"),
-)
-
-commands(
-    ("cl", 9),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -382,20 +362,7 @@ commands(
     ),
 )
 
-# rh, lh, attack
-
-commands(
-    ["rh", "lh", "attack"],
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("perc", (1, 2)),
@@ -430,25 +397,14 @@ commands(
     ),
 )
 
-commands(
-    ("perc", 9),
-    baca.append_phantom_measure(),
-)
-
 # vn
 
 commands(
     ("vn", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.dynamic(
         '"ff"',
         selector=lambda _: baca.select.rest(_, 0),
     ),
-)
-
-commands(
-    ("vn", 9),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -493,7 +449,6 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.chunk(
         baca.hairpin(
             'o< "f"',
@@ -516,11 +471,6 @@ commands(
             map=lambda _: baca.select.plts(_)[4:6],
         ),
     ),
-)
-
-commands(
-    ("va", 9),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -551,7 +501,6 @@ commands(
 
 commands(
     ("vc", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
         "IV =|",
@@ -592,11 +541,6 @@ commands(
             ),
         ),
     ),
-)
-
-commands(
-    ("vc", 9),
-    baca.append_phantom_measure(),
 )
 
 commands(

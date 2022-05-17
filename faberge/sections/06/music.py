@@ -376,11 +376,20 @@ commands(
 
 # phantom & reapply
 
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
 # fl
 
 commands(
     ("fl", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "o< mf >o",
         pieces=lambda _: abjad.select.partition_by_counts(
@@ -408,11 +417,6 @@ commands(
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
     ),
-)
-
-commands(
-    ("fl", 8),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -446,23 +450,7 @@ commands(
 
 # eh
 
-commands(
-    "eh",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # cl
-
-commands(
-    ("cl", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("cl", [1, 2, 4, 5]),
@@ -523,11 +511,6 @@ commands(
 # rh
 
 commands(
-    ("rh", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("rh", 4),
     baca.staff_lines(3),
 )
@@ -569,11 +552,6 @@ commands(
 )
 
 commands(
-    ("rh", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("rh", (6, 8)),
     baca.beam(),
     baca.markup(
@@ -595,16 +573,6 @@ commands(
 # lh
 
 commands(
-    ("lh", (1, 5)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", (6, 8)),
     baca.beam(),
     baca.pitch("<G3 A3 B3 C4>"),
@@ -614,17 +582,10 @@ commands(
 
 commands(
     "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("perc", 2),
@@ -674,7 +635,6 @@ commands(
 
 commands(
     ("perc", 8),
-    baca.append_phantom_measure(),
     baca.dls_staff_padding(8),
     baca.dynamic("f-ancora"),
     baca.markup(
@@ -697,11 +657,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("vn", 2),
@@ -741,7 +696,6 @@ commands(
 
 commands(
     ("vn", 8),
-    baca.append_phantom_measure(),
     baca.staff_lines(5),
 )
 
@@ -756,11 +710,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("va", 2),
@@ -805,16 +754,10 @@ commands(
 
 commands(
     ("va", 8),
-    baca.append_phantom_measure(),
     baca.staff_lines(5),
 )
 
 # vc
-
-commands(
-    ("vc", (1, 3)),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("vc", 4),
@@ -833,7 +776,6 @@ commands(
 
 commands(
     ("vc", 8),
-    baca.append_phantom_measure(),
     baca.staff_lines(5),
     baca.clef("bass"),
     baca.dls_staff_padding(4),

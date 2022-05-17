@@ -197,17 +197,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", (1, 4)),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ("fl", (6, 8)),
-    baca.append_phantom_measure(),
-)
+# fl
 
 commands(
     "fl",
@@ -215,16 +215,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (6, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "eh",
@@ -235,12 +225,6 @@ commands(
 
 commands(
     "cl",
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "cl",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.dynamic("p"),
     baca.flat_glissando(
@@ -250,16 +234,6 @@ commands(
 )
 
 # rh
-
-commands(
-    ("rh", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (6, 8)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "rh",
@@ -293,22 +267,10 @@ commands(
 
 # lh, attack
 
-commands(
-    ["lh", "attack"],
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # perc
 
 commands(
     "perc",
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "perc",
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(4),
     baca.dynamic("p"),
     # TODO: implement flat glissando based on staff position
@@ -327,16 +289,6 @@ commands(
 # vn
 
 commands(
-    ("vn", (1, 7)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "vn",
     baca.pitch("<F#5 Aqs5>"),
     baca.stem_tremolo(
@@ -347,16 +299,6 @@ commands(
 # va
 
 commands(
-    ("va", (1, 7)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 8),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "va",
     baca.pitch("Dqf5"),
     baca.stem_tremolo(
@@ -365,16 +307,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 7)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", 8),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "vc",
