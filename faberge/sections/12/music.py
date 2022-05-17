@@ -293,17 +293,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", 1),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ("fl", (4, 9)),
-    baca.append_phantom_measure(),
-)
+# fl
 
 commands(
     ("fl", (1, 4)),
@@ -317,23 +317,7 @@ commands(
 
 # eh
 
-commands(
-    "eh",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # cl
-
-commands(
-    ("cl", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (4, 9)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("cl", (1, 4)),
@@ -379,13 +363,7 @@ commands(
 # rh
 
 commands(
-    ("rh", (6, 9)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("rh", [1, 2, 3]),
-    baca.new(baca.reapply_persistent_indicators(), match=0),
     baca.laissez_vibrer(
         selector=lambda _: baca.select.ptails(_),
     ),
@@ -449,16 +427,6 @@ commands(
 # lh
 
 commands(
-    ("lh", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("lh", (6, 9)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", 5),
     baca.accent(
         selector=lambda _: baca.select.pleaf(_, 1),
@@ -477,23 +445,7 @@ commands(
 
 # attack
 
-commands(
-    "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("perc", 9),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("perc", 1),
@@ -570,16 +522,6 @@ commands(
 
 commands(
     ("vn", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", (6, 9)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("vn", (1, 4)),
     baca.staff_lines(1),
     baca.clb_spanner(
         3,
@@ -636,16 +578,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (6, 9)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("va", (1, 4)),
@@ -706,16 +638,6 @@ commands(
 )
 
 # vc
-
-commands(
-    ("vc", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vc", (6, 9)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vc", (1, 4)),

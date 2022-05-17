@@ -383,16 +383,20 @@ commands(
 
 # phantom & reapply
 
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
 # fl
 
 commands(
-    ("fl", (8, 9)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("fl", (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.pitch("G3"),
 )
@@ -439,16 +443,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (6, 9)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("eh", (1, 2)),
@@ -507,18 +501,8 @@ commands(
 
 commands(
     ("cl", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", (1, 2)),
     baca.pitch("F2"),
     baca.dls_staff_padding(8),
-)
-
-commands(
-    ("cl", (3, 9)),
-    baca.append_phantom_measure(),
 )
 
 # fl, cl composites
@@ -547,22 +531,10 @@ commands(
 
 # rh, attack, lh
 
-commands(
-    ["rh", "lh", "attack"],
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # perc
 
 commands(
-    ("perc", 9),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("perc", [1, 2]),
-    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-castanets-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -633,16 +605,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("vn", 9),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("vn", 1),
@@ -737,16 +699,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", 9),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("va", 1),
@@ -962,13 +914,7 @@ commands(
 # vc
 
 commands(
-    ("vc", 9),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("vc", (1, 4)),
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(5),
     baca.flat_glissando("F2"),
     baca.scp_spanner(

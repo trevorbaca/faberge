@@ -1051,12 +1051,21 @@ commands(
 
 # phantom & reapply
 
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
 # fl
 
 commands(
     ("fl", (1, 8)),
     baca.tuplet_bracket_staff_padding(1),
-    baca.reapply_persistent_indicators(),
     library.niente_swells("p"),
     baca.dynamic(
         "p",
@@ -1187,7 +1196,6 @@ commands(
 
 commands(
     ("fl", (73, 80)),
-    baca.append_phantom_measure(),
     baca.staff_lines(1),
 )
 
@@ -1200,7 +1208,6 @@ commands(
 
 commands(
     ("eh", (1, 12)),
-    baca.reapply_persistent_indicators(),
     library.keynoise_pitches(
         rotation=-1,
     ),
@@ -1345,16 +1352,10 @@ commands(
     baca.staff_position(0),
 )
 
-commands(
-    ("eh", 80),
-    baca.append_phantom_measure(),
-)
-
 # cl
 
 commands(
     ("cl", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.breathe(),
     baca.flat_glissando("Eb2"),
     baca.hairpin(
@@ -1497,7 +1498,6 @@ commands(
 
 commands(
     ("cl", (73, 80)),
-    baca.append_phantom_measure(),
     baca.staff_lines(1),
 )
 
@@ -1526,7 +1526,6 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.pitch("<Eb4 F4 G4 Ab4 Eb4 C5 Db5 Eb5>"),
 )
@@ -1565,11 +1564,6 @@ commands(
 )
 
 commands(
-    ("rh", 80),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("rh", (53, 80)),
     baca.beam_positions(-3),
     baca.note_head_stencil_false(
@@ -1587,11 +1581,6 @@ commands(
 )
 
 # attack
-
-commands(
-    ("attack", (23, 80)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("attack", (1, 44)),
@@ -1614,8 +1603,6 @@ commands(
 
 commands(
     "lh",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
@@ -1623,7 +1610,6 @@ commands(
 
 commands(
     ("perc", 1),
-    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(
         selector=lambda _: baca.select.ptails(_),
     ),
@@ -1725,7 +1711,6 @@ commands(
 
 commands(
     ("perc", (79, 80)),
-    baca.append_phantom_measure(),
     baca.dls_staff_padding(9),
     baca.dynamic("f"),
     baca.markup(
@@ -1750,7 +1735,6 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.reapply_persistent_indicators(),
     baca.markup(
         r"\baca-lv-possibile-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1857,7 +1841,6 @@ commands(
 
 commands(
     ("vn", (73, 80)),
-    baca.append_phantom_measure(),
     baca.clb_spanner(
         3,
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -1886,7 +1869,6 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    baca.reapply_persistent_indicators(),
     baca.flat_glissando(
         "Eb3",
         hide_middle_stems=True,
@@ -1965,11 +1947,6 @@ commands(
 )
 
 commands(
-    ("va", 80),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("va", (53, 80)),
     baca.beam_positions(-3.5),
     baca.clb_spanner(
@@ -1997,7 +1974,6 @@ commands(
 
 commands(
     ("vc", (1, 36)),
-    baca.reapply_persistent_indicators(),
     baca.dls_staff_padding(6),
     baca.flat_glissando(
         "Eb2",
@@ -2071,11 +2047,6 @@ commands(
         bookend=-1,
         pieces=lambda _: baca.mgroups(_, [12, 12]),
     ),
-)
-
-commands(
-    ("vc", 80),
-    baca.append_phantom_measure(),
 )
 
 commands(

@@ -148,11 +148,6 @@ commands(
 )
 
 commands(
-    ("rh", (6, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     ("lh", (1, 2)),
     baca.make_mmrests(),
 )
@@ -257,11 +252,20 @@ commands(
 
 # phantom & reapply
 
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
+
+commands(
+    music_voice_names,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
 # fl
 
 commands(
     ("fl", (1, 4)),
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
         r"\baca-airtone-markup",
@@ -284,11 +288,6 @@ commands(
 )
 
 commands(
-    ("fl", (7, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "fl",
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -301,7 +300,6 @@ commands(
 
 commands(
     ("eh", (1, 4)),
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
         r"\baca-airtone-markup",
@@ -323,11 +321,6 @@ commands(
 )
 
 commands(
-    ("eh", (7, 8)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "eh",
     baca.material_annotation_spanner(
         "1-1 / 1-2 =|",
@@ -340,7 +333,6 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.markup(
         r"\baca-airtone-markup",
@@ -359,11 +351,6 @@ commands(
     baca.dls_staff_padding(7),
     baca.dynamic("p"),
     baca.pitch("C2"),
-)
-
-commands(
-    ("cl", (7, 8)),
-    baca.append_phantom_measure(),
 )
 
 commands(
@@ -395,11 +382,6 @@ commands(
 )
 
 # rh
-
-commands(
-    ("rh", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("rh", (3, 4)),
@@ -435,36 +417,19 @@ commands(
 # lh
 
 commands(
-    ("lh", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("lh", (3, 5)),
     baca.beam(),
     baca.pitch("<G3 A3 B3 C4>"),
-)
-
-commands(
-    ("lh", (6, 8)),
-    baca.append_phantom_measure(),
 )
 
 # attack
 
 commands(
     "attack",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.mmrest_transparent(),
 )
 
 # perc
-
-commands(
-    ("perc", 1),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     ("perc", 1),
@@ -489,7 +454,6 @@ commands(
 
 commands(
     ("perc", 8),
-    baca.append_phantom_measure(),
     baca.dynamic("f"),
     baca.material_annotation_spanner(
         "MM =|",
@@ -509,7 +473,6 @@ commands(
 commands(
     ("vn", (1, 3)),
     baca.beam_positions(-3.5),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -532,7 +495,6 @@ commands(
 
 commands(
     ("vn", (5, 8)),
-    baca.append_phantom_measure(),
     baca.staff_position(0),
 )
 
@@ -550,8 +512,6 @@ commands(
 
 commands(
     ("va", (1, 8)),
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
     baca.chunk(
         baca.hairpin(
             'o< "mp"',
@@ -596,8 +556,6 @@ commands(
 
 commands(
     "vc",
-    baca.append_phantom_measure(),
-    baca.reapply_persistent_indicators(),
     baca.staff_lines(5),
     baca.clef("treble"),
     baca.dls_staff_padding(8),

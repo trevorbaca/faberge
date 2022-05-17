@@ -334,11 +334,6 @@ commands(
 )
 
 commands(
-    ("perc", (1, 40)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("perc", (41, 56)),
     library.make_shell_exchange_rhythm(
         extra_counts_rotation=1,
@@ -409,11 +404,6 @@ commands(
         total_parts=4,
         this_part=2,
     ),
-)
-
-commands(
-    ("vn", (1, 40)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -533,17 +523,17 @@ commands(
 
 # phantom & reapply
 
-# fl
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
 
 commands(
-    ("fl", (1, 40)),
+    music_voice_names,
+    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ("fl", (89, 92)),
-    baca.append_phantom_measure(),
-)
+# fl
 
 commands(
     "fl",
@@ -672,16 +662,6 @@ commands(
 # eh
 
 commands(
-    ("eh", (1, 12)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("eh", (89, 92)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "eh",
     baca.staff_lines(5),
 )
@@ -766,16 +746,6 @@ commands(
 )
 
 # cl
-
-commands(
-    ("cl", (1, 40)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("cl", 92),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "cl",
@@ -939,16 +909,6 @@ commands(
 
 commands(
     ("rh", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("rh", (89, 92)),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    ("rh", 1),
     baca.note_head_style_harmonic(),
     baca.pitch("<D4 E4 F#4 G#4 A4 A4 B4 C5 D5>"),
 )
@@ -973,23 +933,7 @@ commands(
 
 # lh
 
-commands(
-    "lh",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
-
 # attack
-
-commands(
-    ("attack", (1, 12)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("attack", (89, 92)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "attack",
@@ -1009,11 +953,6 @@ commands(
 )
 
 # perc
-
-commands(
-    ("perc", (89, 92)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     ("perc", (1, 12)),
@@ -1170,11 +1109,6 @@ commands(
 # vn
 
 commands(
-    ("vn", (89, 92)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "vn",
     baca.dls_staff_padding(5),
 )
@@ -1326,16 +1260,6 @@ commands(
 )
 
 # va
-
-commands(
-    ("va", (1, 62)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
-    ("va", (89, 92)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "va",
@@ -1522,12 +1446,6 @@ commands(
 )
 
 # vc
-
-commands(
-    "vc",
-    baca.reapply_persistent_indicators(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "vc",

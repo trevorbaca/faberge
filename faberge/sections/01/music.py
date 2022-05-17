@@ -147,11 +147,17 @@ commands(
 
 # phantom & reapply
 
+music_voice_names = [
+    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+]
+
 commands(
-    "fl",
-    baca.attach_first_segment_default_indicators(),
+    music_voice_names,
     baca.append_phantom_measure(),
+    baca.attach_first_segment_default_indicators(),
 )
+
+# fl
 
 commands(
     "fl",
@@ -161,16 +167,6 @@ commands(
 )
 
 # eh
-
-commands(
-    ("eh", (1, 2)),
-    baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("eh", 4),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "eh",
@@ -202,12 +198,6 @@ commands(
 
 commands(
     "cl",
-    baca.attach_first_segment_default_indicators(),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "cl",
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-clarinet-markup"),
@@ -216,12 +206,6 @@ commands(
 )
 
 # rh
-
-commands(
-    "rh",
-    baca.attach_first_segment_default_indicators(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "rh",
@@ -242,29 +226,12 @@ commands(
 
 commands(
     "lh",
-    baca.attach_first_segment_default_indicators(),
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "lh",
     baca.staff_lines(5),
 )
 
 # attack
 
-commands(
-    "attack",
-    baca.append_phantom_measure(),
-)
-
 # perc
-
-commands(
-    "perc",
-    baca.attach_first_segment_default_indicators(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "perc",
@@ -274,16 +241,6 @@ commands(
 )
 
 # vn
-
-commands(
-    ("vn", 1),
-    baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("vn", (2, 4)),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "vn",
@@ -305,16 +262,6 @@ commands(
 # va
 
 commands(
-    ("va", 1),
-    baca.attach_first_segment_default_indicators(),
-)
-
-commands(
-    ("va", (2, 4)),
-    baca.append_phantom_measure(),
-)
-
-commands(
     "va",
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
@@ -332,12 +279,6 @@ commands(
 )
 
 # vc
-
-commands(
-    "vc",
-    baca.attach_first_segment_default_indicators(),
-    baca.append_phantom_measure(),
-)
 
 commands(
     "vc",
