@@ -86,7 +86,7 @@ commands(
 
 commands(
     ("fl", 1),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -96,7 +96,7 @@ commands(
 
 commands(
     ("fl", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -120,7 +120,7 @@ commands(
 
 commands(
     ("eh", (1, 3)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -139,7 +139,7 @@ commands(
 
 commands(
     ("eh", (6, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -153,7 +153,7 @@ commands(
 
 commands(
     ("cl", 1),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -163,7 +163,7 @@ commands(
 
 commands(
     ("cl", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -208,7 +208,7 @@ commands(
 
 commands(
     ("rh", 4),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -262,7 +262,7 @@ commands(
 
 commands(
     ("lh", 4),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -295,7 +295,7 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERC
@@ -309,7 +309,7 @@ commands(
 
 commands(
     ("perc", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -341,7 +341,7 @@ commands(
 
 commands(
     ("vn", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -387,7 +387,7 @@ commands(
 
 commands(
     ("va", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -777,7 +777,7 @@ commands(
         "3-7 -|",
         abjad.Tweak(r"- \tweak color #darkgreen"),
         abjad.Tweak(r"- \tweak staff-padding 10.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -872,7 +872,7 @@ commands(
     baca.material_annotation_spanner(
         "A.3 -|",
         abjad.Tweak(r"- \tweak color #red"),
-        abjad.Tweak(r"- \tweak staff-padding 5.5"),
+        abjad.Tweak(r"- \tweak staff-padding 8"),
         selector=lambda _: baca.select.tleaves(_, rleak=True),
     ),
 )
