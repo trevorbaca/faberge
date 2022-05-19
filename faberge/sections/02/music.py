@@ -96,7 +96,7 @@ commands(
 
 commands(
     ("fl", (57, 80)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -123,7 +123,7 @@ commands(
 
 commands(
     ("eh", (1, 12)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -135,7 +135,7 @@ commands(
 
 commands(
     ("eh", (17, 26)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -147,7 +147,7 @@ commands(
 
 commands(
     ("eh", (31, 40)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -159,7 +159,7 @@ commands(
 
 commands(
     ("eh", (47, 56)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -171,7 +171,7 @@ commands(
 
 commands(
     ("eh", (63, 80)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -203,7 +203,7 @@ commands(
 
 commands(
     ("cl", (41, 46)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -280,12 +280,12 @@ commands(
 
 commands(
     ("rh", (89, 92)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
     "lh",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -320,7 +320,7 @@ commands(
 
 commands(
     ("attack", (89, 92)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERC
@@ -353,7 +353,7 @@ commands(
 
 commands(
     ("perc", (63, 70)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -367,7 +367,7 @@ commands(
 
 commands(
     ("perc", (81, 84)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -384,7 +384,7 @@ commands(
 
 commands(
     ("perc", 88),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -615,6 +615,7 @@ commands(
     baca.markup(
         r"\baca-to-bass-flute-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
+        selector=lambda _: baca.select.mmrest(_, 0),
     ),
     baca.instrument(library.instruments["BassFlute"]),
     library.margin_markup("B. fl."),
@@ -809,7 +810,7 @@ commands(
     baca.markup(
         r"\baca-to-bass-clarinet-markup",
         abjad.Tweak(r"- \tweak padding 1.5"),
-        # selector=lambda _: baca.select.mmrest(_, 0),
+        selector=lambda _: baca.select.mmrest(_, 0),
     ),
 )
 

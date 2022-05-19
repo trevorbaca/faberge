@@ -80,7 +80,7 @@ commands(
 
 commands(
     ("fl", 1),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
@@ -111,7 +111,7 @@ for n in [1, 2, 3, 4, 5, (6, 7), 8]:
     else:
         commands(
             ("eh", n),
-            baca.make_mmrests(),
+            baca.make_mmrests_flat(),
         )
 
 # EH
@@ -125,7 +125,7 @@ commands(
 
 commands(
     ("cl", 1),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 for n in [2, 3, 4, 5, (6, 7), 8]:
@@ -150,7 +150,7 @@ commands(
 
 commands(
     ["rh", "lh", "attack"],
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERC
@@ -172,7 +172,7 @@ commands(
 
 commands(
     ("perc", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # VN
@@ -439,9 +439,7 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -479,9 +477,7 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -505,7 +501,7 @@ commands(
     baca.string_number_spanner(
         "IV =|",
         abjad.Tweak(r"- \tweak staff-padding 5.5"),
-        selector=lambda _: baca.select.tleaves(_, rleak=True),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.suite(
         baca.untie(lambda _: baca.select.pleaves(_)),
@@ -549,9 +545,7 @@ commands(
     baca.material_annotation_spanner(
         "1-3 / 1-4 =|",
         abjad.Tweak(r"- \tweak staff-padding 8"),
-        selector=lambda _: baca.select.tleaves(
-            _, exclude=baca.enums.HIDDEN, rleak=True
-        ),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
