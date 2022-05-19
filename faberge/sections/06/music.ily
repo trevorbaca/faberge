@@ -4643,41 +4643,6 @@ segment.06.Piano.RH.Music.Voice = {
         [
         % SPANNER_STARTS:
           %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
-          %! AUTODETECT
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -4801,19 +4766,6 @@ segment.06.Piano.RH.Music.Voice = {
 
           %! baca.make_skeleton()
         r8
-        % AFTER:
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -4837,42 +4789,6 @@ segment.06.Piano.RH.Music.Voice = {
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \baca-sharp-markup
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -4934,19 +4850,6 @@ segment.06.Piano.RH.Music.Voice = {
 
           %! baca.make_skeleton()
         r8
-        % AFTER:
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -4970,42 +4873,6 @@ segment.06.Piano.RH.Music.Voice = {
           %! baca.IndicatorCommand._call()
           %! baca.markup()
         ^ \baca-sharp-markup
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -5119,18 +4986,6 @@ segment.06.Piano.RH.Music.Voice = {
           %! baca.OverrideCommand._call(2)
           %! baca.dls_staff_padding()
         \revert DynamicLineSpanner.staff-padding
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -5448,42 +5303,6 @@ segment.06.Piano.LH.Music.Voice = {
           %! baca.SpannerIndicatorCommand._call(2)
           %! baca.beam()
         [
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -5543,19 +5362,6 @@ segment.06.Piano.LH.Music.Voice = {
 
           %! baca.make_skeleton()
         r8
-        % AFTER:
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -5574,43 +5380,6 @@ segment.06.Piano.LH.Music.Voice = {
           %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 7]
         <g a b c'>8
-        % AFTER:
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -5652,19 +5421,6 @@ segment.06.Piano.LH.Music.Voice = {
 
           %! baca.make_skeleton()
         r8
-        % AFTER:
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -5683,43 +5439,6 @@ segment.06.Piano.LH.Music.Voice = {
           %! baca._comment_measure_numbers()
         % [Piano_LH_Music_Voice measure 8]
         <g a b c'>8
-        % AFTER:
-        % SPANNER_STARTS:
-          %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -5794,19 +5513,6 @@ segment.06.Piano.LH.Music.Voice = {
 
           %! baca.make_skeleton()
         r8
-        % AFTER:
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -6761,42 +6467,6 @@ segment.06.Percussion.Music.Voice = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
-            % SPANNER_STARTS:
-              %! AUTODETECT
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak bound-details.right.padding 2.75
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak color #darkcyan
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \tweak staff-padding 8
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \abjad-dashed-line-with-hook
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            - \baca-text-spanner-left-text "baca.make_skeleton()"
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_START
-              %! baca.PiecewiseCommand._call(2)
-              %! baca.rhythm_annotation_spanner()
-            \bacaStartTextSpanRhythmAnnotation
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
@@ -6861,18 +6531,6 @@ segment.06.Percussion.Music.Voice = {
               %! baca.OverrideCommand._call(2)
               %! baca.dls_staff_padding()
             \revert DynamicLineSpanner.staff-padding
-            % LEAK:
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_STOP
-              %! baca.PiecewiseCommand._call(4)
-              %! baca.rhythm_annotation_spanner()
-            <>
-            % LEAKS:
-              %! RHYTHM_ANNOTATION_SPANNER
-              %! SPANNER_STOP
-              %! baca.PiecewiseCommand._call(4)
-              %! baca.rhythm_annotation_spanner()
-            \bacaStopTextSpanRhythmAnnotation
             % CLOSING:
             % COMMANDS:
 
@@ -7176,41 +6834,6 @@ segment.06.Violin.Music.Voice = {
         \p
         % SPANNER_STARTS:
           %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
-          %! AUTODETECT
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -7427,18 +7050,6 @@ segment.06.Violin.Music.Voice = {
           %! baca.OverrideCommand._call(2)
           %! baca.dls_staff_padding()
         \revert DynamicLineSpanner.staff-padding
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -8474,41 +8085,6 @@ segment.06.Viola.Music.Voice = {
         \!
         % SPANNER_STARTS:
           %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
-          %! AUTODETECT
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
@@ -8723,18 +8299,6 @@ segment.06.Viola.Music.Voice = {
           %! baca.OverrideCommand._call(2)
           %! baca.dls_staff_padding()
         \revert DynamicLineSpanner.staff-padding
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
@@ -10441,41 +10005,6 @@ segment.06.Cello.Music.Voice = {
         \bacaStopTextSpanMaterialAnnotation
         % SPANNER_STARTS:
           %! AUTODETECT
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak bound-details.right.padding 2.75
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak color #darkcyan
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \tweak staff-padding 8
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \abjad-dashed-line-with-hook
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        - \baca-text-spanner-left-text "baca.make_skeleton()"
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_START
-          %! baca.PiecewiseCommand._call(2)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStartTextSpanRhythmAnnotation
-          %! AUTODETECT
           %! BOW_SPEED_SPANNER
           %! RIGHT_BROKEN
           %! SPANNER_START
@@ -10597,18 +10126,6 @@ segment.06.Cello.Music.Voice = {
           %! baca.OverrideCommand._call(2)
           %! baca.dls_staff_padding()
         \revert DynamicLineSpanner.staff-padding
-        % LEAK:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        <>
-        % LEAKS:
-          %! RHYTHM_ANNOTATION_SPANNER
-          %! SPANNER_STOP
-          %! baca.PiecewiseCommand._call(4)
-          %! baca.rhythm_annotation_spanner()
-        \bacaStopTextSpanRhythmAnnotation
         % CLOSING:
         % COMMANDS:
 
