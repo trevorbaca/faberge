@@ -93,7 +93,7 @@ commands(
 )
 commands(
     ("fl", (6, 8)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # EH
@@ -113,7 +113,7 @@ commands(
 
 commands(
     ("eh", (6, 8)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # CL
@@ -140,12 +140,12 @@ commands(
 
 commands(
     ("rh", (6, 8)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
     ["lh", "attack"],
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERC
