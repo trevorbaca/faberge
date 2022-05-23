@@ -75,7 +75,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context WindSectionStaffGroup = "Wind_Section_Staff_Group"
+                \context WindSectionStaffGroup = "Wind_Section.Staff_Group"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -87,7 +87,7 @@
                     \tag Flute
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Flute_Music_Staff"
+                    \context Staff = "Flute.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Flute.Music.Staff }
@@ -100,7 +100,7 @@
                     \tag EnglishHorn
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "English_Horn_Music_Staff"
+                    \context Staff = "English_Horn.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.English.Horn.Music.Staff }
@@ -113,7 +113,7 @@
                     \tag Clarinet
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Clarinet_Music_Staff"
+                    \context Staff = "Clarinet.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Clarinet.Music.Staff }
@@ -128,7 +128,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"
+                \context PercussionSectionStaffGroup = "Percussion_Section.Staff_Group"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -140,7 +140,7 @@
                     \tag Piano
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context PianoStaff = "Piano_Staff_Group"
+                    \context PianoStaff = "Piano.Staff_Group"
                       %! faberge.make_empty_score()
                     <<
                         % ABSOLUTE_BEFORE:
@@ -148,7 +148,7 @@
 
                         % OPEN_BRACKETS:
                           %! faberge.make_empty_score()
-                        \context Staff = "Piano_RH_Music_Staff"
+                        \context Staff = "Piano_RH.Music_Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
                         { \segment.01.Piano.RH.Music.Staff }
@@ -157,7 +157,7 @@
 
                         % OPEN_BRACKETS:
                           %! faberge.make_empty_score()
-                        \context Staff = "Piano_LH_Music_Staff"
+                        \context Staff = "Piano_LH.Music_Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
                         { \segment.01.Piano.LH.Music.Staff }
@@ -176,7 +176,7 @@
                     \tag Percussion
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Percussion_Music_Staff"
+                    \context Staff = "Percussion.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Percussion.Music.Staff }
@@ -191,7 +191,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context StringSectionStaffGroup = "String_Section_Staff_Group"
+                \context StringSectionStaffGroup = "String_Section.Staff_Group"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -203,7 +203,7 @@
                     \tag Violin
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Violin_Music_Staff"
+                    \context Staff = "Violin.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Violin.Music.Staff }
@@ -216,7 +216,7 @@
                     \tag Viola
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Viola_Music_Staff"
+                    \context Staff = "Viola.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Viola.Music.Staff }
@@ -229,7 +229,7 @@
                     \tag Cello
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Cello_Music_Staff"
+                    \context Staff = "Cello.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
                     { \segment.01.Cello.Music.Staff }

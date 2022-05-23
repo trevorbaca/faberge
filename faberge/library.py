@@ -777,45 +777,45 @@ def tuning_peg_staff_positions(*, rotation=None):
 
 
 voice_abbreviations = {
-    "fl": "Flute_Music_Voice",
-    "flr": "Flute_Rest_Voice",
-    "flx": ["Flute_Music_Voice", "Flute_Rest_Voice"],
-    "eh": "English_Horn_Music_Voice",
-    "ehr": "English_Horn_Rest_Voice",
-    "ehx": ["English_Horn_Music_Voice", "English_Horn_Rest_Voice"],
-    "cl": "Clarinet_Music_Voice",
-    "clr": "Clarinet_Rest_Voice",
-    "clx": ["Clarinet_Music_Voice", "Clarinet_Rest_Voice"],
-    "rh": "Piano_RH_Music_Voice",
-    "rhr": "Piano_RH_Rest_Voice",
-    "rhx": ["Piano_RH_Music_Voice", "Piano_RH_Rest_Voice"],
-    "lh": "Piano_LH_Music_Voice",
-    "lhr": "Piano_LH_Rest_Voice",
-    "lhx": ["Piano_LH_Music_Voice", "Piano_LH_Rest_Voice"],
-    "attack": "Piano_LH_Attack_Voice",
-    "perc": "Percussion_Music_Voice",
-    "percr": "Percussion_Rest_Voice",
-    "percx": ["Percussion_Music_Voice", "Percussion_Rest_Voice"],
-    "vn": "Violin_Music_Voice",
-    "vnr": "Violin_Rest_Voice",
-    "vnx": ["Violin_Music_Voice", "Violin_Rest_Voice"],
-    "va": "Viola_Music_Voice",
-    "var": "Viola_Rest_Voice",
-    "vax": ["Viola_Music_Voice", "Viola_Rest_Voice"],
-    "vc": "Cello_Music_Voice",
-    "vcr": "Cello_Rest_Voice",
-    "vcx": ["Cello_Music_Voice", "Cello_Rest_Voice"],
+    "fl": "Flute.Music_Voice",
+    "flr": "Flute.Rest_Voice",
+    "flx": ["Flute.Music_Voice", "Flute.Rest_Voice"],
+    "eh": "English_Horn.Music_Voice",
+    "ehr": "English_Horn.Rest_Voice",
+    "ehx": ["English_Horn.Music_Voice", "English_Horn.Rest_Voice"],
+    "cl": "Clarinet.Music_Voice",
+    "clr": "Clarinet.Rest_Voice",
+    "clx": ["Clarinet.Music_Voice", "Clarinet.Rest_Voice"],
+    "rh": "Piano_RH.Music_Voice",
+    "rhr": "Piano_RH.Rest_Voice",
+    "rhx": ["Piano_RH.Music_Voice", "Piano_RH.Rest_Voice"],
+    "lh": "Piano_LH.Music_Voice",
+    "lhr": "Piano_LH.Rest_Voice",
+    "lhx": ["Piano_LH.Music_Voice", "Piano_LH.Rest_Voice"],
+    "attack": "Piano_LH.Attack_Voice",
+    "perc": "Percussion.Music_Voice",
+    "percr": "Percussion.Rest_Voice",
+    "percx": ["Percussion.Music_Voice", "Percussion.Rest_Voice"],
+    "vn": "Violin.Music_Voice",
+    "vnr": "Violin.Rest_Voice",
+    "vnx": ["Violin.Music_Voice", "Violin.Rest_Voice"],
+    "va": "Viola.Music_Voice",
+    "var": "Viola.Rest_Voice",
+    "vax": ["Viola.Music_Voice", "Viola.Rest_Voice"],
+    "vc": "Cello.Music_Voice",
+    "vcr": "Cello.Rest_Voice",
+    "vcx": ["Cello.Music_Voice", "Cello.Rest_Voice"],
     "tutti": [
-        "Flute_Music_Voice",
-        "English_Horn_Music_Voice",
-        "Clarinet_Music_Voice",
-        "Piano_RH_Music_Voice",
-        "Piano_LH_Music_Voice",
-        "Piano_LH_Attack_Voice",
-        "Percussion_Music_Voice",
-        "Violin_Music_Voice",
-        "Viola_Music_Voice",
-        "Cello_Music_Voice",
+        "Flute.Music_Voice",
+        "English_Horn.Music_Voice",
+        "Clarinet.Music_Voice",
+        "Piano_RH.Music_Voice",
+        "Piano_LH.Music_Voice",
+        "Piano_LH.Attack_Voice",
+        "Percussion.Music_Voice",
+        "Violin.Music_Voice",
+        "Viola.Music_Voice",
+        "Cello.Music_Voice",
     ],
 }
 
@@ -824,13 +824,12 @@ def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     # GLOBAL CONTEXT
     global_context = baca.score.make_global_context()
-
     # FLUTE
-    flute_music_voice = abjad.Voice(name="Flute_Music_Voice", tag=tag)
+    flute_music_voice = abjad.Voice(name="Flute.Music_Voice", tag=tag)
     flute_music_staff = abjad.Staff(
         [flute_music_voice],
         simultaneous=True,
-        name="Flute_Music_Staff",
+        name="Flute.Music_Staff",
         tag=tag,
     )
     abjad.annotate(
@@ -840,13 +839,12 @@ def make_empty_score():
     )
     abjad.annotate(flute_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
-
     # ENGLISH HORN
-    english_horn_music_voice = abjad.Voice(name="English_Horn_Music_Voice", tag=tag)
+    english_horn_music_voice = abjad.Voice(name="English_Horn.Music_Voice", tag=tag)
     english_horn_music_staff = abjad.Staff(
         [english_horn_music_voice],
         simultaneous=True,
-        name="English_Horn_Music_Staff",
+        name="English_Horn.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -863,13 +861,12 @@ def make_empty_score():
     )
     abjad.annotate(english_horn_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("EnglishHorn", english_horn_music_staff)
-
     # CLARINET
-    clarinet_music_voice = abjad.Voice(name="Clarinet_Music_Voice", tag=tag)
+    clarinet_music_voice = abjad.Voice(name="Clarinet.Music_Voice", tag=tag)
     clarinet_music_staff = abjad.Staff(
         [clarinet_music_voice],
         simultaneous=True,
-        name="Clarinet_Music_Staff",
+        name="Clarinet.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -886,13 +883,12 @@ def make_empty_score():
     )
     abjad.annotate(clarinet_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
-
     # PIANO
-    piano_rh_music_voice = abjad.Voice(name="Piano_RH_Music_Voice", tag=tag)
+    piano_rh_music_voice = abjad.Voice(name="Piano_RH.Music_Voice", tag=tag)
     piano_rh_music_staff = abjad.Staff(
         [piano_rh_music_voice],
         simultaneous=True,
-        name="Piano_RH_Music_Staff",
+        name="Piano_RH.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -903,18 +899,18 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, piano_rh_music_staff)
     abjad.annotate(piano_rh_music_staff, "default_clef", abjad.Clef("treble"))
-    piano_lh_music_voice = abjad.Voice(name="Piano_LH_Music_Voice", tag=tag)
-    piano_lh_attack_voice = abjad.Voice(name="Piano_LH_Attack_Voice", tag=tag)
+    piano_lh_music_voice = abjad.Voice(name="Piano_LH.Music_Voice", tag=tag)
+    piano_lh_attack_voice = abjad.Voice(name="Piano_LH.Attack_Voice", tag=tag)
     piano_lh_music_staff = abjad.Staff(
         [piano_lh_music_voice, piano_lh_attack_voice],
         simultaneous=True,
-        name="Piano_LH_Music_Staff",
+        name="Piano_LH.Music_Staff",
         tag=tag,
     )
     piano_staff_group = abjad.StaffGroup(
         [piano_rh_music_staff, piano_lh_music_staff],
         lilypond_type="PianoStaff",
-        name="Piano_Staff_Group",
+        name="Piano.Staff_Group",
         tag=tag,
     )
     abjad.annotate(
@@ -924,13 +920,12 @@ def make_empty_score():
     )
     abjad.annotate(piano_lh_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Piano", piano_staff_group)
-
     # PERCUSSION
-    percussion_music_voice = abjad.Voice(name="Percussion_Music_Voice", tag=tag)
+    percussion_music_voice = abjad.Voice(name="Percussion.Music_Voice", tag=tag)
     percussion_music_staff = abjad.Staff(
         [percussion_music_voice],
         simultaneous=True,
-        name="Percussion_Music_Staff",
+        name="Percussion.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -947,13 +942,12 @@ def make_empty_score():
     )
     abjad.annotate(percussion_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Percussion", percussion_music_staff)
-
     # VIOLIN
-    violin_music_voice = abjad.Voice(name="Violin_Music_Voice", tag=tag)
+    violin_music_voice = abjad.Voice(name="Violin.Music_Voice", tag=tag)
     violin_music_staff = abjad.Staff(
         [violin_music_voice],
         simultaneous=True,
-        name="Violin_Music_Staff",
+        name="Violin.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -970,13 +964,12 @@ def make_empty_score():
     )
     abjad.annotate(violin_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Violin", violin_music_staff)
-
     # VIOLA
-    viola_music_voice = abjad.Voice(name="Viola_Music_Voice", tag=tag)
+    viola_music_voice = abjad.Voice(name="Viola.Music_Voice", tag=tag)
     viola_music_staff = abjad.Staff(
         [viola_music_voice],
         simultaneous=True,
-        name="Viola_Music_Staff",
+        name="Viola.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -993,13 +986,12 @@ def make_empty_score():
     )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
-
     # CELLO
-    cello_music_voice = abjad.Voice(name="Cello_Music_Voice", tag=tag)
+    cello_music_voice = abjad.Voice(name="Cello.Music_Voice", tag=tag)
     cello_music_staff = abjad.Staff(
         [cello_music_voice],
         simultaneous=True,
-        name="Cello_Music_Staff",
+        name="Cello.Music_Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -1016,7 +1008,6 @@ def make_empty_score():
     )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
-
     # WIND SECTION STAFF GROUP
     wind_section_staff_group = abjad.StaffGroup(
         [
@@ -1025,26 +1016,23 @@ def make_empty_score():
             clarinet_music_staff,
         ],
         lilypond_type="WindSectionStaffGroup",
-        name="Wind_Section_Staff_Group",
+        name="Wind_Section.Staff_Group",
         tag=tag,
     )
-
     # PERCUSSION SECTION STAFF GROUP
     percussion_section_staff_group = abjad.StaffGroup(
         [piano_staff_group, percussion_music_staff],
         lilypond_type="PercussionSectionStaffGroup",
-        name="Percussion_Section_Staff_Group",
+        name="Percussion_Section.Staff_Group",
         tag=tag,
     )
-
     # STRING SECTION STAFF GROUP
     string_section_staff_group = abjad.StaffGroup(
         [violin_music_staff, viola_music_staff, cello_music_staff],
         lilypond_type="StringSectionStaffGroup",
-        name="String_Section_Staff_Group",
+        name="String_Section.Staff_Group",
         tag=tag,
     )
-
     # MUSIC CONTEXT
     music_context = abjad.Context(
         [
@@ -1057,7 +1045,6 @@ def make_empty_score():
         name="Music_Context",
         tag=tag,
     )
-
     # SCORE
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)
