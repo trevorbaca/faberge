@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.05.Global.Skips = {
+segment.05.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -507,7 +507,7 @@ segment.05.Global.Skips = {
 
 
   %! baca.path.extern()
-segment.05.Global.Rests = {
+segment.05.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -604,7 +604,7 @@ segment.05.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.05.Flute.Music.Voice = {
+segment.05.Flute_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1608,7 +1608,7 @@ segment.05.Flute.Music.Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \segment.05.Global.Rests }
+    { \segment.05.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1617,7 +1617,7 @@ segment.05.Flute.Music.Staff = <<
     \context Voice = "Flute_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Flute.Music.Voice }
+    { \segment.05.Flute_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -1628,7 +1628,7 @@ segment.05.Flute.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.English.Horn.Music.Voice = {
+segment.05.English_Horn_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2068,7 +2068,7 @@ segment.05.English.Horn.Music.Staff = <<
     \context Voice = "English_Horn_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.English.Horn.Music.Voice }
+    { \segment.05.English_Horn_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -2079,7 +2079,7 @@ segment.05.English.Horn.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Clarinet.Music.Voice = {
+segment.05.Clarinet_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3056,7 +3056,7 @@ segment.05.Clarinet.Music.Staff = <<
     \context Voice = "Clarinet_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Clarinet.Music.Voice }
+    { \segment.05.Clarinet_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -3067,7 +3067,7 @@ segment.05.Clarinet.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Piano.RH.Music.Voice = {
+segment.05.Piano_RH_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3409,7 +3409,7 @@ segment.05.Piano.RH.Music.Staff = <<
     \context Voice = "Piano_RH_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Piano.RH.Music.Voice }
+    { \segment.05.Piano_RH_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -3420,7 +3420,7 @@ segment.05.Piano.RH.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Piano.LH.Music.Voice = {
+segment.05.Piano_LH_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3717,7 +3717,7 @@ segment.05.Piano.LH.Music.Voice = {
 
 
   %! baca.path.extern()
-segment.05.Piano.LH.Attack.Voice = {
+segment.05.Piano_LH_Attack_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3977,7 +3977,7 @@ segment.05.Piano.LH.Music.Staff = <<
     \context Voice = "Piano_LH_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Piano.LH.Music.Voice }
+    { \segment.05.Piano_LH_Music_Voice }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3986,7 +3986,7 @@ segment.05.Piano.LH.Music.Staff = <<
     \context Voice = "Piano_LH_Attack_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Piano.LH.Attack.Voice }
+    { \segment.05.Piano_LH_Attack_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -3997,7 +3997,7 @@ segment.05.Piano.LH.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Percussion.Music.Voice = {
+segment.05.Percussion_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4439,7 +4439,7 @@ segment.05.Percussion.Music.Staff = <<
     \context Voice = "Percussion_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Percussion.Music.Voice }
+    { \segment.05.Percussion_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -4450,7 +4450,7 @@ segment.05.Percussion.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Violin.Music.Voice = {
+segment.05.Violin_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5214,7 +5214,7 @@ segment.05.Violin.Music.Staff = <<
     \context Voice = "Violin_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Violin.Music.Voice }
+    { \segment.05.Violin_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -5225,7 +5225,7 @@ segment.05.Violin.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Viola.Music.Voice = {
+segment.05.Viola_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5957,7 +5957,7 @@ segment.05.Viola.Music.Staff = <<
     \context Voice = "Viola_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Viola.Music.Voice }
+    { \segment.05.Viola_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -5968,7 +5968,7 @@ segment.05.Viola.Music.Staff = <<
 
 
   %! baca.path.extern()
-segment.05.Cello.Music.Voice = {
+segment.05.Cello_Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7393,7 +7393,7 @@ segment.05.Cello.Music.Staff = <<
     \context Voice = "Cello_Music_Voice"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \segment.05.Cello.Music.Voice }
+    { \segment.05.Cello_Music_Voice }
     % CLOSING:
     % COMMANDS:
 
