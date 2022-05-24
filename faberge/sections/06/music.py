@@ -51,7 +51,7 @@ commands(
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
             ),
         ),
-        baca.only_segment(
+        baca.only_section(
             baca.rehearsal_mark(
                 "E",
                 lambda _: baca.select.skip(_, 1 - 1),
