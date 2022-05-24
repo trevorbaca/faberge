@@ -358,7 +358,7 @@ if __name__ == "__main__":
         ),
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
-        final_segment=True,
+        final_section=True,
         global_rests_in_topmost_staff=True,
         stage_markup=stage_markup,
         transpose_score=True,
