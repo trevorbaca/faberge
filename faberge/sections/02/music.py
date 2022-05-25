@@ -40,11 +40,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
+    metronome_marks=library.metronome_marks(),
     time_signatures=time_signatures,
-    voice_abbreviations=library.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 
@@ -617,7 +617,7 @@ commands(
         abjad.Tweak(r"- \tweak padding 1.5"),
         selector=lambda _: baca.select.mmrest(_, 0),
     ),
-    baca.instrument(library.instruments["BassFlute"]),
+    baca.instrument(library.instruments()["BassFlute"]),
     library.margin_markup("B. fl."),
 )
 
@@ -805,7 +805,7 @@ commands(
 
 commands(
     ("cl", 41),
-    baca.instrument(library.instruments["BassClarinet"]),
+    baca.instrument(library.instruments()["BassClarinet"]),
     library.margin_markup("B. cl."),
     baca.markup(
         r"\baca-to-bass-clarinet-markup",
