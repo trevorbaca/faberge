@@ -1,9 +1,9 @@
-SEGMENTS
+SECTIONS
 ========
 
 [A]
 
-    process of alternation over segment: first term is broken shell, second
+    process of alternation over section: first term is broken shell, second
     term is composite papers and kiln.
 
     first term: broken shell: fast tempo: vn, va, vc tremolo flautando
@@ -248,7 +248,7 @@ SEGMENTS
     oboe jumps subito to doppeltrill.
     upper instruments fall silent and transition into material of next stage.
     stage holds state of doppeltrill for quite some time.
-    materials of following segment already present underneath doppeltrill.
+    materials of following section already present underneath doppeltrill.
     unaccompanied doppeltrill never appears though psychological solo.
 
 [E.1]
@@ -262,7 +262,7 @@ SEGMENTS
     ribattuto on the harpsichord. very slow-moving stepwise motion in each part
     means that pitches are repeated many times in each part before advancing.
 
-    magic of the segment are the music's repeated attempts to transform the
+    magic of the section are the music's repeated attempts to transform the
     treasure room of mind into the golden gears. transformation freezes the
     polyrhythm of a single line into a sustained pitch that very soon
     thereafter begins a glissando lentissimo towards the target pitch of the
