@@ -54,7 +54,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \section_number.06.Global_Skips }
+                { \section_number.6.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -89,7 +89,7 @@
                     \context Staff = "Flute.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Flute.Music_Staff }
+                    { \section_number.6.Flute.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -102,7 +102,7 @@
                     \context Staff = "English_Horn.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.English_Horn.Music_Staff }
+                    { \section_number.6.English_Horn.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -115,7 +115,7 @@
                     \context Staff = "Clarinet.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Clarinet.Music_Staff }
+                    { \section_number.6.Clarinet.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -150,7 +150,7 @@
                         \context Staff = "Piano_RH.Music_Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
-                        { \section_number.06.Piano_RH.Music_Staff }
+                        { \section_number.6.Piano_RH.Music_Staff }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -159,7 +159,7 @@
                         \context Staff = "Piano_LH.Music_Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
-                        { \section_number.06.Piano_LH.Music_Staff }
+                        { \section_number.6.Piano_LH.Music_Staff }
                         % CLOSING:
                         % COMMANDS:
 
@@ -178,7 +178,7 @@
                     \context Staff = "Percussion.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Percussion.Music_Staff }
+                    { \section_number.6.Percussion.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -205,7 +205,7 @@
                     \context Staff = "Violin.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Violin.Music_Staff }
+                    { \section_number.6.Violin.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -218,7 +218,7 @@
                     \context Staff = "Viola.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Viola.Music_Staff }
+                    { \section_number.6.Viola.Music_Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -231,7 +231,7 @@
                     \context Staff = "Cello.Music_Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \section_number.06.Cello.Music_Staff }
+                    { \section_number.6.Cello.Music_Staff }
                     % CLOSING:
                     % COMMANDS:
 
