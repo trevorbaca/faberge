@@ -238,7 +238,7 @@ def make_empty_score():
         _instruments["EnglishHorn"],
     )
     abjad.annotate(english_horn_music_staff, "default_clef", abjad.Clef("treble"))
-    baca.score.attach_lilypond_tag("EnglishHorn", english_horn_music_staff)
+    baca.score.attach_lilypond_tag("English_Horn", english_horn_music_staff)
     # CLARINET
     clarinet_music_voice = abjad.Voice(name="Clarinet.Music_Voice", tag=tag)
     clarinet_music_staff = abjad.Staff(

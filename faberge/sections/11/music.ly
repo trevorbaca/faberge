@@ -96,7 +96,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag #'EnglishHorn
+                    \tag #'English_Horn
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "English_Horn.Music_Staff"
