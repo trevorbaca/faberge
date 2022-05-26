@@ -84,7 +84,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Flute
+                    \tag #'Flute
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Flute.Music_Staff"
@@ -97,7 +97,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag EnglishHorn
+                    \tag #'EnglishHorn
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "English_Horn.Music_Staff"
@@ -110,7 +110,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Clarinet
+                    \tag #'Clarinet
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Clarinet.Music_Staff"
@@ -137,7 +137,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Piano
+                    \tag #'Piano
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context PianoStaff = "Piano.Staff_Group"
@@ -173,7 +173,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Percussion
+                    \tag #'Percussion
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Percussion.Music_Staff"
@@ -200,7 +200,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Violin
+                    \tag #'Violin
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Violin.Music_Staff"
@@ -213,7 +213,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Viola
+                    \tag #'Viola
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Viola.Music_Staff"
@@ -226,7 +226,7 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag Cello
+                    \tag #'Cello
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
                     \context Staff = "Cello.Music_Staff"
