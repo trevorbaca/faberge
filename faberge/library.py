@@ -226,8 +226,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -248,8 +248,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -270,8 +270,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -307,8 +307,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -329,8 +329,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -351,8 +351,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )
@@ -373,8 +373,8 @@ def make_empty_score():
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
-    #            [ r'\context GlobalRests = "Global_Rests"',
-    #            r'\X_Global_Rests',
+    #            [ r'\context GlobalRests = "GlobalRests"',
+    #            r'\X_GlobalRests',
     #            ],
     #            site='opening',
     #            )

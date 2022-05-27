@@ -36,7 +36,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.chunk(
         baca.only_parts(
             baca.rehearsal_mark(
@@ -63,7 +63,7 @@ commands(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.metronome_mark(
         "100",
         selector=lambda _: baca.select.skip(_, 1 - 1),
