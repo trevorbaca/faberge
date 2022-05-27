@@ -22,6 +22,7 @@ time_signatures = maker_.run()
 
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -152,13 +153,16 @@ music_voice_names = [_ for _ in voice_names if "MusicVoice" in _ or "Attack_Voic
 commands(
     music_voice_names,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(),
+    baca.attach_first_section_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # fl
 
 commands(
     "fl",
+    baca.instrument(instruments["Flute"]),
     baca.staff_lines(5),
     baca.start_markup(r"\faberge-flute-markup"),
     library.margin_markup("Fl."),
@@ -168,6 +172,7 @@ commands(
 
 commands(
     "eh",
+    baca.instrument(instruments["EnglishHorn"]),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-english-horn-markup"),
@@ -196,6 +201,7 @@ commands(
 
 commands(
     "cl",
+    baca.instrument(instruments["Clarinet"]),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(r"\faberge-clarinet-markup"),
@@ -207,6 +213,7 @@ commands(
 
 commands(
     "rh",
+    baca.instrument(instruments["Piano"]),
     baca.staff_lines(5),
     baca.chunk(
         baca.start_markup(
@@ -233,6 +240,7 @@ commands(
 
 commands(
     "perc",
+    baca.instrument(instruments["Percussion"]),
     baca.staff_lines(5),
     baca.start_markup(r"\faberge-percussion-markup"),
     library.margin_markup("Perc."),
@@ -242,6 +250,7 @@ commands(
 
 commands(
     "vn",
+    baca.instrument(instruments["Violin"]),
     baca.staff_lines(5),
     baca.start_markup(r"\faberge-violin-markup"),
     library.margin_markup("Vn."),
@@ -261,6 +270,7 @@ commands(
 
 commands(
     "va",
+    baca.instrument(instruments["Viola"]),
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
     baca.start_markup(r"\faberge-viola-markup"),
@@ -280,6 +290,7 @@ commands(
 
 commands(
     "vc",
+    baca.instrument(instruments["Cello"]),
     baca.staff_lines(5),
     baca.start_markup(r"\faberge-cello-markup"),
     library.margin_markup("Vc."),

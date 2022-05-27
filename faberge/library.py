@@ -210,11 +210,6 @@ def make_empty_score():
         name="Flute.Music_Staff",
         tag=tag,
     )
-    abjad.annotate(
-        flute_music_staff,
-        "default_instrument",
-        _instruments["Flute"],
-    )
     abjad.annotate(flute_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
     # ENGLISH HORN
@@ -232,11 +227,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, english_horn_music_staff)
-    abjad.annotate(
-        english_horn_music_staff,
-        "default_instrument",
-        _instruments["EnglishHorn"],
-    )
     abjad.annotate(english_horn_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("English_Horn", english_horn_music_staff)
     # CLARINET
@@ -254,11 +244,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, clarinet_music_staff)
-    abjad.annotate(
-        clarinet_music_staff,
-        "default_instrument",
-        _instruments["Clarinet"],
-    )
     abjad.annotate(clarinet_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
     # PIANO
@@ -291,11 +276,6 @@ def make_empty_score():
         name="Piano.Staff_Group",
         tag=tag,
     )
-    abjad.annotate(
-        piano_staff_group,
-        "default_instrument",
-        _instruments["Piano"],
-    )
     abjad.annotate(piano_lh_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Piano", piano_staff_group)
     # PERCUSSION
@@ -313,11 +293,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, percussion_music_staff)
-    abjad.annotate(
-        percussion_music_staff,
-        "default_instrument",
-        _instruments["Percussion"],
-    )
     abjad.annotate(percussion_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Percussion", percussion_music_staff)
     # VIOLIN
@@ -335,11 +310,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, violin_music_staff)
-    abjad.annotate(
-        violin_music_staff,
-        "default_instrument",
-        _instruments["Violin"],
-    )
     abjad.annotate(violin_music_staff, "default_clef", abjad.Clef("treble"))
     baca.score.attach_lilypond_tag("Violin", violin_music_staff)
     # VIOLA
@@ -357,11 +327,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, viola_music_staff)
-    abjad.annotate(
-        viola_music_staff,
-        "default_instrument",
-        _instruments["Viola"],
-    )
     abjad.annotate(viola_music_staff, "default_clef", abjad.Clef("alto"))
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
     # CELLO
@@ -379,11 +344,6 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, cello_music_staff)
-    abjad.annotate(
-        cello_music_staff,
-        "default_instrument",
-        _instruments["Cello"],
-    )
     abjad.annotate(cello_music_staff, "default_clef", abjad.Clef("bass"))
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
     # WIND SECTION STAFF GROUP
