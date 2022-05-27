@@ -403,12 +403,12 @@ number.1.Flute.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Flute”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Flute”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Fl.”]"
@@ -683,12 +683,12 @@ number.1.English_Horn.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“EnglishHorn”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“EnglishHorn”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Eng. hn.”]"
@@ -1139,12 +1139,12 @@ number.1.Clarinet.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Clarinet”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Clarinet”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cl.”]"
@@ -1415,12 +1415,12 @@ number.1.Piano_RH.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Piano”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Piano”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Pf.”]"
@@ -2127,12 +2127,12 @@ number.1.Percussion.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Percussion”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Percussion”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc.”]"
@@ -2419,9 +2419,9 @@ number.1.Violin.MusicVoice = {
       %! baca.dynamic()
     \baca-effort-f
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vn.”]"
@@ -2895,9 +2895,9 @@ number.1.Viola.MusicVoice = {
         r4
         % AFTER:
         % MARKUP:
-          %! DEFAULT_INSTRUMENT_ALERT
+          %! EXPLICIT_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
-        ^ \baca-default-indicator-markup "(“Viola”)"
+        ^ \baca-explicit-indicator-markup "(“Viola”)"
           %! EXPLICIT_MARGIN_MARKUP_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-explicit-indicator-markup "[“Va.”]"
@@ -3373,12 +3373,12 @@ number.1.Cello.MusicVoice = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc.”]"
