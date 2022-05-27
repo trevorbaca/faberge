@@ -198,7 +198,7 @@ commands(
 # phantom & reapply
 
 music_voice_names = [
-    _ for _ in voice_names if "Music_Voice" in _ or "Attack_Voice" in _
+    _ for _ in voice_names if "MusicVoice" in _ or "Attack_Voice" in _
 ]
 
 commands(
