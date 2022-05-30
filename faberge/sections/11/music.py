@@ -308,13 +308,19 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom & reapply
+# anchor notes
+
+commands(
+    ["fl", "cl", "rh", "perc", "va"],
+    baca.append_anchor_note(),
+)
+
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _ or "Attack_Voice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 

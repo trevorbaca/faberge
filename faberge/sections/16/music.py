@@ -195,13 +195,12 @@ commands(
     baca.make_notes(),
 )
 
-# phantom & reapply
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _ or "Attack_Voice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
@@ -319,9 +318,10 @@ commands(
     baca.chunk(
         baca.mark(r"\faberge-colophon-markup"),
         baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_extra_offset((40, 0)),
         baca.rehearsal_mark_padding(6),
         baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
+        selector=lambda _: abjad.select.leaf(_, -1),
     ),
 )
 
