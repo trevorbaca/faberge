@@ -1639,6 +1639,14 @@ number.9.Flute.MusicVoice = {
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % COMMANDS:
+              %! FERMATA_MEASURE
+              %! MEASURE_227
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.BarLine.transparent = ##t
+              %! FERMATA_MEASURE
+              %! MEASURE_227
+              %! baca._style_fermata_measures(7)
+        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1700,16 +1708,6 @@ number.9.Flute.MusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! baca._style_fermata_measures(3)
     \startStaff
-    % OPENING:
-    % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_227
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_227
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! baca._make_mmrests()
     R1 * 3/2
     % AFTER:
