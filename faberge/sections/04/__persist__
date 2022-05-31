@@ -28,13 +28,10 @@
         "String_Section.Staff_Group",
         "Violin.Music_Staff",
         "Violin.MusicVoice",
-        "Violin.RestVoice",
         "Viola.Music_Staff",
         "Viola.MusicVoice",
-        "Viola.RestVoice",
         "Cello.Music_Staff",
         "Cello.MusicVoice",
-        "Cello.RestVoice",
     ],
     "persistent_indicators": {
         "Cello.MusicVoice": [

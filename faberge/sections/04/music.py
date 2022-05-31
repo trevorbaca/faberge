@@ -250,12 +250,14 @@ commands(
     ),
 )
 
-# phantom & reapply
+# reapply
 
 commands(
     ["perc", "vn", "va", "vc"],
-    baca.append_phantom_measure(),
+    baca.append_anchor_note(),
 )
+
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _ or "Attack_Voice" in _]
 
