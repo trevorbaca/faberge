@@ -22422,6 +22422,10 @@ number.3.Percussion.MusicVoice = {
     % COMMANDS:
       %! ANCHOR_NOTE
       %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(5)
+    \once \override Accidental.stencil = ##f
+      %! ANCHOR_NOTE
+      %! baca._style_anchor_notes()
       %! baca.append_anchor_note(4)
     \stopStaff
       %! ANCHOR_NOTE
@@ -27014,6 +27018,10 @@ number.3.Violin.MusicVoice = {
     \baca-not-yet-pitched-coloring
     % OPENING:
     % COMMANDS:
+      %! ANCHOR_NOTE
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(5)
+    \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
       %! baca._style_anchor_notes()
       %! baca.append_anchor_note(4)
