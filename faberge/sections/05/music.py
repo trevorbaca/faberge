@@ -214,13 +214,6 @@ commands(
     baca.make_mmrests(),
 )
 
-# anchor notes
-
-commands(
-    ["fl", "eh", "cl", "vn", "va", "vc"],
-    baca.append_anchor_note(),
-)
-
 # reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _ or "Attack_Voice" in _]
