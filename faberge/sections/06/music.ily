@@ -674,7 +674,7 @@ number.6.Flute.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-bfl-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-bfl-markup
@@ -702,7 +702,7 @@ number.6.Flute.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -727,7 +727,7 @@ number.6.Flute.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“BassFlute”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"
     % SPANNER_STARTS:
@@ -791,11 +791,11 @@ number.6.Flute.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -2132,7 +2132,7 @@ number.6.English_Horn.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-eh-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-eh-markup
@@ -2160,7 +2160,7 @@ number.6.English_Horn.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -2195,7 +2195,7 @@ number.6.English_Horn.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
     % ABSOLUTE_AFTER:
@@ -2203,11 +2203,11 @@ number.6.English_Horn.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -2371,7 +2371,7 @@ number.6.Clarinet.MusicVoice = {
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \faberge-bcl-markup
           %! -PARTS
-          %! REAPPLIED_MARGIN_MARKUP
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \set Staff.shortInstrumentName = \faberge-bcl-markup
@@ -2399,7 +2399,7 @@ number.6.Clarinet.MusicVoice = {
           %! REAPPLIED_CLEF_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_MARGIN_MARKUP_COLOR
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)
           %! REAPPLIED_STAFF_LINES_COLOR
@@ -2420,7 +2420,7 @@ number.6.Clarinet.MusicVoice = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"
-          %! REAPPLIED_MARGIN_MARKUP_ALERT
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
         % SPANNER_STARTS:
@@ -2488,11 +2488,11 @@ number.6.Clarinet.MusicVoice = {
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
-          %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
           %! -PARTS
-          %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+          %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
@@ -3924,7 +3924,7 @@ number.6.Piano_RH.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set PianoStaff.instrumentName = \faberge-pf-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
@@ -3949,7 +3949,7 @@ number.6.Piano_RH.MusicVoice = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \clef "bass"
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR
@@ -3987,19 +3987,19 @@ number.6.Piano_RH.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -5378,7 +5378,7 @@ number.6.Percussion.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-perc-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-perc-markup
@@ -5406,7 +5406,7 @@ number.6.Percussion.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -5441,7 +5441,7 @@ number.6.Percussion.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"
     % ABSOLUTE_AFTER:
@@ -5449,11 +5449,11 @@ number.6.Percussion.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -6021,7 +6021,7 @@ number.6.Violin.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-vn-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-vn-markup
@@ -6049,7 +6049,7 @@ number.6.Violin.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -6084,7 +6084,7 @@ number.6.Violin.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"
     % ABSOLUTE_AFTER:
@@ -6092,11 +6092,11 @@ number.6.Violin.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -7150,7 +7150,7 @@ number.6.Viola.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-va-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-va-markup
@@ -7178,7 +7178,7 @@ number.6.Viola.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -7213,7 +7213,7 @@ number.6.Viola.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Va.”]"
     % ABSOLUTE_AFTER:
@@ -7221,11 +7221,11 @@ number.6.Viola.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
@@ -8286,7 +8286,7 @@ number.6.Cello.MusicVoice = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-vc-markup
       %! -PARTS
-      %! REAPPLIED_MARGIN_MARKUP
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-vc-markup
@@ -8314,7 +8314,7 @@ number.6.Cello.MusicVoice = {
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -8349,7 +8349,7 @@ number.6.Cello.MusicVoice = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
     % ABSOLUTE_AFTER:
@@ -8357,11 +8357,11 @@ number.6.Cello.MusicVoice = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
-      %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+      %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
