@@ -26,7 +26,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
@@ -152,8 +152,8 @@ commands(
     baca.instrument(instruments["Flute"]),
     baca.clef("treble"),
     baca.staff_lines(5),
-    baca.start_markup(r"\faberge-flute-markup"),
-    library.margin_markup("Fl."),
+    baca.instrument_name(r"\faberge-flute-markup"),
+    library.short_instrument_name("Fl."),
 )
 
 # eh
@@ -164,8 +164,8 @@ commands(
     baca.clef("treble"),
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r"\faberge-english-horn-markup"),
-        library.margin_markup("Eng. hn."),
+        baca.instrument_name(r"\faberge-english-horn-markup"),
+        library.short_instrument_name("Eng. hn."),
     ),
 )
 
@@ -194,8 +194,8 @@ commands(
     baca.clef("treble"),
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(r"\faberge-clarinet-markup"),
-        library.margin_markup("Cl."),
+        baca.instrument_name(r"\faberge-clarinet-markup"),
+        library.short_instrument_name("Cl."),
     ),
 )
 
@@ -207,11 +207,11 @@ commands(
     baca.clef("treble"),
     baca.staff_lines(5),
     baca.chunk(
-        baca.start_markup(
+        baca.instrument_name(
             r"\faberge-piano-markup",
             context="PianoStaff",
         ),
-        library.margin_markup(
+        library.short_instrument_name(
             "Pf.",
             context="PianoStaff",
         ),
@@ -235,8 +235,8 @@ commands(
     baca.instrument(instruments["Percussion"]),
     baca.clef("treble"),
     baca.staff_lines(5),
-    baca.start_markup(r"\faberge-percussion-markup"),
-    library.margin_markup("Perc."),
+    baca.instrument_name(r"\faberge-percussion-markup"),
+    library.short_instrument_name("Perc."),
 )
 
 # vn
@@ -246,8 +246,8 @@ commands(
     baca.instrument(instruments["Violin"]),
     baca.clef("treble"),
     baca.staff_lines(5),
-    baca.start_markup(r"\faberge-violin-markup"),
-    library.margin_markup("Vn."),
+    baca.instrument_name(r"\faberge-violin-markup"),
+    library.short_instrument_name("Vn."),
     baca.dls_staff_padding(4),
 )
 
@@ -268,8 +268,8 @@ commands(
     baca.clef("alto"),
     baca.staff_lines(5),
     baca.dls_staff_padding(6),
-    baca.start_markup(r"\faberge-viola-markup"),
-    library.margin_markup("Va."),
+    baca.instrument_name(r"\faberge-viola-markup"),
+    library.short_instrument_name("Va."),
 )
 
 commands(
@@ -288,8 +288,8 @@ commands(
     baca.instrument(instruments["Cello"]),
     baca.clef("bass"),
     baca.staff_lines(5),
-    baca.start_markup(r"\faberge-cello-markup"),
-    library.margin_markup("Vc."),
+    baca.instrument_name(r"\faberge-cello-markup"),
+    library.short_instrument_name("Vc."),
 )
 
 if __name__ == "__main__":

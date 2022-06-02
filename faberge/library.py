@@ -732,22 +732,22 @@ def make_suffixed_colortrill_rhythm():
     )
 
 
-def margin_markups():
+def short_instrument_names():
     return dict(
         [
-            ("B. cl.", abjad.MarginMarkup(markup=r"\faberge-bcl-markup")),
-            ("B. fl.", abjad.MarginMarkup(markup=r"\faberge-bfl-markup")),
-            ("Cl.", abjad.MarginMarkup(markup=r"\faberge-cl-markup")),
-            ("Eng. hn.", abjad.MarginMarkup(markup=r"\faberge-eh-markup")),
-            ("Fl.", abjad.MarginMarkup(markup=r"\faberge-fl-markup")),
-            ("Perc.", abjad.MarginMarkup(markup=r"\faberge-perc-markup")),
+            ("B. cl.", abjad.ShortInstrumentName(r"\faberge-bcl-markup")),
+            ("B. fl.", abjad.ShortInstrumentName(r"\faberge-bfl-markup")),
+            ("Cl.", abjad.ShortInstrumentName(r"\faberge-cl-markup")),
+            ("Eng. hn.", abjad.ShortInstrumentName(r"\faberge-eh-markup")),
+            ("Fl.", abjad.ShortInstrumentName(r"\faberge-fl-markup")),
+            ("Perc.", abjad.ShortInstrumentName(r"\faberge-perc-markup")),
             (
                 "Pf.",
-                abjad.MarginMarkup(context="PianoStaff", markup=r"\faberge-pf-markup"),
+                abjad.ShortInstrumentName(r"\faberge-pf-markup", context="PianoStaff"),
             ),
-            ("Va.", abjad.MarginMarkup(markup=r"\faberge-va-markup")),
-            ("Vc.", abjad.MarginMarkup(markup=r"\faberge-vc-markup")),
-            ("Vn.", abjad.MarginMarkup(markup=r"\faberge-vn-markup")),
+            ("Va.", abjad.ShortInstrumentName(r"\faberge-va-markup")),
+            ("Vc.", abjad.ShortInstrumentName(r"\faberge-vc-markup")),
+            ("Vn.", abjad.ShortInstrumentName(r"\faberge-vn-markup")),
         ]
     )
 
@@ -821,16 +821,16 @@ def keynoise_pitches(*, rotation=None):
     return baca.pitches(keynoise_pitches)
 
 
-def margin_markup(
+def short_instrument_name(
     key,
     *,
     alert=None,
     context="Staff",
     selector=lambda _: abjad.select.leaf(_, 0),
 ):
-    margin_markup = margin_markups()[key]
-    command = baca.margin_markup(
-        margin_markup,
+    short_instrument_name = short_instrument_names()[key]
+    command = baca.short_instrument_name(
+        short_instrument_name,
         alert=alert,
         context=context,
         selector=selector,
