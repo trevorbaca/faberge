@@ -31,7 +31,7 @@ def instruments():
             ("Harpsichord", abjad.Harpsichord()),
             (
                 "Percussion",
-                abjad.Percussion(allowable_clefs=("bass", "percussion", "treble")),
+                abjad.Percussion(clefs=("bass", "percussion", "treble")),
             ),
             ("Violin", abjad.Violin()),
             ("Viola", abjad.Viola()),
