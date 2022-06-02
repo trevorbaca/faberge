@@ -31,11 +31,11 @@ def instruments():
             ("Harpsichord", abjad.Harpsichord()),
             (
                 "Percussion",
-                abjad.Percussion(allowable_clefs=["bass", "percussion", "treble"]),
+                abjad.Percussion(allowable_clefs=("bass", "percussion", "treble")),
             ),
             ("Violin", abjad.Violin()),
             ("Viola", abjad.Viola()),
-            ("Cello", abjad.Cello(pitch_range="[B#1, +inf]")),
+            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[B#1, +inf]"))),
         ]
     )
 
