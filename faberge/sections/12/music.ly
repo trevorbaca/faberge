@@ -66,7 +66,7 @@
 
             % OPEN_BRACKETS:
               %! faberge.make_empty_score()
-            \context MusicContext = "Music_Context"
+            \context MusicContext = "MusicContext"
               %! faberge.make_empty_score()
             <<
                 % ABSOLUTE_BEFORE:
