@@ -1,10 +1,10 @@
   %! baca.path.extern()
-number.3.GlobalSkips = {
+number.3.Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 1]
+    % [Skips measure 1]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -96,7 +96,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 2]
+    % [Skips measure 2]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -142,7 +142,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 3]
+    % [Skips measure 3]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -179,7 +179,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 4]
+    % [Skips measure 4]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -225,7 +225,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 5]
+    % [Skips measure 5]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -271,7 +271,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 6]
+    % [Skips measure 6]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -317,7 +317,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 7]
+    % [Skips measure 7]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -363,7 +363,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 8]
+    % [Skips measure 8]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -409,7 +409,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 9]
+    % [Skips measure 9]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -464,7 +464,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 10]
+    % [Skips measure 10]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -510,7 +510,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 11]
+    % [Skips measure 11]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -565,7 +565,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 12]
+    % [Skips measure 12]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -611,7 +611,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 13]
+    % [Skips measure 13]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -666,7 +666,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 14]
+    % [Skips measure 14]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -712,7 +712,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 15]
+    % [Skips measure 15]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -758,7 +758,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 16]
+    % [Skips measure 16]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -804,7 +804,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 17]
+    % [Skips measure 17]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -859,7 +859,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 18]
+    % [Skips measure 18]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -905,7 +905,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 19]
+    % [Skips measure 19]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -951,7 +951,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 20]
+    % [Skips measure 20]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -997,7 +997,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 21]
+    % [Skips measure 21]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -1034,7 +1034,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 22]
+    % [Skips measure 22]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1080,7 +1080,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 23]
+    % [Skips measure 23]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1135,7 +1135,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 24]
+    % [Skips measure 24]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1181,7 +1181,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 25]
+    % [Skips measure 25]
       %! baca._make_global_skips(1)
     s1 * 3/4
     % AFTER:
@@ -1218,7 +1218,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 26]
+    % [Skips measure 26]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1264,7 +1264,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 27]
+    % [Skips measure 27]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -1310,7 +1310,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 28]
+    % [Skips measure 28]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1356,7 +1356,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 29]
+    % [Skips measure 29]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1402,7 +1402,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 30]
+    % [Skips measure 30]
       %! baca._make_global_skips(1)
     s1 * 1/2
     % AFTER:
@@ -1439,7 +1439,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 31]
+    % [Skips measure 31]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1494,7 +1494,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 32]
+    % [Skips measure 32]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1540,7 +1540,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 33]
+    % [Skips measure 33]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1586,7 +1586,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 34]
+    % [Skips measure 34]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1632,7 +1632,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 35]
+    % [Skips measure 35]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1678,7 +1678,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 36]
+    % [Skips measure 36]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1724,7 +1724,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 37]
+    % [Skips measure 37]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1779,7 +1779,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 38]
+    % [Skips measure 38]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1825,7 +1825,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 39]
+    % [Skips measure 39]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1871,7 +1871,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 40]
+    % [Skips measure 40]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1917,7 +1917,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 41]
+    % [Skips measure 41]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1963,7 +1963,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 42]
+    % [Skips measure 42]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2009,7 +2009,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 43]
+    % [Skips measure 43]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2055,7 +2055,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 44]
+    % [Skips measure 44]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2101,7 +2101,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 45]
+    % [Skips measure 45]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -2147,7 +2147,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 46]
+    % [Skips measure 46]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2193,7 +2193,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 47]
+    % [Skips measure 47]
       %! baca._make_global_skips(1)
     s1 * 3/4
     % AFTER:
@@ -2230,7 +2230,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 48]
+    % [Skips measure 48]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2276,7 +2276,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 49]
+    % [Skips measure 49]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2331,7 +2331,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 50]
+    % [Skips measure 50]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2377,7 +2377,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 51]
+    % [Skips measure 51]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -2414,7 +2414,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 52]
+    % [Skips measure 52]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2460,7 +2460,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 53]
+    % [Skips measure 53]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2515,7 +2515,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 54]
+    % [Skips measure 54]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2561,7 +2561,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 55]
+    % [Skips measure 55]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2616,7 +2616,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 56]
+    % [Skips measure 56]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2662,7 +2662,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 57]
+    % [Skips measure 57]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2717,7 +2717,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 58]
+    % [Skips measure 58]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2763,7 +2763,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 59]
+    % [Skips measure 59]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2809,7 +2809,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 60]
+    % [Skips measure 60]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2855,7 +2855,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 61]
+    % [Skips measure 61]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2910,7 +2910,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 62]
+    % [Skips measure 62]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2956,7 +2956,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 63]
+    % [Skips measure 63]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3002,7 +3002,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 64]
+    % [Skips measure 64]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3048,7 +3048,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 65]
+    % [Skips measure 65]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3094,7 +3094,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 66]
+    % [Skips measure 66]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3140,7 +3140,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 67]
+    % [Skips measure 67]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3186,7 +3186,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 68]
+    % [Skips measure 68]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3232,7 +3232,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 69]
+    % [Skips measure 69]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -3278,7 +3278,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 70]
+    % [Skips measure 70]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3324,7 +3324,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 71]
+    % [Skips measure 71]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3370,7 +3370,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 72]
+    % [Skips measure 72]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3416,7 +3416,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 73]
+    % [Skips measure 73]
       %! baca._make_global_skips(1)
     s1 * 3/4
     % AFTER:
@@ -3462,7 +3462,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 74]
+    % [Skips measure 74]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3508,7 +3508,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 75]
+    % [Skips measure 75]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -3545,7 +3545,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 76]
+    % [Skips measure 76]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3591,7 +3591,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 77]
+    % [Skips measure 77]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3637,7 +3637,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 78]
+    % [Skips measure 78]
       %! baca._make_global_skips(1)
     s1 * 1/2
     % AFTER:
@@ -3674,7 +3674,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 79]
+    % [Skips measure 79]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3720,7 +3720,7 @@ number.3.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 80]
+    % [Skips measure 80]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -3768,7 +3768,7 @@ number.3.GlobalSkips = {
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
-    % [GlobalSkips measure 81]
+    % [Skips measure 81]
     % OPENING:
     % COMMANDS:
       %! ANCHOR_SKIP
@@ -3826,565 +3826,565 @@ number.3.GlobalSkips = {
 
 
   %! baca.path.extern()
-number.3.GlobalRests = {
+number.3.Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 1]
+    % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 2]
+    % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 3]
+    % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 4]
+    % [Rests measure 4]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 5]
+    % [Rests measure 5]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 6]
+    % [Rests measure 6]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 7]
+    % [Rests measure 7]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 8]
+    % [Rests measure 8]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 9]
+    % [Rests measure 9]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 10]
+    % [Rests measure 10]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 11]
+    % [Rests measure 11]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 12]
+    % [Rests measure 12]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 13]
+    % [Rests measure 13]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 14]
+    % [Rests measure 14]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 15]
+    % [Rests measure 15]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 16]
+    % [Rests measure 16]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 17]
+    % [Rests measure 17]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 18]
+    % [Rests measure 18]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 19]
+    % [Rests measure 19]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 20]
+    % [Rests measure 20]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 21]
+    % [Rests measure 21]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 22]
+    % [Rests measure 22]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 23]
+    % [Rests measure 23]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 24]
+    % [Rests measure 24]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 25]
+    % [Rests measure 25]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 26]
+    % [Rests measure 26]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 27]
+    % [Rests measure 27]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 28]
+    % [Rests measure 28]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 29]
+    % [Rests measure 29]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 30]
+    % [Rests measure 30]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 31]
+    % [Rests measure 31]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 32]
+    % [Rests measure 32]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 33]
+    % [Rests measure 33]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 34]
+    % [Rests measure 34]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 35]
+    % [Rests measure 35]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 36]
+    % [Rests measure 36]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 37]
+    % [Rests measure 37]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 38]
+    % [Rests measure 38]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 39]
+    % [Rests measure 39]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 40]
+    % [Rests measure 40]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 41]
+    % [Rests measure 41]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 42]
+    % [Rests measure 42]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 43]
+    % [Rests measure 43]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 44]
+    % [Rests measure 44]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 45]
+    % [Rests measure 45]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 46]
+    % [Rests measure 46]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 47]
+    % [Rests measure 47]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 48]
+    % [Rests measure 48]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 49]
+    % [Rests measure 49]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 50]
+    % [Rests measure 50]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 51]
+    % [Rests measure 51]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 52]
+    % [Rests measure 52]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 53]
+    % [Rests measure 53]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 54]
+    % [Rests measure 54]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 55]
+    % [Rests measure 55]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 56]
+    % [Rests measure 56]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 57]
+    % [Rests measure 57]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 58]
+    % [Rests measure 58]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 59]
+    % [Rests measure 59]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 60]
+    % [Rests measure 60]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 61]
+    % [Rests measure 61]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 62]
+    % [Rests measure 62]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 63]
+    % [Rests measure 63]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 64]
+    % [Rests measure 64]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 65]
+    % [Rests measure 65]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 66]
+    % [Rests measure 66]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 67]
+    % [Rests measure 67]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 68]
+    % [Rests measure 68]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 69]
+    % [Rests measure 69]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 70]
+    % [Rests measure 70]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 71]
+    % [Rests measure 71]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 72]
+    % [Rests measure 72]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 73]
+    % [Rests measure 73]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 74]
+    % [Rests measure 74]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 75]
+    % [Rests measure 75]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 76]
+    % [Rests measure 76]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 77]
+    % [Rests measure 77]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 78]
+    % [Rests measure 78]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 79]
+    % [Rests measure 79]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 80]
+    % [Rests measure 80]
       %! baca._make_global_rests(1)
     R1 * 1
     % CLOSING:
@@ -9748,10 +9748,10 @@ number.3.Flute.Music_Staff = <<
 
     % OPEN_BRACKETS:
       %! baca.make_global_context()
-    \context GlobalRests = "GlobalRests"
+    \context GlobalRests = "Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \number.3.GlobalRests }
+    { \number.3.Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

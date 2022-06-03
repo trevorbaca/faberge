@@ -36,7 +36,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.chunk(
         baca.only_parts(
             baca.rehearsal_mark(
@@ -63,7 +63,7 @@ commands(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.metronome_mark(
         "125",
         selector=lambda _: baca.select.skip(_, 5 - 1),
@@ -75,7 +75,7 @@ commands(
 )
 
 commands(
-    "GlobalRests",
+    "Rests",
     baca.global_fermata(
         "short",
         selector=lambda _: abjad.select.leaf(_, 9 - 1),
