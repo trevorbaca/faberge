@@ -5122,10 +5122,10 @@ number.2.Flute.Music = {
     ^ \faberge-match-sound-of-crotales-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Flute”)"
+    ^ \baca-reapplied-instrument-markup "(“Flute”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Fl.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Fl.”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -9136,10 +9136,10 @@ number.2.Flute.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“BassFlute”)"
+    ^ \baca-explicit-instrument-markup "(“BassFlute”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“B. fl.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“B. fl.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -10045,10 +10045,10 @@ number.2.English_Horn.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"
+    ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Eng. hn.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -12281,10 +12281,10 @@ number.2.Clarinet.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Clarinet”)"
+    ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cl.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Cl.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -15148,10 +15148,10 @@ number.2.Clarinet.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“BassClarinet”)"
+    ^ \baca-explicit-instrument-markup "(“BassClarinet”)"
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“B. cl.”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“B. cl.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -17416,10 +17416,10 @@ number.2.Piano_RH.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"
+    ^ \baca-reapplied-instrument-markup "(“Piano”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Pf.”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! SPANNER_START
@@ -20290,10 +20290,10 @@ number.2.Percussion.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Perc.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -26538,10 +26538,10 @@ number.2.Violin.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vn.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vn.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -33737,10 +33737,10 @@ number.2.Viola.Music = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Va.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Va.”]"
     % SPANNER_STARTS:
       %! AUTODETECT
       %! BOW_SPEED_SPANNER
@@ -36483,10 +36483,10 @@ number.2.Cello.Music = {
     ^ \faberge-poco-vib-sempre-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vc.”]"
     % SPANNER_STARTS:
       %! SCP_SPANNER
       %! SPANNER_START
