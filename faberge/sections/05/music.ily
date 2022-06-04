@@ -455,11 +455,6 @@ number.5.Skips = {
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
-      %! ANCHOR_SKIP
-      %! baca._style_anchor_skip(2)
-    \baca-time-signature-transparent
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
@@ -584,6 +579,15 @@ number.5.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-short-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_193
+      %! baca._style_fermata_measures(7)
+    \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_193
+      %! baca._style_fermata_measures(7)
+    \once \override Score.SpanBar.transparent = ##t
     % CLOSING:
     % COMMANDS:
 
@@ -1393,14 +1397,6 @@ number.5.Flute.Music = {
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_193
-              %! baca._style_fermata_measures(7)
-            \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_193
-              %! baca._style_fermata_measures(7)
-            \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -4168,14 +4164,6 @@ number.5.Violin.Music = {
 
               %! baca._comment_measure_numbers()
             % [Violin.Rests measure 9]
-            % BEFORE:
-            % COMMANDS:
-              %! baca._style_fermata_measures(1)
-            \stopStaff
-              %! baca._style_fermata_measures(1)
-            \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
-            \startStaff
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._make_multimeasure_rest_container(5)
@@ -4187,10 +4175,6 @@ number.5.Violin.Music = {
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % COMMANDS:
-              %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
-              %! baca._style_fermata_measures(2)
-            \override Staff.BarLine.bar-extent = #'(-2 . 0)
             % CLOSING:
             % COMMANDS:
 
@@ -4797,14 +4781,6 @@ number.5.Viola.Music = {
 
               %! baca._comment_measure_numbers()
             % [Viola.Rests measure 9]
-            % BEFORE:
-            % COMMANDS:
-              %! baca._style_fermata_measures(1)
-            \stopStaff
-              %! baca._style_fermata_measures(1)
-            \once \override Staff.StaffSymbol.line-count = 0
-              %! baca._style_fermata_measures(1)
-            \startStaff
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._make_multimeasure_rest_container(5)

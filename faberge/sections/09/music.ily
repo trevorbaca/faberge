@@ -654,6 +654,15 @@ number.9.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_227
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_227
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1625,14 +1634,6 @@ number.9.Flute.Music = {
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % COMMANDS:
-              %! FERMATA_MEASURE
-              %! MEASURE_227
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.BarLine.transparent = ##t
-              %! FERMATA_MEASURE
-              %! MEASURE_227
-              %! baca._style_fermata_measures(7)
-        %%% \once \override Score.SpanBar.transparent = ##t
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
               %! baca._style_fermata_measures(2)
             \override Staff.BarLine.bar-extent = #'(-2 . 0)

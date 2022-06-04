@@ -677,6 +677,15 @@ number.8.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-short-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_211
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_211
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -725,6 +734,15 @@ number.8.Rests = {
       %! baca.GlobalFermataCommand._call(1)
       %! baca.global_fermata()
     ^ \baca-short-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_216
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_216
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -867,14 +885,6 @@ number.8.Flute.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_211
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_211
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1105,14 +1115,6 @@ number.8.Flute.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
-      %! FERMATA_MEASURE
-      %! MEASURE_216
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.BarLine.transparent = ##t
-      %! FERMATA_MEASURE
-      %! MEASURE_216
-      %! baca._style_fermata_measures(7)
-%%% \once \override Score.SpanBar.transparent = ##t
       %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
       %! baca._style_fermata_measures(2)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
