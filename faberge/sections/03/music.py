@@ -57,6 +57,11 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
+skips = score["Skips"]
+manifests = commands.manifests()
+
+baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["80"], manifests)
+
 commands(
     "Skips",
     baca.chunk(
@@ -81,14 +86,6 @@ commands(
                 abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
             ),
         ),
-    ),
-)
-
-commands(
-    "Skips",
-    baca.metronome_mark(
-        "80",
-        selector=lambda _: abjad.select.leaf(_, 1 - 1),
     ),
 )
 

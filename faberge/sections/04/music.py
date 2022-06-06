@@ -70,13 +70,18 @@ commands(
     ),
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark("64", lambda _: baca.select.skip(_, 1 - 1)),
-    baca.metronome_mark("4:5(4)=4", lambda _: abjad.select.leaf(_, 1 - 1)),
-    baca.metronome_mark("51", lambda _: baca.select.skip(_, 5 - 1)),
-    baca.metronome_mark("4:5(4)=4", lambda _: abjad.select.leaf(_, 5 - 1)),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (1 - 1, "64"),
+    (1 - 1, "4:5(4)=4"),
+    (5 - 1, "51"),
+    (5 - 1, "4:5(4)=4"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 # FL
 
