@@ -72,19 +72,22 @@ commands(
 
 commands(
     "Skips",
-    baca.metronome_mark(
-        "156",
-        selector=lambda _: baca.select.skip(_, 1 - 1),
-    ),
-    baca.metronome_mark(
-        "5:4(4)=4",
-        selector=lambda _: baca.select.skip(_, 1 - 1),
-    ),
     baca.bar_line(
         "|.",
         lambda _: baca.select.skip(_, -1),
     ),
 )
+
+skips = score["Skips"]
+manifests = commands.manifests()
+
+for index, item in (
+    (1 - 1, "156"),
+    (1 - 1, "5:4(4)=4"),
+):
+    skip = skips[index]
+    indicator = commands.metronome_marks.get(item, item)
+    baca.commands._metronome_mark(skip, indicator, manifests)
 
 # FL
 

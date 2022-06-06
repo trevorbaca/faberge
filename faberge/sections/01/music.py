@@ -43,13 +43,10 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark(
-        "100",
-        selector=lambda _: abjad.select.leaf(_, 1 - 1),
-    ),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["100"], manifests)
 
 commands(
     "Rests",
