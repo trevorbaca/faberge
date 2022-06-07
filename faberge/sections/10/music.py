@@ -36,6 +36,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -85,9 +86,10 @@ for index, item in (
 
 commands(
     "Skips",
-    baca.open_volta(lambda _: baca.select.skip(_, 4 - 1)),
     baca.close_volta(lambda _: baca.select.skip(_, 6 - 1)),
 )
+
+baca.commands._open_volta(skips[4 - 1], commands.first_measure_number)
 
 # FL
 

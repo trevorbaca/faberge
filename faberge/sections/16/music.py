@@ -35,6 +35,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -70,14 +71,6 @@ commands(
     ),
 )
 
-commands(
-    "Skips",
-    baca.bar_line(
-        "|.",
-        lambda _: baca.select.skip(_, -1),
-    ),
-)
-
 skips = score["Skips"]
 manifests = commands.manifests()
 
@@ -88,6 +81,8 @@ for index, item in (
     skip = skips[index]
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
+
+baca.commands._bar_line(skips[8 - 1], "|.")
 
 # FL
 
