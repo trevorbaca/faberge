@@ -44,35 +44,29 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.chunk(
-        baca.only_parts(
-            baca.rehearsal_mark(
-                "J",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-            ),
-        ),
-        baca.only_score(
-            baca.rehearsal_mark(
-                "J",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
-            ),
-        ),
-        baca.only_section(
-            baca.rehearsal_mark(
-                "J",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-            ),
-        ),
-    ),
-)
-
 skips = score["Skips"]
 manifests = commands.manifests()
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "J",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+    tags=[baca.tags.ONLY_PARTS],
+)
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "J",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+    tags=[baca.tags.ONLY_SCORE],
+)
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "J",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+    tags=[baca.tags.ONLY_SEGMENT],
+)
 
 for index, item in (
     (1 - 1, "100"),
