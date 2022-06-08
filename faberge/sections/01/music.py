@@ -49,17 +49,12 @@ manifests = commands.manifests()
 
 baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["100"], manifests)
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 2 - 1),
-    ),
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 4 - 1),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (2 - 1, "short"),
+    (4 - 1, "short"),
+):
+    baca.global_fermata(rests[index], string)
 
 # FL
 
