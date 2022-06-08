@@ -85,7 +85,7 @@ for index, string in ((9 - 1, "short"),):
 
 commands(
     ("fl", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
@@ -103,7 +103,7 @@ for n in [2, 3, 4, 5, 6, 7, 8]:
 
 commands(
     ("fl", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 for n in [1, 2, 3, 4, 5, (6, 7), 8]:
@@ -116,21 +116,21 @@ for n in [1, 2, 3, 4, 5, (6, 7), 8]:
     else:
         commands(
             ("eh", n),
-            baca.make_mmrests_flat(),
+            baca.make_mmrests(),
         )
 
 # EH
 
 commands(
     ("eh", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # CL
 
 commands(
     ("cl", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 for n in [2, 3, 4, 5, (6, 7), 8]:
@@ -148,14 +148,14 @@ for n in [2, 3, 4, 5, (6, 7), 8]:
 
 commands(
     ("cl", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # PF
 
 commands(
     ["rh", "lh", "attack"],
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # PERC
@@ -177,7 +177,7 @@ commands(
 
 commands(
     ("perc", 9),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # VN
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("vn", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
@@ -201,7 +201,7 @@ commands(
 
 commands(
     ("va", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -217,7 +217,7 @@ commands(
 
 commands(
     ("vc", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # reapply

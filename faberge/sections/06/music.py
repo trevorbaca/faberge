@@ -93,7 +93,7 @@ commands(
 
 commands(
     ("fl", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -105,14 +105,14 @@ commands(
 
 commands(
     "eh",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # CL
 
 for n in range(1, 8 + 1):
     if n == 3:
-        function = baca.make_mmrests()
+        function = baca.make_mmrests(head=True)
     else:
         function = library.make_suffixed_colortrill_rhythm()
     commands(("cl", n), function)
@@ -121,7 +121,7 @@ for n in range(1, 8 + 1):
 
 commands(
     ("rh", (1, 3)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -161,7 +161,7 @@ commands(
 
 commands(
     ("lh", (1, 5)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -187,14 +187,14 @@ commands(
 
 commands(
     "attack",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # PERC
 
 commands(
     ("perc", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -206,7 +206,7 @@ commands(
 
 commands(
     ("perc", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -225,7 +225,7 @@ commands(
 
 commands(
     ("vn", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -237,7 +237,7 @@ commands(
 
 commands(
     ("vn", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -270,14 +270,14 @@ commands(
 
 commands(
     ("vn", 8),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
 
 commands(
     ("va", 1),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -289,7 +289,7 @@ commands(
 
 commands(
     ("va", 3),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -322,14 +322,14 @@ commands(
 
 commands(
     ("va", 8),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
 
 commands(
     ("vc", (1, 3)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
