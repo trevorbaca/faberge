@@ -330,13 +330,12 @@ number.10.Skips = {
     % [Skips measure 6]
     % BEFORE:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
-      %! baca.bar_line_command()
+      %! baca.bar_line()
     \bar ":|."
       %! MEASURE_234
       %! ONLY_MOL
-      %! baca.OverrideCommand._call(1)
-      %! baca.bar_line_x_extent_command()
+      %! baca.bar_line_x_extent(1)
+      %! baca.close_volta()
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
     % OPENING:
     % COMMANDS:

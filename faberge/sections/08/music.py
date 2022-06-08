@@ -84,13 +84,9 @@ for index, item in (
     indicator = commands.metronome_marks.get(item, item)
     baca.commands._metronome_mark(skip, indicator, manifests)
 
-commands(
-    "Skips",
-    baca.double_volta(lambda _: baca.select.skip(_, 6 - 1)),
-    baca.close_volta(lambda _: baca.select.skip(_, 9 - 1)),
-)
-
 baca.open_volta(skips[3 - 1], commands.first_measure_number)
+baca.double_volta(skips[6 - 1], commands.first_measure_number)
+baca.close_volta(skips[9 - 1], commands.first_measure_number)
 baca.open_volta(skips[10 - 1], commands.first_measure_number)
 
 commands(
