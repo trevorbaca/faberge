@@ -86,13 +86,11 @@ for index, item in (
 baca.open_volta(skips[2 - 1], commands.first_measure_number)
 baca.close_volta(skips[5 - 1], commands.first_measure_number)
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "short",
-        selector=lambda _: abjad.select.leaf(_, 3 - 1),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (3 - 1, "short"),
+):
+    baca.global_fermata(rests[index], string)
 
 # FL
 
