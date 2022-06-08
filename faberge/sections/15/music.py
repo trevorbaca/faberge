@@ -98,14 +98,14 @@ commands(
 
 commands(
     ("fl", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # EH
 
 commands(
     "eh",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # CL
@@ -121,14 +121,14 @@ commands(
 
 commands(
     ("cl", (5, 9)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # PF
 
 commands(
     ("rh", (1, 3)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -140,19 +140,19 @@ commands(
 
 commands(
     ("rh", (6, 9)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
     ["lh", "attack"],
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # PERC
 
 commands(
     ("perc", (1, 4)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -164,7 +164,7 @@ commands(
 
 commands(
     ("perc", (6, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -176,14 +176,14 @@ commands(
 
 commands(
     ("perc", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VN
 
 commands(
     ("vn", (1, 4)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -193,7 +193,7 @@ commands(
 
 commands(
     ("vn", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VA
@@ -210,7 +210,7 @@ commands(
 
 commands(
     ("va", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # VC
@@ -222,7 +222,7 @@ commands(
 
 commands(
     ("vc", 9),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 # reapply
