@@ -58,31 +58,27 @@ baca.interpret.set_up_score(
     stage_markup=stage_markup,
 )
 
-commands(
-    "Skips",
-    baca.chunk(
-        baca.only_parts(
-            baca.rehearsal_mark(
-                "A",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-            ),
-        ),
-        baca.only_score(
-            baca.rehearsal_mark(
-                "A",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
-            ),
-        ),
-        baca.only_section(
-            baca.rehearsal_mark(
-                "A",
-                lambda _: baca.select.skip(_, 1 - 1),
-                abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-            ),
-        ),
-    ),
+skips = score["Skips"]
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "A",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+    tags=[baca.tags.ONLY_PARTS],
+)
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "A",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
+    tags=[baca.tags.ONLY_SCORE],
+)
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "A",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+    tags=[baca.tags.ONLY_SEGMENT],
 )
 
 # FL

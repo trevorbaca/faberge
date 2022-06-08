@@ -23,28 +23,22 @@ number.2.Skips = {
     % AFTER:
     % MARKUP:
       %! +SEGMENT
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \tweak extra-offset #'(0 . 18)
       %! +SEGMENT
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "A" #10
       %! +SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . 6)
       %! +SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \baca-rehearsal-mark-markup "A" #10
       %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . 9)
       %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \baca-rehearsal-mark-markup "A" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
