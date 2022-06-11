@@ -813,7 +813,7 @@ number.16.Flute.Music = {
 
 
   %! baca.path.extern()
-number.16.Flute.Music_Staff = <<
+number.16.Flute.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1084,7 +1084,7 @@ number.16.English_Horn.Music = {
 
 
   %! baca.path.extern()
-number.16.English_Horn.Music_Staff = <<
+number.16.English_Horn.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1307,7 +1307,7 @@ number.16.Clarinet.Music = {
 
 
   %! baca.path.extern()
-number.16.Clarinet.Music_Staff = <<
+number.16.Clarinet.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1327,12 +1327,12 @@ number.16.Clarinet.Music_Staff = <<
 
 
   %! baca.path.extern()
-number.16.Piano_RH.Music = {
+number.16.Piano.RH.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 1]
+    % [Piano.RH.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -1444,7 +1444,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 2]
+    % [Piano.RH.Music measure 2]
       %! baca.make_repeat_tied_notes()
     d1..
     % AFTER:
@@ -1465,7 +1465,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 3]
+    % [Piano.RH.Music measure 3]
       %! baca.make_repeat_tied_notes()
     d\breve
     % AFTER:
@@ -1486,7 +1486,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 4]
+    % [Piano.RH.Music measure 4]
       %! baca.make_repeat_tied_notes()
     d1..
     % AFTER:
@@ -1507,7 +1507,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 5]
+    % [Piano.RH.Music measure 5]
       %! faberge.make_downbeat_attack()
     d4
     % AFTER:
@@ -1528,7 +1528,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 6]
+    % [Piano.RH.Music measure 6]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1540,7 +1540,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 7]
+    % [Piano.RH.Music measure 7]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1552,7 +1552,7 @@ number.16.Piano_RH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_RH.Music measure 8]
+    % [Piano.RH.Music measure 8]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1574,16 +1574,16 @@ number.16.Piano_RH.Music = {
 
 
   %! baca.path.extern()
-number.16.Piano_RH.Music_Staff = <<
+number.16.Piano.RH.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "Piano_RH.Music"
+    \context Voice = "Piano.RH.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.16.Piano_RH.Music }
+    { \number.16.Piano.RH.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1594,12 +1594,12 @@ number.16.Piano_RH.Music_Staff = <<
 
 
   %! baca.path.extern()
-number.16.Piano_LH.Music = {
+number.16.Piano.LH.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 1]
+    % [Piano.LH.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! EXPLICIT_BAR_EXTENT
@@ -1658,7 +1658,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 2]
+    % [Piano.LH.Music measure 2]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1670,7 +1670,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 3]
+    % [Piano.LH.Music measure 3]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1682,7 +1682,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 4]
+    % [Piano.LH.Music measure 4]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1694,7 +1694,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 5]
+    % [Piano.LH.Music measure 5]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1706,7 +1706,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 6]
+    % [Piano.LH.Music measure 6]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1718,7 +1718,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 7]
+    % [Piano.LH.Music measure 7]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1730,7 +1730,7 @@ number.16.Piano_LH.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Music measure 8]
+    % [Piano.LH.Music measure 8]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1748,12 +1748,12 @@ number.16.Piano_LH.Music = {
 
 
   %! baca.path.extern()
-number.16.Piano_LH.Attack_Voice = {
+number.16.Piano.LH.Attacks = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 1]
+    % [Piano.LH.Attacks measure 1]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1776,7 +1776,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 2]
+    % [Piano.LH.Attacks measure 2]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1788,7 +1788,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 3]
+    % [Piano.LH.Attacks measure 3]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1800,7 +1800,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 4]
+    % [Piano.LH.Attacks measure 4]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1812,7 +1812,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 5]
+    % [Piano.LH.Attacks measure 5]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1824,7 +1824,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 6]
+    % [Piano.LH.Attacks measure 6]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1836,7 +1836,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 7]
+    % [Piano.LH.Attacks measure 7]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1848,7 +1848,7 @@ number.16.Piano_LH.Attack_Voice = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano_LH.Attack_Voice measure 8]
+    % [Piano.LH.Attacks measure 8]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1866,25 +1866,25 @@ number.16.Piano_LH.Attack_Voice = {
 
 
   %! baca.path.extern()
-number.16.Piano_LH.Music_Staff = <<
+number.16.Piano.LH.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "Piano_LH.Music"
+    \context Voice = "Piano.LH.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.16.Piano_LH.Music }
+    { \number.16.Piano.LH.Music }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "Piano_LH.Attack_Voice"
+    \context Voice = "Piano.LH.Attacks"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.16.Piano_LH.Attack_Voice }
+    { \number.16.Piano.LH.Attacks }
     % CLOSING:
     % COMMANDS:
 
@@ -2107,7 +2107,7 @@ number.16.Percussion.Music = {
 
 
   %! baca.path.extern()
-number.16.Percussion.Music_Staff = <<
+number.16.Percussion.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2562,7 +2562,7 @@ number.16.Violin.Music = {
 
 
   %! baca.path.extern()
-number.16.Violin.Music_Staff = <<
+number.16.Violin.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3027,7 +3027,7 @@ number.16.Viola.Music = {
 
 
   %! baca.path.extern()
-number.16.Viola.Music_Staff = <<
+number.16.Viola.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3404,7 +3404,7 @@ number.16.Cello.Music = {
 
 
   %! baca.path.extern()
-number.16.Cello.Music_Staff = <<
+number.16.Cello.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

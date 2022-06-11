@@ -156,7 +156,7 @@ commands(
 
 # PF
 
-voice = score["Piano_RH.Music"]
+voice = score["Piano.RH.Music"]
 
 commands(
     ("rh", 1),
@@ -224,7 +224,7 @@ commands(
     ),
 )
 
-voice = score["Piano_LH.Music"]
+voice = score["Piano.LH.Music"]
 
 commands(
     ("lh", 1),
@@ -292,7 +292,7 @@ commands(
     ),
 )
 
-voice = score["Piano_LH.Attack_Voice"]
+voice = score["Piano.LH.Attacks"]
 
 commands(
     "attack",
@@ -510,7 +510,7 @@ commands(
 
 # reapply
 
-music_voice_names = [_ for _ in voice_names if "Music" in _ or "Attack_Voice" in _]
+music_voice_names = [_ for _ in voice_names if "Music" in _ or "Attacks" in _]
 
 commands(
     music_voice_names,
