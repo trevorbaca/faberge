@@ -95,21 +95,21 @@ commands(
 
 # PF
 
-voice = score["Piano_RH.Music"]
+voice = score["Piano.RH.Music"]
 
 commands(
     "rh",
     baca.make_mmrests(),
 )
 
-voice = score["Piano_LH.Music"]
+voice = score["Piano.LH.Music"]
 
 commands(
     "lh",
     baca.make_mmrests(),
 )
 
-voice = score["Piano_LH.Attack_Voice"]
+voice = score["Piano.LH.Attacks"]
 
 commands(
     "attack",

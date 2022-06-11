@@ -237,7 +237,7 @@ def make_empty_score():
     flute_music_staff = abjad.Staff(
         [flute_music_voice],
         simultaneous=True,
-        name="Flute.Music_Staff",
+        name="Flute.Staff",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
@@ -246,7 +246,7 @@ def make_empty_score():
     english_horn_music_staff = abjad.Staff(
         [english_horn_music_voice],
         simultaneous=True,
-        name="English_Horn.Music_Staff",
+        name="English_Horn.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -262,7 +262,7 @@ def make_empty_score():
     clarinet_music_staff = abjad.Staff(
         [clarinet_music_voice],
         simultaneous=True,
-        name="Clarinet.Music_Staff",
+        name="Clarinet.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -274,11 +274,11 @@ def make_empty_score():
     #        abjad.attach(literal, clarinet_music_staff)
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
     # PIANO
-    piano_rh_music_voice = abjad.Voice(name="Piano_RH.Music", tag=tag)
+    piano_rh_music_voice = abjad.Voice(name="Piano.RH.Music", tag=tag)
     piano_rh_music_staff = abjad.Staff(
         [piano_rh_music_voice],
         simultaneous=True,
-        name="Piano_RH.Music_Staff",
+        name="Piano.RH.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -288,12 +288,12 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, piano_rh_music_staff)
-    piano_lh_music_voice = abjad.Voice(name="Piano_LH.Music", tag=tag)
-    piano_lh_attack_voice = abjad.Voice(name="Piano_LH.Attack_Voice", tag=tag)
+    piano_lh_music_voice = abjad.Voice(name="Piano.LH.Music", tag=tag)
+    piano_lh_attack_voice = abjad.Voice(name="Piano.LH.Attacks", tag=tag)
     piano_lh_music_staff = abjad.Staff(
         [piano_lh_music_voice, piano_lh_attack_voice],
         simultaneous=True,
-        name="Piano_LH.Music_Staff",
+        name="Piano.LH.Staff",
         tag=tag,
     )
     piano_staff_group = abjad.StaffGroup(
@@ -308,7 +308,7 @@ def make_empty_score():
     percussion_music_staff = abjad.Staff(
         [percussion_music_voice],
         simultaneous=True,
-        name="Percussion.Music_Staff",
+        name="Percussion.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -324,7 +324,7 @@ def make_empty_score():
     violin_music_staff = abjad.Staff(
         [violin_music_voice],
         simultaneous=True,
-        name="Violin.Music_Staff",
+        name="Violin.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -340,7 +340,7 @@ def make_empty_score():
     viola_music_staff = abjad.Staff(
         [viola_music_voice],
         simultaneous=True,
-        name="Viola.Music_Staff",
+        name="Viola.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -356,7 +356,7 @@ def make_empty_score():
     cello_music_staff = abjad.Staff(
         [cello_music_voice],
         simultaneous=True,
-        name="Cello.Music_Staff",
+        name="Cello.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -1034,39 +1034,48 @@ def voice_abbreviations():
     return {
         "fl": "Flute.Music",
         "flr": "Flute.Rests",
+        # TODO: remove *x abbreviations
         "flx": ["Flute.Music", "Flute.Rests"],
         "eh": "English_Horn.Music",
         "ehr": "English_Horn.Rests",
+        # TODO: remove *x abbreviations
         "ehx": ["English_Horn.Music", "English_Horn.Rests"],
         "cl": "Clarinet.Music",
         "clr": "Clarinet.Rests",
+        # TODO: remove *x abbreviations
         "clx": ["Clarinet.Music", "Clarinet.Rests"],
-        "rh": "Piano_RH.Music",
-        "rhr": "Piano_RH.Rests",
-        "rhx": ["Piano_RH.Music", "Piano_RH.Rests"],
-        "lh": "Piano_LH.Music",
-        "lhr": "Piano_LH.Rests",
-        "lhx": ["Piano_LH.Music", "Piano_LH.Rests"],
-        "attack": "Piano_LH.Attack_Voice",
+        "rh": "Piano.RH.Music",
+        "rhr": "Piano.RH.Rests",
+        # TODO: remove *x abbreviations
+        "rhx": ["Piano.RH.Music", "Piano.RH.Rests"],
+        "lh": "Piano.LH.Music",
+        "lhr": "Piano.LH.Rests",
+        # TODO: remove *x abbreviations
+        "lhx": ["Piano.LH.Music", "Piano.LH.Rests"],
+        "attack": "Piano.LH.Attacks",
         "perc": "Percussion.Music",
         "percr": "Percussion.Rests",
+        # TODO: remove *x abbreviations
         "percx": ["Percussion.Music", "Percussion.Rests"],
         "vn": "Violin.Music",
         "vnr": "Violin.Rests",
+        # TODO: remove *x abbreviations
         "vnx": ["Violin.Music", "Violin.Rests"],
         "va": "Viola.Music",
         "var": "Viola.Rests",
+        # TODO: remove *x abbreviations
         "vax": ["Viola.Music", "Viola.Rests"],
         "vc": "Cello.Music",
         "vcr": "Cello.Rests",
+        # TODO: remove *x abbreviations
         "vcx": ["Cello.Music", "Cello.Rests"],
         "tutti": [
             "Flute.Music",
             "English_Horn.Music",
             "Clarinet.Music",
-            "Piano_RH.Music",
-            "Piano_LH.Music",
-            "Piano_LH.Attack_Voice",
+            "Piano.RH.Music",
+            "Piano.LH.Music",
+            "Piano.LH.Attacks",
             "Percussion.Music",
             "Violin.Music",
             "Viola.Music",

@@ -86,10 +86,10 @@
                     \tag #'Flute
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Flute.Music_Staff"
+                    \context Staff = "Flute.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Flute.Music_Staff }
+                    { \number.5.Flute.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -99,10 +99,10 @@
                     \tag #'English_Horn
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "English_Horn.Music_Staff"
+                    \context Staff = "English_Horn.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.English_Horn.Music_Staff }
+                    { \number.5.English_Horn.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -112,10 +112,10 @@
                     \tag #'Clarinet
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Clarinet.Music_Staff"
+                    \context Staff = "Clarinet.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Clarinet.Music_Staff }
+                    { \number.5.Clarinet.Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -147,19 +147,19 @@
 
                         % OPEN_BRACKETS:
                           %! faberge.make_empty_score()
-                        \context Staff = "Piano_RH.Music_Staff"
+                        \context Staff = "Piano.RH.Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
-                        { \number.5.Piano_RH.Music_Staff }
+                        { \number.5.Piano.RH.Staff }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
                         % OPEN_BRACKETS:
                           %! faberge.make_empty_score()
-                        \context Staff = "Piano_LH.Music_Staff"
+                        \context Staff = "Piano.LH.Staff"
                           %! faberge.make_empty_score()
                           %! baca.path.extern()
-                        { \number.5.Piano_LH.Music_Staff }
+                        { \number.5.Piano.LH.Staff }
                         % CLOSING:
                         % COMMANDS:
 
@@ -175,10 +175,10 @@
                     \tag #'Percussion
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Percussion.Music_Staff"
+                    \context Staff = "Percussion.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Percussion.Music_Staff }
+                    { \number.5.Percussion.Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -202,10 +202,10 @@
                     \tag #'Violin
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Violin.Music_Staff"
+                    \context Staff = "Violin.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Violin.Music_Staff }
+                    { \number.5.Violin.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -215,10 +215,10 @@
                     \tag #'Viola
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Viola.Music_Staff"
+                    \context Staff = "Viola.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Viola.Music_Staff }
+                    { \number.5.Viola.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -228,10 +228,10 @@
                     \tag #'Cello
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "Cello.Music_Staff"
+                    \context Staff = "Cello.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.5.Cello.Music_Staff }
+                    { \number.5.Cello.Staff }
                     % CLOSING:
                     % COMMANDS:
 
