@@ -81,6 +81,8 @@ for index, item in (
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", 1),
     library.make_even_tuplet_rhythm(
@@ -108,12 +110,16 @@ commands(
 
 # EH
 
+voice = score["English_Horn.Music"]
+
 commands(
     "eh",
     baca.make_mmrests(),
 )
 
 # CL
+
+voice = score["Clarinet.Music"]
 
 commands(
     ("cl", 1),
@@ -142,6 +148,8 @@ commands(
 
 # PF
 
+voice = score["Piano_RH.Music"]
+
 commands(
     ("rh", [1, 2, 3]),
     library.make_end_of_cell_attack(denominator=8),
@@ -167,6 +175,8 @@ commands(
     ),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     ("lh", (1, 4)),
     baca.make_mmrests(),
@@ -184,12 +194,16 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Attack_Voice"]
+
 commands(
     "attack",
     baca.make_mmrests(),
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", 1),
@@ -228,6 +242,8 @@ commands(
 
 # VN
 
+voice = score["Violin.Music"]
+
 commands(
     ("vn", (1, 4)),
     library.make_clb_rhythm(
@@ -251,6 +267,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 4)),
     baca.make_repeat_tied_notes(),
@@ -269,6 +287,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 4)),

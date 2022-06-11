@@ -80,6 +80,8 @@ for index, item in (
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", (1, 4)),
     library.make_airtone_chain_rhythm(20, [2, 6]),
@@ -96,6 +98,8 @@ commands(
 )
 
 # EH
+
+voice = score["English_Horn.Music"]
 
 commands(
     ("eh", (1, 4)),
@@ -114,6 +118,8 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     ("cl", (1, 4)),
     library.make_airtone_chain_rhythm(20, [3, 7]),
@@ -130,6 +136,8 @@ commands(
 )
 
 # PF
+
+voice = score["Piano_RH.Music"]
 
 commands(
     ("rh", (1, 2)),
@@ -156,6 +164,8 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     ("lh", (1, 2)),
     baca.make_mmrests(),
@@ -181,12 +191,16 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Attack_Voice"]
+
 commands(
     "attack",
     baca.make_mmrests(),
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", 1),
@@ -221,6 +235,8 @@ commands(
 
 # VN
 
+voice = score["Violin.Music"]
+
 commands(
     ("vn", (1, 3)),
     library.make_clb_rhythm(
@@ -243,12 +259,16 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 8)),
     library.make_airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     "vc",

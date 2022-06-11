@@ -83,6 +83,8 @@ baca.rehearsal_mark_function(
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", (1, 40)),
     library.make_shell_exchange_rhythm(
@@ -126,6 +128,8 @@ commands(
 )
 
 # EH
+
+voice = score["English_Horn.Music"]
 
 commands(
     ("eh", (1, 12)),
@@ -198,6 +202,8 @@ commands(
 )
 
 # CL
+
+voice = score["Clarinet.Music"]
 
 commands(
     ("cl", (1, 40)),
@@ -274,6 +280,8 @@ commands(
 
 # PF
 
+voice = score["Piano_RH.Music"]
+
 commands(
     ("rh", 1),
     baca.make_repeat_tied_notes(),
@@ -289,6 +297,8 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     "lh",
     baca.make_mmrests(),
@@ -298,6 +308,8 @@ commands(
     "lh",
     baca.mmrest_transparent(),
 )
+
+voice = score["Piano_LH.Attack_Voice"]
 
 commands(
     ("attack", (1, 12)),
@@ -330,6 +342,8 @@ commands(
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", (1, 40)),
@@ -404,6 +418,8 @@ commands(
 
 # VN
 
+voice = score["Violin.Music"]
+
 commands(
     ("vn", (1, 40)),
     library.make_shell_exchange_rhythm(
@@ -475,6 +491,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 62)),
     baca.make_repeat_tied_notes(),
@@ -521,6 +539,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     "vc",

@@ -86,6 +86,8 @@ baca.rehearsal_mark_function(
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", (1, 8)),
     library.make_glow_rhythm(
@@ -714,6 +716,8 @@ commands(
 
 # EH
 
+voice = score["English_Horn.Music"]
+
 commands(
     ("eh", (1, 12)),
     library.make_keynoise_rhythm(
@@ -797,6 +801,8 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     ("cl", (1, 3)),
     library.make_single_taper(),
@@ -852,6 +858,8 @@ commands(
 
 # PF
 
+voice = score["Piano_RH.Music"]
+
 commands(
     ("rh", 1),
     baca.make_repeat_tied_notes(),
@@ -882,6 +890,8 @@ commands(
     ),
 )
 
+voice = score["Piano_LH.Attack_Voice"]
+
 commands(
     ("attack", (1, 22)),
     library.make_piano_attack_rhythm(),
@@ -892,12 +902,16 @@ commands(
     library.make_piano_attack_rhythm(),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     "lh",
     baca.make_mmrests(),
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", 1),
@@ -948,6 +962,8 @@ commands(
 
 # VN
 
+voice = score["Violin.Music"]
+
 commands(
     ("vn", 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
@@ -991,6 +1007,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 8)),
     baca.make_repeat_tied_notes(),
@@ -1025,6 +1043,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 36)),

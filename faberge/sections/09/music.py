@@ -85,6 +85,8 @@ for index, string in ((8 - 1, "fermata"),):
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", (1, 2)),
     library.make_even_tuplet_rhythm(
@@ -126,6 +128,8 @@ commands(
 
 # EH
 
+voice = score["English_Horn.Music"]
+
 commands(
     ("eh", 1),
     baca.make_skeleton(
@@ -166,6 +170,8 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     ("cl", (1, 2)),
     library.make_even_tuplet_rhythm(
@@ -181,12 +187,20 @@ commands(
 
 # PF
 
+voice = score["Piano_RH.Music"]
+
+voice = score["Piano_LH.Attack_Voice"]
+
+voice = score["Piano_LH.Music"]
+
 commands(
     ["rh", "lh", "attack"],
     baca.make_mmrests(),
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", [1, 2]),
@@ -218,6 +232,8 @@ commands(
 )
 
 # VN
+
+voice = score["Violin.Music"]
 
 commands(
     ("vn", 1),
@@ -282,6 +298,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", 1),
     baca.make_skeleton(
@@ -344,6 +362,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 4)),

@@ -83,12 +83,16 @@ baca.close_volta(skips[6 - 1], commands.first_measure_number)
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", [1, 2, 3, 4, 5, 6, 7, 8]),
     library.make_suffixed_colortrill_rhythm(),
 )
 
 # EH
+
+voice = score["English_Horn.Music"]
 
 commands(
     ("eh", (1, 3)),
@@ -116,12 +120,16 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     ("cl", [1, 2, 3, 4, 5, 6, 7, 8]),
     library.make_suffixed_colortrill_rhythm(),
 )
 
 # PF
+
+voice = score["Piano_RH.Music"]
 
 commands(
     ("rh", (1, 4)),
@@ -147,6 +155,8 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     ("lh", (1, 4)),
     baca.make_mmrests(),
@@ -171,6 +181,8 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Attack_Voice"]
+
 commands(
     "attack",
     baca.make_mmrests(),
@@ -182,6 +194,8 @@ commands(
 )
 
 # PERC
+
+voice = score["Percussion.Music"]
 
 commands(
     ("perc", 4),
@@ -215,6 +229,8 @@ commands(
 )
 
 # VN
+
+voice = score["Violin.Music"]
 
 commands(
     ("vn", 1),
@@ -274,6 +290,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", 1),
     baca.make_skeleton(
@@ -329,6 +347,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", 1),
