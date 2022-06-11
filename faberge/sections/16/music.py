@@ -80,6 +80,8 @@ baca.bar_line(skips[8 - 1], "|.")
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     ("fl", (1, 4)),
     baca.make_repeat_tied_notes(),
@@ -98,6 +100,8 @@ commands(
 )
 
 # EH
+
+voice = score["English_Horn.Music"]
 
 commands(
     ("eh", (1, 4)),
@@ -119,12 +123,16 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     "cl",
     baca.make_repeat_tied_notes(),
 )
 
 # PF
+
+voice = score["Piano_RH.Music"]
 
 commands(
     ("rh", (1, 4)),
@@ -144,6 +152,10 @@ commands(
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Attack_Voice"]
+
+voice = score["Piano_LH.Music"]
+
 commands(
     ["lh", "attack"],
     baca.make_mmrests(),
@@ -151,12 +163,16 @@ commands(
 
 # PERC
 
+voice = score["Percussion.Music"]
+
 commands(
     "perc",
     baca.make_notes(),
 )
 
 # VN
+
+voice = score["Violin.Music"]
 
 commands(
     ("vn", (1, 7)),
@@ -172,6 +188,8 @@ commands(
 
 # VA
 
+voice = score["Viola.Music"]
+
 commands(
     ("va", (1, 7)),
     library.make_halves_rhythm(
@@ -185,6 +203,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     ("vc", (1, 7)),

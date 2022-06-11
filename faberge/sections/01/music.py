@@ -58,12 +58,16 @@ for index, string in (
 
 # FL
 
+voice = score["Flute.Music"]
+
 commands(
     "fl",
     baca.make_mmrests(),
 )
 
 # EH
+
+voice = score["English_Horn.Music"]
 
 commands(
     ("eh", (1, 2)),
@@ -82,6 +86,8 @@ commands(
 
 # CL
 
+voice = score["Clarinet.Music"]
+
 commands(
     "cl",
     baca.make_mmrests(),
@@ -89,15 +95,21 @@ commands(
 
 # PF
 
+voice = score["Piano_RH.Music"]
+
 commands(
     "rh",
     baca.make_mmrests(),
 )
 
+voice = score["Piano_LH.Music"]
+
 commands(
     "lh",
     baca.make_mmrests(),
 )
+
+voice = score["Piano_LH.Attack_Voice"]
 
 commands(
     "attack",
@@ -106,12 +118,16 @@ commands(
 
 # PERC
 
+voice = score["Percussion.Music"]
+
 commands(
     "perc",
     baca.make_mmrests(),
 )
 
 # VN
+
+voice = score["Violin.Music"]
 
 commands(
     ("vn", 1),
@@ -126,6 +142,8 @@ commands(
 )
 
 # VA
+
+voice = score["Viola.Music"]
 
 commands(
     ("va", 1),
@@ -142,6 +160,8 @@ commands(
 )
 
 # VC
+
+voice = score["Cello.Music"]
 
 commands(
     "vc",
