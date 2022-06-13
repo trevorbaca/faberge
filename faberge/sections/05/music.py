@@ -85,160 +85,133 @@ for index, string in ((9 - 1, "short"),):
 
 voice = score["Flute.Music"]
 
-commands(
-    ("fl", 1),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(1))
+voice.extend(music)
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
     if n in [2, 4, 5, 8]:
-        commands(
-            ("fl", n),
-            baca.make_notes(),
-            baca.breathe(),
-        )
+        music = baca.make_notes_function(commands.get(n))
+        leaf = baca.select.pleaf(music, -1)
+        baca.breathe_function(leaf)
     else:
-        commands(
-            ("fl", n),
-            library.make_suffixed_colortrill_rhythm(),
-        )
+        music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    voice.extend(music)
 
-commands(
-    ("fl", 9),
-    baca.make_mmrests(head=True),
-)
-
-for n in [1, 2, 3, 4, 5, (6, 7), 8]:
-    if n in [2, 4, 5, 8]:
-        commands(
-            ("eh", n),
-            baca.make_notes(),
-            baca.breathe(),
-        )
-    else:
-        commands(
-            ("eh", n),
-            baca.make_mmrests(),
-        )
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # EH
 
-voice = score["English_Horn.Music"]
+voice = score["EnglishHorn.Music"]
 
-commands(
-    ("eh", 9),
-    baca.make_mmrests(head=True),
-)
+for n in [1, 2, 3, 4, 5, (6, 7), 8]:
+    if n in [2, 4, 5, 8]:
+        music = baca.make_notes_function(commands.get(n))
+        pleaf = baca.select.pleaf(music, -1)
+        baca.breathe_function(pleaf)
+    else:
+        if isinstance(n, int):
+            music = baca.make_mmrests_function(commands.get(n))
+        else:
+            music = baca.make_mmrests_function(commands.get(*n))
+    voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # CL
 
 voice = score["Clarinet.Music"]
 
-commands(
-    ("cl", 1),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(1))
+voice.extend(music)
 
 for n in [2, 3, 4, 5, (6, 7), 8]:
     if n in [2, 4, 5, 8]:
-        commands(
-            ("cl", n),
-            baca.make_notes(),
-            baca.breathe(),
-        )
+        music = baca.make_notes_function(commands.get(n))
+        pleaf = baca.select.pleaf(music, -1)
+        baca.breathe_function(pleaf)
     else:
-        commands(
-            ("cl", n),
-            library.make_suffixed_colortrill_rhythm(),
-        )
+        if isinstance(n, int):
+            music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+        else:
+            music = library.make_suffixed_colortrill_rhythm(function=commands.get(*n))
+    voice.extend(music)
 
-commands(
-    ("cl", 9),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
+
 voice = score["Piano.LH.Attacks"]
+
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-commands(
-    ["rh", "lh", "attack"],
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # PERC
 
 voice = score["Percussion.Music"]
 
-commands(
-    ("perc", 1),
-    library.make_even_tuplet_rhythm(),
-)
+music = library.make_even_tuplet_rhythm(function=commands.get(1))
+voice.extend(music)
 
-commands(
-    ("perc", 2),
-    library.make_downbeat_attack(),
-)
+music = library.make_downbeat_attack(function=commands.get(2))
+voice.extend(music)
 
-commands(
-    ("perc", (3, 8)),
-    baca.make_notes(),
-)
+music = baca.make_notes_function(commands.get(3, 8))
+voice.extend(music)
 
-commands(
-    ("perc", 9),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(9))
+voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-commands(
-    ("vn", (1, 8)),
-    library.make_airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
+music = library.make_airtone_chain_rhythm(
+    20, [1, 4, 7, 10, 14, 18], function=commands.get(1, 8)
 )
+voice.extend(music)
 
-commands(
-    ("vn", 9),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 8)),
-    library.make_airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
+music = library.make_airtone_chain_rhythm(
+    20, [0, 3, 6, 9, 13, 17], function=commands.get(1, 8)
 )
+voice.extend(music)
 
-commands(
-    ("va", 9),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 8)),
-    library.make_airtone_chain_rhythm(
-        20,
-        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
-        do_not_overlap_counts=True,
-    ),
+music = library.make_airtone_chain_rhythm(
+    20,
+    [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
+    do_not_overlap_counts=True,
+    function=commands.get(1, 8),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 9),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+voice.extend(music)
 
 # reapply
 

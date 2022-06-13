@@ -1089,12 +1089,12 @@ number.4.Flute.Staff = <<
 
 
   %! baca.path.extern()
-number.4.English_Horn.Music = {
+number.4.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 1]
+    % [EnglishHorn.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -1246,7 +1246,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 2]
+    % [EnglishHorn.Music measure 2]
       %! faberge.make_airtone_chain_rhythm()
     b'8
     % AFTER:
@@ -1315,7 +1315,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 3]
+    % [EnglishHorn.Music measure 3]
       %! faberge.make_airtone_chain_rhythm()
     b'2
     % AFTER:
@@ -1346,7 +1346,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 4]
+    % [EnglishHorn.Music measure 4]
       %! faberge.make_airtone_chain_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
@@ -1363,7 +1363,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 5]
+    % [EnglishHorn.Music measure 5]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -1393,7 +1393,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 6]
+    % [EnglishHorn.Music measure 6]
     b'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1426,14 +1426,14 @@ number.4.English_Horn.Music = {
 
         % OPEN_BRACKETS:
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "English_Horn.Music"
+        \context Voice = "EnglishHorn.Music"
           %! baca._make_multimeasure_rest_container(4)
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [English_Horn.Music measure 7]
+            % [EnglishHorn.Music measure 7]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -1469,14 +1469,14 @@ number.4.English_Horn.Music = {
 
         % OPEN_BRACKETS:
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "English_Horn.Rests"
+        \context Voice = "EnglishHorn.Rests"
           %! baca._make_multimeasure_rest_container(6)
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [English_Horn.Rests measure 7]
+            % [EnglishHorn.Rests measure 7]
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._make_multimeasure_rest_container(5)
@@ -1504,7 +1504,7 @@ number.4.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 8]
+    % [EnglishHorn.Music measure 8]
       %! baca.make_mmrests_function()
     R1 * 5/4
     % AFTER:
@@ -1528,16 +1528,16 @@ number.4.English_Horn.Music = {
 
 
   %! baca.path.extern()
-number.4.English_Horn.Staff = <<
+number.4.EnglishHorn.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "English_Horn.Music"
+    \context Voice = "EnglishHorn.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.4.English_Horn.Music }
+    { \number.4.EnglishHorn.Music }
     % CLOSING:
     % COMMANDS:
 
