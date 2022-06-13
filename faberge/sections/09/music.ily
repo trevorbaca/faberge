@@ -1732,7 +1732,7 @@ number.9.Flute.Staff = <<
 
 
   %! baca.path.extern()
-number.9.English_Horn.Music = {
+number.9.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1743,7 +1743,7 @@ number.9.English_Horn.Music = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [English_Horn.Music measure 1]
+        % [EnglishHorn.Music measure 1]
         % BEFORE:
         % COMMANDS:
           %! baca.OverrideCommand._call(1)
@@ -1967,7 +1967,7 @@ number.9.English_Horn.Music = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [English_Horn.Music measure 2]
+        % [EnglishHorn.Music measure 2]
           %! baca.make_skeleton()
         e''2.
         % AFTER:
@@ -2096,14 +2096,14 @@ number.9.English_Horn.Music = {
 
         % OPEN_BRACKETS:
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "English_Horn.Music"
+        \context Voice = "EnglishHorn.Music"
           %! baca._make_multimeasure_rest_container(4)
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [English_Horn.Music measure 3]
+            % [EnglishHorn.Music measure 3]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -2145,14 +2145,14 @@ number.9.English_Horn.Music = {
 
         % OPEN_BRACKETS:
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "English_Horn.Rests"
+        \context Voice = "EnglishHorn.Rests"
           %! baca._make_multimeasure_rest_container(6)
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [English_Horn.Rests measure 3]
+            % [EnglishHorn.Rests measure 3]
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._make_multimeasure_rest_container(5)
@@ -2196,7 +2196,7 @@ number.9.English_Horn.Music = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [English_Horn.Music measure 4]
+            % [EnglishHorn.Music measure 4]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -2467,7 +2467,7 @@ number.9.English_Horn.Music = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [English_Horn.Music measure 5]
+        % [EnglishHorn.Music measure 5]
           %! baca.make_skeleton()
         fs''!4
         % AFTER:
@@ -2593,7 +2593,7 @@ number.9.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 6]
+    % [EnglishHorn.Music measure 6]
       %! baca.make_mmrests_function()
     R1 * 6/4
     % AFTER:
@@ -2605,7 +2605,7 @@ number.9.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 7]
+    % [EnglishHorn.Music measure 7]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -2617,7 +2617,7 @@ number.9.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 8]
+    % [EnglishHorn.Music measure 8]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(1)
@@ -2637,7 +2637,7 @@ number.9.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 9]
+    % [EnglishHorn.Music measure 9]
     % BEFORE:
     % COMMANDS:
       %! baca._style_fermata_measures(3)
@@ -2663,16 +2663,16 @@ number.9.English_Horn.Music = {
 
 
   %! baca.path.extern()
-number.9.English_Horn.Staff = <<
+number.9.EnglishHorn.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "English_Horn.Music"
+    \context Voice = "EnglishHorn.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.9.English_Horn.Music }
+    { \number.9.EnglishHorn.Music }
     % CLOSING:
     % COMMANDS:
 

@@ -755,7 +755,6 @@ number.16.Flute.Music = {
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_BEFORE:
@@ -842,12 +841,12 @@ number.16.Flute.Staff = <<
 
 
   %! baca.path.extern()
-number.16.English_Horn.Music = {
+number.16.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 1]
+    % [EnglishHorn.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -954,7 +953,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 2]
+    % [EnglishHorn.Music measure 2]
       %! baca.make_repeat_tied_notes()
     b'1..
     % AFTER:
@@ -975,7 +974,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 3]
+    % [EnglishHorn.Music measure 3]
       %! baca.make_repeat_tied_notes()
     b'\breve
     % AFTER:
@@ -996,7 +995,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 4]
+    % [EnglishHorn.Music measure 4]
       %! baca.make_repeat_tied_notes()
     b'1..
     % AFTER:
@@ -1017,7 +1016,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 5]
+    % [EnglishHorn.Music measure 5]
       %! faberge.make_downbeat_attack()
     b'4
     % AFTER:
@@ -1026,7 +1025,6 @@ number.16.English_Horn.Music = {
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_BEFORE:
@@ -1038,7 +1036,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 6]
+    % [EnglishHorn.Music measure 6]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1050,7 +1048,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 7]
+    % [EnglishHorn.Music measure 7]
       %! baca.make_mmrests_function()
     R1 * 8/4
     % AFTER:
@@ -1062,7 +1060,7 @@ number.16.English_Horn.Music = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [English_Horn.Music measure 8]
+    % [EnglishHorn.Music measure 8]
       %! baca.make_mmrests_function()
     R1 * 7/4
     % AFTER:
@@ -1084,16 +1082,16 @@ number.16.English_Horn.Music = {
 
 
   %! baca.path.extern()
-number.16.English_Horn.Staff = <<
+number.16.EnglishHorn.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "English_Horn.Music"
+    \context Voice = "EnglishHorn.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.16.English_Horn.Music }
+    { \number.16.EnglishHorn.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1516,7 +1514,6 @@ number.16.Piano.RH.Music = {
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_BEFORE:

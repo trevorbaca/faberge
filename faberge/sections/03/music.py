@@ -88,987 +88,820 @@ baca.rehearsal_mark_function(
 
 voice = score["Flute.Music"]
 
-commands(
-    ("fl", (1, 8)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=0,
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
-)
-
-commands(
-    ("fl", (9, 10)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-1,
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (11, 12)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-2,
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (13, 16)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-3,
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
     ),
-)
-
-commands(
-    ("fl", (17, 22)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-4,
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (23, 26)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-5,
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (27, 30)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-6,
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
     ),
-)
-
-commands(
-    ("fl", (31, 36)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-7,
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
     ),
-)
-
-commands(
-    ("fl", (37, 44)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-8,
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (45, 48)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-9,
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (49, 52)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-10,
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
     ),
+    tuplet_ratio_rotation=0,
+    function=commands.get(1, 8),
 )
+voice.extend(music)
 
-commands(
-    ("fl", (53, 54)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-11,
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
-)
-
-commands(
-    ("fl", (55, 60)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-12,
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
     ),
-)
-
-commands(
-    ("fl", (61, 68)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("fl", (69, 72)),
-    library.make_glow_rhythm(
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([0, 6, 7], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=-13,
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
     ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-1,
+    function=commands.get(9, 10),
 )
+voice.extend(music)
 
-commands(
-    ("fl", (73, 80)),
-    baca.make_mmrests(),
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-2,
+    function=commands.get(11, 12),
 )
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-3,
+    function=commands.get(13, 16),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-4,
+    function=commands.get(17, 22),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-5,
+    function=commands.get(23, 26),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-6,
+    function=commands.get(27, 30),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-7,
+    function=commands.get(31, 36),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-8,
+    function=commands.get(37, 44),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-9,
+    function=commands.get(45, 48),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-10,
+    function=commands.get(49, 52),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-11,
+    function=commands.get(53, 54),
+)
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([2, 3, 6], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-12,
+    function=commands.get(55, 60),
+)
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(61, 68))
+voice.extend(music)
+
+music = library.make_glow_rhythm(
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_exclude_tuplets(_, ([0, 6, 7], 9), (None, -1)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, [0, -2]),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([10], 11)),
+    ),
+    rmakers.force_note(
+        lambda _: baca.select.tuplets(_, ([9, 11], 11)),
+    ),
+    rmakers.untie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.tie(
+        lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
+    ),
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
+    ),
+    tuplet_ratio_rotation=-13,
+    function=commands.get(69, 72),
+)
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(73, 80))
+voice.extend(music)
 
 # EH
 
-voice = score["English_Horn.Music"]
+voice = score["EnglishHorn.Music"]
 
-commands(
-    ("eh", (1, 12)),
-    library.make_keynoise_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
+music = library.make_keynoise_rhythm(
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
+    function=commands.get(1, 12),
 )
+voice.extend(music)
 
-commands(
-    ("eh", (13, 16)),
-    library.make_eh_trill_rhythm(
-        counts=[-4, -1, 3, -1, 4, 8, 16, 23],
+music = library.make_eh_trill_rhythm(
+    counts=[-4, -1, 3, -1, 4, 8, 16, 23],
+    function=commands.get(13, 16),
+)
+voice.extend(music)
+
+music = library.make_keynoise_rhythm(
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
+    tuplet_ratio_rotation=-1,
+    function=commands.get(17, 22),
 )
+voice.extend(music)
 
-
-commands(
-    ("eh", (17, 22)),
-    library.make_keynoise_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
-        tuplet_ratio_rotation=-1,
+music = library.make_eh_trill_rhythm(
+    [-4, -1, 23, -1, 3, -1, 35, -1, 47],
+    rmakers.force_rest(
+        lambda _: baca.select.tuplet(_, -1),
     ),
+    function=commands.get(23, 30),
 )
+voice.extend(music)
 
-commands(
-    ("eh", (23, 30)),
-    library.make_eh_trill_rhythm(
-        [-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
+music = baca.make_repeat_tied_notes_function(commands.get(31, 36))
+voice.extend(music)
+
+music = baca.make_repeat_tied_notes_function(commands.get(37, 44))
+voice.extend(music)
+
+music = library.make_keynoise_rhythm(
+    rmakers.force_rest(
+        lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
+    function=commands.get(45, 60),
 )
+voice.extend(music)
 
-commands(
-    ("eh", (31, 36)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_mmrests_function(commands.get(61, 68))
+voice.extend(music)
 
-commands(
-    ("eh", (37, 44)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+voice.extend(music)
 
-commands(
-    ("eh", (45, 60)),
-    library.make_keynoise_rhythm(
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
-    ),
-)
+music = baca.make_mmrests_function(commands.get(73, 78))
+voice.extend(music)
 
-commands(
-    ("eh", (61, 68)),
-    baca.make_mmrests(),
-)
+music = library.make_ratchet_rhythm(function=commands.get(79))
+voice.extend(music)
 
-commands(
-    ("eh", (69, 72)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh", (73, 78)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", 79),
-    library.make_ratchet_rhythm(),
-)
-
-commands(
-    ("eh", 80),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(80))
+voice.extend(music)
 
 # CL
 
 voice = score["Clarinet.Music"]
 
-commands(
-    ("cl", (1, 3)),
-    library.make_single_taper(),
-)
+music = library.make_single_taper(function=commands.get(1, 3))
+voice.extend(music)
 
-commands(
-    (
-        "cl",
-        [
-            (4, 6),
-            (7, 11),
-            (12, 14),
-            (15, 16),
-            (17, 21),
-            (22, 26),
-            (27, 29),
-            (30, 32),
-            (33, 37),
-            (38, 40),
-            (41, 42),
-            (43, 47),
-            (48, 52),
-        ],
-    ),
-    library.make_single_taper(),
-    baca.breathe(),
-)
+for pair in [
+    (4, 6),
+    (7, 11),
+    (12, 14),
+    (15, 16),
+    (17, 21),
+    (22, 26),
+    (27, 29),
+    (30, 32),
+    (33, 37),
+    (38, 40),
+    (41, 42),
+    (43, 47),
+    (48, 52),
+]:
+    music = library.make_single_taper(function=commands.get(*pair))
+    pleaf = baca.select.pleaf(music, -1)
+    baca.breathe_function(pleaf)
+    voice.extend(music)
 
-commands(
-    ("cl", (53, 56)),
-    library.make_single_taper(),
-)
+music = library.make_single_taper(function=commands.get(53, 56))
+voice.extend(music)
 
-commands(
-    ("cl", (57, 60)),
-    library.make_single_taper(),
-)
+music = library.make_single_taper(function=commands.get(57, 60))
+voice.extend(music)
 
-commands(
-    ("cl", (61, 68)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(61, 68))
+voice.extend(music)
 
-commands(
-    ("cl", (69, 72)),
-    library.make_single_taper(),
-)
+music = library.make_single_taper(function=commands.get(69, 72))
+voice.extend(music)
 
-commands(
-    ("cl", (73, 80)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(73, 80))
+voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-commands(
-    ("rh", 1),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1))
+voice.extend(music)
 
-commands(
-    ("rh", (2, 44)),
-    baca.make_rests(),
-)
+music = baca.make_rests_function(commands.get(2, 44))
+voice.extend(music)
 
-commands(
-    ("rh", (45, 52)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(45, 52))
+voice.extend(music)
 
-commands(
-    ("rh", (53, 79)),
-    library.make_clb_rhythm(
-        extra_counts=[16, 20, 8],
-        fuse_counts=[2, 3],
-    ),
+music = library.make_clb_rhythm(
+    extra_counts=[16, 20, 8],
+    fuse_counts=[2, 3],
+    function=commands.get(53, 79),
 )
+voice.extend(music)
 
-commands(
-    ("rh", 80),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
+music = library.make_downbeat_attack(
+    denominator=8,
+    function=commands.get(80),
 )
+voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-commands(
-    ("attack", (1, 22)),
-    library.make_piano_attack_rhythm(),
-)
+music = library.make_piano_attack_rhythm(function=commands.get(1, 22))
+voice.extend(music)
 
-commands(
-    ("attack", (23, 80)),
-    library.make_piano_attack_rhythm(),
-)
+music = library.make_piano_attack_rhythm(function=commands.get(23, 80))
+voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-commands(
-    "lh",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # PERC
 
 voice = score["Percussion.Music"]
 
-commands(
-    ("perc", 1),
-    baca.make_single_attack(abjad.Duration(3, 4)),
-)
+music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
+voice.extend(music)
 
-commands(
-    ("perc", (2, 22)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(2, 22), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("perc", (23, 48)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(23, 48))
+voice.extend(music)
 
-commands(
-    ("perc", (49, 56)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(49, 56))
+voice.extend(music)
 
-commands(
-    ("perc", (57, 60)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(57, 60))
+voice.extend(music)
 
-commands(
-    ("perc", (61, 68)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(61, 68))
+voice.extend(music)
 
-commands(
-    ("perc", (69, 72)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+voice.extend(music)
 
-commands(
-    ("perc", (73, 78)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(73, 78))
+voice.extend(music)
 
-commands(
-    ("perc", (79, 80)),
-    baca.make_skeleton(
-        r"{ r2 \times 5/4 { c4 c4 c4 c4 } }",
-    ),
-)
+music = baca.make_skeleton_function(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
+voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-commands(
-    ("vn", 1),
-    baca.make_single_attack(abjad.Duration(3, 4)),
-)
+music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
+voice.extend(music)
 
-commands(
-    ("vn", (2, 8)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(2, 8), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("vn", (9, 22)),
-    library.make_spazzolati_rhythm(
-        counts_rotation=-20,
-    ),
+music = library.make_spazzolati_rhythm(
+    counts_rotation=-20,
+    function=commands.get(9, 22),
 )
+voice.extend(music)
 
-commands(
-    ("vn", (23, 52)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(23, 52))
+voice.extend(music)
 
-commands(
-    ("vn", (53, 68)),
-    library.make_clb_rhythm(
-        fuse_counts=[2, 2, 1],
-    ),
+music = library.make_clb_rhythm(
+    fuse_counts=[2, 2, 1],
+    function=commands.get(53, 68),
 )
+voice.extend(music)
 
-commands(
-    ("vn", (69, 72)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+voice.extend(music)
 
-commands(
-    ("vn", (73, 80)),
-    library.make_clb_rhythm(
-        fuse_counts=[2, 2, 1],
-    ),
+music = library.make_clb_rhythm(
+    fuse_counts=[2, 2, 1],
+    function=commands.get(73, 80),
 )
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 8)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 8))
+voice.extend(music)
 
-commands(
-    ("va", (9, 22)),
-    library.make_spazzolati_rhythm(
-        counts_rotation=-21,
-        denominator=8,
-        extra_counts=[1],
-    ),
+music = library.make_spazzolati_rhythm(
+    counts_rotation=-21,
+    denominator=8,
+    extra_counts=[1],
+    function=commands.get(9, 22),
 )
+voice.extend(music)
 
-commands(
-    ("va", (23, 52)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(23, 52))
+voice.extend(music)
 
-commands(
-    ("va", (53, 79)),
-    library.make_clb_rhythm(
-        fuse_counts=[1, 2, 2],
-    ),
+music = library.make_clb_rhythm(
+    fuse_counts=[1, 2, 2],
+    function=commands.get(53, 79),
 )
+voice.extend(music)
 
-commands(
-    ("va", 80),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
+music = library.make_downbeat_attack(
+    denominator=8,
+    function=commands.get(80),
 )
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 36)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 36))
+voice.extend(music)
 
-commands(
-    ("vc", (37, 60)),
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
+music = baca.make_repeated_duration_notes_function(commands.get(37, 60), [(1, 4)])
+voice.extend(music)
 
-commands(
-    ("vc", (61, 79)),
-    library.make_clb_rhythm(
-        fuse_counts=[3],
-    ),
+music = library.make_clb_rhythm(
+    fuse_counts=[3],
+    function=commands.get(61, 79),
 )
+voice.extend(music)
 
-commands(
-    ("vc", 80),
-    library.make_downbeat_attack(
-        denominator=8,
-    ),
+music = library.make_downbeat_attack(
+    denominator=8,
+    function=commands.get(80),
 )
+voice.extend(music)
 
 # anchor notes
 

@@ -242,11 +242,11 @@ def make_empty_score():
     )
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
     # ENGLISH HORN
-    english_horn_music_voice = abjad.Voice(name="English_Horn.Music", tag=tag)
+    english_horn_music_voice = abjad.Voice(name="EnglishHorn.Music", tag=tag)
     english_horn_music_staff = abjad.Staff(
         [english_horn_music_voice],
         simultaneous=True,
-        name="English_Horn.Staff",
+        name="EnglishHorn.Staff",
         tag=tag,
     )
     #        literal = abjad.LilyPondLiteral(
@@ -256,7 +256,7 @@ def make_empty_score():
     #            site='opening',
     #            )
     #        abjad.attach(literal, english_horn_music_staff)
-    baca.score.attach_lilypond_tag("English_Horn", english_horn_music_staff)
+    baca.score.attach_lilypond_tag("EnglishHorn", english_horn_music_staff)
     # CLARINET
     clarinet_music_voice = abjad.Voice(name="Clarinet.Music", tag=tag)
     clarinet_music_staff = abjad.Staff(
@@ -1036,10 +1036,10 @@ def voice_abbreviations():
         "flr": "Flute.Rests",
         # TODO: remove *x abbreviations
         "flx": ["Flute.Music", "Flute.Rests"],
-        "eh": "English_Horn.Music",
-        "ehr": "English_Horn.Rests",
+        "eh": "EnglishHorn.Music",
+        "ehr": "EnglishHorn.Rests",
         # TODO: remove *x abbreviations
-        "ehx": ["English_Horn.Music", "English_Horn.Rests"],
+        "ehx": ["EnglishHorn.Music", "EnglishHorn.Rests"],
         "cl": "Clarinet.Music",
         "clr": "Clarinet.Rests",
         # TODO: remove *x abbreviations
@@ -1071,7 +1071,7 @@ def voice_abbreviations():
         "vcx": ["Cello.Music", "Cello.Rests"],
         "tutti": [
             "Flute.Music",
-            "English_Horn.Music",
+            "EnglishHorn.Music",
             "Clarinet.Music",
             "Piano.RH.Music",
             "Piano.LH.Music",

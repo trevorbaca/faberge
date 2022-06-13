@@ -82,139 +82,106 @@ baca.bar_line(skips[8 - 1], "|.")
 
 voice = score["Flute.Music"]
 
-commands(
-    ("fl", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+voice.extend(music)
 
-commands(
-    ("fl", 5),
-    library.make_downbeat_attack(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-commands(
-    ("fl", (6, 8)),
-    baca.make_mmrests(),
-)
+music = library.make_downbeat_attack(function=commands.get(5))
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
+
+music = baca.make_mmrests_function(commands.get(6, 8))
+voice.extend(music)
 
 # EH
 
-voice = score["English_Horn.Music"]
+voice = score["EnglishHorn.Music"]
 
-commands(
-    ("eh", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+voice.extend(music)
 
-commands(
-    ("eh", 5),
-    library.make_downbeat_attack(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+music = library.make_downbeat_attack(function=commands.get(5))
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
 
-commands(
-    ("eh", (6, 8)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(6, 8))
+voice.extend(music)
 
 # CL
 
 voice = score["Clarinet.Music"]
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-commands(
-    ("rh", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
+music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+voice.extend(music)
 
-commands(
-    ("rh", 5),
-    library.make_downbeat_attack(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+music = library.make_downbeat_attack(function=commands.get(5))
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
 
-commands(
-    ("rh", (6, 8)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(6, 8))
+voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
+
 voice = score["Piano.LH.Music"]
 
-commands(
-    ["lh", "attack"],
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # PERC
 
 voice = score["Percussion.Music"]
 
-commands(
-    "perc",
-    baca.make_notes(),
-)
+music = baca.make_notes_function(commands.get())
+voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-commands(
-    ("vn", (1, 7)),
-    library.make_halves_rhythm(
-        tuplet_ratios=[(2, 3)],
-    ),
+music = library.make_halves_rhythm(
+    tuplet_ratios=[(2, 3)],
+    function=commands.get(1, 7),
 )
+voice.extend(music)
 
-commands(
-    ("vn", 8),
-    baca.make_notes(),
-)
+music = baca.make_notes_function(commands.get(8))
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", (1, 7)),
-    library.make_halves_rhythm(
-        tuplet_ratios=[(2, 1)],
-    ),
+music = library.make_halves_rhythm(
+    tuplet_ratios=[(2, 1)],
+    function=commands.get(1, 7),
 )
+voice.extend(music)
 
-commands(
-    ("va", 8),
-    baca.make_notes(),
-)
+music = baca.make_notes_function(commands.get(8))
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    ("vc", (1, 7)),
-    library.make_halves_rhythm(),
-)
+music = library.make_halves_rhythm(function=commands.get(1, 7))
+voice.extend(music)
 
-commands(
-    ("vc", 8),
-    baca.make_notes(),
-)
+music = baca.make_notes_function(commands.get(8))
+voice.extend(music)
 
 # reapply
 

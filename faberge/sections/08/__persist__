@@ -9,9 +9,9 @@
         "Rests",
         "Flute.Music",
         "Flute.Rests",
-        "English_Horn.Staff",
-        "English_Horn.Music",
-        "English_Horn.Rests",
+        "EnglishHorn.Staff",
+        "EnglishHorn.Music",
+        "EnglishHorn.Rests",
         "Clarinet.Staff",
         "Clarinet.Music",
         "Clarinet.Rests",
@@ -138,9 +138,9 @@
                 value="B. cl.",
             ),
         ],
-        "English_Horn.Music": [
+        "EnglishHorn.Music": [
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -148,9 +148,9 @@
                 value="\\baca-effort-mf",
             )
         ],
-        "English_Horn.Staff": [
+        "EnglishHorn.Staff": [
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -158,7 +158,7 @@
                 value="EnglishHorn",
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -166,7 +166,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -174,7 +174,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -182,7 +182,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,

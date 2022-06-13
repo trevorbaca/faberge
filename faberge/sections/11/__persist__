@@ -8,8 +8,8 @@
         "Flute.Staff",
         "Rests",
         "Flute.Music",
-        "English_Horn.Staff",
-        "English_Horn.Music",
+        "EnglishHorn.Staff",
+        "EnglishHorn.Music",
         "Clarinet.Staff",
         "Clarinet.Music",
         "Percussion_Section.Staff_Group",
@@ -136,9 +136,9 @@
                 value="B. cl.",
             ),
         ],
-        "English_Horn.Music": [
+        "EnglishHorn.Music": [
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -146,9 +146,9 @@
                 value="\\baca-pp-whiteout",
             )
         ],
-        "English_Horn.Staff": [
+        "EnglishHorn.Staff": [
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -156,7 +156,7 @@
                 value="EnglishHorn",
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -164,7 +164,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -172,7 +172,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -180,7 +180,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="English_Horn.Music",
+                context="EnglishHorn.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,

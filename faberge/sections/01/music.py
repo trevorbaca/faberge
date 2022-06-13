@@ -60,113 +60,87 @@ for index, string in (
 
 voice = score["Flute.Music"]
 
-commands(
-    "fl",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # EH
 
-voice = score["English_Horn.Music"]
+voice = score["EnglishHorn.Music"]
 
-commands(
-    ("eh", (1, 2)),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
 
-commands(
-    ("eh", 3),
-    library.make_ratchet_rhythm(),
-)
+music = library.make_ratchet_rhythm(function=commands.get(3))
+voice.extend(music)
 
-commands(
-    ("eh", 4),
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get(4))
+voice.extend(music)
 
 # CL
 
 voice = score["Clarinet.Music"]
 
-commands(
-    "cl",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-commands(
-    "rh",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-commands(
-    "lh",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-commands(
-    "attack",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # PERC
 
 voice = score["Percussion.Music"]
 
-commands(
-    "perc",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-commands(
-    ("vn", 1),
-    library.make_spazzolati_rhythm(
-        counts_rotation=0,
-    ),
+music = library.make_spazzolati_rhythm(
+    counts_rotation=0,
+    function=commands.get(1),
 )
+voice.extend(music)
 
-commands(
-    ("vn", (2, 4)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(2, 4), head=voice.name)
+voice.extend(music)
 
 # VA
 
 voice = score["Viola.Music"]
 
-commands(
-    ("va", 1),
-    library.make_spazzolati_rhythm(
-        counts_rotation=-1,
-        denominator=8,
-        extra_counts=[1],
-    ),
+music = library.make_spazzolati_rhythm(
+    counts_rotation=-1,
+    denominator=8,
+    extra_counts=[1],
+    function=commands.get(1),
 )
+voice.extend(music)
 
-commands(
-    ("va", (2, 4)),
-    baca.make_mmrests(head=True),
-)
+music = baca.make_mmrests_function(commands.get(2, 4), head=voice.name)
+voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-commands(
-    "vc",
-    baca.make_mmrests(),
-)
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # fl
 

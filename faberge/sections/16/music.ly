@@ -96,13 +96,13 @@
                     % BEFORE:
                     % COMMANDS:
                       %! baca.attach_lilypond_tag()
-                    \tag #'English_Horn
+                    \tag #'EnglishHorn
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context Staff = "English_Horn.Staff"
+                    \context Staff = "EnglishHorn.Staff"
                       %! faberge.make_empty_score()
                       %! baca.path.extern()
-                    { \number.16.English_Horn.Staff }
+                    { \number.16.EnglishHorn.Staff }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
