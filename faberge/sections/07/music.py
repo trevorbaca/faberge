@@ -86,18 +86,18 @@ voice = score["Flute.Music"]
 music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
-music = library.make_suffixed_colortrill_rhythm(function=commands.get(2))
+music = library.make_suffixed_colortrill_rhythm(commands.get(2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 
-music = library.make_suffixed_colortrill_rhythm(function=commands.get(4))
+music = library.make_suffixed_colortrill_rhythm(commands.get(4))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(5),
     extra_counts=[-2],
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -112,8 +112,8 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(4),
     extra_counts=[1],
-    function=commands.get(4),
 )
 voice.extend(music)
 
@@ -126,8 +126,8 @@ music = baca.make_mmrests(commands.get(6, 7))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(8),
     extra_counts=[1],
-    function=commands.get(8),
 )
 voice.extend(music)
 
@@ -138,18 +138,18 @@ voice = score["Clarinet.Music"]
 music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
-music = library.make_suffixed_colortrill_rhythm(function=commands.get(2))
+music = library.make_suffixed_colortrill_rhythm(commands.get(2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 
-music = library.make_suffixed_colortrill_rhythm(function=commands.get(4))
+music = library.make_suffixed_colortrill_rhythm(commands.get(4))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(5),
     extra_counts=[-1],
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -255,12 +255,15 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(3))
+music = library.make_downbeat_attack(commands.get(3))
 voice.extend(music)
-music = library.make_downbeat_attack(function=commands.get(4))
+music = library.make_downbeat_attack(commands.get(4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(denominator=2, function=commands.get(5))
+music = library.make_downbeat_attack(
+    commands.get(5),
+    denominator=2,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(6, 8), head=voice.name)
@@ -271,11 +274,11 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_spazzolati_rhythm(
+    commands.get(1),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, (3, None)),
     ),
     counts_rotation=0,
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -283,21 +286,21 @@ music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(3),
     extra_counts=[3],
-    function=commands.get(3),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(8),
     denominator=8,
-    function=commands.get(8),
 )
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(5, 7),
     extra_counts=[2, 1],
     fuse_counts=[2, 1],
-    function=commands.get(5, 7),
 )
 voice.extend(music)
 
@@ -309,13 +312,13 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_spazzolati_rhythm(
+    commands.get(1),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, (3, None)),
     ),
     counts_rotation=-1,
     denominator=8,
     extra_counts=[1],
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -323,14 +326,14 @@ music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(3),
     extra_counts=[2],
-    function=commands.get(3),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(4),
     denominator=8,
-    function=commands.get(4),
 )
 voice.extend(music)
 
@@ -338,9 +341,9 @@ music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6, 7),
     extra_counts=[2],
     fuse_counts=[2],
-    function=commands.get(6, 7),
 )
 voice.extend(music)
 
@@ -354,7 +357,7 @@ voice = score["Cello.Music"]
 music = baca.make_notes(commands.get(1, 3))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(4))
+music = library.make_downbeat_attack(commands.get(4))
 voice.extend(music)
 
 music = baca.make_skeleton(

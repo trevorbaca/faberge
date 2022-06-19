@@ -94,7 +94,7 @@ for n in [2, 3, 4, 5, 6, 7, 8]:
         leaf = baca.select.pleaf(music, -1)
         baca.breathe_function(leaf)
     else:
-        music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+        music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)
@@ -133,9 +133,9 @@ for n in [2, 3, 4, 5, (6, 7), 8]:
         baca.breathe_function(pleaf)
     else:
         if isinstance(n, int):
-            music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+            music = library.make_suffixed_colortrill_rhythm(commands.get(n))
         else:
-            music = library.make_suffixed_colortrill_rhythm(function=commands.get(*n))
+            music = library.make_suffixed_colortrill_rhythm(commands.get(*n))
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)
@@ -162,10 +162,10 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = library.make_even_tuplet_rhythm(function=commands.get(1))
+music = library.make_even_tuplet_rhythm(commands.get(1))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(2))
+music = library.make_downbeat_attack(commands.get(2))
 voice.extend(music)
 
 music = baca.make_notes(commands.get(3, 8))
@@ -179,7 +179,9 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_airtone_chain_rhythm(
-    20, [1, 4, 7, 10, 14, 18], function=commands.get(1, 8)
+    commands.get(1, 8),
+    20,
+    [1, 4, 7, 10, 14, 18],
 )
 voice.extend(music)
 
@@ -191,7 +193,9 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_airtone_chain_rhythm(
-    20, [0, 3, 6, 9, 13, 17], function=commands.get(1, 8)
+    commands.get(1, 8),
+    20,
+    [0, 3, 6, 9, 13, 17],
 )
 voice.extend(music)
 
@@ -203,10 +207,10 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_airtone_chain_rhythm(
+    commands.get(1, 8),
     20,
     [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
     do_not_overlap_counts=True,
-    function=commands.get(1, 8),
 )
 voice.extend(music)
 

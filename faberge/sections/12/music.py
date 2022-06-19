@@ -84,9 +84,9 @@ for index, item in (
 voice = score["Flute.Music"]
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(1),
     denominator=8,
     extra_counts=[2],
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -94,8 +94,8 @@ music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(3),
     denominator=8,
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -114,8 +114,8 @@ voice.extend(music)
 voice = score["Clarinet.Music"]
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(1),
     denominator=8,
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -123,9 +123,9 @@ music = baca.make_mmrests(commands.get(2), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(3),
     denominator=8,
     extra_counts=[2],
-    function=commands.get(3),
 )
 voice.extend(music)
 
@@ -137,7 +137,10 @@ voice.extend(music)
 voice = score["Piano.RH.Music"]
 
 for n in [1, 2, 3]:
-    music = library.make_end_of_cell_attack(denominator=8, function=commands.get(n))
+    music = library.make_end_of_cell_attack(
+        commands.get(n),
+        denominator=8,
+    )
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4), head=voice.name)
@@ -149,9 +152,9 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6, 9),
     fuse_counts=[2, 2],
     extra_counts=[5, 5],
-    function=commands.get(6, 9),
 )
 voice.extend(music)
 
@@ -177,19 +180,25 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = library.make_downbeat_attack(denominator=4, function=commands.get(1))
+music = library.make_downbeat_attack(
+    commands.get(1),
+    denominator=4,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = library.make_downbeat_attack(denominator=4, function=commands.get(3))
+music = library.make_downbeat_attack(
+    commands.get(3),
+    denominator=4,
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(5))
+music = library.make_downbeat_attack(commands.get(5))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes(commands.get(6, 8))
@@ -203,8 +212,8 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_clb_rhythm(
+    commands.get(1, 4),
     fuse_counts=[2, 1, 1],
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 
@@ -214,8 +223,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6, 9),
     fuse_counts=[2, 1, 1],
-    function=commands.get(6, 9),
 )
 voice.extend(music)
 
@@ -230,8 +239,8 @@ music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6, 9),
     fuse_counts=[1, 2, 1],
-    function=commands.get(6, 9),
 )
 voice.extend(music)
 
@@ -240,8 +249,8 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_clb_rhythm(
+    commands.get(1, 4),
     fuse_counts=[1, 1, 2],
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 
@@ -251,8 +260,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6, 9),
     fuse_counts=[1, 1, 2],
-    function=commands.get(6, 9),
 )
 voice.extend(music)
 

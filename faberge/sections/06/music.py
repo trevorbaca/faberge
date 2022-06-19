@@ -88,14 +88,14 @@ for index, string in ((3 - 1, "short"),):
 
 voice = score["Flute.Music"]
 
-music = library.make_halves_rhythm(function=commands.get(1, 2))
+music = library.make_halves_rhythm(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 for n in [4, 5, 6, 7, 8]:
-    music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 # EH
@@ -113,7 +113,7 @@ for n in range(1, 8 + 1):
     if n == 3:
         music = baca.make_mmrests(commands.get(n), head=voice.name)
     else:
-        music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+        music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 # PF
@@ -124,14 +124,14 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(4),
     extra_counts=[7],
-    function=commands.get(4),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -183,8 +183,8 @@ music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(2),
     denominator=2,
-    function=commands.get(2),
 )
 voice.extend(music)
 
@@ -192,7 +192,7 @@ music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 for n in [4, 5, 6, 7]:
-    music = library.make_downbeat_attack(function=commands.get(n))
+    music = library.make_downbeat_attack(commands.get(n))
     voice.extend(music)
 
 music = baca.make_skeleton(
@@ -216,26 +216,26 @@ music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(4),
     extra_counts=[2],
-    function=commands.get(4),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6),
     extra_counts=[4],
-    function=commands.get(6),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(7),
     denominator=8,
-    function=commands.get(7),
 )
 voice.extend(music)
 
@@ -258,26 +258,26 @@ music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(4),
     extra_counts=[6],
-    function=commands.get(4),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6),
     extra_counts=[2],
-    function=commands.get(6),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(7),
     denominator=8,
-    function=commands.get(7),
 )
 voice.extend(music)
 
@@ -292,26 +292,26 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(4),
     extra_counts=[4],
-    function=commands.get(4),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(6),
     extra_counts=[6],
-    function=commands.get(6),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(7),
     denominator=8,
-    function=commands.get(7),
 )
 voice.extend(music)
 

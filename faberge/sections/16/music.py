@@ -85,7 +85,7 @@ voice = score["Flute.Music"]
 music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(5))
+music = library.make_downbeat_attack(commands.get(5))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -100,7 +100,7 @@ voice = score["EnglishHorn.Music"]
 music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(5))
+music = library.make_downbeat_attack(commands.get(5))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -122,7 +122,7 @@ voice = score["Piano.RH.Music"]
 music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(5))
+music = library.make_downbeat_attack(commands.get(5))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -152,8 +152,8 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_halves_rhythm(
+    commands.get(1, 7),
     tuplet_ratios=[(2, 3)],
-    function=commands.get(1, 7),
 )
 voice.extend(music)
 
@@ -165,8 +165,8 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_halves_rhythm(
+    commands.get(1, 7),
     tuplet_ratios=[(2, 1)],
-    function=commands.get(1, 7),
 )
 voice.extend(music)
 
@@ -177,7 +177,7 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = library.make_halves_rhythm(function=commands.get(1, 7))
+music = library.make_halves_rhythm(commands.get(1, 7))
 voice.extend(music)
 
 music = baca.make_notes(commands.get(8))

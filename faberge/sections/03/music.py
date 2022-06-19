@@ -89,6 +89,7 @@ baca.rehearsal_mark_function(
 voice = score["Flute.Music"]
 
 music = library.make_glow_rhythm(
+    commands.get(1, 8),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -123,11 +124,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=0,
-    function=commands.get(1, 8),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(9, 10),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -162,11 +163,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-1,
-    function=commands.get(9, 10),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(11, 12),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -201,11 +202,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-2,
-    function=commands.get(11, 12),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(13, 16),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -240,11 +241,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-3,
-    function=commands.get(13, 16),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(17, 22),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -279,11 +280,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-4,
-    function=commands.get(17, 22),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(23, 26),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -318,11 +319,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-5,
-    function=commands.get(23, 26),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(27, 30),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -357,11 +358,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-6,
-    function=commands.get(27, 30),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(31, 36),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -396,11 +397,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-7,
-    function=commands.get(31, 36),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(37, 44),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -435,11 +436,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-8,
-    function=commands.get(37, 44),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(45, 48),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -474,11 +475,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-9,
-    function=commands.get(45, 48),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(49, 52),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -513,11 +514,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-10,
-    function=commands.get(49, 52),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(53, 54),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -552,11 +553,11 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-11,
-    function=commands.get(53, 54),
 )
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(55, 60),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
     ),
@@ -591,7 +592,6 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-12,
-    function=commands.get(55, 60),
 )
 voice.extend(music)
 
@@ -599,6 +599,7 @@ music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
 music = library.make_glow_rhythm(
+    commands.get(69, 72),
     rmakers.force_note(
         lambda _: baca.select.tuplets(_, ~abjad.Pattern([0, 6, 7], period=9)),
     ),
@@ -633,7 +634,6 @@ music = library.make_glow_rhythm(
         lambda _: baca.select.tuplet(_, -1),
     ),
     tuplet_ratio_rotation=-13,
-    function=commands.get(69, 72),
 )
 voice.extend(music)
 
@@ -645,34 +645,34 @@ voice.extend(music)
 voice = score["EnglishHorn.Music"]
 
 music = library.make_keynoise_rhythm(
+    commands.get(1, 12),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
-    function=commands.get(1, 12),
 )
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
+    commands.get(13, 16),
     counts=[-4, -1, 3, -1, 4, 8, 16, 23],
-    function=commands.get(13, 16),
 )
 voice.extend(music)
 
 music = library.make_keynoise_rhythm(
+    commands.get(17, 22),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
     tuplet_ratio_rotation=-1,
-    function=commands.get(17, 22),
 )
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
+    commands.get(23, 30),
     [-4, -1, 23, -1, 3, -1, 35, -1, 47],
     rmakers.force_rest(
         lambda _: baca.select.tuplet(_, -1),
     ),
-    function=commands.get(23, 30),
 )
 voice.extend(music)
 
@@ -683,10 +683,10 @@ music = baca.make_repeat_tied_notes(commands.get(37, 44))
 voice.extend(music)
 
 music = library.make_keynoise_rhythm(
+    commands.get(45, 60),
     rmakers.force_rest(
         lambda _: baca.select.tuplets(_, ([0, 4], 9)),
     ),
-    function=commands.get(45, 60),
 )
 voice.extend(music)
 
@@ -699,7 +699,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(73, 78))
 voice.extend(music)
 
-music = library.make_ratchet_rhythm(function=commands.get(79))
+music = library.make_ratchet_rhythm(commands.get(79))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(80))
@@ -709,7 +709,7 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = library.make_single_taper(function=commands.get(1, 3))
+music = library.make_single_taper(commands.get(1, 3))
 voice.extend(music)
 
 for pair in [
@@ -727,21 +727,21 @@ for pair in [
     (43, 47),
     (48, 52),
 ]:
-    music = library.make_single_taper(function=commands.get(*pair))
+    music = library.make_single_taper(commands.get(*pair))
     pleaf = baca.select.pleaf(music, -1)
     baca.breathe_function(pleaf)
     voice.extend(music)
 
-music = library.make_single_taper(function=commands.get(53, 56))
+music = library.make_single_taper(commands.get(53, 56))
 voice.extend(music)
 
-music = library.make_single_taper(function=commands.get(57, 60))
+music = library.make_single_taper(commands.get(57, 60))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
-music = library.make_single_taper(function=commands.get(69, 72))
+music = library.make_single_taper(commands.get(69, 72))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(73, 80))
@@ -761,24 +761,24 @@ music = baca.make_mmrests(commands.get(45, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(53, 79),
     extra_counts=[16, 20, 8],
     fuse_counts=[2, 3],
-    function=commands.get(53, 79),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(80),
     denominator=8,
-    function=commands.get(80),
 )
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = library.make_piano_attack_rhythm(function=commands.get(1, 22))
+music = library.make_piano_attack_rhythm(commands.get(1, 22))
 voice.extend(music)
 
-music = library.make_piano_attack_rhythm(function=commands.get(23, 80))
+music = library.make_piano_attack_rhythm(commands.get(23, 80))
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
@@ -828,8 +828,8 @@ music = baca.make_mmrests(commands.get(2, 8), head=voice.name)
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(
+    commands.get(9, 22),
     counts_rotation=-20,
-    function=commands.get(9, 22),
 )
 voice.extend(music)
 
@@ -837,8 +837,8 @@ music = baca.make_repeat_tied_notes(commands.get(23, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(53, 68),
     fuse_counts=[2, 2, 1],
-    function=commands.get(53, 68),
 )
 voice.extend(music)
 
@@ -846,8 +846,8 @@ music = baca.make_repeat_tied_notes(commands.get(69, 72))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(73, 80),
     fuse_counts=[2, 2, 1],
-    function=commands.get(73, 80),
 )
 voice.extend(music)
 
@@ -859,10 +859,10 @@ music = baca.make_repeat_tied_notes(commands.get(1, 8))
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(
+    commands.get(9, 22),
     counts_rotation=-21,
     denominator=8,
     extra_counts=[1],
-    function=commands.get(9, 22),
 )
 voice.extend(music)
 
@@ -870,14 +870,14 @@ music = baca.make_repeat_tied_notes(commands.get(23, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(53, 79),
     fuse_counts=[1, 2, 2],
-    function=commands.get(53, 79),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(80),
     denominator=8,
-    function=commands.get(80),
 )
 voice.extend(music)
 
@@ -892,14 +892,14 @@ music = baca.make_repeated_duration_notes(commands.get(37, 60), [(1, 4)])
 voice.extend(music)
 
 music = library.make_clb_rhythm(
+    commands.get(61, 79),
     fuse_counts=[3],
-    function=commands.get(61, 79),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(80),
     denominator=8,
-    function=commands.get(80),
 )
 voice.extend(music)
 

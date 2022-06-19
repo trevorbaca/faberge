@@ -86,7 +86,7 @@ baca.close_volta(skips[6 - 1], commands.first_measure_number)
 voice = score["Flute.Music"]
 
 for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-    music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 # EH
@@ -97,8 +97,8 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(4),
     extra_counts=[1],
-    function=commands.get(4),
 )
 voice.extend(music)
 
@@ -115,7 +115,7 @@ voice.extend(music)
 voice = score["Clarinet.Music"]
 
 for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-    music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 # PF
@@ -131,8 +131,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(6),
     denominator=8,
-    function=commands.get(6),
 )
 voice.extend(music)
 
@@ -150,8 +150,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(6),
     denominator=8,
-    function=commands.get(6),
 )
 voice.extend(music)
 
@@ -174,14 +174,14 @@ music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=2,
-    function=commands.get(5),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(6),
     denominator=2,
-    function=commands.get(6),
 )
 voice.extend(music)
 
@@ -189,8 +189,8 @@ music = baca.make_mmrests(commands.get(7), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(8),
     extra_counts=[-1],
-    function=commands.get(8),
 )
 voice.extend(music)
 
@@ -310,10 +310,10 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_airtone_chain_rhythm(
+    commands.get(6, 8),
     20,
     [0, 1, 3, 4, 6, 7, 8, 9],
     do_not_overlap_counts=True,
-    function=commands.get(6, 8),
 )
 voice.extend(music)
 

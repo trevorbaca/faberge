@@ -88,14 +88,14 @@ voice = score["Flute.Music"]
 # commands(
 #    ("fl", [1, 2, 3, 4]),
 for n in [1, 2, 3, 4]:
-    music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 # commands(
 #    ("fl", (5, 8)),
 music = library.make_even_tuplet_rhythm(
+    commands.get(5, 8),
     extra_counts=[0, 1, 0, -1],
-    function=commands.get(5, 8),
 )
 voice.extend(music)
 
@@ -117,7 +117,7 @@ voice.extend(music)
 
 # commands(
 #    ("eh", 4),
-music = library.make_downbeat_attack(function=commands.get(4))
+music = library.make_downbeat_attack(commands.get(4))
 voice.extend(music)
 
 # commands(
@@ -132,15 +132,15 @@ voice = score["Clarinet.Music"]
 # commands(
 #    ("cl", [1, 2, 3, 4]),
 for n in [1, 2, 3, 4]:
-    music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
+    music = library.make_suffixed_colortrill_rhythm(commands.get(n))
     voice.extend(music)
 
 
 # commands(
 #    ("cl", (5, 8)),
 music = library.make_even_tuplet_rhythm(
+    commands.get(5, 8),
     extra_counts=[1, 0, -1, 0],
-    function=commands.get(5, 8),
 )
 voice.extend(music)
 
@@ -164,8 +164,8 @@ voice.extend(music)
 #    ("rh", [4, 5, 6, 7, 8]),
 for n in [4, 5, 6, 7, 8]:
     music = library.make_end_of_cell_attack(
+        commands.get(n),
         denominator=8,
-        function=commands.get(n),
     )
     voice.extend(music)
 
@@ -202,12 +202,12 @@ voice = score["Percussion.Music"]
 
 # commands(
 #    ("perc", 1),
-music = library.make_even_tuplet_rhythm(function=commands.get(1))
+music = library.make_even_tuplet_rhythm(commands.get(1))
 voice.extend(music)
 
 # commands(
 #    ("perc", 2),
-music = library.make_downbeat_attack(function=commands.get(2))
+music = library.make_downbeat_attack(commands.get(2))
 voice.extend(music)
 
 # commands(
@@ -219,13 +219,16 @@ voice.extend(music)
 
 # commands(
 #    ("perc", 4),
-music = library.make_downbeat_attack(function=commands.get(4))
+music = library.make_downbeat_attack(commands.get(4))
 voice.extend(music)
 
 # commands(
 #    ("perc", [5, 6, 7, 8]),
 for n in [5, 6, 7, 8]:
-    music = library.make_downbeat_attack(denominator=2, function=commands.get(n))
+    music = library.make_downbeat_attack(
+        commands.get(n),
+        denominator=2,
+    )
     voice.extend(music)
 
 # VN
@@ -240,8 +243,8 @@ voice.extend(music)
 # commands(
 #    ("vn", 2),
 music = library.make_spazzolati_rhythm(
+    commands.get(2),
     counts_rotation=0,
-    function=commands.get(2),
 )
 voice.extend(music)
 
@@ -279,10 +282,10 @@ voice.extend(music)
 # commands(
 #    ("va", 2),
 music = library.make_spazzolati_rhythm(
+    commands.get(2),
     counts_rotation=-1,
     denominator=8,
     extra_counts=[1],
-    function=commands.get(2),
 )
 voice.extend(music)
 
@@ -303,10 +306,10 @@ voice = score["Cello.Music"]
 # commands(
 #    ("vc", (1, 2)),
 music = library.make_airtone_chain_rhythm(
+    commands.get(1, 2),
     20,
     [1, 2, 3],
     do_not_overlap_counts=True,
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 

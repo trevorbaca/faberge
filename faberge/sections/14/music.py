@@ -82,7 +82,11 @@ for index, item in (
 
 voice = score["Flute.Music"]
 
-music = library.make_airtone_chain_rhythm(20, [1, 3, 5], function=commands.get(1, 3))
+music = library.make_airtone_chain_rhythm(
+    commands.get(1, 3),
+    20,
+    [1, 3, 5],
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4))
@@ -149,16 +153,22 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = library.make_downbeat_attack(denominator=8, function=commands.get(1))
+music = library.make_downbeat_attack(
+    commands.get(1),
+    denominator=8,
+)
 voice.extend(music)
 
-music = library.make_bcl_color_fingering_rhythm(function=commands.get(2, 4))
+music = library.make_bcl_color_fingering_rhythm(commands.get(2, 4))
 voice.extend(music)
 
-music = library.make_downbeat_attack(denominator=8, function=commands.get(5))
+music = library.make_downbeat_attack(
+    commands.get(5),
+    denominator=8,
+)
 voice.extend(music)
 
-music = library.make_bcl_color_fingering_rhythm(function=commands.get(6, 8))
+music = library.make_bcl_color_fingering_rhythm(commands.get(6, 8))
 voice.extend(music)
 
 # PF
@@ -169,8 +179,8 @@ music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(2, 4),
     extra_counts=[1, 0, 0],
-    function=commands.get(2, 4),
 )
 voice.extend(music)
 
@@ -235,12 +245,16 @@ voice.extend(music)
 
 voice = score["Violin.Music"]
 
-music = library.make_airtone_chain_rhythm(20, [0, 2, 4], function=commands.get(1, 3))
+music = library.make_airtone_chain_rhythm(
+    commands.get(1, 3),
+    20,
+    [0, 2, 4],
+)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(4, 6),
     extra_counts=[1, 0, 0],
-    function=commands.get(4, 6),
 )
 voice.extend(music)
 
@@ -251,7 +265,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = library.make_back_incised_divisions(function=commands.get())
+music = library.make_back_incised_divisions(commands.get())
 voice.extend(music)
 
 # VC
@@ -259,15 +273,15 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_airtone_chain_rhythm(
+    commands.get(1, 4),
     20,
     [0, 1, 4, 5, 7, 8],
     do_not_overlap_counts=True,
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 
 for n in [5, 6, 7, 8]:
-    music = library.make_halves_rhythm(function=commands.get(n))
+    music = library.make_halves_rhythm(commands.get(n))
     voice.extend(music)
 
 # anchor notes

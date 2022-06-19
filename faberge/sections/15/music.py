@@ -86,7 +86,7 @@ for index, string in ((9 - 1, "short"),):
 
 voice = score["Flute.Music"]
 
-music = library.make_halves_rhythm(function=commands.get(1, 4))
+music = library.make_halves_rhythm(commands.get(1, 4))
 voice.extend(music)
 
 music = baca.make_skeleton(
@@ -109,10 +109,10 @@ voice.extend(music)
 voice = score["Clarinet.Music"]
 
 music = library.make_bcl_color_fingering_rhythm(
+    commands.get(1, 4),
     rmakers.force_rest(
         lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
     ),
-    function=commands.get(1, 4),
 )
 voice.extend(music)
 
@@ -127,8 +127,8 @@ music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(4, 5),
     extra_counts=[1, 0],
-    function=commands.get(4, 5),
 )
 voice.extend(music)
 
@@ -153,8 +153,8 @@ music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=2,
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -177,7 +177,7 @@ music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 for n in [5, 6, 7, 8]:
-    music = library.make_halves_rhythm(function=commands.get(n))
+    music = library.make_halves_rhythm(commands.get(n))
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)
@@ -187,11 +187,11 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = library.make_back_incised_divisions(function=commands.get(1, 4))
+music = library.make_back_incised_divisions(commands.get(1, 4))
 voice.extend(music)
 
 for n in [5, 6, 7, 8]:
-    music = library.make_halves_rhythm(function=commands.get(n))
+    music = library.make_halves_rhythm(commands.get(n))
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)
@@ -202,7 +202,7 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-    music = library.make_halves_rhythm(function=commands.get(n))
+    music = library.make_halves_rhythm(commands.get(n))
     voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)

@@ -253,10 +253,14 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = library.make_downbeat_attack(function=commands.get(3))
+music = library.make_downbeat_attack(commands.get(3))
 voice.extend(music)
 
-music = library.make_airtone_chain_rhythm(6, [2, 5], function=commands.get(4, 5))
+music = library.make_airtone_chain_rhythm(
+    commands.get(4, 5),
+    6,
+    [2, 5],
+)
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(6, 7))
@@ -283,7 +287,11 @@ music = baca.make_skeleton(
 )
 voice.extend(music)
 
-music = library.make_airtone_chain_rhythm(6, [1, 4], function=commands.get(4, 5))
+music = library.make_airtone_chain_rhythm(
+    commands.get(4, 5),
+    6,
+    [1, 4],
+)
 voice.extend(music)
 
 music = baca.make_skeleton(
@@ -354,7 +362,11 @@ music = baca.make_skeleton(
 )
 voice.extend(music)
 
-music = library.make_airtone_chain_rhythm(6, [0, 3], function=commands.get(4, 5))
+music = library.make_airtone_chain_rhythm(
+    commands.get(4, 5),
+    6,
+    [0, 3],
+)
 voice.extend(music)
 
 
