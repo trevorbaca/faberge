@@ -95,7 +95,7 @@ def make_airtone_chain_rhythm(
         my_counts = [_ for _ in my_counts if _ != 0]
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(my_counts, 16, read_talea_once_only=True),
         rmakers.beam(),
         rmakers.extract_trivial(),
@@ -103,31 +103,27 @@ def make_airtone_chain_rhythm(
         rmakers.force_repeat_tie(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_back_incised_divisions(*, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(suffix_talea=[-1], suffix_counts=[1], talea_denominator=4),
         rmakers.beam(),
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_bcl_color_fingering_rhythm(*commands, function=None, rotation=None):
     counts = [1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=[2]),
         *commands,
         rmakers.beam(),
@@ -140,10 +136,8 @@ def make_bcl_color_fingering_rhythm(*commands, function=None, rotation=None):
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_clb_rhythm(
@@ -162,7 +156,7 @@ def make_clb_rhythm(
             return divisions_
 
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea([1], 8, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.denominator((1, 8)),
@@ -175,15 +169,13 @@ def make_clb_rhythm(
         preprocessor=divisions,
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_downbeat_attack(*, count=1, denominator=4, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
             lambda _: baca.select.tuplets(_, (1, None)),
@@ -197,10 +189,8 @@ def make_downbeat_attack(*, count=1, denominator=4, function=None):
         rmakers.rewrite_meter(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_eh_trill_rhythm(
@@ -212,7 +202,7 @@ def make_eh_trill_rhythm(
 ):
     counts = list(counts) + [-1000]
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=extra_counts, read_talea_once_only=True),
         *commands,
         rmakers.beam(),
@@ -222,10 +212,8 @@ def make_eh_trill_rhythm(
         rmakers.force_repeat_tie(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_empty_score():
@@ -414,7 +402,7 @@ def make_empty_score():
 
 def make_end_of_cell_attack(*, denominator=4, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(
             fill_with_rests=True,
             suffix_talea=[1],
@@ -425,16 +413,14 @@ def make_end_of_cell_attack(*, denominator=4, function=None):
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_even_tuplet_rhythm(*, denominator=4, extra_counts=(0,), function=None):
     assert denominator in (2, 4, 8), repr(denominator)
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea([1], denominator, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.denominator((1, denominator)),
@@ -445,10 +431,8 @@ def make_even_tuplet_rhythm(*, denominator=4, extra_counts=(0,), function=None):
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_front_incised_divisions(*commands, function=None, start_rest_durations=()):
@@ -458,7 +442,7 @@ def make_front_incised_divisions(*commands, function=None, start_rest_durations=
     start_rest_durations = [_.with_denominator(lcm) for _ in start_rest_durations]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(
             prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
         ),
@@ -467,10 +451,8 @@ def make_front_incised_divisions(*commands, function=None, start_rest_durations=
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_glow_rhythm(
@@ -487,7 +469,7 @@ def make_glow_rhythm(
         return result
 
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios_),
         rmakers.tie(
             lambda _: [
@@ -505,15 +487,13 @@ def make_glow_rhythm(
         preprocessor=preprocessor,
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_halves_rhythm(*, function=None, tuplet_ratios=[(1, 1)]):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios),
         rmakers.beam(),
         rmakers.denominator((1, 4)),
@@ -524,10 +504,8 @@ def make_halves_rhythm(*, function=None, tuplet_ratios=[(1, 1)]):
         rmakers.rewrite_meter(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_keynoise_rhythm(
@@ -552,7 +530,7 @@ def make_keynoise_rhythm(
         return result
 
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios_),
         *commands,
         rmakers.beam(),
@@ -563,15 +541,13 @@ def make_keynoise_rhythm(
         preprocessor=preprocessor,
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_piano_attack_rhythm(*, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(
             fill_with_rests=True,
             outer_divisions_only=True,
@@ -583,24 +559,20 @@ def make_piano_attack_rhythm(*, function=None):
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_ratchet_rhythm(*, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.accelerando([(3, 8), (1, 16), (1, 16)], [(1, 16), (3, 8), (1, 16)]),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_shell_exchange_rhythm(
@@ -713,7 +685,7 @@ def make_shell_exchange_rhythm(
     extras_ = [0, 0, -1, 0, 0, -1, -1]
     extras = abjad.sequence.rotate(extras_, n=extra_counts_rotation)
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=extras),
         rmakers.force_rest(lambda _: baca.select.lt(_, -1)),
         rmakers.beam(),
@@ -722,17 +694,15 @@ def make_shell_exchange_rhythm(
         rmakers.extract_trivial(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_single_taper(
     *, denominator=16, function=None, start_talea=(4,), stop_talea=(4,)
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(
             outer_divisions_only=True,
             prefix_talea=start_talea,
@@ -746,10 +716,8 @@ def make_single_taper(
         rmakers.repeat_tie(lambda _: abjad.select.notes(_)[1:]),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_spazzolati_rhythm(
@@ -780,7 +748,7 @@ def make_spazzolati_rhythm(
         return result
 
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, denominator, extra_counts=extra_counts),
         *commands,
         rmakers.beam(),
@@ -790,15 +758,13 @@ def make_spazzolati_rhythm(
         preprocessor=preprocessor,
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def make_suffixed_colortrill_rhythm(*, function=None):
     tag = baca.tags.function_name(inspect.currentframe())
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.incised(
             extra_counts=[1],
             prefix_counts=[2],
@@ -813,10 +779,8 @@ def make_suffixed_colortrill_rhythm(*, function=None):
         rmakers.untie(),
         tag=tag,
     )
-    if function:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = rhythm_maker(function)
+    return music
 
 
 def short_instrument_names():
