@@ -90,9 +90,9 @@ voice = score["Flute.Music"]
 # commands(
 #    ("fl", (1, 2)),
 music = library.make_even_tuplet_rhythm(
+    commands.get(1, 2),
     denominator=2,
     extra_counts=[0, 1],
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -176,9 +176,9 @@ voice = score["Clarinet.Music"]
 # commands(
 #    ("cl", (1, 2)),
 music = library.make_even_tuplet_rhythm(
+    commands.get(1, 2),
     denominator=2,
     extra_counts=[1, 0],
-    function=commands.get(1, 2),
 )
 voice.extend(music)
 
@@ -210,9 +210,15 @@ voice = score["Percussion.Music"]
 
 # commands(
 #    ("perc", [1, 2]),
-music = library.make_downbeat_attack(denominator=2, function=commands.get(1))
+music = library.make_downbeat_attack(
+    commands.get(1),
+    denominator=2,
+)
 voice.extend(music)
-music = library.make_downbeat_attack(denominator=2, function=commands.get(2))
+music = library.make_downbeat_attack(
+    commands.get(2),
+    denominator=2,
+)
 voice.extend(music)
 
 # commands(
@@ -223,8 +229,8 @@ voice.extend(music)
 # commands(
 #    ("perc", 5),
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=2,
-    function=commands.get(5),
 )
 voice.extend(music)
 

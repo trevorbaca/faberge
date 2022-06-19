@@ -82,7 +82,7 @@ for index, item in (
 
 voice = score["Flute.Music"]
 
-music = library.make_airtone_chain_rhythm(20, [2, 6], function=commands.get(1, 4))
+music = library.make_airtone_chain_rhythm(commands.get(1, 4), 20, [2, 6])
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes(commands.get(5))
@@ -97,7 +97,7 @@ voice.extend(music)
 
 voice = score["EnglishHorn.Music"]
 
-music = library.make_airtone_chain_rhythm(20, [1, 5], function=commands.get(1, 4))
+music = library.make_airtone_chain_rhythm(commands.get(1, 4), 20, [1, 5])
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes(commands.get(5))
@@ -112,7 +112,7 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = library.make_airtone_chain_rhythm(20, [3, 7], function=commands.get(1, 4))
+music = library.make_airtone_chain_rhythm(commands.get(1, 4), 20, [3, 7])
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes(commands.get(5))
@@ -137,8 +137,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -157,8 +157,8 @@ music = baca.make_skeleton(
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(5),
     denominator=8,
-    function=commands.get(5),
 )
 voice.extend(music)
 
@@ -175,8 +175,8 @@ voice.extend(music)
 voice = score["Percussion.Music"]
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(1),
     extra_counts=[0],
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -184,8 +184,8 @@ music = baca.make_mmrests(commands.get(2, 3), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(4, 5),
     extra_counts=[-1, 0],
-    function=commands.get(4, 5),
 )
 voice.extend(music)
 
@@ -193,8 +193,8 @@ music = baca.make_mmrests(commands.get(6, 7), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
+    commands.get(8),
     extra_counts=[-1],
-    function=commands.get(8),
 )
 voice.extend(music)
 
@@ -203,20 +203,22 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_clb_rhythm(
+    commands.get(1, 3),
     extra_counts=[6, 2],
     fuse_counts=[2, 1],
-    function=commands.get(1, 3),
 )
 voice.extend(music)
 
 music = library.make_downbeat_attack(
+    commands.get(4),
     denominator=8,
-    function=commands.get(4),
 )
 voice.extend(music)
 
 music = library.make_airtone_chain_rhythm(
-    20, [1, 3, 5, 7, 9], function=commands.get(5, 8)
+    commands.get(5, 8),
+    20,
+    [1, 3, 5, 7, 9],
 )
 voice.extend(music)
 
@@ -225,7 +227,9 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_airtone_chain_rhythm(
-    20, [0, 4, 8, 12, 14, 16, 18], function=commands.get(1, 8)
+    commands.get(1, 8),
+    20,
+    [0, 4, 8, 12, 14, 16, 18],
 )
 voice.extend(music)
 
@@ -234,10 +238,10 @@ voice.extend(music)
 voice = score["Cello.Music"]
 
 music = library.make_airtone_chain_rhythm(
+    commands.get(),
     20,
     [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
     do_not_overlap_counts=True,
-    function=commands.get(),
 )
 voice.extend(music)
 

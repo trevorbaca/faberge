@@ -70,7 +70,7 @@ voice = score["EnglishHorn.Music"]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
-music = library.make_ratchet_rhythm(function=commands.get(3))
+music = library.make_ratchet_rhythm(commands.get(3))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(4))
@@ -112,8 +112,8 @@ voice.extend(music)
 voice = score["Violin.Music"]
 
 music = library.make_spazzolati_rhythm(
+    commands.get(1),
     counts_rotation=0,
-    function=commands.get(1),
 )
 voice.extend(music)
 
@@ -125,10 +125,10 @@ voice.extend(music)
 voice = score["Viola.Music"]
 
 music = library.make_spazzolati_rhythm(
+    commands.get(1),
     counts_rotation=-1,
     denominator=8,
     extra_counts=[1],
-    function=commands.get(1),
 )
 voice.extend(music)
 
