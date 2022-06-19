@@ -110,7 +110,7 @@ voice.extend(music)
 
 # commands(
 #    ("eh", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -155,7 +155,7 @@ voice.extend(music)
 
 # commands(
 #    ("rh", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
 )
 voice.extend(music)
@@ -179,7 +179,7 @@ voice.extend(music)
 
 # commands(
 #    ("lh", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
 )
 voice.extend(music)
@@ -212,7 +212,7 @@ voice.extend(music)
 
 # commands(
 #    ("perc", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -247,7 +247,7 @@ voice.extend(music)
 
 # commands(
 #    ("vn", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 9/5 { c2 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -259,7 +259,7 @@ voice.extend(music)
 
 # commands(
 #    ("vn", (5, 7)),
-music = baca.make_repeat_tied_notes_function(commands.get(5, 7))
+music = baca.make_repeat_tied_notes(commands.get(5, 7))
 voice.extend(music)
 
 # commands(
@@ -288,12 +288,12 @@ voice.extend(music)
 
 # commands(
 #    ("va", (3, 4)),
-music = baca.make_repeat_tied_notes_function(commands.get(3, 4))
+music = baca.make_repeat_tied_notes(commands.get(3, 4))
 voice.extend(music)
 
 # commands(
 #    ("va", (5, 8)),
-music = baca.make_repeat_tied_notes_function(commands.get(5, 8))
+music = baca.make_repeat_tied_notes(commands.get(5, 8))
 voice.extend(music)
 
 # VC
@@ -312,7 +312,7 @@ voice.extend(music)
 
 # commands(
 #    ("vc", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
 )
 voice.extend(music)
@@ -324,7 +324,7 @@ voice.extend(music)
 
 # commands(
 #    ("vc", (5, 7)),
-music = baca.make_repeat_tied_notes_function(commands.get(5, 7))
+music = baca.make_repeat_tied_notes(commands.get(5, 7))
 voice.extend(music)
 
 # commands(

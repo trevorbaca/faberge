@@ -97,9 +97,9 @@ voice = score["Flute.Music"]
 music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(4))
+music = baca.make_repeat_tied_notes(commands.get(4))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
@@ -109,7 +109,7 @@ voice.extend(music)
 
 voice = score["EnglishHorn.Music"]
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4 c4 c4 r2. }",
 )
 voice.extend(music)
@@ -117,9 +117,9 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2, 3))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(4))
+music = baca.make_repeat_tied_notes(commands.get(4))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
@@ -132,9 +132,9 @@ voice = score["Clarinet.Music"]
 music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(4))
+music = baca.make_repeat_tied_notes(commands.get(4))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
@@ -144,7 +144,7 @@ voice.extend(music)
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
@@ -152,22 +152,22 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. r16 c8 r8 c8 ] r8 r4 c8. r16 }",
 )
 voice.extend(music)
@@ -175,24 +175,24 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(7))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 r4 r4 r4 r4 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 r4 r4 r4 c8. r16 }",
 )
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
@@ -200,22 +200,22 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. r16 c8 r8 c8 ] r8 r4 c8. r16 }",
 )
 voice.extend(music)
@@ -223,17 +223,17 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(7))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 r4 r4 r4 r4 c8. r16 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 r4 r4 r4 c8. r16 }",
 )
 voice.extend(music)
@@ -247,7 +247,7 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(2))
@@ -262,7 +262,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(6, 7))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(8, 9))
+music = baca.make_repeat_tied_notes(commands.get(8, 9))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(10))
@@ -272,13 +272,13 @@ voice.extend(music)
 
 voice = score["Violin.Music"]
 
-music = baca.make_skeleton_function("{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }")
+music = baca.make_skeleton("{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }")
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -286,7 +286,7 @@ voice.extend(music)
 music = library.make_airtone_chain_rhythm(6, [1, 4], function=commands.get(4, 5))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 6/5 { c2 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -294,17 +294,17 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(7))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 9/5 { c2 c4 c4 c4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 6/5 { c2 c4 c4 c4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -316,23 +316,23 @@ voice = score["Viola.Music"]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+music = baca.make_repeat_tied_notes(commands.get(3, 6))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(7), head=voice.name)
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 9/5 { c4 c4 c4 c2 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 6/5 { c4 c4 c4 c2 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c4 c4 c4 c2 }",
 )
 voice.extend(music)
@@ -341,7 +341,7 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -349,7 +349,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -358,7 +358,7 @@ music = library.make_airtone_chain_rhythm(6, [0, 3], function=commands.get(4, 5)
 voice.extend(music)
 
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. [ r16 c8 r8 c8 r8 c8. ] r16 r4 c8 r8 }",
 )
 voice.extend(music)
@@ -366,17 +366,17 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(7))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. r16 r4 r4 r4 r4 c8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. r16 r4 r4 r4 r4 }",
 )
 voice.extend(music)

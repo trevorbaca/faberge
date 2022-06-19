@@ -96,22 +96,22 @@ voice = score["EnglishHorn.Music"]
 music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4. c4. r4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4. c4. r4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4. c4. r4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c4. c4. r4 }",
 )
 voice.extend(music)
@@ -151,7 +151,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -176,7 +176,7 @@ voice = score["Piano.LH.Music"]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -203,12 +203,12 @@ for n in [1, 2, 3, 4, 5, 6]:
     music = library.make_downbeat_attack(function=commands.get(n))
     voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. r4 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. r4 }",
 )
 voice.extend(music)

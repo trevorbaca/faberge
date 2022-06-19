@@ -230,10 +230,10 @@ voice.extend(music)
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
-music = baca.make_rests_function(commands.get(2, 88))
+music = baca.make_rests(commands.get(2, 88))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(89, 92))
@@ -307,7 +307,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(81, 84))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ r4 c2 c1 }",
 )
 voice.extend(music)
@@ -396,7 +396,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 62))
+music = baca.make_repeat_tied_notes(commands.get(1, 62))
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(
@@ -413,7 +413,7 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(71, 80))
+music = baca.make_repeat_tied_notes(commands.get(71, 80))
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(
@@ -430,14 +430,14 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(89, 92))
+music = baca.make_repeat_tied_notes(commands.get(89, 92))
 voice.extend(music)
 
 # VC
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # anchor notes

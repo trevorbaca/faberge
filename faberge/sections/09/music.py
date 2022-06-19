@@ -103,21 +103,21 @@ voice.extend(music)
 
 # commands(
 #    ("fl", 5),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. c2. r2 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("fl", 6),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. c2. }",
 )
 voice.extend(music)
 
 # commands(
 #    ("fl", 7),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. c2. r2 }",
 )
 voice.extend(music)
@@ -133,14 +133,14 @@ voice = score["EnglishHorn.Music"]
 
 # commands(
 #    ("eh", 1),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c1 c1 r1 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("eh", 2),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2. c2. r1 }",
 )
 voice.extend(music)
@@ -152,14 +152,14 @@ voice.extend(music)
 
 # commands(
 #    ("eh", 4),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("eh", 5),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c4 c4 c4 c4 r1 }",
 )
 voice.extend(music)
@@ -235,7 +235,7 @@ voice.extend(music)
 
 # commands(
 #    ("perc", 9),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c2 c1 }",
 )
 voice.extend(music)
@@ -246,49 +246,49 @@ voice = score["Violin.Music"]
 
 # commands(
 #    ("vn", 1),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 2),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 4),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 5),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 6),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vn", 7),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
@@ -300,7 +300,7 @@ voice.extend(music)
 
 # commands(
 #    ("vn", 9),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
@@ -311,49 +311,49 @@ voice = score["Viola.Music"]
 
 # commands(
 #    ("va", 1),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 2),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 3),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 4),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 5),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 6),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
 
 # commands(
 #    ("va", 7),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
@@ -365,7 +365,7 @@ voice.extend(music)
 
 # commands(
 #    ("va", 9),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 \times 2/3 { c2 c2 c2 } }",
 )
 voice.extend(music)
@@ -376,26 +376,26 @@ voice = score["Cello.Music"]
 
 # commands(
 #    ("vc", (1, 4)),
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
 # commands(
 #    ("vc", 5),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 c1 c2 c1 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vc", 6),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 c1 }",
 )
 voice.extend(music)
 
 # commands(
 #    ("vc", 7),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 8/12 { c2 c1 c2 c1 }",
 )
 voice.extend(music)
@@ -407,7 +407,7 @@ voice.extend(music)
 
 # commands(
 #    ("vc", 9),
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ c2 c1 }",
 )
 voice.extend(music)

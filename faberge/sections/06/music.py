@@ -135,17 +135,17 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -155,17 +155,17 @@ voice = score["Piano.LH.Music"]
 music = baca.make_mmrests(commands.get(1, 5))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -195,7 +195,7 @@ for n in [4, 5, 6, 7]:
     music = library.make_downbeat_attack(function=commands.get(n))
     voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
 )
 voice.extend(music)
@@ -207,7 +207,7 @@ voice = score["Violin.Music"]
 music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 9/5 { c2 c4 c4 c4 }",
 )
 voice.extend(music)
@@ -249,7 +249,7 @@ voice = score["Viola.Music"]
 music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"\times 9/5 { c4 c4 c4 c2 }",
 )
 voice.extend(music)
@@ -315,7 +315,7 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c1 c1 }",
 )
 voice.extend(music)

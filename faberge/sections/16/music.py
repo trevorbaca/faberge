@@ -82,7 +82,7 @@ baca.bar_line(skips[8 - 1], "|.")
 
 voice = score["Flute.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(function=commands.get(5))
@@ -97,7 +97,7 @@ voice.extend(music)
 
 voice = score["EnglishHorn.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(function=commands.get(5))
@@ -112,14 +112,14 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(function=commands.get(5))
@@ -144,7 +144,7 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = baca.make_notes_function(commands.get())
+music = baca.make_notes(commands.get())
 voice.extend(music)
 
 # VN
@@ -157,7 +157,7 @@ music = library.make_halves_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_notes_function(commands.get(8))
+music = baca.make_notes(commands.get(8))
 voice.extend(music)
 
 # VA
@@ -170,7 +170,7 @@ music = library.make_halves_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_notes_function(commands.get(8))
+music = baca.make_notes(commands.get(8))
 voice.extend(music)
 
 # VC
@@ -180,7 +180,7 @@ voice = score["Cello.Music"]
 music = library.make_halves_rhythm(function=commands.get(1, 7))
 voice.extend(music)
 
-music = baca.make_notes_function(commands.get(8))
+music = baca.make_notes(commands.get(8))
 voice.extend(music)
 
 # reapply

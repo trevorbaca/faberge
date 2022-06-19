@@ -143,7 +143,7 @@ for n in [1, 2, 3]:
 music = baca.make_mmrests(commands.get(4), head=voice.name)
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
@@ -160,7 +160,7 @@ voice = score["Piano.LH.Music"]
 music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
 )
 voice.extend(music)
@@ -192,7 +192,7 @@ voice.extend(music)
 music = library.make_downbeat_attack(function=commands.get(5))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(6, 8))
+music = baca.make_repeat_tied_notes(commands.get(6, 8))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9), head=voice.name)
@@ -208,7 +208,7 @@ music = library.make_clb_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
 )
 voice.extend(music)
@@ -223,10 +223,10 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+music = baca.make_repeat_tied_notes(commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -245,7 +245,7 @@ music = library.make_clb_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
 )
 voice.extend(music)
