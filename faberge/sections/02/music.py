@@ -100,7 +100,7 @@ music = library.make_shell_exchange_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(57, 80))
+music = baca.make_mmrests(commands.get(57, 80))
 voice.extend(music)
 
 music = library.make_single_taper(function=commands.get(81, 88))
@@ -122,7 +122,7 @@ voice.extend(music)
 
 voice = score["EnglishHorn.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 12))
+music = baca.make_mmrests(commands.get(1, 12))
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
@@ -131,7 +131,7 @@ music = library.make_eh_trill_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(17, 26))
+music = baca.make_mmrests(commands.get(17, 26))
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
@@ -140,7 +140,7 @@ music = library.make_eh_trill_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(31, 40))
+music = baca.make_mmrests(commands.get(31, 40))
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
@@ -149,7 +149,7 @@ music = library.make_eh_trill_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(47, 56))
+music = baca.make_mmrests(commands.get(47, 56))
 voice.extend(music)
 
 music = library.make_eh_trill_rhythm(
@@ -158,7 +158,7 @@ music = library.make_eh_trill_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63, 80))
+music = baca.make_mmrests(commands.get(63, 80))
 voice.extend(music)
 
 music = library.make_keynoise_rhythm(
@@ -187,7 +187,7 @@ music = library.make_shell_exchange_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(41, 46))
+music = baca.make_mmrests(commands.get(41, 46))
 voice.extend(music)
 
 music = library.make_single_taper(function=commands.get(47, 49))
@@ -236,12 +236,12 @@ voice.extend(music)
 music = baca.make_rests_function(commands.get(2, 88))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(89, 92))
+music = baca.make_mmrests(commands.get(89, 92))
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 commands("lh", baca.mmrest_transparent())
@@ -263,7 +263,7 @@ voice.extend(music)
 music = library.make_piano_attack_rhythm(function=commands.get(57, 88))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(89, 92))
+music = baca.make_mmrests(commands.get(89, 92))
 voice.extend(music)
 
 # PERC
@@ -293,7 +293,7 @@ music = library.make_shell_exchange_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(63, 70))
+music = baca.make_mmrests(commands.get(63, 70))
 voice.extend(music)
 
 music = library.make_shell_exchange_rhythm(
@@ -304,7 +304,7 @@ music = library.make_shell_exchange_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(81, 84))
+music = baca.make_mmrests(commands.get(81, 84))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -315,7 +315,7 @@ voice.extend(music)
 music = library.make_downbeat_attack(function=commands.get(87))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(88))
+music = baca.make_mmrests(commands.get(88))
 voice.extend(music)
 
 music = library.make_shell_exchange_rhythm(

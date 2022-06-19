@@ -93,7 +93,7 @@ for n in [1, 2, 3, 4, 5, 6, 7, 8]:
 
 voice = score["EnglishHorn.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 3))
+music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
@@ -107,7 +107,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8))
+music = baca.make_mmrests(commands.get(6, 8))
 voice.extend(music)
 
 # CL
@@ -122,7 +122,7 @@ for n in [1, 2, 3, 4, 5, 6, 7, 8]:
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 4))
+music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -136,12 +136,12 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8))
+music = baca.make_mmrests(commands.get(7, 8))
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 4))
+music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -155,12 +155,12 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8))
+music = baca.make_mmrests(commands.get(7, 8))
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -170,7 +170,7 @@ voice = score["Percussion.Music"]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 music = library.make_downbeat_attack(
@@ -185,7 +185,7 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7), head=voice.name)
+music = baca.make_mmrests(commands.get(7), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(

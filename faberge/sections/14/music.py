@@ -85,7 +85,7 @@ voice = score["Flute.Music"]
 music = library.make_airtone_chain_rhythm(20, [1, 3, 5], function=commands.get(1, 3))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -142,7 +142,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
 voice.extend(music)
 
 # CL
@@ -165,7 +165,7 @@ voice.extend(music)
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
@@ -174,17 +174,17 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(5, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(5, 8), head=voice.name)
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -244,7 +244,7 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
 voice.extend(music)
 
 # VA
