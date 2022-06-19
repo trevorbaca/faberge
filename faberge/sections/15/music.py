@@ -89,7 +89,7 @@ voice = score["Flute.Music"]
 music = library.make_halves_rhythm(function=commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
 )
 voice.extend(music)
@@ -161,7 +161,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(6, 7), head=voice.name)
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
 )
 voice.extend(music)

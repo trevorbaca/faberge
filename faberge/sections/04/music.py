@@ -85,9 +85,9 @@ voice = score["Flute.Music"]
 music = library.make_airtone_chain_rhythm(20, [2, 6], function=commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(6))
+music = baca.make_repeat_tied_notes(commands.get(6))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
@@ -100,9 +100,9 @@ voice = score["EnglishHorn.Music"]
 music = library.make_airtone_chain_rhythm(20, [1, 5], function=commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(6))
+music = baca.make_repeat_tied_notes(commands.get(6))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
@@ -115,9 +115,9 @@ voice = score["Clarinet.Music"]
 music = library.make_airtone_chain_rhythm(20, [3, 7], function=commands.get(1, 4))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(5))
+music = baca.make_repeat_tied_notes(commands.get(5))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(6))
+music = baca.make_repeat_tied_notes(commands.get(6))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
@@ -130,7 +130,7 @@ voice = score["Piano.RH.Music"]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
     r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
 )
@@ -150,7 +150,7 @@ voice = score["Piano.LH.Music"]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
-music = baca.make_skeleton_function(
+music = baca.make_skeleton(
     r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
     r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
 )

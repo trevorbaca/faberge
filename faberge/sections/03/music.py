@@ -676,10 +676,10 @@ music = library.make_eh_trill_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(31, 36))
+music = baca.make_repeat_tied_notes(commands.get(31, 36))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(37, 44))
+music = baca.make_repeat_tied_notes(commands.get(37, 44))
 voice.extend(music)
 
 music = library.make_keynoise_rhythm(
@@ -693,7 +693,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+music = baca.make_repeat_tied_notes(commands.get(69, 72))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(73, 78))
@@ -751,10 +751,10 @@ voice.extend(music)
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1))
+music = baca.make_repeat_tied_notes(commands.get(1))
 voice.extend(music)
 
-music = baca.make_rests_function(commands.get(2, 44))
+music = baca.make_rests(commands.get(2, 44))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(45, 52))
@@ -790,38 +790,38 @@ voice.extend(music)
 
 voice = score["Percussion.Music"]
 
-music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
+music = baca.make_single_attack(commands.get(1), abjad.Duration(3, 4))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(2, 22), head=voice.name)
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(23, 48))
+music = baca.make_repeat_tied_notes(commands.get(23, 48))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(49, 56))
+music = baca.make_repeat_tied_notes(commands.get(49, 56))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(57, 60))
+music = baca.make_repeat_tied_notes(commands.get(57, 60))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+music = baca.make_repeat_tied_notes(commands.get(69, 72))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(73, 78))
 voice.extend(music)
 
-music = baca.make_skeleton_function(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
+music = baca.make_skeleton(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
 voice.extend(music)
 
 # VN
 
 voice = score["Violin.Music"]
 
-music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
+music = baca.make_single_attack(commands.get(1), abjad.Duration(3, 4))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(2, 8), head=voice.name)
@@ -833,7 +833,7 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(23, 52))
+music = baca.make_repeat_tied_notes(commands.get(23, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -842,7 +842,7 @@ music = library.make_clb_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
+music = baca.make_repeat_tied_notes(commands.get(69, 72))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -855,7 +855,7 @@ voice.extend(music)
 
 voice = score["Viola.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 8))
+music = baca.make_repeat_tied_notes(commands.get(1, 8))
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(
@@ -866,7 +866,7 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_repeat_tied_notes_function(commands.get(23, 52))
+music = baca.make_repeat_tied_notes(commands.get(23, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -885,10 +885,10 @@ voice.extend(music)
 
 voice = score["Cello.Music"]
 
-music = baca.make_repeat_tied_notes_function(commands.get(1, 36))
+music = baca.make_repeat_tied_notes(commands.get(1, 36))
 voice.extend(music)
 
-music = baca.make_repeated_duration_notes_function(commands.get(37, 60), [(1, 4)])
+music = baca.make_repeated_duration_notes(commands.get(37, 60), [(1, 4)])
 voice.extend(music)
 
 music = library.make_clb_rhythm(

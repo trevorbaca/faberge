@@ -90,7 +90,7 @@ voice.extend(music)
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
     if n in [2, 4, 5, 8]:
-        music = baca.make_notes_function(commands.get(n))
+        music = baca.make_notes(commands.get(n))
         leaf = baca.select.pleaf(music, -1)
         baca.breathe_function(leaf)
     else:
@@ -106,7 +106,7 @@ voice = score["EnglishHorn.Music"]
 
 for n in [1, 2, 3, 4, 5, (6, 7), 8]:
     if n in [2, 4, 5, 8]:
-        music = baca.make_notes_function(commands.get(n))
+        music = baca.make_notes(commands.get(n))
         pleaf = baca.select.pleaf(music, -1)
         baca.breathe_function(pleaf)
     else:
@@ -128,7 +128,7 @@ voice.extend(music)
 
 for n in [2, 3, 4, 5, (6, 7), 8]:
     if n in [2, 4, 5, 8]:
-        music = baca.make_notes_function(commands.get(n))
+        music = baca.make_notes(commands.get(n))
         pleaf = baca.select.pleaf(music, -1)
         baca.breathe_function(pleaf)
     else:
@@ -168,7 +168,7 @@ voice.extend(music)
 music = library.make_downbeat_attack(function=commands.get(2))
 voice.extend(music)
 
-music = baca.make_notes_function(commands.get(3, 8))
+music = baca.make_notes(commands.get(3, 8))
 voice.extend(music)
 
 music = baca.make_mmrests(commands.get(9))
