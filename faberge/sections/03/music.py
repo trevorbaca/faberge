@@ -595,7 +595,7 @@ music = library.make_glow_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(61, 68))
+music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
 music = library.make_glow_rhythm(
@@ -637,7 +637,7 @@ music = library.make_glow_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(73, 80))
+music = baca.make_mmrests(commands.get(73, 80))
 voice.extend(music)
 
 # EH
@@ -690,19 +690,19 @@ music = library.make_keynoise_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(61, 68))
+music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(73, 78))
+music = baca.make_mmrests(commands.get(73, 78))
 voice.extend(music)
 
 music = library.make_ratchet_rhythm(function=commands.get(79))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(80))
+music = baca.make_mmrests(commands.get(80))
 voice.extend(music)
 
 # CL
@@ -738,13 +738,13 @@ voice.extend(music)
 music = library.make_single_taper(function=commands.get(57, 60))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(61, 68))
+music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
 music = library.make_single_taper(function=commands.get(69, 72))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(73, 80))
+music = baca.make_mmrests(commands.get(73, 80))
 voice.extend(music)
 
 # PF
@@ -757,7 +757,7 @@ voice.extend(music)
 music = baca.make_rests_function(commands.get(2, 44))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(45, 52))
+music = baca.make_mmrests(commands.get(45, 52))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -783,7 +783,7 @@ voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -793,7 +793,7 @@ voice = score["Percussion.Music"]
 music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2, 22), head=voice.name)
+music = baca.make_mmrests(commands.get(2, 22), head=voice.name)
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(23, 48))
@@ -805,13 +805,13 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(57, 60))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(61, 68))
+music = baca.make_mmrests(commands.get(61, 68))
 voice.extend(music)
 
 music = baca.make_repeat_tied_notes_function(commands.get(69, 72))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(73, 78))
+music = baca.make_mmrests(commands.get(73, 78))
 voice.extend(music)
 
 music = baca.make_skeleton_function(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
@@ -824,7 +824,7 @@ voice = score["Violin.Music"]
 music = baca.make_single_attack_function(commands.get(1), abjad.Duration(3, 4))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(2, 8), head=voice.name)
 voice.extend(music)
 
 music = library.make_spazzolati_rhythm(

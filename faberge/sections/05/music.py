@@ -85,7 +85,7 @@ for index, string in ((9 - 1, "short"),):
 
 voice = score["Flute.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 for n in [2, 3, 4, 5, 6, 7, 8]:
@@ -97,7 +97,7 @@ for n in [2, 3, 4, 5, 6, 7, 8]:
         music = library.make_suffixed_colortrill_rhythm(function=commands.get(n))
     voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # EH
@@ -111,19 +111,19 @@ for n in [1, 2, 3, 4, 5, (6, 7), 8]:
         baca.breathe_function(pleaf)
     else:
         if isinstance(n, int):
-            music = baca.make_mmrests_function(commands.get(n))
+            music = baca.make_mmrests(commands.get(n))
         else:
-            music = baca.make_mmrests_function(commands.get(*n))
+            music = baca.make_mmrests(commands.get(*n))
     voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # CL
 
 voice = score["Clarinet.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 for n in [2, 3, 4, 5, (6, 7), 8]:
@@ -138,24 +138,24 @@ for n in [2, 3, 4, 5, (6, 7), 8]:
             music = library.make_suffixed_colortrill_rhythm(function=commands.get(*n))
     voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -171,7 +171,7 @@ voice.extend(music)
 music = baca.make_notes_function(commands.get(3, 8))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9))
+music = baca.make_mmrests(commands.get(9))
 voice.extend(music)
 
 # VN
@@ -183,7 +183,7 @@ music = library.make_airtone_chain_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -195,7 +195,7 @@ music = library.make_airtone_chain_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # VC
@@ -210,7 +210,7 @@ music = library.make_airtone_chain_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(9), head=voice.name)
+music = baca.make_mmrests(commands.get(9), head=voice.name)
 voice.extend(music)
 
 # reapply

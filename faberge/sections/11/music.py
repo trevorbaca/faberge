@@ -105,7 +105,7 @@ voice = score["EnglishHorn.Music"]
 
 # commands(
 #    ("eh", (1, 2)),
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 # commands(
@@ -122,7 +122,7 @@ voice.extend(music)
 
 # commands(
 #    ("eh", (5, 8)),
-music = baca.make_mmrests_function(commands.get(5, 8))
+music = baca.make_mmrests(commands.get(5, 8))
 voice.extend(music)
 
 # CL
@@ -150,7 +150,7 @@ voice = score["Piano.RH.Music"]
 
 # commands(
 #    ("rh", (1, 2)),
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 # commands(
@@ -173,7 +173,7 @@ voice = score["Piano.LH.Music"]
 
 # commands(
 #    ("lh", (1, 2)),
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 
@@ -186,14 +186,14 @@ voice.extend(music)
 
 # commands(
 #    ("lh", (4, 8)),
-music = baca.make_mmrests_function(commands.get(4, 8))
+music = baca.make_mmrests(commands.get(4, 8))
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
 # commands(
 #    "attack",
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -234,7 +234,7 @@ voice = score["Violin.Music"]
 
 # commands(
 #    ("vn", 1),
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 # commands(
@@ -254,7 +254,7 @@ voice.extend(music)
 
 # commands(
 #    ("vn", 4),
-music = baca.make_mmrests_function(commands.get(4), head=voice.name)
+music = baca.make_mmrests(commands.get(4), head=voice.name)
 voice.extend(music)
 
 # commands(
@@ -264,7 +264,7 @@ voice.extend(music)
 
 # commands(
 #    ("vn", 8),
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -273,7 +273,7 @@ voice = score["Viola.Music"]
 
 # commands(
 #    ("va", 1),
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 # commands(
@@ -319,7 +319,7 @@ voice.extend(music)
 
 # commands(
 #    ("vc", 4),
-music = baca.make_mmrests_function(commands.get(4), head=voice.name)
+music = baca.make_mmrests(commands.get(4), head=voice.name)
 voice.extend(music)
 
 # commands(
@@ -329,7 +329,7 @@ voice.extend(music)
 
 # commands(
 #    ("vc", 8),
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # anchor notes

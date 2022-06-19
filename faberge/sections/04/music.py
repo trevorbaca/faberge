@@ -90,7 +90,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(6))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
 voice.extend(music)
 
 # EH
@@ -105,7 +105,7 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(6))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
 voice.extend(music)
 
 # CL
@@ -120,14 +120,14 @@ voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(6))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(7, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(7, 8), head=voice.name)
 voice.extend(music)
 
 # PF
 
 voice = score["Piano.RH.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -142,12 +142,12 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8))
+music = baca.make_mmrests(commands.get(6, 8))
 voice.extend(music)
 
 voice = score["Piano.LH.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -162,12 +162,12 @@ music = library.make_downbeat_attack(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8))
+music = baca.make_mmrests(commands.get(6, 8))
 voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -180,7 +180,7 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2, 3), head=voice.name)
+music = baca.make_mmrests(commands.get(2, 3), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
@@ -189,7 +189,7 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 7), head=voice.name)
+music = baca.make_mmrests(commands.get(6, 7), head=voice.name)
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(

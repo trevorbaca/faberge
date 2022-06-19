@@ -83,13 +83,13 @@ for index, item in (
 
 voice = score["Flute.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_suffixed_colortrill_rhythm(function=commands.get(2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3))
+music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 
 music = library.make_suffixed_colortrill_rhythm(function=commands.get(4))
@@ -101,14 +101,14 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(6, 8), head=voice.name)
 voice.extend(music)
 
 # EH
 
 voice = score["EnglishHorn.Music"]
 
-music = baca.make_mmrests_function(commands.get(1, 3))
+music = baca.make_mmrests(commands.get(1, 3))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
@@ -122,7 +122,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 7))
+music = baca.make_mmrests(commands.get(6, 7))
 voice.extend(music)
 
 music = library.make_even_tuplet_rhythm(
@@ -135,13 +135,13 @@ voice.extend(music)
 
 voice = score["Clarinet.Music"]
 
-music = baca.make_mmrests_function(commands.get(1))
+music = baca.make_mmrests(commands.get(1))
 voice.extend(music)
 
 music = library.make_suffixed_colortrill_rhythm(function=commands.get(2))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3))
+music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 
 music = library.make_suffixed_colortrill_rhythm(function=commands.get(4))
@@ -153,7 +153,7 @@ music = library.make_even_tuplet_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(6, 8), head=voice.name)
 voice.extend(music)
 
 # PF
@@ -175,7 +175,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -215,7 +215,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 music = baca.make_skeleton_function(
@@ -240,7 +240,7 @@ voice.extend(music)
 
 voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC
@@ -252,7 +252,7 @@ music = baca.make_skeleton_function(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2))
+music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_downbeat_attack(function=commands.get(3))
@@ -263,7 +263,7 @@ voice.extend(music)
 music = library.make_downbeat_attack(denominator=2, function=commands.get(5))
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(6, 8), head=voice.name)
+music = baca.make_mmrests(commands.get(6, 8), head=voice.name)
 voice.extend(music)
 
 # VN
@@ -279,7 +279,7 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2))
+music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -301,7 +301,7 @@ music = library.make_clb_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(8), head=voice.name)
+music = baca.make_mmrests(commands.get(8), head=voice.name)
 voice.extend(music)
 
 # VA
@@ -319,7 +319,7 @@ music = library.make_spazzolati_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(2))
+music = baca.make_mmrests(commands.get(2))
 voice.extend(music)
 
 music = library.make_clb_rhythm(
@@ -344,7 +344,7 @@ music = library.make_clb_rhythm(
 )
 voice.extend(music)
 
-music = baca.make_mmrests_function(commands.get(3), head=voice.name)
+music = baca.make_mmrests(commands.get(3), head=voice.name)
 voice.extend(music)
 
 # VC
