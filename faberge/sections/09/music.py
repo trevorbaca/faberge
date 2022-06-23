@@ -981,29 +981,6 @@ commands(
     ),
 )
 
-##for n in [5, 6, 7, 9]:
-#for n in [5]:
-#    commands(
-#        ("vc", n),
-#        baca.down_bow(
-#            lambda _: abjad.select.get(baca.select.pheads(_), [0], 2),
-#            abjad.Tweak(r"- \tweak padding 1"),
-#            abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
-#            full=True,
-#        ),
-#        baca.up_bow(
-#            lambda _: abjad.select.get(baca.select.pheads(_), [1], 2),
-#            abjad.Tweak(r"- \tweak padding 1"),
-#            abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
-#        ),
-#        baca.half_clt_spanner(
-#            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-#            map=lambda _: abjad.select.get(baca.select.leaves(_), ([0], 2)),
-#            selector=lambda _: baca.select.rleak(baca.select.leaves(_)[:1]),
-#        ),
-#    )
-
-
 commands(
     ("vc", [5, 6, 7, 9]),
     baca.down_bow(
