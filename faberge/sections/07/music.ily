@@ -1458,17 +1458,17 @@ number.7.EnglishHorn.Music = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5545,17 +5545,17 @@ number.7.Violin.Music = {
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -5672,6 +5672,7 @@ number.7.Violin.Music = {
           %! EXPLICIT_BAR_EXTENT
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
+          %! baca.staff_lines(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6372,21 +6373,22 @@ number.7.Violin.Music = {
               %! EXPLICIT_BAR_EXTENT
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
+              %! baca.staff_lines(1)
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6821,17 +6823,17 @@ number.7.Viola.Music = {
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -7096,17 +7098,17 @@ number.7.Viola.Music = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7233,17 +7235,17 @@ number.7.Viola.Music = {
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca.IndicatorCommand._call()
           %! baca._set_status_tag()
-          %! baca.staff_lines()
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -7677,17 +7679,17 @@ number.7.Viola.Music = {
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
               %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
-              %! baca.staff_lines()
+              %! baca.staff_lines(2)
             \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
