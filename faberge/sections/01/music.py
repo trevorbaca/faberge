@@ -47,7 +47,7 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = commands.manifests()
 
-baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["100"], manifests)
+baca.metronome_mark(skips[1 - 1], commands.metronome_marks["100"], manifests)
 
 rests = score["Rests"]
 for index, string in (
