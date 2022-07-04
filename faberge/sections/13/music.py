@@ -450,7 +450,7 @@ commands(
     ("cl", (1, 6)),
     baca.pitch(
         "A2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -482,7 +482,7 @@ commands(
     ),
     baca.pitch(
         "Ab2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
