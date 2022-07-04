@@ -376,7 +376,7 @@ commands(
     ("cl", (1, 2)),
     baca.pitch(
         "Ab2",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -394,7 +394,7 @@ commands(
     ("cl", (3, 4)),
     baca.pitch(
         "Gb2",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 
@@ -402,7 +402,7 @@ commands(
     ("cl", (5, 8)),
     baca.pitch(
         "F2",
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_),
     ),
 )
 

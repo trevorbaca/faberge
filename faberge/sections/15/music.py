@@ -297,7 +297,7 @@ commands(
     ),
     baca.pitch(
         "F2",
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
     library.bcl_color_fingerings(
         abjad.Tweak(r"- \tweak direction #down"),
