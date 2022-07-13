@@ -56,240 +56,281 @@ for index, string in (
 ):
     baca.global_fermata(rests[index], string)
 
-# FL
 
-voice = score["Flute.Music"]
+def FL(voice):
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    voice = score["Flute.Music"]
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# EH
 
-voice = score["EnglishHorn.Music"]
+def EH(voice):
 
-music = baca.make_mmrests(commands.get(1, 2))
-voice.extend(music)
+    voice = score["EnglishHorn.Music"]
 
-music = library.make_ratchet_rhythm(commands.get(3))
-voice.extend(music)
+    music = baca.make_mmrests(commands.get(1, 2))
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get(4))
-voice.extend(music)
+    music = library.make_ratchet_rhythm(commands.get(3))
+    voice.extend(music)
 
-# CL
+    music = baca.make_mmrests(commands.get(4))
+    voice.extend(music)
 
-voice = score["Clarinet.Music"]
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+def CL(voice):
 
-# PF
+    voice = score["Clarinet.Music"]
 
-voice = score["Piano.RH.Music"]
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
 
-voice = score["Piano.LH.Music"]
+def PF(score):
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    voice = score["Piano.RH.Music"]
 
-voice = score["Piano.LH.Attacks"]
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    voice = score["Piano.LH.Music"]
 
-# PERC
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-voice = score["Percussion.Music"]
+    voice = score["Piano.LH.Attacks"]
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# VN
 
-voice = score["Violin.Music"]
+def PERC(voice):
 
-music = library.make_spazzolati_rhythm(
-    commands.get(1),
-    counts_rotation=0,
-)
-voice.extend(music)
+    voice = score["Percussion.Music"]
 
-music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
-voice.extend(music)
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# VA
 
-voice = score["Viola.Music"]
+def VN(voice):
 
-music = library.make_spazzolati_rhythm(
-    commands.get(1),
-    counts_rotation=-1,
-    denominator=8,
-    extra_counts=[1],
-)
-voice.extend(music)
+    voice = score["Violin.Music"]
 
-music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
-voice.extend(music)
+    music = library.make_spazzolati_rhythm(
+        commands.get(1),
+        counts_rotation=0,
+    )
+    voice.extend(music)
 
-# VC
+    music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
+    voice.extend(music)
 
-voice = score["Cello.Music"]
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+def VA(voice):
 
-# fl
+    voice = score["Viola.Music"]
 
-commands(
-    "fl",
-    baca.instrument(instruments["Flute"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.instrument_name(r"\faberge-flute-markup"),
-    library.short_instrument_name("Fl."),
-)
+    music = library.make_spazzolati_rhythm(
+        commands.get(1),
+        counts_rotation=-1,
+        denominator=8,
+        extra_counts=[1],
+    )
+    voice.extend(music)
 
-# eh
+    music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
+    voice.extend(music)
 
-commands(
-    "eh",
-    baca.instrument(instruments["EnglishHorn"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.chunk(
-        baca.instrument_name(r"\faberge-english-horn-markup"),
-        library.short_instrument_name("Eng. hn."),
-    ),
-)
 
-commands(
-    ("eh", 3),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    baca.markup(
-        r"\baca-ratchet-markup",
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-        abjad.Tweak(r"- \tweak staff-padding 6"),
-    ),
-    baca.dynamic(
-        "(f)",
-        abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-        abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
-    ),
-    baca.dls_staff_padding(8.5),
-)
+def VC(voice):
 
-# cl
+    voice = score["Cello.Music"]
 
-commands(
-    "cl",
-    baca.instrument(instruments["Clarinet"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.chunk(
-        baca.instrument_name(r"\faberge-clarinet-markup"),
-        library.short_instrument_name("Cl."),
-    ),
-)
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-# rh
 
-commands(
-    "rh",
-    baca.instrument(instruments["Piano"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.chunk(
-        baca.instrument_name(
-            r"\faberge-piano-markup",
-            context="PianoStaff",
+def fl(m):
+
+    commands(
+        "fl",
+        baca.instrument(instruments["Flute"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.instrument_name(r"\faberge-flute-markup"),
+        library.short_instrument_name("Fl."),
+    )
+
+
+def eh(m):
+
+    commands(
+        "eh",
+        baca.instrument(instruments["EnglishHorn"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.chunk(
+            baca.instrument_name(r"\faberge-english-horn-markup"),
+            library.short_instrument_name("Eng. hn."),
         ),
-        library.short_instrument_name(
-            "Pf.",
-            context="PianoStaff",
+    )
+
+    commands(
+        ("eh", 3),
+        baca.staff_lines(1),
+        baca.staff_position(0),
+        baca.markup(
+            r"\baca-ratchet-markup",
+            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            abjad.Tweak(r"- \tweak staff-padding 6"),
         ),
-    ),
-)
+        baca.dynamic(
+            "(f)",
+            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+        ),
+        baca.dls_staff_padding(8.5),
+    )
 
-# lh
 
-commands(
-    "lh",
-    baca.clef("bass"),
-    baca.staff_lines(5),
-)
+def cl(m):
 
-# attack
+    commands(
+        "cl",
+        baca.instrument(instruments["Clarinet"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.chunk(
+            baca.instrument_name(r"\faberge-clarinet-markup"),
+            library.short_instrument_name("Cl."),
+        ),
+    )
 
-# perc
 
-commands(
-    "perc",
-    baca.instrument(instruments["Percussion"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.instrument_name(r"\faberge-percussion-markup"),
-    library.short_instrument_name("Perc."),
-)
+def rh(m):
 
-# vn
+    commands(
+        "rh",
+        baca.instrument(instruments["Piano"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.chunk(
+            baca.instrument_name(
+                r"\faberge-piano-markup",
+                context="PianoStaff",
+            ),
+            library.short_instrument_name(
+                "Pf.",
+                context="PianoStaff",
+            ),
+        ),
+    )
 
-commands(
-    "vn",
-    baca.instrument(instruments["Violin"]),
-    baca.clef("treble"),
-    baca.staff_lines(5),
-    baca.instrument_name(r"\faberge-violin-markup"),
-    library.short_instrument_name("Vn."),
-    baca.dls_staff_padding(4),
-)
 
-commands(
-    ("vn", 1),
-    baca.pitch("E4"),
-    baca.dynamic('"f"'),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
+def lh(m):
 
-# va
+    commands(
+        "lh",
+        baca.clef("bass"),
+        baca.staff_lines(5),
+    )
 
-commands(
-    "va",
-    baca.instrument(instruments["Viola"]),
-    baca.clef("alto"),
-    baca.staff_lines(5),
-    baca.dls_staff_padding(6),
-    baca.instrument_name(r"\faberge-viola-markup"),
-    library.short_instrument_name("Va."),
-)
 
-commands(
-    ("va", 1),
-    baca.pitch("E4"),
-    baca.dynamic('"f"'),
-    baca.spazzolato_spanner(
-        abjad.Tweak(r"- \tweak staff-padding 3"),
-    ),
-)
+def perc(m):
 
-# vc
+    commands(
+        "perc",
+        baca.instrument(instruments["Percussion"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.instrument_name(r"\faberge-percussion-markup"),
+        library.short_instrument_name("Perc."),
+    )
 
-commands(
-    "vc",
-    baca.instrument(instruments["Cello"]),
-    baca.clef("bass"),
-    baca.staff_lines(5),
-    baca.instrument_name(r"\faberge-cello-markup"),
-    library.short_instrument_name("Vc."),
-)
+
+def vn(m):
+
+    commands(
+        "vn",
+        baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
+        baca.staff_lines(5),
+        baca.instrument_name(r"\faberge-violin-markup"),
+        library.short_instrument_name("Vn."),
+        baca.dls_staff_padding(4),
+    )
+
+    commands(
+        ("vn", 1),
+        baca.pitch("E4"),
+        baca.dynamic('"f"'),
+        baca.spazzolato_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 3"),
+        ),
+    )
+
+
+def va(m):
+
+    commands(
+        "va",
+        baca.instrument(instruments["Viola"]),
+        baca.clef("alto"),
+        baca.staff_lines(5),
+        baca.dls_staff_padding(6),
+        baca.instrument_name(r"\faberge-viola-markup"),
+        library.short_instrument_name("Va."),
+    )
+
+    commands(
+        ("va", 1),
+        baca.pitch("E4"),
+        baca.dynamic('"f"'),
+        baca.spazzolato_spanner(
+            abjad.Tweak(r"- \tweak staff-padding 3"),
+        ),
+    )
+
+
+def vc(m):
+
+    commands(
+        "vc",
+        baca.instrument(instruments["Cello"]),
+        baca.clef("bass"),
+        baca.staff_lines(5),
+        baca.instrument_name(r"\faberge-cello-markup"),
+        library.short_instrument_name("Vc."),
+    )
+
+
+def main():
+    FL(commands.voice("fl"))
+    EH(commands.voice("eh"))
+    CL(commands.voice("cl"))
+    PF(score)
+    PERC(commands.voice("perc"))
+    VN(commands.voice("vn"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    fl(cache["fl"])
+    eh(cache["eh"])
+    cl(cache["cl"])
+    rh(cache["rh"])
+    lh(cache["lh"])
+    perc(cache["perc"])
+    vn(cache["vn"])
+    va(cache["va"])
+    vc(cache["vc"])
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
