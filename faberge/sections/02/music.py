@@ -256,7 +256,7 @@ def PF(voice):
 
     commands("lh", baca.mmrest_transparent())
 
-    voice = score["Piano.LH.Attacks"]
+    voice = score["Piano.LH.Attacks.Music"]
 
     music = library.make_piano_attack_rhythm(commands.get(1, 12))
     voice.extend(music)

@@ -18,7 +18,7 @@
         "Piano.RH.Music",
         "Piano.LH.Staff",
         "Piano.LH.Music",
-        "Piano.LH.Attacks",
+        "Piano.LH.Attacks.Music",
         "Percussion.Staff",
         "Percussion.Music",
         "String_Section.Staff_Group",

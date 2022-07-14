@@ -833,7 +833,7 @@ def PF(voice):
     )
     voice.extend(music)
 
-    voice = score["Piano.LH.Attacks"]
+    voice = score["Piano.LH.Attacks.Music"]
 
     music = library.make_piano_attack_rhythm(commands.get(1, 22))
     voice.extend(music)
@@ -970,23 +970,6 @@ def VC(voice):
         denominator=8,
     )
     voice.extend(music)
-
-
-## anchor notes
-#
-# commands(
-#    ["perc", "vn"],
-#    baca.append_anchor_note(),
-# )
-#
-## reapply
-#
-# music_voice_names = [_ for _ in voice_names if "Music" in _ or "Attacks" in _]
-#
-# commands(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
 
 
 def fl(m):

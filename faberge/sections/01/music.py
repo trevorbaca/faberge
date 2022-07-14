@@ -98,7 +98,7 @@ def PF(score):
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
-    voice = score["Piano.LH.Attacks"]
+    voice = score["Piano.LH.Attacks.Music"]
 
     music = baca.make_mmrests(commands.get())
     voice.extend(music)

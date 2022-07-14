@@ -277,7 +277,7 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, piano_rh_music_staff)
     piano_lh_music_voice = abjad.Voice(name="Piano.LH.Music", tag=tag)
-    piano_lh_attack_voice = abjad.Voice(name="Piano.LH.Attacks", tag=tag)
+    piano_lh_attack_voice = abjad.Voice(name="Piano.LH.Attacks.Music", tag=tag)
     piano_lh_music_staff = abjad.Staff(
         [piano_lh_music_voice, piano_lh_attack_voice],
         simultaneous=True,
@@ -1016,7 +1016,7 @@ def voice_abbreviations():
         "lhr": "Piano.LH.Rests",
         # TODO: remove *x abbreviations
         "lhx": ["Piano.LH.Music", "Piano.LH.Rests"],
-        "attack": "Piano.LH.Attacks",
+        "attack": "Piano.LH.Attacks.Music",
         "perc": "Percussion.Music",
         "percr": "Percussion.Rests",
         # TODO: remove *x abbreviations
@@ -1039,7 +1039,7 @@ def voice_abbreviations():
             "Clarinet.Music",
             "Piano.RH.Music",
             "Piano.LH.Music",
-            "Piano.LH.Attacks",
+            "Piano.LH.Attacks.Music",
             "Percussion.Music",
             "Violin.Music",
             "Viola.Music",

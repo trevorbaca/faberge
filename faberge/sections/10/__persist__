@@ -18,7 +18,7 @@
         "Piano.RH.Music",
         "Piano.LH.Staff",
         "Piano.LH.Music",
-        "Piano.LH.Attacks",
+        "Piano.LH.Attacks.Music",
         "Percussion.Staff",
         "Percussion.Music",
         "Percussion.Rests",
@@ -291,9 +291,9 @@
                 value=1,
             ),
         ],
-        "Piano.LH.Attacks": [
+        "Piano.LH.Attacks.Music": [
             baca.Memento(
-                context="Piano.LH.Attacks",
+                context="Piano.LH.Attacks.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",

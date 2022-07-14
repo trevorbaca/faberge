@@ -19832,12 +19832,12 @@ number.3.Piano.LH.Music = {
 
 
   %! baca.path.extern()
-number.3.Piano.LH.Attacks = {
+number.3.Piano.LH.Attacks.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 1]
+    % [Piano.LH.Attacks.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca.OverrideCommand._call(1)
@@ -19884,154 +19884,154 @@ number.3.Piano.LH.Attacks = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 2]
+    % [Piano.LH.Attacks.Music measure 2]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 3]
+    % [Piano.LH.Attacks.Music measure 3]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 4]
+    % [Piano.LH.Attacks.Music measure 4]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 5]
+    % [Piano.LH.Attacks.Music measure 5]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 6]
+    % [Piano.LH.Attacks.Music measure 6]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 7]
+    % [Piano.LH.Attacks.Music measure 7]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 8]
+    % [Piano.LH.Attacks.Music measure 8]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 9]
+    % [Piano.LH.Attacks.Music measure 9]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 10]
+    % [Piano.LH.Attacks.Music measure 10]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 11]
+    % [Piano.LH.Attacks.Music measure 11]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 12]
+    % [Piano.LH.Attacks.Music measure 12]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 13]
+    % [Piano.LH.Attacks.Music measure 13]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 14]
+    % [Piano.LH.Attacks.Music measure 14]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 15]
+    % [Piano.LH.Attacks.Music measure 15]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 16]
+    % [Piano.LH.Attacks.Music measure 16]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 17]
+    % [Piano.LH.Attacks.Music measure 17]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 18]
+    % [Piano.LH.Attacks.Music measure 18]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 19]
+    % [Piano.LH.Attacks.Music measure 19]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 20]
+    % [Piano.LH.Attacks.Music measure 20]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 21]
+    % [Piano.LH.Attacks.Music measure 21]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 22]
+    % [Piano.LH.Attacks.Music measure 22]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 23]
+    % [Piano.LH.Attacks.Music measure 23]
     % BEFORE:
     % GROB_OVERRIDES:
     \once \override Accidental.stencil = ##f
@@ -20069,399 +20069,399 @@ number.3.Piano.LH.Attacks = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 24]
+    % [Piano.LH.Attacks.Music measure 24]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 25]
+    % [Piano.LH.Attacks.Music measure 25]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 26]
+    % [Piano.LH.Attacks.Music measure 26]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 27]
+    % [Piano.LH.Attacks.Music measure 27]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 28]
+    % [Piano.LH.Attacks.Music measure 28]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 29]
+    % [Piano.LH.Attacks.Music measure 29]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 30]
+    % [Piano.LH.Attacks.Music measure 30]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 31]
+    % [Piano.LH.Attacks.Music measure 31]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 32]
+    % [Piano.LH.Attacks.Music measure 32]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 33]
+    % [Piano.LH.Attacks.Music measure 33]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 34]
+    % [Piano.LH.Attacks.Music measure 34]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 35]
+    % [Piano.LH.Attacks.Music measure 35]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 36]
+    % [Piano.LH.Attacks.Music measure 36]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 37]
+    % [Piano.LH.Attacks.Music measure 37]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 38]
+    % [Piano.LH.Attacks.Music measure 38]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 39]
+    % [Piano.LH.Attacks.Music measure 39]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 40]
+    % [Piano.LH.Attacks.Music measure 40]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 41]
+    % [Piano.LH.Attacks.Music measure 41]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 42]
+    % [Piano.LH.Attacks.Music measure 42]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 43]
+    % [Piano.LH.Attacks.Music measure 43]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 44]
+    % [Piano.LH.Attacks.Music measure 44]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 45]
+    % [Piano.LH.Attacks.Music measure 45]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 46]
+    % [Piano.LH.Attacks.Music measure 46]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 47]
+    % [Piano.LH.Attacks.Music measure 47]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 48]
+    % [Piano.LH.Attacks.Music measure 48]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 49]
+    % [Piano.LH.Attacks.Music measure 49]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 50]
+    % [Piano.LH.Attacks.Music measure 50]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 51]
+    % [Piano.LH.Attacks.Music measure 51]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 52]
+    % [Piano.LH.Attacks.Music measure 52]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 53]
+    % [Piano.LH.Attacks.Music measure 53]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 54]
+    % [Piano.LH.Attacks.Music measure 54]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 55]
+    % [Piano.LH.Attacks.Music measure 55]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 56]
+    % [Piano.LH.Attacks.Music measure 56]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 57]
+    % [Piano.LH.Attacks.Music measure 57]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 58]
+    % [Piano.LH.Attacks.Music measure 58]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 59]
+    % [Piano.LH.Attacks.Music measure 59]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 60]
+    % [Piano.LH.Attacks.Music measure 60]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 61]
+    % [Piano.LH.Attacks.Music measure 61]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 62]
+    % [Piano.LH.Attacks.Music measure 62]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 63]
+    % [Piano.LH.Attacks.Music measure 63]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 64]
+    % [Piano.LH.Attacks.Music measure 64]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 65]
+    % [Piano.LH.Attacks.Music measure 65]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 66]
+    % [Piano.LH.Attacks.Music measure 66]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 67]
+    % [Piano.LH.Attacks.Music measure 67]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 68]
+    % [Piano.LH.Attacks.Music measure 68]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 69]
+    % [Piano.LH.Attacks.Music measure 69]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 70]
+    % [Piano.LH.Attacks.Music measure 70]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 71]
+    % [Piano.LH.Attacks.Music measure 71]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 72]
+    % [Piano.LH.Attacks.Music measure 72]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 73]
+    % [Piano.LH.Attacks.Music measure 73]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 74]
+    % [Piano.LH.Attacks.Music measure 74]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 75]
+    % [Piano.LH.Attacks.Music measure 75]
       %! faberge.make_piano_attack_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 76]
+    % [Piano.LH.Attacks.Music measure 76]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 77]
+    % [Piano.LH.Attacks.Music measure 77]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 78]
+    % [Piano.LH.Attacks.Music measure 78]
       %! faberge.make_piano_attack_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 79]
+    % [Piano.LH.Attacks.Music measure 79]
       %! faberge.make_piano_attack_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.LH.Attacks measure 80]
+    % [Piano.LH.Attacks.Music measure 80]
       %! faberge.make_piano_attack_rhythm()
     r1
     % AFTER:
@@ -20494,10 +20494,10 @@ number.3.Piano.LH.Staff = <<
 
     % OPEN_BRACKETS:
       %! faberge.make_empty_score()
-    \context Voice = "Piano.LH.Attacks"
+    \context Voice = "Piano.LH.Attacks.Music"
       %! faberge.make_empty_score()
       %! baca.path.extern()
-    { \number.3.Piano.LH.Attacks }
+    { \number.3.Piano.LH.Attacks.Music }
     % CLOSING:
     % COMMANDS:
 

@@ -158,7 +158,7 @@ voice.extend(music)
 music = baca.make_mmrests(commands.get(7, 8))
 voice.extend(music)
 
-voice = score["Piano.LH.Attacks"]
+voice = score["Piano.LH.Attacks.Music"]
 
 music = baca.make_mmrests(commands.get())
 voice.extend(music)
@@ -326,7 +326,7 @@ commands(
 
 # reapply
 
-music_voice_names = [_ for _ in voice_names if "Music" in _ or "Attacks" in _]
+music_voice_names = [_ for _ in voice_names if "Music" in _]
 
 commands(
     music_voice_names,
