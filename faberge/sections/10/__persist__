@@ -4,7 +4,7 @@
         "GlobalContext",
         "Skips",
         "MusicContext",
-        "WindSection.StaffGroup",
+        "WindSectionStaffGroup",
         "Flute.Staff",
         "Rests",
         "Flute.Music",
@@ -12,8 +12,8 @@
         "EnglishHorn.Music",
         "Clarinet.Staff",
         "Clarinet.Music",
-        "PercussionSection.StaffGroup",
-        "Piano.StaffGroup",
+        "PercussionSectionStaffGroup",
+        "PianoStaff",
         "Piano.RH.Staff",
         "Piano.RH.Music",
         "Piano.LH.Staff",
@@ -22,7 +22,7 @@
         "Percussion.Staff",
         "Percussion.Music",
         "Percussion.Rests",
-        "StringSection.StaffGroup",
+        "StringSectionStaffGroup",
         "Violin.Staff",
         "Violin.Music",
         "Viola.Staff",
@@ -363,7 +363,7 @@
                 value=5,
             ),
         ],
-        "Piano.StaffGroup": [
+        "PianoStaff": [
             baca.Memento(
                 context="Piano.RH.Music",
                 edition=None,
