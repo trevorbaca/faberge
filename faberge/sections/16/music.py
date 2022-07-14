@@ -78,262 +78,309 @@ for index, item in (
 
 baca.bar_line(skips[8 - 1], "|.")
 
-# FL
 
-voice = score["Flute.Music"]
+def FL(voice):
 
-music = baca.make_repeat_tied_notes(commands.get(1, 4))
-voice.extend(music)
+    voice = score["Flute.Music"]
 
-music = library.make_downbeat_attack(commands.get(5))
-pleaf = baca.select.pleaf(music, 0)
-baca.repeat_tie_function(pleaf)
-voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(1, 4))
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get(6, 8))
-voice.extend(music)
+    music = library.make_downbeat_attack(commands.get(5))
+    pleaf = baca.select.pleaf(music, 0)
+    baca.repeat_tie_function(pleaf)
+    voice.extend(music)
 
-# EH
+    music = baca.make_mmrests(commands.get(6, 8))
+    voice.extend(music)
 
-voice = score["EnglishHorn.Music"]
 
-music = baca.make_repeat_tied_notes(commands.get(1, 4))
-voice.extend(music)
+def EH(voice):
 
-music = library.make_downbeat_attack(commands.get(5))
-pleaf = baca.select.pleaf(music, 0)
-baca.repeat_tie_function(pleaf)
-voice.extend(music)
+    voice = score["EnglishHorn.Music"]
 
-music = baca.make_mmrests(commands.get(6, 8))
-voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(1, 4))
+    voice.extend(music)
 
-# CL
+    music = library.make_downbeat_attack(commands.get(5))
+    pleaf = baca.select.pleaf(music, 0)
+    baca.repeat_tie_function(pleaf)
+    voice.extend(music)
 
-voice = score["Clarinet.Music"]
+    music = baca.make_mmrests(commands.get(6, 8))
+    voice.extend(music)
 
-music = baca.make_repeat_tied_notes(commands.get())
-voice.extend(music)
 
-# PF
+def CL(voice):
 
-voice = score["Piano.RH.Music"]
+    voice = score["Clarinet.Music"]
 
-music = baca.make_repeat_tied_notes(commands.get(1, 4))
-voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get())
+    voice.extend(music)
 
-music = library.make_downbeat_attack(commands.get(5))
-pleaf = baca.select.pleaf(music, 0)
-baca.repeat_tie_function(pleaf)
-voice.extend(music)
 
-music = baca.make_mmrests(commands.get(6, 8))
-voice.extend(music)
+def PF(voice):
 
-voice = score["Piano.LH.Attacks.Music"]
+    voice = score["Piano.RH.Music"]
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    music = baca.make_repeat_tied_notes(commands.get(1, 4))
+    voice.extend(music)
 
-voice = score["Piano.LH.Music"]
+    music = library.make_downbeat_attack(commands.get(5))
+    pleaf = baca.select.pleaf(music, 0)
+    baca.repeat_tie_function(pleaf)
+    voice.extend(music)
 
-music = baca.make_mmrests(commands.get())
-voice.extend(music)
+    music = baca.make_mmrests(commands.get(6, 8))
+    voice.extend(music)
 
-# PERC
+    voice = score["Piano.LH.Attacks.Music"]
 
-voice = score["Percussion.Music"]
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-music = baca.make_notes(commands.get())
-voice.extend(music)
+    voice = score["Piano.LH.Music"]
 
-# VN
+    music = baca.make_mmrests(commands.get())
+    voice.extend(music)
 
-voice = score["Violin.Music"]
 
-music = library.make_halves_rhythm(
-    commands.get(1, 7),
-    tuplet_ratios=[(2, 3)],
-)
-voice.extend(music)
+def PERC(voice):
 
-music = baca.make_notes(commands.get(8))
-voice.extend(music)
+    voice = score["Percussion.Music"]
 
-# VA
+    music = baca.make_notes(commands.get())
+    voice.extend(music)
 
-voice = score["Viola.Music"]
 
-music = library.make_halves_rhythm(
-    commands.get(1, 7),
-    tuplet_ratios=[(2, 1)],
-)
-voice.extend(music)
+def VN(voice):
 
-music = baca.make_notes(commands.get(8))
-voice.extend(music)
+    voice = score["Violin.Music"]
 
-# VC
+    music = library.make_halves_rhythm(
+        commands.get(1, 7),
+        tuplet_ratios=[(2, 3)],
+    )
+    voice.extend(music)
 
-voice = score["Cello.Music"]
+    music = baca.make_notes(commands.get(8))
+    voice.extend(music)
 
-music = library.make_halves_rhythm(commands.get(1, 7))
-voice.extend(music)
-
-music = baca.make_notes(commands.get(8))
-voice.extend(music)
-
-# reapply
-
-music_voice_names = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# fl
-
-commands(
-    "fl",
-    baca.staff_lines(1),
-)
-
-# eh
-
-commands(
-    "eh",
-    baca.staff_lines(1),
-)
-
-# cl
-
-commands(
-    "cl",
-    baca.dls_staff_padding(6),
-    baca.dynamic("p"),
-    baca.flat_glissando(
-        "F2",
-        hide_middle_stems=True,
-    ),
-)
-
-# rh
-
-commands(
-    "rh",
-    baca.staff_lines(1),
-)
-
-# fl, eh, rh composites
-
-commands(
-    (["fl", "eh", "rh"], (1, 4)),
-    baca.dynamic('"ff"'),
-    baca.markup(
-        r"\baca-very-small-maraca-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-    ),
-)
-
-commands(
-    (["fl", "eh", "rh"], (1, 5)),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ["fl", "eh", "rh"],
-    baca.dls_staff_padding(7),
-    baca.staff_position(0),
-)
-
-# lh, attack
-
-# perc
-
-commands(
-    "perc",
-    baca.dls_staff_padding(4),
-    baca.dynamic("p"),
-    # TODO: implement flat glissando based on staff position
-    # TODO: change A4 here to staff position -1
-    baca.flat_glissando(
-        "B3",
-        hide_middle_stems=True,
-    ),
-    baca.markup(
-        r"\baca-bd-sponge-markup",
-        abjad.Tweak(r"- \tweak padding 1.5"),
-        abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-    ),
-)
-
-# vn
-
-commands(
-    "vn",
-    baca.pitch("<F#5 Aqs5>"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-# va
-
-commands(
-    "va",
-    baca.pitch("Dqf5"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-# vc
-
-commands(
-    "vc",
-    baca.pitch("E2"),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_),
-    ),
-)
-
-commands(
-    ("vc", 8),
-    baca.chunk(
-        baca.mark(r"\faberge-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_extra_offset((40, 0)),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: abjad.select.leaf(_, -1),
-    ),
-)
-
-# vn, va, vc composites
-
-commands(
-    ["vn", "va", "vc"],
-    baca.accent(
-        selector=lambda _: baca.select.pheads(_),
-    ),
-    baca.dls_staff_padding(6),
-)
-
-commands(
-    (["vn", "va", "vc"], 1),
-    baca.dynamic("ff"),
-)
-
-commands(
-    (["vn", "va", "vc"], 5),
-    baca.dynamic("pp"),
-)
+
+def VA(voice):
+
+    voice = score["Viola.Music"]
+
+    music = library.make_halves_rhythm(
+        commands.get(1, 7),
+        tuplet_ratios=[(2, 1)],
+    )
+    voice.extend(music)
+
+    music = baca.make_notes(commands.get(8))
+    voice.extend(music)
+
+
+def VC(voice):
+
+    voice = score["Cello.Music"]
+
+    music = library.make_halves_rhythm(commands.get(1, 7))
+    voice.extend(music)
+
+    music = baca.make_notes(commands.get(8))
+    voice.extend(music)
+
+
+## reapply
+#
+# music_voice_names = [_ for _ in voice_names if "Music" in _]
+#
+# commands(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
+
+
+def fl(m):
+
+    commands(
+        "fl",
+        baca.staff_lines(1),
+    )
+
+
+def eh(m):
+
+    commands(
+        "eh",
+        baca.staff_lines(1),
+    )
+
+
+def cl(m):
+
+    commands(
+        "cl",
+        baca.dls_staff_padding(6),
+        baca.dynamic("p"),
+        baca.flat_glissando(
+            "F2",
+            hide_middle_stems=True,
+        ),
+    )
+
+
+def pf(cache):
+
+    commands(
+        "rh",
+        baca.staff_lines(1),
+    )
+
+
+def fl_eh_rh(cache):
+
+    commands(
+        (["fl", "eh", "rh"], (1, 4)),
+        baca.dynamic('"ff"'),
+        baca.markup(
+            r"\baca-very-small-maraca-markup",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        ),
+    )
+
+    commands(
+        (["fl", "eh", "rh"], (1, 5)),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaves(_),
+        ),
+    )
+
+    commands(
+        ["fl", "eh", "rh"],
+        baca.dls_staff_padding(7),
+        baca.staff_position(0),
+    )
+
+
+def perc(m):
+
+    commands(
+        "perc",
+        baca.dls_staff_padding(4),
+        baca.dynamic("p"),
+        # TODO: implement flat glissando based on staff position
+        # TODO: change A4 here to staff position -1
+        baca.flat_glissando(
+            "B3",
+            hide_middle_stems=True,
+        ),
+        baca.markup(
+            r"\baca-bd-sponge-markup",
+            abjad.Tweak(r"- \tweak padding 1.5"),
+            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+        ),
+    )
+
+
+def vn(m):
+
+    commands(
+        "vn",
+        baca.pitch("<F#5 Aqs5>"),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaves(_),
+        ),
+    )
+
+
+def va(m):
+
+    commands(
+        "va",
+        baca.pitch("Dqf5"),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaves(_),
+        ),
+    )
+
+
+def vc(m):
+
+    commands(
+        "vc",
+        baca.pitch("E2"),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaves(_),
+        ),
+    )
+
+    commands(
+        ("vc", 8),
+        baca.chunk(
+            baca.mark(r"\faberge-colophon-markup"),
+            baca.rehearsal_mark_down(),
+            baca.rehearsal_mark_extra_offset((40, 0)),
+            baca.rehearsal_mark_padding(6),
+            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+            selector=lambda _: abjad.select.leaf(_, -1),
+        ),
+    )
+
+
+def vn_va_vc(cache):
+
+    commands(
+        ["vn", "va", "vc"],
+        baca.accent(
+            selector=lambda _: baca.select.pheads(_),
+        ),
+        baca.dls_staff_padding(6),
+    )
+
+    commands(
+        (["vn", "va", "vc"], 1),
+        baca.dynamic("ff"),
+    )
+
+    commands(
+        (["vn", "va", "vc"], 5),
+        baca.dynamic("pp"),
+    )
+
+
+def main():
+    FL(commands.voice("fl"))
+    EH(commands.voice("eh"))
+    CL(commands.voice("cl"))
+    PF(score)
+    PERC(commands.voice("perc"))
+    VN(commands.voice("vn"))
+    VA(commands.voice("va"))
+    VC(commands.voice("vc"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    fl(cache["fl"])
+    eh(cache["eh"])
+    cl(cache["cl"])
+    pf(cache)
+    fl_eh_rh(cache)
+    perc(cache["perc"])
+    vn(cache["vn"])
+    va(cache["va"])
+    vc(cache["vc"])
+    vn_va_vc(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
