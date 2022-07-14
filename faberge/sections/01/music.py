@@ -58,78 +58,52 @@ for index, string in (
 
 
 def FL(voice):
-
-    voice = score["Flute.Music"]
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def EH(voice):
-
-    voice = score["EnglishHorn.Music"]
-
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
-
     music = library.make_ratchet_rhythm(commands.get(3))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(4))
     voice.extend(music)
 
 
 def CL(voice):
-
-    voice = score["Clarinet.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def PF(score):
-
     voice = score["Piano.RH.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
-
     voice = score["Piano.LH.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
-
     voice = score["Piano.LH.Attacks.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def PERC(voice):
-
-    voice = score["Percussion.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def VN(voice):
-
-    voice = score["Violin.Music"]
-
     music = library.make_spazzolati_rhythm(
         commands.get(1),
         counts_rotation=0,
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
     voice.extend(music)
 
 
 def VA(voice):
-
-    voice = score["Viola.Music"]
-
     music = library.make_spazzolati_rhythm(
         commands.get(1),
         counts_rotation=-1,
@@ -137,21 +111,16 @@ def VA(voice):
         extra_counts=[1],
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2, 4), head=voice.name)
     voice.extend(music)
 
 
 def VC(voice):
-
-    voice = score["Cello.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def fl(m):
-
     commands(
         "fl",
         baca.instrument(instruments["Flute"]),
@@ -163,7 +132,6 @@ def fl(m):
 
 
 def eh(m):
-
     commands(
         "eh",
         baca.instrument(instruments["EnglishHorn"]),
@@ -174,7 +142,6 @@ def eh(m):
             library.short_instrument_name("Eng. hn."),
         ),
     )
-
     commands(
         ("eh", 3),
         baca.staff_lines(1),
@@ -194,7 +161,6 @@ def eh(m):
 
 
 def cl(m):
-
     commands(
         "cl",
         baca.instrument(instruments["Clarinet"]),
@@ -207,8 +173,7 @@ def cl(m):
     )
 
 
-def rh(m):
-
+def pf(cache):
     commands(
         "rh",
         baca.instrument(instruments["Piano"]),
@@ -225,10 +190,6 @@ def rh(m):
             ),
         ),
     )
-
-
-def lh(m):
-
     commands(
         "lh",
         baca.clef("bass"),
@@ -237,7 +198,6 @@ def lh(m):
 
 
 def perc(m):
-
     commands(
         "perc",
         baca.instrument(instruments["Percussion"]),
@@ -249,7 +209,6 @@ def perc(m):
 
 
 def vn(m):
-
     commands(
         "vn",
         baca.instrument(instruments["Violin"]),
@@ -259,7 +218,6 @@ def vn(m):
         library.short_instrument_name("Vn."),
         baca.dls_staff_padding(4),
     )
-
     commands(
         ("vn", 1),
         baca.pitch("E4"),
@@ -271,7 +229,6 @@ def vn(m):
 
 
 def va(m):
-
     commands(
         "va",
         baca.instrument(instruments["Viola"]),
@@ -281,7 +238,6 @@ def va(m):
         baca.instrument_name(r"\faberge-viola-markup"),
         library.short_instrument_name("Va."),
     )
-
     commands(
         ("va", 1),
         baca.pitch("E4"),
@@ -293,7 +249,6 @@ def va(m):
 
 
 def vc(m):
-
     commands(
         "vc",
         baca.instrument(instruments["Cello"]),
@@ -321,8 +276,7 @@ def main():
     fl(cache["fl"])
     eh(cache["eh"])
     cl(cache["cl"])
-    rh(cache["rh"])
-    lh(cache["lh"])
+    pf(cache)
     perc(cache["perc"])
     vn(cache["vn"])
     va(cache["va"])
