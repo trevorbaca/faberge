@@ -287,7 +287,7 @@ def make_empty_score():
     piano_staff_group = abjad.StaffGroup(
         [piano_rh_music_staff, piano_lh_music_staff],
         lilypond_type="PianoStaff",
-        name="Piano.Staff_Group",
+        name="Piano.StaffGroup",
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Piano", piano_staff_group)
@@ -363,21 +363,21 @@ def make_empty_score():
             clarinet_music_staff,
         ],
         lilypond_type="WindSectionStaffGroup",
-        name="Wind_Section.Staff_Group",
+        name="WindSection.StaffGroup",
         tag=tag,
     )
     # PERCUSSION SECTION STAFF GROUP
     percussion_section_staff_group = abjad.StaffGroup(
         [piano_staff_group, percussion_music_staff],
         lilypond_type="PercussionSectionStaffGroup",
-        name="Percussion_Section.Staff_Group",
+        name="PercussionSection.StaffGroup",
         tag=tag,
     )
     # STRING SECTION STAFF GROUP
     string_section_staff_group = abjad.StaffGroup(
         [violin_music_staff, viola_music_staff, cello_music_staff],
         lilypond_type="StringSectionStaffGroup",
-        name="String_Section.Staff_Group",
+        name="StringSection.StaffGroup",
         tag=tag,
     )
     # MUSIC CONTEXT
