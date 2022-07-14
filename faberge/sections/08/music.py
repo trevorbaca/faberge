@@ -92,234 +92,174 @@ for index, string in (
 
 
 def FL(voice):
-
-    voice = score["Flute.Music"]
-
     music = baca.make_mmrests(commands.get(1, 3))
     voice.extend(music)
-
     music = baca.make_repeat_tied_notes(commands.get(4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(5))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
     voice.extend(music)
 
 
 def EH(voice):
-
-    voice = score["EnglishHorn.Music"]
-
     music = baca.make_skeleton(
         "{ c4 c4 c4 r2. }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2, 3))
     voice.extend(music)
-
     music = baca.make_repeat_tied_notes(commands.get(4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(5))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
     voice.extend(music)
 
 
 def CL(voice):
-
-    voice = score["Clarinet.Music"]
-
     music = baca.make_mmrests(commands.get(1, 3))
     voice.extend(music)
-
     music = baca.make_repeat_tied_notes(commands.get(4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(commands.get(5))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(6, 10), head=voice.name)
     voice.extend(music)
 
 
 def PF(voice):
-
     voice = score["Piano.RH.Music"]
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. r16 c8 r8 c8 ] r8 r4 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(7))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 r4 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 c8. r16 }",
     )
     voice.extend(music)
     baca.append_anchor_note_function(voice)
-
     voice = score["Piano.LH.Music"]
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. r16 c8 r8 c8 ] r8 r4 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(7))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 r4 c8. r16 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 r4 r4 r4 c8. r16 }",
     )
     voice.extend(music)
     baca.append_anchor_note_function(voice)
-
     voice = score["Piano.LH.Attacks.Music"]
-
     music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 
 def PERC(voice):
-
-    voice = score["Percussion.Music"]
-
     music = baca.make_repeat_tied_notes(commands.get(1))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2))
     voice.extend(music)
-
     music = library.make_downbeat_attack(commands.get(3))
     voice.extend(music)
-
     music = library.make_airtone_chain_rhythm(
         commands.get(4, 5),
         6,
         [2, 5],
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(6, 7))
     voice.extend(music)
-
     music = baca.make_repeat_tied_notes(commands.get(8, 9))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(10))
     voice.extend(music)
 
 
 def VN(voice):
-
-    voice = score["Violin.Music"]
-
     music = baca.make_skeleton("{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 }")
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-
     music = library.make_airtone_chain_rhythm(
         commands.get(4, 5),
         6,
         [1, 4],
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"\times 6/5 { c2 c4 c4 c4 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(7))
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"\times 9/5 { c2 c4 c4 c4 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"\times 6/5 { c2 c4 c4 c4 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"{ c2 c4 c4 c4 }",
     )
@@ -328,28 +268,20 @@ def VN(voice):
 
 
 def VA(voice):
-
-    voice = score["Viola.Music"]
-
     music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
-
     music = baca.make_repeat_tied_notes(commands.get(3, 6))
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(7), head=voice.name)
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"\times 9/5 { c4 c4 c4 c2 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"\times 6/5 { c4 c4 c4 c2 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         r"{ c4 c4 c4 c2 }",
     )
@@ -358,47 +290,36 @@ def VA(voice):
 
 
 def VC(voice):
-
-    voice = score["Cello.Music"]
-
     music = baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(2))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-
     music = library.make_airtone_chain_rhythm(
         commands.get(4, 5),
         6,
         [0, 3],
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8. [ r16 c8 r8 c8 r8 c8. ] r16 r4 c8 r8 }",
     )
     voice.extend(music)
-
     music = baca.make_mmrests(commands.get(7))
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8. r16 r4 r4 r4 r4 c8 r8 }",
     )
     voice.extend(music)
-
     music = baca.make_skeleton(
         "{ c8. r16 r4 r4 r4 r4 }",
     )
@@ -406,25 +327,7 @@ def VC(voice):
     baca.append_anchor_note_function(voice)
 
 
-## anchor notes
-#
-# commands(
-#    ["rh", "lh", "vn", "va", "vc"],
-#    baca.append_anchor_note(),
-# )
-#
-## reapply
-#
-# music_voice_names = [_ for _ in voice_names if "Music" in _]
-#
-# commands(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def fl(m):
-
     commands(
         ("fl", (4, 5)),
         baca.pitch("G#3"),
@@ -434,7 +337,6 @@ def fl(m):
 
 
 def eh(m):
-
     commands(
         ("eh", 1),
         baca.pitch("G#5"),
@@ -444,7 +346,6 @@ def eh(m):
         ),
         baca.trill_spanner_staff_padding(5.5),
     )
-
     commands(
         ("eh", (4, 5)),
         baca.staff_lines(1),
@@ -468,7 +369,6 @@ def eh(m):
 
 
 def cl(m):
-
     commands(
         ("cl", (4, 5)),
         baca.pitch("C2"),
@@ -478,12 +378,10 @@ def cl(m):
 
 
 def fl_eh_cl(cache):
-
     commands(
         (["fl", "eh", "cl"], [4, 5]),
         baca.breathe(),
     )
-
     commands(
         (["fl", "eh", "cl"], (4, 5)),
         baca.material_annotation_spanner(
@@ -496,12 +394,10 @@ def fl_eh_cl(cache):
 
 
 def pf(cache):
-
     commands(
         ("rh", [1, 3, 4, 5]),
         baca.beam(),
     )
-
     commands(
         ("rh", [1, 3, 4, 5, 6, 8, 9, 10]),
         baca.accent(
@@ -511,12 +407,10 @@ def pf(cache):
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
     )
-
     commands(
         ("rh", 8),
         baca.dynamic("pp"),
     )
-
     commands(
         ("rh", (1, 5)),
         baca.material_annotation_spanner(
@@ -524,7 +418,6 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
     )
-
     commands(
         ("rh", (6, 10)),
         baca.material_annotation_spanner(
@@ -532,7 +425,6 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
     )
-
     commands(
         "rh",
         baca.pitch("<G6 A6 B6 C7>"),
@@ -540,14 +432,10 @@ def pf(cache):
         baca.ottava(),
         baca.ottava_bracket_staff_padding(8),
     )
-
-    # lh
-
     commands(
         ("lh", [1, 3, 4, 5]),
         baca.beam(),
     )
-
     commands(
         ("lh", (1, 5)),
         baca.material_annotation_spanner(
@@ -555,7 +443,6 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
     )
-
     commands(
         ("lh", (6, 10)),
         baca.material_annotation_spanner(
@@ -563,7 +450,6 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
     )
-
     commands(
         ("lh", [1, 3, 4, 5, 6, 8, 9, 10]),
         baca.accent(
@@ -573,7 +459,6 @@ def pf(cache):
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
     )
-
     commands(
         ("lh", (1, 10)),
         baca.pitch("<F6 G6 A6>"),
@@ -585,9 +470,6 @@ def pf(cache):
         baca.ottava(),
         baca.ottava_bracket_staff_padding(8),
     )
-
-    # attack
-
     commands(
         "attack",
         baca.mmrest_transparent(),
@@ -595,7 +477,6 @@ def pf(cache):
 
 
 def perc(m):
-
     commands(
         ("perc", 1),
         baca.markup(
@@ -610,7 +491,6 @@ def perc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
-
     commands(
         ("perc", 3),
         baca.staff_position(-1),
@@ -623,7 +503,6 @@ def perc(m):
         baca.laissez_vibrer(),
         baca.dynamic("p"),
     )
-
     commands(
         ("perc", (1, 3)),
         baca.material_annotation_spanner(
@@ -633,7 +512,6 @@ def perc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
-
     commands(
         ("perc", (4, 5)),
         baca.staff_position(-1),
@@ -649,12 +527,10 @@ def perc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
-
     commands(
         ("perc", (1, 5)),
         baca.dls_staff_padding(6),
     )
-
     commands(
         ("perc", (8, 9)),
         baca.clef("bass"),
@@ -676,12 +552,10 @@ def perc(m):
 
 
 def vn(m):
-
     commands(
         ("vn", 1),
         baca.dynamic("f"),
     )
-
     commands(
         ("vn", [1, 3]),
         baca.beam(),
@@ -695,7 +569,6 @@ def vn(m):
             selector=lambda _: baca.select.pleaf(_, 3),
         ),
     )
-
     commands(
         ("vn", (1, 3)),
         baca.pitch("A6"),
@@ -705,7 +578,6 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
     )
-
     commands(
         ("vn", (4, 5)),
         baca.staff_lines(1),
@@ -722,7 +594,6 @@ def vn(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
-
     commands(
         ("vn", [6, 8, 9, 10]),
         baca.hairpin(
@@ -738,7 +609,6 @@ def vn(m):
             selector=lambda _: baca.select.leaves(_)[-3:],
         ),
     )
-
     commands(
         ("vn", (6, 10)),
         baca.pitch("A#4"),
@@ -751,7 +621,6 @@ def vn(m):
 
 
 def va(m):
-
     commands(
         ("va", (3, 6)),
         baca.flat_glissando(
@@ -772,7 +641,6 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
     )
-
     commands(
         ("va", [8, 9, 10]),
         baca.hairpin(
@@ -788,7 +656,6 @@ def va(m):
             selector=lambda _: baca.select.leaves(_)[:3],
         ),
     )
-
     commands(
         ("va", (8, 10)),
         baca.pitch("A#4"),
@@ -801,7 +668,6 @@ def va(m):
 
 
 def vn_va(cache):
-
     commands(
         (["vn", "va"], [6, (8, 10)]),
         baca.stem_tremolo(
@@ -829,7 +695,6 @@ def vn_va(cache):
 
 
 def vc(m):
-
     commands(
         ("vc", [1, 3]),
         baca.beam(),
@@ -840,14 +705,12 @@ def vc(m):
             selector=lambda _: baca.select.pleaf(_, -3),
         ),
     )
-
     commands(
         ("vc", [1, 3, 6, (8, 10)]),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pheads(_),
         ),
     )
-
     commands(
         ("vc", (1, 3)),
         baca.pitch("F#5"),
@@ -856,7 +719,6 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
     )
-
     commands(
         ("vc", (4, 5)),
         baca.staff_lines(1),
@@ -874,24 +736,20 @@ def vc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
-
     commands(
         ("vc", 6),
         baca.dynamic("f"),
     )
-
     commands(
         ("vc", 8),
         baca.dynamic("pp"),
     )
-
     commands(
         ("vc", [6, 8, 9, 10]),
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     commands(
         ("vc", (6, 10)),
         baca.pitch("F#5"),
@@ -904,7 +762,6 @@ def vc(m):
 
 
 def perc_vn_vc(cache):
-
     commands(
         (["perc", "vn", "vc"], (4, 5)),
         baca.hairpin(
@@ -913,7 +770,6 @@ def perc_vn_vc(cache):
             map=lambda _: baca.select.plts(_),
         ),
     )
-
     commands(
         (["perc", "vn", "vc"], 6),
         baca.staff_lines(5),
