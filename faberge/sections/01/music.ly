@@ -75,7 +75,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context WindSectionStaffGroup = "WindSection.StaffGroup"
+                \context WindSectionStaffGroup = "WindSectionStaffGroup"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -128,7 +128,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context PercussionSectionStaffGroup = "PercussionSection.StaffGroup"
+                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -140,7 +140,7 @@
                     \tag #'Piano
                     % OPEN_BRACKETS:
                       %! faberge.make_empty_score()
-                    \context PianoStaff = "Piano.StaffGroup"
+                    \context PianoStaff = "PianoStaff"
                       %! faberge.make_empty_score()
                     <<
                         % ABSOLUTE_BEFORE:
@@ -191,7 +191,7 @@
 
                 % OPEN_BRACKETS:
                   %! faberge.make_empty_score()
-                \context StringSectionStaffGroup = "StringSection.StaffGroup"
+                \context StringSectionStaffGroup = "StringSectionStaffGroup"
                   %! faberge.make_empty_score()
                 <<
                     % ABSOLUTE_BEFORE:
