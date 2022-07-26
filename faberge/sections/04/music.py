@@ -485,7 +485,7 @@ def vc(m):
             "1-1 / 1-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.string_number_spanner(
             "IV =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

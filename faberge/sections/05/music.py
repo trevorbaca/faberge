@@ -331,7 +331,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.stem_tremolo(
             selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
         ),
@@ -441,7 +441,7 @@ def vn_va(cache):
 def vc(m):
     accumulator(
         ("vc", (1, 8)),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.string_number_spanner(
             "IV =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

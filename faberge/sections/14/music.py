@@ -510,7 +510,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.string_number_spanner(
             "IV =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
