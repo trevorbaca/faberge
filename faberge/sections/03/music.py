@@ -1300,7 +1300,7 @@ def pf(cache):
     accumulator(
         ("rh", (2, 44)),
         baca.dots_transparent(),
-        baca.rest_transparent(),
+        baca.rest_transparent(selector=lambda _: abjad.select.rests(_)),
     )
     accumulator(
         ("rh", (1, 44)),
