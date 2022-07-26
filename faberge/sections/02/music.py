@@ -709,7 +709,7 @@ def pf(cache):
     accumulator(
         ("rh", (2, 88)),
         baca.dots_transparent(),
-        baca.rest_transparent(),
+        baca.rest_transparent(selector=lambda _: abjad.select.rests(_)),
     )
     accumulator(
         ("rh", (1, 88)),
