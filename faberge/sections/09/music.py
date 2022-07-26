@@ -434,7 +434,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(1),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", 5),

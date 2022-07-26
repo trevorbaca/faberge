@@ -485,7 +485,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(1),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             selector=lambda _: baca.select.tleaves(_, rleak=True),
@@ -494,7 +494,7 @@ def perc(m):
     accumulator(
         ("perc", 3),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.markup(
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -515,7 +515,7 @@ def perc(m):
     accumulator(
         ("perc", (4, 5)),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.markup(
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),

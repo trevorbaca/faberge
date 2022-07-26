@@ -1016,7 +1016,7 @@ def eh(m):
         library.keynoise_pitches(
             rotation=-1,
         ),
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         baca.dynamic('"ff"'),
     )
     accumulator(
@@ -1031,7 +1031,7 @@ def eh(m):
     accumulator(
         ("eh", (17, 22)),
         baca.dynamic('"ff"'),
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         library.keynoise_pitches(
             rotation=-2,
         ),
@@ -1079,7 +1079,7 @@ def eh(m):
     accumulator(
         ("eh", (45, 60)),
         baca.dynamic('"ff"'),
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         library.keynoise_pitches(
             rotation=-3,
         ),
@@ -1294,7 +1294,7 @@ def cl(m):
 def pf(cache):
     accumulator(
         ("rh", 1),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.pitch("<Eb4 F4 G4 Ab4 Eb4 C5 Db5 Eb5>"),
     )
     accumulator(
@@ -1453,7 +1453,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         ),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (79, 80)),
@@ -1531,7 +1531,7 @@ def vn(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(
             rotation=-3,
         ),
@@ -1585,7 +1585,7 @@ def vn(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(
             rotation=-3,
         ),
@@ -1680,7 +1680,7 @@ def va(m):
             selector=lambda _: baca.select.pheads(_),
         ),
         baca.staff_lines(1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(
             rotation=-4,
         ),
@@ -1778,7 +1778,7 @@ def vc(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.text_script_staff_padding(8),
         baca.tuplet_bracket_staff_padding(3),
         library.clb_staff_positions(

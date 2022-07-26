@@ -560,7 +560,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(1),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
@@ -581,7 +581,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.hairpin(
             "o<| mf",
             selector=lambda _: baca.select.leaves(_)[:2],
@@ -771,7 +771,7 @@ def vn_va(cache):
                 ("va", (6, 7)),
             ]
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.tuplet_bracket_staff_padding(3.5),
     )
     accumulator(

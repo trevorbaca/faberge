@@ -508,7 +508,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         ),
         baca.staff_position(1),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", 7),
@@ -621,7 +621,7 @@ def vc(m):
     accumulator(
         ("vc", (7, 8)),
         baca.dls_staff_padding(8),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.string_number_spanner(
             "IV =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -654,7 +654,7 @@ def vn_va_vc(cache):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(),
     )
     accumulator(

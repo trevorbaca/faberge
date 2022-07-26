@@ -537,7 +537,7 @@ def eh(m):
     accumulator(
         ("eh", (81, 88)),
         library.keynoise_pitches(rotation=0),
-        baca.note_head_style_cross(),
+        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         baca.markup(
             r"\baca-keynoise-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -703,7 +703,7 @@ def cl(m):
 def pf(cache):
     accumulator(
         ("rh", 1),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.pitch("<D4 E4 F#4 G#4 A4 A4 B4 C5 D5>"),
     )
     accumulator(
@@ -823,7 +823,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(1),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             selector=lambda _: baca.select.tleaves(_, rleak=True),
@@ -841,7 +841,7 @@ def perc(m):
             selector=lambda _: baca.select.plt(_, -1),
         ),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (89, 92)),

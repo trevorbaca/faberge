@@ -463,7 +463,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (1, 2)),
@@ -513,7 +513,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
-        baca.stem_up(),
+        baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     )
 
 
@@ -678,7 +678,7 @@ def composites(cache):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(),
     )
     accumulator(

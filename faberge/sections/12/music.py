@@ -366,7 +366,7 @@ def perc(m):
     accumulator(
         ("perc", (1, 3)),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (1, 4)),
@@ -397,7 +397,7 @@ def perc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.staff_position(-1),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("perc", (6, 8)),
@@ -414,7 +414,7 @@ def perc(m):
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         "perc",
@@ -529,7 +529,7 @@ def va(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.staff_lines(1),
         baca.tuplet_bracket_staff_padding(3.5),
         library.clb_staff_positions(),
@@ -607,7 +607,7 @@ def vn_vc(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.stem_down(),
+        baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.tuplet_bracket_staff_padding(3.5),
     )
     accumulator(
