@@ -781,8 +781,11 @@ def vn_va(cache):
             selector=lambda _: baca.select.rleaves(_),
         ),
         baca.hairpin_shorten_pair((4, 0)),
-        baca.dynamic_text_extra_offset((-4, 0)),
-        baca.dynamic_text_x_extent_zero(),
+        baca.dynamic_text_extra_offset(
+            (-4, 0),
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+        baca.dynamic_text_x_extent_zero(selector=lambda _: baca.select.pleaf(_, 0)),
     )
 
 
