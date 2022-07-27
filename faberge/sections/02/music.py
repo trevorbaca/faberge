@@ -447,7 +447,9 @@ def fl(m):
     )
     accumulator(
         ("fl", (81, 88)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("F#4"),
         baca.hairpin(
             "niente o< p",
@@ -480,7 +482,9 @@ def fl(m):
             (-1.5, 0),
             selector=lambda _: baca.select.leaves(_),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
 
 
@@ -625,31 +629,41 @@ def cl(m):
     )
     accumulator(
         ("cl", (47, 49)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (50, 52)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("Dqs2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (53, 57)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (58, 60)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("Dqs2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (61, 62)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
@@ -660,37 +674,49 @@ def cl(m):
     )
     accumulator(
         ("cl", (71, 73)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (74, 76)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("Dqs2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (77, 80)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (81, 88)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("Dqs2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", (89, 91)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("D2"),
         library.single_swell("p"),
     )
     accumulator(
         ("cl", 92),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic(
             "niente",
             selector=lambda _: baca.select.rleaf(_, -1),
@@ -833,7 +859,9 @@ def perc(m):
         ("perc", 87),
         baca.dls_staff_padding(6),
         baca.dynamic("mf"),
-        baca.laissez_vibrer(),
+        baca.laissez_vibrer(
+            selector=lambda _: baca.select.ptails(_),
+        ),
         baca.markup(
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),

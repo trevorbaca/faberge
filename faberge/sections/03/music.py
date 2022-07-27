@@ -1147,7 +1147,9 @@ def eh(m):
 def cl(m):
     accumulator(
         ("cl", (1, 3)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.flat_glissando("Eb2"),
         baca.hairpin(
             "niente o< p",
@@ -1226,11 +1228,15 @@ def cl(m):
     )
     accumulator(
         ("cl", (53, 56)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("cl", (57, 60)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("cl", (53, 56)),
@@ -1264,7 +1270,9 @@ def cl(m):
     )
     accumulator(
         ("cl", (69, 72)),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("cl", (73, 80)),

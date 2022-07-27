@@ -380,7 +380,9 @@ def cl(m):
 def fl_eh_cl(cache):
     accumulator(
         (["fl", "eh", "cl"], [4, 5]),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         (["fl", "eh", "cl"], (4, 5)),
@@ -500,7 +502,9 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.laissez_vibrer(),
+        baca.laissez_vibrer(
+            selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
+        ),
         baca.dynamic("p"),
     )
     accumulator(

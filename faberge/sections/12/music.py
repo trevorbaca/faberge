@@ -385,7 +385,9 @@ def perc(m):
     accumulator(
         ("perc", 5),
         baca.dynamic("p"),
-        baca.laissez_vibrer(),
+        baca.laissez_vibrer(
+            selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
+        ),
         baca.markup(
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),

@@ -619,7 +619,9 @@ def va(m):
             hide_middle_stems=True,
             right_broken=True,
         ),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
     )
     accumulator(
         "va",

@@ -225,7 +225,9 @@ def fl(m):
     )
     accumulator(
         ("fl", [5, 6]),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("fl", (5, 6)),
@@ -255,7 +257,9 @@ def eh(m):
     )
     accumulator(
         ("eh", [5, 6]),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("eh", (5, 6)),
@@ -284,7 +288,9 @@ def cl(m):
     )
     accumulator(
         ("cl", [5, 6]),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
     )
     accumulator(
         ("cl", (5, 6)),
