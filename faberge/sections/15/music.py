@@ -295,7 +295,9 @@ def perc(m):
             "o<| f",
             selector=lambda _: baca.select.leaves(_)[:2],
         ),
-        baca.laissez_vibrer(),
+        baca.laissez_vibrer(
+            selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
+        ),
         baca.markup(
             r"\baca-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),

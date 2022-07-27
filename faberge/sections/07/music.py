@@ -720,7 +720,9 @@ def va(m):
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
         ),
-        baca.breathe(),
+        baca.breathe(
+            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
+        ),
         baca.material_annotation_spanner(
             "3-7 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
@@ -804,7 +806,9 @@ def vc(m):
     )
     accumulator(
         ("vc", 4),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
     )
     accumulator(
         ("vc", 5),

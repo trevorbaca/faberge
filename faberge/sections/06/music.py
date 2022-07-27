@@ -456,7 +456,9 @@ def perc(m):
     accumulator(
         ("perc", 2),
         baca.dynamic("mf"),
-        baca.laissez_vibrer(),
+        baca.laissez_vibrer(
+            selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
+        ),
         baca.markup(
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -631,7 +633,9 @@ def vc(m):
             hide_middle_stems=True,
             right_broken=True,
         ),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
             right_broken=True,
