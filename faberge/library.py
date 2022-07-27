@@ -827,7 +827,7 @@ def clb_staff_positions(*, rotation=None):
     ]
     staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
     staff_positions = abjad.sequence.flatten(staff_positions)
-    return baca.staff_positions(staff_positions, allow_repeats=True)
+    return baca.staff_positions(staff_positions)
 
 
 def dal_niente_hairpins(stop: str):
@@ -990,7 +990,7 @@ def tuning_peg_staff_positions(*, rotation=None):
     ]
     staff_positions = abjad.sequence.flatten(staff_positions)
     staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
-    return baca.staff_positions(staff_positions, allow_repeats=True)
+    return baca.staff_positions(staff_positions)
 
 
 def voice_abbreviations():
