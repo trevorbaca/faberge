@@ -656,7 +656,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 3),
-        baca.accent(),
+        baca.accent(selector=lambda _: baca.select.phead(_, 0)),
         baca.dynamic(
             "pp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
