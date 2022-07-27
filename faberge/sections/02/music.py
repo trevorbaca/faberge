@@ -442,7 +442,10 @@ def fl(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
             selector=lambda _: baca.select.mmrest(_, 0),
         ),
-        baca.instrument(library.instruments()["BassFlute"]),
+        baca.instrument(
+            library.instruments()["BassFlute"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("B. fl."),
     )
     accumulator(
@@ -615,7 +618,10 @@ def cl(m):
     )
     accumulator(
         ("cl", 41),
-        baca.instrument(library.instruments()["BassClarinet"]),
+        baca.instrument(
+            library.instruments()["BassClarinet"],
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("B. cl."),
         baca.markup(
             r"\baca-to-bass-clarinet-markup",
