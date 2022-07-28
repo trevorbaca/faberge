@@ -481,7 +481,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
@@ -516,7 +516,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", 5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("lh", [5, 6, 7, 8]),
@@ -817,7 +817,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(4),
     )

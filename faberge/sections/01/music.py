@@ -126,7 +126,7 @@ def fl(m):
         baca.instrument(
             instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.instrument_name(
             r"\faberge-flute-markup", selector=lambda _: abjad.select.leaf(_, 0)
@@ -141,7 +141,7 @@ def eh(m):
         baca.instrument(
             instruments["EnglishHorn"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.chunk(
             baca.instrument_name(
@@ -177,7 +177,7 @@ def cl(m):
         baca.instrument(
             instruments["Clarinet"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.chunk(
             baca.instrument_name(
@@ -194,7 +194,7 @@ def pf(cache):
         baca.instrument(
             instruments["Piano"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.chunk(
             baca.instrument_name(
@@ -210,7 +210,7 @@ def pf(cache):
     )
     accumulator(
         "lh",
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
     )
 
@@ -221,7 +221,7 @@ def perc(m):
         baca.instrument(
             instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.instrument_name(
             r"\faberge-percussion-markup", selector=lambda _: abjad.select.leaf(_, 0)
@@ -236,7 +236,7 @@ def vn(m):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.instrument_name(
             r"\faberge-violin-markup", selector=lambda _: abjad.select.leaf(_, 0)
@@ -260,7 +260,7 @@ def va(m):
         baca.instrument(
             instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.dls_staff_padding(6),
         baca.instrument_name(
@@ -284,7 +284,7 @@ def vc(m):
         baca.instrument(
             instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.instrument_name(
             r"\faberge-cello-markup", selector=lambda _: abjad.select.leaf(_, 0)

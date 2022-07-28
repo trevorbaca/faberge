@@ -291,7 +291,7 @@ def perc(m):
     accumulator(
         ("perc", 5),
         baca.staff_lines(5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
         baca.hairpin(
             "o<| f",
@@ -316,7 +316,7 @@ def perc(m):
     accumulator(
         ("perc", 8),
         baca.staff_lines(1),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(8),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(

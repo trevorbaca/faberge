@@ -436,7 +436,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 3),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
         baca.dynamic(
             "mp",
@@ -488,7 +488,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", 3),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("lh", (3, 4)),

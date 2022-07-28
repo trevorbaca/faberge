@@ -542,7 +542,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (8, 9)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "F2",
             hide_middle_stems=True,

@@ -1407,7 +1407,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (23, 48)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Eb2",
             hide_middle_stems=True,
@@ -1460,7 +1460,7 @@ def perc(m):
     accumulator(
         ("perc", (69, 72)),
         baca.staff_lines(1),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),

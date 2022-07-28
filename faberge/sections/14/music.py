@@ -548,7 +548,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 5),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", (5, 8)),
