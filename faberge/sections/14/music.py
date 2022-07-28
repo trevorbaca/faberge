@@ -407,7 +407,7 @@ def pf(cache):
         ("rh", (2, 4)),
         baca.staff_lines(1),
         baca.dls_staff_padding(8),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -463,7 +463,7 @@ def vn(m):
     accumulator(
         ("vn", (4, 6)),
         baca.dls_staff_padding(8),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),

@@ -331,7 +331,7 @@ def fl(m):
     accumulator(
         ("fl", (4, 5)),
         baca.pitch("G#3"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(4),
     )
 
@@ -360,6 +360,7 @@ def eh(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.dls_staff_padding(6),
         baca.staff_lines(
@@ -373,7 +374,7 @@ def cl(m):
     accumulator(
         ("cl", (4, 5)),
         baca.pitch("C2"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(7),
     )
 
@@ -412,7 +413,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 8),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("rh", (1, 5)),
@@ -508,7 +509,7 @@ def perc(m):
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("perc", (1, 3)),
@@ -555,7 +556,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 6"),
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(4),
     )
 
@@ -563,7 +564,7 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", 1),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vn", [1, 3]),
@@ -640,7 +641,7 @@ def va(m):
         baca.stem_tremolo(
             selector=lambda _: abjad.select.get(baca.select.pheads(_), [0, -1]),
         ),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(5),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -749,11 +750,11 @@ def vc(m):
     )
     accumulator(
         ("vc", 6),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", 8),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", [6, 8, 9, 10]),

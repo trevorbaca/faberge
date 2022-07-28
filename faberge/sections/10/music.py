@@ -293,7 +293,7 @@ def eh(m):
     accumulator(
         ("eh", (4, 5)),
         baca.pitch("Db5"),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(5),
         baca.material_annotation_spanner(
             "MM =|",
@@ -414,6 +414,7 @@ def pf(cache):
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -475,7 +476,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (5, 6)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_),
         ),
@@ -496,7 +497,7 @@ def perc(m):
     accumulator(
         ("perc", 8),
         baca.dls_staff_padding(8),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -544,7 +545,7 @@ def vn(m):
     )
     accumulator(
         ("vn", 4),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("Eb5"),
     )
     accumulator(
@@ -564,6 +565,7 @@ def vn(m):
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-0.75 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "2-4 -|",
@@ -626,7 +628,7 @@ def va(m):
     )
     accumulator(
         ("va", 4),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("Db4"),
     )
     accumulator(
@@ -639,6 +641,7 @@ def va(m):
             "mp-ancora",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.flat_glissando(
             "D3",
@@ -760,7 +763,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 4),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("Db2"),
     )
     accumulator(
@@ -777,6 +780,7 @@ def vc(m):
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "2-4 -|",

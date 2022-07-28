@@ -199,7 +199,7 @@ def fl(m):
     )
     accumulator(
         ("fl", [2, 4]),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G#3"),
     )
     accumulator(
@@ -215,7 +215,7 @@ def fl(m):
     )
     accumulator(
         ("fl", 8),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("B3"),
     )
     accumulator(
@@ -248,7 +248,7 @@ def eh(m):
 def cl(m):
     accumulator(
         ("cl", [2, 4]),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("C2"),
     )
     accumulator(
@@ -321,7 +321,7 @@ def perc(m):
     accumulator(
         ("perc", (3, 8)),
         baca.dls_staff_padding(6),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         # TODO: use staff position instead of pitch
         baca.flat_glissando(
             "B3",

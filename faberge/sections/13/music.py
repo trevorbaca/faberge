@@ -442,6 +442,7 @@ def pf(cache):
             "mp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -466,6 +467,7 @@ def pf(cache):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-tuning-pegs-markup",
@@ -507,6 +509,7 @@ def perc(m):
             "f-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.staff_position(1),
         baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
@@ -527,6 +530,7 @@ def perc(m):
             "p-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.staff_position(0),
     )
@@ -591,6 +595,7 @@ def va(m):
             "p-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-4 =|",
