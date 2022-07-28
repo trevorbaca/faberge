@@ -427,7 +427,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (1, 2)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "4-5 -|",
@@ -439,7 +439,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 5),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             "o<| f",

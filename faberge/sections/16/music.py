@@ -159,14 +159,14 @@ def VC(voice):
 def fl(m):
     accumulator(
         "fl",
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def eh(m):
     accumulator(
         "eh",
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
@@ -185,7 +185,7 @@ def cl(m):
 def pf(cache):
     accumulator(
         "rh",
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 

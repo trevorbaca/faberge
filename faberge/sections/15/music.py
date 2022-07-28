@@ -261,7 +261,7 @@ def cl(m):
 def pf(cache):
     accumulator(
         ("rh", (4, 5)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "f-whiteout",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -283,14 +283,14 @@ def pf(cache):
     )
     accumulator(
         ("rh", 6),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def perc(m):
     accumulator(
         ("perc", 5),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
         baca.hairpin(
@@ -315,7 +315,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 8),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(8),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),

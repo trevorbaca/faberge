@@ -248,7 +248,7 @@ def VC(voice):
 def fl(m):
     accumulator(
         ("fl", (1, 3)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
         baca.markup(
             r"\baca-airtone-markup",
@@ -266,7 +266,7 @@ def fl(m):
     )
     accumulator(
         ("fl", 5),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             "o< p >o niente",
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
@@ -405,7 +405,7 @@ def eh(m):
 def pf(cache):
     accumulator(
         ("rh", (2, 4)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(8),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
@@ -421,7 +421,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 5),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
@@ -444,7 +444,7 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", (1, 3)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
         baca.markup(
             r"\baca-ob-markup",
@@ -477,7 +477,7 @@ def vn(m):
     )
     accumulator(
         ("vn", 7),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 

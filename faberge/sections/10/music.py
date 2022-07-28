@@ -471,7 +471,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 4),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(

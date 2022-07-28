@@ -388,7 +388,7 @@ def fl_cl(cache):
 def pf(cache):
     accumulator(
         ("rh", 4),
-        baca.staff_lines(3),
+        baca.staff_lines(3, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("rh", (4, 5)),
@@ -418,7 +418,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 6),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "mp",
@@ -551,7 +551,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (4, 5)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.beam(),
     )
     accumulator(
@@ -560,7 +560,7 @@ def vn(m):
     )
     accumulator(
         ("vn", 8),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vn", (4, 7)),
@@ -599,7 +599,7 @@ def va(m):
     )
     accumulator(
         ("va", 4),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("va", (4, 5)),
@@ -611,14 +611,14 @@ def va(m):
     )
     accumulator(
         ("va", 8),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
 def vc(m):
     accumulator(
         ("vc", 4),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("vc", (4, 5)),
@@ -630,7 +630,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 8),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(4),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),

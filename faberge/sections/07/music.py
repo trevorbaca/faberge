@@ -351,7 +351,7 @@ def fl(m):
 def eh(m):
     accumulator(
         "eh",
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(6),
     )
     accumulator(
@@ -620,7 +620,7 @@ def vn(m):
     )
     accumulator(
         ("vn", 3),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -665,7 +665,7 @@ def vn(m):
     )
     accumulator(
         ("vn", 8),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
@@ -687,7 +687,7 @@ def va(m):
     )
     accumulator(
         ("va", 3),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -717,7 +717,7 @@ def va(m):
     )
     accumulator(
         ("va", 5),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.pitch("D3"),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         baca.dls_staff_padding(5),
@@ -736,7 +736,7 @@ def va(m):
     )
     accumulator(
         ("va", (6, 7)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         library.clb_staff_positions(rotation=-4),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
@@ -764,7 +764,7 @@ def va(m):
     )
     accumulator(
         ("va", 8),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 

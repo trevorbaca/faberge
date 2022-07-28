@@ -432,7 +432,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 2),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("rh", 3),
@@ -462,7 +462,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 5),
-        baca.staff_lines(3),
+        baca.staff_lines(3, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -484,7 +484,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", 6),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("lh", 3),
@@ -667,7 +667,7 @@ def vn_va_vc(cache):
     )
     accumulator(
         (["vn", "va", "vc"], 7),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         (["va", "vc"], (1, 6)),
