@@ -334,7 +334,7 @@ def fl_eh_cl(cache):
 def pf(cache):
     accumulator(
         ("rh", (3, 4)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
@@ -489,7 +489,7 @@ def vc(m):
     accumulator(
         "vc",
         baca.staff_lines(5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(8),
         baca.material_annotation_spanner(
             "1-1 / 1-2 =|",

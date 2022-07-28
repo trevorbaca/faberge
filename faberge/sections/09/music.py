@@ -440,7 +440,7 @@ def perc(m):
     accumulator(
         ("perc", 5),
         baca.staff_lines(5),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             "o<| f",
             selector=lambda _: baca.select.leaves(_)[:2],
@@ -462,7 +462,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 9),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "Eb2",
@@ -481,7 +481,7 @@ def perc(m):
     )
     accumulator(
         "perc",
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(4),
     )
 
@@ -788,7 +788,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (1, 3)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.hairpin(
             "p < f-poco-scratch",
             selector=lambda _: baca.select.rleaves(_),

@@ -472,7 +472,7 @@ def perc(m):
     accumulator(
         ("perc", 4),
         baca.staff_lines(1),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("perc", (5, 6)),
@@ -775,7 +775,7 @@ def vc(m):
             selector=lambda _: baca.select.pleaf(_, -3),
         ),
         baca.beam(),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),

@@ -394,7 +394,7 @@ def pf(cache):
         ("rh", (4, 5)),
         baca.beam(),
         baca.beam_positions(-3),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -419,7 +419,7 @@ def pf(cache):
     accumulator(
         ("rh", 6),
         baca.staff_lines(5),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "mp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -631,7 +631,7 @@ def vc(m):
     accumulator(
         ("vc", 8),
         baca.staff_lines(5),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(4),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(

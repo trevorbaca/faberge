@@ -306,7 +306,7 @@ def pf(cache):
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
         baca.beam(),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("(f)", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
@@ -548,7 +548,7 @@ def vc(m):
     accumulator(
         ("vc", (1, 4)),
         baca.staff_lines(1),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clb_spanner(
             2,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

@@ -363,7 +363,7 @@ def pf(cache):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "pp-whiteout",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -413,7 +413,7 @@ def pf(cache):
     )
     accumulator(
         "rh",
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(3.5),
     )
     accumulator(
@@ -687,7 +687,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (5, 7)),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.flat_glissando(
             "Eb2",
             hide_middle_stems=True,
