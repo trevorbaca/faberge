@@ -348,7 +348,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (4, 5)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\baca-airtone-markup",
@@ -590,7 +590,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (4, 5)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\baca-ob-markup",
@@ -732,7 +732,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (4, 5)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.markup(
             r"\baca-ob-markup",
@@ -784,7 +784,7 @@ def perc_vn_vc(cache):
     )
     accumulator(
         (["perc", "vn", "vc"], 6),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 

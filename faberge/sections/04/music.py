@@ -235,7 +235,7 @@ def fl(m):
         baca.dls_staff_padding(4),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G#3"),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "fl",
@@ -297,7 +297,7 @@ def cl(m):
     )
     accumulator(
         ("cl", (5, 6)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(7),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("C2"),
@@ -356,7 +356,7 @@ def pf(cache):
     )
     accumulator(
         "rh",
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(4.5),
     )
     accumulator(
@@ -488,7 +488,7 @@ def va(m):
 def vc(m):
     accumulator(
         "vc",
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(8),
         baca.material_annotation_spanner(

@@ -319,7 +319,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (6, 9)),
-        baca.staff_lines(3),
+        baca.staff_lines(3, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -431,7 +431,7 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", (1, 4)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clb_spanner(
             3,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -453,7 +453,7 @@ def vn(m):
             selector=lambda _: baca.select.pleaf(_, 3),
         ),
         baca.beam(),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
@@ -465,7 +465,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (6, 9)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clb_spanner(
             3,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -538,7 +538,7 @@ def va(m):
             selector=lambda _: baca.select.pheads(_),
         ),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.tuplet_bracket_staff_padding(3.5),
         library.clb_staff_positions(),
     )
@@ -547,7 +547,7 @@ def va(m):
 def vc(m):
     accumulator(
         ("vc", (1, 4)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clb_spanner(
             2,
@@ -570,7 +570,7 @@ def vc(m):
             selector=lambda _: baca.select.pleaf(_, -3),
         ),
         baca.beam(),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
@@ -582,7 +582,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (6, 9)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(9),
         baca.dynamic(
             '"mf"',

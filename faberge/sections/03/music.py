@@ -1005,7 +1005,7 @@ def fl(m):
     )
     accumulator(
         ("fl", (73, 80)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "fl",
@@ -1114,7 +1114,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (61, 68)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("eh", (69, 72)),
@@ -1284,7 +1284,7 @@ def cl(m):
     )
     accumulator(
         ("cl", (73, 80)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("cl", (69, 72)),
@@ -1331,7 +1331,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (53, 79)),
-        baca.staff_lines(3),
+        baca.staff_lines(3, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -1459,7 +1459,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (69, 72)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             '"mf"',
@@ -1549,7 +1549,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (53, 68)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
@@ -1704,7 +1704,7 @@ def va(m):
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         library.clb_staff_positions(
             rotation=-4,
@@ -1793,7 +1793,7 @@ def vc(m):
     accumulator(
         ("vc", (61, 80)),
         baca.beam_positions(-3.5),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.clb_spanner(
             2,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

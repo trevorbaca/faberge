@@ -495,7 +495,7 @@ def fl(m):
 def eh(m):
     accumulator(
         "eh",
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("eh", (13, 16)),
@@ -847,7 +847,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 81),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ("perc", (85, 86)),
@@ -883,7 +883,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (89, 92)),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),

@@ -435,7 +435,7 @@ def vn_va(cache):
     )
     accumulator(
         (["vn", "va"], 9),
-        baca.staff_lines(5),
+        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
     )
 
 
