@@ -417,6 +417,7 @@ def perc(m):
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             match=0,
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -450,6 +451,7 @@ def perc(m):
         baca.markup(
             r"\baca-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "A.1 -|",
@@ -471,6 +473,7 @@ def perc(m):
             r"\baca-marimba-attackless-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -555,6 +558,7 @@ def vn(m):
         baca.markup(
             r"\baca-seven-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Dtqf5"),
     )
@@ -717,6 +721,7 @@ def va(m):
         baca.markup(
             r"\faberge-eleventh-degree-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.quadruple_staccato(
             selector=lambda _: abjad.select.get(
@@ -738,6 +743,7 @@ def va(m):
         baca.markup(
             r"\baca-thirteen-e-flat",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Bqs4"),
     )

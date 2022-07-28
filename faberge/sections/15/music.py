@@ -272,6 +272,7 @@ def pf(cache):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "MM =|",
@@ -302,6 +303,7 @@ def perc(m):
             r"\baca-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "A.1 -|",
@@ -320,6 +322,7 @@ def perc(m):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "MM =|",
@@ -335,6 +338,7 @@ def vn(m):
         baca.markup(
             r"\faberge-nine-plus-eleven-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("<F#5 Aqs5>"),
     )
@@ -365,6 +369,7 @@ def va(m):
         baca.markup(
             r"\faberge-seventh-degree-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Dqf5"),
     )

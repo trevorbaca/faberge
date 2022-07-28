@@ -197,6 +197,7 @@ def fl_eh_rh(cache):
             r"\baca-very-small-maraca-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -227,6 +228,7 @@ def perc(m):
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
 

@@ -221,6 +221,7 @@ def fl(m):
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -253,6 +254,7 @@ def eh(m):
         baca.markup(
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -284,6 +286,7 @@ def cl(m):
         baca.markup(
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -471,6 +474,7 @@ def va(m):
             r"\baca-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "1-1 / 1-2 =|",

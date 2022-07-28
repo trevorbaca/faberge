@@ -254,6 +254,7 @@ def fl(m):
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "1-1 -|",
@@ -410,6 +411,7 @@ def pf(cache):
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "MM =|",
@@ -448,6 +450,7 @@ def vn(m):
             r"\baca-ob-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "1-1 -|",
@@ -464,6 +467,7 @@ def vn(m):
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "MM =|",

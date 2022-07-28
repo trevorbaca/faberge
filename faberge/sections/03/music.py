@@ -1058,6 +1058,7 @@ def eh(m):
         baca.markup(
             r"\baca-doubletrill-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("Eb4"),
         baca.repeat_tie_extra_offset(
@@ -1124,6 +1125,7 @@ def eh(m):
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(0),
     )
@@ -1139,6 +1141,7 @@ def eh(m):
             r"\baca-ratchet-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(0),
     )
@@ -1333,6 +1336,7 @@ def pf(cache):
             r"\baca-tuning-pegs-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1426,6 +1430,7 @@ def perc(m):
         baca.markup(
             r"\baca-marimba-attackless-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1459,6 +1464,7 @@ def perc(m):
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(-1),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
@@ -1470,6 +1476,7 @@ def perc(m):
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "MM =|",
@@ -1569,6 +1576,7 @@ def vn(m):
             r"\baca-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(0),
     )
@@ -1764,6 +1772,7 @@ def vc(m):
         baca.markup(
             r"\baca-non-vib-markup",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.scp_spanner(
             "(tasto) -> PO -> tasto poss.",
