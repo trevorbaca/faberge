@@ -1479,10 +1479,7 @@ def perc(m):
     accumulator(
         ("perc", (79, 80)),
         baca.dls_staff_padding(9),
-        baca.dynamic(
-            "f",
-            selector=lambda _: baca.select.pleaf(_, 0)
-        ),
+        baca.dynamic("f", selector=lambda _: baca.select.pleaf(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
