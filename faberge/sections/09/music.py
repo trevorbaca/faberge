@@ -428,7 +428,7 @@ def perc(m):
     accumulator(
         ("perc", (1, 2)),
         baca.staff_lines(1),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "4-5 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
@@ -463,7 +463,7 @@ def perc(m):
     accumulator(
         ("perc", 9),
         baca.clef("bass"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "Eb2",
             hide_middle_stems=True,
@@ -838,7 +838,7 @@ def vc(m):
     )
     accumulator(
         ("vc", 8),
-        baca.dynamic("!"),
+        baca.dynamic("!", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("vc", 9),

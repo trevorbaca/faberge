@@ -292,7 +292,7 @@ def fl(m):
     )
     accumulator(
         ("fl", 3),
-        baca.dynamic("niente"),
+        baca.dynamic("niente", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("fl", (1, 2)),
@@ -399,6 +399,7 @@ def pf(cache):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-tuning-pegs-markup",
@@ -423,6 +424,7 @@ def pf(cache):
             "mp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -456,7 +458,7 @@ def pf(cache):
 def perc(m):
     accumulator(
         ("perc", 2),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
         ),
@@ -491,7 +493,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 4),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -502,7 +504,7 @@ def perc(m):
     accumulator(
         ("perc", 8),
         baca.dls_staff_padding(8),
-        baca.dynamic("f-ancora"),
+        baca.dynamic("f-ancora", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
@@ -631,7 +633,7 @@ def vc(m):
         baca.staff_lines(5),
         baca.clef("bass"),
         baca.dls_staff_padding(4),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "B2",
             hide_middle_stems=True,
@@ -677,6 +679,7 @@ def composites(cache):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-3 -|",

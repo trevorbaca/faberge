@@ -174,7 +174,7 @@ def cl(m):
     accumulator(
         "cl",
         baca.dls_staff_padding(6),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "F2",
             hide_middle_stems=True,
@@ -192,7 +192,7 @@ def pf(cache):
 def fl_eh_rh(cache):
     accumulator(
         (["fl", "eh", "rh"], (1, 4)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-very-small-maraca-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -217,7 +217,7 @@ def perc(m):
     accumulator(
         "perc",
         baca.dls_staff_padding(4),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         # TODO: implement flat glissando based on staff position
         # TODO: change A4 here to staff position -1
         baca.flat_glissando(
@@ -284,11 +284,11 @@ def vn_va_vc(cache):
     )
     accumulator(
         (["vn", "va", "vc"], 1),
-        baca.dynamic("ff"),
+        baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         (["vn", "va", "vc"], 5),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
     )
 
 

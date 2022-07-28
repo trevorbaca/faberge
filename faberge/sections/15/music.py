@@ -266,6 +266,7 @@ def pf(cache):
             "f-whiteout",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.dls_staff_padding(8),
         baca.markup(
@@ -317,7 +318,7 @@ def perc(m):
         baca.staff_lines(1),
         baca.clef("percussion"),
         baca.dls_staff_padding(8),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),

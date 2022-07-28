@@ -893,6 +893,7 @@ def fl(m):
         baca.dynamic(
             "p",
             measures=8,
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -916,6 +917,7 @@ def fl(m):
         baca.dynamic(
             "f",
             measures=16,
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_),
@@ -959,6 +961,7 @@ def fl(m):
         baca.dynamic(
             "p",
             measures=52,
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -1017,11 +1020,11 @@ def eh(m):
             rotation=-1,
         ),
         baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("eh", (13, 16)),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("Db4 Db~4 Db4 Db~4 D~4"),
         baca.repeat_tie_extra_offset(
             (-1.5, 0),
@@ -1030,7 +1033,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (17, 22)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
         baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         library.keynoise_pitches(
             rotation=-2,
@@ -1045,7 +1048,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (23, 30)),
-        baca.dynamic("ff"),
+        baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitches("D4 D+4 D~4 Db4 D~4"),
         baca.repeat_tie_extra_offset(
             (-1.5, 0),
@@ -1054,7 +1057,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (31, 36)),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         baca.markup(
             r"\baca-doubletrill-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
@@ -1079,7 +1082,7 @@ def eh(m):
     )
     accumulator(
         ("eh", (45, 60)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
         baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
         library.keynoise_pitches(
             rotation=-3,
@@ -1120,6 +1123,7 @@ def eh(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-airtone-markup",
@@ -1136,6 +1140,7 @@ def eh(m):
             "(f)",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-ratchet-markup",
@@ -1331,6 +1336,7 @@ def pf(cache):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-tuning-pegs-markup",
@@ -1459,6 +1465,7 @@ def perc(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-bd-sponge-markup",
@@ -1472,7 +1479,10 @@ def perc(m):
     accumulator(
         ("perc", (79, 80)),
         baca.dls_staff_padding(9),
-        baca.dynamic("f"),
+        baca.dynamic(
+            "f",
+            selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.markup(
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -1508,7 +1518,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (9, 22)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("F4"),
     )
     accumulator(
@@ -1517,7 +1527,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (23, 52)),
-        baca.dynamic("ppp"),
+        baca.dynamic("ppp", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "Eqf4",
             hide_middle_stems=True,
@@ -1571,6 +1581,7 @@ def vn(m):
             '("mf")',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-ob-markup",
@@ -1597,6 +1608,7 @@ def vn(m):
             '("mf")',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
@@ -1626,7 +1638,7 @@ def va(m):
     )
     accumulator(
         ("va", (9, 22)),
-        baca.dynamic('"ff"'),
+        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("F4"),
     )
     accumulator(
@@ -1646,7 +1658,7 @@ def va(m):
     )
     accumulator(
         ("va", (23, 52)),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
         baca.flat_glissando(
             "G3",
             hide_middle_stems=True,
@@ -1791,7 +1803,7 @@ def vc(m):
             selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.dls_staff_padding(10),
-        baca.dynamic('"mf"'),
+        baca.dynamic('"mf"', selector=lambda _: baca.select.phead(_, 0)),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
         ),

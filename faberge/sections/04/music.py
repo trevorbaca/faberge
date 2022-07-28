@@ -233,7 +233,7 @@ def fl(m):
     accumulator(
         ("fl", (5, 6)),
         baca.dls_staff_padding(4),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("G#3"),
         baca.staff_lines(5),
     )
@@ -266,7 +266,7 @@ def eh(m):
     accumulator(
         ("eh", (5, 6)),
         baca.dls_staff_padding(6),
-        baca.dynamic('"mf"'),
+        baca.dynamic('"mf"', selector=lambda _: baca.select.phead(_, 0)),
         baca.staff_position(0),
     )
     accumulator(
@@ -299,7 +299,7 @@ def cl(m):
         ("cl", (5, 6)),
         baca.staff_lines(5),
         baca.dls_staff_padding(7),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.pitch("C2"),
     )
     accumulator(
@@ -335,7 +335,7 @@ def pf(cache):
     accumulator(
         ("rh", (3, 4)),
         baca.clef("bass"),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("rh", (3, 4)),
@@ -380,7 +380,7 @@ def perc(m):
     )
     accumulator(
         ("perc", (4, 5)),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("perc", (4, 5)),
@@ -391,7 +391,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 8),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),

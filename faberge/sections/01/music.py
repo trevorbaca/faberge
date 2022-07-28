@@ -165,6 +165,7 @@ def eh(m):
             "(f)",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.dls_staff_padding(8.5),
     )
@@ -246,7 +247,7 @@ def vn(m):
     accumulator(
         ("vn", 1),
         baca.pitch("E4"),
-        baca.dynamic('"f"'),
+        baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
         ),
@@ -270,7 +271,7 @@ def va(m):
     accumulator(
         ("va", 1),
         baca.pitch("E4"),
-        baca.dynamic('"f"'),
+        baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
         ),

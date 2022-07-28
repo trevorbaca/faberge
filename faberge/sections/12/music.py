@@ -308,7 +308,7 @@ def pf(cache):
         baca.beam(),
         baca.clef("treble"),
         baca.dls_staff_padding(5),
-        baca.dynamic("(f)"),
+        baca.dynamic("(f)", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -324,6 +324,7 @@ def pf(cache):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-tuning-pegs-markup",
@@ -385,7 +386,7 @@ def perc(m):
     )
     accumulator(
         ("perc", 5),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
         ),
@@ -454,7 +455,7 @@ def vn(m):
         baca.beam(),
         baca.staff_lines(5),
         baca.dls_staff_padding(5),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -475,6 +476,7 @@ def vn(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-2 =|",
@@ -526,6 +528,7 @@ def va(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-2 =|",
@@ -569,7 +572,7 @@ def vc(m):
         baca.beam(),
         baca.staff_lines(5),
         baca.dls_staff_padding(5),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -585,6 +588,7 @@ def vc(m):
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-2 =|",

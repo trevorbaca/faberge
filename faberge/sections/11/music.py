@@ -251,6 +251,7 @@ def eh(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -368,6 +369,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "3-1 -|",
@@ -397,6 +399,7 @@ def pf(cache):
             "f-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-4 . 0)"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
     )
     accumulator(
@@ -451,6 +454,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.markup(
             r"\baca-castanets-markup",
@@ -504,7 +508,7 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", 2),
-        baca.dynamic('"f"'),
+        baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "A.3 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -576,7 +580,7 @@ def vn(m):
 def va(m):
     accumulator(
         ("va", 2),
-        baca.dynamic('"f"'),
+        baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.material_annotation_spanner(
             "A.3 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -604,6 +608,7 @@ def va(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "A.4 -|",
@@ -664,6 +669,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.phead(_, 0),
         ),
         baca.material_annotation_spanner(
             "3-1 -|",
