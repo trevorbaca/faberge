@@ -456,6 +456,7 @@ def perc(m):
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 10"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "4-5 -|",
@@ -485,6 +486,7 @@ def perc(m):
             r"\baca-bd-superball-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 10"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "3-7 =|",

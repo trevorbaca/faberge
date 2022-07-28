@@ -159,6 +159,7 @@ def eh(m):
             r"\baca-ratchet-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dynamic(
             "(f)",

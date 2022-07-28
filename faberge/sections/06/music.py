@@ -404,6 +404,7 @@ def pf(cache):
             r"\baca-tuning-pegs-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.note_head_stencil_false(
             selector=lambda _: baca.select.pleaves(_),
@@ -463,6 +464,7 @@ def perc(m):
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(-1),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
@@ -494,6 +496,7 @@ def perc(m):
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -504,6 +507,7 @@ def perc(m):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(0),
     )

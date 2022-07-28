@@ -354,6 +354,7 @@ def eh(m):
             r"\baca-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dynamic(
             '"mf"',
@@ -485,6 +486,7 @@ def perc(m):
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(1),
         baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
@@ -501,6 +503,7 @@ def perc(m):
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.laissez_vibrer(
             selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
@@ -523,6 +526,7 @@ def perc(m):
         baca.markup(
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.material_annotation_spanner(
             "1-2 -|",
@@ -549,6 +553,7 @@ def perc(m):
             r"\baca-marimba-attackless-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dynamic("p"),
         baca.dls_staff_padding(4),
@@ -589,6 +594,7 @@ def vn(m):
         baca.markup(
             r"\baca-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dls_staff_padding(6),
         baca.material_annotation_spanner(
@@ -731,6 +737,7 @@ def vc(m):
             r"\baca-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dls_staff_padding(6),
         baca.material_annotation_spanner(

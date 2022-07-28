@@ -384,6 +384,7 @@ def fl(m):
         baca.markup(
             r"\faberge-match-sound-of-crotales-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         library.dal_niente_hairpins("f"),
     )
@@ -548,6 +549,7 @@ def eh(m):
         baca.markup(
             r"\baca-keynoise-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.dynamic('"ff"'),
     )
@@ -580,6 +582,7 @@ def cl(m):
         baca.markup(
             r"\faberge-match-sound-of-crotales-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("F#6"),
         library.dal_niente_hairpins("f"),
@@ -853,6 +856,7 @@ def perc(m):
         baca.markup(
             r"\baca-castanets-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.staff_position(1),
         baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
@@ -888,6 +892,7 @@ def perc(m):
         baca.markup(
             r"\baca-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         library.dal_niente_hairpins("f"),
     )
@@ -916,6 +921,7 @@ def vn(m):
         baca.markup(
             r"\faberge-match-sound-of-crotales-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("F#6"),
         library.dal_niente_hairpins("f"),
@@ -1214,6 +1220,7 @@ def vc(m):
             r"\faberge-poco-vib-sempre-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(
@@ -1270,6 +1277,7 @@ def vc(m):
         baca.markup(
             r"\baca-sub-non-vib-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
     accumulator(

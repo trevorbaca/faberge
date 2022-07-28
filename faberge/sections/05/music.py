@@ -330,6 +330,7 @@ def perc(m):
             r"\baca-bd-rolled-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
         baca.stem_tremolo(
