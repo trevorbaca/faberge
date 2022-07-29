@@ -315,17 +315,15 @@ def cl(m):
 def fl_eh_cl(cache):
     accumulator(
         (["fl", "eh", "cl"], (1, 4)),
-        baca.chunk(
-            baca.hairpin(
-                'o< "mp"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[:1],
-            ),
-            baca.hairpin(
-                'o< "mf"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[1:2],
-            ),
+        baca.hairpin(
+            'o< "mp"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[:1],
+        ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[1:2],
         ),
         baca.dls_staff_padding(6),
     )
@@ -444,27 +442,25 @@ def vn(m):
 def va(m):
     accumulator(
         ("va", (1, 8)),
-        baca.chunk(
-            baca.hairpin(
-                'o< "mp"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[:1],
-            ),
-            baca.hairpin(
-                'o< "mf"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[1:3],
-            ),
-            baca.hairpin(
-                'o< "f"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[3:5],
-            ),
-            baca.hairpin(
-                'o< "ff"',
-                selector=lambda _: baca.select.rleaves(_),
-                map=lambda _: baca.select.plts(_)[5:7],
-            ),
+        baca.hairpin(
+            'o< "mp"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[:1],
+        ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[1:3],
+        ),
+        baca.hairpin(
+            'o< "f"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[3:5],
+        ),
+        baca.hairpin(
+            'o< "ff"',
+            selector=lambda _: baca.select.rleaves(_),
+            map=lambda _: baca.select.plts(_)[5:7],
         ),
     )
     accumulator(
@@ -500,39 +496,35 @@ def vc(m):
             "IV =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         ),
-        baca.suite(
-            baca.untie(lambda _: baca.select.leaves(_)),
-            baca.pitches(
-                "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
-                persist="CELLO_GLISSANDI",
-            ),
-            baca.glissando(),
-            baca.chunk(
-                baca.hairpin(
-                    "niente o< p >o",
-                    final_hairpin=False,
-                    map=lambda _: baca.select.rleak_runs(_, None, 1),
-                    pieces=lambda _: baca.select.clparts(_, [1]),
-                ),
-                baca.hairpin(
-                    "niente o< mp >o",
-                    final_hairpin=False,
-                    map=lambda _: baca.select.rleak_runs(_, 1, 2),
-                    pieces=lambda _: baca.select.clparts(_, [1]),
-                ),
-                baca.hairpin(
-                    "niente o< mf >o",
-                    final_hairpin=False,
-                    map=lambda _: baca.select.rleak_runs(_, 2, 3),
-                    pieces=lambda _: baca.select.clparts(_, [1]),
-                ),
-                baca.hairpin(
-                    "niente o< f >o",
-                    final_hairpin=False,
-                    map=lambda _: baca.select.rleak_runs(_, 3, 4),
-                    pieces=lambda _: baca.select.clparts(_, [1]),
-                ),
-            ),
+        baca.untie(lambda _: baca.select.leaves(_)),
+        baca.pitches(
+            "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
+            persist="CELLO_GLISSANDI",
+        ),
+        baca.glissando(),
+        baca.hairpin(
+            "niente o< p >o",
+            final_hairpin=False,
+            map=lambda _: baca.select.rleak_runs(_, None, 1),
+            pieces=lambda _: baca.select.clparts(_, [1]),
+        ),
+        baca.hairpin(
+            "niente o< mp >o",
+            final_hairpin=False,
+            map=lambda _: baca.select.rleak_runs(_, 1, 2),
+            pieces=lambda _: baca.select.clparts(_, [1]),
+        ),
+        baca.hairpin(
+            "niente o< mf >o",
+            final_hairpin=False,
+            map=lambda _: baca.select.rleak_runs(_, 2, 3),
+            pieces=lambda _: baca.select.clparts(_, [1]),
+        ),
+        baca.hairpin(
+            "niente o< f >o",
+            final_hairpin=False,
+            map=lambda _: baca.select.rleak_runs(_, 3, 4),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     )
 
