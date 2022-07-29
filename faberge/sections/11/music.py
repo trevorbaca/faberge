@@ -646,19 +646,17 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             selector=lambda _: baca.select.rleaves(_),
         ),
-        baca.suite(
-            baca.untie(lambda _: baca.select.pleaves(_)),
-            baca.pitches(
-                "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
-                persist="CELLO_GLISSANDI",
-            ),
-            baca.glissando(),
-            baca.hairpin(
-                "niente o< p >o",
-                final_hairpin=False,
-                map=lambda _: baca.select.rleak_runs(_),
-                pieces=lambda _: baca.select.clparts(_, [1]),
-            ),
+        baca.untie(lambda _: baca.select.pleaves(_)),
+        baca.pitches(
+            "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
+            persist="CELLO_GLISSANDI",
+        ),
+        baca.glissando(),
+        baca.hairpin(
+            "niente o< p >o",
+            final_hairpin=False,
+            map=lambda _: baca.select.rleak_runs(_),
+            pieces=lambda _: baca.select.clparts(_, [1]),
         ),
     )
     accumulator(

@@ -143,13 +143,11 @@ def eh(m):
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.chunk(
-            baca.instrument_name(
-                r"\faberge-english-horn-markup",
-                selector=lambda _: abjad.select.leaf(_, 0),
-            ),
-            library.short_instrument_name("Eng. hn."),
+        baca.instrument_name(
+            r"\faberge-english-horn-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
         ),
+        library.short_instrument_name("Eng. hn."),
     )
     accumulator(
         ("eh", 3),
@@ -179,12 +177,10 @@ def cl(m):
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.chunk(
-            baca.instrument_name(
-                r"\faberge-clarinet-markup", selector=lambda _: abjad.select.leaf(_, 0)
-            ),
-            library.short_instrument_name("Cl."),
+        baca.instrument_name(
+            r"\faberge-clarinet-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
+        library.short_instrument_name("Cl."),
     )
 
 
@@ -196,16 +192,14 @@ def pf(cache):
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.chunk(
-            baca.instrument_name(
-                r"\faberge-piano-markup",
-                context="PianoStaff",
-                selector=lambda _: abjad.select.leaf(_, 0),
-            ),
-            library.short_instrument_name(
-                "Pf.",
-                context="PianoStaff",
-            ),
+        baca.instrument_name(
+            r"\faberge-piano-markup",
+            context="PianoStaff",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
+        library.short_instrument_name(
+            "Pf.",
+            context="PianoStaff",
         ),
     )
     accumulator(

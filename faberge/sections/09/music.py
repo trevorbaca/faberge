@@ -574,21 +574,19 @@ def vn(m):
 def va(m):
     accumulator(
         ("va", 1),
-        baca.chunk(
-            baca.quadruple_staccato(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((1, 2))
-                ],
-            ),
-            baca.stem_tremolo(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((1, 3))
-                ],
-            ),
+        baca.quadruple_staccato(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 2))
+            ],
+        ),
+        baca.stem_tremolo(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 3))
+            ],
         ),
         baca.hairpin(
             "p niente o< p > pp niente o< p > pp p",
@@ -609,21 +607,19 @@ def va(m):
     )
     accumulator(
         ("va", 2),
-        baca.chunk(
-            baca.quadruple_staccato(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((5, 12))
-                ],
-            ),
-            baca.stem_tremolo(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((5, 18))
-                ],
-            ),
+        baca.quadruple_staccato(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 12))
+            ],
+        ),
+        baca.stem_tremolo(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 18))
+            ],
         ),
         baca.hairpin(
             "niente o< mp > pp mp niente o< mp > pp mp",
@@ -640,21 +636,19 @@ def va(m):
     )
     accumulator(
         ("va", 3),
-        baca.chunk(
-            baca.quadruple_staccato(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((1, 2))
-                ],
-            ),
-            baca.stem_tremolo(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((1, 3))
-                ],
-            ),
+        baca.quadruple_staccato(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 2))
+            ],
+        ),
+        baca.stem_tremolo(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((1, 3))
+            ],
         ),
         baca.hairpin(
             "mp niente o< mf > pp niente o< mf > pp mf",
@@ -671,21 +665,19 @@ def va(m):
     )
     accumulator(
         ("va", 4),
-        baca.chunk(
-            baca.quadruple_staccato(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((5, 12))
-                ],
-            ),
-            baca.stem_tremolo(
-                selector=lambda x: [
-                    _
-                    for _ in baca.plts(x)
-                    if abjad.get.duration(_) == abjad.Duration((5, 18))
-                ],
-            ),
+        baca.quadruple_staccato(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 12))
+            ],
+        ),
+        baca.stem_tremolo(
+            selector=lambda x: [
+                _
+                for _ in baca.plts(x)
+                if abjad.get.duration(_) == abjad.Duration((5, 18))
+            ],
         ),
         baca.hairpin(
             "niente o< f > pp f f niente o< f > pp",
