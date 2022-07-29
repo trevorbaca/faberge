@@ -47,14 +47,16 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = accumulator.manifests()
 
-baca.metronome_mark(skips[1 - 1], accumulator.metronome_marks["100"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], accumulator.metronome_marks["100"], manifests
+)
 
 rests = score["Rests"]
 for index, string in (
     (2 - 1, "short"),
     (4 - 1, "short"),
 ):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def FL(voice):

@@ -76,19 +76,19 @@ for index, item in (
 ):
     skip = skips[index]
     indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, indicator, manifests)
 
-baca.open_volta(skips[3 - 1], accumulator.first_measure_number)
-baca.double_volta(skips[6 - 1], accumulator.first_measure_number)
-baca.close_volta(skips[9 - 1], accumulator.first_measure_number)
-baca.open_volta(skips[10 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[3 - 1], accumulator.first_measure_number)
+baca.double_volta_function(skips[6 - 1], accumulator.first_measure_number)
+baca.close_volta_function(skips[9 - 1], accumulator.first_measure_number)
+baca.open_volta_function(skips[10 - 1], accumulator.first_measure_number)
 
 rests = score["Rests"]
 for index, string in (
     (2 - 1, "short"),
     (7 - 1, "short"),
 ):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def FL(voice):

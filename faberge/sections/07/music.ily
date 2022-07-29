@@ -43,15 +43,21 @@ number.7.Skips = {
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"100" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -65,17 +71,23 @@ number.7.Skips = {
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "100"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -265,15 +277,21 @@ number.7.Skips = {
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"125" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -287,17 +305,23 @@ number.7.Skips = {
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "125"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1093,10 +1117,10 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % SPANNER_STOPS:
@@ -1169,10 +1193,10 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -1183,10 +1207,10 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1238,10 +1262,10 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -1252,10 +1276,10 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % CLOSING:
@@ -1456,17 +1480,17 @@ number.7.EnglishHorn.Music = {
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-eh-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -1579,12 +1603,12 @@ number.7.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \p
@@ -1814,12 +1838,12 @@ number.7.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \f
@@ -2541,10 +2565,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % SPANNER_STOPS:
@@ -2617,10 +2641,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -2631,10 +2655,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2686,10 +2710,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -2700,10 +2724,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
@@ -2714,10 +2738,10 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.espressivo()
         - \espressivo
         % COMMANDS:
@@ -2972,7 +2996,7 @@ number.7.Piano.RH.Music = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Piano”)"
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -3036,11 +3060,11 @@ number.7.Piano.RH.Music = {
         <g a c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3054,7 +3078,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3068,7 +3092,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3082,7 +3106,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3096,7 +3120,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3110,11 +3134,11 @@ number.7.Piano.RH.Music = {
         <g a c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -3147,7 +3171,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -3166,11 +3190,11 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3184,7 +3208,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3198,7 +3222,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3212,7 +3236,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3226,7 +3250,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -3254,11 +3278,11 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -3325,7 +3349,7 @@ number.7.Piano.RH.Music = {
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
         \clef "treble"
@@ -3336,7 +3360,7 @@ number.7.Piano.RH.Music = {
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
@@ -3347,12 +3371,12 @@ number.7.Piano.RH.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \f
@@ -3377,7 +3401,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -3427,7 +3451,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -3475,7 +3499,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -3516,7 +3540,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -3564,7 +3588,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -3587,7 +3611,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -3635,7 +3659,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -3658,7 +3682,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -3863,7 +3887,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -3913,7 +3937,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -3961,7 +3985,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -4025,7 +4049,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % STOP_BEAM:
@@ -4092,7 +4116,7 @@ number.7.Piano.LH.Music = {
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
         \clef "treble"
@@ -4103,7 +4127,7 @@ number.7.Piano.LH.Music = {
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
@@ -4111,7 +4135,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -4135,14 +4159,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4156,7 +4180,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4170,7 +4194,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4184,7 +4208,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4198,7 +4222,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4212,14 +4236,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -4252,7 +4276,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -4271,14 +4295,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4292,7 +4316,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4306,7 +4330,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4320,7 +4344,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4334,14 +4358,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -4374,7 +4398,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -4393,14 +4417,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4414,7 +4438,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4428,14 +4452,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -4468,7 +4492,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
@@ -4487,14 +4511,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4508,7 +4532,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
@@ -4522,14 +4546,14 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
@@ -4871,23 +4895,23 @@ number.7.Percussion.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \f
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-castanets-markup
     % SPANNER_STARTS:
@@ -4997,13 +5021,13 @@ number.7.Percussion.Music = {
     b2
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-bd-superball-markup
     % SPANNER_STARTS:
@@ -5307,12 +5331,12 @@ number.7.Violin.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-f
@@ -5543,17 +5567,17 @@ number.7.Violin.Music = {
           %! baca.tuplet_bracket_staff_padding()
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
@@ -5566,28 +5590,28 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-mf
@@ -5670,7 +5694,7 @@ number.7.Violin.Music = {
         % COMMANDS:
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -5681,7 +5705,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5691,7 +5715,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5701,7 +5725,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5711,7 +5735,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5721,7 +5745,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5731,7 +5755,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5741,7 +5765,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5751,7 +5775,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5761,7 +5785,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5771,7 +5795,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % COMMANDS:
@@ -5796,7 +5820,7 @@ number.7.Violin.Music = {
     a'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
@@ -5843,7 +5867,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % START_BEAM:
@@ -5892,7 +5916,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5902,7 +5926,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5912,7 +5936,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5922,7 +5946,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5932,7 +5956,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5942,7 +5966,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5952,7 +5976,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5962,7 +5986,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5972,7 +5996,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5982,7 +6006,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -5992,7 +6016,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6002,7 +6026,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6012,7 +6036,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6022,7 +6046,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6032,7 +6056,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6042,7 +6066,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6052,7 +6076,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6062,7 +6086,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6072,7 +6096,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6082,7 +6106,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6092,7 +6116,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6102,7 +6126,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6112,7 +6136,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6122,7 +6146,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6132,7 +6156,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6142,7 +6166,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6152,7 +6176,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -6194,7 +6218,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -6248,7 +6272,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6258,7 +6282,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6268,7 +6292,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6278,7 +6302,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6288,7 +6312,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6298,7 +6322,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6308,7 +6332,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6318,7 +6342,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -6371,22 +6395,22 @@ number.7.Violin.Music = {
             \abjad-invisible-music-coloring
               %! -PARTS
               %! EXPLICIT_BAR_EXTENT
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(1)
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \startStaff
@@ -6611,12 +6635,12 @@ number.7.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-f
@@ -6821,17 +6845,17 @@ number.7.Viola.Music = {
           %! baca.tuplet_bracket_staff_padding()
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
@@ -6844,28 +6868,28 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-mf
@@ -6952,7 +6976,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6962,7 +6986,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6972,7 +6996,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6982,7 +7006,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -6992,7 +7016,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7002,7 +7026,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7012,7 +7036,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7022,7 +7046,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7032,7 +7056,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % COMMANDS:
@@ -7060,7 +7084,7 @@ number.7.Viola.Music = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.staccato()
     - \staccato
     % STOP_BEAM:
@@ -7096,17 +7120,17 @@ number.7.Viola.Music = {
       %! baca.dls_staff_padding()
     \once \override DynamicLineSpanner.staff-padding = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -7122,12 +7146,12 @@ number.7.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \mp
@@ -7203,7 +7227,7 @@ number.7.Viola.Music = {
       %! baca.xfb_spanner()
     \bacaStartTextSpanBowSpeed
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -7233,17 +7257,17 @@ number.7.Viola.Music = {
           %! baca.tuplet_bracket_staff_padding()
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
@@ -7256,28 +7280,28 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-mf
@@ -7373,7 +7397,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7383,7 +7407,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7393,7 +7417,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7403,7 +7427,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7413,7 +7437,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7423,7 +7447,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7433,7 +7457,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7443,7 +7467,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7453,7 +7477,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7463,7 +7487,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7473,7 +7497,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7483,7 +7507,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7493,7 +7517,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7514,7 +7538,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
@@ -7565,7 +7589,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7575,7 +7599,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7585,7 +7609,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7595,7 +7619,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7605,7 +7629,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7615,7 +7639,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
@@ -7625,7 +7649,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.staccato()
         - \staccato
         % STOP_BEAM:
@@ -7677,17 +7701,17 @@ number.7.Viola.Music = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \startStaff
@@ -8014,7 +8038,7 @@ number.7.Cello.Music = {
     b,4
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
@@ -8056,7 +8080,7 @@ number.7.Cello.Music = {
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
         \clef "treble"
@@ -8067,7 +8091,7 @@ number.7.Cello.Music = {
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
@@ -8076,22 +8100,22 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \f
@@ -8148,7 +8172,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8163,7 +8187,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8178,7 +8202,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8193,11 +8217,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -8212,7 +8236,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8227,7 +8251,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
@@ -8266,11 +8290,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % START_BEAM:
@@ -8290,7 +8314,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8305,7 +8329,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8320,11 +8344,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -8339,7 +8363,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8354,7 +8378,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
@@ -8388,11 +8412,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % START_BEAM:
@@ -8412,11 +8436,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -8431,7 +8455,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8446,7 +8470,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
@@ -8480,11 +8504,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % START_BEAM:
@@ -8504,11 +8528,11 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -8523,7 +8547,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
@@ -8538,7 +8562,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
