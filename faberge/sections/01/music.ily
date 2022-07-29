@@ -29,15 +29,21 @@ number.1.Skips = {
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "100"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -337,39 +343,39 @@ number.1.Flute.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-flute-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-fl-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -386,7 +392,7 @@ number.1.Flute.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -411,7 +417,7 @@ number.1.Flute.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -508,34 +514,34 @@ number.1.EnglishHorn.Music = {
       %! baca.clef_extra_offset_function(1)
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-english-horn-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-eh-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -552,7 +558,7 @@ number.1.EnglishHorn.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -577,7 +583,7 @@ number.1.EnglishHorn.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -651,17 +657,17 @@ number.1.EnglishHorn.Music = {
           %! baca.dls_staff_padding()
         \override DynamicLineSpanner.staff-padding = 8.5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
@@ -679,35 +685,35 @@ number.1.EnglishHorn.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-f-parenthesized
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         - \tweak parent-alignment-X 0
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         - \tweak staff-padding 6
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-ratchet-markup
           %! DURATION_MULTIPLIER
@@ -846,39 +852,39 @@ number.1.Clarinet.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-clarinet-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-cl-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -895,7 +901,7 @@ number.1.Clarinet.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -920,7 +926,7 @@ number.1.Clarinet.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1009,39 +1015,39 @@ number.1.Piano.RH.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set PianoStaff.instrumentName = \faberge-piano-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -1058,7 +1064,7 @@ number.1.Piano.RH.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -1083,7 +1089,7 @@ number.1.Piano.RH.Music = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1172,29 +1178,29 @@ number.1.Piano.LH.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "bass"
@@ -1208,7 +1214,7 @@ number.1.Piano.LH.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -1377,39 +1383,39 @@ number.1.Percussion.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-percussion-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-perc-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -1426,7 +1432,7 @@ number.1.Percussion.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -1451,7 +1457,7 @@ number.1.Percussion.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1543,39 +1549,39 @@ number.1.Violin.Music = {
     \override DynamicLineSpanner.staff-padding = 4
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-violin-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-vn-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "treble"
@@ -1592,7 +1598,7 @@ number.1.Violin.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -1604,12 +1610,12 @@ number.1.Violin.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-f
@@ -1666,7 +1672,7 @@ number.1.Violin.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1923,34 +1929,34 @@ number.1.Viola.Music = {
           %! baca.dls_staff_padding()
         \override DynamicLineSpanner.staff-padding = 6
           %! -PARTS
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.instrument_name()
         \set Staff.instrumentName = \faberge-viola-markup
           %! -PARTS
           %! EXPLICIT_SHORT_INSTRUMENT_NAME
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.short_instrument_name()
         \set Staff.shortInstrumentName = \faberge-va-markup
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
         \clef "alto"
@@ -1967,7 +1973,7 @@ number.1.Viola.Music = {
           %! baca._attach_color_literal(1)
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
@@ -1989,7 +1995,7 @@ number.1.Viola.Music = {
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
           %! -PARTS
           %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.short_instrument_name()
           %! baca.treat_persistent_wrapper(3)
@@ -2004,12 +2010,12 @@ number.1.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-f
@@ -2283,39 +2289,39 @@ number.1.Cello.Music = {
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.instrument_name()
     \set Staff.instrumentName = \faberge-cello-markup
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-vc-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
     \clef "bass"
@@ -2332,7 +2338,7 @@ number.1.Cello.Music = {
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
@@ -2357,7 +2363,7 @@ number.1.Cello.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)

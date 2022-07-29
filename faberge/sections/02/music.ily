@@ -5108,10 +5108,10 @@ number.2.Flute.Music = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \faberge-match-sound-of-crotales-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -9103,7 +9103,7 @@ number.2.Flute.Music = {
     % COMMANDS:
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-bfl-markup
@@ -9116,10 +9116,10 @@ number.2.Flute.Music = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-to-bass-flute-markup
       %! DURATION_MULTIPLIER
@@ -9135,7 +9135,7 @@ number.2.Flute.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -9610,7 +9610,7 @@ number.2.Flute.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -9830,7 +9830,7 @@ number.2.Flute.Music = {
     \>
     \repeatTie
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
       %! baca.OverrideCommand._call(2)
@@ -9976,17 +9976,17 @@ number.2.EnglishHorn.Music = {
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-eh-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -10202,12 +10202,12 @@ number.2.EnglishHorn.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \f
@@ -11445,20 +11445,20 @@ number.2.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-ff
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         - \tweak padding 1.5
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-keynoise-markup
         % START_BEAM:
@@ -12040,12 +12040,12 @@ number.2.EnglishHorn.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \f
@@ -12303,10 +12303,10 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \faberge-match-sound-of-crotales-markup
     % SPANNER_STARTS:
@@ -15106,7 +15106,7 @@ number.2.Clarinet.Music = {
     % COMMANDS:
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \faberge-bcl-markup
@@ -15119,10 +15119,10 @@ number.2.Clarinet.Music = {
     R1 * 3/4
     % AFTER:
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-to-bass-clarinet-markup
       %! DURATION_MULTIPLIER
@@ -15138,7 +15138,7 @@ number.2.Clarinet.Music = {
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -15367,7 +15367,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -15529,7 +15529,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -15705,7 +15705,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -15867,7 +15867,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -16022,7 +16022,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -16377,7 +16377,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -16539,7 +16539,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -16708,7 +16708,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -16905,7 +16905,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -17067,7 +17067,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
@@ -17215,7 +17215,7 @@ number.2.Clarinet.Music = {
       %! baca.hairpin()
     \>
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.breathe()
     \breathe
       %! baca.OverrideCommand._call(2)
@@ -17281,14 +17281,14 @@ number.2.Clarinet.Music = {
       %! baca.treat_persistent_wrapper()
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca._style_anchor_notes()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca._style_anchor_notes()
       %! baca.dynamic()
@@ -19335,18 +19335,18 @@ number.2.Piano.LH.Attacks.Music = {
     <c, e, g, b,>16
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.marcato()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -19455,18 +19455,18 @@ number.2.Piano.LH.Attacks.Music = {
     <c, e, g, b,>16
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.marcato()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -19589,18 +19589,18 @@ number.2.Piano.LH.Attacks.Music = {
     <c, e, g, b,>16
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.marcato()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -19718,18 +19718,18 @@ number.2.Piano.LH.Attacks.Music = {
     <c, e, g, b,>16
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.marcato()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -19866,18 +19866,18 @@ number.2.Piano.LH.Attacks.Music = {
     <c, e, g, b,>16
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.marcato()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -20302,17 +20302,17 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak extra-offset #'(-6 . 0)
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 6
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-crotales-bowed-markup
     % SPANNER_STARTS:
@@ -20397,7 +20397,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -20471,7 +20471,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -20539,7 +20539,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -20634,7 +20634,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -20713,7 +20713,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -20786,7 +20786,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -20868,7 +20868,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -20951,7 +20951,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21035,7 +21035,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21119,7 +21119,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21187,7 +21187,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21270,7 +21270,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21368,7 +21368,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21462,7 +21462,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21546,7 +21546,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21614,7 +21614,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21691,7 +21691,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21762,7 +21762,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -21845,7 +21845,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -21933,7 +21933,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22008,7 +22008,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22074,7 +22074,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22164,7 +22164,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -22248,7 +22248,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -22329,7 +22329,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22414,7 +22414,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22487,7 +22487,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22570,7 +22570,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -22649,7 +22649,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22717,7 +22717,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22800,7 +22800,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -22879,7 +22879,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -22952,7 +22952,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23035,7 +23035,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -23116,7 +23116,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23182,7 +23182,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23255,7 +23255,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23338,7 +23338,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -23419,7 +23419,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23485,7 +23485,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23575,7 +23575,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -23654,7 +23654,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23720,7 +23720,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -23803,7 +23803,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -23869,7 +23869,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -23945,7 +23945,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24011,7 +24011,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24077,7 +24077,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24150,7 +24150,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24233,7 +24233,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -24307,7 +24307,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24378,7 +24378,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24557,7 +24557,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -24646,7 +24646,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -24720,7 +24720,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24786,7 +24786,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24854,7 +24854,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24920,7 +24920,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -24986,7 +24986,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25064,7 +25064,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -25143,7 +25143,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25211,7 +25211,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25277,7 +25277,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25367,7 +25367,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -25433,7 +25433,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -25507,7 +25507,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25573,7 +25573,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -25636,17 +25636,17 @@ number.2.Percussion.Music = {
     % BEFORE:
     % COMMANDS:
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -25665,7 +25665,7 @@ number.2.Percussion.Music = {
     % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -25738,20 +25738,20 @@ number.2.Percussion.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         - \tweak staff-padding 8
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-castanets-markup
         % TRILL_SPANNER_STARTS:
@@ -25804,26 +25804,26 @@ number.2.Percussion.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \mf
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-bd-struck-markup
     % SPANNER_STOPS:
@@ -25875,22 +25875,22 @@ number.2.Percussion.Music = {
         \override DynamicLineSpanner.staff-padding = 5
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 5
           %! EXPLICIT_STAFF_LINES
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.staff_lines(2)
         \startStaff
@@ -25922,14 +25922,14 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % MARKUP:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         - \tweak staff-padding 6
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.markup()
         ^ \baca-crotales-bowed-markup
         % SPANNER_STARTS:
@@ -25995,7 +25995,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -26079,7 +26079,7 @@ number.2.Percussion.Music = {
           %! baca._set_status_tag()
           %! baca.hairpin()
         \!
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % SPANNER_STARTS:
@@ -26153,7 +26153,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -26219,7 +26219,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -26292,7 +26292,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -26358,7 +26358,7 @@ number.2.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % SPANNER_STARTS:
@@ -26550,10 +26550,10 @@ number.2.Violin.Music = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \faberge-match-sound-of-crotales-markup
     % SPANNER_STARTS:
@@ -30908,12 +30908,12 @@ number.2.Violin.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-f
@@ -32598,12 +32598,12 @@ number.2.Violin.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-f
@@ -33690,19 +33690,19 @@ number.2.Viola.Music = {
     d2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \mp
@@ -33892,12 +33892,12 @@ number.2.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -34104,12 +34104,12 @@ number.2.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -34316,12 +34316,12 @@ number.2.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -34542,12 +34542,12 @@ number.2.Viola.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -34650,7 +34650,7 @@ number.2.Viola.Music = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STOPS:
@@ -34691,12 +34691,12 @@ number.2.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-f
@@ -35266,7 +35266,7 @@ number.2.Viola.Music = {
     d2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -35499,7 +35499,7 @@ number.2.Viola.Music = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STOPS:
@@ -35528,12 +35528,12 @@ number.2.Viola.Music = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \baca-effort-f
@@ -36085,19 +36085,19 @@ number.2.Viola.Music = {
     d2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -36251,7 +36251,7 @@ number.2.Viola.Music = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STOPS:
@@ -36441,13 +36441,13 @@ number.2.Cello.Music = {
       %! baca.hairpin()
     \p
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 5.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \faberge-poco-vib-sempre-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -37217,20 +37217,20 @@ number.2.Cello.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ppp
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-sub-non-vib-markup
     % ABSOLUTE_BEFORE:

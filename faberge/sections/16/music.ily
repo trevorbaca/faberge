@@ -43,15 +43,21 @@ number.16.Skips = {
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"156" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -65,17 +71,23 @@ number.16.Skips = {
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "156"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -579,7 +591,7 @@ number.16.Flute.Music = {
     \override DynamicLineSpanner.staff-padding = 7
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -591,17 +603,17 @@ number.16.Flute.Music = {
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-bfl-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -632,30 +644,30 @@ number.16.Flute.Music = {
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -689,7 +701,7 @@ number.16.Flute.Music = {
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -710,7 +722,7 @@ number.16.Flute.Music = {
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -731,7 +743,7 @@ number.16.Flute.Music = {
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -752,7 +764,7 @@ number.16.Flute.Music = {
     b'4
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -861,17 +873,17 @@ number.16.EnglishHorn.Music = {
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-eh-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -902,30 +914,30 @@ number.16.EnglishHorn.Music = {
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -959,7 +971,7 @@ number.16.EnglishHorn.Music = {
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -980,7 +992,7 @@ number.16.EnglishHorn.Music = {
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1001,7 +1013,7 @@ number.16.EnglishHorn.Music = {
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1022,7 +1034,7 @@ number.16.EnglishHorn.Music = {
     b'4
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1171,12 +1183,12 @@ number.16.Clarinet.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -1339,7 +1351,7 @@ number.16.Piano.RH.Music = {
     \override DynamicLineSpanner.staff-padding = 7
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1351,17 +1363,17 @@ number.16.Piano.RH.Music = {
       %! baca._set_status_tag()
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.staff_lines(2)
     \startStaff
@@ -1392,30 +1404,30 @@ number.16.Piano.RH.Music = {
     d\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-ff
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1449,7 +1461,7 @@ number.16.Piano.RH.Music = {
     d1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1470,7 +1482,7 @@ number.16.Piano.RH.Music = {
     d\breve
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1491,7 +1503,7 @@ number.16.Piano.RH.Music = {
     d1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1512,7 +1524,7 @@ number.16.Piano.RH.Music = {
     d4
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1962,23 +1974,23 @@ number.16.Percussion.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak padding 1.5
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-bd-sponge-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2200,22 +2212,22 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
@@ -2243,11 +2255,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2274,11 +2286,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2287,11 +2299,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2318,11 +2330,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2331,11 +2343,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2362,11 +2374,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2375,11 +2387,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2406,22 +2418,22 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \pp
@@ -2431,11 +2443,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2462,11 +2474,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2475,11 +2487,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>2.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2506,11 +2518,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2519,11 +2531,11 @@ number.16.Violin.Music = {
         <fs''! aqs''!>1.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2540,11 +2552,11 @@ number.16.Violin.Music = {
     <fs''! aqs''!>1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % COMMANDS:
@@ -2651,22 +2663,22 @@ number.16.Viola.Music = {
         dqf''!\breve
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \ff
@@ -2695,11 +2707,11 @@ number.16.Viola.Music = {
         dqf''!1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2727,11 +2739,11 @@ number.16.Viola.Music = {
         dqf''!1..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2741,11 +2753,11 @@ number.16.Viola.Music = {
         dqf''!2..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2773,11 +2785,11 @@ number.16.Viola.Music = {
         dqf''!\breve
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2787,11 +2799,11 @@ number.16.Viola.Music = {
         dqf''!1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2819,11 +2831,11 @@ number.16.Viola.Music = {
         dqf''!1..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2833,11 +2845,11 @@ number.16.Viola.Music = {
         dqf''!2..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2865,22 +2877,22 @@ number.16.Viola.Music = {
         dqf''!\breve
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
           %! baca.dynamic()
         \pp
@@ -2891,11 +2903,11 @@ number.16.Viola.Music = {
         dqf''!1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2923,11 +2935,11 @@ number.16.Viola.Music = {
         dqf''!1..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2937,11 +2949,11 @@ number.16.Viola.Music = {
         dqf''!2..
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -2969,11 +2981,11 @@ number.16.Viola.Music = {
         dqf''!\breve
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
@@ -2983,11 +2995,11 @@ number.16.Viola.Music = {
         dqf''!1
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.accent()
         - \accent
         % CLOSING:
@@ -3005,11 +3017,11 @@ number.16.Viola.Music = {
     dqf''!1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % COMMANDS:
@@ -3111,22 +3123,22 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \ff
@@ -3155,11 +3167,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3171,11 +3183,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3185,11 +3197,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3201,11 +3213,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3215,11 +3227,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3231,11 +3243,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3245,11 +3257,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3261,22 +3273,22 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -3287,11 +3299,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3303,11 +3315,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3317,11 +3329,11 @@ number.16.Cello.Music = {
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3333,11 +3345,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3347,11 +3359,11 @@ number.16.Cello.Music = {
     e,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
@@ -3375,18 +3387,18 @@ number.16.Cello.Music = {
     \once \override Score.RehearsalMark.self-alignment-X = #right
     % OPENING:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.mark()
     \mark \faberge-colophon-markup
       %! baca.make_notes()
     e,1..
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.accent()
     - \accent
     % COMMANDS:

@@ -43,15 +43,21 @@ number.5.Skips = {
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"41" #2 #0 #5 #4 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -65,17 +71,23 @@ number.5.Skips = {
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "41"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -696,12 +708,12 @@ number.5.Flute.Music = {
       %! REDUNDANT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REDUNDANT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -928,12 +940,12 @@ number.5.Flute.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -1317,12 +1329,12 @@ number.5.Flute.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -1901,12 +1913,12 @@ number.5.Clarinet.Music = {
       %! REDUNDANT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REDUNDANT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'DeepPink1)
       %! REDUNDANT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -2133,12 +2145,12 @@ number.5.Clarinet.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
@@ -3389,30 +3401,30 @@ number.5.Percussion.Music = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \baca-bd-rolled-markup
     % SPANNER_STARTS:
@@ -3484,7 +3496,7 @@ number.5.Percussion.Music = {
     b2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % COMMANDS:
@@ -3614,12 +3626,12 @@ number.5.Violin.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-ff
@@ -4063,22 +4075,22 @@ number.5.Violin.Music = {
             \abjad-invisible-music-coloring
               %! -PARTS
               %! EXPLICIT_BAR_EXTENT
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(1)
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \startStaff
@@ -4700,17 +4712,17 @@ number.5.Viola.Music = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
               %! baca.staff_lines(2)
             \startStaff
