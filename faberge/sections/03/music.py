@@ -1772,6 +1772,7 @@ def vc(m):
         baca.glissando(
             allow_repeats=True,
             hide_middle_note_heads=True,
+            selector=lambda _: baca.select.tleaves(_),
         ),
         baca.interpolate_pitches("Eb2", "C2"),
         baca.hairpin(
