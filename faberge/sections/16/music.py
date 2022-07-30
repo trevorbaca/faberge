@@ -264,7 +264,9 @@ def vc(m):
     accumulator(
         ("vc", 8),
         baca.chunk(
-            baca.mark(r"\faberge-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)),
+            baca.mark(
+                r"\faberge-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)
+            ),
             baca.rehearsal_mark_down(),
             baca.rehearsal_mark_extra_offset((40, 0)),
             baca.rehearsal_mark_padding(6),
