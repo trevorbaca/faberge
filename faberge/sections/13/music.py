@@ -639,7 +639,7 @@ def vc(m):
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             persist="CELLO_GLISSANDI",
         ),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         baca.hairpin(
             "niente o< pp >o",
             final_hairpin=False,

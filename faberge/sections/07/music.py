@@ -803,6 +803,7 @@ def vc(m):
             "B2",
             hide_middle_stems=True,
             left_broken=True,
+            selector=lambda _: baca.select.pleaves(_),
         ),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
