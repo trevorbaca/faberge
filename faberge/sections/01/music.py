@@ -246,6 +246,7 @@ def vn(m):
         baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
 
@@ -270,6 +271,7 @@ def va(m):
         baca.dynamic('"f"', selector=lambda _: baca.select.phead(_, 0)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
 

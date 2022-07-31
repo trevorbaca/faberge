@@ -993,12 +993,14 @@ def vn(m):
         ("vn", (63, 65)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
         ("vn", (69, 70)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1031,12 +1033,14 @@ def vn(m):
         ("vn", (81, 83)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
         ("vn", (87, 88)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1128,12 +1132,14 @@ def va(m):
         ("va", (1, 62)),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
         ("va", (63, 65)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1157,6 +1163,7 @@ def va(m):
         ("va", (69, 70)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1175,6 +1182,7 @@ def va(m):
         ("va", (71, 80)),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -1197,18 +1205,21 @@ def va(m):
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             right_broken=True,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
         ("va", (81, 83)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
         ("va", (87, 88)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
 
@@ -1239,6 +1250,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
             autodetect_right_padding=False,
             bookend=-1,
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1252,6 +1264,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
             autodetect_right_padding=False,
             bookend=-1,
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1265,12 +1278,14 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
             autodetect_right_padding=False,
             bookend=-1,
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.vibrato_spanner(
             "(poco vib.) -> vib. mod.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(

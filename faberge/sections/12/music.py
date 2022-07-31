@@ -233,6 +233,7 @@ def fl(m):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("F3"),
     )
@@ -244,6 +245,7 @@ def cl(m):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("Eb2"),
     )
@@ -294,6 +296,7 @@ def pf(cache):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("A3"),
     )
@@ -313,6 +316,7 @@ def pf(cache):
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G6 A6 B6 C7>"),
@@ -375,6 +379,7 @@ def perc(m):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -441,6 +446,7 @@ def vn(m):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.clb_staff_positions(),
     )
@@ -460,6 +466,7 @@ def vn(m):
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("A6"),
     )
@@ -481,6 +488,7 @@ def vn(m):
         baca.material_annotation_spanner(
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.clb_staff_positions(),
     )
@@ -504,9 +512,11 @@ def va(m):
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -533,6 +543,7 @@ def va(m):
         baca.material_annotation_spanner(
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
@@ -558,6 +569,7 @@ def vc(m):
         baca.material_annotation_spanner(
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         library.clb_staff_positions(),
     )
@@ -577,6 +589,7 @@ def vc(m):
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("F#5"),
     )
@@ -593,6 +606,7 @@ def vc(m):
         baca.material_annotation_spanner(
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.clb_spanner(
             2,

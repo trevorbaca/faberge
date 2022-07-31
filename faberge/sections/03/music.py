@@ -1537,6 +1537,7 @@ def vn(m):
         ("vn", (9, 22)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -1566,6 +1567,7 @@ def vn(m):
         baca.scp_spanner(
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1596,6 +1598,7 @@ def vn(m):
         baca.clb_spanner(
             3,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1603,6 +1606,7 @@ def vn(m):
         baca.clb_spanner(
             3,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.dynamic(
             '("mf")',
@@ -1645,6 +1649,7 @@ def va(m):
         ("va", (1, 8)),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -1668,6 +1673,7 @@ def va(m):
         ("va", (9, 22)),
         baca.spazzolato_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -1686,6 +1692,7 @@ def va(m):
         baca.scp_spanner(
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -1792,6 +1799,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
             pieces=lambda _: baca.mgroups(_, [12, 12]),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
