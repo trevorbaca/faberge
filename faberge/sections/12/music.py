@@ -305,7 +305,7 @@ def pf(cache):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("(f)", selector=lambda _: baca.select.phead(_, 0)),
@@ -314,7 +314,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G6 A6 B6 C7>"),
     )
     accumulator(
@@ -347,12 +347,12 @@ def pf(cache):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, -1),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<F6 G6 A6>"),
     )
 
@@ -452,7 +452,7 @@ def vn(m):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 3),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
@@ -569,7 +569,7 @@ def vc(m):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, -3),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dls_staff_padding(5),
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),

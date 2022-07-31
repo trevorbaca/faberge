@@ -376,7 +376,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.ottava_bracket_staff_padding(5.5),
         baca.pitch("<G6 A6 B6 C7>"),
     )
@@ -428,7 +428,7 @@ def pf(cache):
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.ottava_bracket_staff_padding(7),
         baca.pitch("<F6 G6 A6>"),
     )

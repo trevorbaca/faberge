@@ -392,7 +392,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (4, 5)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.beam_positions(-3),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
@@ -429,7 +429,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (6, 8)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
@@ -446,7 +446,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", (6, 8)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G3 A3 B3 C4>"),
     )
     accumulator(
@@ -489,6 +489,7 @@ def perc(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -552,11 +553,11 @@ def vn(m):
     accumulator(
         ("vn", (4, 5)),
         baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vn", (6, 7)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vn", 8),
@@ -603,11 +604,11 @@ def va(m):
     )
     accumulator(
         ("va", (4, 5)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("va", (6, 7)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("va", 8),
@@ -622,11 +623,11 @@ def vc(m):
     )
     accumulator(
         ("vc", (4, 5)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (6, 7)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", 8),

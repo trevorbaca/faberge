@@ -1044,6 +1044,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.runs(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -1074,6 +1075,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.runs(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -1092,6 +1094,7 @@ def eh(m):
         ("eh", (31, 44)),
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -1357,7 +1360,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (78, 80)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("attack", (1, 44)),
@@ -1712,7 +1715,7 @@ def va(m):
     )
     accumulator(
         ("va", (79, 80)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
 
 
@@ -1814,7 +1817,7 @@ def vc(m):
     )
     accumulator(
         ("vc", (79, 80)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
 
 

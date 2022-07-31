@@ -386,6 +386,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.runs(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -437,6 +438,7 @@ def perc(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
 

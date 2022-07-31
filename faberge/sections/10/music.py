@@ -303,6 +303,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
         baca.trill_spanner_staff_padding(5.5),
     )
@@ -419,13 +420,13 @@ def pf(cache):
     )
     accumulator(
         ("rh", (5, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.material_annotation_spanner(
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G6 A6 B6 C7>"),
     )
     accumulator(
@@ -439,12 +440,12 @@ def pf(cache):
     )
     accumulator(
         ("lh", (5, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
         ),
-        baca.ottava(),
+        baca.ottava(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<F6 G6 A6>"),
     )
     accumulator(
@@ -560,7 +561,7 @@ def vn(m):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 3),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.dynamic(
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
@@ -774,7 +775,7 @@ def vc(m):
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, -3),
         ),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic(
             "f",
