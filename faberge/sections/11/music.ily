@@ -6881,6 +6881,10 @@ number.11.Violin.Music = {
       %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6945,10 +6949,6 @@ number.11.Violin.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.xfb_spanner()
             \bacaStopTextSpanBowSpeed
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -8588,6 +8588,10 @@ number.11.Cello.Music = {
       %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
+    % COMMANDS:
+      %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8652,10 +8656,6 @@ number.11.Cello.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.xfb_spanner()
             \bacaStopTextSpanBowSpeed
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 

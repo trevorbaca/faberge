@@ -6350,6 +6350,9 @@ number.7.Violin.Music = {
         ]
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.hairpin_shorten_pair()
         \revert Hairpin.shorten-pair
           %! baca.OverrideCommand._call(2)
@@ -6459,10 +6462,6 @@ number.7.Violin.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
@@ -7657,6 +7656,9 @@ number.7.Viola.Music = {
         ]
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
+          %! baca.dls_staff_padding()
+        \revert DynamicLineSpanner.staff-padding
+          %! baca.OverrideCommand._call(2)
           %! baca.hairpin_shorten_pair()
         \revert Hairpin.shorten-pair
           %! baca.OverrideCommand._call(2)
@@ -7760,10 +7762,6 @@ number.7.Viola.Music = {
               %! baca.PiecewiseCommand._call(4)
               %! baca.material_annotation_spanner()
             \bacaStopTextSpanMaterialAnnotation
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 

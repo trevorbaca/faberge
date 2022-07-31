@@ -4046,6 +4046,9 @@ number.12.Percussion.Music = {
     % AFTER:
     % COMMANDS:
       %! baca.OverrideCommand._call(2)
+      %! baca.dls_staff_padding()
+    \revert DynamicLineSpanner.staff-padding
+      %! baca.OverrideCommand._call(2)
       %! baca.stem_down()
     \revert Stem.direction
     % ABSOLUTE_BEFORE:
@@ -4106,10 +4109,6 @@ number.12.Percussion.Music = {
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.dls_staff_padding()
-            \revert DynamicLineSpanner.staff-padding
             % CLOSING:
             % COMMANDS:
 
