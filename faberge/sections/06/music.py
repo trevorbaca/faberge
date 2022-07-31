@@ -300,6 +300,7 @@ def fl(m):
             "5-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -314,6 +315,7 @@ def fl(m):
         baca.material_annotation_spanner(
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -350,6 +352,7 @@ def cl(m):
         baca.material_annotation_spanner(
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -437,6 +440,7 @@ def pf(cache):
         baca.material_annotation_spanner(
             "2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.pitch("<G3 A3 C4>"),
     )
@@ -481,6 +485,7 @@ def perc(m):
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -521,6 +526,7 @@ def perc(m):
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     )
@@ -646,6 +652,7 @@ def vc(m):
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
             right_broken=True,
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
 
@@ -657,6 +664,7 @@ def composites(cache):
             "3-1 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.quadruple_staccato(
             selector=lambda x: [
@@ -686,6 +694,7 @@ def composites(cache):
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),

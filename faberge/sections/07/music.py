@@ -327,6 +327,7 @@ def fl(m):
         baca.material_annotation_spanner(
             "2-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -396,6 +397,7 @@ def cl(m):
         baca.material_annotation_spanner(
             "2-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -500,6 +502,7 @@ def pf(cache):
         baca.material_annotation_spanner(
             "2-2 / 2-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
@@ -650,6 +653,7 @@ def vn(m):
         baca.clb_spanner(
             3,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )
     accumulator(
@@ -726,6 +730,7 @@ def va(m):
         baca.dls_staff_padding(5),
         baca.xfb_spanner(
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
         baca.breathe(
             selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
@@ -753,6 +758,7 @@ def va(m):
         baca.clb_spanner(
             2,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
         baca.material_annotation_spanner(
             "4-2 -|",
@@ -831,6 +837,7 @@ def vc(m):
         baca.material_annotation_spanner(
             "2-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            selector=lambda _: baca.select.rleaves(_),
         ),
     )
     accumulator(
