@@ -360,6 +360,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.runs(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -447,7 +448,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
@@ -492,7 +493,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G3 A3 B3 C4>"),
     )
     accumulator(
@@ -549,6 +550,7 @@ def perc(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
 
@@ -556,7 +558,7 @@ def perc(m):
 def vn(m):
     accumulator(
         ("vn", (1, 2)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vn", (1, 6)),
@@ -568,26 +570,26 @@ def vn(m):
     )
     accumulator(
         ("vn", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vn", (5, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
 
 
 def va(m):
     accumulator(
         ("va", (1, 2)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("va", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("va", (5, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("va", (7, 8)),
@@ -616,15 +618,15 @@ def va(m):
 def vc(m):
     accumulator(
         ("vc", (1, 2)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (5, 6)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vc", (7, 8)),

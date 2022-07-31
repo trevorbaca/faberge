@@ -345,7 +345,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", (3, 5)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.markup(
             r"\baca-sharp-markup",
             selector=lambda _: baca.select.pheads(_),
@@ -359,7 +359,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", (3, 5)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.pitch("<G3 A3 B3 C4>"),
     )
     accumulator(
@@ -422,7 +422,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
     )
     accumulator(
         ("vn", (5, 8)),

@@ -373,6 +373,7 @@ def eh(m):
         baca.trill_spanner(
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             map=lambda _: baca.select.plts(_),
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
         ),
     )
     accumulator(
@@ -471,7 +472,7 @@ def pf(cache):
     )
     accumulator(
         ("rh", [1, (2, 3), 5, 6, 7, 8]),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 1),
         ),
@@ -489,6 +490,7 @@ def pf(cache):
         baca.pitch("<G6 A6 B6 C7>"),
         baca.ottava(
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
         ),
         baca.ottava_bracket_staff_padding(5.5),
     )
@@ -506,7 +508,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", [1, (2, 3), 5, 6, 7, 8]),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 1),
         ),
@@ -520,7 +522,7 @@ def pf(cache):
     )
     accumulator(
         ("lh", [5, 6, 7, 8]),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.accent(
             selector=lambda _: baca.select.pleaf(_, 1),
         ),
@@ -537,6 +539,7 @@ def pf(cache):
         ),
         baca.ottava(
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
         ),
         baca.ottava_bracket_staff_padding(8),
     )
@@ -630,7 +633,7 @@ def vn(m):
     )
     accumulator(
         ("vn", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         library.clb_staff_positions(),
         baca.material_annotation_spanner(
             "4-3 -|",
@@ -698,7 +701,7 @@ def va(m):
     )
     accumulator(
         ("va", (3, 4)),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         library.clb_staff_positions(),
         baca.staccato(
             selector=lambda _: baca.select.pheads(_),
@@ -832,7 +835,7 @@ def vc(m):
     )
     accumulator(
         ("vc", [5, 6, 7, 8]),
-        baca.beam(),
+        baca.beam(selector=lambda _: baca.select.tleaves(_)),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pheads(_),
         ),
