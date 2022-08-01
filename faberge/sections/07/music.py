@@ -48,26 +48,29 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = accumulator.manifests()
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "F",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-    tags=[baca.tags.ONLY_PARTS],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_PARTS)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "F",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
-    tags=[baca.tags.ONLY_SCORE],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SCORE)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "F",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-    tags=[baca.tags.ONLY_SEGMENT],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SEGMENT)
 
 for index, item in (
     (1 - 1, "100"),
