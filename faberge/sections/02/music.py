@@ -60,26 +60,29 @@ baca.interpret.set_up_score(
 
 skips = score["Skips"]
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-    tags=[baca.tags.ONLY_PARTS],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_PARTS)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
-    tags=[baca.tags.ONLY_SCORE],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SCORE)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-    tags=[baca.tags.ONLY_SEGMENT],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SEGMENT)
 
 
 def FL(voice):

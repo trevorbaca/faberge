@@ -63,26 +63,29 @@ manifests = accumulator.manifests()
 
 baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["80"], manifests)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "B",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-    tags=[baca.tags.ONLY_PARTS],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_PARTS)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "B",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
-    tags=[baca.tags.ONLY_SCORE],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SCORE)
 
-baca.rehearsal_mark_function(
+wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "B",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-    tags=[baca.tags.ONLY_SEGMENT],
 )
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SEGMENT)
 
 
 def FL(voice):
