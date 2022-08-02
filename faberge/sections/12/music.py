@@ -263,7 +263,9 @@ def fl_cl(cache):
         (["fl", "cl"], 1),
         baca.hairpin(
             "o< mp >o niente",
-            pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
+            pieces=lambda _: abjad.select.partition_by_ratio(
+                baca.select.plts(_), (2, 3)
+            ),
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
@@ -277,7 +279,9 @@ def fl_cl(cache):
         (["fl", "cl"], 3),
         baca.hairpin(
             "o< p >o niente",
-            pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
+            pieces=lambda _: abjad.select.partition_by_ratio(
+                baca.select.plts(_), (2, 3)
+            ),
             selector=lambda _: baca.select.rleaves(_),
         ),
     )

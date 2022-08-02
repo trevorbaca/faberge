@@ -1185,7 +1185,7 @@ def cl(m):
                 "(p) >o",
                 selector=lambda _: baca.select.tleaves(_)[-1:],
             ),
-            map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
+            map=lambda _: [x for x in baca.select.plts(_) if 2 < len(x)],
         ),
     )
     accumulator(
@@ -1261,9 +1261,9 @@ def cl(m):
             ),
             baca.hairpin(
                 "(pp) >o !",
-                selector=lambda _: baca.rleak(_)[-2:],
+                selector=lambda _: baca.select.rleak(_)[-2:],
             ),
-            map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
+            map=lambda _: [x for x in baca.select.plts(_) if 2 < len(x)],
         ),
         baca.flat_glissando("D2"),
     )
@@ -1276,9 +1276,9 @@ def cl(m):
             ),
             baca.hairpin(
                 "(pp) >o !",
-                selector=lambda _: baca.rleak(_)[-2:],
+                selector=lambda _: baca.select.rleak(_)[-2:],
             ),
-            map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
+            map=lambda _: [x for x in baca.select.plts(_) if 2 < len(x)],
         ),
         baca.flat_glissando("C#2"),
     )
@@ -1301,9 +1301,9 @@ def cl(m):
             ),
             baca.hairpin(
                 "(ppp) >o !",
-                selector=lambda _: baca.rleak(_)[-2:],
+                selector=lambda _: baca.select.rleak(_)[-2:],
             ),
-            map=lambda _: [x for x in baca.plts(_) if 2 < len(x)],
+            map=lambda _: [x for x in baca.select.plts(_) if 2 < len(x)],
         ),
         baca.flat_glissando("C2"),
     )
@@ -1437,7 +1437,9 @@ def perc(m):
         baca.hairpin(
             "ppp < pp >",
             bookend=False,
-            pieces=lambda _: baca.mgroups(_, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
+            pieces=lambda _: baca.select.mgroups(
+                _, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]
+            ),
         ),
         baca.markup(
             r"\baca-marimba-attackless-markup",
@@ -1459,7 +1461,7 @@ def perc(m):
         ("perc", (53, 60)),
         baca.hairpin(
             "ppp < pp >o niente",
-            pieces=lambda _: baca.mgroups(_, [2, 6 + 1]),
+            pieces=lambda _: baca.select.mgroups(_, [2, 6 + 1]),
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
@@ -1790,7 +1792,7 @@ def vc(m):
         baca.interpolate_pitches("Eb2", "C2"),
         baca.hairpin(
             "(p) < ff >o",
-            pieces=lambda _: baca.mgroups(_, [12, 12]),
+            pieces=lambda _: baca.select.mgroups(_, [12, 12]),
         ),
         baca.markup(
             r"\baca-non-vib-markup",
@@ -1801,7 +1803,7 @@ def vc(m):
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
-            pieces=lambda _: baca.mgroups(_, [12, 12]),
+            pieces=lambda _: baca.select.mgroups(_, [12, 12]),
             selector=lambda _: baca.select.rleak(baca.select.ltleaves(_)),
         ),
     )

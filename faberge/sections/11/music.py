@@ -545,7 +545,7 @@ def vn(m):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
             ],
         ),
@@ -560,7 +560,7 @@ def vn(m):
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
             ],
         ),

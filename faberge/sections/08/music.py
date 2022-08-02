@@ -697,21 +697,21 @@ def vn_va(cache):
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 4))
             ],
         ),
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_, preprolated=True) == abjad.Duration((1, 2))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_, preprolated=True) == abjad.Duration((3, 4))
             ],
         ),
