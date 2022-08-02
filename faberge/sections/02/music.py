@@ -483,7 +483,7 @@ def fl(m):
         ),
         baca.hairpin(
             "(p) >o",
-            selector=lambda _: baca.rleak(baca.tleaves(_))[-2:],
+            selector=lambda _: baca.select.rleak(baca.select.tleaves(_))[-2:],
         ),
         baca.repeat_tie_extra_offset(
             (-1.5, 0),
@@ -1320,7 +1320,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            pieces=lambda _: baca.mgroups(_, [9, 10]),
+            pieces=lambda _: baca.select.mgroups(_, [9, 10]),
             selector=lambda _: baca.select.leaves(_),
         ),
     )

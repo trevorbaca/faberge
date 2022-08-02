@@ -327,7 +327,9 @@ def cl(m):
         baca.hairpin(
             "p < mp > p",
             map=lambda _: baca.select.runs(_),
-            pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
+            pieces=lambda _: abjad.select.partition_by_ratio(
+                baca.select.plts(_), (1, 1)
+            ),
             selector=lambda _: baca.select.tleaves(_)[:-1],
         ),
     )
@@ -350,7 +352,9 @@ def cl(m):
         baca.hairpin(
             "pp < p > pp",
             map=lambda _: baca.select.runs(_),
-            pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (1, 1)),
+            pieces=lambda _: abjad.select.partition_by_ratio(
+                baca.select.plts(_), (1, 1)
+            ),
             selector=lambda _: baca.select.tleaves(_)[:-1],
         ),
     )

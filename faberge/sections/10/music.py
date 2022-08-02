@@ -700,14 +700,14 @@ def vn_va(cache):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) >= abjad.Duration((1, 2))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((1, 3))
             ],
         ),

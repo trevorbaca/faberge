@@ -337,7 +337,7 @@ def eh(m):
         baca.hairpin(
             "o< mf >o niente",
             map=lambda _: abjad.select.partition_by_counts(
-                baca.pleaves(_), [2], overhang=True
+                baca.select.pleaves(_), [2], overhang=True
             ),
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
             selector=lambda _: baca.select.rleaves(_),
@@ -587,14 +587,14 @@ def va(m):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((1, 2))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((1, 3))
             ],
         ),
@@ -620,14 +620,14 @@ def va(m):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((5, 12))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((5, 18))
             ],
         ),
@@ -649,14 +649,14 @@ def va(m):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((1, 2))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((1, 3))
             ],
         ),
@@ -678,14 +678,14 @@ def va(m):
         baca.quadruple_staccato(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((5, 12))
             ],
         ),
         baca.stem_tremolo(
             selector=lambda x: [
                 _
-                for _ in baca.plts(x)
+                for _ in baca.select.plts(x)
                 if abjad.get.duration(_) == abjad.Duration((5, 18))
             ],
         ),

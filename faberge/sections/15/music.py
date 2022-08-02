@@ -198,7 +198,7 @@ def fl(m):
         baca.hairpin(
             "o< f >o",
             pieces=lambda _: abjad.select.partition_by_counts(
-                baca.pleaves(_), [1], cyclic=True
+                baca.select.pleaves(_), [1], cyclic=True
             ),
             selector=lambda _: baca.select.leaves(_),
         ),
@@ -244,7 +244,9 @@ def cl(m):
         baca.hairpin(
             "pp < p > pp",
             map=lambda _: baca.select.runs(_),
-            pieces=lambda _: abjad.select.partition_by_ratio(baca.plts(_), (2, 3)),
+            pieces=lambda _: abjad.select.partition_by_ratio(
+                baca.select.plts(_), (2, 3)
+            ),
         ),
         baca.material_annotation_spanner(
             "5-2 =|",
