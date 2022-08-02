@@ -82,7 +82,7 @@ wrappers = baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
 )
 for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SEGMENT)
+    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SECTION)
 
 
 def FL(voice):
