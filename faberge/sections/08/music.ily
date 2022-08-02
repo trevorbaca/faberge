@@ -10,7 +10,7 @@ number.8.Skips = {
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
-      %! +SEGMENT
+      %! +SECTION
       %! EMPTY_START_BAR
       %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
@@ -28,10 +28,10 @@ number.8.Skips = {
       %! +SCORE
       %! baca.rehearsal_mark_function()
 %%% - \baca-rehearsal-mark-markup "G" #10
-      %! +SEGMENT
+      %! +SECTION
       %! baca.rehearsal_mark_function()
     - \tweak extra-offset #'(0 . 18)
-      %! +SEGMENT
+      %! +SECTION
       %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "G" #10
       %! +PARTS

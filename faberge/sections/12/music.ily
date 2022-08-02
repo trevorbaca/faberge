@@ -10,7 +10,7 @@ number.12.Skips = {
       %! REAPPLIED_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'green4
-      %! +SEGMENT
+      %! +SECTION
       %! EMPTY_START_BAR
       %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
@@ -29,10 +29,10 @@ number.12.Skips = {
       %! +SCORE
       %! baca.rehearsal_mark_function()
 %%% - \baca-rehearsal-mark-markup "K" #10
-      %! +SEGMENT
+      %! +SECTION
       %! baca.rehearsal_mark_function()
     - \tweak extra-offset #'(0 . 18)
-      %! +SEGMENT
+      %! +SECTION
       %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "K" #10
       %! +PARTS
