@@ -65,24 +65,21 @@ wrappers = baca.rehearsal_mark_function(
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_PARTS)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SCORE)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "A",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SECTION)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
 
 
 def FL(voice):

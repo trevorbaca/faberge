@@ -54,24 +54,21 @@ wrappers = baca.rehearsal_mark_function(
     "N",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_PARTS)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "N",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SCORE)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
     "N",
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
 )
-for wrapper in wrappers:
-    wrapper.tag = wrapper.tag.append(baca.tags.ONLY_SECTION)
+baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
 
 for index, item in (
     (5 - 1, "125"),
