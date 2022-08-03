@@ -374,370 +374,223 @@ def VC(voice):
 
 
 def fl(m):
-    accumulator(
-        "fl",
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        ("fl", (1, 12)),
-        baca.pitch("F#6"),
-        baca.markup(
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 6)
+    with baca.scope(m.get(1, 12)) as o:
+        baca.pitch_function(o, "F#6")
+        library.dal_niente_hairpins_function(o, "f")
+        baca.markup_function(
+            o.pleaf(0),
             r"\faberge-match-sound-of-crotales-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("fl", (13, 26)),
-        baca.pitch("F6"),
-    )
-    accumulator(
-        ("fl", (13, 16)),
-        library.dal_niente_hairpins("pp"),
-    )
-    accumulator(
-        ("fl", (17, 22)),
-        library.increasing_dal_niente_hairpins(),
-    )
-    accumulator(
-        ("fl", (23, 26)),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("fl", (27, 30)),
-        library.dal_niente_hairpins("pp"),
-    )
-    accumulator(
-        ("fl", (27, 40)),
-        baca.pitch("F#6"),
-    )
-    accumulator(
-        ("fl", (31, 36)),
-        library.increasing_dal_niente_hairpins(),
-    )
-    accumulator(
-        ("fl", (37, 40)),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("fl", (41, 56)),
-        baca.pitch("F6"),
-    )
-    accumulator(
-        ("fl", (41, 46)),
-        library.dal_niente_hairpins("pp"),
-    )
-    accumulator(
-        ("fl", (47, 52)),
-        library.increasing_dal_niente_hairpins(),
-    )
-    accumulator(
-        ("fl", (53, 56)),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("fl", 57),
-        baca.markup(
+        )
+    with baca.scope(m.get(13, 26)) as o:
+        baca.pitch_function(o, "F6")
+    with baca.scope(m.get(13, 16)) as o:
+        library.dal_niente_hairpins_function(o, "pp")
+    with baca.scope(m.get(17, 22)) as o:
+        library.increasing_dal_niente_hairpins_function(o)
+    with baca.scope(m.get(23, 26)) as o:
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m.get(27, 30)) as o:
+        library.dal_niente_hairpins_function(o, "pp")
+    with baca.scope(m.get(27, 40)) as o:
+        baca.pitch_function(o, "F#6")
+    with baca.scope(m.get(31, 36)) as o:
+        library.increasing_dal_niente_hairpins_function(o)
+    with baca.scope(m.get(37, 40)) as o:
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m.get(41, 56)) as o:
+        baca.pitch_function(o, "F6")
+    with baca.scope(m.get(41, 46)) as o:
+        library.dal_niente_hairpins_function(o, "pp")
+    with baca.scope(m.get(47, 52)) as o:
+        library.increasing_dal_niente_hairpins_function(o)
+    with baca.scope(m.get(53, 56)) as o:
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m[57]) as o:
+        baca.markup_function(
+            o.mmrest(0),
             r"\baca-to-bass-flute-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.mmrest(_, 0),
-        ),
-        baca.instrument(
-            library.instruments()["BassFlute"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("B. fl."),
-    )
-    accumulator(
-        ("fl", (81, 88)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("F#4"),
-        baca.hairpin(
-            "niente o< p",
-            selector=lambda _: baca.select.tleaves(_)[:2],
-        ),
-        baca.hairpin(
-            "(p) >o",
-            selector=lambda _: baca.select.tleaves(_)[-1:],
-        ),
-    )
-    accumulator(
-        ("fl", (89, 92)),
-        baca.pitches(
-            "F#4 F#3",
-            allow_repeats=True,
-        ),
-        library.bfl_color_fingerings(
+        )
+        baca.instrument_function(
+            o.leaf(0), library.instruments()["BassFlute"], accumulator.manifests()
+        )
+        library.short_instrument_name_function(
+            o.leaf(0), "B. fl.", accumulator.manifests()
+        )
+    with baca.scope(m.get(81, 88)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "F#4")
+        baca.hairpin_function(o.tleaves()[:2], "niente o< p")
+        baca.hairpin_function(o.tleaves()[-1:], "(p) >o")
+    with baca.scope(m.get(89, 92)) as o:
+        baca.pitches_function(o, "F#4 F#3", allow_repeats=True)
+        library.bfl_color_fingerings_function(
+            o,
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
-        ),
-        baca.hairpin(
-            "niente o< p",
-            selector=lambda _: baca.select.tleaves(_)[:2],
-        ),
-        baca.hairpin(
-            "(p) >o",
-            selector=lambda _: baca.select.rleak(baca.select.tleaves(_))[-2:],
-        ),
-        baca.repeat_tie_extra_offset(
-            (-1.5, 0),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-    )
+        )
+        baca.hairpin_function(o.tleaves()[:2], "niente o< p")
+        baca.hairpin_function(baca.select.rleak(baca.select.tleaves(o))[-2:], "(p) >o")
+        baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
+        baca.breathe_function(o.pleaf(-1))
 
 
 def eh(m):
-    accumulator(
-        "eh",
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("eh", (13, 16)),
-        baca.pitches("E4 Eb~4 E~4 E4 E#+4"),
-        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-        baca.trill_spanner(
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            map=lambda _: baca.select.runs(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("eh", (27, 30)),
-        baca.pitches("F#4 F#+4 E#4 E#+4"),
-        baca.repeat_tie_extra_offset(
-            (-1.5, 0),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.trill_spanner(
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            map=lambda _: baca.select.runs(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("eh", (41, 46)),
-        baca.pitches("G#4 F#+4 G4 G+4 G#+4"),
-        baca.repeat_tie_extra_offset(
-            (-1.5, 0),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.trill_spanner(
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            map=lambda _: baca.select.runs(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("eh", (57, 62)),
-        baca.pitches("A#4 A+4 A#+4"),
-        baca.repeat_tie_extra_offset(
-            (-1.5, 0),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.trill_spanner(
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            map=lambda _: baca.select.runs(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-    )
-    accumulator(
-        ("eh", (81, 88)),
-        library.keynoise_pitches(rotation=0),
-        baca.note_head_style_cross(selector=lambda _: baca.select.pleaves(_)),
-        baca.markup(
+    with baca.scope(m.leaves()) as o:
+        baca.staff_lines_function(o.leaf(0), 5)
+    with baca.scope(m.get(13, 16)) as o:
+        baca.pitches_function(o, "E4 Eb~4 E~4 E4 E#+4")
+        baca.dynamic_function(o.phead(0), "f")
+        for run in baca.select.runs(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(
+                run,
+                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            )
+    with baca.scope(m.get(27, 30)) as o:
+        baca.pitches_function(o, "F#4 F#+4 E#4 E#+4")
+        baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
+        for run in baca.select.runs(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(
+                run,
+                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            )
+    with baca.scope(m.get(41, 46)) as o:
+        baca.pitches_function(o, "G#4 F#+4 G4 G+4 G#+4")
+        baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
+        for run in baca.select.runs(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(
+                run,
+                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            )
+    with baca.scope(m.get(57, 62)) as o:
+        baca.pitches_function(o, "A#4 A+4 A#+4")
+        baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
+        for run in baca.select.runs(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(
+                run,
+                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            )
+    with baca.scope(m.get(81, 88)) as o:
+        library.keynoise_pitches_function(o, rotation=0)
+        baca.note_head_style_cross_function(o.pleaves())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-keynoise-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
         ),
-        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("eh", (89, 92)),
-        baca.pitches("C4 C+4 C~4 C#4"),
-        baca.repeat_tie_extra_offset(
-            (-1.5, 0),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-        baca.trill_spanner(
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            map=lambda _: baca.select.runs(_),
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        "eh",
-        baca.dls_staff_padding(4),
-    )
+        baca.dynamic_function(o.phead(0), '"ff"')
+    with baca.scope(m.get(89, 92)) as o:
+        baca.pitches_function(o, "C4 C+4 C~4 C#4")
+        baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
+        for run in baca.select.runs(o):
+            run = baca.select.tleaves(run, rleak=True)
+            baca.trill_spanner_function(
+                run,
+                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            )
+        baca.dynamic_function(o.phead(0), "f")
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 4)
 
 
 def cl(m):
-    accumulator(
-        "cl",
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        ("cl", (1, 12)),
-        baca.markup(
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 6)
+    with baca.scope(m.get(1, 12)) as o:
+        baca.markup_function(
+            o.pleaf(0),
             r"\faberge-match-sound-of-crotales-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("F#6"),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("cl", (13, 16)),
-        library.dal_niente_hairpins("pp"),
-    )
-    accumulator(
-        ("cl", (13, 26)),
-        baca.pitch("F6"),
-    )
-    accumulator(
-        ("cl", (17, 22)),
-        library.increasing_dal_niente_hairpins(),
-    )
-    accumulator(
-        ("cl", (23, 26)),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("cl", (27, 30)),
-        library.dal_niente_hairpins("pp"),
-    )
-    accumulator(
-        ("cl", (27, 40)),
-        baca.pitch("F#6"),
-    )
-    accumulator(
-        ("cl", (31, 36)),
-        library.increasing_dal_niente_hairpins(),
-    )
-    accumulator(
-        ("cl", (37, 40)),
-        library.dal_niente_hairpins("f"),
-    )
-    accumulator(
-        ("cl", 41),
-        baca.instrument(
+        )
+        baca.pitch_function(o, "F#6")
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m.get(13, 16)) as o:
+        library.dal_niente_hairpins_function(o, "pp")
+    with baca.scope(m.get(13, 26)) as o:
+        baca.pitch_function(o, "F6")
+    with baca.scope(m.get(17, 22)) as o:
+        library.increasing_dal_niente_hairpins_function(o)
+    with baca.scope(m.get(23, 26)) as o:
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m.get(27, 30)) as o:
+        library.dal_niente_hairpins_function(o, "pp")
+    with baca.scope(m.get(27, 40)) as o:
+        baca.pitch_function(o, "F#6")
+    with baca.scope(m.get(31, 36)) as o:
+        library.increasing_dal_niente_hairpins_function(o)
+    with baca.scope(m.get(37, 40)) as o:
+        library.dal_niente_hairpins_function(o, "f")
+    with baca.scope(m[41]) as o:
+        baca.instrument_function(
+            o.leaf(0),
             library.instruments()["BassClarinet"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("B. cl."),
-        baca.markup(
+            accumulator.manifests(),
+        )
+        library.short_instrument_name_function(
+            o.leaf(0), "B. cl.", accumulator.manifests()
+        )
+        baca.markup_function(
+            o.mmrest(0),
             r"\baca-to-bass-clarinet-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.mmrest(_, 0),
-        ),
-    )
-    accumulator(
-        ("cl", (47, 92)),
-        baca.dls_staff_padding(8),
-    )
-    accumulator(
-        ("cl", (47, 49)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (50, 52)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (53, 57)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (58, 60)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (61, 62)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (63, 70)),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("ppp"),
-    )
-    accumulator(
-        ("cl", (71, 73)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (74, 76)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (77, 80)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (81, 88)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", (89, 91)),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.flat_glissando("D2"),
-        library.single_swell("p"),
-    )
-    accumulator(
-        ("cl", 92),
-        baca.breathe(
-            selector=lambda _: baca.select.pleaf(_, -1, exclude=baca.enums.HIDDEN),
-        ),
-        baca.dynamic(
-            "niente",
-            selector=lambda _: baca.select.rleaf(_, -1),
-        ),
-        baca.flat_glissando("Dqs2"),
-        library.single_swell("p"),
-    )
+        )
+    with baca.scope(m.get(47, 92)) as o:
+        baca.dls_staff_padding_function(o, 8)
+    with baca.scope(m.get(47, 49)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(50, 52)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(53, 57)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(58, 60)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(61, 62)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(63, 70)) as o:
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "ppp")
+    with baca.scope(m.get(71, 73)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(74, 76)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(77, 80)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(81, 88)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m.get(89, 91)) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.flat_glissando_function(o, "D2")
+        library.single_swell_function(o, "p")
+    with baca.scope(m[92]) as o:
+        baca.breathe_function(o.pleaf(-1))
+        baca.dynamic_function(o.rleaf(-1), "niente")
+        baca.flat_glissando_function(o, "Dqs2")
+        library.single_swell_function(o, "p")
 
 
 def pf(cache):
