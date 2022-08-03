@@ -812,6 +812,12 @@ def bfl_color_fingerings(*tweaks):
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
+def bfl_color_fingerings_function(argument, *tweaks):
+    baca.color_fingerings_function(
+        argument, [0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks
+    )
+
+
 def clb_staff_positions(*, rotation=None):
     staff_positions_ = [
         [-1, -1, -1, -1, -1, -1],
@@ -836,6 +842,12 @@ def dal_niente_hairpins(stop: str):
         map=lambda _: baca.select.runs(_),
         selector=lambda _: baca.select.rleaves(_),
     )
+
+
+def dal_niente_hairpins_function(argument, stop: str):
+    for run in baca.select.runs(argument):
+        run = baca.select.rleaves(run)
+        baca.hairpin_function(run, f"niente o< {stop}")
 
 
 def increasing_dal_niente_hairpins():
@@ -863,12 +875,34 @@ def increasing_dal_niente_hairpins():
     )
 
 
+def increasing_dal_niente_hairpins_function(argument):
+    runs = baca.select.runs(argument)
+    for i, run in enumerate(runs):
+        run = baca.select.rleaves(run)
+        if i == 0:
+            baca.hairpin_function(run, "niente o< p")
+        elif i == 1:
+            baca.hairpin_function(run, "niente o< mp")
+        elif i in (2, 3):
+            baca.hairpin_function(run, "niente o< mf")
+        else:
+            baca.hairpin_function(run, "niente o< f")
+
+
 def keynoise_pitches(*, rotation=None):
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
     keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
     keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
     return baca.pitches(keynoise_pitches)
+
+
+def keynoise_pitches_function(argument, *, rotation=None):
+    keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
+    keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
+    keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
+    keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
+    baca.pitches_function(argument, keynoise_pitches)
 
 
 def short_instrument_name(
@@ -886,6 +920,16 @@ def short_instrument_name(
         selector=selector,
     )
     return baca.not_parts(command)
+
+
+def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
+    _short_instrument_names = manifests["abjad.ShortInstrumentName"]
+    short_instrument_name = _short_instrument_names[key]
+    baca.short_instrument_name_function(
+        argument,
+        short_instrument_name,
+        context=context,
+    )
 
 
 def metronome_marks():
@@ -953,6 +997,11 @@ def single_swell(dynamic: str):
             selector=lambda _: baca.select.tleaves(_)[-1:],
         ),
     )
+
+
+def single_swell_function(argument, dynamic: str):
+    baca.hairpin_function(argument.tleaves()[:2], f"niente o< {dynamic}")
+    baca.hairpin_function(argument.tleaves()[-1:], f"({dynamic}) >o")
 
 
 def time_signatures_a():
