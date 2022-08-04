@@ -986,6 +986,10 @@ def replace_with_piano_clusters():
     return baca.replace_with_clusters([4], start_pitch="C2")
 
 
+def replace_with_piano_clusters_function(argument):
+    baca.replace_with_clusters_function(argument, [4], start_pitch="C2")
+
+
 def single_swell(dynamic: str):
     return baca.chunk(
         baca.hairpin(
