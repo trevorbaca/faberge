@@ -836,7 +836,25 @@ def clb_staff_positions(*, rotation=None):
     return baca.staff_positions(staff_positions)
 
 
-def dal_niente_hairpins(stop: str):
+def clb_staff_positions_function(argument, *, rotation=None):
+    staff_positions_ = [
+        [-1, -1, -1, -1, -1, -1],
+        [0, 0, 0, 0],
+        [-1, -1],
+        [0, 0, 0, 0, 0, 0],
+        [-1, -1],
+        [1, 1, 1, 1, 1, 1],
+        [0, 0],
+        [1, 1, 1, 1, 1, 1],
+        [-1, -1],
+        [0, 0],
+    ]
+    staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
+    staff_positions = abjad.sequence.flatten(staff_positions)
+    baca.staff_positions_function(argument, staff_positions)
+
+
+def dal_niente_hairpins(stop):
     return baca.hairpin(
         f"niente o< {stop}",
         map=lambda _: baca.select.runs(_),
@@ -844,7 +862,7 @@ def dal_niente_hairpins(stop: str):
     )
 
 
-def dal_niente_hairpins_function(argument, stop: str):
+def dal_niente_hairpins_function(argument, stop):
     for run in baca.select.runs(argument):
         run = baca.select.rleaves(run)
         baca.hairpin_function(run, f"niente o< {stop}")
@@ -962,7 +980,7 @@ def metronome_marks():
     )
 
 
-def niente_swells(dynamic: str):
+def niente_swells(dynamic):
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
@@ -982,6 +1000,20 @@ def niente_swells(dynamic: str):
     )
 
 
+def niente_swells_function(argument, dynamic):
+    assert isinstance(dynamic, str), repr(dynamic)
+    # TODO: allow:
+    #   baca.hairpin(
+    #        'niente o< {dynamic} {dynamic} >o niente',
+    #        pieces=lambda _: abjad.select.leaves(_).partition([2, 'most', 2])
+    #        )
+    for run in baca.select.ntruns(argument):
+        if len(run) <= 2:
+            continue
+        baca.hairpin_function(baca.select.tleaves(run)[:2], f"niente o< {dynamic}")
+        baca.hairpin_function(baca.select.rleaves(run)[-2:], f"({dynamic}) >o niente")
+
+
 def replace_with_piano_clusters():
     return baca.replace_with_clusters([4], start_pitch="C2")
 
@@ -990,7 +1022,7 @@ def replace_with_piano_clusters_function(argument):
     baca.replace_with_clusters_function(argument, [4], start_pitch="C2")
 
 
-def single_swell(dynamic: str):
+def single_swell(dynamic):
     return baca.chunk(
         baca.hairpin(
             f"niente o< {dynamic}",
@@ -1003,7 +1035,7 @@ def single_swell(dynamic: str):
     )
 
 
-def single_swell_function(argument, dynamic: str):
+def single_swell_function(argument, dynamic):
     baca.hairpin_function(argument.tleaves()[:2], f"niente o< {dynamic}")
     baca.hairpin_function(argument.tleaves()[-1:], f"({dynamic}) >o")
 
@@ -1044,6 +1076,18 @@ def tuning_peg_staff_positions(*, rotation=None):
     staff_positions = abjad.sequence.flatten(staff_positions)
     staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
     return baca.staff_positions(staff_positions)
+
+
+def tuning_peg_staff_positions_function(argument, *, rotation=None):
+    staff_positions = [
+        [-2, -1, 0, 1, 2, 3, 4],
+        [0, 1, 2, 3, 4, 5, 6],
+        [2, 3, 4, 5, 6, 7, 8],
+        [4, 5, 6, 7, 8, 9, 10],
+    ]
+    staff_positions = abjad.sequence.flatten(staff_positions)
+    staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
+    baca.staff_positions_function(argument, staff_positions)
 
 
 def voice_abbreviations():
