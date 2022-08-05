@@ -3410,34 +3410,40 @@ number.4.Percussion.Music = {
         \f
         % SPANNER_STARTS:
           %! AUTODETECT
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.text_spanner_function()
           %! MATERIAL_ANNOTATION_SPANNER
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.material_annotation_spanner_function()
           %! baca.text_spanner_function()
         - \tweak bound-details.right.padding 3.25
           %! MATERIAL_ANNOTATION_SPANNER
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.material_annotation_spanner_function()
           %! baca.text_spanner_function()
         - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.material_annotation_spanner_function()
           %! baca.text_spanner_function()
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.material_annotation_spanner_function()
           %! baca.text_spanner_function()
         - \baca-text-spanner-left-text "MM"
           %! MATERIAL_ANNOTATION_SPANNER
+          %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca.material_annotation_spanner_function()
@@ -3531,6 +3537,7 @@ number.4.Percussion.Music = {
     % SPANNER_STOPS:
       %! ANCHOR_NOTE
       %! MATERIAL_ANNOTATION_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
       %! baca._style_anchor_notes()
