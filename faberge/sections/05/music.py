@@ -189,46 +189,35 @@ def VC(voice):
 
 
 def fl(m):
-    accumulator(
-        ("fl", 3),
-        baca.pitches(
+    with baca.scope(m[3]) as o:
+        baca.pitches_function(
+            o,
             "G#3 G#3 G#3 F#3",
             allow_repeats=True,
             exact=True,
-        ),
-    )
-    accumulator(
-        ("fl", [2, 4]),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("G#3"),
-    )
-    accumulator(
-        ("fl", 5),
-        baca.pitch("A3"),
-    )
-    accumulator(
-        ("fl", (6, 7)),
-        baca.pitches(
+        )
+    for n in [2, 4]:
+        with baca.scope(m[n]) as o:
+            baca.dynamic_function(o.phead(0), "p")
+            baca.pitch_function(o, "G#3")
+    with baca.scope(m[5]) as o:
+        baca.pitch_function(o, "A3")
+    with baca.scope(m.get(6, 7)) as o:
+        baca.pitches_function(
+            o,
             "A3 A3 A3 G3",
             allow_repeats=True,
-        ),
-    )
-    accumulator(
-        ("fl", 8),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.pitch("B3"),
-    )
-    accumulator(
-        "fl",
-        baca.dls_staff_padding(4),
-        baca.material_annotation_spanner(
+        )
+    with baca.scope(m[8]) as o:
+        baca.dynamic_function(o.phead(0), "p")
+        baca.pitch_function(o, "B3")
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 4)
+        baca.material_annotation_spanner_function(
+            baca.select.rleak(o.tleaves()),
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.tleaves(
-                _, exclude=baca.enums.HIDDEN, rleak=True
-            ),
-        ),
-    )
+        )
 
 
 def eh(m):
