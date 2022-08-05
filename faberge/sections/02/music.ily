@@ -36098,40 +36098,47 @@ number.2.Viola.Music = {
       %! baca.text_spanner_function()
     \bacaStartTextSpanSCP
       %! AUTODETECT
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! baca.xfb_spanner_function()
     - \tweak bound-details.right.padding 3.25
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! baca.xfb_spanner_function()
     - \tweak staff-padding 5.5
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! baca.xfb_spanner_function()
     - \abjad-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! baca.xfb_spanner_function()
     - \baca-text-spanner-left-text "XFB"
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
       %! baca.xfb_spanner_function()
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner_function()
@@ -36278,6 +36285,7 @@ number.2.Viola.Music = {
     % SPANNER_STOPS:
       %! ANCHOR_NOTE
       %! BOW_SPEED_SPANNER
+      %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
       %! baca._style_anchor_notes()
