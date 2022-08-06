@@ -2603,9 +2603,17 @@ number.14.Clarinet.Music = {
       %! baca._set_status_tag()
     \p
     % MARKUP:
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak direction #down
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak parent-alignment-X -0.5
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak staff-padding 5
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -2694,9 +2702,17 @@ number.14.Clarinet.Music = {
           %! baca.hairpin()
         \p
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % START_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -2723,9 +2739,17 @@ number.14.Clarinet.Music = {
         bf!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -2737,9 +2761,17 @@ number.14.Clarinet.Music = {
         bf!4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2748,9 +2780,17 @@ number.14.Clarinet.Music = {
         bf!4.
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2759,9 +2799,17 @@ number.14.Clarinet.Music = {
         bf!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2770,9 +2818,17 @@ number.14.Clarinet.Music = {
         bf!4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % SPANNER_STARTS:
         ~
@@ -2810,9 +2866,17 @@ number.14.Clarinet.Music = {
         af!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2821,9 +2885,17 @@ number.14.Clarinet.Music = {
         af!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2832,9 +2904,17 @@ number.14.Clarinet.Music = {
         af!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2882,9 +2962,17 @@ number.14.Clarinet.Music = {
         af!4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2916,9 +3004,17 @@ number.14.Clarinet.Music = {
         af!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % START_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -2939,9 +3035,17 @@ number.14.Clarinet.Music = {
         af!4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2950,9 +3054,17 @@ number.14.Clarinet.Music = {
         af!4.
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2961,9 +3073,17 @@ number.14.Clarinet.Music = {
         af!8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2987,9 +3107,17 @@ number.14.Clarinet.Music = {
           %! baca.hairpin()
         \p
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % CLOSING:
         % COMMANDS:
@@ -3006,9 +3134,17 @@ number.14.Clarinet.Music = {
     g8
     % AFTER:
     % MARKUP:
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak direction #down
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak parent-alignment-X -0.5
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     - \tweak staff-padding 5
+      %! baca._attach_persistent_indicator()
+      %! baca.color_fingerings()
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3049,9 +3185,17 @@ number.14.Clarinet.Music = {
           %! baca.hairpin()
         \pp
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % START_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -3078,9 +3222,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % STOP_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -3092,9 +3244,17 @@ number.14.Clarinet.Music = {
         g4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3103,9 +3263,17 @@ number.14.Clarinet.Music = {
         g4.
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3114,9 +3282,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3160,9 +3336,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3176,9 +3360,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3226,9 +3418,17 @@ number.14.Clarinet.Music = {
         g4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3237,9 +3437,17 @@ number.14.Clarinet.Music = {
         g4.
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % CLOSING:
         % COMMANDS:
@@ -3266,9 +3474,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % START_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -3280,9 +3496,17 @@ number.14.Clarinet.Music = {
         g8
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % STOP_BEAM:
           %! faberge.make_bcl_color_fingering_rhythm()
@@ -3294,9 +3518,17 @@ number.14.Clarinet.Music = {
         g4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3305,9 +3537,17 @@ number.14.Clarinet.Music = {
         g4.
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3331,9 +3571,17 @@ number.14.Clarinet.Music = {
           %! baca.hairpin()
         \pp
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3342,9 +3590,17 @@ number.14.Clarinet.Music = {
         g4
         % AFTER:
         % MARKUP:
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak direction #down
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak parent-alignment-X -0.5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         - \tweak staff-padding 5
+          %! baca._attach_persistent_indicator()
+          %! baca.color_fingerings()
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
         % COMMANDS:
           %! baca.OverrideCommand._call(2)
