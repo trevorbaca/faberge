@@ -946,6 +946,7 @@ def short_instrument_name_function(argument, key, manifests, *, context="Staff")
     baca.short_instrument_name_function(
         argument,
         short_instrument_name,
+        manifests,
         context=context,
     )
 
