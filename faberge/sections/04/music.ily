@@ -2202,7 +2202,7 @@ number.4.Piano.RH.Music = {
             ^ \baca-sharp-markup
             % START_BEAM:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
               %! baca.beam_function()
             [
             % SPANNER_STARTS:
@@ -2418,7 +2418,7 @@ number.4.Piano.RH.Music = {
     \bacaStopTextSpanMaterialAnnotation
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.beam_function()
     ]
     % ABSOLUTE_BEFORE:
@@ -2593,7 +2593,7 @@ number.4.Piano.LH.Music = {
             % AFTER:
             % START_BEAM:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
               %! baca.beam_function()
             [
             % ABSOLUTE_BEFORE:
@@ -2717,7 +2717,7 @@ number.4.Piano.LH.Music = {
     % AFTER:
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.beam_function()
     ]
     % ABSOLUTE_BEFORE:
@@ -3977,7 +3977,7 @@ number.4.Violin.Music = {
         - \staccato
         % START_BEAM:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
           %! baca.beam_function()
         [
         % ABSOLUTE_BEFORE:
@@ -4065,7 +4065,7 @@ number.4.Violin.Music = {
     - \staccato
     % STOP_BEAM:
       %! SPANNER_STOP
-      %! baca._do_spanner_indicator_command(4)
+      %! baca._do_spanner_indicator_command(2)
       %! baca.beam_function()
     ]
     % ABSOLUTE_BEFORE:

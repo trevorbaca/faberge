@@ -2587,7 +2587,7 @@ number.12.Piano.RH.Music = {
           %! baca.clef_extra_offset_function(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         \ottava 1
           %! baca.OverrideCommand._call(1)
           %! baca.dls_staff_padding()
@@ -2628,7 +2628,7 @@ number.12.Piano.RH.Music = {
         \baca-f-parenthesized
         % START_BEAM:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -2755,11 +2755,11 @@ number.12.Piano.RH.Music = {
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         ]
         % COMMANDS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         \ottava 0
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3213,7 +3213,7 @@ number.12.Piano.LH.Music = {
         % BEFORE:
         % COMMANDS:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         \ottava 1
         <f''' g''' a'''>8
         % AFTER:
@@ -3223,7 +3223,7 @@ number.12.Piano.LH.Music = {
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3347,11 +3347,11 @@ number.12.Piano.LH.Music = {
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         ]
         % COMMANDS:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         \ottava 0
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4823,7 +4823,7 @@ number.12.Violin.Music = {
         \bacaStopTextSpanMaterialAnnotation
         % START_BEAM:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -4991,7 +4991,7 @@ number.12.Violin.Music = {
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7237,7 +7237,7 @@ number.12.Cello.Music = {
         \bacaStopTextSpanMaterialAnnotation
         % START_BEAM:
           %! SPANNER_START
-          %! baca._do_spanner_indicator_command(2)
+          %! baca._do_spanner_indicator_command(1)
         [
         % SPANNER_STARTS:
           %! AUTODETECT
@@ -7401,7 +7401,7 @@ number.12.Cello.Music = {
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
-          %! baca._do_spanner_indicator_command(4)
+          %! baca._do_spanner_indicator_command(2)
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
