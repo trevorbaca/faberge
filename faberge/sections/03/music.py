@@ -940,7 +940,7 @@ def fl(m):
             allow_repeats=True,
         )
         library.bfl_color_fingerings_function(
-            o,
+            o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
@@ -952,7 +952,7 @@ def fl(m):
         )
         baca.repeat_tie_extra_offset_function(o, (-1.5, 0))
         library.bfl_color_fingerings_function(
-            o,
+            o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
