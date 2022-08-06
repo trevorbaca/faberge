@@ -427,7 +427,7 @@ def fl(m):
     with baca.scope(m.get(89, 92)) as o:
         baca.pitches_function(o, "F#4 F#3", allow_repeats=True)
         library.bfl_color_fingerings_function(
-            o,
+            o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
