@@ -471,7 +471,6 @@ def vc(m, metadata):
 
 
 def main():
-    voice_metadata = {}
     FL(accumulator.voice("fl"))
     EH(accumulator.voice("eh"))
     CL(accumulator.voice("cl"))
@@ -481,6 +480,7 @@ def main():
     VA(accumulator.voice("va"))
     VC(accumulator.voice("vc"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    voice_metadata = previous_persist.get("voice_metadata", {})
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
