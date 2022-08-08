@@ -157,141 +157,97 @@ def VC(voice):
 
 
 def fl(m):
-    accumulator(
-        "fl",
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.staff_lines_function(o.leaf(0), 1)
 
 
 def eh(m):
-    accumulator(
-        "eh",
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.staff_lines_function(o.leaf(0), 1)
 
 
 def cl(m):
-    accumulator(
-        "cl",
-        baca.dls_staff_padding(6),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        baca.flat_glissando(
-            "F2",
-            hide_middle_stems=True,
-        ),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 6)
+        baca.dynamic_function(o.phead(0), "p")
+        baca.flat_glissando_function(o, "F2", hide_middle_stems=True)
 
 
 def pf(cache):
-    accumulator(
-        "rh",
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    m = cache["rh"]
+    with baca.scope(m.leaves()) as o:
+        baca.staff_lines_function(o.leaf(0), 1)
 
 
 def fl_eh_rh(cache):
-    accumulator(
-        (["fl", "eh", "rh"], (1, 4)),
-        baca.dynamic('"ff"', selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
-            r"\baca-very-small-maraca-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        (["fl", "eh", "rh"], (1, 5)),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    accumulator(
-        ["fl", "eh", "rh"],
-        baca.dls_staff_padding(7),
-        baca.staff_position(0),
-    )
+    for name in ["fl", "eh", "rh"]:
+        m = cache[name]
+        with baca.scope(m.get(1, 4)) as o:
+            baca.dynamic_function(o.phead(0), '"ff"')
+            baca.markup_function(
+                o.pleaf(0),
+                r"\baca-very-small-maraca-markup",
+                abjad.Tweak(r"- \tweak padding 1.5"),
+                abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            )
+        with baca.scope(m.get(1, 5)) as o:
+            baca.stem_tremolo_function(o.pleaves())
+        with baca.scope(m.leaves()) as o:
+            baca.dls_staff_padding_function(o, 7)
+            baca.staff_position_function(o, 0)
 
 
 def perc(m):
-    accumulator(
-        "perc",
-        baca.dls_staff_padding(4),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        # TODO: implement flat glissando based on staff position
-        # TODO: change A4 here to staff position -1
-        baca.flat_glissando(
-            "B3",
-            hide_middle_stems=True,
-        ),
-        baca.markup(
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o, 4)
+        baca.dynamic_function(o.phead(0), "p")
+        baca.flat_glissando_function(o, "B3", hide_middle_stems=True)
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
+        )
 
 
-def vn(m):
-    accumulator(
-        "vn",
-        baca.pitch("<F#5 Aqs5>"),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
+def vn(cache):
+    m = cache["vn"]
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "<F#5 Aqs5>")
+        cache.rebuild()
+        m = cache["vn"]
+    with baca.scope(m.leaves()) as o:
+        baca.stem_tremolo_function(o.pleaves())
 
 
 def va(m):
-    accumulator(
-        "va",
-        baca.pitch("Dqf5"),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "Dqf5")
+        baca.stem_tremolo_function(o.pleaves())
 
 
 def vc(m):
-    accumulator(
-        "vc",
-        baca.pitch("E2"),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", 8),
-        baca.chunk(
-            baca.mark(
-                r"\faberge-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)
-            ),
-            baca.rehearsal_mark_down(),
-            baca.rehearsal_mark_extra_offset((40, 0)),
-            baca.rehearsal_mark_padding(6),
-            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-            selector=lambda _: abjad.select.leaf(_, -1),
-        ),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "E2")
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(m[8]) as o:
+        baca.mark_function(o.leaf(0), r"\faberge-colophon-markup")
+        baca.rehearsal_mark_down_function(o.leaf(-1))
+        baca.rehearsal_mark_extra_offset_function(o.leaf(-1), (40, 0))
+        baca.rehearsal_mark_padding_function(o.leaf(-1), 6)
+        baca.rehearsal_mark_self_alignment_x_function(o.leaf(-1), abjad.RIGHT)
 
 
 def vn_va_vc(cache):
-    accumulator(
-        ["vn", "va", "vc"],
-        baca.accent(
-            selector=lambda _: baca.select.pheads(_),
-        ),
-        baca.dls_staff_padding(6),
-    )
-    accumulator(
-        (["vn", "va", "vc"], 1),
-        baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        (["vn", "va", "vc"], 5),
-        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
-    )
+    for name in ["vn", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.accent_function(o.pheads())
+            baca.dls_staff_padding_function(o, 6)
+        with baca.scope(m[1]) as o:
+            baca.dynamic_function(o.phead(0), "ff")
+        with baca.scope(m[5]) as o:
+            baca.dynamic_function(o.phead(0), "pp")
 
 
 def main():
@@ -316,7 +272,7 @@ def main():
     pf(cache)
     fl_eh_rh(cache)
     perc(cache["perc"])
-    vn(cache["vn"])
+    vn(cache)
     va(cache["va"])
     vc(cache["vc"])
     vn_va_vc(cache)
@@ -334,7 +290,6 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         final_section=True,
         global_rests_in_topmost_staff=True,
