@@ -228,27 +228,23 @@ def VC(voice):
 
 
 def fl(m):
-    accumulator(
-        ("fl", (1, 4)),
-        baca.material_annotation_spanner(
+    with baca.scope(m.get(1, 3)) as o:
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("F3"),
-    )
+        )
+        baca.pitch_function(o, "F3")
 
 
 def cl(m):
-    accumulator(
-        ("cl", (1, 4)),
-        baca.material_annotation_spanner(
+    with baca.scope(m.get(1, 3)) as o:
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("Eb2"),
-    )
+        )
+        baca.pitch_function(o, "Eb2")
 
 
 def fl_cl(cache):
@@ -285,25 +281,19 @@ def fl_cl(cache):
 
 
 def pf(cache):
-    accumulator(
-        ("rh", [1, 2, 3]),
-        baca.laissez_vibrer(
-            selector=lambda _: baca.select.ptails(_),
-        ),
-        baca.stopped(
-            selector=lambda _: baca.select.pheads(_),
-        ),
-    )
-    accumulator(
-        ("rh", (1, 3)),
-        baca.dls_staff_padding(2.5),
-        baca.material_annotation_spanner(
+    m = cache["rh"]
+    for n in [1, 2, 3]:
+        with baca.scope(m[n]) as o:
+            baca.laissez_vibrer_function(o.ptails())
+            baca.stopped_function(o.pheads())
+    with baca.scope(m.get(1, 3)) as o:
+        baca.dls_staff_padding_function(o, 2.5)
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("A3"),
-    )
+        )
+        baca.pitch_function(o, "A3")
     accumulator(
         ("rh", 5),
         baca.accent(
