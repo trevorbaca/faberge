@@ -177,299 +177,244 @@ def VC(voice):
 
 
 def fl(m):
-    accumulator(
-        "fl",
-        baca.dls_staff_padding(4),
-        baca.material_annotation_spanner(
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 4)
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "5-2 / 5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("C#5"),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    accumulator(
-        ("fl", (1, 4)),
-        baca.hairpin(
+        )
+        baca.pitch_function(o, "C#5")
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(m.get(1, 4)) as o:
+        baca.hairpin_function(
+            o,
             "o< f >o",
             pieces=lambda _: abjad.select.partition_by_counts(
                 baca.select.pleaves(_), [1], cyclic=True
             ),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
-    accumulator(
-        ("fl", 5),
-        baca.hairpin(
+        )
+    with baca.scope(m[5]) as o:
+        baca.hairpin_function(
+            o,
             "o< mf >o niente",
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
-    accumulator(
-        ("fl", 6),
-        baca.hairpin(
+        )
+    with baca.scope(m[6]) as o:
+        baca.hairpin_function(
+            o,
             "o< mp >o niente",
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
-    accumulator(
-        ("fl", 7),
-        baca.hairpin(
+        )
+    with baca.scope(m[7]) as o:
+        baca.hairpin_function(
+            o,
             "o< p >o niente",
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
-    accumulator(
-        ("fl", 8),
-        baca.hairpin(
+        )
+    with baca.scope(m[8]) as o:
+        baca.hairpin_function(
+            o,
             "o< pp >o niente",
             pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.leaves(_),
-        ),
-    )
+        )
 
 
 def cl(m):
-    accumulator(
-        ("cl", (1, 4)),
-        baca.dls_staff_padding(8),
-        baca.hairpin(
-            "pp < p > pp",
-            map=lambda _: baca.select.runs(_),
-            pieces=lambda _: abjad.select.partition_by_ratio(
-                baca.select.plts(_), (2, 3)
-            ),
-        ),
-        baca.material_annotation_spanner(
+    with baca.scope(m.get(1, 4)) as o:
+        baca.dls_staff_padding_function(o, 8)
+        for run in baca.select.runs(o):
+            baca.hairpin_function(
+                run,
+                "pp < p > pp",
+                pieces=lambda _: abjad.select.partition_by_ratio(
+                    baca.select.plts(_), (2, 3)
+                ),
+            )
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "5-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch(
-            "F2",
-            selector=lambda _: baca.select.plts(_),
-        ),
-        library.bcl_color_fingerings(
+        )
+        baca.pitch_function(o, "F2")
+        library.bcl_color_fingerings_function(
+            o.pheads(),
             abjad.Tweak(r"- \tweak direction #down"),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 4.5"),
-        ),
-    )
+        )
 
 
 def pf(cache):
-    accumulator(
-        ("rh", (4, 5)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dynamic(
+    m = cache["rh"]
+    with baca.scope(m.get(4, 5)) as o:
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.dynamic_function(
+            o.phead(0),
             "f-whiteout",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
-            selector=lambda _: baca.select.phead(_, 0),
-        ),
-        baca.dls_staff_padding(8),
-        baca.markup(
+        )
+        baca.dls_staff_padding_function(o, 8)
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.material_annotation_spanner(
+        )
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.staff_position(0),
-    )
-    accumulator(
-        ("rh", 6),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+        )
+        baca.staff_position_function(o, 0)
+    with baca.scope(m[6]) as o:
+        baca.staff_lines_function(o[0], 5)
 
 
 def perc(m):
-    accumulator(
-        ("perc", 5),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dls_staff_padding(6),
-        baca.hairpin(
-            "o<| f",
-            selector=lambda _: baca.select.leaves(_)[:2],
-        ),
-        baca.laissez_vibrer(
-            selector=lambda _: baca.select.ptails(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.markup(
+    with baca.scope(m[5]) as o:
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.clef_function(o.leaf(0), "treble")
+        baca.dls_staff_padding_function(o, 6)
+        baca.hairpin_function(o.leaves()[:2], "o<| f")
+        baca.laissez_vibrer_function(o.ptails())
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.material_annotation_spanner(
+        )
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "A.1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("E4"),
-    )
-    accumulator(
-        ("perc", 8),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.dls_staff_padding(8),
-        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
-        baca.markup(
+        )
+        baca.pitch_function(o, "E4")
+    with baca.scope(m[8]) as o:
+        baca.staff_lines_function(o.leaf(0), 1)
+        baca.clef_function(o.leaf(0), "percussion")
+        baca.dls_staff_padding_function(o, 8)
+        baca.dynamic_function(o.phead(0), "f")
+        baca.markup_function(
+            o.pleaf(0),
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.material_annotation_spanner(
+        )
+        baca.material_annotation_spanner_function(
+            o.rleaves(),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.staff_position(0),
-    )
+        )
+        baca.staff_position_function(o, 0)
 
 
-def vn(m):
-    accumulator(
-        ("vn", (5, 8)),
-        baca.markup(
+def vn(cache):
+    m = cache["vn"]
+    with baca.scope(m.get(5, 8)) as o:
+        baca.pitch_function(o, "<F#5 Aqs5>")
+        cache.rebuild()
+        m = cache["vn"]
+    with baca.scope(m.get(5, 8)) as o:
+        baca.markup_function(
+            o.pleaf(0),
             r"\faberge-nine-plus-eleven-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("<F#5 Aqs5>"),
-    )
-    accumulator(
-        "vn",
-        baca.dls_staff_padding(6),
-        baca.material_annotation_spanner(
+        )
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 6)
+        baca.material_annotation_spanner_function(
+            baca.select.tleaves(o, rleak=True),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.tleaves(
-                _, exclude=baca.enums.HIDDEN, rleak=True
-            ),
-        ),
-    )
+        )
 
 
 def va(m):
-    accumulator(
-        ("va", (1, 4)),
-        baca.pitch("F3"),
-        baca.xfb_spanner(
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            map=lambda _: baca.select.plts(_),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        ("va", (5, 8)),
-        baca.markup(
+    with baca.scope(m.get(1, 4)) as o:
+        baca.pitch_function(o, "F3")
+        for plt in baca.select.plts(o):
+            plt = baca.select.rleak(plt)
+            baca.xfb_spanner_function(
+                plt,
+                abjad.Tweak(r"- \tweak staff-padding 3"),
+            )
+    with baca.scope(m.get(5, 8)) as o:
+        baca.markup_function(
+            o.pleaf(0),
             r"\faberge-seventh-degree-of-e-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("Dqf5"),
-    )
-    accumulator(
-        "va",
-        baca.dls_staff_padding(6),
-        baca.material_annotation_spanner(
+        )
+        baca.pitch_function(o, "Dqf5")
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 6)
+        baca.material_annotation_spanner_function(
+            baca.select.tleaves(o, rleak=True),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.tleaves(
-                _, exclude=baca.enums.HIDDEN, rleak=True
-            ),
-        ),
-    )
+        )
 
 
 def vn_va(cache):
-    accumulator(
-        (["vn", "va"], [5, 6, 7, 8]),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
+    for name in ["vn", "va"]:
+        m = cache[name]
+        for n in [5, 6, 7, 8]:
+            with baca.scope(m[n]) as o:
+                baca.stem_tremolo_function(o.pleaves())
 
 
 def vc(m):
-    accumulator(
-        ("vc", [1, 2, 3, 4, 5, 6, 7, 8]),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_),
-        ),
-    )
-    accumulator(
-        ("vc", [1, 2, 3, 4]),
-        baca.hairpin(
-            "o< p >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.pitch("F2"),
-    )
-    accumulator(
-        ("vc", (5, 8)),
-        baca.pitch("E2"),
-    )
-    accumulator(
-        "vc",
-        baca.dls_staff_padding(6),
-        baca.material_annotation_spanner(
+    for n in [1, 2, 3, 4, 5, 6, 7, 8]:
+        with baca.scope(m[n]) as o:
+            baca.stem_tremolo_function(o.pleaves())
+    for n in [1, 2, 3, 4]:
+        with baca.scope(m[n]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "o< p >o niente",
+                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            )
+            baca.pitch_function(o, "F2")
+    with baca.scope(m.get(5, 8)) as o:
+        baca.pitch_function(o, "E2")
+    with baca.scope(m.leaves()) as o:
+        baca.dls_staff_padding_function(o.leaves(), 6)
+        baca.material_annotation_spanner_function(
+            baca.select.tleaves(o, rleak=True),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            selector=lambda _: baca.select.tleaves(
-                _, exclude=baca.enums.HIDDEN, rleak=True
-            ),
-        ),
-    )
+        )
 
 
 def vn_va_vc(cache):
-    accumulator(
-        (["vn", "va", "vc"], 5),
-        baca.hairpin(
-            "o< mp >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["vn", "va", "vc"], 6),
-        baca.hairpin(
-            "o< mf >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["vn", "va", "vc"], 7),
-        baca.hairpin(
-            "o< f >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
-    accumulator(
-        (["vn", "va", "vc"], 8),
-        baca.hairpin(
-            "o< ff >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
+    for name in ["vn", "va", "vc"]:
+        m = cache[name]
+        with baca.scope(m[5]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "o< mp >o niente",
+                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            )
+        with baca.scope(m[6]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "o< mf >o niente",
+                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            )
+        with baca.scope(m[7]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "o< f >o niente",
+                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            )
+        with baca.scope(m[8]) as o:
+            baca.hairpin_function(
+                o.rleaves(),
+                "o< ff >o niente",
+                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            )
 
 
 def main():
@@ -492,7 +437,7 @@ def main():
     cl(cache["cl"])
     pf(cache)
     perc(cache["perc"])
-    vn(cache["vn"])
+    vn(cache)
     va(cache["va"])
     vn_va(cache)
     vc(cache["vc"])
@@ -511,7 +456,6 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         fermata_measure_empty_overrides=[9],
         global_rests_in_topmost_staff=True,
