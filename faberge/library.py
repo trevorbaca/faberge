@@ -808,6 +808,12 @@ def bcl_color_fingerings(*tweaks, rotation=None):
     return baca.color_fingerings(numbers, *tweaks)
 
 
+def bcl_color_fingerings_function(argument, *tweaks, rotation=None):
+    numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
+    numbers = abjad.sequence.rotate(numbers, n=rotation)
+    baca.color_fingerings_function(argument, numbers, *tweaks)
+
+
 def bfl_color_fingerings(*tweaks):
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
