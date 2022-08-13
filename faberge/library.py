@@ -20,24 +20,19 @@ def _tuplet_ratios_a():
 
 
 def instruments():
-    return dict(
-        [
-            ("Flute", abjad.Flute()),
-            ("BassFlute", abjad.BassFlute()),
-            ("EnglishHorn", abjad.EnglishHorn()),
-            ("Clarinet", abjad.ClarinetInBFlat()),
-            ("BassClarinet", abjad.BassClarinet()),
-            ("Piano", abjad.Piano()),
-            ("Harpsichord", abjad.Harpsichord()),
-            (
-                "Percussion",
-                abjad.Percussion(clefs=("bass", "percussion", "treble")),
-            ),
-            ("Violin", abjad.Violin()),
-            ("Viola", abjad.Viola()),
-            ("Cello", abjad.Cello(pitch_range=abjad.PitchRange("[B#1, +inf]"))),
-        ]
-    )
+    return {
+        "Flute": abjad.Flute(),
+        "BassFlute": abjad.BassFlute(),
+        "EnglishHorn": abjad.EnglishHorn(),
+        "Clarinet": abjad.ClarinetInBFlat(),
+        "BassClarinet": abjad.BassClarinet(),
+        "Piano": abjad.Piano(),
+        "Harpsichord": abjad.Harpsichord(),
+        "Percussion": abjad.Percussion(clefs=("bass", "percussion", "treble")),
+        "Violin": abjad.Violin(),
+        "Viola": abjad.Viola(),
+        "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[B#1, +inf]")),
+    }
 
 
 def make_airtone_chain_rhythm(
@@ -218,9 +213,7 @@ def make_eh_trill_rhythm(
 
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
-    # GLOBAL CONTEXT
     global_context = baca.score.make_global_context()
-    # FLUTE
     flute_music_voice = abjad.Voice(name="Flute.Music", tag=tag)
     flute_music_staff = abjad.Staff(
         [flute_music_voice],
@@ -229,7 +222,6 @@ def make_empty_score():
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Flute", flute_music_staff)
-    # ENGLISH HORN
     english_horn_music_voice = abjad.Voice(name="EnglishHorn.Music", tag=tag)
     english_horn_music_staff = abjad.Staff(
         [english_horn_music_voice],
@@ -245,7 +237,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, english_horn_music_staff)
     baca.score.attach_lilypond_tag("EnglishHorn", english_horn_music_staff)
-    # CLARINET
     clarinet_music_voice = abjad.Voice(name="Clarinet.Music", tag=tag)
     clarinet_music_staff = abjad.Staff(
         [clarinet_music_voice],
@@ -261,7 +252,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, clarinet_music_staff)
     baca.score.attach_lilypond_tag("Clarinet", clarinet_music_staff)
-    # PIANO
     piano_rh_music_voice = abjad.Voice(name="Piano.RH.Music", tag=tag)
     piano_rh_music_staff = abjad.Staff(
         [piano_rh_music_voice],
@@ -291,7 +281,6 @@ def make_empty_score():
         tag=tag,
     )
     baca.score.attach_lilypond_tag("Piano", piano_staff_group)
-    # PERCUSSION
     percussion_music_voice = abjad.Voice(name="Percussion.Music", tag=tag)
     percussion_music_staff = abjad.Staff(
         [percussion_music_voice],
@@ -307,7 +296,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, percussion_music_staff)
     baca.score.attach_lilypond_tag("Percussion", percussion_music_staff)
-    # VIOLIN
     violin_music_voice = abjad.Voice(name="Violin.Music", tag=tag)
     violin_music_staff = abjad.Staff(
         [violin_music_voice],
@@ -323,7 +311,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, violin_music_staff)
     baca.score.attach_lilypond_tag("Violin", violin_music_staff)
-    # VIOLA
     viola_music_voice = abjad.Voice(name="Viola.Music", tag=tag)
     viola_music_staff = abjad.Staff(
         [viola_music_voice],
@@ -339,7 +326,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, viola_music_staff)
     baca.score.attach_lilypond_tag("Viola", viola_music_staff)
-    # CELLO
     cello_music_voice = abjad.Voice(name="Cello.Music", tag=tag)
     cello_music_staff = abjad.Staff(
         [cello_music_voice],
@@ -355,7 +341,6 @@ def make_empty_score():
     #            )
     #        abjad.attach(literal, cello_music_staff)
     baca.score.attach_lilypond_tag("Cello", cello_music_staff)
-    # WIND SECTION STAFF GROUP
     wind_section_staff_group = abjad.StaffGroup(
         [
             flute_music_staff,
@@ -366,21 +351,18 @@ def make_empty_score():
         name="WindSectionStaffGroup",
         tag=tag,
     )
-    # PERCUSSION SECTION STAFF GROUP
     percussion_section_staff_group = abjad.StaffGroup(
         [piano_staff_group, percussion_music_staff],
         lilypond_type="PercussionSectionStaffGroup",
         name="PercussionSectionStaffGroup",
         tag=tag,
     )
-    # STRING SECTION STAFF GROUP
     string_section_staff_group = abjad.StaffGroup(
         [violin_music_staff, viola_music_staff, cello_music_staff],
         lilypond_type="StringSectionStaffGroup",
         name="StringSectionStaffGroup",
         tag=tag,
     )
-    # MUSIC CONTEXT
     music_context = abjad.Context(
         [
             wind_section_staff_group,
@@ -392,7 +374,6 @@ def make_empty_score():
         name="MusicContext",
         tag=tag,
     )
-    # SCORE
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
@@ -783,29 +764,18 @@ def make_suffixed_colortrill_rhythm(time_signatures):
 
 
 def short_instrument_names():
-    return dict(
-        [
-            ("B. cl.", abjad.ShortInstrumentName(r"\faberge-bcl-markup")),
-            ("B. fl.", abjad.ShortInstrumentName(r"\faberge-bfl-markup")),
-            ("Cl.", abjad.ShortInstrumentName(r"\faberge-cl-markup")),
-            ("Eng. hn.", abjad.ShortInstrumentName(r"\faberge-eh-markup")),
-            ("Fl.", abjad.ShortInstrumentName(r"\faberge-fl-markup")),
-            ("Perc.", abjad.ShortInstrumentName(r"\faberge-perc-markup")),
-            (
-                "Pf.",
-                abjad.ShortInstrumentName(r"\faberge-pf-markup", context="PianoStaff"),
-            ),
-            ("Va.", abjad.ShortInstrumentName(r"\faberge-va-markup")),
-            ("Vc.", abjad.ShortInstrumentName(r"\faberge-vc-markup")),
-            ("Vn.", abjad.ShortInstrumentName(r"\faberge-vn-markup")),
-        ]
-    )
-
-
-def bcl_color_fingerings(*tweaks, rotation=None):
-    numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
-    numbers = abjad.sequence.rotate(numbers, n=rotation)
-    return baca.color_fingerings(numbers, *tweaks)
+    return {
+        "B. cl.": abjad.ShortInstrumentName(r"\faberge-bcl-markup"),
+        "B. fl.": abjad.ShortInstrumentName(r"\faberge-bfl-markup"),
+        "Cl.": abjad.ShortInstrumentName(r"\faberge-cl-markup"),
+        "Eng. hn.": abjad.ShortInstrumentName(r"\faberge-eh-markup"),
+        "Fl.": abjad.ShortInstrumentName(r"\faberge-fl-markup"),
+        "Perc.": abjad.ShortInstrumentName(r"\faberge-perc-markup"),
+        "Pf.": abjad.ShortInstrumentName(r"\faberge-pf-markup", context="PianoStaff"),
+        "Va.": abjad.ShortInstrumentName(r"\faberge-va-markup"),
+        "Vc.": abjad.ShortInstrumentName(r"\faberge-vc-markup"),
+        "Vn.": abjad.ShortInstrumentName(r"\faberge-vn-markup"),
+    }
 
 
 def bcl_color_fingerings_function(argument, *tweaks, rotation=None):
@@ -814,32 +784,10 @@ def bcl_color_fingerings_function(argument, *tweaks, rotation=None):
     baca.color_fingerings_function(argument, numbers, *tweaks)
 
 
-def bfl_color_fingerings(*tweaks):
-    return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
-
-
 def bfl_color_fingerings_function(argument, *tweaks):
     baca.color_fingerings_function(
         argument, [0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks
     )
-
-
-def clb_staff_positions(*, rotation=None):
-    staff_positions_ = [
-        [-1, -1, -1, -1, -1, -1],
-        [0, 0, 0, 0],
-        [-1, -1],
-        [0, 0, 0, 0, 0, 0],
-        [-1, -1],
-        [1, 1, 1, 1, 1, 1],
-        [0, 0],
-        [1, 1, 1, 1, 1, 1],
-        [-1, -1],
-        [0, 0],
-    ]
-    staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
-    staff_positions = abjad.sequence.flatten(staff_positions)
-    return baca.staff_positions(staff_positions)
 
 
 def clb_staff_positions_function(argument, *, rotation=None):
@@ -860,43 +808,10 @@ def clb_staff_positions_function(argument, *, rotation=None):
     baca.staff_positions_function(argument, staff_positions)
 
 
-def dal_niente_hairpins(stop):
-    return baca.hairpin(
-        f"niente o< {stop}",
-        map=lambda _: baca.select.runs(_),
-        selector=lambda _: baca.select.rleaves(_),
-    )
-
-
 def dal_niente_hairpins_function(argument, stop):
     for run in baca.select.runs(argument):
         run = baca.select.rleaves(run)
         baca.hairpin_function(run, f"niente o< {stop}")
-
-
-def increasing_dal_niente_hairpins():
-    return baca.chunk(
-        baca.hairpin(
-            "niente o< p",
-            map=lambda _: baca.select.runs(_)[:1],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< mp",
-            map=lambda _: baca.select.runs(_)[1:2],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< mf",
-            map=lambda _: baca.select.runs(_)[2:4],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-        baca.hairpin(
-            "niente o< f",
-            map=lambda _: baca.select.runs(_)[4:],
-            selector=lambda _: baca.select.rleaves(_),
-        ),
-    )
 
 
 def increasing_dal_niente_hairpins_function(argument):
@@ -913,37 +828,12 @@ def increasing_dal_niente_hairpins_function(argument):
             baca.hairpin_function(run, "niente o< f")
 
 
-def keynoise_pitches(*, rotation=None):
-    keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
-    keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
-    keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
-    keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
-    return baca.pitches(keynoise_pitches)
-
-
 def keynoise_pitches_function(argument, *, rotation=None):
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
     keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
     keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
     baca.pitches_function(argument, keynoise_pitches)
-
-
-def short_instrument_name(
-    key,
-    *,
-    alert=None,
-    context="Staff",
-    selector=lambda _: abjad.select.leaf(_, 0),
-):
-    short_instrument_name = short_instrument_names()[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    return baca.not_parts(command)
 
 
 def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
@@ -958,53 +848,25 @@ def short_instrument_name_function(argument, key, manifests, *, context="Staff")
 
 
 def metronome_marks():
-    return dict(
-        [
-            ("41", abjad.MetronomeMark((1, 4), 41)),
-            ("51", abjad.MetronomeMark((1, 4), 51)),
-            ("64", abjad.MetronomeMark((1, 4), 64)),
-            ("80", abjad.MetronomeMark((1, 4), 80)),
-            ("100", abjad.MetronomeMark((1, 4), 100)),
-            ("125", abjad.MetronomeMark((1, 4), 125)),
-            ("156", abjad.MetronomeMark((1, 4), 156)),
-            # slower
-            (
-                "4:5(4)=4",
-                abjad.MetricModulation(
-                    left_rhythm=abjad.Tuplet("4:5", "c4"),
-                    right_rhythm=abjad.Note("c4"),
-                ),
-            ),
-            # faster
-            (
-                "5:4(4)=4",
-                abjad.MetricModulation(
-                    left_rhythm=abjad.Tuplet("5:4", "c4"),
-                    right_rhythm=abjad.Note("c4"),
-                ),
-            ),
-        ]
-    )
-
-
-def niente_swells(dynamic):
-    assert isinstance(dynamic, str), repr(dynamic)
-    # TODO: allow:
-    #   baca.hairpin(
-    #        'niente o< {dynamic} {dynamic} >o niente',
-    #        pieces=lambda _: abjad.select.leaves(_).partition([2, 'most', 2])
-    #        )
-    return baca.chunk(
-        baca.hairpin(
-            f"niente o< {dynamic}",
-            selector=lambda _: baca.select.tleaves(_)[:2],
+    return {
+        "41": abjad.MetronomeMark((1, 4), 41),
+        "51": abjad.MetronomeMark((1, 4), 51),
+        "64": abjad.MetronomeMark((1, 4), 64),
+        "80": abjad.MetronomeMark((1, 4), 80),
+        "100": abjad.MetronomeMark((1, 4), 100),
+        "125": abjad.MetronomeMark((1, 4), 125),
+        "156": abjad.MetronomeMark((1, 4), 156),
+        # slower
+        "4:5(4)=4": abjad.MetricModulation(
+            left_rhythm=abjad.Tuplet("4:5", "c4"),
+            right_rhythm=abjad.Note("c4"),
         ),
-        baca.hairpin(
-            f"({dynamic}) >o niente",
-            selector=lambda _: baca.select.rleaves(_)[-2:],
+        # faster
+        "5:4(4)=4": abjad.MetricModulation(
+            left_rhythm=abjad.Tuplet("5:4", "c4"),
+            right_rhythm=abjad.Note("c4"),
         ),
-        map=lambda _: [x for x in baca.select.ntruns(_) if 2 < len(x)],
-    )
+    }
 
 
 def niente_swells_function(argument, dynamic):
@@ -1021,25 +883,8 @@ def niente_swells_function(argument, dynamic):
         baca.hairpin_function(baca.select.rleaves(run)[-2:], f"({dynamic}) >o niente")
 
 
-def replace_with_piano_clusters():
-    return baca.replace_with_clusters([4], start_pitch="C2")
-
-
 def replace_with_piano_clusters_function(argument):
     baca.replace_with_clusters_function(argument, [4], start_pitch="C2")
-
-
-def single_swell(dynamic):
-    return baca.chunk(
-        baca.hairpin(
-            f"niente o< {dynamic}",
-            selector=lambda _: baca.select.tleaves(_)[:2],
-        ),
-        baca.hairpin(
-            f"({dynamic}) >o",
-            selector=lambda _: baca.select.tleaves(_)[-1:],
-        ),
-    )
 
 
 def single_swell_function(argument, dynamic):
@@ -1071,18 +916,6 @@ def time_signatures_b():
         time_signatures_a, lengths
     )
     return time_signature_groups
-
-
-def tuning_peg_staff_positions(*, rotation=None):
-    staff_positions = [
-        [-2, -1, 0, 1, 2, 3, 4],
-        [0, 1, 2, 3, 4, 5, 6],
-        [2, 3, 4, 5, 6, 7, 8],
-        [4, 5, 6, 7, 8, 9, 10],
-    ]
-    staff_positions = abjad.sequence.flatten(staff_positions)
-    staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
-    return baca.staff_positions(staff_positions)
 
 
 def tuning_peg_staff_positions_function(argument, *, rotation=None):
