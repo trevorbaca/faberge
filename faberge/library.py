@@ -836,17 +836,6 @@ def keynoise_pitches_function(argument, *, rotation=None):
     baca.pitches_function(argument, keynoise_pitches)
 
 
-def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
-    _short_instrument_names = manifests["abjad.ShortInstrumentName"]
-    short_instrument_name = _short_instrument_names[key]
-    baca.short_instrument_name_function(
-        argument,
-        short_instrument_name,
-        manifests,
-        context=context,
-    )
-
-
 def metronome_marks():
     return {
         "41": abjad.MetronomeMark((1, 4), 41),

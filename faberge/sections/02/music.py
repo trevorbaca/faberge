@@ -416,8 +416,10 @@ def fl(m):
         baca.instrument_function(
             o.leaf(0), library.instruments()["BassFlute"], accumulator.manifests()
         )
-        library.short_instrument_name_function(
-            o.leaf(0), "B. fl.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["B. fl."],
+            accumulator.manifests(),
         )
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe_function(o.pleaf(-1))
@@ -532,8 +534,10 @@ def cl(m):
             library.instruments()["BassClarinet"],
             accumulator.manifests(),
         )
-        library.short_instrument_name_function(
-            o.leaf(0), "B. cl.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["B. cl."],
+            accumulator.manifests(),
         )
         baca.markup_function(
             o.mmrest(0),
