@@ -413,13 +413,9 @@ def fl(m):
             r"\baca-to-bass-flute-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.instrument_function(
-            o.leaf(0), library.instruments()["BassFlute"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "BassFlute", accumulator.manifests())
         baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["B. fl."],
-            accumulator.manifests(),
+            o.leaf(0), "B. fl.", accumulator.manifests()
         )
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe_function(o.pleaf(-1))
@@ -531,13 +527,11 @@ def cl(m):
     with baca.scope(m[41]) as o:
         baca.instrument_function(
             o.leaf(0),
-            library.instruments()["BassClarinet"],
+            "BassClarinet",
             accumulator.manifests(),
         )
         baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["B. cl."],
-            accumulator.manifests(),
+            o.leaf(0), "B. cl.", accumulator.manifests()
         )
         baca.markup_function(
             o.mmrest(0),

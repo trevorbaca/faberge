@@ -126,31 +126,23 @@ def fl(m):
     with baca.scope(m.leaves()) as o:
         baca.instrument_function(
             o.leaf(0),
-            instruments["Flute"],
+            "Flute",
             accumulator.manifests(),
         )
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-flute-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Fl."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Fl.", accumulator.manifests())
 
 
 def eh(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0), instruments["EnglishHorn"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "EnglishHorn", accumulator.manifests())
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-english-horn-markup")
         baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Eng. hn."],
-            accumulator.manifests(),
+            o.leaf(0), "Eng. hn.", accumulator.manifests()
         )
     with baca.scope(m[3]) as o:
         baca.staff_lines_function(o.leaf(0), 1)
@@ -172,25 +164,17 @@ def eh(m):
 
 def cl(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0), instruments["Clarinet"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Clarinet", accumulator.manifests())
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-clarinet-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Cl."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Cl.", accumulator.manifests())
 
 
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0), instruments["Piano"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Piano", accumulator.manifests())
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(
@@ -200,7 +184,7 @@ def pf(cache):
         )
         baca.short_instrument_name_function(
             o.leaf(0),
-            accumulator.short_instrument_names["Pf."],
+            "Pf.",
             accumulator.manifests(),
             context="PianoStaff",
         )
@@ -212,32 +196,20 @@ def pf(cache):
 
 def perc(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0), instruments["Percussion"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Percussion", accumulator.manifests())
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-percussion-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Perc."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Perc.", accumulator.manifests())
 
 
 def vn(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0), instruments["Violin"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Violin", accumulator.manifests())
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-violin-markup")
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Vn."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Vn.", accumulator.manifests())
         baca.dls_staff_padding_function(o, 4)
     with baca.scope(m[1]) as o:
         baca.pitch_function(o, "E4")
@@ -253,15 +225,9 @@ def va(m):
         baca.clef_function(o.leaf(0), "alto")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.dls_staff_padding_function(o, 6)
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Va."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Va.", accumulator.manifests())
         baca.instrument_name_function(o.leaf(0), r"\faberge-viola-markup")
-        baca.instrument_function(
-            o.leaf(0), instruments["Viola"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Viola", accumulator.manifests())
     with baca.scope(m[1]) as o:
         baca.pitch_function(o, "E4")
         baca.dynamic_function(o.phead(0), '"f"')
@@ -275,15 +241,9 @@ def vc(m):
     with baca.scope(m.leaves()) as o:
         baca.clef_function(o.leaf(0), "bass")
         baca.staff_lines_function(o.leaf(0), 5)
-        baca.short_instrument_name_function(
-            o.leaf(0),
-            accumulator.short_instrument_names["Vc."],
-            accumulator.manifests(),
-        )
+        baca.short_instrument_name_function(o.leaf(0), "Vc.", accumulator.manifests())
         baca.instrument_name_function(o.leaf(0), r"\faberge-cello-markup")
-        baca.instrument_function(
-            o.leaf(0), instruments["Cello"], accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "Cello", accumulator.manifests())
 
 
 def main():
