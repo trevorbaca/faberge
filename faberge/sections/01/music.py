@@ -132,8 +132,10 @@ def fl(m):
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-flute-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Fl.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Fl."],
+            accumulator.manifests(),
         )
 
 
@@ -145,8 +147,10 @@ def eh(m):
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-english-horn-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Eng. hn.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Eng. hn."],
+            accumulator.manifests(),
         )
     with baca.scope(m[3]) as o:
         baca.staff_lines_function(o.leaf(0), 1)
@@ -174,8 +178,10 @@ def cl(m):
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-clarinet-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Cl.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Cl."],
+            accumulator.manifests(),
         )
 
 
@@ -192,9 +198,9 @@ def pf(cache):
             r"\faberge-piano-markup",
             context="PianoStaff",
         )
-        library.short_instrument_name_function(
+        baca.short_instrument_name_function(
             o.leaf(0),
-            "Pf.",
+            accumulator.short_instrument_names["Pf."],
             accumulator.manifests(),
             context="PianoStaff",
         )
@@ -212,8 +218,10 @@ def perc(m):
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-percussion-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Perc.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Perc."],
+            accumulator.manifests(),
         )
 
 
@@ -225,8 +233,10 @@ def vn(m):
         baca.clef_function(o.leaf(0), "treble")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.instrument_name_function(o.leaf(0), r"\faberge-violin-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Vn.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Vn."],
+            accumulator.manifests(),
         )
         baca.dls_staff_padding_function(o, 4)
     with baca.scope(m[1]) as o:
@@ -243,8 +253,10 @@ def va(m):
         baca.clef_function(o.leaf(0), "alto")
         baca.staff_lines_function(o.leaf(0), 5)
         baca.dls_staff_padding_function(o, 6)
-        library.short_instrument_name_function(
-            o.leaf(0), "Va.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Va."],
+            accumulator.manifests(),
         )
         baca.instrument_name_function(o.leaf(0), r"\faberge-viola-markup")
         baca.instrument_function(
@@ -263,8 +275,10 @@ def vc(m):
     with baca.scope(m.leaves()) as o:
         baca.clef_function(o.leaf(0), "bass")
         baca.staff_lines_function(o.leaf(0), 5)
-        library.short_instrument_name_function(
-            o.leaf(0), "Vc.", accumulator.manifests()
+        baca.short_instrument_name_function(
+            o.leaf(0),
+            accumulator.short_instrument_names["Vc."],
+            accumulator.manifests(),
         )
         baca.instrument_name_function(o.leaf(0), r"\faberge-cello-markup")
         baca.instrument_function(
