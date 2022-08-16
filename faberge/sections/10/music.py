@@ -722,7 +722,7 @@ def vc(m, metadata):
             o,
             "Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3",
             metadata=metadata,
-            persist="CELLO_GLISSANDI",
+            name="CELLO_GLISSANDI",
         ),
         baca.glissando_function(o.tleaves())
         for run in baca.select.rleak_runs(o):
