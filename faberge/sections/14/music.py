@@ -540,7 +540,9 @@ def main():
     VA(accumulator.voice("va"))
     VC(accumulator.voice("vc"))
     previous_persist = baca.previous_persist(__file__)
-    voice_metadata = previous_persist.get("voice_metadata", {})
+    voice_name_to_parameter_to_state = previous_persist.get(
+        "voice_name_to_parameter_to_state", {}
+    )
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
@@ -554,13 +556,13 @@ def main():
     perc(cache["perc"])
     vn(cache["vn"])
     va(cache["va"])
-    vc(cache["vc"], voice_metadata["Cello.Music"])
+    vc(cache["vc"], voice_name_to_parameter_to_state["Cello.Music"])
     fl_vn(cache)
-    return voice_metadata
+    return voice_name_to_parameter_to_state
 
 
 if __name__ == "__main__":
-    voice_metadata = main()
+    voice_name_to_parameter_to_state = main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
@@ -575,7 +577,7 @@ if __name__ == "__main__":
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
-    persist["voice_metadata"] = voice_metadata
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
