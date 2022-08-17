@@ -483,7 +483,12 @@ def main():
     voice_name_to_parameter_to_state = previous_persist.get(
         "voice_name_to_parameter_to_state", {}
     )
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
