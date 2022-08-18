@@ -866,60 +866,6 @@ def tuning_peg_staff_positions_function(argument, *, rotation=None):
     baca.staff_positions_function(argument, staff_positions)
 
 
-def voice_abbreviations():
-    return {
-        "fl": "Flute.Music",
-        "flr": "Flute.Rests",
-        # TODO: remove *x abbreviations
-        "flx": ["Flute.Music", "Flute.Rests"],
-        "eh": "EnglishHorn.Music",
-        "ehr": "EnglishHorn.Rests",
-        # TODO: remove *x abbreviations
-        "ehx": ["EnglishHorn.Music", "EnglishHorn.Rests"],
-        "cl": "Clarinet.Music",
-        "clr": "Clarinet.Rests",
-        # TODO: remove *x abbreviations
-        "clx": ["Clarinet.Music", "Clarinet.Rests"],
-        "rh": "Piano.RH.Music",
-        "rhr": "Piano.RH.Rests",
-        # TODO: remove *x abbreviations
-        "rhx": ["Piano.RH.Music", "Piano.RH.Rests"],
-        "lh": "Piano.LH.Music",
-        "lhr": "Piano.LH.Rests",
-        # TODO: remove *x abbreviations
-        "lhx": ["Piano.LH.Music", "Piano.LH.Rests"],
-        "attack": "Piano.LH.Attacks.Music",
-        "perc": "Percussion.Music",
-        "percr": "Percussion.Rests",
-        # TODO: remove *x abbreviations
-        "percx": ["Percussion.Music", "Percussion.Rests"],
-        "vn": "Violin.Music",
-        "vnr": "Violin.Rests",
-        # TODO: remove *x abbreviations
-        "vnx": ["Violin.Music", "Violin.Rests"],
-        "va": "Viola.Music",
-        "var": "Viola.Rests",
-        # TODO: remove *x abbreviations
-        "vax": ["Viola.Music", "Viola.Rests"],
-        "vc": "Cello.Music",
-        "vcr": "Cello.Rests",
-        # TODO: remove *x abbreviations
-        "vcx": ["Cello.Music", "Cello.Rests"],
-        "tutti": [
-            "Flute.Music",
-            "EnglishHorn.Music",
-            "Clarinet.Music",
-            "Piano.RH.Music",
-            "Piano.LH.Music",
-            "Piano.LH.Attacks.Music",
-            "Percussion.Music",
-            "Violin.Music",
-            "Viola.Music",
-            "Cello.Music",
-        ],
-    }
-
-
 instruments = {
     "Flute": abjad.Flute(),
     "BassFlute": abjad.BassFlute(),
@@ -974,4 +920,57 @@ manifests = {
     "abjad.Instrument": instruments,
     "abjad.MetronomeMark": metronome_marks,
     "abjad.ShortInstrumentName": short_instrument_names,
+}
+
+
+voice_abbreviations = {
+    "fl": "Flute.Music",
+    "flr": "Flute.Rests",
+    # TODO: remove *x abbreviations
+    "flx": ["Flute.Music", "Flute.Rests"],
+    "eh": "EnglishHorn.Music",
+    "ehr": "EnglishHorn.Rests",
+    # TODO: remove *x abbreviations
+    "ehx": ["EnglishHorn.Music", "EnglishHorn.Rests"],
+    "cl": "Clarinet.Music",
+    "clr": "Clarinet.Rests",
+    # TODO: remove *x abbreviations
+    "clx": ["Clarinet.Music", "Clarinet.Rests"],
+    "rh": "Piano.RH.Music",
+    "rhr": "Piano.RH.Rests",
+    # TODO: remove *x abbreviations
+    "rhx": ["Piano.RH.Music", "Piano.RH.Rests"],
+    "lh": "Piano.LH.Music",
+    "lhr": "Piano.LH.Rests",
+    # TODO: remove *x abbreviations
+    "lhx": ["Piano.LH.Music", "Piano.LH.Rests"],
+    "attack": "Piano.LH.Attacks.Music",
+    "perc": "Percussion.Music",
+    "percr": "Percussion.Rests",
+    # TODO: remove *x abbreviations
+    "percx": ["Percussion.Music", "Percussion.Rests"],
+    "vn": "Violin.Music",
+    "vnr": "Violin.Rests",
+    # TODO: remove *x abbreviations
+    "vnx": ["Violin.Music", "Violin.Rests"],
+    "va": "Viola.Music",
+    "var": "Viola.Rests",
+    # TODO: remove *x abbreviations
+    "vax": ["Viola.Music", "Viola.Rests"],
+    "vc": "Cello.Music",
+    "vcr": "Cello.Rests",
+    # TODO: remove *x abbreviations
+    "vcx": ["Cello.Music", "Cello.Rests"],
+    "tutti": [
+        "Flute.Music",
+        "EnglishHorn.Music",
+        "Clarinet.Music",
+        "Piano.RH.Music",
+        "Piano.LH.Music",
+        "Piano.LH.Attacks.Music",
+        "Percussion.Music",
+        "Violin.Music",
+        "Viola.Music",
+        "Cello.Music",
+    ],
 }
