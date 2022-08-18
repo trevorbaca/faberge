@@ -73,8 +73,7 @@ for index, item in (
     (4 - 1, "64"),
 ):
     skip = skips[index]
-    indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark_function(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, item, manifests)
 
 
 def FL(voice):
