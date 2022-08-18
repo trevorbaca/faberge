@@ -19,22 +19,6 @@ def _tuplet_ratios_a():
     )
 
 
-def instruments():
-    return {
-        "Flute": abjad.Flute(),
-        "BassFlute": abjad.BassFlute(),
-        "EnglishHorn": abjad.EnglishHorn(),
-        "Clarinet": abjad.ClarinetInBFlat(),
-        "BassClarinet": abjad.BassClarinet(),
-        "Piano": abjad.Piano(),
-        "Harpsichord": abjad.Harpsichord(),
-        "Percussion": abjad.Percussion(clefs=("bass", "percussion", "treble")),
-        "Violin": abjad.Violin(),
-        "Viola": abjad.Viola(),
-        "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[B#1, +inf]")),
-    }
-
-
 def make_airtone_chain_rhythm(
     time_signatures,
     total_events,
@@ -763,21 +747,6 @@ def make_suffixed_colortrill_rhythm(time_signatures):
     return music
 
 
-def short_instrument_names():
-    return {
-        "B. cl.": abjad.ShortInstrumentName(r"\faberge-bcl-markup"),
-        "B. fl.": abjad.ShortInstrumentName(r"\faberge-bfl-markup"),
-        "Cl.": abjad.ShortInstrumentName(r"\faberge-cl-markup"),
-        "Eng. hn.": abjad.ShortInstrumentName(r"\faberge-eh-markup"),
-        "Fl.": abjad.ShortInstrumentName(r"\faberge-fl-markup"),
-        "Perc.": abjad.ShortInstrumentName(r"\faberge-perc-markup"),
-        "Pf.": abjad.ShortInstrumentName(r"\faberge-pf-markup", context="PianoStaff"),
-        "Va.": abjad.ShortInstrumentName(r"\faberge-va-markup"),
-        "Vc.": abjad.ShortInstrumentName(r"\faberge-vc-markup"),
-        "Vn.": abjad.ShortInstrumentName(r"\faberge-vn-markup"),
-    }
-
-
 def bcl_color_fingerings_function(argument, *tweaks, rotation=None):
     numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
     numbers = abjad.sequence.rotate(numbers, n=rotation)
@@ -834,28 +803,6 @@ def keynoise_pitches_function(argument, *, rotation=None):
     keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
     keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
     baca.pitches_function(argument, keynoise_pitches)
-
-
-def metronome_marks():
-    return {
-        "41": abjad.MetronomeMark((1, 4), 41),
-        "51": abjad.MetronomeMark((1, 4), 51),
-        "64": abjad.MetronomeMark((1, 4), 64),
-        "80": abjad.MetronomeMark((1, 4), 80),
-        "100": abjad.MetronomeMark((1, 4), 100),
-        "125": abjad.MetronomeMark((1, 4), 125),
-        "156": abjad.MetronomeMark((1, 4), 156),
-        # slower
-        "4:5(4)=4": abjad.MetricModulation(
-            left_rhythm=abjad.Tuplet("4:5", "c4"),
-            right_rhythm=abjad.Note("c4"),
-        ),
-        # faster
-        "5:4(4)=4": abjad.MetricModulation(
-            left_rhythm=abjad.Tuplet("5:4", "c4"),
-            right_rhythm=abjad.Note("c4"),
-        ),
-    }
 
 
 def niente_swells_function(argument, dynamic):
@@ -971,3 +918,60 @@ def voice_abbreviations():
             "Cello.Music",
         ],
     }
+
+
+instruments = {
+    "Flute": abjad.Flute(),
+    "BassFlute": abjad.BassFlute(),
+    "EnglishHorn": abjad.EnglishHorn(),
+    "Clarinet": abjad.ClarinetInBFlat(),
+    "BassClarinet": abjad.BassClarinet(),
+    "Piano": abjad.Piano(),
+    "Harpsichord": abjad.Harpsichord(),
+    "Percussion": abjad.Percussion(clefs=("bass", "percussion", "treble")),
+    "Violin": abjad.Violin(),
+    "Viola": abjad.Viola(),
+    "Cello": abjad.Cello(pitch_range=abjad.PitchRange("[B#1, +inf]")),
+}
+
+
+metronome_marks = {
+    "41": abjad.MetronomeMark((1, 4), 41),
+    "51": abjad.MetronomeMark((1, 4), 51),
+    "64": abjad.MetronomeMark((1, 4), 64),
+    "80": abjad.MetronomeMark((1, 4), 80),
+    "100": abjad.MetronomeMark((1, 4), 100),
+    "125": abjad.MetronomeMark((1, 4), 125),
+    "156": abjad.MetronomeMark((1, 4), 156),
+    # slower
+    "4:5(4)=4": abjad.MetricModulation(
+        left_rhythm=abjad.Tuplet("4:5", "c4"),
+        right_rhythm=abjad.Note("c4"),
+    ),
+    # faster
+    "5:4(4)=4": abjad.MetricModulation(
+        left_rhythm=abjad.Tuplet("5:4", "c4"),
+        right_rhythm=abjad.Note("c4"),
+    ),
+}
+
+
+short_instrument_names = {
+    "B. cl.": abjad.ShortInstrumentName(r"\faberge-bcl-markup"),
+    "B. fl.": abjad.ShortInstrumentName(r"\faberge-bfl-markup"),
+    "Cl.": abjad.ShortInstrumentName(r"\faberge-cl-markup"),
+    "Eng. hn.": abjad.ShortInstrumentName(r"\faberge-eh-markup"),
+    "Fl.": abjad.ShortInstrumentName(r"\faberge-fl-markup"),
+    "Perc.": abjad.ShortInstrumentName(r"\faberge-perc-markup"),
+    "Pf.": abjad.ShortInstrumentName(r"\faberge-pf-markup", context="PianoStaff"),
+    "Va.": abjad.ShortInstrumentName(r"\faberge-va-markup"),
+    "Vc.": abjad.ShortInstrumentName(r"\faberge-vc-markup"),
+    "Vn.": abjad.ShortInstrumentName(r"\faberge-vn-markup"),
+}
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
+}

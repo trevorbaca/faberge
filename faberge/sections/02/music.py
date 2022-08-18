@@ -39,9 +39,9 @@ score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -50,7 +50,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -413,10 +413,8 @@ def fl(m):
             r"\baca-to-bass-flute-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
-        baca.instrument_function(o.leaf(0), "BassFlute", accumulator.manifests())
-        baca.short_instrument_name_function(
-            o.leaf(0), "B. fl.", accumulator.manifests()
-        )
+        baca.instrument_function(o.leaf(0), "BassFlute", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "B. fl.", library.manifests)
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe_function(o.pleaf(-1))
         baca.flat_glissando_function(o, "F#4")
@@ -528,11 +526,9 @@ def cl(m):
         baca.instrument_function(
             o.leaf(0),
             "BassClarinet",
-            accumulator.manifests(),
+            library.manifests,
         )
-        baca.short_instrument_name_function(
-            o.leaf(0), "B. cl.", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.leaf(0), "B. cl.", library.manifests)
         baca.markup_function(
             o.mmrest(0),
             r"\baca-to-bass-clarinet-markup",
@@ -990,7 +986,7 @@ def main():
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -1012,7 +1008,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(
