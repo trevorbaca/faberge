@@ -74,8 +74,7 @@ for index, item in (
     (6 - 1, "80"),
 ):
     skip = skips[index]
-    indicator = accumulator.metronome_marks.get(item, item)
-    baca.metronome_mark_function(skip, indicator, manifests)
+    baca.metronome_mark_function(skip, item, manifests)
 
 baca.open_volta_function(skips[2 - 1], accumulator.first_measure_number)
 baca.close_volta_function(skips[5 - 1], accumulator.first_measure_number)
