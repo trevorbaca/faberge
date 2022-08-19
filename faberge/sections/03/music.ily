@@ -4407,7 +4407,6 @@ number.3.Flute.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 7
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)
@@ -13464,7 +13463,6 @@ number.3.Clarinet.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 8
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)
@@ -16617,7 +16615,6 @@ number.3.Piano.RH.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic_function(1)
     \once \override NoteHead.style = #'harmonic
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)
@@ -18698,7 +18695,6 @@ number.3.Piano.LH.Music = {
     % COMMANDS:
       %! baca.mmrest_transparent_function(1)
     \override MultiMeasureRest.transparent = ##t
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)
@@ -22315,7 +22311,6 @@ number.3.Violin.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 5
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)
@@ -31142,7 +31137,6 @@ number.3.Cello.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)

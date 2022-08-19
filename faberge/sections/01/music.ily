@@ -283,6 +283,9 @@ number.1.Rests = {
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
+    % BEFORE:
+    % GROB_OVERRIDES:
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
       %! baca.global_fermata_function(2)
@@ -293,6 +296,15 @@ number.1.Rests = {
     % MARKUP:
       %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_2
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_2
+      %! baca._style_fermata_measures(7)
+%%% \once \override Score.SpanBar.transparent = ##t
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -305,6 +317,9 @@ number.1.Rests = {
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
+    % BEFORE:
+    % GROB_OVERRIDES:
+    \once \override MultiMeasureRestText.extra-offset = #'(0 . 2.5)
     % OPENING:
     % COMMANDS:
       %! baca.global_fermata_function(2)
@@ -315,6 +330,15 @@ number.1.Rests = {
     % MARKUP:
       %! baca.global_fermata_function(1)
     ^ \baca-short-fermata-markup
+    % COMMANDS:
+      %! FERMATA_MEASURE
+      %! MEASURE_4
+      %! baca._style_fermata_measures(7)
+    \once \override Score.BarLine.transparent = ##t
+      %! FERMATA_MEASURE
+      %! MEASURE_4
+      %! baca._style_fermata_measures(7)
+    \once \override Score.SpanBar.transparent = ##t
     % CLOSING:
     % COMMANDS:
 
@@ -426,6 +450,14 @@ number.1.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -433,11 +465,26 @@ number.1.Flute.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -450,6 +497,14 @@ number.1.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -457,6 +512,10 @@ number.1.Flute.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     % CLOSING:
     % COMMANDS:
 
@@ -591,6 +650,14 @@ number.1.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -790,6 +857,14 @@ number.1.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -928,6 +1003,14 @@ number.1.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -935,11 +1018,26 @@ number.1.Clarinet.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -952,6 +1050,14 @@ number.1.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -959,6 +1065,10 @@ number.1.Clarinet.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % CLOSING:
     % COMMANDS:
 
@@ -1090,6 +1200,14 @@ number.1.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1097,11 +1215,26 @@ number.1.Piano.RH.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -1114,6 +1247,14 @@ number.1.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1121,6 +1262,10 @@ number.1.Piano.RH.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     % CLOSING:
     % COMMANDS:
 
@@ -1227,6 +1372,14 @@ number.1.Piano.LH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.LH.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1234,11 +1387,26 @@ number.1.Piano.LH.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.LH.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -1251,6 +1419,14 @@ number.1.Piano.LH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.LH.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1258,6 +1434,10 @@ number.1.Piano.LH.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % CLOSING:
     % COMMANDS:
 
@@ -1457,6 +1637,14 @@ number.1.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1464,11 +1652,26 @@ number.1.Percussion.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -1481,6 +1684,14 @@ number.1.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -1488,6 +1699,10 @@ number.1.Percussion.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % CLOSING:
     % COMMANDS:
 
@@ -1774,6 +1989,12 @@ number.1.Violin.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! baca._style_fermata_measures(1)
+            \stopStaff
+              %! baca._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+              %! baca._style_fermata_measures(1)
+            \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -1795,6 +2016,10 @@ number.1.Violin.Music = {
               %! baca.spazzolato_spanner_function()
               %! baca.text_spanner_function()
             \bacaStopTextSpanSpazzolato
+            % COMMANDS:
+              %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+              %! baca._style_fermata_measures(2)
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
             % CLOSING:
             % COMMANDS:
 
@@ -1842,6 +2067,17 @@ number.1.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(8)
     R1 * 4/4
     % AFTER:
@@ -1854,6 +2090,14 @@ number.1.Violin.Music = {
 
       %! baca._comment_measure_numbers()
     % [Violin.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(8)
     R1 * 1/4
     % AFTER:
@@ -1862,6 +2106,9 @@ number.1.Violin.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca.dls_staff_padding_function(2)
     \revert DynamicLineSpanner.staff-padding
     % CLOSING:
@@ -2147,6 +2394,12 @@ number.1.Viola.Music = {
               %! NOTE
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
+              %! baca._style_fermata_measures(1)
+            \stopStaff
+              %! baca._style_fermata_measures(1)
+            \once \override Staff.StaffSymbol.line-count = 0
+              %! baca._style_fermata_measures(1)
+            \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
@@ -2215,6 +2468,14 @@ number.1.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(8)
     R1 * 4/4
     % AFTER:
@@ -2227,6 +2488,14 @@ number.1.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(8)
     R1 * 1/4
     % AFTER:
@@ -2368,6 +2637,14 @@ number.1.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -2375,11 +2652,26 @@ number.1.Cello.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
+    % BEFORE:
+    % COMMANDS:
+      %! FERMATA_MEASURE_NEXT_BAR_EXTENT
+      %! baca._style_fermata_measures(4)
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! baca._style_fermata_measures(3)
+    \stopStaff
+      %! baca._style_fermata_measures(3)
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! baca._style_fermata_measures(3)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
@@ -2392,6 +2684,14 @@ number.1.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
+    % BEFORE:
+    % COMMANDS:
+      %! baca._style_fermata_measures(1)
+    \stopStaff
+      %! baca._style_fermata_measures(1)
+    \once \override Staff.StaffSymbol.line-count = 0
+      %! baca._style_fermata_measures(1)
+    \startStaff
       %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
@@ -2399,6 +2699,10 @@ number.1.Cello.Music = {
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % COMMANDS:
+      %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
+      %! baca._style_fermata_measures(2)
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
     % CLOSING:
     % COMMANDS:
 

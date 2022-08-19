@@ -733,8 +733,8 @@ if __name__ == "__main__":
             baca.tags.STAGE_NUMBER,
         ),
         always_make_global_rests=True,
+        empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
-        fermata_measure_empty_overrides=[2, 7],
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
