@@ -29,7 +29,7 @@ accumulator = baca.CommandAccumulator(
         (5, 4),
         (8, 4),
     ],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -641,7 +641,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     fl(cache["fl"])
     cl(cache["cl"])
