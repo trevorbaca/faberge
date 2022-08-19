@@ -2903,7 +2903,6 @@ number.5.Piano.LH.Music = {
     % [Piano.LH.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
       %! baca._reapply_persistent_indicators(3)

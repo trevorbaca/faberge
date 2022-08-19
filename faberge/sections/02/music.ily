@@ -5040,9 +5040,8 @@ number.2.Flute.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -5053,15 +5052,18 @@ number.2.Flute.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-fl-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -12187,9 +12189,8 @@ number.2.Clarinet.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -12200,15 +12201,18 @@ number.2.Clarinet.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-cl-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -17298,9 +17302,8 @@ number.2.Piano.RH.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic_function(1)
     \once \override NoteHead.style = #'harmonic
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -17311,15 +17314,18 @@ number.2.Piano.RH.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -18109,21 +18115,23 @@ number.2.Piano.LH.Music = {
     % COMMANDS:
       %! baca.mmrest_transparent_function(1)
     \override MultiMeasureRest.transparent = ##t
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -20154,9 +20162,8 @@ number.2.Percussion.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 5
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -20167,15 +20174,18 @@ number.2.Percussion.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-perc-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -26293,9 +26303,8 @@ number.2.Violin.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 5
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -26306,15 +26315,18 @@ number.2.Violin.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-vn-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -33516,15 +33528,18 @@ number.2.Viola.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-va-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
@@ -36332,9 +36347,8 @@ number.2.Cello.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding_function(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -36345,15 +36359,18 @@ number.2.Cello.Music = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \faberge-vc-markup
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \stopStaff
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
+      %! EXPLICIT_STAFF_LINES
+      %! baca._reanalyze_reapplied_synthetic_wrappers()
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
