@@ -25,10 +25,9 @@ voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    manifests=library.manifests,
     time_signatures=time_signatures,
     _voice_abbreviations=library.voice_abbreviations,
-    voice_names=voice_names,
+    _voice_names=voice_names,
 )
 
 baca.interpret.set_up_score(
