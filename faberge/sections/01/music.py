@@ -7,11 +7,6 @@ from faberge import library
 ########################################### 01 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[1]", 1),
-    ("[2]", 3),
-)
-
 maker_ = baca.TimeSignatureMaker(
     library.time_signatures_b(),
     count=4,
@@ -38,13 +33,19 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["100"], manifests)
+stage_markup = (
+    ("[1]", 1),
+    ("[2]", 3),
+)
+baca.label_stage_numbers(skips, stage_markup)
+
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["100"], library.manifests
+)
 
 rests = score["Rests"]
 for index, string in (

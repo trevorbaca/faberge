@@ -8,26 +8,6 @@ from faberge import library
 ########################################### 03 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[B.1]", 1),
-    ("[B.2]", 9),
-    ("[B.3]", 11),
-    ("[B.4]", 13),
-    ("[B.5]", 17),
-    ("[B.6]", 23),
-    ("[B.7]", 27),
-    ("[B.8]", 31),
-    ("[B.9]", 37),
-    ("[B.10]", 45),
-    ("[B.11]", 49),
-    ("[B.12]", 53),
-    ("[B.13]", 55),
-    ("[B.14]", 57),
-    ("[B.15]", 61),
-    ("[B.16]", 69),
-    ("[B.17]", 73),
-)
-
 maker_ = baca.TimeSignatureMaker(
     library.time_signatures_b(),
     count=80,
@@ -52,13 +32,34 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["80"], manifests)
+stage_markup = (
+    ("[B.1]", 1),
+    ("[B.2]", 9),
+    ("[B.3]", 11),
+    ("[B.4]", 13),
+    ("[B.5]", 17),
+    ("[B.6]", 23),
+    ("[B.7]", 27),
+    ("[B.8]", 31),
+    ("[B.9]", 37),
+    ("[B.10]", 45),
+    ("[B.11]", 49),
+    ("[B.12]", 53),
+    ("[B.13]", 55),
+    ("[B.14]", 57),
+    ("[B.15]", 61),
+    ("[B.16]", 69),
+    ("[B.17]", 73),
+)
+baca.label_stage_numbers(skips, stage_markup)
+
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["80"], library.manifests
+)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],

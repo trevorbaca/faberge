@@ -7,11 +7,6 @@ from faberge import library
 ########################################### 06 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[1-5 (A.2) (3-1) (4-3) (5-2)]", 1),
-    ("[2-1]", 6),
-)
-
 score = library.make_empty_score()
 voice_names = baca.accumulator.get_voice_names(score)
 
@@ -38,11 +33,15 @@ first_measure_number = baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
-manifests = library.manifests
+
+stage_markup = (
+    ("[1-5 (A.2) (3-1) (4-3) (5-2)]", 1),
+    ("[2-1]", 6),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -71,7 +70,7 @@ for index, item in (
     (6 - 1, "80"),
 ):
     skip = skips[index]
-    baca.metronome_mark_function(skip, item, manifests)
+    baca.metronome_mark_function(skip, item, library.manifests)
 
 baca.open_volta_function(skips[2 - 1], first_measure_number)
 baca.close_volta_function(skips[5 - 1], first_measure_number)

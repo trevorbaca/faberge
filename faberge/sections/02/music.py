@@ -8,26 +8,6 @@ from faberge import library
 ########################################### 02 ##########################################
 #########################################################################################
 
-stage_markup = (
-    ("[A.1]", 1),
-    ("[A.2]", 13),
-    ("[A.3]", 17),
-    ("[A.4]", 23),
-    ("[A.5]", 27),
-    ("[A.6]", 31),
-    ("[A.7]", 37),
-    ("[A.8]", 41),
-    ("[A.9]", 47),
-    ("[A.10]", 53),
-    ("[A.11]", 55),
-    ("[A.12]", 57),
-    ("[A.13]", 63),
-    ("[A.14]", 71),
-    ("[A.15]", 77),
-    ("[A.16]", 81),
-    ("[A.17]", 89),
-)
-
 maker_ = baca.TimeSignatureMaker(
     library.time_signatures_b(),
     count=92,
@@ -52,10 +32,30 @@ baca.interpret.set_up_score(
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
-    stage_markup=stage_markup,
 )
 
 skips = score["Skips"]
+
+stage_markup = (
+    ("[A.1]", 1),
+    ("[A.2]", 13),
+    ("[A.3]", 17),
+    ("[A.4]", 23),
+    ("[A.5]", 27),
+    ("[A.6]", 31),
+    ("[A.7]", 37),
+    ("[A.8]", 41),
+    ("[A.9]", 47),
+    ("[A.10]", 53),
+    ("[A.11]", 55),
+    ("[A.12]", 57),
+    ("[A.13]", 63),
+    ("[A.14]", 71),
+    ("[A.15]", 77),
+    ("[A.16]", 81),
+    ("[A.17]", 89),
+)
+baca.label_stage_numbers(skips, stage_markup)
 
 wrappers = baca.rehearsal_mark_function(
     skips[1 - 1],
