@@ -78,7 +78,7 @@ wrappers = baca.rehearsal_mark_function(
 baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
 
 
-def FL(voice):
+def FL(voice, accumulator):
     music = library.make_shell_exchange_rhythm(
         accumulator.get(1, 40),
         total_parts=4,
@@ -112,7 +112,7 @@ def FL(voice):
     baca.append_anchor_note_function(voice)
 
 
-def EH(voice):
+def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 12))
     voice.extend(music)
     music = library.make_eh_trill_rhythm(
@@ -158,7 +158,7 @@ def EH(voice):
     voice.extend(music)
 
 
-def CL(voice):
+def CL(voice, accumulator):
     music = library.make_shell_exchange_rhythm(
         accumulator.get(1, 40),
         total_parts=4,
@@ -194,7 +194,7 @@ def CL(voice):
     baca.append_anchor_note_function(voice)
 
 
-def PF(voice):
+def PF(voice, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -220,7 +220,7 @@ def PF(voice):
     voice.extend(music)
 
 
-def PERC(voice):
+def PERC(voice, accumulator):
     music = library.make_shell_exchange_rhythm(
         accumulator.get(1, 40),
         total_parts=4,
@@ -269,7 +269,7 @@ def PERC(voice):
     voice.extend(music)
 
 
-def VN(voice):
+def VN(voice, accumulator):
     music = library.make_shell_exchange_rhythm(
         accumulator.get(1, 40),
         total_parts=4,
@@ -327,7 +327,7 @@ def VN(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 62))
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
@@ -363,7 +363,7 @@ def VA(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
@@ -970,14 +970,14 @@ def vc(m):
 
 
 def main():
-    FL(accumulator.voice("fl"))
-    EH(accumulator.voice("eh"))
-    CL(accumulator.voice("cl"))
-    PF(score)
-    PERC(accumulator.voice("perc"))
-    VN(accumulator.voice("vn"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    FL(accumulator.voice("fl"), accumulator)
+    EH(accumulator.voice("eh"), accumulator)
+    CL(accumulator.voice("cl"), accumulator)
+    PF(score, accumulator)
+    PERC(accumulator.voice("perc"), accumulator)
+    VN(accumulator.voice("vn"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
