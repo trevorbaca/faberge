@@ -73,7 +73,7 @@ for index, item in (
     baca.metronome_mark_function(skip, item, library.manifests)
 
 
-def FL(voice):
+def FL(voice, accumulator):
     music = library.make_airtone_chain_rhythm(accumulator.get(1, 4), 20, [2, 6])
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5))
@@ -84,7 +84,7 @@ def FL(voice):
     voice.extend(music)
 
 
-def EH(voice):
+def EH(voice, accumulator):
     music = library.make_airtone_chain_rhythm(accumulator.get(1, 4), 20, [1, 5])
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5))
@@ -95,7 +95,7 @@ def EH(voice):
     voice.extend(music)
 
 
-def CL(voice):
+def CL(voice, accumulator):
     music = library.make_airtone_chain_rhythm(accumulator.get(1, 4), 20, [3, 7])
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5))
@@ -106,7 +106,7 @@ def CL(voice):
     voice.extend(music)
 
 
-def PF(score):
+def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
@@ -142,7 +142,7 @@ def PF(score):
     voice.extend(music)
 
 
-def PERC(voice):
+def PERC(voice, accumulator):
     music = library.make_even_tuplet_rhythm(
         accumulator.get(1),
         extra_counts=[0],
@@ -165,7 +165,7 @@ def PERC(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VN(voice):
+def VN(voice, accumulator):
     music = library.make_clb_rhythm(
         accumulator.get(1, 3),
         extra_counts=[6, 2],
@@ -186,7 +186,7 @@ def VN(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = library.make_airtone_chain_rhythm(
         accumulator.get(1, 8),
         20,
@@ -196,7 +196,7 @@ def VA(voice):
     baca.append_anchor_note_function(voice)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = library.make_airtone_chain_rhythm(
         accumulator.get(),
         20,
@@ -465,14 +465,14 @@ def vc(m, metadata):
 
 
 def main():
-    FL(accumulator.voice("fl"))
-    EH(accumulator.voice("eh"))
-    CL(accumulator.voice("cl"))
-    PF(score)
-    PERC(accumulator.voice("perc"))
-    VN(accumulator.voice("vn"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    FL(accumulator.voice("fl"), accumulator)
+    EH(accumulator.voice("eh"), accumulator)
+    CL(accumulator.voice("cl"), accumulator)
+    PF(score, accumulator)
+    PERC(accumulator.voice("perc"), accumulator)
+    VN(accumulator.voice("vn"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     previous_persist = baca.previous_persist(__file__)
     voice_name_to_parameter_to_state = previous_persist.get(
         "voice_name_to_parameter_to_state", {}

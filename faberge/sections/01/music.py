@@ -55,12 +55,12 @@ for index, string in (
     baca.global_fermata_function(rests[index], string)
 
 
-def FL(voice):
+def FL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def EH(voice):
+def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_ratchet_rhythm(accumulator.get(3))
@@ -69,12 +69,12 @@ def EH(voice):
     voice.extend(music)
 
 
-def CL(voice):
+def CL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def PF(score):
+def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
@@ -86,12 +86,12 @@ def PF(score):
     voice.extend(music)
 
 
-def PERC(voice):
+def PERC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def VN(voice):
+def VN(voice, accumulator):
     music = library.make_spazzolati_rhythm(
         accumulator.get(1),
         counts_rotation=0,
@@ -101,7 +101,7 @@ def VN(voice):
     voice.extend(music)
 
 
-def VA(voice):
+def VA(voice, accumulator):
     music = library.make_spazzolati_rhythm(
         accumulator.get(1),
         counts_rotation=-1,
@@ -113,7 +113,7 @@ def VA(voice):
     voice.extend(music)
 
 
-def VC(voice):
+def VC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
@@ -241,14 +241,14 @@ def vc(m):
 
 
 def main():
-    FL(accumulator.voice("fl"))
-    EH(accumulator.voice("eh"))
-    CL(accumulator.voice("cl"))
-    PF(score)
-    PERC(accumulator.voice("perc"))
-    VN(accumulator.voice("vn"))
-    VA(accumulator.voice("va"))
-    VC(accumulator.voice("vc"))
+    FL(accumulator.voice("fl"), accumulator)
+    EH(accumulator.voice("eh"), accumulator)
+    CL(accumulator.voice("cl"), accumulator)
+    PF(score, accumulator)
+    PERC(accumulator.voice("perc"), accumulator)
+    VN(accumulator.voice("vn"), accumulator)
+    VA(accumulator.voice("va"), accumulator)
+    VC(accumulator.voice("vc"), accumulator)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
