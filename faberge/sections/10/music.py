@@ -730,7 +730,7 @@ def vc(m, metadata):
         baca.dls_staff_padding_function(o, 4)
 
 
-def main():
+def make_score():
     FL(accumulator.voice("fl"), accumulator)
     EH(accumulator.voice("eh"), accumulator)
     CL(accumulator.voice("cl"), accumulator)
@@ -768,8 +768,8 @@ def main():
     return voice_name_to_parameter_to_state
 
 
-if __name__ == "__main__":
-    voice_name_to_parameter_to_state = main()
+def main():
+    voice_name_to_parameter_to_state = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -792,3 +792,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
