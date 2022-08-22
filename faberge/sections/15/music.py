@@ -411,7 +411,7 @@ def vn_va_vc(cache):
             )
 
 
-def main():
+def make_score():
     FL(accumulator.voice("fl"), accumulator)
     EH(accumulator.voice("eh"), accumulator)
     CL(accumulator.voice("cl"), accumulator)
@@ -443,8 +443,8 @@ def main():
     vn_va_vc(cache)
 
 
-if __name__ == "__main__":
-    main()
+def main():
+    make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -466,3 +466,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
