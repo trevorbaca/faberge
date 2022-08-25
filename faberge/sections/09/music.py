@@ -7,75 +7,61 @@ from faberge import library
 ########################################### 09 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=[
-        (12, 4),
-        (10, 4),
-        (12, 4),
-        (10, 4),
-        (8, 4),
-        (6, 4),
-        (8, 4),
-        (1, 4),
-        (6, 4),
-    ],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def make_empty_score():
+    score = library.make_empty_score()
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=[
+            (12, 4),
+            (10, 4),
+            (12, 4),
+            (10, 4),
+            (8, 4),
+            (6, 4),
+            (8, 4),
+            (1, 4),
+            (6, 4),
+        ],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    return score, accumulator
 
-first_measure_number = baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
 
-skips = score["Skips"]
-
-stage_markup = (
-    ("[3-2 (3-7) (4-5)]", 1),
-    ("[3-3 (A.1) (5-2)]", 5),
-)
-baca.label_stage_numbers(skips, stage_markup)
-
-wrappers = baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "H",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
-)
-baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-
-wrappers = baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "H",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
-)
-baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
-
-wrappers = baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "H",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
-)
-baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
-
-for index, item in (
-    (5 - 1, "125"),
-    (5 - 1, "4:5(4)=4"),
-):
-    skip = skips[index]
-    baca.metronome_mark_function(skip, item, library.manifests)
-
-baca.close_volta_function(skips[2 - 1], first_measure_number)
-
-rests = score["Rests"]
-for index, string in ((8 - 1, "fermata"),):
-    baca.global_fermata_function(rests[index], string)
+def GLOBALS(skips, rests, first_measure_number):
+    stage_markup = (
+        ("[3-2 (3-7) (4-5)]", 1),
+        ("[3-3 (A.1) (5-2)]", 5),
+    )
+    baca.label_stage_numbers(skips, stage_markup)
+    wrappers = baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "H",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+    )
+    baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    wrappers = baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "H",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+    )
+    baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
+    wrappers = baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "H",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+    )
+    baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
+    for index, item in (
+        (5 - 1, "125"),
+        (5 - 1, "4:5(4)=4"),
+    ):
+        skip = skips[index]
+        baca.metronome_mark_function(skip, item, library.manifests)
+    baca.close_volta_function(skips[2 - 1], first_measure_number)
+    for index, string in ((8 - 1, "fermata"),):
+        baca.global_fermata_function(rests[index], string)
 
 
 def FL(voice, accumulator):
@@ -137,7 +123,7 @@ def CL(voice, accumulator):
     voice.extend(music)
 
 
-def PF(voice, accumulator):
+def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
@@ -723,7 +709,19 @@ def vc(m):
         baca.pitch_function(o, "Eb2")
 
 
-def make_score():
+def make_score(first_measure_number, previous_persistent_indicators):
+    score, accumulator = make_empty_score()
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_measure_number=first_measure_number,
+        previous_persistent_indicators=previous_persistent_indicators,
+    )
+    GLOBALS(score["Skips"], score["Rests"], first_measure_number)
     FL(accumulator.voice("fl"), accumulator)
     EH(accumulator.voice("eh"), accumulator)
     CL(accumulator.voice("cl"), accumulator)
@@ -732,8 +730,6 @@ def make_score():
     VN(accumulator.voice("vn"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -753,10 +749,16 @@ def make_score():
     va(cache["va"])
     vn_va(cache)
     vc(cache["vc"])
+    return score, accumulator
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    first_measure_number = previous_metadata["final_measure_number"] + 1
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(
+        first_measure_number, previous_persist["persistent_indicators"]
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -769,6 +771,7 @@ def main():
         always_make_global_rests=True,
         empty_fermata_measures=True,
         error_on_not_yet_pitched=True,
+        first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
