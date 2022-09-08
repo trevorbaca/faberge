@@ -747,19 +747,19 @@ def make_suffixed_colortrill_rhythm(time_signatures):
     return music
 
 
-def bcl_color_fingerings_function(argument, *tweaks, rotation=None):
+def bcl_color_fingerings(argument, *tweaks, rotation=None):
     numbers = [0, 1, 2, 1, 2, 3, 2, 3, 4, 3, 4, 0, 4, 0, 1]
     numbers = abjad.sequence.rotate(numbers, n=rotation)
-    baca.color_fingerings_function(argument, numbers, *tweaks)
+    baca.color_fingerings(argument, numbers, *tweaks)
 
 
-def bfl_color_fingerings_function(argument, *tweaks):
-    baca.color_fingerings_function(
+def bfl_color_fingerings(argument, *tweaks):
+    baca.color_fingerings(
         argument, [0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks
     )
 
 
-def clb_staff_positions_function(argument, *, rotation=None):
+def clb_staff_positions(argument, *, rotation=None):
     staff_positions_ = [
         [-1, -1, -1, -1, -1, -1],
         [0, 0, 0, 0],
@@ -774,38 +774,38 @@ def clb_staff_positions_function(argument, *, rotation=None):
     ]
     staff_positions = abjad.sequence.rotate(staff_positions_, n=rotation)
     staff_positions = abjad.sequence.flatten(staff_positions)
-    baca.staff_positions_function(argument, staff_positions)
+    baca.staff_positions(argument, staff_positions)
 
 
-def dal_niente_hairpins_function(argument, stop):
+def dal_niente_hairpins(argument, stop):
     for run in baca.select.runs(argument):
         run = baca.select.rleaves(run)
-        baca.hairpin_function(run, f"niente o< {stop}")
+        baca.hairpin(run, f"niente o< {stop}")
 
 
-def increasing_dal_niente_hairpins_function(argument):
+def increasing_dal_niente_hairpins(argument):
     runs = baca.select.runs(argument)
     for i, run in enumerate(runs):
         run = baca.select.rleaves(run)
         if i == 0:
-            baca.hairpin_function(run, "niente o< p")
+            baca.hairpin(run, "niente o< p")
         elif i == 1:
-            baca.hairpin_function(run, "niente o< mp")
+            baca.hairpin(run, "niente o< mp")
         elif i in (2, 3):
-            baca.hairpin_function(run, "niente o< mf")
+            baca.hairpin(run, "niente o< mf")
         else:
-            baca.hairpin_function(run, "niente o< f")
+            baca.hairpin(run, "niente o< f")
 
 
-def keynoise_pitches_function(argument, *, rotation=None):
+def keynoise_pitches(argument, *, rotation=None):
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence.helianthate(keynoise_pitches, -1, 1)
     keynoise_pitches = abjad.sequence.rotate(keynoise_pitches, n=rotation)
     keynoise_pitches = abjad.sequence.flatten(keynoise_pitches)
-    baca.pitches_function(argument, keynoise_pitches)
+    baca.pitches(argument, keynoise_pitches)
 
 
-def niente_swells_function(argument, dynamic):
+def niente_swells(argument, dynamic):
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
@@ -815,17 +815,17 @@ def niente_swells_function(argument, dynamic):
     for run in baca.select.ntruns(argument):
         if len(run) <= 2:
             continue
-        baca.hairpin_function(baca.select.tleaves(run)[:2], f"niente o< {dynamic}")
-        baca.hairpin_function(baca.select.rleaves(run)[-2:], f"({dynamic}) >o niente")
+        baca.hairpin(baca.select.tleaves(run)[:2], f"niente o< {dynamic}")
+        baca.hairpin(baca.select.rleaves(run)[-2:], f"({dynamic}) >o niente")
 
 
-def replace_with_piano_clusters_function(argument):
-    baca.replace_with_clusters_function(argument, [4], start_pitch="C2")
+def replace_with_piano_clusters(argument):
+    baca.replace_with_clusters(argument, [4], start_pitch="C2")
 
 
-def single_swell_function(argument, dynamic):
-    baca.hairpin_function(argument.tleaves()[:2], f"niente o< {dynamic}")
-    baca.hairpin_function(argument.tleaves()[-1:], f"({dynamic}) >o")
+def single_swell(argument, dynamic):
+    baca.hairpin(argument.tleaves()[:2], f"niente o< {dynamic}")
+    baca.hairpin(argument.tleaves()[-1:], f"({dynamic}) >o")
 
 
 def time_signatures_a():
@@ -854,7 +854,7 @@ def time_signatures_b():
     return time_signature_groups
 
 
-def tuning_peg_staff_positions_function(argument, *, rotation=None):
+def tuning_peg_staff_positions(argument, *, rotation=None):
     staff_positions = [
         [-2, -1, 0, 1, 2, 3, 4],
         [0, 1, 2, 3, 4, 5, 6],
@@ -863,7 +863,7 @@ def tuning_peg_staff_positions_function(argument, *, rotation=None):
     ]
     staff_positions = abjad.sequence.flatten(staff_positions)
     staff_positions = abjad.sequence.rotate(staff_positions, n=rotation)
-    baca.staff_positions_function(argument, staff_positions)
+    baca.staff_positions(argument, staff_positions)
 
 
 instruments = {

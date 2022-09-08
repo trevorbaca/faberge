@@ -23,41 +23,41 @@ number.7.Skips = {
     % AFTER:
     % MARKUP:
       %! +SCORE
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 14)
       %! +SCORE
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \baca-rehearsal-mark-markup "F" #10
       %! +SECTION
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
     - \tweak extra-offset #'(0 . 18)
       %! +SECTION
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "F" #10
       %! +PARTS
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 9)
       %! +PARTS
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \baca-rehearsal-mark-markup "F" #10
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"100" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -73,21 +73,21 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "100"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -279,19 +279,19 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"125" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -307,21 +307,21 @@ number.7.Skips = {
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "125"
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
       %! baca._attach_metronome_marks(2.2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -615,7 +615,7 @@ number.7.Flute.Music = {
     % [Flute.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.dls_staff_padding_function(1)
+      %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 6
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -689,36 +689,36 @@ number.7.Flute.Music = {
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 5.5
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-dashed-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "2-2"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -759,28 +759,28 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -795,13 +795,13 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \p
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -810,32 +810,32 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
           %! faberge.make_suffixed_colortrill_rhythm()
         af'!1
@@ -847,18 +847,18 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pp
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -867,23 +867,23 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
           %! abjad.glissando(7)
-          %! baca.glissando_function()
+          %! baca.glissando()
         \glissando
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
           %! faberge.make_suffixed_colortrill_rhythm()
         g'4
@@ -895,13 +895,13 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \ppp
         % CLOSING:
         % COMMANDS:
@@ -946,28 +946,28 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -982,13 +982,13 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -997,32 +997,32 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
           %! faberge.make_suffixed_colortrill_rhythm()
         af'!2
@@ -1034,18 +1034,18 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \ppp
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1054,23 +1054,23 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
           %! abjad.glissando(7)
-          %! baca.glissando_function()
+          %! baca.glissando()
         \glissando
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
           %! faberge.make_suffixed_colortrill_rhythm()
         g'4
@@ -1082,13 +1082,13 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pppp
         % CLOSING:
         % COMMANDS:
@@ -1116,57 +1116,57 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % SPANNER_STOPS:
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(4)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStopTextSpanMaterialAnnotation
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "3-7"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -1174,19 +1174,19 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1196,9 +1196,9 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1208,9 +1208,9 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -1218,13 +1218,13 @@ number.7.Flute.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1233,25 +1233,25 @@ number.7.Flute.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1261,9 +1261,9 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1273,9 +1273,9 @@ number.7.Flute.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % CLOSING:
         % COMMANDS:
@@ -1327,13 +1327,13 @@ number.7.Flute.Music = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \!
             % MARKUP:
               %! DURATION_MULTIPLIER
@@ -1345,8 +1345,8 @@ number.7.Flute.Music = {
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.material_annotation_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.material_annotation_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % CLOSING:
             % COMMANDS:
@@ -1415,7 +1415,7 @@ number.7.Flute.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
     % COMMANDS:
-      %! baca.dls_staff_padding_function(2)
+      %! baca.dls_staff_padding(2)
     \revert DynamicLineSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -1464,7 +1464,7 @@ number.7.EnglishHorn.Music = {
     % [EnglishHorn.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.dls_staff_padding_function(1)
+      %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 6
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \faberge-eh-markup
@@ -1476,17 +1476,17 @@ number.7.EnglishHorn.Music = {
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -1587,7 +1587,7 @@ number.7.EnglishHorn.Music = {
         % [EnglishHorn.Music measure 4]
         % BEFORE:
         % COMMANDS:
-          %! baca.trill_spanner_staff_padding_function(1)
+          %! baca.trill_spanner_staff_padding(1)
         \override TrillSpanner.staff-padding = 5.5
           %! faberge.make_even_tuplet_rhythm()
         c'''4
@@ -1598,21 +1598,21 @@ number.7.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \p
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1623,16 +1623,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1643,16 +1643,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1663,16 +1663,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1683,16 +1683,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % CLOSING:
         % COMMANDS:
@@ -1717,16 +1717,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1737,16 +1737,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1757,16 +1757,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1777,7 +1777,7 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % CLOSING:
         % COMMANDS:
@@ -1833,21 +1833,21 @@ number.7.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \f
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1858,16 +1858,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1878,16 +1878,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1898,16 +1898,16 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1918,21 +1918,21 @@ number.7.EnglishHorn.Music = {
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
-          %! baca.trill_spanner_staff_padding_function(2)
+          %! baca.trill_spanner_staff_padding(2)
         \revert TrillSpanner.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -2005,7 +2005,7 @@ number.7.EnglishHorn.Music = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -2045,7 +2045,7 @@ number.7.Clarinet.Music = {
     % [Clarinet.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.dls_staff_padding_function(1)
+      %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 4
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -2119,36 +2119,36 @@ number.7.Clarinet.Music = {
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 5.5
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-dashed-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "2-2"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2189,28 +2189,28 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2225,13 +2225,13 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \p
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2240,32 +2240,32 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
           %! faberge.make_suffixed_colortrill_rhythm()
         g'1
@@ -2277,18 +2277,18 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pp
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2297,23 +2297,23 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
           %! abjad.glissando(7)
-          %! baca.glissando_function()
+          %! baca.glissando()
         \glissando
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
           %! faberge.make_suffixed_colortrill_rhythm()
         fs'!4
@@ -2325,13 +2325,13 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \ppp
         % CLOSING:
         % COMMANDS:
@@ -2376,28 +2376,28 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % TRILL_SPANNER_STARTS:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \startTrillSpan
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2412,13 +2412,13 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2427,32 +2427,32 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
           %! faberge.make_suffixed_colortrill_rhythm()
         g'2
@@ -2464,18 +2464,18 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \ppp
         % SPANNER_STOPS:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.trill_spanner_function()
+          %! baca.trill_spanner()
         \stopTrillSpan
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2484,23 +2484,23 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
           %! abjad.glissando(7)
-          %! baca.glissando_function()
+          %! baca.glissando()
         \glissando
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_self_alignment_x_function(1)
+          %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
           %! faberge.make_suffixed_colortrill_rhythm()
         fs'!4
@@ -2512,16 +2512,16 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \pppp
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -2546,64 +2546,64 @@ number.7.Clarinet.Music = {
         % [Clarinet.Music measure 5]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 9
           %! faberge.make_even_tuplet_rhythm()
         e4
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % SPANNER_STOPS:
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(4)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStopTextSpanMaterialAnnotation
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "3-7"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -2611,19 +2611,19 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2633,9 +2633,9 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2645,9 +2645,9 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -2655,13 +2655,13 @@ number.7.Clarinet.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2670,25 +2670,25 @@ number.7.Clarinet.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2698,9 +2698,9 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2710,9 +2710,9 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2722,12 +2722,12 @@ number.7.Clarinet.Music = {
         % AFTER:
         % ARTICULATIONS:
           %! -PARTS
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \tweak X-extent #'(0 . 0)
-          %! baca.espressivo_function()
+          %! baca.espressivo()
         - \espressivo
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -2779,13 +2779,13 @@ number.7.Clarinet.Music = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \!
             % MARKUP:
               %! DURATION_MULTIPLIER
@@ -2797,8 +2797,8 @@ number.7.Clarinet.Music = {
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.material_annotation_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.material_annotation_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % CLOSING:
             % COMMANDS:
@@ -2910,7 +2910,7 @@ number.7.Piano.RH.Music = {
         % [Piano.RH.Music measure 1]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 4
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
@@ -2977,47 +2977,47 @@ number.7.Piano.RH.Music = {
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Piano”)"
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 3.25
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "2-2 / 2-3"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -3044,10 +3044,10 @@ number.7.Piano.RH.Music = {
         <g a c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3060,7 +3060,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3073,7 +3073,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3086,7 +3086,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3099,7 +3099,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3112,15 +3112,15 @@ number.7.Piano.RH.Music = {
         <g a c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3147,12 +3147,12 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3165,10 +3165,10 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3181,7 +3181,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3194,7 +3194,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3207,7 +3207,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3220,7 +3220,7 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3247,15 +3247,15 @@ number.7.Piano.RH.Music = {
         <g a c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3300,23 +3300,23 @@ number.7.Piano.RH.Music = {
         % COMMANDS:
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false_function(1)
+          %! baca.clef_x_extent_false(1)
         \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset_function(1)
+          %! baca.clef_extra_offset(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
         \ottava 1
-          %! baca.ottava_bracket_staff_padding_function(1)
+          %! baca.ottava_bracket_staff_padding(1)
         \override Staff.OttavaBracket.staff-padding = 5.5
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
           %! baca._attach_color_literal(2)
@@ -3327,7 +3327,7 @@ number.7.Piano.RH.Music = {
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
         <g''' a''' b''' c''''>8
@@ -3338,17 +3338,17 @@ number.7.Piano.RH.Music = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \f
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -3366,7 +3366,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3415,12 +3415,12 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3449,7 +3449,7 @@ number.7.Piano.RH.Music = {
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3462,7 +3462,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3502,12 +3502,12 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3536,7 +3536,7 @@ number.7.Piano.RH.Music = {
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3549,7 +3549,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3571,12 +3571,12 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3605,7 +3605,7 @@ number.7.Piano.RH.Music = {
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3618,7 +3618,7 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3640,12 +3640,12 @@ number.7.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % COMMANDS:
           %! RIGHT_BROKEN
@@ -3659,9 +3659,9 @@ number.7.Piano.RH.Music = {
         r16
         % AFTER:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
-          %! baca.ottava_bracket_staff_padding_function(2)
+          %! baca.ottava_bracket_staff_padding(2)
         \revert Staff.OttavaBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -3735,8 +3735,8 @@ number.7.Piano.RH.Music = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
       %! baca._style_anchor_notes()
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
     % CLOSING:
     % COMMANDS:
@@ -3824,7 +3824,7 @@ number.7.Piano.LH.Music = {
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -3842,7 +3842,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3891,12 +3891,12 @@ number.7.Piano.LH.Music = {
         <g a b c'>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3925,7 +3925,7 @@ number.7.Piano.LH.Music = {
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3938,7 +3938,7 @@ number.7.Piano.LH.Music = {
         <g a b c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4001,12 +4001,12 @@ number.7.Piano.LH.Music = {
         <g a b c'>8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4051,23 +4051,23 @@ number.7.Piano.LH.Music = {
         % COMMANDS:
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false_function(1)
+          %! baca.clef_x_extent_false(1)
         \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset_function(1)
+          %! baca.clef_extra_offset(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
         \ottava 1
-          %! baca.ottava_bracket_staff_padding_function(1)
+          %! baca.ottava_bracket_staff_padding(1)
         \override Staff.OttavaBracket.staff-padding = 8
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
           %! baca._attach_color_literal(2)
@@ -4078,18 +4078,18 @@ number.7.Piano.LH.Music = {
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -4107,12 +4107,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4125,7 +4125,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4138,7 +4138,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4151,7 +4151,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4164,7 +4164,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4177,17 +4177,17 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4214,12 +4214,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4232,12 +4232,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4250,7 +4250,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4263,7 +4263,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4276,7 +4276,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4289,17 +4289,17 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4326,12 +4326,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4344,12 +4344,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4362,7 +4362,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4375,17 +4375,17 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4412,12 +4412,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4430,12 +4430,12 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4448,7 +4448,7 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8
         % AFTER:
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4461,17 +4461,17 @@ number.7.Piano.LH.Music = {
         <f''' g''' a'''>8.
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % MARKUP:
-          %! baca.markup_function()
+          %! baca.markup()
         ^ \baca-sharp-markup
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % COMMANDS:
           %! RIGHT_BROKEN
@@ -4485,7 +4485,7 @@ number.7.Piano.LH.Music = {
         r16
         % AFTER:
         % COMMANDS:
-          %! baca.ottava_bracket_staff_padding_function(2)
+          %! baca.ottava_bracket_staff_padding(2)
         \revert Staff.OttavaBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -4511,7 +4511,7 @@ number.7.Piano.LH.Attacks.Music = {
     % [Piano.LH.Attacks.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.mmrest_transparent_function(1)
+      %! baca.mmrest_transparent(1)
     \override MultiMeasureRest.transparent = ##t
       %! baca.make_mmrests(1)
     R1 * 7/4
@@ -4616,7 +4616,7 @@ number.7.Piano.LH.Attacks.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
     % COMMANDS:
-      %! baca.mmrest_transparent_function(2)
+      %! baca.mmrest_transparent(2)
     \revert MultiMeasureRest.transparent
     % CLOSING:
     % COMMANDS:
@@ -4671,7 +4671,7 @@ number.7.Percussion.Music = {
         % [Percussion.Music measure 1]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 6
           %! EXPLICIT_BAR_EXTENT
           %! REAPPLIED_BAR_EXTENT
@@ -4792,7 +4792,7 @@ number.7.Percussion.Music = {
     % [Percussion.Music measure 3]
     % BEFORE:
     % COMMANDS:
-      %! baca.stem_up_function(1)
+      %! baca.stem_up(1)
     \override Stem.direction = #up
       %! faberge.make_downbeat_attack()
     d'4
@@ -4803,69 +4803,69 @@ number.7.Percussion.Music = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \f
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \baca-castanets-markup
     % SPANNER_STARTS:
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak color #darkgreen
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 10.5
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "4-3"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     - \tweak bound-details.right.padding 2
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4876,7 +4876,7 @@ number.7.Percussion.Music = {
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4889,14 +4889,14 @@ number.7.Percussion.Music = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     - \tweak bound-details.right.padding 2
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan
     % COMMANDS:
-      %! baca.stem_up_function(2)
+      %! baca.stem_up(2)
     \revert Stem.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4908,12 +4908,12 @@ number.7.Percussion.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4922,58 +4922,58 @@ number.7.Percussion.Music = {
     % [Percussion.Music measure 5]
     % BEFORE:
     % COMMANDS:
-      %! baca.stem_down_function(1)
+      %! baca.stem_down(1)
     \once \override Stem.direction = #down
       %! faberge.make_downbeat_attack()
     b2
     % AFTER:
     % MARKUP:
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak parent-alignment-X 0
-      %! baca.markup_function()
+      %! baca.markup()
     - \tweak staff-padding 8
-      %! baca.markup_function()
+      %! baca.markup()
     ^ \baca-bd-superball-markup
     % SPANNER_STARTS:
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak color #darkgreen
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 10.5
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "3-7"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -4981,25 +4981,25 @@ number.7.Percussion.Music = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak stencil #abjad-flared-hairpin
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5013,13 +5013,13 @@ number.7.Percussion.Music = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5072,8 +5072,8 @@ number.7.Percussion.Music = {
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.material_annotation_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.material_annotation_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % CLOSING:
             % COMMANDS:
@@ -5142,7 +5142,7 @@ number.7.Percussion.Music = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
     % COMMANDS:
-      %! baca.dls_staff_padding_function(2)
+      %! baca.dls_staff_padding(2)
     \revert DynamicLineSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -5182,7 +5182,7 @@ number.7.Violin.Music = {
     % [Violin.Music measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.dls_staff_padding_function(1)
+      %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 4
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
@@ -5241,12 +5241,12 @@ number.7.Violin.Music = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-effort-f
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -5259,82 +5259,82 @@ number.7.Violin.Music = {
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak color #red
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 5.5
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "A.3"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 3
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     - \abjad-dashed-line-with-hook
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-markup \baca-spazzolato-markup
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(2)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanSpazzolato
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -5435,17 +5435,17 @@ number.7.Violin.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(4)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanSpazzolato
     % COMMANDS:
-      %! baca.dls_staff_padding_function(2)
+      %! baca.dls_staff_padding(2)
     \revert DynamicLineSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5476,26 +5476,26 @@ number.7.Violin.Music = {
         % [Violin.Music measure 3]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 8
-          %! baca.stem_down_function(1)
+          %! baca.stem_down(1)
         \override Stem.direction = #down
-          %! baca.tuplet_bracket_staff_padding_function(1)
+          %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -5506,122 +5506,122 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \baca-effort-mf
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 10.0
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "4-3"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanCLB
         % COMMANDS:
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(1)
+          %! baca.staff_lines(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5630,7 +5630,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5639,7 +5639,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5648,7 +5648,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5657,7 +5657,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5666,7 +5666,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5675,7 +5675,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5684,7 +5684,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5693,7 +5693,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5702,7 +5702,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5711,12 +5711,12 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % COMMANDS:
-          %! baca.stem_down_function(2)
+          %! baca.stem_down(2)
         \revert Stem.direction
-          %! baca.tuplet_bracket_staff_padding_function(2)
+          %! baca.tuplet_bracket_staff_padding(2)
         \revert TupletBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -5733,12 +5733,12 @@ number.7.Violin.Music = {
     a'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.staccato_function()
+      %! baca.staccato()
     - \staccato
     % STOP_BEAM:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.beam_function()
+      %! baca.beam()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5750,8 +5750,8 @@ number.7.Violin.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5770,15 +5770,15 @@ number.7.Violin.Music = {
         % [Violin.Music measure 5]
         % BEFORE:
         % COMMANDS:
-          %! baca.stem_down_function(1)
+          %! baca.stem_down(1)
         \override Stem.direction = #down
-          %! baca.tuplet_bracket_staff_padding_function(1)
+          %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 3.5
           %! faberge.make_clb_rhythm()
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % START_BEAM:
           %! faberge.make_clb_rhythm()
@@ -5787,42 +5787,42 @@ number.7.Violin.Music = {
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 10.5
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "4-2"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5831,7 +5831,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5840,7 +5840,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5849,7 +5849,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5858,7 +5858,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5867,7 +5867,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5876,7 +5876,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5885,7 +5885,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5894,7 +5894,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5903,7 +5903,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5912,7 +5912,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5921,7 +5921,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5930,7 +5930,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5939,7 +5939,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5948,7 +5948,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5957,7 +5957,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5966,7 +5966,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5975,7 +5975,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5984,7 +5984,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5993,7 +5993,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6002,7 +6002,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6011,7 +6011,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6020,7 +6020,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6029,7 +6029,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6038,7 +6038,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6047,7 +6047,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6056,7 +6056,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6065,7 +6065,7 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % STOP_BEAM:
           %! faberge.make_clb_rhythm()
@@ -6093,17 +6093,17 @@ number.7.Violin.Music = {
         % [Violin.Music measure 7]
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_x_extent_zero_function(1)
+          %! baca.dynamic_text_x_extent_zero(1)
         \once \override DynamicText.X-extent = #'(0 . 0)
-          %! baca.dynamic_text_extra_offset_function(1)
+          %! baca.dynamic_text_extra_offset(1)
         \once \override DynamicText.extra-offset = #'(-4 . 0)
-          %! baca.hairpin_shorten_pair_function(1)
+          %! baca.hairpin_shorten_pair(1)
         \override Hairpin.shorten-pair = #'(4 . 0)
           %! faberge.make_clb_rhythm()
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -6111,13 +6111,13 @@ number.7.Violin.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \baca-effort-mf-parenthesized
         % START_BEAM:
           %! faberge.make_clb_rhythm()
@@ -6129,25 +6129,25 @@ number.7.Violin.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6156,7 +6156,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6165,7 +6165,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6174,7 +6174,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6183,7 +6183,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6192,7 +6192,7 @@ number.7.Violin.Music = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6201,7 +6201,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6210,7 +6210,7 @@ number.7.Violin.Music = {
         a'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6219,19 +6219,19 @@ number.7.Violin.Music = {
         b'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % STOP_BEAM:
           %! faberge.make_clb_rhythm()
         ]
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
-          %! baca.hairpin_shorten_pair_function(2)
+          %! baca.hairpin_shorten_pair(2)
         \revert Hairpin.shorten-pair
-          %! baca.stem_down_function(2)
+          %! baca.stem_down(2)
         \revert Stem.direction
-          %! baca.tuplet_bracket_staff_padding_function(2)
+          %! baca.tuplet_bracket_staff_padding(2)
         \revert TupletBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -6272,22 +6272,22 @@ number.7.Violin.Music = {
               %! EXPLICIT_BAR_EXTENT
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(1)
+              %! baca.staff_lines(1)
             \override Staff.BarLine.bar-extent = #'(-2 . 2)
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6309,13 +6309,13 @@ number.7.Violin.Music = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \!
             % MARKUP:
               %! DURATION_MULTIPLIER
@@ -6327,14 +6327,14 @@ number.7.Violin.Music = {
               %! CLB_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.clb_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.clb_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanCLB
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.material_annotation_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.material_annotation_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % CLOSING:
             % COMMANDS:
@@ -6510,12 +6510,12 @@ number.7.Viola.Music = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \baca-effort-f
         % START_BEAM:
           %! rmakers.RewriteMeterCommand.__call__
@@ -6524,82 +6524,82 @@ number.7.Viola.Music = {
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #red
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "A.3"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-markup \baca-spazzolato-markup
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
           %! baca.PiecewiseCommand._call(2)
-          %! baca.spazzolato_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.spazzolato_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanSpazzolato
         % CLOSING:
         % COMMANDS:
@@ -6682,14 +6682,14 @@ number.7.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
       %! SPAZZOLATO_SPANNER
       %! baca.PiecewiseCommand._call(4)
-      %! baca.spazzolato_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.spazzolato_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanSpazzolato
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6720,26 +6720,26 @@ number.7.Viola.Music = {
         % [Viola.Music measure 3]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 8
-          %! baca.stem_down_function(1)
+          %! baca.stem_down(1)
         \override Stem.direction = #down
-          %! baca.tuplet_bracket_staff_padding_function(1)
+          %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -6750,115 +6750,115 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \baca-effort-mf
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 10.0
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "4-3"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanCLB
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6867,7 +6867,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6876,7 +6876,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6885,7 +6885,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6894,7 +6894,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6903,7 +6903,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6912,7 +6912,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6921,7 +6921,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6930,7 +6930,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6939,14 +6939,14 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
-          %! baca.stem_down_function(2)
+          %! baca.stem_down(2)
         \revert Stem.direction
-          %! baca.tuplet_bracket_staff_padding_function(2)
+          %! baca.tuplet_bracket_staff_padding(2)
         \revert TupletBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -6963,12 +6963,12 @@ number.7.Viola.Music = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.staccato_function()
+      %! baca.staccato()
     - \staccato
     % STOP_BEAM:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.beam_function()
+      %! baca.beam()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6980,14 +6980,14 @@ number.7.Viola.Music = {
       %! CLB_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.clb_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.clb_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanCLB
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6996,22 +6996,22 @@ number.7.Viola.Music = {
     % [Viola.Music measure 5]
     % BEFORE:
     % COMMANDS:
-      %! baca.dls_staff_padding_function(1)
+      %! baca.dls_staff_padding(1)
     \once \override DynamicLineSpanner.staff-padding = 5
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.staff_lines_function(2)
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7027,96 +7027,96 @@ number.7.Viola.Music = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \mp
     % SPANNER_STARTS:
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak bound-details.right.padding 2.75
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak color #darkgreen
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \tweak staff-padding 8
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \abjad-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     - \baca-text-spanner-left-text "3-7"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStartTextSpanMaterialAnnotation
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak bound-details.right.padding 2.75
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak staff-padding 3
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \abjad-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \baca-text-spanner-left-text "XFB"
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     \bacaStartTextSpanBowSpeed
     % COMMANDS:
-      %! baca.breathe_function()
+      %! baca.breathe()
     \breathe
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7135,26 +7135,26 @@ number.7.Viola.Music = {
         % [Viola.Music measure 6]
         % BEFORE:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 8
-          %! baca.stem_down_function(1)
+          %! baca.stem_down(1)
         \override Stem.direction = #down
-          %! baca.tuplet_bracket_staff_padding_function(1)
+          %! baca.tuplet_bracket_staff_padding(1)
         \override TupletBracket.staff-padding = 3.5
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \stopStaff
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \once \override Staff.StaffSymbol.line-count = 1
           %! EXPLICIT_STAFF_LINES
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.staff_lines_function(2)
+          %! baca.staff_lines(2)
         \startStaff
         % OPENING:
         % COMMANDS:
@@ -7165,42 +7165,42 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \baca-effort-mf
         % SPANNER_STOPS:
           %! BOW_SPEED_SPANNER
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(4)
-          %! baca.text_spanner_function()
-          %! baca.xfb_spanner_function()
+          %! baca.text_spanner()
+          %! baca.xfb_spanner()
         \bacaStopTextSpanBowSpeed
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(4)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStopTextSpanMaterialAnnotation
         % START_BEAM:
           %! faberge.make_clb_rhythm()
@@ -7209,82 +7209,82 @@ number.7.Viola.Music = {
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak color #darkgreen
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 10.5
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "4-2"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
           %! CLB_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.clb_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.clb_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanCLB
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7293,7 +7293,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7302,7 +7302,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7311,7 +7311,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7320,7 +7320,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7329,7 +7329,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7338,7 +7338,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7347,7 +7347,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7356,7 +7356,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7365,7 +7365,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7374,7 +7374,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7383,7 +7383,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7392,7 +7392,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7401,24 +7401,24 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % BEFORE:
         % COMMANDS:
-          %! baca.dynamic_text_x_extent_zero_function(1)
+          %! baca.dynamic_text_x_extent_zero(1)
         \once \override DynamicText.X-extent = #'(0 . 0)
-          %! baca.dynamic_text_extra_offset_function(1)
+          %! baca.dynamic_text_extra_offset(1)
         \once \override DynamicText.extra-offset = #'(-4 . 0)
-          %! baca.hairpin_shorten_pair_function(1)
+          %! baca.hairpin_shorten_pair(1)
         \override Hairpin.shorten-pair = #'(4 . 0)
           %! faberge.make_clb_rhythm()
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -7426,13 +7426,13 @@ number.7.Viola.Music = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \baca-effort-mf-parenthesized
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -7441,25 +7441,25 @@ number.7.Viola.Music = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \>
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7468,7 +7468,7 @@ number.7.Viola.Music = {
         d'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7477,7 +7477,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7486,7 +7486,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7495,7 +7495,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7504,7 +7504,7 @@ number.7.Viola.Music = {
         c'8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7513,7 +7513,7 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7522,19 +7522,19 @@ number.7.Viola.Music = {
         b8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.staccato_function()
+          %! baca.staccato()
         - \staccato
         % STOP_BEAM:
           %! faberge.make_clb_rhythm()
         ]
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
-          %! baca.hairpin_shorten_pair_function(2)
+          %! baca.hairpin_shorten_pair(2)
         \revert Hairpin.shorten-pair
-          %! baca.stem_down_function(2)
+          %! baca.stem_down(2)
         \revert Stem.direction
-          %! baca.tuplet_bracket_staff_padding_function(2)
+          %! baca.tuplet_bracket_staff_padding(2)
         \revert TupletBracket.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -7574,17 +7574,17 @@ number.7.Viola.Music = {
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \stopStaff
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \once \override Staff.StaffSymbol.line-count = 5
               %! EXPLICIT_STAFF_LINES
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.staff_lines_function(2)
+              %! baca.staff_lines(2)
             \startStaff
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7606,13 +7606,13 @@ number.7.Viola.Music = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \!
             % MARKUP:
               %! DURATION_MULTIPLIER
@@ -7624,14 +7624,14 @@ number.7.Viola.Music = {
               %! CLB_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.clb_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.clb_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanCLB
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(4)
-              %! baca.material_annotation_spanner_function()
-              %! baca.text_spanner_function()
+              %! baca.material_annotation_spanner()
+              %! baca.text_spanner()
             \bacaStopTextSpanMaterialAnnotation
             % CLOSING:
             % COMMANDS:
@@ -7747,27 +7747,27 @@ number.7.Cello.Music = {
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(2)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \hide NoteHead
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(2)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \override Accidental.stencil = ##f
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(2)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(2)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \override Dots.transparent = ##t
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(2)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \override Stem.transparent = ##t
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -7808,45 +7808,45 @@ number.7.Cello.Music = {
       %! AUTODETECT
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
+      %! baca.text_spanner()
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak bound-details.right.padding 2.75
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak staff-padding 3
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \abjad-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \baca-text-spanner-left-text "XFB"
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     \bacaStartTextSpanBowSpeed
       %! abjad.glissando(7)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \glissando
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -7872,7 +7872,7 @@ number.7.Cello.Music = {
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
       %! abjad.glissando(3)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
       %! baca.make_notes()
     b,1.
@@ -7891,28 +7891,28 @@ number.7.Cello.Music = {
     % OPENING:
     % COMMANDS:
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \revert Accidental.stencil
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \revert NoteColumn.glissando-skip
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \revert NoteHead.no-ledgers
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \undo \hide NoteHead
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \revert Dots.transparent
       %! abjad.glissando(6)
-      %! baca.glissando_function()
+      %! baca.glissando()
     \revert Stem.transparent
       %! faberge.make_downbeat_attack()
     b,4
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo_function()
+      %! baca.stem_tremolo()
     :32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7924,8 +7924,8 @@ number.7.Cello.Music = {
       %! BOW_SPEED_SPANNER
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
-      %! baca.text_spanner_function()
-      %! baca.xfb_spanner_function()
+      %! baca.text_spanner()
+      %! baca.xfb_spanner()
     \bacaStopTextSpanBowSpeed
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7942,20 +7942,20 @@ number.7.Cello.Music = {
         % COMMANDS:
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_x_extent_false_function(1)
+          %! baca.clef_x_extent_false(1)
         \once \override Staff.Clef.X-extent = ##f
           %! MEASURE_206
           %! SHIFTED_CLEF
-          %! baca.clef_extra_offset_function(1)
+          %! baca.clef_extra_offset(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-          %! baca.dls_staff_padding_function(1)
+          %! baca.dls_staff_padding(1)
         \override DynamicLineSpanner.staff-padding = 4
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
           %! baca._attach_color_literal(2)
@@ -7966,69 +7966,69 @@ number.7.Cello.Music = {
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef_function()
+          %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! baca.make_skeleton()
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic_function()
+          %! baca.dynamic()
         \f
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % SPANNER_STARTS:
           %! AUTODETECT
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.text_spanner_function()
+          %! baca.text_spanner()
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak bound-details.right.padding 3.25
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \tweak staff-padding 5.5
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         - \baca-text-spanner-left-text "2-3"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
-          %! baca.material_annotation_spanner_function()
-          %! baca.text_spanner_function()
+          %! baca.material_annotation_spanner()
+          %! baca.text_spanner()
         \bacaStartTextSpanMaterialAnnotation
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -8047,7 +8047,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8061,7 +8061,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8075,7 +8075,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8089,10 +8089,10 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8106,7 +8106,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8120,12 +8120,12 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8134,7 +8134,7 @@ number.7.Cello.Music = {
         r8
         % AFTER:
         % COMMANDS:
-          %! baca.dls_staff_padding_function(2)
+          %! baca.dls_staff_padding(2)
         \revert DynamicLineSpanner.staff-padding
         % CLOSING:
         % COMMANDS:
@@ -8157,15 +8157,15 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8179,7 +8179,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8193,7 +8193,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8207,10 +8207,10 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8224,7 +8224,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8238,12 +8238,12 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8271,15 +8271,15 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8293,10 +8293,10 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8310,7 +8310,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8324,12 +8324,12 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8357,15 +8357,15 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % START_BEAM:
           %! SPANNER_START
           %! baca._do_spanner_indicator_command(1)
-          %! baca.beam_function()
+          %! baca.beam()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8379,10 +8379,10 @@ number.7.Cello.Music = {
         fs''!8.
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8396,7 +8396,7 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8410,12 +8410,12 @@ number.7.Cello.Music = {
         fs''!8
         % AFTER:
         % STEM_TREMOLOS:
-          %! baca.stem_tremolo_function()
+          %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
           %! SPANNER_STOP
           %! baca._do_spanner_indicator_command(2)
-          %! baca.beam_function()
+          %! baca.beam()
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8494,8 +8494,8 @@ number.7.Cello.Music = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(4)
       %! baca._style_anchor_notes()
-      %! baca.material_annotation_spanner_function()
-      %! baca.text_spanner_function()
+      %! baca.material_annotation_spanner()
+      %! baca.text_spanner()
     \bacaStopTextSpanMaterialAnnotation
     % CLOSING:
     % COMMANDS:
