@@ -3882,7 +3882,7 @@ number.12.Percussion.Music = {
     % COMMANDS:
       %! baca.stem_down(1)
     \override Stem.direction = #down
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2
     % AFTER:
     % ARTICULATIONS:
@@ -3960,7 +3960,7 @@ number.12.Percussion.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3987,7 +3987,7 @@ number.12.Percussion.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % COMMANDS:
@@ -5679,14 +5679,14 @@ number.12.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef!1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5713,7 +5713,7 @@ number.12.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef!2
     % AFTER:
     % STEM_TREMOLOS:

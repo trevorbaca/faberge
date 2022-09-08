@@ -7018,7 +7018,7 @@ number.7.Viola.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1..
     % AFTER:
     % ARTICULATIONS:

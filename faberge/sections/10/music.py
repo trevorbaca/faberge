@@ -129,7 +129,7 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4))
     voice.extend(music)
@@ -206,7 +206,7 @@ def VA(voice, accumulator):
         r"{ c2 c2 }",
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(5))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5))
     voice.extend(music)
     music = baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",

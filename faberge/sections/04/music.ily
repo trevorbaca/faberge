@@ -924,7 +924,7 @@ number.4.Flute.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     gs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -1389,7 +1389,7 @@ number.4.EnglishHorn.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2.
     % AFTER:
     % ARTICULATIONS:
@@ -1849,7 +1849,7 @@ number.4.Clarinet.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2.
     % AFTER:
     % ARTICULATIONS:

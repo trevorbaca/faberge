@@ -238,7 +238,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",

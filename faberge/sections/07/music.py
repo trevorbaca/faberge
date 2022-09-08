@@ -264,7 +264,7 @@ def VA(voice, accumulator):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(5))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5))
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(6, 7),

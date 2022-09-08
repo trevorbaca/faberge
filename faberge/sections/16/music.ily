@@ -639,7 +639,7 @@ number.16.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
@@ -692,16 +692,16 @@ number.16.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -712,16 +712,16 @@ number.16.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -732,16 +732,16 @@ number.16.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -899,7 +899,7 @@ number.16.EnglishHorn.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
@@ -952,16 +952,16 @@ number.16.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -972,16 +972,16 @@ number.16.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'\breve
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -992,16 +992,16 @@ number.16.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1155,7 +1155,7 @@ number.16.Clarinet.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g\breve
     % AFTER:
     % ARTICULATIONS:
@@ -1218,42 +1218,42 @@ number.16.Clarinet.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1280,7 +1280,7 @@ number.16.Clarinet.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1..
     % AFTER:
     % COMMANDS:
@@ -1377,7 +1377,7 @@ number.16.Piano.RH.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d\breve
     % AFTER:
     % STEM_TREMOLOS:
@@ -1430,16 +1430,16 @@ number.16.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1450,16 +1450,16 @@ number.16.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d\breve
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1470,16 +1470,16 @@ number.16.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1..
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
