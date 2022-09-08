@@ -460,12 +460,8 @@ def vn(m):
         baca.pitch(o, "A#4")
     for item in [(1, 7), 9]:
         with baca.scope(m.get(item)) as o:
-            baca.quadruple_staccato(
-                abjad.select.get(baca.select.plts(o), [0], 4)
-            )
-            baca.stem_tremolo(
-                abjad.select.get(baca.select.plts(o), [1, 2, 3], 4)
-            )
+            baca.quadruple_staccato(abjad.select.get(baca.select.plts(o), [0], 4))
+            baca.stem_tremolo(abjad.select.get(baca.select.plts(o), [1, 2, 3], 4))
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(

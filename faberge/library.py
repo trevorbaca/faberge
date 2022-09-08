@@ -754,9 +754,7 @@ def bcl_color_fingerings(argument, *tweaks, rotation=None):
 
 
 def bfl_color_fingerings(argument, *tweaks):
-    baca.color_fingerings(
-        argument, [0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks
-    )
+    baca.color_fingerings(argument, [0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1], *tweaks)
 
 
 def clb_staff_positions(argument, *, rotation=None):
