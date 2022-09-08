@@ -32,14 +32,14 @@ def GLOBALS(skips, rests):
         ("[2]", 3),
     )
     baca.label_stage_numbers(skips, stage_markup)
-    baca.metronome_mark_function(
+    baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["100"], library.manifests
     )
     for index, string in (
         (2 - 1, "short"),
         (4 - 1, "short"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def FL(voice, accumulator):
@@ -107,63 +107,63 @@ def VC(voice, accumulator):
 
 def fl(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
+        baca.instrument(
             o.leaf(0),
             "Flute",
             library.manifests,
         )
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-flute-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Fl.", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(o.leaf(0), r"\faberge-flute-markup")
+        baca.short_instrument_name(o.leaf(0), "Fl.", library.manifests)
 
 
 def eh(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "EnglishHorn", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-english-horn-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Eng. hn.", library.manifests)
+        baca.instrument(o.leaf(0), "EnglishHorn", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(o.leaf(0), r"\faberge-english-horn-markup")
+        baca.short_instrument_name(o.leaf(0), "Eng. hn.", library.manifests)
     with baca.scope(m[3]) as o:
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.staff_position_function(o, 0)
-        baca.markup_function(
+        baca.staff_lines(o.leaf(0), 1)
+        baca.staff_position(o, 0)
+        baca.markup(
             o.pleaf(0),
             r"\baca-ratchet-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
-        baca.dynamic_function(
+        baca.dynamic(
             o.phead(0),
             "(f)",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.dls_staff_padding_function(o, 8.5)
+        baca.dls_staff_padding(o, 8.5)
 
 
 def cl(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Clarinet", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-clarinet-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Cl.", library.manifests)
+        baca.instrument(o.leaf(0), "Clarinet", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(o.leaf(0), r"\faberge-clarinet-markup")
+        baca.short_instrument_name(o.leaf(0), "Cl.", library.manifests)
 
 
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Piano", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(
+        baca.instrument(o.leaf(0), "Piano", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(
             o.leaf(0),
             r"\faberge-piano-markup",
             context="PianoStaff",
         )
-        baca.short_instrument_name_function(
+        baca.short_instrument_name(
             o.leaf(0),
             "Pf.",
             library.manifests,
@@ -171,31 +171,31 @@ def pf(cache):
         )
     m = cache["lh"]
     with baca.scope(m.leaves()) as o:
-        baca.clef_function(o.leaf(0), "bass")
-        baca.staff_lines_function(o.leaf(0), 5)
+        baca.clef(o.leaf(0), "bass")
+        baca.staff_lines(o.leaf(0), 5)
 
 
 def perc(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Percussion", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-percussion-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Perc.", library.manifests)
+        baca.instrument(o.leaf(0), "Percussion", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(o.leaf(0), r"\faberge-percussion-markup")
+        baca.short_instrument_name(o.leaf(0), "Perc.", library.manifests)
 
 
 def vn(m):
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Violin", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-violin-markup")
-        baca.short_instrument_name_function(o.leaf(0), "Vn.", library.manifests)
-        baca.dls_staff_padding_function(o, 4)
+        baca.instrument(o.leaf(0), "Violin", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.instrument_name(o.leaf(0), r"\faberge-violin-markup")
+        baca.short_instrument_name(o.leaf(0), "Vn.", library.manifests)
+        baca.dls_staff_padding(o, 4)
     with baca.scope(m[1]) as o:
-        baca.pitch_function(o, "E4")
-        baca.dynamic_function(o.phead(0), '"f"')
-        baca.spazzolato_spanner_function(
+        baca.pitch(o, "E4")
+        baca.dynamic(o.phead(0), '"f"')
+        baca.spazzolato_spanner(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak staff-padding 3"),
         )
@@ -203,16 +203,16 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.leaves()) as o:
-        baca.clef_function(o.leaf(0), "alto")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.dls_staff_padding_function(o, 6)
-        baca.short_instrument_name_function(o.leaf(0), "Va.", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-viola-markup")
-        baca.instrument_function(o.leaf(0), "Viola", library.manifests)
+        baca.clef(o.leaf(0), "alto")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.dls_staff_padding(o, 6)
+        baca.short_instrument_name(o.leaf(0), "Va.", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\faberge-viola-markup")
+        baca.instrument(o.leaf(0), "Viola", library.manifests)
     with baca.scope(m[1]) as o:
-        baca.pitch_function(o, "E4")
-        baca.dynamic_function(o.phead(0), '"f"')
-        baca.spazzolato_spanner_function(
+        baca.pitch(o, "E4")
+        baca.dynamic(o.phead(0), '"f"')
+        baca.spazzolato_spanner(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak staff-padding 3"),
         )
@@ -220,11 +220,11 @@ def va(m):
 
 def vc(m):
     with baca.scope(m.leaves()) as o:
-        baca.clef_function(o.leaf(0), "bass")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.short_instrument_name_function(o.leaf(0), "Vc.", library.manifests)
-        baca.instrument_name_function(o.leaf(0), r"\faberge-cello-markup")
-        baca.instrument_function(o.leaf(0), "Cello", library.manifests)
+        baca.clef(o.leaf(0), "bass")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.short_instrument_name(o.leaf(0), "Vc.", library.manifests)
+        baca.instrument_name(o.leaf(0), r"\faberge-cello-markup")
+        baca.instrument(o.leaf(0), "Cello", library.manifests)
 
 
 def make_score():
