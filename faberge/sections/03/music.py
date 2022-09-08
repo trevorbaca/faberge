@@ -47,9 +47,7 @@ def GLOBALS(skips):
         ("[B.17]", 73),
     )
     baca.label_stage_numbers(skips, stage_markup)
-    baca.metronome_mark(
-        skips[1 - 1], library.metronome_marks["80"], library.manifests
-    )
+    baca.metronome_mark(skips[1 - 1], library.metronome_marks["80"], library.manifests)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "B",
