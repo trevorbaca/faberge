@@ -5220,7 +5220,7 @@ number.10.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef,!1.
     % AFTER:
     % ARTICULATIONS:
@@ -5268,7 +5268,7 @@ number.10.Percussion.Music = {
       %! abjad.glissando(3)
       %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef,!1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5295,7 +5295,7 @@ number.10.Percussion.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     ef,!1.
     % AFTER:
     % STEM_TREMOLOS:

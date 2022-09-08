@@ -918,7 +918,7 @@ number.8.Flute.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 4
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     gs'!1.
     % AFTER:
     % ARTICULATIONS:
@@ -1432,7 +1432,7 @@ number.8.EnglishHorn.Music = {
       %! EXPLICIT_STAFF_LINES_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1.
     % AFTER:
     % ARTICULATIONS:
@@ -1885,7 +1885,7 @@ number.8.Clarinet.Music = {
     % COMMANDS:
       %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 7
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1.
     % AFTER:
     % ARTICULATIONS:
@@ -4519,7 +4519,7 @@ number.8.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1.
     % AFTER:
     % ARTICULATIONS:
@@ -5066,7 +5066,7 @@ number.8.Percussion.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f,1.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7136,7 +7136,7 @@ number.8.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7173,7 +7173,7 @@ number.8.Viola.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1.
     % AFTER:
     % STEM_TREMOLOS:

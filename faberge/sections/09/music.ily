@@ -12100,7 +12100,7 @@ number.9.Cello.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f,\breve.
     % AFTER:
     % ARTICULATIONS:
@@ -12219,14 +12219,14 @@ number.9.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f,2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f,\breve.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12275,7 +12275,7 @@ number.9.Cello.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f,2
     % AFTER:
     % COMMANDS:

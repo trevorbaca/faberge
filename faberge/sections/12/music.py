@@ -155,7 +155,7 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = library.make_downbeat_attack(accumulator.get(5))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(6, 8))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(6, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
@@ -180,9 +180,9 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(5))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5))
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(6, 9),

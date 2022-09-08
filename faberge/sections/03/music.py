@@ -692,9 +692,9 @@ def EH(voice, accumulator):
         ),
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(31, 36))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(31, 36))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(37, 44))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(37, 44))
     voice.extend(music)
     music = library.make_keynoise_rhythm(
         accumulator.get(45, 60),
@@ -705,7 +705,7 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61, 68))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(69, 72))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(69, 72))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(73, 78))
     voice.extend(music)
@@ -751,7 +751,7 @@ def CL(voice, accumulator):
 
 def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
-    music = baca.make_repeat_tied_notes(accumulator.get(1))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1))
     voice.extend(music)
     music = baca.make_rests(accumulator.get(2, 44))
     voice.extend(music)
@@ -783,15 +783,15 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2, 22), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(23, 48))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(23, 48))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(49, 56))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(49, 56))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(57, 60))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(57, 60))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61, 68))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(69, 72))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(69, 72))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(73, 78))
     voice.extend(music)
@@ -810,14 +810,14 @@ def VN(voice, accumulator):
         counts_rotation=-20,
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(23, 52))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(23, 52))
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(53, 68),
         fuse_counts=[2, 2, 1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(69, 72))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(69, 72))
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(73, 80),
@@ -828,7 +828,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 8))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 8))
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         accumulator.get(9, 22),
@@ -837,7 +837,7 @@ def VA(voice, accumulator):
         extra_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(23, 52))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(23, 52))
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(53, 79),
@@ -852,7 +852,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 36))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 36))
     voice.extend(music)
     music = baca.make_repeated_duration_notes(accumulator.get(37, 60), [(1, 4)])
     voice.extend(music)
