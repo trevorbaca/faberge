@@ -120,7 +120,7 @@ def make_bcl_color_fingering_rhythm(time_signatures, *commands, rotation=None):
 
 
 def make_clb_rhythm(
-    time_signatures, *, extra_counts=None, fuse_counts=None, rotation=None
+    time_signatures, *, extra_counts=(), fuse_counts=None, rotation=None
 ):
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
     extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
@@ -177,7 +177,7 @@ def make_eh_trill_rhythm(
     counts,
     *commands,
     division_fuse_counts=None,
-    extra_counts=None,
+    extra_counts=(),
 ):
     counts = list(counts) + [-1000]
     tag = baca.tags.function_name(inspect.currentframe())
@@ -689,7 +689,7 @@ def make_spazzolati_rhythm(
     *commands,
     counts_rotation=None,
     denominator=16,
-    extra_counts=None,
+    extra_counts=(),
 ):
     counts_ = [
         [1, 1, 1],
