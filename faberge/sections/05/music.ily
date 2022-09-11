@@ -700,7 +700,7 @@ number.5.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     gs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -934,7 +934,7 @@ number.5.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     gs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -958,7 +958,7 @@ number.5.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     a'1
     % AFTER:
     % COMMANDS:
@@ -1319,7 +1319,7 @@ number.5.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b'2.
     % AFTER:
     % ARTICULATIONS:
@@ -1571,7 +1571,7 @@ number.5.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b'1
     % AFTER:
     % SPANNER_STARTS:
@@ -1629,7 +1629,7 @@ number.5.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b'2.
     % AFTER:
     % COMMANDS:
@@ -1640,7 +1640,7 @@ number.5.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b'1
     % AFTER:
     % COMMANDS:
@@ -1675,7 +1675,7 @@ number.5.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b'2.
     % AFTER:
     % COMMANDS:
@@ -1907,7 +1907,7 @@ number.5.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d1
     % AFTER:
     % ARTICULATIONS:
@@ -2141,7 +2141,7 @@ number.5.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     d2.
     % AFTER:
     % ARTICULATIONS:
@@ -2165,7 +2165,7 @@ number.5.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs!1
     % AFTER:
     % COMMANDS:
@@ -2526,7 +2526,7 @@ number.5.Clarinet.Music = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     c2.
     % AFTER:
     % COMMANDS:
@@ -3398,7 +3398,7 @@ number.5.Percussion.Music = {
     \override DynamicLineSpanner.staff-padding = 6
       %! baca.stem_down(1)
     \override Stem.direction = #down
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -3447,28 +3447,28 @@ number.5.Percussion.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 6]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3489,7 +3489,7 @@ number.5.Percussion.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b2.
     % AFTER:
     % STEM_TREMOLOS:

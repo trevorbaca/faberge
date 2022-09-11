@@ -68,7 +68,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     for n in [2, 3, 4, 5, 6, 7, 8]:
         if n in [2, 4, 5, 8]:
-            music = baca.make_notes(accumulator.get(n))
+            music = baca.make_notes_function(accumulator.get(n))
             leaf = baca.select.pleaf(music, -1)
             baca.breathe(leaf)
         else:
@@ -81,7 +81,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     for n in [1, 2, 3, 4, 5, (6, 7), 8]:
         if n in [2, 4, 5, 8]:
-            music = baca.make_notes(accumulator.get(n))
+            music = baca.make_notes_function(accumulator.get(n))
             pleaf = baca.select.pleaf(music, -1)
             baca.breathe(pleaf)
         else:
@@ -99,7 +99,7 @@ def CL(voice, accumulator):
     voice.extend(music)
     for n in [2, 3, 4, 5, (6, 7), 8]:
         if n in [2, 4, 5, 8]:
-            music = baca.make_notes(accumulator.get(n))
+            music = baca.make_notes_function(accumulator.get(n))
             pleaf = baca.select.pleaf(music, -1)
             baca.breathe(pleaf)
         else:
@@ -129,7 +129,7 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = library.make_downbeat_attack(accumulator.get(2))
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(3, 8))
+    music = baca.make_notes_function(accumulator.get(3, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9))
     voice.extend(music)

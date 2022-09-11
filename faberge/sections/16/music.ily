@@ -1934,7 +1934,7 @@ number.16.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b\breve
     % AFTER:
     % ARTICULATIONS:
@@ -2003,42 +2003,42 @@ number.16.Percussion.Music = {
       %! abjad.glissando(1)
       %! baca.glissando()
     \override Stem.transparent = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 6]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b\breve
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2065,7 +2065,7 @@ number.16.Percussion.Music = {
       %! abjad.glissando(6)
       %! baca.glissando()
     \revert Stem.transparent
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b1..
     % AFTER:
     % COMMANDS:
@@ -2915,7 +2915,7 @@ number.16.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     dqf''!1..
     % AFTER:
     % STEM_TREMOLOS:
@@ -3255,7 +3255,7 @@ number.16.Cello.Music = {
     % COMMANDS:
       %! baca.mark()
     \mark \faberge-colophon-markup
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     e,1..
     % AFTER:
     % STEM_TREMOLOS:

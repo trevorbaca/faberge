@@ -277,7 +277,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 3))
+    music = baca.make_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = library.make_downbeat_attack(accumulator.get(4))
     voice.extend(music)
