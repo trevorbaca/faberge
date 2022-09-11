@@ -7786,7 +7786,7 @@ number.7.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b,1..
     % AFTER:
     % ARTICULATIONS:
@@ -7874,14 +7874,14 @@ number.7.Cello.Music = {
       %! abjad.glissando(3)
       %! baca.glissando()
     \override NoteColumn.glissando-skip = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b,1.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     b,1
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -107,7 +107,7 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = baca.make_notes(accumulator.get())
+    music = baca.make_notes_function(accumulator.get())
     voice.extend(music)
 
 
@@ -117,7 +117,7 @@ def VN(voice, accumulator):
         tuplet_ratios=[(2, 3)],
     )
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8))
+    music = baca.make_notes_function(accumulator.get(8))
     voice.extend(music)
 
 
@@ -127,14 +127,14 @@ def VA(voice, accumulator):
         tuplet_ratios=[(2, 1)],
     )
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8))
+    music = baca.make_notes_function(accumulator.get(8))
     voice.extend(music)
 
 
 def VC(voice, accumulator):
     music = library.make_halves_rhythm(accumulator.get(1, 7))
     voice.extend(music)
-    music = baca.make_notes(accumulator.get(8))
+    music = baca.make_notes_function(accumulator.get(8))
     voice.extend(music)
 
 
