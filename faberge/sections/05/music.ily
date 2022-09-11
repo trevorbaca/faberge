@@ -5159,6 +5159,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \mp
     % START_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -5212,6 +5213,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5504,6 +5506,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -5557,6 +5560,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5852,6 +5856,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \pp
     % START_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -5905,6 +5910,7 @@ number.5.Cello.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:

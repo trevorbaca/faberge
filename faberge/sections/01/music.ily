@@ -1827,6 +1827,7 @@ number.1.Violin.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Violin”)"
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -1897,6 +1898,7 @@ number.1.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1916,6 +1918,7 @@ number.1.Violin.Music = {
     e'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1925,6 +1928,7 @@ number.1.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1944,6 +1948,7 @@ number.1.Violin.Music = {
     e'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1958,6 +1963,7 @@ number.1.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2343,6 +2349,7 @@ number.1.Viola.Music = {
         e'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2357,6 +2364,7 @@ number.1.Viola.Music = {
         e'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:

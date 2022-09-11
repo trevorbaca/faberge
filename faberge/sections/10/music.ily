@@ -10247,6 +10247,7 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \!
     % START_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -10345,6 +10346,7 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
