@@ -6156,6 +6156,7 @@ number.11.Violin.Music = {
       %! baca.dynamic()
     \baca-effort-f
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -6251,6 +6252,7 @@ number.11.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6270,6 +6272,7 @@ number.11.Violin.Music = {
     e'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6279,6 +6282,7 @@ number.11.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6298,6 +6302,7 @@ number.11.Violin.Music = {
     e'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6312,6 +6317,7 @@ number.11.Violin.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7241,6 +7247,7 @@ number.11.Viola.Music = {
         e'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7255,6 +7262,7 @@ number.11.Viola.Music = {
         e'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -7927,6 +7935,7 @@ number.11.Cello.Music = {
       %! baca.hairpin()
     \!
     % START_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -7974,6 +7983,7 @@ number.11.Cello.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
+      %! faberge.make_airtone_chain_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:

@@ -5253,6 +5253,7 @@ number.7.Violin.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -5362,6 +5363,7 @@ number.7.Violin.Music = {
     cs''!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5381,6 +5383,7 @@ number.7.Violin.Music = {
     cs''!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5390,6 +5393,7 @@ number.7.Violin.Music = {
     cs''!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5409,6 +5413,7 @@ number.7.Violin.Music = {
     cs''!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5423,6 +5428,7 @@ number.7.Violin.Music = {
     cs''!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6518,6 +6524,7 @@ number.7.Viola.Music = {
           %! baca.dynamic()
         \baca-effort-f
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -6622,6 +6629,7 @@ number.7.Viola.Music = {
         cs''!8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -6650,6 +6658,7 @@ number.7.Viola.Music = {
         cs''!8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6664,6 +6673,7 @@ number.7.Viola.Music = {
         cs''!8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:

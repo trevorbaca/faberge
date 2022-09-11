@@ -4539,6 +4539,7 @@ number.3.Flute.Music = {
       %! baca.hairpin()
     \p
     % START_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -4554,6 +4555,7 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % STOP_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5181,6 +5183,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \mf
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -5206,6 +5209,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -5421,6 +5425,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -5474,6 +5479,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -5505,6 +5511,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5556,6 +5563,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -5794,6 +5802,7 @@ number.3.Flute.Music = {
       %! baca.stem_tremolo()
     :32
     % START_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5823,6 +5832,7 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
     % STOP_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5860,6 +5870,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -5909,6 +5920,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -6138,6 +6150,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -6191,6 +6204,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -6580,6 +6594,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \mp
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -6620,6 +6635,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -6646,6 +6662,7 @@ number.3.Flute.Music = {
         g'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6684,6 +6701,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -6931,6 +6949,7 @@ number.3.Flute.Music = {
         g''16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -6951,6 +6970,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7172,6 +7192,7 @@ number.3.Flute.Music = {
         g'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -7197,6 +7218,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7367,6 +7389,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \f
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -7420,6 +7443,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -7443,6 +7467,7 @@ number.3.Flute.Music = {
       %! baca.stem_tremolo()
     :32
     % START_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7459,6 +7484,7 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % STOP_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -8141,6 +8167,7 @@ number.3.Flute.Music = {
     g''8
     % AFTER:
     % START_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8159,6 +8186,7 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % STOP_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -8354,6 +8382,7 @@ number.3.Flute.Music = {
         g'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8372,6 +8401,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -8401,6 +8431,7 @@ number.3.Flute.Music = {
     g'8
     % AFTER:
     % START_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -8421,6 +8452,7 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % STOP_BEAM:
+      %! faberge.make_glow_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -8809,6 +8841,7 @@ number.3.Flute.Music = {
         g''16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -8850,6 +8883,7 @@ number.3.Flute.Music = {
         g'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9058,6 +9092,7 @@ number.3.Flute.Music = {
         g''16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9103,6 +9138,7 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9377,6 +9413,7 @@ number.3.Flute.Music = {
         gs''16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -9418,6 +9455,7 @@ number.3.Flute.Music = {
         gs''!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_glow_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
@@ -9816,6 +9854,7 @@ number.3.EnglishHorn.Music = {
           %! baca.dynamic()
         \baca-effort-ff
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -9835,6 +9874,7 @@ number.3.EnglishHorn.Music = {
         gs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -9946,6 +9986,7 @@ number.3.EnglishHorn.Music = {
     ef'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9955,6 +9996,7 @@ number.3.EnglishHorn.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9977,6 +10019,7 @@ number.3.EnglishHorn.Music = {
         a'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -9996,6 +10039,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10029,6 +10073,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10048,6 +10093,7 @@ number.3.EnglishHorn.Music = {
         d'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10161,6 +10207,7 @@ number.3.EnglishHorn.Music = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10170,6 +10217,7 @@ number.3.EnglishHorn.Music = {
     cs'!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10192,6 +10240,7 @@ number.3.EnglishHorn.Music = {
         fqs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10211,6 +10260,7 @@ number.3.EnglishHorn.Music = {
         eqs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10246,6 +10296,7 @@ number.3.EnglishHorn.Music = {
         ef'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10265,6 +10316,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10376,6 +10428,7 @@ number.3.EnglishHorn.Music = {
     aqf'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10385,6 +10438,7 @@ number.3.EnglishHorn.Music = {
     bf'!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10407,6 +10461,7 @@ number.3.EnglishHorn.Music = {
         a'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10426,6 +10481,7 @@ number.3.EnglishHorn.Music = {
         ef'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10461,6 +10517,7 @@ number.3.EnglishHorn.Music = {
         e'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10480,6 +10537,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10591,6 +10649,7 @@ number.3.EnglishHorn.Music = {
     cs'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10600,6 +10659,7 @@ number.3.EnglishHorn.Music = {
     a'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10622,6 +10682,7 @@ number.3.EnglishHorn.Music = {
         gs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10641,6 +10702,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % COMMANDS:
@@ -10887,6 +10949,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10896,6 +10959,7 @@ number.3.EnglishHorn.Music = {
         a'8.
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10945,6 +11009,7 @@ number.3.EnglishHorn.Music = {
     ef'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10954,6 +11019,7 @@ number.3.EnglishHorn.Music = {
     e'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10978,6 +11044,7 @@ number.3.EnglishHorn.Music = {
         a'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10997,6 +11064,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11025,6 +11093,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11044,6 +11113,7 @@ number.3.EnglishHorn.Music = {
         d'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11108,6 +11178,7 @@ number.3.EnglishHorn.Music = {
         gs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11117,6 +11188,7 @@ number.3.EnglishHorn.Music = {
         aqf'!8.
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11168,6 +11240,7 @@ number.3.EnglishHorn.Music = {
     cs'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11177,6 +11250,7 @@ number.3.EnglishHorn.Music = {
     fqs'!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11199,6 +11273,7 @@ number.3.EnglishHorn.Music = {
         f'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11218,6 +11293,7 @@ number.3.EnglishHorn.Music = {
         ef'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11248,6 +11324,7 @@ number.3.EnglishHorn.Music = {
         f'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11267,6 +11344,7 @@ number.3.EnglishHorn.Music = {
         fqs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11796,6 +11874,7 @@ number.3.EnglishHorn.Music = {
           %! baca.dynamic()
         \baca-effort-ff
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11815,6 +11894,7 @@ number.3.EnglishHorn.Music = {
         a'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11926,6 +12006,7 @@ number.3.EnglishHorn.Music = {
     fqs'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11935,6 +12016,7 @@ number.3.EnglishHorn.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11957,6 +12039,7 @@ number.3.EnglishHorn.Music = {
         d'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11976,6 +12059,7 @@ number.3.EnglishHorn.Music = {
         gs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12011,6 +12095,7 @@ number.3.EnglishHorn.Music = {
         aqf'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12030,6 +12115,7 @@ number.3.EnglishHorn.Music = {
         fqs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12141,6 +12227,7 @@ number.3.EnglishHorn.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12150,6 +12237,7 @@ number.3.EnglishHorn.Music = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12172,6 +12260,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12191,6 +12280,7 @@ number.3.EnglishHorn.Music = {
         e'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12226,6 +12316,7 @@ number.3.EnglishHorn.Music = {
         eqs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12245,6 +12336,7 @@ number.3.EnglishHorn.Music = {
         a'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12379,6 +12471,7 @@ number.3.EnglishHorn.Music = {
       %! baca.hairpin()
     \baca-effort-ff
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -12415,6 +12508,7 @@ number.3.EnglishHorn.Music = {
     aqf'!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12437,6 +12531,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12456,6 +12551,7 @@ number.3.EnglishHorn.Music = {
         f'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12491,6 +12587,7 @@ number.3.EnglishHorn.Music = {
         d'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12510,6 +12607,7 @@ number.3.EnglishHorn.Music = {
         gs'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12621,6 +12719,7 @@ number.3.EnglishHorn.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12630,6 +12729,7 @@ number.3.EnglishHorn.Music = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12652,6 +12752,7 @@ number.3.EnglishHorn.Music = {
         e'16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12671,6 +12772,7 @@ number.3.EnglishHorn.Music = {
         d'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12706,6 +12808,7 @@ number.3.EnglishHorn.Music = {
         cs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12725,6 +12828,7 @@ number.3.EnglishHorn.Music = {
         ef'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12836,6 +12940,7 @@ number.3.EnglishHorn.Music = {
     gs'!16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12845,6 +12950,7 @@ number.3.EnglishHorn.Music = {
     aqf'!16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_keynoise_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12867,6 +12973,7 @@ number.3.EnglishHorn.Music = {
         eqs'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12886,6 +12993,7 @@ number.3.EnglishHorn.Music = {
         aqf'!16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12921,6 +13029,7 @@ number.3.EnglishHorn.Music = {
         bf'!16
         % AFTER:
         % START_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12940,6 +13049,7 @@ number.3.EnglishHorn.Music = {
         f'16
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_keynoise_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -22613,6 +22723,7 @@ number.3.Violin.Music = {
       %! baca.dynamic()
     \baca-effort-ff
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -22668,6 +22779,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22687,6 +22799,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22696,6 +22809,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22715,6 +22829,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22729,6 +22844,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22745,6 +22861,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22754,6 +22871,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22763,6 +22881,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22772,6 +22891,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22788,6 +22908,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22797,6 +22918,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22811,6 +22933,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22825,6 +22948,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22844,6 +22968,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22853,6 +22978,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22872,6 +22998,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22886,6 +23013,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22902,6 +23030,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22911,6 +23040,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22920,6 +23050,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -22929,6 +23060,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -22960,6 +23092,7 @@ number.3.Violin.Music = {
       %! baca.hairpin()
     \baca-effort-ff-parenthesized
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -22996,6 +23129,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23010,6 +23144,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23024,6 +23159,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23043,6 +23179,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23052,6 +23189,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23073,6 +23211,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23087,6 +23226,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23101,6 +23241,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23110,6 +23251,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23119,6 +23261,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23128,6 +23271,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23142,6 +23286,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23151,6 +23296,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23167,6 +23313,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23181,6 +23328,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23200,6 +23348,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23209,6 +23358,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23228,6 +23378,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23242,6 +23393,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23258,6 +23410,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23267,6 +23420,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23276,6 +23430,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23285,29 +23440,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
-      %! rmakers.RewriteMeterCommand.__call__
-    ]
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
       %! faberge.make_spazzolati_rhythm()
-    r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! faberge.make_spazzolati_rhythm()
-    f'16
-    % AFTER:
-    % START_BEAM:
-      %! rmakers.RewriteMeterCommand.__call__
-    [
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! faberge.make_spazzolati_rhythm()
-    f'16
-    % AFTER:
-    % STOP_BEAM:
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23322,6 +23455,32 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
+      %! rmakers.RewriteMeterCommand.__call__
+    [
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! faberge.make_spazzolati_rhythm()
+    f'16
+    % AFTER:
+    % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
+      %! rmakers.RewriteMeterCommand.__call__
+    ]
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! faberge.make_spazzolati_rhythm()
+    r8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! faberge.make_spazzolati_rhythm()
+    f'16
+    % AFTER:
+    % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23336,6 +23495,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23357,6 +23517,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23366,6 +23527,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23385,6 +23547,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23399,6 +23562,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23413,6 +23577,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23422,6 +23587,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23433,6 +23599,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23442,6 +23609,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23456,6 +23624,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23465,6 +23634,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23479,6 +23649,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23493,6 +23664,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23512,6 +23684,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23521,6 +23694,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23542,6 +23716,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23556,6 +23731,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23570,6 +23746,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23579,6 +23756,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23590,6 +23768,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23599,6 +23778,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23613,6 +23793,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23622,6 +23803,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23636,6 +23818,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23650,6 +23833,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23669,6 +23853,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23678,6 +23863,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23699,6 +23885,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23713,6 +23900,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23727,6 +23915,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23736,6 +23925,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23745,6 +23935,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23754,6 +23945,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23768,6 +23960,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23777,6 +23970,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23793,6 +23987,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23807,6 +24002,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23826,6 +24022,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23835,6 +24032,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -23854,6 +24052,7 @@ number.3.Violin.Music = {
     f'16
     % AFTER:
     % START_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -23883,6 +24082,7 @@ number.3.Violin.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -27063,6 +27263,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27077,6 +27278,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27126,6 +27328,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27140,6 +27343,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27213,6 +27417,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27227,6 +27432,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27300,6 +27506,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27314,6 +27521,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27406,6 +27614,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27420,6 +27629,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27493,6 +27703,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27507,6 +27718,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27580,6 +27792,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27594,6 +27807,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27641,6 +27855,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27655,6 +27870,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27728,6 +27944,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27742,6 +27959,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27815,6 +28033,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27829,6 +28048,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27878,6 +28098,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27892,6 +28113,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -27963,6 +28185,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -27977,6 +28200,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -28052,6 +28276,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -28066,6 +28291,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -28113,6 +28339,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -28127,6 +28354,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -28200,6 +28428,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -28214,6 +28443,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -28287,6 +28517,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -28301,6 +28532,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -28348,6 +28580,7 @@ number.3.Viola.Music = {
         f'8
         % AFTER:
         % START_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -28377,6 +28610,7 @@ number.3.Viola.Music = {
           %! baca.hairpin()
         \!
         % STOP_BEAM:
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
