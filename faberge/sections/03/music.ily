@@ -4543,6 +4543,7 @@ number.3.Flute.Music = {
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4621,6 +4622,7 @@ number.3.Flute.Music = {
         g''4
         % AFTER:
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4790,6 +4792,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \p
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4838,6 +4841,7 @@ number.3.Flute.Music = {
         g'4
         % AFTER:
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4917,6 +4921,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5075,6 +5080,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5187,6 +5193,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5406,6 +5413,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5429,6 +5437,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5771,6 +5780,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \f
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5874,6 +5884,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6001,6 +6012,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6154,6 +6166,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6283,6 +6296,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6385,6 +6399,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6395,6 +6410,7 @@ number.3.Flute.Music = {
     g'4.
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6598,6 +6614,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6744,6 +6761,7 @@ number.3.Flute.Music = {
         g'8
         % AFTER:
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6827,6 +6845,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6933,6 +6952,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6953,6 +6973,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7076,6 +7097,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7176,6 +7198,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7196,6 +7219,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7393,6 +7417,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7522,6 +7547,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7711,6 +7737,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7730,6 +7757,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7820,6 +7848,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7928,6 +7957,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7947,6 +7977,7 @@ number.3.Flute.Music = {
           %! baca.stem_tremolo()
         :32
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8122,6 +8153,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8138,6 +8170,7 @@ number.3.Flute.Music = {
         g''4
         % AFTER:
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8345,6 +8378,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \p
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8435,6 +8469,7 @@ number.3.Flute.Music = {
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8661,6 +8696,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8765,6 +8801,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \ppp
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -8845,6 +8882,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9050,6 +9088,7 @@ number.3.Flute.Music = {
           %! baca.hairpin()
         \ppp
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9096,6 +9135,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9397,6 +9437,7 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9417,6 +9458,7 @@ number.3.Flute.Music = {
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9539,6 +9581,7 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10798,6 +10841,7 @@ number.3.EnglishHorn.Music = {
     atqf'16
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10828,6 +10872,7 @@ number.3.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10839,6 +10884,7 @@ number.3.EnglishHorn.Music = {
       %! faberge.make_eh_trill_rhythm()
     [
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10863,6 +10909,7 @@ number.3.EnglishHorn.Music = {
     aqf'1
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(2)
@@ -11429,6 +11476,7 @@ number.3.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11439,6 +11487,7 @@ number.3.EnglishHorn.Music = {
     a'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11512,6 +11561,7 @@ number.3.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11522,6 +11572,7 @@ number.3.EnglishHorn.Music = {
     aqf'4
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11563,6 +11614,7 @@ number.3.EnglishHorn.Music = {
     af'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

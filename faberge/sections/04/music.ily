@@ -853,6 +853,7 @@ number.4.Flute.Music = {
     b'8
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1273,6 +1274,7 @@ number.4.EnglishHorn.Music = {
     b'8
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1342,6 +1344,7 @@ number.4.EnglishHorn.Music = {
     b'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4117,6 +4120,7 @@ number.4.Violin.Music = {
     b'8
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4156,6 +4160,7 @@ number.4.Violin.Music = {
     b'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4484,6 +4489,7 @@ number.4.Viola.Music = {
     c'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4553,6 +4559,7 @@ number.4.Viola.Music = {
     c'8
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4626,6 +4633,7 @@ number.4.Viola.Music = {
     c'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4789,6 +4797,7 @@ number.4.Viola.Music = {
     c'2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_airtone_chain_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

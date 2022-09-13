@@ -9689,6 +9689,7 @@ number.2.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9705,6 +9706,7 @@ number.2.Flute.Music = {
         fs''4
         % AFTER:
         % SPANNER_STARTS:
+          %! faberge.make_glow_rhythm()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -9825,6 +9827,7 @@ number.2.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
+      %! faberge.make_glow_rhythm()
     \repeatTie
     % COMMANDS:
       %! baca.breathe()
@@ -10227,6 +10230,7 @@ number.2.EnglishHorn.Music = {
     b'4
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10525,6 +10529,7 @@ number.2.EnglishHorn.Music = {
       %! faberge.make_eh_trill_rhythm()
     [
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10580,6 +10585,7 @@ number.2.EnglishHorn.Music = {
     btqs'16
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10601,6 +10607,7 @@ number.2.EnglishHorn.Music = {
     cs''4
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10801,6 +10808,7 @@ number.2.EnglishHorn.Music = {
     ds''2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10903,6 +10911,7 @@ number.2.EnglishHorn.Music = {
     dqs''16
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11090,6 +11099,7 @@ number.2.EnglishHorn.Music = {
     es''2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11148,6 +11158,7 @@ number.2.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11158,6 +11169,7 @@ number.2.EnglishHorn.Music = {
     etqs''2
     % AFTER:
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12126,6 +12138,7 @@ number.2.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12139,6 +12152,7 @@ number.2.EnglishHorn.Music = {
       %! faberge.make_eh_trill_rhythm()
     [
     % SPANNER_STARTS:
+      %! faberge.make_eh_trill_rhythm()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
