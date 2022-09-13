@@ -187,7 +187,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_repeat_tied_notes_function(accumulator.get(1))
     voice.extend(music)
-    music = baca.make_rests(accumulator.get(2, 88))
+    music = baca.make_rests_function(accumulator.get(2, 88))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(89, 92))
     voice.extend(music)

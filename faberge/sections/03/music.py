@@ -753,7 +753,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_repeat_tied_notes_function(accumulator.get(1))
     voice.extend(music)
-    music = baca.make_rests(accumulator.get(2, 44))
+    music = baca.make_rests_function(accumulator.get(2, 44))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(45, 52))
     voice.extend(music)
@@ -779,7 +779,7 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = baca.make_single_attack(accumulator.get(1), abjad.Duration(3, 4))
+    music = baca.make_single_attack_function(accumulator.get(1), abjad.Duration(3, 4))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2, 22), head=voice.name)
     voice.extend(music)
@@ -801,7 +801,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = baca.make_single_attack(accumulator.get(1), abjad.Duration(3, 4))
+    music = baca.make_single_attack_function(accumulator.get(1), abjad.Duration(3, 4))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2, 8), head=voice.name)
     voice.extend(music)
@@ -854,7 +854,9 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 36))
     voice.extend(music)
-    music = baca.make_repeated_duration_notes(accumulator.get(37, 60), [(1, 4)])
+    music = baca.make_repeated_duration_notes_function(
+        accumulator.get(37, 60), [(1, 4)]
+    )
     voice.extend(music)
     music = library.make_clb_rhythm(
         accumulator.get(61, 79),
