@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from faberge import library
 
@@ -213,9 +212,7 @@ def PERC(voice, accumulator):
 def VN(voice, accumulator):
     music = library.make_spazzolati_rhythm(
         accumulator.get(1),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
+        force_rest_tuplets=~abjad.Pattern([0, 1, 2]),
         counts_rotation=0,
     )
     voice.extend(music)
@@ -244,12 +241,10 @@ def VN(voice, accumulator):
 def VA(voice, accumulator):
     music = library.make_spazzolati_rhythm(
         accumulator.get(1),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, (3, None)),
-        ),
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
+        force_rest_tuplets=~abjad.Pattern([0, 1, 2]),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
