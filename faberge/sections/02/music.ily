@@ -10181,17 +10181,17 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 13]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     b'8.
     % AFTER:
     % ARTICULATIONS:
@@ -10226,16 +10226,16 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 14]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     b'4
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -10246,12 +10246,12 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     btqf'!8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10266,7 +10266,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10277,7 +10277,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     bqf'!8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10294,7 +10294,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 15]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10305,7 +10305,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     b'8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10320,7 +10320,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r2
     % AFTER:
     % SPANNER_STOPS:
@@ -10333,7 +10333,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 16]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10464,17 +10464,17 @@ number.2.EnglishHorn.Music = {
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(1)
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     cs''!8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10489,7 +10489,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10500,7 +10500,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ctqs''!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -10522,28 +10522,28 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 28]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ctqs''16
     % AFTER:
     % START_BEAM:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     [
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     bs'!8.
     % AFTER:
     % STOP_BEAM:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -10554,12 +10554,12 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     btqs'!8.
     % AFTER:
     % SPANNER_STARTS:
@@ -10581,16 +10581,16 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 29]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     btqs'16
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     cs''!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -10603,16 +10603,16 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 30]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     cs''4
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10623,7 +10623,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ctqs''!8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10772,17 +10772,17 @@ number.2.EnglishHorn.Music = {
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(1)
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ds''!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -10804,16 +10804,16 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 42]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ds''2
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10824,7 +10824,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ctqs''!8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10839,7 +10839,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -10850,7 +10850,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     d''8.
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -10867,7 +10867,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 43]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r2
     % AFTER:
     % SPANNER_STOPS:
@@ -10880,12 +10880,12 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 44]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     dqs''!2...
     % AFTER:
     % SPANNER_STARTS:
@@ -10907,23 +10907,23 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 45]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     dqs''16
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     dtqs''!2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 46]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r2.
     % AFTER:
     % SPANNER_STOPS:
@@ -11063,17 +11063,17 @@ number.2.EnglishHorn.Music = {
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(1)
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     es''!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -11095,18 +11095,18 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 58]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     es''2
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 59]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -11117,12 +11117,12 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     eqs''!4
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -11137,7 +11137,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     etqs''!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -11150,7 +11150,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 60]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     etqs''2
     % AFTER:
     % SPANNER_STARTS:
@@ -11158,23 +11158,23 @@ number.2.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 61]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     etqs''2
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % AFTER:
     % SPANNER_STOPS:
@@ -11187,7 +11187,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 62]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r1
     % AFTER:
     % COMMANDS:
@@ -12031,17 +12031,17 @@ number.2.EnglishHorn.Music = {
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(1)
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     g'4..
     % AFTER:
     % ARTICULATIONS:
@@ -12071,7 +12071,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 90]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -12082,7 +12082,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     gqs'!4..
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -12097,7 +12097,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r16
     % AFTER:
     % SPANNER_STOPS:
@@ -12108,7 +12108,7 @@ number.2.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     gqf'!4..
     % AFTER:
     % SPANNER_STARTS:
@@ -12130,7 +12130,7 @@ number.2.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 91]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     gqf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -12138,35 +12138,35 @@ number.2.EnglishHorn.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 92]
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     gqf'16
     % AFTER:
     % START_BEAM:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     [
     % SPANNER_STARTS:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     gs'!8.
     % AFTER:
     % STOP_BEAM:
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_eh_trill_rhythm()
+      %! faberge.make_eh_trill_rhythm_function()
     r2.
     % AFTER:
     % SPANNER_STOPS:
@@ -25699,7 +25699,7 @@ number.2.Percussion.Music = {
     \once \override Stem.direction = #down
       %! baca.dls_staff_padding(1)
     \override DynamicLineSpanner.staff-padding = 6
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -25732,7 +25732,7 @@ number.2.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2
     % AFTER:
     % COMMANDS:

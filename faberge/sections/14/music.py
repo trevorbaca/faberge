@@ -63,7 +63,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 3),
         20,
         [1, 3, 5],
@@ -120,19 +120,19 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(1),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(accumulator.get(2, 4))
+    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(2, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(5),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(accumulator.get(6, 8))
+    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(6, 8))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -193,7 +193,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 3),
         20,
         [0, 2, 4],
@@ -209,13 +209,13 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_back_incised_divisions(accumulator.get())
+    music = library.make_back_incised_divisions_function(accumulator.get())
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 4),
         20,
         [0, 1, 4, 5, 7, 8],

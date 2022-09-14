@@ -104,28 +104,28 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 12))
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(13, 16),
         counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(17, 26))
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(27, 30),
         counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(31, 40))
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(41, 46),
         counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(47, 56))
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(57, 62),
         counts=[-4, -1, 15, -4, -1, 4, 23],
     )
@@ -138,7 +138,7 @@ def EH(voice, accumulator):
         tuplet_ratio_rotation=0,
     )
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(89, 92),
         counts=[-4, -1, 7, -1, 7, -1, 16, 3],
     )
@@ -243,7 +243,7 @@ def PERC(voice, accumulator):
         "{ r4 c2 c1 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(87))
+    music = library.make_downbeat_attack_function(accumulator.get(87))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(88))
     voice.extend(music)

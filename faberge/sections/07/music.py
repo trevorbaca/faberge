@@ -196,11 +196,11 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(3))
+    music = library.make_downbeat_attack_function(accumulator.get(3))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(4))
+    music = library.make_downbeat_attack_function(accumulator.get(4))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(5),
         denominator=2,
     )
@@ -218,17 +218,17 @@ def VN(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(3),
         extra_counts=[3],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(8),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(5, 7),
         extra_counts=[2, 1],
         fuse_counts=[2, 1],
@@ -249,19 +249,19 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(3),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(5))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(6, 7),
         extra_counts=[2],
         fuse_counts=[2],
@@ -274,7 +274,7 @@ def VA(voice, accumulator):
 def VC(voice, accumulator):
     music = baca.make_notes_function(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(4))
+    music = library.make_downbeat_attack_function(accumulator.get(4))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }",

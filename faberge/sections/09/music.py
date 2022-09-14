@@ -136,19 +136,19 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(1),
         denominator=2,
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(2),
         denominator=2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 4), head=voice.name)
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(5),
         denominator=2,
     )

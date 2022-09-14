@@ -4600,17 +4600,17 @@ number.10.Piano.RH.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4938,17 +4938,17 @@ number.10.Piano.LH.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5381,7 +5381,7 @@ number.10.Percussion.Music = {
     % COMMANDS:
       %! baca.stem_down(1)
     \override Stem.direction = #down
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % ARTICULATIONS:
@@ -5450,14 +5450,14 @@ number.10.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 6]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % ARTICULATIONS:
@@ -5469,7 +5469,7 @@ number.10.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1
     % AFTER:
     % COMMANDS:
@@ -10025,7 +10025,7 @@ number.10.Cello.Music = {
     \override DynamicLineSpanner.staff-padding = 8
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     bf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -10157,7 +10157,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     g2
     % AFTER:
     % ARTICULATIONS:
@@ -10208,7 +10208,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -10247,7 +10247,7 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \!
     % START_BEAM:
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -10327,7 +10327,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     fqs''!8
     % AFTER:
     % ARTICULATIONS:
@@ -10346,7 +10346,7 @@ number.10.Cello.Music = {
       %! baca.hairpin()
     \!
     % STOP_BEAM:
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -10378,7 +10378,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     e'4.
     % AFTER:
     % ARTICULATIONS:
@@ -10453,7 +10453,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     aqf''!4.
     % AFTER:
     % ARTICULATIONS:
@@ -10498,7 +10498,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     c4
     % AFTER:
     % ARTICULATIONS:
@@ -10551,7 +10551,7 @@ number.10.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     bf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -10690,7 +10690,7 @@ number.10.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
