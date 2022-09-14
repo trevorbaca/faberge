@@ -666,9 +666,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = library.make_keynoise_rhythm(
         accumulator.get(1, 12),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
+        force_rest_tuplets=([0, 4], 9),
     )
     voice.extend(music)
     music = library.make_eh_trill_rhythm(
@@ -678,18 +676,14 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = library.make_keynoise_rhythm(
         accumulator.get(17, 22),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
+        force_rest_tuplets=([0, 4], 9),
         tuplet_ratio_rotation=-1,
     )
     voice.extend(music)
     music = library.make_eh_trill_rhythm(
         accumulator.get(23, 30),
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
+        force_rest_tuplets=[-1],
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(31, 36))
@@ -698,9 +692,7 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = library.make_keynoise_rhythm(
         accumulator.get(45, 60),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
+        force_rest_tuplets=([0, 4], 9),
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61, 68))

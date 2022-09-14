@@ -98,10 +98,18 @@ def make_back_incised_divisions(time_signatures):
     return music
 
 
-def make_bcl_color_fingering_rhythm(time_signatures, *commands, rotation=None):
+def make_bcl_color_fingering_rhythm(
+    time_signatures, *, force_rest_lts=None, rotation=None
+):
     counts = [1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3]
     counts = abjad.sequence.rotate(counts, n=rotation)
     tag = baca.tags.function_name(inspect.currentframe())
+    commands = []
+    if force_rest_lts is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.lts(_), force_rest_lts)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=[2]),
         *commands,
@@ -175,12 +183,19 @@ def make_downbeat_attack(time_signatures, *, count=1, denominator=4):
 def make_eh_trill_rhythm(
     time_signatures,
     counts,
-    *commands,
+    *,
     division_fuse_counts=None,
     extra_counts=(),
+    force_rest_tuplets=None,
 ):
     counts = list(counts) + [-1000]
     tag = baca.tags.function_name(inspect.currentframe())
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=extra_counts, read_talea_once_only=True),
         *commands,
@@ -399,26 +414,6 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=(0,)
     return music
 
 
-def make_front_incised_divisions(time_signatures, *commands, start_rest_durations=()):
-    start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
-    denominators = [_.denominator for _ in start_rest_durations]
-    lcm = abjad.math.least_common_multiple(*denominators)
-    start_rest_durations = [_.with_denominator(lcm) for _ in start_rest_durations]
-    prefix_talea = [-_.numerator for _ in start_rest_durations]
-    tag = baca.tags.function_name(inspect.currentframe())
-    rhythm_maker = rmakers.stack(
-        rmakers.incised(
-            prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
-        ),
-        *commands,
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        tag=tag,
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
 def make_glow_rhythm(
     time_signatures, *commands, tuplet_ratios=None, tuplet_ratio_rotation=None
 ):
@@ -473,7 +468,11 @@ def make_halves_rhythm(time_signatures, *, tuplet_ratios=[(1, 1)]):
 
 
 def make_keynoise_rhythm(
-    time_signatures, *commands, tuplet_ratios=None, tuplet_ratio_rotation=None
+    time_signatures,
+    *,
+    force_rest_tuplets=None,
+    tuplet_ratios=None,
+    tuplet_ratio_rotation=None,
 ):
     if tuplet_ratios is None:
         tuplet_ratios = _tuplet_ratios_a()
@@ -494,6 +493,12 @@ def make_keynoise_rhythm(
         return result
 
     tag = baca.tags.function_name(inspect.currentframe())
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.tuplet(tuplet_ratios_),
         *commands,
@@ -686,10 +691,11 @@ def make_single_taper(
 
 def make_spazzolati_rhythm(
     time_signatures,
-    *commands,
+    *,
     counts_rotation=None,
     denominator=16,
     extra_counts=(),
+    force_rest_tuplets=None,
 ):
     counts_ = [
         [1, 1, 1],
@@ -712,6 +718,12 @@ def make_spazzolati_rhythm(
         return result
 
     tag = baca.tags.function_name(inspect.currentframe())
+    commands = []
+    if force_rest_tuplets is not None:
+        command = rmakers.force_rest(
+            lambda _: abjad.select.get(baca.select.tuplets(_), force_rest_tuplets)
+        )
+        commands.append(command)
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, denominator, extra_counts=extra_counts),
         *commands,

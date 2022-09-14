@@ -134,9 +134,7 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = library.make_keynoise_rhythm(
         accumulator.get(81, 88),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([0, 4], 9)),
-        ),
+        force_rest_tuplets=([0, 4], 9),
         tuplet_ratio_rotation=0,
     )
     voice.extend(music)
@@ -281,11 +279,8 @@ def VN(voice, accumulator):
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         accumulator.get(63, 70),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
-            ),
+        force_rest_tuplets=~abjad.Pattern(
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]
         ),
         counts_rotation=-10,
     )
@@ -299,10 +294,8 @@ def VN(voice, accumulator):
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         accumulator.get(81, 88),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _, ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
-            ),
+        force_rest_tuplets=~abjad.Pattern(
+            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]
         ),
         counts_rotation=-11,
     )
@@ -321,11 +314,8 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         accumulator.get(63, 70),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
-            ),
+        force_rest_tuplets=~abjad.Pattern(
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]
         ),
         counts_rotation=-11,
         denominator=8,
@@ -336,11 +326,8 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         accumulator.get(81, 88),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(
-                _,
-                ~abjad.Pattern([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]),
-            ),
+        force_rest_tuplets=~abjad.Pattern(
+            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]
         ),
         counts_rotation=-12,
         denominator=8,

@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from faberge import library
 
@@ -83,9 +82,7 @@ def EH(voice, accumulator):
 def CL(voice, accumulator):
     music = library.make_bcl_color_fingering_rhythm(
         accumulator.get(1, 4),
-        rmakers.force_rest(
-            lambda _: abjad.select.get(baca.select.lts(_), [6, 7, 12, 17]),
-        ),
+        force_rest_lts=[6, 7, 12, 17],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5, 9), head=voice.name)
