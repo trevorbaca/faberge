@@ -65,7 +65,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def FL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(1, 2),
         denominator=2,
         extra_counts=[0, 1],
@@ -113,7 +113,7 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(1, 2),
         denominator=2,
         extra_counts=[1, 0],

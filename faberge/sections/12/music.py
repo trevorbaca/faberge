@@ -64,7 +64,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(1),
         denominator=8,
         extra_counts=[2],
@@ -72,7 +72,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(3),
         denominator=8,
     )
@@ -87,14 +87,14 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(1),
         denominator=8,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(3),
         denominator=8,
         extra_counts=[2],
@@ -107,7 +107,7 @@ def CL(voice, accumulator):
 def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     for n in [1, 2, 3]:
-        music = library.make_end_of_cell_attack(
+        music = library.make_end_of_cell_attack_function(
             accumulator.get(n),
             denominator=8,
         )

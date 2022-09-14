@@ -758,18 +758,18 @@ number.5.Flute.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 3]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         gs'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -805,7 +805,7 @@ number.5.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         gs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -857,7 +857,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         gs'!2
         % AFTER:
         % ARTICULATIONS:
@@ -905,7 +905,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         fs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -927,7 +927,7 @@ number.5.Flute.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -968,18 +968,18 @@ number.5.Flute.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 6]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -1015,7 +1015,7 @@ number.5.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'4
         % AFTER:
         % ARTICULATIONS:
@@ -1067,7 +1067,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'2
         % AFTER:
         % ARTICULATIONS:
@@ -1115,7 +1115,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -1137,24 +1137,24 @@ number.5.Flute.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 7]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'4
         % AFTER:
         % SPANNER_STARTS:
@@ -1190,7 +1190,7 @@ number.5.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'4
         % AFTER:
         % ARTICULATIONS:
@@ -1242,7 +1242,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         a'2
         % AFTER:
         % ARTICULATIONS:
@@ -1290,7 +1290,7 @@ number.5.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -1312,7 +1312,7 @@ number.5.Flute.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1965,18 +1965,18 @@ number.5.Clarinet.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 3]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         d'4
         % AFTER:
         % SPANNER_STARTS:
@@ -2012,7 +2012,7 @@ number.5.Clarinet.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         d'4
         % AFTER:
         % ARTICULATIONS:
@@ -2064,7 +2064,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         ef'!2
         % AFTER:
         % ARTICULATIONS:
@@ -2112,7 +2112,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         d'4
         % AFTER:
         % ARTICULATIONS:
@@ -2134,7 +2134,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2175,18 +2175,18 @@ number.5.Clarinet.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 6]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -2222,7 +2222,7 @@ number.5.Clarinet.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -2274,7 +2274,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         d'2
         % AFTER:
         % ARTICULATIONS:
@@ -2322,7 +2322,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -2344,24 +2344,24 @@ number.5.Clarinet.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 4/5
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Clarinet.Music measure 7]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -2397,7 +2397,7 @@ number.5.Clarinet.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -2449,7 +2449,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         d'2
         % AFTER:
         % ARTICULATIONS:
@@ -2497,7 +2497,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         cs'!4
         % AFTER:
         % ARTICULATIONS:
@@ -2519,7 +2519,7 @@ number.5.Clarinet.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3285,7 +3285,7 @@ number.5.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -3355,17 +3355,17 @@ number.5.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:

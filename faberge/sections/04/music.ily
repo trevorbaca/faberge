@@ -2990,7 +2990,7 @@ number.4.Percussion.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % AFTER:
     % ARTICULATIONS:
@@ -3060,12 +3060,12 @@ number.4.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3175,18 +3175,18 @@ number.4.Percussion.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \times 5/4
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Percussion.Music measure 4]
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % AFTER:
         % ARTICULATIONS:
@@ -3240,40 +3240,40 @@ number.4.Percussion.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 5]
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3383,18 +3383,18 @@ number.4.Percussion.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \times 5/4
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Percussion.Music measure 8]
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % AFTER:
         % ARTICULATIONS:
@@ -3454,17 +3454,17 @@ number.4.Percussion.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         c'4
         % AFTER:
         % COMMANDS:
@@ -3474,7 +3474,7 @@ number.4.Percussion.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -681,18 +681,18 @@ number.13.Flute.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     \times 7/8
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 3]
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         af'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -768,7 +768,7 @@ number.13.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         af'!4
         % AFTER:
         % ARTICULATIONS:
@@ -820,7 +820,7 @@ number.13.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -1
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         af'!1
         % AFTER:
         % ARTICULATIONS:
@@ -864,7 +864,7 @@ number.13.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         g'4
         % AFTER:
         % ARTICULATIONS:
@@ -893,13 +893,13 @@ number.13.Flute.Music = {
         % COMMANDS:
           %! baca.dynamic_text_self_alignment_x(1)
         \once \override DynamicText.self-alignment-X = -0.75
-          %! faberge.make_suffixed_colortrill_rhythm()
+          %! faberge.make_suffixed_colortrill_rhythm_function()
         g'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_suffixed_colortrill_rhythm()
+      %! faberge.make_suffixed_colortrill_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

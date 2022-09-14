@@ -138,21 +138,21 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(1),
         extra_counts=[0],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2, 3), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(4, 5),
         extra_counts=[-1, 0],
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6, 7), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(8),
         extra_counts=[-1],
     )

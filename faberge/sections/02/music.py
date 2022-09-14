@@ -68,13 +68,13 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(1, 40),
         total_parts=4,
         this_part=0,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(41, 56),
         extra_counts_rotation=1,
         total_parts=3,
@@ -83,7 +83,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(57, 80))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(81, 88))
+    music = library.make_single_taper_function(accumulator.get(81, 88))
     voice.extend(music)
     music = library.make_glow_rhythm(
         accumulator.get(89, 92),
@@ -132,7 +132,7 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63, 80))
     voice.extend(music)
-    music = library.make_keynoise_rhythm(
+    music = library.make_keynoise_rhythm_function(
         accumulator.get(81, 88),
         force_rest_tuplets=([0, 4], 9),
         tuplet_ratio_rotation=0,
@@ -146,7 +146,7 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(1, 40),
         total_parts=4,
         this_part=1,
@@ -154,29 +154,29 @@ def CL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(41, 46))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(47, 49))
+    music = library.make_single_taper_function(accumulator.get(47, 49))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(50, 52))
+    music = library.make_single_taper_function(accumulator.get(50, 52))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(53, 57))
+    music = library.make_single_taper_function(accumulator.get(53, 57))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(58, 60))
+    music = library.make_single_taper_function(accumulator.get(58, 60))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(61, 62))
+    music = library.make_single_taper_function(accumulator.get(61, 62))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(63, 70))
+    music = library.make_single_taper_function(accumulator.get(63, 70))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(71, 73))
+    music = library.make_single_taper_function(accumulator.get(71, 73))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(74, 76))
+    music = library.make_single_taper_function(accumulator.get(74, 76))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(77, 80))
+    music = library.make_single_taper_function(accumulator.get(77, 80))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(81, 88))
+    music = library.make_single_taper_function(accumulator.get(81, 88))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(89, 91))
+    music = library.make_single_taper_function(accumulator.get(89, 91))
     voice.extend(music)
-    music = library.make_single_taper(accumulator.get(92))
+    music = library.make_single_taper_function(accumulator.get(92))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -193,35 +193,35 @@ def PF(score, accumulator):
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
-    music = library.make_piano_attack_rhythm(accumulator.get(1, 12))
+    music = library.make_piano_attack_rhythm_function(accumulator.get(1, 12))
     voice.extend(music)
-    music = library.make_piano_attack_rhythm(accumulator.get(13, 26))
+    music = library.make_piano_attack_rhythm_function(accumulator.get(13, 26))
     voice.extend(music)
-    music = library.make_piano_attack_rhythm(accumulator.get(27, 40))
+    music = library.make_piano_attack_rhythm_function(accumulator.get(27, 40))
     voice.extend(music)
-    music = library.make_piano_attack_rhythm(accumulator.get(41, 56))
+    music = library.make_piano_attack_rhythm_function(accumulator.get(41, 56))
     voice.extend(music)
-    music = library.make_piano_attack_rhythm(accumulator.get(57, 88))
+    music = library.make_piano_attack_rhythm_function(accumulator.get(57, 88))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(89, 92))
     voice.extend(music)
 
 
 def PERC(voice, accumulator):
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(1, 40),
         total_parts=4,
         this_part=3,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(41, 56),
         extra_counts_rotation=1,
         total_parts=3,
         this_part=2,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(57, 62),
         extra_counts_rotation=2,
         total_parts=2,
@@ -230,7 +230,7 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(63, 70))
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(71, 80),
         extra_counts_rotation=2,
         total_parts=2,
@@ -247,7 +247,7 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(88))
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(89, 92),
         extra_counts_rotation=2,
         total_parts=2,
@@ -257,27 +257,27 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(1, 40),
         total_parts=4,
         this_part=2,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(41, 56),
         extra_counts_rotation=1,
         total_parts=3,
         this_part=1,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(57, 62),
         extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
     )
     voice.extend(music)
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(63, 70),
         force_rest_tuplets=~abjad.Pattern(
             [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]
@@ -285,14 +285,14 @@ def VN(voice, accumulator):
         counts_rotation=-10,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(71, 80),
         extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
     )
     voice.extend(music)
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(81, 88),
         force_rest_tuplets=~abjad.Pattern(
             [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]
@@ -300,7 +300,7 @@ def VN(voice, accumulator):
         counts_rotation=-11,
     )
     voice.extend(music)
-    music = library.make_shell_exchange_rhythm(
+    music = library.make_shell_exchange_rhythm_function(
         accumulator.get(89, 92),
         extra_counts_rotation=2,
         total_parts=2,
@@ -312,7 +312,7 @@ def VN(voice, accumulator):
 def VA(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 62))
     voice.extend(music)
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(63, 70),
         force_rest_tuplets=~abjad.Pattern(
             [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]
@@ -324,7 +324,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(71, 80))
     voice.extend(music)
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(81, 88),
         force_rest_tuplets=~abjad.Pattern(
             [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]

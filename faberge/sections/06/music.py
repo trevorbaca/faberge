@@ -66,12 +66,12 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def FL(voice, accumulator):
-    music = library.make_halves_rhythm(accumulator.get(1, 2))
+    music = library.make_halves_rhythm_function(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3), head=voice.name)
     voice.extend(music)
     for n in [4, 5, 6, 7, 8]:
-        music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+        music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -86,7 +86,7 @@ def CL(voice, accumulator):
         if n == 3:
             music = baca.make_mmrests(accumulator.get(n), head=voice.name)
         else:
-            music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+            music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 

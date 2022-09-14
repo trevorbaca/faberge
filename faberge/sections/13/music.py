@@ -63,7 +63,7 @@ def GLOBALS(skips):
 def FL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(accumulator.get(3))
+    music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 8), head=voice.name)
     voice.extend(music)

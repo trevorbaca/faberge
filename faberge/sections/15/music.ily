@@ -722,7 +722,7 @@ number.15.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -804,7 +804,7 @@ number.15.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -857,7 +857,7 @@ number.15.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 2]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -887,7 +887,7 @@ number.15.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -940,7 +940,7 @@ number.15.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 3]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -970,7 +970,7 @@ number.15.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -1023,7 +1023,7 @@ number.15.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 4]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -1053,7 +1053,7 @@ number.15.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     cs'''!2
     % AFTER:
     % STEM_TREMOLOS:
@@ -2920,11 +2920,11 @@ number.15.Piano.RH.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     \times 4/5
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2955,7 +2955,7 @@ number.15.Piano.RH.Music = {
           %! EXPLICIT_STAFF_LINES_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         d4
         % AFTER:
         % ARTICULATIONS:
@@ -3033,55 +3033,55 @@ number.15.Piano.RH.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         d4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_even_tuplet_rhythm()
+          %! faberge.make_even_tuplet_rhythm_function()
         d4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 5]
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_even_tuplet_rhythm()
+      %! faberge.make_even_tuplet_rhythm_function()
     d4
     % AFTER:
     % COMMANDS:
@@ -4495,11 +4495,11 @@ number.15.Violin.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \times 5/6
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4625,7 +4625,7 @@ number.15.Violin.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5427,18 +5427,18 @@ number.15.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \times 5/6
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Viola.Music measure 5]
-          %! faberge.make_halves_rhythm()
+          %! faberge.make_halves_rhythm_function()
         dqf''!2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -5473,7 +5473,7 @@ number.15.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_halves_rhythm()
+          %! faberge.make_halves_rhythm_function()
         dqf''!2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -5525,14 +5525,14 @@ number.15.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 6]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -5577,7 +5577,7 @@ number.15.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -5630,7 +5630,7 @@ number.15.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 7]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -5675,7 +5675,7 @@ number.15.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -5728,7 +5728,7 @@ number.15.Viola.Music = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music measure 8]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -5773,7 +5773,7 @@ number.15.Viola.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     dqf''!1
     % AFTER:
     % STEM_TREMOLOS:
@@ -6025,7 +6025,7 @@ number.15.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6107,7 +6107,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6160,7 +6160,7 @@ number.15.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6205,7 +6205,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6258,7 +6258,7 @@ number.15.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 3]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6303,7 +6303,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,4.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6356,7 +6356,7 @@ number.15.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 4]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6401,7 +6401,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     f,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -6453,18 +6453,18 @@ number.15.Cello.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \tweak text #tuplet-number::calc-fraction-text
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     \times 5/6
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cello.Music measure 5]
-          %! faberge.make_halves_rhythm()
+          %! faberge.make_halves_rhythm_function()
         e,2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -6509,7 +6509,7 @@ number.15.Cello.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_halves_rhythm()
+          %! faberge.make_halves_rhythm_function()
         e,2.
         % AFTER:
         % STEM_TREMOLOS:
@@ -6561,14 +6561,14 @@ number.15.Cello.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 6]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6613,7 +6613,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -6666,7 +6666,7 @@ number.15.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 7]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -6711,7 +6711,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,2..
     % AFTER:
     % STEM_TREMOLOS:
@@ -6764,7 +6764,7 @@ number.15.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 8]
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -6809,7 +6809,7 @@ number.15.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_halves_rhythm()
+      %! faberge.make_halves_rhythm_function()
     e,1
     % AFTER:
     % STEM_TREMOLOS:

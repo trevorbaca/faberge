@@ -48,7 +48,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_ratchet_rhythm(accumulator.get(3))
+    music = library.make_ratchet_rhythm_function(accumulator.get(3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4))
     voice.extend(music)
@@ -77,7 +77,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(1),
         counts_rotation=0,
     )
@@ -87,7 +87,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(1),
         counts_rotation=-1,
         denominator=8,
