@@ -68,50 +68,6 @@ def GLOBALS(skips):
     baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
 
 
-def make_glow_rhythm_1(time_signatures, *, tuplet_ratio_rotation=0):
-    return library.make_glow_rhythm(
-        time_signatures,
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([2, 3, 6], period=9)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([2, 3, 6], 9), (None, -1)
-            ),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, [0, -2]),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, [0, -2], (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplets(_, ([10], 11)),
-        ),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ([9, 11], 11)),
-        ),
-        rmakers.untie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_get_tuplets(_, ([9, 11], 11), (None, -1)),
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, -1),
-        ),
-        tuplet_ratio_rotation=tuplet_ratio_rotation,
-    )
-
-
 def make_glow_rhythm_2(time_signatures, *, tuplet_ratio_rotation=0):
     return library.make_glow_rhythm(
         time_signatures,
@@ -157,31 +113,43 @@ def make_glow_rhythm_2(time_signatures, *, tuplet_ratio_rotation=0):
 
 
 def FL(voice, accumulator):
-    music = make_glow_rhythm_1(accumulator.get(1, 8), tuplet_ratio_rotation=0)
+    music = library.make_glow_rhythm_b(accumulator.get(1, 8), tuplet_ratio_rotation=0)
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(9, 10), tuplet_ratio_rotation=-1)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(11, 12), tuplet_ratio_rotation=-2)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(11, 12), tuplet_ratio_rotation=-2
+    )
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(13, 16), tuplet_ratio_rotation=-3)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(17, 22), tuplet_ratio_rotation=-4)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(17, 22), tuplet_ratio_rotation=-4
+    )
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(23, 26), tuplet_ratio_rotation=-5)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(27, 30), tuplet_ratio_rotation=-6)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(27, 30), tuplet_ratio_rotation=-6
+    )
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(31, 36), tuplet_ratio_rotation=-7)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(37, 44), tuplet_ratio_rotation=-8)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(37, 44), tuplet_ratio_rotation=-8
+    )
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(45, 48), tuplet_ratio_rotation=-9)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(49, 52), tuplet_ratio_rotation=-10)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(49, 52), tuplet_ratio_rotation=-10
+    )
     voice.extend(music)
     music = make_glow_rhythm_2(accumulator.get(53, 54), tuplet_ratio_rotation=-11)
     voice.extend(music)
-    music = make_glow_rhythm_1(accumulator.get(55, 60), tuplet_ratio_rotation=-12)
+    music = library.make_glow_rhythm_b(
+        accumulator.get(55, 60), tuplet_ratio_rotation=-12
+    )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(61, 68))
     voice.extend(music)

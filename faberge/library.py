@@ -5,6 +5,31 @@ import baca
 from abjadext import rmakers
 
 
+def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
+    tuplet_ratios = _tuplet_ratios_a()
+    tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
+    tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.quarters(divisions)
+    nested_music = rmakers.tuplet_function(divisions, tuplet_ratios_, tag=tag)
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    tuplets = baca.select.tuplets(voice)[:-1]
+    pleaves = [baca.select.pleaf(_, -1) for _ in tuplets]
+    rmakers.tie_function(pleaves, tag=tag)
+    return voice
+
+
+def _postprocess_glow_rhythm(voice, *, tag=None):
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.rewrite_sustained_function(voice, tag=tag)
+    rmakers.trivialize_function(voice)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice, threshold=(1, 4), tag=tag)
+
+
 def _tuplet_ratios_a():
     return (
         (1, 1, 1, 1, 1),
@@ -412,11 +437,8 @@ def make_even_tuplet_rhythm_function(
     return music
 
 
-def make_glow_rhythm(
-    time_signatures, *commands, tuplet_ratios=None, tuplet_ratio_rotation=None
-):
-    if tuplet_ratios is None:
-        tuplet_ratios = _tuplet_ratios_a()
+def make_glow_rhythm(time_signatures, *commands, tuplet_ratio_rotation=None):
+    tuplet_ratios = _tuplet_ratios_a()
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
 
@@ -445,6 +467,54 @@ def make_glow_rhythm(
         tag=tag,
     )
     music = rhythm_maker(time_signatures)
+    return music
+
+
+def make_glow_rhythm_a(time_signatures):
+    tag = baca.tags.function_name(inspect.currentframe())
+    voice = _make_glow_rhythm(time_signatures, tag=tag)
+    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.get(tuplets, ~abjad.Pattern([6, 7], period=18))
+    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([6, 7], 18), (None, -1))
+    rmakers.tie_function(leaves, tag=tag)
+    _postprocess_glow_rhythm(voice, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
+    return music
+
+
+def make_glow_rhythm_b(time_signatures, *, tuplet_ratio_rotation=0):
+    tag = baca.tags.function_name(inspect.currentframe())
+    voice = _make_glow_rhythm(
+        time_signatures, tag=tag, tuplet_ratio_rotation=tuplet_ratio_rotation
+    )
+    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.get(tuplets, ~abjad.Pattern([2, 3, 6], period=9))
+    rmakers.force_note_function(tuplets, tag=tag)
+    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([2, 3, 6], 9), (None, -1))
+    rmakers.untie_function(leaves)
+    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([2, 3, 6], 9), (None, -1))
+    rmakers.tie_function(leaves, tag=tag)
+    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.get(tuplets, [0, -2])
+    rmakers.force_note_function(tuplets, tag=tag)
+    leaves = baca.select.leaves_in_get_tuplets(voice, [0, -2], (None, -1))
+    rmakers.untie_function(leaves)
+    leaves = baca.select.leaves_in_get_tuplets(voice, [0, -2], (None, -1))
+    rmakers.tie_function(leaves, tag=tag)
+    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.get(tuplets, ([10], 11))
+    rmakers.force_rest_function(tuplets, tag=tag)
+    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.get(tuplets, ([9, 11], 11))
+    rmakers.force_note_function(tuplets, tag=tag)
+    leaves = baca.select.leaves_in_get_tuplets(voice, ([9, 11], 11), (None, -1))
+    rmakers.untie_function(leaves)
+    leaves = baca.select.leaves_in_get_tuplets(voice, ([9, 11], 11), (None, -1))
+    rmakers.tie_function(leaves, tag=tag)
+    tuplet = baca.select.tuplet(voice, -1)
+    rmakers.force_rest_function(tuplet, tag=tag)
+    _postprocess_glow_rhythm(voice, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
     return music
 
 
