@@ -475,7 +475,7 @@ def make_glow_rhythm_a(time_signatures):
     voice = _make_glow_rhythm(time_signatures, tag=tag)
     tuplets = baca.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ~abjad.Pattern([6, 7], period=18))
-    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([6, 7], 18), (None, -1))
+    leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.tie_function(leaves, tag=tag)
     _postprocess_glow_rhythm(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
