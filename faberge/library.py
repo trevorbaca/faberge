@@ -502,9 +502,8 @@ def make_glow_rhythm_b(
     tuplets = baca.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, [0, -2])
     rmakers.force_note_function(tuplets, tag=tag)
-    leaves = baca.select.leaves_in_get_tuplets(voice, [0, -2], (None, -1))
+    leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie_function(leaves)
-    leaves = baca.select.leaves_in_get_tuplets(voice, [0, -2], (None, -1))
     rmakers.tie_function(leaves, tag=tag)
     tuplets = baca.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([10], 11))
@@ -512,9 +511,8 @@ def make_glow_rhythm_b(
     tuplets = baca.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([9, 11], 11))
     rmakers.force_note_function(tuplets, tag=tag)
-    leaves = baca.select.leaves_in_get_tuplets(voice, ([9, 11], 11), (None, -1))
+    leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie_function(leaves)
-    leaves = baca.select.leaves_in_get_tuplets(voice, ([9, 11], 11), (None, -1))
     rmakers.tie_function(leaves, tag=tag)
     tuplet = baca.select.tuplet(voice, -1)
     rmakers.force_rest_function(tuplet, tag=tag)
