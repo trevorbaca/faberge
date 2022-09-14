@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from faberge import library
 
@@ -85,18 +84,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = library.make_single_taper_function(accumulator.get(81, 88))
     voice.extend(music)
-    music = library.make_glow_rhythm(
-        accumulator.get(89, 92),
-        rmakers.force_note(
-            lambda _: baca.select.tuplets(_, ~abjad.Pattern([6, 7], period=18)),
-        ),
-        rmakers.tie(
-            lambda _: baca.select.leaves_in_exclude_tuplets(
-                _, ([6, 7], 18), (None, -1)
-            ),
-        ),
-        tuplet_ratio_rotation=0,
-    )
+    music = library.make_glow_rhythm_a(accumulator.get(89, 92))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
