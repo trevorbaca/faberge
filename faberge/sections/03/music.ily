@@ -4983,7 +4983,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 9]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2.
     % AFTER:
     % ARTICULATIONS:
@@ -5035,7 +5035,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 10]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -5080,12 +5080,12 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -5332,7 +5332,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 13]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -5387,7 +5387,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 14]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -5413,36 +5413,36 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5455,7 +5455,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5468,7 +5468,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5477,7 +5477,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5488,45 +5488,45 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 15]
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
           %! baca.stem_tremolo()
         :32
         % START_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5535,7 +5535,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5548,7 +5548,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5561,7 +5561,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % STEM_TREMOLOS:
@@ -5572,22 +5572,22 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -5643,7 +5643,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 16]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -5664,7 +5664,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -5690,7 +5690,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6324,7 +6324,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 23]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -6376,7 +6376,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 24]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2.
     % AFTER:
     % ARTICULATIONS:
@@ -6399,23 +6399,23 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 25]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'4.
     % AFTER:
     % SPANNER_STARTS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'8
     % AFTER:
     % MARKUP:
@@ -6423,42 +6423,42 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % SPANNER_STARTS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     ~
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 2/3
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''4
         % AFTER:
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 26]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2
     % AFTER:
     % ARTICULATIONS:
@@ -6506,7 +6506,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -6873,7 +6873,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 31]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2.
     % AFTER:
     % ARTICULATIONS:
@@ -6929,7 +6929,7 @@ number.3.Flute.Music = {
     % COMMANDS:
       %! baca.tuplet_bracket_staff_padding(1)
     \override TupletBracket.staff-padding = 2.5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2.
     % AFTER:
     % ARTICULATIONS:
@@ -6952,38 +6952,38 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % START_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'8.
         % AFTER:
         % MARKUP:
@@ -6991,52 +6991,52 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Music measure 33]
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''4
         % AFTER:
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''4
     % AFTER:
     % SPANNER_STARTS:
@@ -7052,7 +7052,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 34]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''4
     % AFTER:
     % ARTICULATIONS:
@@ -7097,12 +7097,12 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -7123,7 +7123,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -7175,7 +7175,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 35]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2.
     % AFTER:
     % ARTICULATIONS:
@@ -7198,33 +7198,33 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'16
         % AFTER:
         % START_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''16
         % AFTER:
         % MARKUP:
@@ -7234,7 +7234,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g'8.
         % AFTER:
         % MARKUP:
@@ -7242,24 +7242,24 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % STOP_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 36]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -7307,7 +7307,7 @@ number.3.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -8078,7 +8078,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 45]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''1
     % AFTER:
     % ARTICULATIONS:
@@ -8130,7 +8130,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 46]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2
     % AFTER:
     % ARTICULATIONS:
@@ -8153,29 +8153,29 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 2/3
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''4
         % AFTER:
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         g''8
         % AFTER:
         % MARKUP:
@@ -8183,35 +8183,35 @@ number.3.Flute.Music = {
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 47]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''8
     % AFTER:
     % START_BEAM:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'16
     % AFTER:
     % MARKUP:
@@ -8219,16 +8219,16 @@ number.3.Flute.Music = {
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
     % STOP_BEAM:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     ~
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -8278,7 +8278,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 48]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -8599,7 +8599,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 53]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''2.
     % AFTER:
     % ARTICULATIONS:
@@ -8651,7 +8651,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 54]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     g''4
     % AFTER:
     % ARTICULATIONS:
@@ -8696,12 +8696,12 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -9366,7 +9366,7 @@ number.3.Flute.Music = {
     % COMMANDS:
       %! baca.repeat_tie_extra_offset(1)
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     gs''!1
     % AFTER:
     % ARTICULATIONS:
@@ -9414,7 +9414,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 70]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     gs''2
     % AFTER:
     % ARTICULATIONS:
@@ -9437,33 +9437,33 @@ number.3.Flute.Music = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \times 4/5
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         gs''16
         % AFTER:
         % START_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         gs''!16
         % AFTER:
         % MARKUP:
@@ -9473,7 +9473,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         gs''!16
         % AFTER:
         % MARKUP:
@@ -9483,7 +9483,7 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         gs'!16
         % AFTER:
         % MARKUP:
@@ -9493,33 +9493,33 @@ number.3.Flute.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         gs''!16
         % AFTER:
         % STOP_BEAM:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % SPANNER_STARTS:
-          %! faberge.make_glow_rhythm()
+          %! faberge.make_glow_rhythm_c()
         ~
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 71]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     gs''8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     gs'!4.
     % AFTER:
     % MARKUP:
@@ -9536,7 +9536,7 @@ number.3.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 72]
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     gs'4
     % AFTER:
     % ARTICULATIONS:
@@ -9581,12 +9581,12 @@ number.3.Flute.Music = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_glow_rhythm()
+      %! faberge.make_glow_rhythm_c()
     r2
     % AFTER:
     % ARTICULATIONS:

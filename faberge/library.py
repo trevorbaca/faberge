@@ -482,17 +482,22 @@ def make_glow_rhythm_a(time_signatures):
     return music
 
 
-def make_glow_rhythm_b(time_signatures, *, tuplet_ratio_rotation=0):
-    tag = baca.tags.function_name(inspect.currentframe())
+def make_glow_rhythm_b(
+    time_signatures,
+    *,
+    pattern=~abjad.Pattern([2, 3, 6], period=9),
+    tag=None,
+    tuplet_ratio_rotation=0,
+):
+    tag = tag or baca.tags.function_name(inspect.currentframe())
     voice = _make_glow_rhythm(
         time_signatures, tag=tag, tuplet_ratio_rotation=tuplet_ratio_rotation
     )
     tuplets = baca.select.tuplets(voice)
-    tuplets = abjad.select.get(tuplets, ~abjad.Pattern([2, 3, 6], period=9))
+    tuplets = abjad.select.get(tuplets, pattern)
     rmakers.force_note_function(tuplets, tag=tag)
-    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([2, 3, 6], 9), (None, -1))
+    leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie_function(leaves)
-    leaves = baca.select.leaves_in_exclude_tuplets(voice, ([2, 3, 6], 9), (None, -1))
     rmakers.tie_function(leaves, tag=tag)
     tuplets = baca.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, [0, -2])
@@ -516,6 +521,16 @@ def make_glow_rhythm_b(time_signatures, *, tuplet_ratio_rotation=0):
     _postprocess_glow_rhythm(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
+
+
+def make_glow_rhythm_c(time_signatures, *, tuplet_ratio_rotation=0):
+    tag = baca.tags.function_name(inspect.currentframe())
+    return make_glow_rhythm_b(
+        time_signatures,
+        pattern=~abjad.Pattern([0, 6, 7], period=9),
+        tag=tag,
+        tuplet_ratio_rotation=tuplet_ratio_rotation,
+    )
 
 
 def make_halves_rhythm_function(time_signatures, *, tuplet_ratios=[(1, 1)]):
