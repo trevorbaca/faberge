@@ -112,7 +112,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_halves_rhythm(
+    music = library.make_halves_rhythm_function(
         accumulator.get(1, 7),
         tuplet_ratios=[(2, 3)],
     )
@@ -122,7 +122,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_halves_rhythm(
+    music = library.make_halves_rhythm_function(
         accumulator.get(1, 7),
         tuplet_ratios=[(2, 1)],
     )
@@ -132,7 +132,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_halves_rhythm(accumulator.get(1, 7))
+    music = library.make_halves_rhythm_function(accumulator.get(1, 7))
     voice.extend(music)
     music = baca.make_notes_function(accumulator.get(8))
     voice.extend(music)

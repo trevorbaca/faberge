@@ -141,7 +141,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(2, 4),
         extra_counts=[1, 0, 0],
     )
@@ -199,7 +199,7 @@ def VN(voice, accumulator):
         [0, 2, 4],
     )
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(4, 6),
         extra_counts=[1, 0, 0],
     )
@@ -223,7 +223,7 @@ def VC(voice, accumulator):
     )
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm(accumulator.get(n))
+        music = library.make_halves_rhythm_function(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 

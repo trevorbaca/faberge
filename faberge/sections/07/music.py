@@ -65,13 +65,13 @@ def GLOBALS(skips):
 def FL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(accumulator.get(2))
+    music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(accumulator.get(4))
+    music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(4))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(5),
         extra_counts=[-2],
     )
@@ -83,7 +83,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(4),
         extra_counts=[1],
     )
@@ -94,7 +94,7 @@ def EH(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(6, 7))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(8),
         extra_counts=[1],
     )
@@ -105,13 +105,13 @@ def EH(voice, accumulator):
 def CL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(accumulator.get(2))
+    music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(accumulator.get(4))
+    music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(4))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(5),
         extra_counts=[-1],
     )
@@ -210,7 +210,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(1),
         force_rest_tuplets=~abjad.Pattern([0, 1, 2]),
         counts_rotation=0,
@@ -239,7 +239,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_spazzolati_rhythm(
+    music = library.make_spazzolati_rhythm_function(
         accumulator.get(1),
         counts_rotation=-1,
         denominator=8,

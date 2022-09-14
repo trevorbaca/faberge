@@ -72,7 +72,7 @@ def FL(voice, accumulator):
             leaf = baca.select.pleaf(music, -1)
             baca.breathe(leaf)
         else:
-            music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+            music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
         voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
@@ -104,9 +104,13 @@ def CL(voice, accumulator):
             baca.breathe(pleaf)
         else:
             if isinstance(n, int):
-                music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+                music = library.make_suffixed_colortrill_rhythm_function(
+                    accumulator.get(n)
+                )
             else:
-                music = library.make_suffixed_colortrill_rhythm(accumulator.get(*n))
+                music = library.make_suffixed_colortrill_rhythm_function(
+                    accumulator.get(*n)
+                )
         voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
@@ -125,7 +129,7 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_even_tuplet_rhythm(accumulator.get(1))
+    music = library.make_even_tuplet_rhythm_function(accumulator.get(1))
     voice.extend(music)
     music = library.make_downbeat_attack_function(accumulator.get(2))
     voice.extend(music)

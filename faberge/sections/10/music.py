@@ -66,7 +66,7 @@ def GLOBALS(skips, first_measure_number):
 
 def FL(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+        music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -74,7 +74,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(4),
         extra_counts=[1],
     )
@@ -89,7 +89,7 @@ def EH(voice, accumulator):
 
 def CL(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
+        music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -145,7 +145,7 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm(
+    music = library.make_even_tuplet_rhythm_function(
         accumulator.get(8),
         extra_counts=[-1],
     )
