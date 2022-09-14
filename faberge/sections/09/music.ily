@@ -3958,7 +3958,7 @@ number.9.Percussion.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     e2
     % AFTER:
     % ARTICULATIONS:
@@ -4069,7 +4069,7 @@ number.9.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 2]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     e2
     % AFTER:
     % TRILL_SPANNER_STARTS:
@@ -4087,7 +4087,7 @@ number.9.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r\breve
     % AFTER:
     % SPANNER_STOPS:
@@ -4257,7 +4257,7 @@ number.9.Percussion.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     fs'!2
     % AFTER:
     % ARTICULATIONS:
@@ -4343,7 +4343,7 @@ number.9.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1.
     % AFTER:
     % ARTICULATIONS:

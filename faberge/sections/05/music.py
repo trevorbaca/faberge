@@ -127,7 +127,7 @@ def PF(score, accumulator):
 def PERC(voice, accumulator):
     music = library.make_even_tuplet_rhythm(accumulator.get(1))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(2))
+    music = library.make_downbeat_attack_function(accumulator.get(2))
     voice.extend(music)
     music = baca.make_notes_function(accumulator.get(3, 8))
     voice.extend(music)
@@ -136,7 +136,7 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 8),
         20,
         [1, 4, 7, 10, 14, 18],
@@ -147,7 +147,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 8),
         20,
         [0, 3, 6, 9, 13, 17],
@@ -158,7 +158,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 8),
         20,
         [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],

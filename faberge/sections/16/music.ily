@@ -752,7 +752,7 @@ number.16.Flute.Music = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Music measure 5]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -764,7 +764,7 @@ number.16.Flute.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1012,7 +1012,7 @@ number.16.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 5]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b'4
     % AFTER:
     % STEM_TREMOLOS:
@@ -1024,7 +1024,7 @@ number.16.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1490,7 +1490,7 @@ number.16.Piano.RH.Music = {
 
       %! baca._comment_measure_numbers()
     % [Piano.RH.Music measure 5]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     d4
     % AFTER:
     % STEM_TREMOLOS:
@@ -1502,7 +1502,7 @@ number.16.Piano.RH.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1..
     % ABSOLUTE_BEFORE:
     % COMMANDS:

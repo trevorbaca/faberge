@@ -669,7 +669,7 @@ def EH(voice, accumulator):
         force_rest_tuplets=([0, 4], 9),
     )
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(13, 16),
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
     )
@@ -680,7 +680,7 @@ def EH(voice, accumulator):
         tuplet_ratio_rotation=-1,
     )
     voice.extend(music)
-    music = library.make_eh_trill_rhythm(
+    music = library.make_eh_trill_rhythm_function(
         accumulator.get(23, 30),
         [-4, -1, 23, -1, 3, -1, 35, -1, 47],
         force_rest_tuplets=[-1],
@@ -749,13 +749,13 @@ def PF(score, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(45, 52))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(53, 79),
         extra_counts=[16, 20, 8],
         fuse_counts=[2, 3],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(80),
         denominator=8,
     )
@@ -804,14 +804,14 @@ def VN(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(23, 52))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(53, 68),
         fuse_counts=[2, 2, 1],
     )
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(69, 72))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(73, 80),
         fuse_counts=[2, 2, 1],
     )
@@ -831,12 +831,12 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes_function(accumulator.get(23, 52))
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(53, 79),
         fuse_counts=[1, 2, 2],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(80),
         denominator=8,
     )
@@ -850,12 +850,12 @@ def VC(voice, accumulator):
         accumulator.get(37, 60), [(1, 4)]
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(61, 79),
         fuse_counts=[3],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(80),
         denominator=8,
     )

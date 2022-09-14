@@ -94,28 +94,28 @@ def EH(voice, accumulator):
 def CL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(accumulator.get(3))
+    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(3))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(accumulator.get(5))
+    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(5))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(accumulator.get(7, 8))
+    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(7, 8))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(1),
         extra_counts=[7],
     )
@@ -126,12 +126,12 @@ def PF(score, accumulator):
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(5),
         extra_counts=[7],
     )
@@ -145,7 +145,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
@@ -159,7 +159,7 @@ def PF(score, accumulator):
 
 def PERC(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6]:
-        music = library.make_downbeat_attack(accumulator.get(n))
+        music = library.make_downbeat_attack_function(accumulator.get(n))
         voice.extend(music)
     music = baca.make_skeleton(
         "{ c2. r4 }",
@@ -173,32 +173,32 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(1),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(2),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(3),
         extra_counts=[4],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(5),
         extra_counts=[6],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
@@ -208,73 +208,73 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(1),
         extra_counts=[6],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(2),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(3),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(5),
         extra_counts=[4],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_back_incised_divisions(accumulator.get(7, 8))
+    music = library.make_back_incised_divisions_function(accumulator.get(7, 8))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(1),
         extra_counts=[4],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(2),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(3),
         extra_counts=[6],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_clb_rhythm(
+    music = library.make_clb_rhythm_function(
         accumulator.get(5),
         extra_counts=[2],
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(7, 8),
         20,
         [2, 3, 4],

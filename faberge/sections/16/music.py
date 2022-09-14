@@ -64,7 +64,7 @@ def GLOBALS(skips):
 def FL(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(5))
+    music = library.make_downbeat_attack_function(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -75,7 +75,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(5))
+    music = library.make_downbeat_attack_function(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -92,7 +92,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(5))
+    music = library.make_downbeat_attack_function(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)

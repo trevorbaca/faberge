@@ -102,7 +102,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
@@ -116,7 +116,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=8,
     )
@@ -133,12 +133,12 @@ def PERC(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(5),
         denominator=2,
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(6),
         denominator=2,
     )
@@ -244,7 +244,7 @@ def VC(voice, accumulator):
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(6, 8),
         20,
         [0, 1, 3, 4, 6, 7, 8, 9],

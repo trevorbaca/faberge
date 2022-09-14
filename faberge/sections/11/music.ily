@@ -2471,7 +2471,7 @@ number.11.EnglishHorn.Music = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     e'''4
     % AFTER:
     % SPANNER_STOPS:
@@ -2491,7 +2491,7 @@ number.11.EnglishHorn.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1
     % AFTER:
     % SPANNER_STOPS:
@@ -5303,12 +5303,12 @@ number.11.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 2]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5627,7 +5627,7 @@ number.11.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 4]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     d'4
     % AFTER:
     % SPANNER_STOPS:
@@ -5654,7 +5654,7 @@ number.11.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r1
     % AFTER:
     % SPANNER_STOPS:
@@ -5677,7 +5677,7 @@ number.11.Percussion.Music = {
     % COMMANDS:
       %! baca.stem_down(1)
     \override Stem.direction = #down
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % MARKUP:
@@ -5751,7 +5751,7 @@ number.11.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -5774,7 +5774,7 @@ number.11.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 6]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -5807,7 +5807,7 @@ number.11.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -5830,7 +5830,7 @@ number.11.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 7]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -5863,7 +5863,7 @@ number.11.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -5886,7 +5886,7 @@ number.11.Percussion.Music = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music measure 8]
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     b2
     % AFTER:
     % SPANNER_STARTS:
@@ -5922,7 +5922,7 @@ number.11.Percussion.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_downbeat_attack()
+      %! faberge.make_downbeat_attack_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -7744,7 +7744,7 @@ number.11.Cello.Music = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -7818,7 +7818,7 @@ number.11.Cello.Music = {
     % COMMANDS:
       %! baca.note_head_style_harmonic(1)
     \override NoteHead.style = #'harmonic
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     c'2
     % AFTER:
     % ARTICULATIONS:
@@ -7863,7 +7863,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     fqs''!4
     % AFTER:
     % ARTICULATIONS:
@@ -7916,7 +7916,7 @@ number.11.Cello.Music = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music measure 2]
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     e'8
     % AFTER:
     % ARTICULATIONS:
@@ -7935,7 +7935,7 @@ number.11.Cello.Music = {
       %! baca.hairpin()
     \!
     % START_BEAM:
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -7983,7 +7983,7 @@ number.11.Cello.Music = {
       %! baca.hairpin()
     \p
     % STOP_BEAM:
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -8063,7 +8063,7 @@ number.11.Cello.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_airtone_chain_rhythm()
+      %! faberge.make_airtone_chain_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:

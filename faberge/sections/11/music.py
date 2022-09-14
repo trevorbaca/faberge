@@ -83,7 +83,7 @@ def EH(voice, accumulator):
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(4))
+    music = library.make_downbeat_attack_function(accumulator.get(4))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(5, 8))
     voice.extend(music)
@@ -133,16 +133,16 @@ def PF(score, accumulator):
 def PERC(voice, accumulator):
     music = library.make_even_tuplet_rhythm(accumulator.get(1))
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(2))
+    music = library.make_downbeat_attack_function(accumulator.get(2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(accumulator.get(4))
+    music = library.make_downbeat_attack_function(accumulator.get(4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_downbeat_attack(
+        music = library.make_downbeat_attack_function(
             accumulator.get(n),
             denominator=2,
         )
@@ -188,7 +188,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_airtone_chain_rhythm(
+    music = library.make_airtone_chain_rhythm_function(
         accumulator.get(1, 2),
         20,
         [1, 2, 3],

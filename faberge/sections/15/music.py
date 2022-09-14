@@ -80,7 +80,7 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_bcl_color_fingering_rhythm(
+    music = library.make_bcl_color_fingering_rhythm_function(
         accumulator.get(1, 4),
         force_rest_lts=[6, 7, 12, 17],
     )
@@ -111,7 +111,7 @@ def PF(score, accumulator):
 def PERC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack(
+    music = library.make_downbeat_attack_function(
         accumulator.get(5),
         denominator=2,
     )
@@ -137,7 +137,7 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_back_incised_divisions(accumulator.get(1, 4))
+    music = library.make_back_incised_divisions_function(accumulator.get(1, 4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
         music = library.make_halves_rhythm(accumulator.get(n))
