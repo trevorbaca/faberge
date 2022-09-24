@@ -64,7 +64,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(1),
         denominator=8,
         extra_counts=[2],
@@ -72,7 +72,7 @@ def FL(voice, accumulator):
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(3),
         denominator=8,
     )
@@ -87,14 +87,14 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(1),
         denominator=8,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(3),
         denominator=8,
         extra_counts=[2],
@@ -107,7 +107,7 @@ def CL(voice, accumulator):
 def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     for n in [1, 2, 3]:
-        music = library.make_end_of_cell_attack_function(
+        music = library.make_end_of_cell_attack(
             accumulator.get(n),
             denominator=8,
         )
@@ -118,7 +118,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(6, 9),
         fuse_counts=[2, 2],
         extra_counts=[5, 5],
@@ -139,30 +139,30 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(1),
         denominator=4,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(3),
         denominator=4,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(accumulator.get(5))
+    music = library.make_downbeat_attack(accumulator.get(5))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(6, 8))
+    music = baca.make_repeat_tied_notes(accumulator.get(6, 8))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
 
 
 def VN(voice, accumulator):
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(1, 4),
         fuse_counts=[2, 1, 1],
     )
@@ -171,7 +171,7 @@ def VN(voice, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(6, 9),
         fuse_counts=[2, 1, 1],
     )
@@ -180,11 +180,11 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(5))
+    music = baca.make_repeat_tied_notes(accumulator.get(5))
     voice.extend(music)
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(6, 9),
         fuse_counts=[1, 2, 1],
     )
@@ -193,7 +193,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(1, 4),
         fuse_counts=[1, 1, 2],
     )
@@ -202,7 +202,7 @@ def VC(voice, accumulator):
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_clb_rhythm_function(
+    music = library.make_clb_rhythm(
         accumulator.get(6, 9),
         fuse_counts=[1, 1, 2],
     )

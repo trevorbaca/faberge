@@ -66,7 +66,7 @@ def GLOBALS(skips, first_measure_number):
 
 def FL(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
+        music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -74,7 +74,7 @@ def FL(voice, accumulator):
 def EH(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(4),
         extra_counts=[1],
     )
@@ -89,7 +89,7 @@ def EH(voice, accumulator):
 
 def CL(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_suffixed_colortrill_rhythm_function(accumulator.get(n))
+        music = library.make_suffixed_colortrill_rhythm(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -102,7 +102,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(6),
         denominator=8,
     )
@@ -116,7 +116,7 @@ def PF(score, accumulator):
         "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(6),
         denominator=8,
     )
@@ -129,23 +129,23 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(5),
         denominator=2,
     )
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(6),
         denominator=2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7), head=voice.name)
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(8),
         extra_counts=[-1],
     )
@@ -206,7 +206,7 @@ def VA(voice, accumulator):
         r"{ c2 c2 }",
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(5))
+    music = baca.make_repeat_tied_notes(accumulator.get(5))
     voice.extend(music)
     music = baca.make_skeleton(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
@@ -244,7 +244,7 @@ def VC(voice, accumulator):
         "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = library.make_airtone_chain_rhythm_function(
+    music = library.make_airtone_chain_rhythm(
         accumulator.get(6, 8),
         20,
         [0, 1, 3, 4, 6, 7, 8, 9],

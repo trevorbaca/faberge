@@ -62,9 +62,9 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(accumulator.get(5))
+    music = library.make_downbeat_attack(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -73,9 +73,9 @@ def FL(voice, accumulator):
 
 
 def EH(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(accumulator.get(5))
+    music = library.make_downbeat_attack(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -84,15 +84,15 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get())
+    music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(accumulator.get(5))
+    music = library.make_downbeat_attack(accumulator.get(5))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -107,34 +107,34 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = baca.make_notes_function(accumulator.get())
+    music = baca.make_notes(accumulator.get())
     voice.extend(music)
 
 
 def VN(voice, accumulator):
-    music = library.make_halves_rhythm_function(
+    music = library.make_halves_rhythm(
         accumulator.get(1, 7),
         tuplet_ratios=[(2, 3)],
     )
     voice.extend(music)
-    music = baca.make_notes_function(accumulator.get(8))
+    music = baca.make_notes(accumulator.get(8))
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = library.make_halves_rhythm_function(
+    music = library.make_halves_rhythm(
         accumulator.get(1, 7),
         tuplet_ratios=[(2, 1)],
     )
     voice.extend(music)
-    music = baca.make_notes_function(accumulator.get(8))
+    music = baca.make_notes(accumulator.get(8))
     voice.extend(music)
 
 
 def VC(voice, accumulator):
-    music = library.make_halves_rhythm_function(accumulator.get(1, 7))
+    music = library.make_halves_rhythm(accumulator.get(1, 7))
     voice.extend(music)
-    music = baca.make_notes_function(accumulator.get(8))
+    music = baca.make_notes(accumulator.get(8))
     voice.extend(music)
 
 
