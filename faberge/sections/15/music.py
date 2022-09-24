@@ -64,7 +64,7 @@ def GLOBALS(skips, rests):
 
 
 def FL(voice, accumulator):
-    music = library.make_halves_rhythm_function(accumulator.get(1, 4))
+    music = library.make_halves_rhythm(accumulator.get(1, 4))
     voice.extend(music)
     music = baca.make_skeleton(
         "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
@@ -80,7 +80,7 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_bcl_color_fingering_rhythm_function(
+    music = library.make_bcl_color_fingering_rhythm(
         accumulator.get(1, 4),
         force_rest_lts=[6, 7, 12, 17],
     )
@@ -93,7 +93,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get(1, 3))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(4, 5),
         extra_counts=[1, 0],
     )
@@ -111,7 +111,7 @@ def PF(score, accumulator):
 def PERC(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(5),
         denominator=2,
     )
@@ -130,17 +130,17 @@ def VN(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm_function(accumulator.get(n))
+        music = library.make_halves_rhythm(accumulator.get(n))
         voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
 
 
 def VA(voice, accumulator):
-    music = library.make_back_incised_divisions_function(accumulator.get(1, 4))
+    music = library.make_back_incised_divisions(accumulator.get(1, 4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm_function(accumulator.get(n))
+        music = library.make_halves_rhythm(accumulator.get(n))
         voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)
@@ -148,7 +148,7 @@ def VA(voice, accumulator):
 
 def VC(voice, accumulator):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_halves_rhythm_function(accumulator.get(n))
+        music = library.make_halves_rhythm(accumulator.get(n))
         voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9), head=voice.name)
     voice.extend(music)

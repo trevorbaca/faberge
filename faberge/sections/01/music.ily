@@ -707,9 +707,9 @@ number.1.EnglishHorn.Music = {
             }
         }
     % OPEN_BRACKETS:
-      %! faberge.make_ratchet_rhythm_function()
+      %! faberge.make_ratchet_rhythm()
     \times 1/1
-      %! faberge.make_ratchet_rhythm_function()
+      %! faberge.make_ratchet_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -742,9 +742,9 @@ number.1.EnglishHorn.Music = {
           %! EXPLICIT_STAFF_LINES_COLOR
           %! baca._attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         \override Staff.Stem.stemlet-length = 0.75
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 187/32
         % AFTER:
         % ARTICULATIONS:
@@ -781,12 +781,12 @@ number.1.EnglishHorn.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"187" #"32"
         % START_BEAM:
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 139/32
         % AFTER:
         % MARKUP:
@@ -796,7 +796,7 @@ number.1.EnglishHorn.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 73/32
         % AFTER:
         % MARKUP:
@@ -806,7 +806,7 @@ number.1.EnglishHorn.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 23/16
         % AFTER:
         % MARKUP:
@@ -816,7 +816,7 @@ number.1.EnglishHorn.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 71/64
         % AFTER:
         % MARKUP:
@@ -828,9 +828,9 @@ number.1.EnglishHorn.Music = {
 
         % OPENING:
         % COMMANDS:
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         \revert Staff.Stem.stemlet-length
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         b'16 * 63/64
         % AFTER:
         % MARKUP:
@@ -838,7 +838,7 @@ number.1.EnglishHorn.Music = {
           %! baca._label_duration_multipliers()
         %@% ^ \baca-duration-multiplier-markup #"63" #"64"
         % STOP_BEAM:
-          %! faberge.make_ratchet_rhythm_function()
+          %! faberge.make_ratchet_rhythm()
         ]
         % COMMANDS:
           %! baca.dls_staff_padding(2)
@@ -847,7 +847,7 @@ number.1.EnglishHorn.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_ratchet_rhythm_function()
+      %! faberge.make_ratchet_rhythm()
     }
     % AFTER:
     % GROB_REVERTS:
@@ -1806,7 +1806,7 @@ number.1.Violin.Music = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % ARTICULATIONS:
@@ -1827,7 +1827,7 @@ number.1.Violin.Music = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Violin”)"
     % START_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -1889,81 +1889,81 @@ number.1.Violin.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % STOP_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % START_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % STOP_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % START_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     e'16
     % AFTER:
     % STOP_BEAM:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2152,9 +2152,9 @@ number.1.Viola.Music = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     \times 2/3
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2222,7 +2222,7 @@ number.1.Viola.Music = {
           %! baca.clef()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -2247,7 +2247,7 @@ number.1.Viola.Music = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -2308,70 +2308,70 @@ number.1.Viola.Music = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     \times 2/3
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         e'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     \times 2/3
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         e'8
         % AFTER:
         % START_BEAM:
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         e'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
         e'8
         % AFTER:
         % STOP_BEAM:
-          %! faberge.make_spazzolati_rhythm_function()
+          %! faberge.make_spazzolati_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! faberge.make_spazzolati_rhythm_function()
+      %! faberge.make_spazzolati_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -65,7 +65,7 @@ def GLOBALS(skips, rests, first_measure_number):
 
 
 def FL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(1, 2),
         denominator=2,
         extra_counts=[0, 1],
@@ -113,7 +113,7 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(1, 2),
         denominator=2,
         extra_counts=[1, 0],
@@ -136,19 +136,19 @@ def PF(score, accumulator):
 
 
 def PERC(voice, accumulator):
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(1),
         denominator=2,
     )
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(2),
         denominator=2,
     )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3, 4), head=voice.name)
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(5),
         denominator=2,
     )
@@ -238,7 +238,7 @@ def VA(voice, accumulator):
 
 
 def VC(voice, accumulator):
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
     music = baca.make_skeleton(
         r"\times 8/12 { c2 c1 c2 c1 }",

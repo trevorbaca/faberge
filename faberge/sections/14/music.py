@@ -63,7 +63,7 @@ def GLOBALS(skips):
 
 
 def FL(voice, accumulator):
-    music = library.make_airtone_chain_rhythm_function(
+    music = library.make_airtone_chain_rhythm(
         accumulator.get(1, 3),
         20,
         [1, 3, 5],
@@ -120,19 +120,19 @@ def EH(voice, accumulator):
 
 
 def CL(voice, accumulator):
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(1),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(2, 4))
+    music = library.make_bcl_color_fingering_rhythm(accumulator.get(2, 4))
     voice.extend(music)
-    music = library.make_downbeat_attack_function(
+    music = library.make_downbeat_attack(
         accumulator.get(5),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm_function(accumulator.get(6, 8))
+    music = library.make_bcl_color_fingering_rhythm(accumulator.get(6, 8))
     voice.extend(music)
     baca.append_anchor_note(voice)
 
@@ -141,7 +141,7 @@ def PF(score, accumulator):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(accumulator.get(1))
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(2, 4),
         extra_counts=[1, 0, 0],
     )
@@ -193,13 +193,13 @@ def PERC(voice, accumulator):
 
 
 def VN(voice, accumulator):
-    music = library.make_airtone_chain_rhythm_function(
+    music = library.make_airtone_chain_rhythm(
         accumulator.get(1, 3),
         20,
         [0, 2, 4],
     )
     voice.extend(music)
-    music = library.make_even_tuplet_rhythm_function(
+    music = library.make_even_tuplet_rhythm(
         accumulator.get(4, 6),
         extra_counts=[1, 0, 0],
     )
@@ -209,13 +209,13 @@ def VN(voice, accumulator):
 
 
 def VA(voice, accumulator):
-    music = library.make_back_incised_divisions_function(accumulator.get())
+    music = library.make_back_incised_divisions(accumulator.get())
     voice.extend(music)
     baca.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
-    music = library.make_airtone_chain_rhythm_function(
+    music = library.make_airtone_chain_rhythm(
         accumulator.get(1, 4),
         20,
         [0, 1, 4, 5, 7, 8],
@@ -223,7 +223,7 @@ def VC(voice, accumulator):
     )
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm_function(accumulator.get(n))
+        music = library.make_halves_rhythm(accumulator.get(n))
         voice.extend(music)
     baca.append_anchor_note(voice)
 
