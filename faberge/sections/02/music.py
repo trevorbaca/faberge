@@ -977,10 +977,11 @@ def make_score(first_measure_number, previous_persistent_indicators):
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    score, accumulator = make_score(
-        environment.first_measure_number,
-        environment.previous_persist["persistent_indicators"],
-    )
+    with abjad.Timer() as timer:
+        score, accumulator = make_score(
+            environment.first_measure_number,
+            environment.previous_persist["persistent_indicators"],
+        )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -997,6 +998,7 @@ def main():
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
+    timing.make_score = int(timer.elapsed_time)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
