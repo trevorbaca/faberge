@@ -31,7 +31,7 @@ def GLOBALS(skips, rests):
         ("[1]", 1),
         ("[2]", 3),
     )
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     baca.metronome_mark(skips[1 - 1], library.metronome_marks["100"], library.manifests)
     for index, string in (
         (2 - 1, "short"),
@@ -108,7 +108,7 @@ def fl(m):
         baca.instrument(
             o.leaf(0),
             "Flute",
-            library.manifests,
+            manifests=library.manifests,
         )
         baca.clef(o.leaf(0), "treble")
         baca.staff_lines(o.leaf(0), 5)
@@ -164,7 +164,7 @@ def pf(cache):
         baca.short_instrument_name(
             o.leaf(0),
             "Pf.",
-            library.manifests,
+            manifests=library.manifests,
             context="PianoStaff",
         )
     m = cache["lh"]
@@ -232,10 +232,10 @@ def make_score():
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
+        manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"])
     FL(accumulator.voice("fl"), accumulator)
@@ -266,11 +266,9 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
     score, accumulator = make_score(timing)
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -278,8 +276,11 @@ def main():
         ],
         always_make_global_rests=True,
         empty_fermata_measures=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
         transpose_score=True,
     )
     lilypond_file = baca.lilypond.file(
