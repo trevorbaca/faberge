@@ -33,7 +33,7 @@ def GLOBALS(skips, first_measure_number):
         ("[3-6 (A.3) (A.4) (3-1) (4-5)]", 1),
         ("[3-7 (A.4)]", 5),
     )
-    baca.label_stage_numbers(skips, stage_markup)
+    baca.section.label_stage_numbers(skips, stage_markup)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "J",
@@ -73,7 +73,7 @@ def FL(voice, accumulator):
         extra_counts=[0, 1, 0, -1],
     )
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def EH(voice, accumulator):
@@ -98,7 +98,7 @@ def CL(voice, accumulator):
         extra_counts=[1, 0, -1, 0],
     )
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def PF(score, accumulator):
@@ -115,7 +115,7 @@ def PF(score, accumulator):
             denominator=8,
         )
         voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
@@ -147,7 +147,7 @@ def PERC(voice, accumulator):
             denominator=2,
         )
         voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def VN(voice, accumulator):
@@ -184,7 +184,7 @@ def VA(voice, accumulator):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5, 8))
     voice.extend(music)
-    baca.append_anchor_note(voice)
+    baca.section.append_anchor_note(voice)
 
 
 def VC(voice, accumulator):
@@ -601,10 +601,10 @@ def make_score(
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], first_measure_number)
@@ -616,7 +616,7 @@ def make_score(
     VN(accumulator.voice("vn"), accumulator)
     VA(accumulator.voice("va"), accumulator)
     VC(accumulator.voice("vc"), accumulator)
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -648,11 +648,9 @@ def main():
         environment.previous_persist["voice_name_to_parameter_to_state"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
@@ -660,8 +658,11 @@ def main():
         ],
         always_make_global_rests=True,
         empty_fermata_measures=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
         transpose_score=True,
     )
     persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
