@@ -496,7 +496,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     voice_name_to_parameter_to_state = {}
     voice_name_to_parameter_to_state["Cello.Music"] = {}
     vc(cache["vc"], voice_name_to_parameter_to_state["Cello.Music"])
-    return score, accumulator, voice_name_to_parameter_to_state
+    return score, accumulator, baca.section.proxy(voice_name_to_parameter_to_state)
 
 
 def main():
@@ -524,7 +524,9 @@ def main():
         timing=timing,
         transpose_score=True,
     )
-    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    dictionary = dict(persist)
+    dictionary["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    persist = baca.section.proxy(dictionary)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
