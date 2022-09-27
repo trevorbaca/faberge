@@ -659,7 +659,9 @@ def main():
         timing=timing,
         transpose_score=True,
     )
-    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    dictionary = dict(persist)
+    dictionary["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    persist = baca.section.proxy(dictionary)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
