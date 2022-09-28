@@ -513,7 +513,7 @@ def fl_vn(cache):
             baca.hairpin(baca.select.rleak(plts[2]), 'o< "ff"')
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(
     first_measure_number,
     previous_persistent_indicators,
