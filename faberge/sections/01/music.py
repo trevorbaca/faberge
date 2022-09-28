@@ -225,7 +225,7 @@ def vc(m):
         baca.instrument(o.leaf(0), "Cello", library.manifests)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score():
     score, accumulator = make_empty_score()
     baca.section.set_up_score(
