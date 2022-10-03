@@ -562,8 +562,8 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     score, measures, voice_name_to_parameter_to_state = make_score(
         environment.first_measure_number,
-        environment.previous_persist["persistent_indicators"],
-        environment.previous_persist["voice_name_to_parameter_to_state"],
+        environment.previous_metadata["persistent_indicators"],
+        environment.previous_metadata["voice_name_to_parameter_to_state"],
         environment.timing,
     )
     metadata, persist = baca.section.postprocess_score(
@@ -582,9 +582,11 @@ def main():
         manifests=library.manifests,
         transpose_score=True,
     )
-    dictionary = dict(persist)
-    dictionary["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
-    persist = baca.section.proxy(dictionary)
+    dictionary = dict(metadata)
+    dictionary["voice_name_to_parameter_to_state"] = dict(
+        voice_name_to_parameter_to_state
+    )
+    metadata = baca.section.proxy(dictionary)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
