@@ -260,7 +260,7 @@ def make_score():
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     score, measures = make_score(environment.timing)
-    metadata, persist = baca.section.postprocess_score(
+    metadata = baca.section.postprocess_score(
         score,
         measures(),
         **baca.section.section_defaults(),
@@ -284,7 +284,6 @@ def main():
     baca.build.persist_lilypond_file(
         lilypond_file,
         metadata,
-        persist,
         environment.timing,
         environment.arguments,
     )
