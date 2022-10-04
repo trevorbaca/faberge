@@ -627,19 +627,18 @@ def make_score(first_measure_number, previous_persistent_indicators):
     voice_name_to_parameter_to_state["Cello.Music"] = {}
     vc(cache["vc"], voice_name_to_parameter_to_state["Cello.Music"])
     vn_va_vc(cache)
-    return score, measures, voice_name_to_parameter_to_state
+    return score, voice_name_to_parameter_to_state
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    score, measures, voice_name_to_parameter_to_state = make_score(
+    score, voice_name_to_parameter_to_state = make_score(
         environment.first_measure_number,
         environment.previous_metadata["persistent_indicators"],
         environment.timing,
     )
     metadata = baca.section.postprocess_score(
         score,
-        measures(),
         **baca.section.section_defaults(),
         activate=[
             baca.tags.LOCAL_MEASURE_NUMBER,
