@@ -537,8 +537,8 @@ def make_score(
     VC(voices("vc"), measures)
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,
