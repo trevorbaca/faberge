@@ -9,7 +9,7 @@ def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
     tuplet_ratios = _tuplet_ratios_a()
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     nested_music = rmakers.tuplet(divisions, tuplet_ratios_, tag=tag)
@@ -94,7 +94,6 @@ def make_airtone_chain_rhythm(
         my_counts.append(1000)
     else:
         my_counts.append(-1000)
-
     if not prolong_last_count:
         my_counts = [_ for _ in my_counts if _ != 0]
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
@@ -157,7 +156,7 @@ def make_clb_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
     extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     if fuse_counts is not None:
         divisions = abjad.sequence.partition_by_counts(
             divisions, fuse_counts, cyclic=True, overhang=True
@@ -429,39 +428,6 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=(0,)
     return music
 
 
-def make_glow_rhythm(time_signatures, *commands, tuplet_ratio_rotation=None):
-    tuplet_ratios = _tuplet_ratios_a()
-    tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
-    tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-
-    def preprocessor(divisions):
-        result = baca.sequence.fuse(divisions)
-        result = baca.sequence.quarters(result)
-        return result
-
-    tag = baca.tags.function_name(inspect.currentframe())
-    rhythm_maker = rmakers.stack(
-        rmakers.tuplet(tuplet_ratios_),
-        rmakers.tie(
-            lambda _: [
-                baca.select.pleaf(tuplet, -1) for tuplet in baca.select.tuplets(_)[:-1]
-            ]
-        ),
-        *commands,
-        rmakers.rewrite_rest_filled(),
-        rmakers.rewrite_sustained(),
-        rmakers.trivialize(),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie((1, 4)),
-        preprocessor=preprocessor,
-        tag=tag,
-    )
-    music = rhythm_maker(time_signatures)
-    return music
-
-
 def make_glow_rhythm_a(time_signatures):
     tag = baca.tags.function_name(inspect.currentframe())
     voice = _make_glow_rhythm(time_signatures, tag=tag)
@@ -557,7 +523,7 @@ def make_keynoise_rhythm(
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
@@ -622,37 +588,13 @@ def make_shell_exchange_rhythm(
         this_part = (this_part,)
     assert isinstance(this_part, tuple), repr(this_part)
     assert all(_ in (0, 1, 2, 3) for _ in this_part), repr(this_part)
-    counts_ = [
-        [1, 1, -1],
-        [1, 1, 1, -2],
-        [1, 1, -2],
-        [1, 1, 1, -1],
-        [1, 1, -2],
-        [1, 1, 1, -2],
-        [1, -2],
-        [1, -2],
-        [1, 1, -2],
-        [1, 1, 1, -2],
-        [1, -2],
-        [1, 1, -1],
-        [1, 1, 1, -1],
-        [1, 1, -1],
-        [1, 1, 1, -2],
-        [1, -2],
-        [1, -2],
-        [1, 1, -2],
-        [1, -2],
-        [1, 1, -1],
-        [1, 1, 1, -2],
-        [1, 1, -1],
-        [1, 1, -1],
-        [1, 1, 1, -2],
-        [1, 1, -1],
-        [1, -2],
-        [1, 1, 1, -2],
-        [1, 1, -2],
-        [1, 1, 1, -1],
-    ]
+    counts_ = eval(
+        """[[1, 1, -1], [1, 1, 1, -2], [1, 1, -2], [1, 1, 1, -1], [1, 1, -2],
+        [1, 1, 1, -2], [1, -2], [1, -2], [1, 1, -2], [1, 1, 1, -2], [1, -2],
+        [1, 1, -1], [1, 1, 1, -1], [1, 1, -1], [1, 1, 1, -2], [1, -2], [1, -2],
+        [1, 1, -2], [1, -2], [1, 1, -1], [1, 1, 1, -2], [1, 1, -1], [1, 1, -1],
+        [1, 1, 1, -2], [1, 1, -1], [1, -2], [1, 1, 1, -2], [1, 1, -2], [1, 1, 1, -1]]"""
+    )
     counts = abjad.sequence.rotate(counts_, n=rotation)
     counts = abjad.sequence.flatten(counts)
     if total_parts == 2:
@@ -660,34 +602,10 @@ def make_shell_exchange_rhythm(
     elif total_parts == 3:
         interaction_series_ = [0, 1, 2, 0, 1, 0, 1, 2, 0, 2, 0, 1, 2]
     elif total_parts == 4:
-        interaction_series_ = [
-            0,
-            1,
-            2,
-            3,
-            0,
-            1,
-            2,
-            1,
-            2,
-            3,
-            0,
-            1,
-            2,
-            3,
-            2,
-            3,
-            0,
-            1,
-            0,
-            1,
-            2,
-            3,
-            0,
-            3,
-            0,
-            1,
-        ]
+        interaction_series_ = eval(
+            """[0, 1, 2, 3, 0, 1, 2, 1, 2, 3, 0, 1, 2,
+            3, 2, 3, 0, 1, 0, 1, 2, 3, 0, 3, 0, 1]"""
+        )
     else:
         raise ValueError(total_parts)
     interaction_series = abjad.CyclicTuple(interaction_series_)
@@ -764,21 +682,13 @@ def make_spazzolati_rhythm(
     extra_counts=(),
     force_rest_tuplets=None,
 ):
-    counts_ = [
-        [1, 1, 1],
-        [-2],
-        [1, 1],
-        [-2],
-        [1, 1, 1],
-        [-2],
-        [1, 1, 1, 1],
-        [-2],
-        [1, 1],
-        [-2],
-    ]
+    counts_ = eval(
+        """[[1, 1, 1], [-2], [1, 1], [-2], [1, 1, 1],
+        [-2], [1, 1, 1, 1], [-2], [1, 1], [-2]]"""
+    )
     counts = abjad.sequence.rotate(counts_, n=counts_rotation)
     counts = abjad.sequence.flatten(counts)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
