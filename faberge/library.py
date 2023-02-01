@@ -7,7 +7,6 @@ from abjadext import rmakers
 
 def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
     tuplet_ratios = _tuplet_ratios_a()
-    tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
     divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
@@ -513,13 +512,12 @@ def make_keynoise_rhythm(
 ):
     if tuplet_ratios is None:
         tuplet_ratios = _tuplet_ratios_a()
-    tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     negated_tuplet_ratios = []
     for tuplet_ratio in tuplet_ratios:
-        assert isinstance(tuplet_ratio, abjad.Ratio)
-        numbers = list(tuplet_ratio.numbers)
+        assert isinstance(tuplet_ratio, tuple)
+        numbers = list(tuplet_ratio)
         numbers[0] = -abs(numbers[0])
-        negated_tuplet_ratio = abjad.Ratio(numbers)
+        negated_tuplet_ratio = tuple(numbers)
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
