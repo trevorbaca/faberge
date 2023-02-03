@@ -18,8 +18,8 @@ def make_empty_score():
     time_signatures = maker_.run()
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips, rests):
@@ -36,66 +36,66 @@ def GLOBALS(skips, rests):
         baca.global_fermata(rests[index], string)
 
 
-def FL(voice, measures):
-    music = baca.make_mmrests(measures())
+def FL(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def EH(voice, measures):
-    music = baca.make_mmrests(measures(1, 2))
+def EH(voice, signatures):
+    music = baca.make_mmrests(signatures(1, 2))
     voice.extend(music)
-    music = library.make_ratchet_rhythm(measures(3))
+    music = library.make_ratchet_rhythm(signatures(3))
     voice.extend(music)
-    music = baca.make_mmrests(measures(4))
-    voice.extend(music)
-
-
-def CL(voice, measures):
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures(4))
     voice.extend(music)
 
 
-def PF(score, measures):
+def CL(voice, signatures):
+    music = baca.make_mmrests(signatures())
+    voice.extend(music)
+
+
+def PF(score, signatures):
     voice = score["Piano.RH.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
     voice = score["Piano.LH.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def PERC(voice, measures):
-    music = baca.make_mmrests(measures())
+def PERC(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def VN(voice, measures):
+def VN(voice, signatures):
     music = library.make_spazzolati_rhythm(
-        measures(1),
+        signatures(1),
         counts_rotation=0,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(2, 4), head=voice.name)
+    music = baca.make_mmrests(signatures(2, 4), head=voice.name)
     voice.extend(music)
 
 
-def VA(voice, measures):
+def VA(voice, signatures):
     music = library.make_spazzolati_rhythm(
-        measures(1),
+        signatures(1),
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(2, 4), head=voice.name)
+    music = baca.make_mmrests(signatures(2, 4), head=voice.name)
     voice.extend(music)
 
 
-def VC(voice, measures):
-    music = baca.make_mmrests(measures())
+def VC(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
@@ -223,27 +223,27 @@ def vc(m):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    FL(voices("fl"), measures)
-    EH(voices("eh"), measures)
-    CL(voices("cl"), measures)
-    PF(score, measures)
-    PERC(voices("perc"), measures)
-    VN(voices("vn"), measures)
-    VA(voices("va"), measures)
-    VC(voices("vc"), measures)
+    FL(voices("fl"), signatures)
+    EH(voices("eh"), signatures)
+    CL(voices("cl"), signatures)
+    PF(score, signatures)
+    PERC(voices("perc"), signatures)
+    VN(voices("vn"), signatures)
+    VA(voices("va"), signatures)
+    VC(voices("vc"), signatures)
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     fl(cache["fl"])

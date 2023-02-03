@@ -22,8 +22,8 @@ def make_empty_score():
         (8, 4),
         (1, 4),
     ]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def GLOBALS(skips, rests):
@@ -60,94 +60,94 @@ def GLOBALS(skips, rests):
         baca.global_fermata(rests[index], string)
 
 
-def FL(voice, measures):
-    music = library.make_halves_rhythm(measures(1, 4))
+def FL(voice, signatures):
+    music = library.make_halves_rhythm(signatures(1, 4))
     voice.extend(music)
     music = baca.make_skeleton(
         "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(9), head=voice.name)
+    music = baca.make_mmrests(signatures(9), head=voice.name)
     voice.extend(music)
 
 
-def EH(voice, measures):
-    music = baca.make_mmrests(measures())
+def EH(voice, signatures):
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def CL(voice, measures):
+def CL(voice, signatures):
     music = library.make_bcl_color_fingering_rhythm(
-        measures(1, 4),
+        signatures(1, 4),
         force_rest_lts=[6, 7, 12, 17],
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(5, 9), head=voice.name)
+    music = baca.make_mmrests(signatures(5, 9), head=voice.name)
     voice.extend(music)
 
 
-def PF(score, measures):
+def PF(score, signatures):
     voice = score["Piano.RH.Music"]
-    music = baca.make_mmrests(measures(1, 3))
+    music = baca.make_mmrests(signatures(1, 3))
     voice.extend(music)
     music = library.make_even_tuplet_rhythm(
-        measures(4, 5),
+        signatures(4, 5),
         extra_counts=[1, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(6, 9), head=voice.name)
+    music = baca.make_mmrests(signatures(6, 9), head=voice.name)
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
     voice = score["Piano.LH.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def PERC(voice, measures):
-    music = baca.make_mmrests(measures(1, 4))
+def PERC(voice, signatures):
+    music = baca.make_mmrests(signatures(1, 4))
     voice.extend(music)
     music = library.make_downbeat_attack(
-        measures(5),
+        signatures(5),
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(6, 7), head=voice.name)
+    music = baca.make_mmrests(signatures(6, 7), head=voice.name)
     voice.extend(music)
     music = baca.make_skeleton(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     )
     voice.extend(music)
-    music = baca.make_mmrests(measures(9), head=voice.name)
+    music = baca.make_mmrests(signatures(9), head=voice.name)
     voice.extend(music)
 
 
-def VN(voice, measures):
-    music = baca.make_mmrests(measures(1, 4))
-    voice.extend(music)
-    for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm(measures(n))
-        voice.extend(music)
-    music = baca.make_mmrests(measures(9), head=voice.name)
-    voice.extend(music)
-
-
-def VA(voice, measures):
-    music = library.make_back_incised_divisions(measures(1, 4))
+def VN(voice, signatures):
+    music = baca.make_mmrests(signatures(1, 4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
-        music = library.make_halves_rhythm(measures(n))
+        music = library.make_halves_rhythm(signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(measures(9), head=voice.name)
+    music = baca.make_mmrests(signatures(9), head=voice.name)
     voice.extend(music)
 
 
-def VC(voice, measures):
+def VA(voice, signatures):
+    music = library.make_back_incised_divisions(signatures(1, 4))
+    voice.extend(music)
+    for n in [5, 6, 7, 8]:
+        music = library.make_halves_rhythm(signatures(n))
+        voice.extend(music)
+    music = baca.make_mmrests(signatures(9), head=voice.name)
+    voice.extend(music)
+
+
+def VC(voice, signatures):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
-        music = library.make_halves_rhythm(measures(n))
+        music = library.make_halves_rhythm(signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(measures(9), head=voice.name)
+    music = baca.make_mmrests(signatures(9), head=voice.name)
     voice.extend(music)
 
 
@@ -394,10 +394,10 @@ def vn_va_vc(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -405,14 +405,14 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], score["Rests"])
-    FL(voices("fl"), measures)
-    EH(voices("eh"), measures)
-    CL(voices("cl"), measures)
-    PF(score, measures)
-    PERC(voices("perc"), measures)
-    VN(voices("vn"), measures)
-    VA(voices("va"), measures)
-    VC(voices("vc"), measures)
+    FL(voices("fl"), signatures)
+    EH(voices("eh"), signatures)
+    CL(voices("cl"), signatures)
+    PF(score, signatures)
+    PERC(voices("perc"), signatures)
+    VN(voices("vn"), signatures)
+    VA(voices("va"), signatures)
+    VC(voices("vc"), signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -420,7 +420,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     fl(cache["fl"])
