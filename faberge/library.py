@@ -8,10 +8,10 @@ from abjadext import rmakers
 def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
     tuplet_ratios = _tuplet_ratios_a()
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    duration = [_.duration for _ in time_signatures]
-    duration = baca.sequence.fuse(duration)
-    duration = baca.sequence.quarters(duration)
-    nested_music = rmakers.tuplet(duration, tuplet_ratios_, tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    durations = [sum(durations)]
+    durations = baca.sequence.quarters(durations)
+    nested_music = rmakers.tuplet(durations, tuplet_ratios_, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     tuplets = baca.select.tuplets(voice)[:-1]
     pleaves = [baca.select.pleaf(_, -1) for _ in tuplets]
@@ -158,13 +158,13 @@ def make_clb_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
     extra_counts = abjad.sequence.rotate(extra_counts, n=rotation)
-    duration = [_.duration for _ in time_signatures]
+    durations = [_.duration for _ in time_signatures]
     if fuse_counts is not None:
-        duration = abjad.sequence.partition_by_counts(
-            duration, fuse_counts, cyclic=True, overhang=True
+        durations = abjad.sequence.partition_by_counts(
+            durations, fuse_counts, cyclic=True, overhang=True
         )
-        duration = [sum(_) for _ in duration]
-    nested_music = rmakers.talea(duration, [1], 8, extra_counts=extra_counts, tag=tag)
+        durations = [sum(_) for _ in durations]
+    nested_music = rmakers.talea(durations, [1], 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice, tag=tag)
     rmakers.denominator(voice, (1, 8))
@@ -529,11 +529,11 @@ def make_keynoise_rhythm(
         negated_tuplet_ratios.append(negated_tuplet_ratio)
     tuplet_ratios = negated_tuplet_ratios
     tuplet_ratios_ = abjad.sequence.rotate(tuplet_ratios, n=tuplet_ratio_rotation)
-    duration = [_.duration for _ in time_signatures]
-    duration = baca.sequence.fuse(duration)
-    duration = baca.sequence.quarters(duration)
+    durations = [_.duration for _ in time_signatures]
+    durations = [sum(durations)]
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.tuplet(duration, tuplet_ratios_, tag=tag)
+    nested_music = rmakers.tuplet(durations, tuplet_ratios_, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_tuplets is not None:
         tuplets = baca.select.tuplets(voice)
@@ -696,12 +696,12 @@ def make_spazzolati_rhythm(
     )
     counts = abjad.sequence.rotate(counts_, n=counts_rotation)
     counts = abjad.sequence.flatten(counts)
-    duration = [_.duration for _ in time_signatures]
-    duration = baca.sequence.fuse(duration)
-    duration = baca.sequence.quarters(duration)
+    durations = [_.duration for _ in time_signatures]
+    durations = [sum(durations)]
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.talea(
-        duration, counts, denominator, extra_counts=extra_counts, tag=tag
+        durations, counts, denominator, extra_counts=extra_counts, tag=tag
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if force_rest_tuplets is not None:
