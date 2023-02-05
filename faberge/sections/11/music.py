@@ -274,14 +274,14 @@ def fl_cl(cache):
             baca.hairpin(
                 o,
                 "o< p >o pp > ppp",
-                the_pieces=baca.select.lparts(o, [1, 1, 2]),
+                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
                     o,
                     "o< pp >o ppp > pppp",
-                    the_pieces=baca.select.lparts(o, [1, 1, 2]),
+                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.material_annotation_spanner(
@@ -296,7 +296,7 @@ def fl_cl(cache):
                 baca.hairpin(
                     cmgroup,
                     "o< mp >o niente",
-                    the_pieces=abjad.select.partition_by_counts(
+                    pieces=abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
                 )
@@ -447,7 +447,7 @@ def vn(m):
         baca.hairpin(
             o,
             "p niente o< p > pp",
-            the_pieces=baca.select.lparts(o, [1, 1, 2]),
+            pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -469,7 +469,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            the_pieces=baca.select.lparts(leaves, [1, 2]),
+            pieces=baca.select.lparts(leaves, [1, 2]),
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
@@ -552,7 +552,7 @@ def vc(m, metadata):
                 run,
                 "niente o< p >o",
                 final_hairpin=False,
-                the_pieces=baca.select.clparts(run, [1]),
+                pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))
