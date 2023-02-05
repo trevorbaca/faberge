@@ -525,15 +525,16 @@ def vn(m):
             baca.hairpin(
                 o,
                 "p niente o< p > pp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(o, [1, 1, 2]),
             )
+            leaves = o.leaves()[-3:]
             baca.scp_spanner(
-                o.leaves()[-3:],
+                leaves,
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=False,
                 bookend=-1,
-                pieces=lambda _: baca.select.lparts(_, [1, 2]),
+                the_pieces=baca.select.lparts(leaves, [1, 2]),
             )
     with baca.scope(m.get(6, 10)) as o:
         baca.pitch(o, "A#4")
@@ -570,15 +571,16 @@ def va(m):
             baca.hairpin(
                 o,
                 "niente o< p > pp p",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(o, [1, 1, 2]),
             )
+            leaves = o.leaves()[:3]
             baca.scp_spanner(
-                o.leaves()[:3],
+                leaves,
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 autodetect_right_padding=False,
                 bookend=-1,
-                pieces=lambda _: baca.select.lparts(_, [1, 2]),
+                the_pieces=baca.select.lparts(leaves, [1, 2]),
             )
     with baca.scope(m.get(8, 10)) as o:
         baca.pitch(o, "A#4")

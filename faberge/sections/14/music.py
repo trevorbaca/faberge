@@ -247,7 +247,7 @@ def fl(m):
         baca.hairpin(
             o,
             "o< p >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.dls_staff_padding(o, 4)
@@ -255,7 +255,7 @@ def fl(m):
         baca.hairpin(
             o,
             "o< mp >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.material_annotation_spanner(
@@ -269,13 +269,13 @@ def fl(m):
         baca.hairpin(
             o,
             "o< mf >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m[8]) as o:
         baca.hairpin(
             o,
             "o< f >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
 
 
@@ -287,8 +287,8 @@ def cl(m):
             baca.hairpin(
                 run[:-1],
                 "p < mp > p",
-                pieces=lambda _: abjad.select.partition_by_ratio(
-                    baca.select.plts(_), (1, 1)
+                the_pieces=abjad.select.partition_by_ratio(
+                    baca.select.plts(run[:-1]), (1, 1)
                 ),
             )
     with baca.scope(m.get(3, 4)) as o:
@@ -300,8 +300,8 @@ def cl(m):
             baca.hairpin(
                 run[:-1],
                 "pp < p > pp",
-                pieces=lambda _: abjad.select.partition_by_ratio(
-                    baca.select.plts(_), (1, 1)
+                the_pieces=abjad.select.partition_by_ratio(
+                    baca.select.plts(run[:-1]), (1, 1)
                 ),
             )
     with baca.scope(m.leaves()) as o:
@@ -329,7 +329,7 @@ def eh(m):
             baca.hairpin(
                 run,
                 "o< mf >o niente",
-                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+                the_pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
             baca.trill_spanner(
                 run,
@@ -469,21 +469,21 @@ def vc(m, metadata):
                 run,
                 "niente o< mp >o",
                 final_hairpin=False,
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 1, 2):
             baca.hairpin(
                 run,
                 "niente o< mf >o",
                 final_hairpin=False,
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 2, 3):
             baca.hairpin(
                 run,
                 "niente o< f >o",
                 final_hairpin=False,
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m[5]) as o:
         baca.clef(o.leaf(0), "bass")
@@ -494,7 +494,7 @@ def vc(m, metadata):
             baca.hairpin(
                 o.rleaves(),
                 "o< p >o niente",
-                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+                the_pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )
             baca.pitch(o, "F2")
             baca.stem_tremolo(o.pleaves())

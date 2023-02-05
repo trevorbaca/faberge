@@ -274,14 +274,14 @@ def fl_cl(cache):
             baca.hairpin(
                 o,
                 "o< p >o pp > ppp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
                     o,
                     "o< pp >o ppp > pppp",
-                    pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                    the_pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.material_annotation_spanner(
@@ -296,8 +296,8 @@ def fl_cl(cache):
                 baca.hairpin(
                     cmgroup,
                     "o< mp >o niente",
-                    pieces=lambda _: abjad.select.partition_by_counts(
-                        abjad.select.leaves(_), [2], overhang=True
+                    the_pieces=abjad.select.partition_by_counts(
+                        abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
                 )
             baca.material_annotation_spanner(
@@ -447,7 +447,7 @@ def vn(m):
         baca.hairpin(
             o,
             "p niente o< p > pp",
-            pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+            the_pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -462,13 +462,14 @@ def vn(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((1, 4)):
                 baca.stem_tremolo(plt)
+        leaves = o.leaves()[-3:]
         baca.scp_spanner(
-            o.leaves()[-3:],
+            leaves,
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            pieces=lambda _: baca.select.lparts(_, [1, 2]),
+            the_pieces=baca.select.lparts(leaves, [1, 2]),
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
@@ -551,7 +552,7 @@ def vc(m, metadata):
                 run,
                 "niente o< p >o",
                 final_hairpin=False,
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))

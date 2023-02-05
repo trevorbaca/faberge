@@ -289,7 +289,7 @@ def fl(m):
         baca.hairpin(
             o,
             "o< mp >o p > pp",
-            pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+            the_pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -319,7 +319,7 @@ def eh(m):
             baca.hairpin(
                 run,
                 "o< mf >o niente",
-                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+                the_pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
             baca.trill_spanner(
                 run,
@@ -344,8 +344,8 @@ def cl(m):
             baca.hairpin(
                 run[:-1],
                 "pp < p > pp",
-                pieces=lambda _: abjad.select.partition_by_ratio(
-                    baca.select.plts(_), (1, 1)
+                the_pieces=abjad.select.partition_by_ratio(
+                    baca.select.plts(run[:-1]), (1, 1)
                 ),
             )
     with baca.scope(m.get(3, 8)) as o:
@@ -359,8 +359,8 @@ def cl(m):
             baca.hairpin(
                 run[:-1],
                 "p < mp > p",
-                pieces=lambda _: abjad.select.partition_by_ratio(
-                    baca.select.plts(_), (1, 1)
+                the_pieces=abjad.select.partition_by_ratio(
+                    baca.select.plts(run[:-1]), (1, 1)
                 ),
             )
         baca.pitch(o, "Ab2")
@@ -559,7 +559,7 @@ def vc(m, metadata):
                 run,
                 "niente o< pp >o",
                 final_hairpin=False,
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(run, [1]),
             )
 
 

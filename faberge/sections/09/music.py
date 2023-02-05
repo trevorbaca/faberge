@@ -266,7 +266,7 @@ def fl(m):
         baca.hairpin(
             o,
             "o< f >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.pitch(o, "G#5")
@@ -282,13 +282,13 @@ def fl(m):
         baca.hairpin(
             o.rleaves(),
             "o< mf >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
         )
     with baca.scope(m[7]) as o:
         baca.hairpin(
             o,
             "o< mp >o niente",
-            pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+            the_pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
 
 
@@ -302,7 +302,7 @@ def eh(m):
             baca.hairpin(
                 leaves,
                 "o< mf >o niente",
-                pieces=lambda _: baca.select.lparts(_, [1, 1 + 1]),
+                the_pieces=baca.select.lparts(leaves, [1, 1 + 1]),
             )
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -356,8 +356,8 @@ def fl_cl(cache):
                 baca.hairpin(
                     cmgroup,
                     "o< mp >o niente",
-                    pieces=lambda _: abjad.select.partition_by_counts(
-                        abjad.select.leaves(_), [2], overhang=True
+                    the_pieces=abjad.select.partition_by_counts(
+                        abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
                 )
             baca.material_annotation_spanner(
@@ -438,7 +438,7 @@ def vn(m):
             baca.hairpin(
                 clpart,
                 "p niente o< p > pp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -450,7 +450,7 @@ def vn(m):
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     autodetect_right_padding=False,
                     bookend=-1,
-                    pieces=lambda _: baca.select.lparts(_, [1, 2]),
+                    the_pieces=baca.select.lparts(clpart, [1, 2]),
                 )
     with baca.scope(m.get(1, 4)) as o:
         baca.dls_staff_padding(o, 4)
@@ -464,21 +464,21 @@ def vn(m):
             baca.hairpin(
                 clpart,
                 "mp niente o< mp > pp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
                 clpart,
                 "mf niente o< mf > pp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
                 clpart,
                 "f niente o< f > pp",
-                pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "B4")
@@ -510,7 +510,7 @@ def va(m):
         baca.hairpin(
             o,
             "p niente o< p > pp niente o< p > pp p",
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             o,
@@ -518,7 +518,7 @@ def va(m):
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "A#4")
@@ -532,7 +532,7 @@ def va(m):
         baca.hairpin(
             o,
             "niente o< mp > pp mp niente o< mp > pp mp",
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             o,
@@ -540,7 +540,7 @@ def va(m):
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m[3]) as o:
         for plt in baca.select.plts(o):
@@ -552,7 +552,7 @@ def va(m):
         baca.hairpin(
             o,
             "mp niente o< mf > pp niente o< mf > pp mf",
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             o,
@@ -560,7 +560,7 @@ def va(m):
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m[4]) as o:
         for plt in baca.select.plts(o):
@@ -572,7 +572,7 @@ def va(m):
         baca.hairpin(
             o,
             "niente o< f > pp f f niente o< f > pp",
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             o,
@@ -580,7 +580,7 @@ def va(m):
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             autodetect_right_padding=False,
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -592,7 +592,7 @@ def va(m):
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     autodetect_right_padding=False,
                     bookend=-1,
-                    pieces=lambda _: baca.select.lparts(_, [1, 2]),
+                    the_pieces=baca.select.lparts(clpart, [1, 2]),
                 )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "Aqs4")
@@ -629,14 +629,14 @@ def vn_va(cache):
                     baca.hairpin(
                         clpart,
                         '"ff" niente o< ff > pp',
-                        pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                        the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.hairpin(
                     clpart,
                     "mp niente o< mp > pp",
-                    pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                    the_pieces=baca.select.lparts(clpart, [1, 1, 2]),
                 )
 
 
@@ -657,7 +657,7 @@ def vc(m):
             baca.hairpin(
                 o,
                 "p f >o",
-                pieces=lambda _: baca.select.clparts(_, [1]),
+                the_pieces=baca.select.clparts(o, [1]),
             )
     for n in [5, 6, 7, 9]:
         with baca.scope(m[n]) as o:
@@ -697,7 +697,7 @@ def vc(m):
         baca.hairpin(
             o,
             "pp p >o",
-            pieces=lambda _: baca.select.clparts(_, [1]),
+            the_pieces=baca.select.clparts(o, [1]),
         )
         baca.pitch(o, "Eb2")
 
