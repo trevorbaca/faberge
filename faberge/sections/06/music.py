@@ -255,8 +255,8 @@ def fl(m):
         baca.hairpin(
             o,
             "o< mf >o",
-            pieces=lambda _: abjad.select.partition_by_counts(
-                baca.select.pleaves(_),
+            the_pieces=abjad.select.partition_by_counts(
+                baca.select.pleaves(o),
                 [1],
                 cyclic=True,
             ),
@@ -334,7 +334,7 @@ def fl_cl(cache):
                 baca.hairpin(
                     o,
                     "o< mp >o p > pp",
-                    pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+                    the_pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
                 baca.trill_spanner(
                     o.leaves()[:3],
@@ -465,20 +465,21 @@ def vn(m):
         baca.hairpin(
             o,
             "p niente o< p > pp",
-            pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+            the_pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.pitches(
             o,
             "D4 Eb4 Eb4 Eb4",
             allow_repeats=True,
         )
+        leaves = o.leaves()[-3:]
         baca.scp_spanner(
-            o.leaves()[-3:],
+            leaves,
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            pieces=lambda _: baca.select.lparts(_, [1, 2]),
+            the_pieces=baca.select.lparts(leaves, [1, 2]),
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.dls_staff_padding(o, 4)
@@ -503,20 +504,21 @@ def va(m):
         baca.hairpin(
             o,
             "niente o< p > pp p",
-            pieces=lambda _: baca.select.lparts(_, [1, 1, 2]),
+            the_pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.pitches(
             o,
             "D4 D4 D4 Eb4",
             allow_repeats=True,
         )
+        leaves = o.leaves()[:3]
         baca.scp_spanner(
-            o.leaves()[:3],
+            leaves,
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            pieces=lambda _: baca.select.lparts(_, [1, 2]),
+            the_pieces=baca.select.lparts(leaves, [1, 2]),
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.dls_staff_padding(o, 6.5)
