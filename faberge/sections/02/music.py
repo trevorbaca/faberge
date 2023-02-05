@@ -757,7 +757,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
             autodetect_right_padding=False,
-            the_pieces=baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
+            pieces=baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(13, 16)) as o:
@@ -918,14 +918,14 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             autodetect_right_padding=False,
             bookend=-1,
-            the_pieces=baca.select.mgroups(o, [9, 10]),
+            pieces=baca.select.mgroups(o, [9, 10]),
         )
     with baca.scope(m.get(71, 92)) as o:
         baca.hairpin(
             o,
             "ff > pp < p",
             bookend=False,
-            the_pieces=baca.select.omgroups(o, [9, 9]),
+            pieces=baca.select.omgroups(o, [9, 9]),
         )
 
 

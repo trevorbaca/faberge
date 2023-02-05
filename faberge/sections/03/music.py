@@ -306,7 +306,7 @@ def fl(m):
         baca.hairpin(
             leaves,
             "niente o< mp >o niente",
-            the_pieces=baca.select.lparts(leaves, [1, 1 + 1]),
+            pieces=baca.select.lparts(leaves, [1, 1 + 1]),
         )
     with baca.scope(m.get(11, 12)) as o:
         library.niente_swells(o, "mf")
@@ -341,7 +341,7 @@ def fl(m):
         baca.hairpin(
             leaves,
             "niente o< pp >o niente",
-            the_pieces=baca.select.lparts(leaves, [1, 1 + 1]),
+            pieces=baca.select.lparts(leaves, [1, 1 + 1]),
         )
     with baca.scope(m.get(55, 60)) as o:
         library.niente_swells(o, "ppp")
@@ -637,7 +637,7 @@ def perc(cache):
             o,
             "ppp < pp >",
             bookend=False,
-            the_pieces=baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
+            pieces=baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
         )
         baca.markup(
             o.pleaf(0),
@@ -657,7 +657,7 @@ def perc(cache):
         baca.hairpin(
             o.rleaves(),
             "ppp < pp >o niente",
-            the_pieces=baca.select.mgroups(o.rleaves(), [2, 6 + 1]),
+            pieces=baca.select.mgroups(o.rleaves(), [2, 6 + 1]),
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -727,7 +727,7 @@ def vn(m):
         baca.hairpin(
             o,
             "(ppp) < f > ppp",
-            the_pieces=baca.select.cmgroups(o, [8]),
+            pieces=baca.select.cmgroups(o, [8]),
         )
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -818,7 +818,7 @@ def va(m):
         baca.hairpin(
             o,
             "(pp) < f > pp",
-            the_pieces=baca.select.cmgroups(o, [8]),
+            pieces=baca.select.cmgroups(o, [8]),
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.scp_spanner(
@@ -892,7 +892,7 @@ def vc(m):
         baca.hairpin(
             o,
             "(p) < ff >o",
-            the_pieces=baca.select.mgroups(o, [12, 12]),
+            pieces=baca.select.mgroups(o, [12, 12]),
         )
         baca.markup(
             o.pleaf(0),
@@ -905,7 +905,7 @@ def vc(m):
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
-            the_pieces=baca.select.mgroups(leaves, [12, 12]),
+            pieces=baca.select.mgroups(leaves, [12, 12]),
         )
     with baca.scope(m.get(61, 80)) as o:
         baca.beam_positions(o, -3.5)

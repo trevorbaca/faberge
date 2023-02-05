@@ -799,7 +799,7 @@ def niente_swells(argument, dynamic):
     # TODO: allow:
     #   baca.hairpin(
     #        'niente o< {dynamic} {dynamic} >o niente',
-    #        the_pieces=abjad.select.leaves(_).partition([2, 'most', 2])
+    #        pieces=abjad.select.leaves(_).partition([2, 'most', 2])
     #        )
     for run in baca.select.ntruns(argument):
         if len(run) <= 2:

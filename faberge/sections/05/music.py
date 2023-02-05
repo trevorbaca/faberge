@@ -249,7 +249,7 @@ def fl_cl(cache):
                 baca.hairpin(
                     o,
                     "o< mp >o p > pp",
-                    the_pieces=baca.select.lparts(o, [1, 1, 2]),
+                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
                 baca.trill_spanner(
                     o.leaves()[:3],
@@ -357,28 +357,28 @@ def vc(m, metadata):
                     run,
                     "niente o< mf >o",
                     final_hairpin=False,
-                    the_pieces=baca.select.clparts(run, [1]),
+                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 1:
                 baca.hairpin(
                     run,
                     "niente o< mp >o",
                     final_hairpin=False,
-                    the_pieces=baca.select.clparts(run, [1]),
+                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (2, 3):
                 baca.hairpin(
                     run,
                     "niente o< p >o",
                     final_hairpin=False,
-                    the_pieces=baca.select.clparts(run, [1]),
+                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (4, 5):
                 baca.hairpin(
                     run,
                     "niente o< pp >o",
                     final_hairpin=False,
-                    the_pieces=baca.select.clparts(run, [1]),
+                    pieces=baca.select.clparts(run, [1]),
                 )
     with baca.scope(m.leaves()) as o:
         baca.dls_staff_padding(o.leaves(), 8)

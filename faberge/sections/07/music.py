@@ -374,7 +374,7 @@ def fl_cl(cache):
             baca.hairpin(
                 o,
                 "o< p >o pp > ppp",
-                the_pieces=baca.select.lparts(o, [1, 1, 2]),
+                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 4]:
             with baca.scope(m[n]) as o:
@@ -389,7 +389,7 @@ def fl_cl(cache):
             baca.hairpin(
                 o,
                 "o< pp >o ppp > pppp",
-                the_pieces=baca.select.lparts(o, [1, 1, 2]),
+                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[5]) as o:
             baca.espressivo(
@@ -399,7 +399,7 @@ def fl_cl(cache):
             baca.hairpin(
                 o.rleaves(),
                 "o< mp >o niente",
-                the_pieces=abjad.select.partition_by_counts(
+                pieces=abjad.select.partition_by_counts(
                     abjad.select.leaves(o.rleaves()), [2], overhang=True
                 ),
             )
