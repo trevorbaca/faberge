@@ -21,8 +21,8 @@ def make_empty_score():
         (5, 4),
         (5, 4),
     ]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def GLOBALS(skips, first_measure_number):
@@ -61,46 +61,46 @@ def GLOBALS(skips, first_measure_number):
     baca.close_volta(skips[6 - 1], first_measure_number)
 
 
-def FL(voice, signatures):
+def FL(voice, time_signatures):
     for n in [1, 2, 3, 4]:
-        music = library.make_suffixed_colortrill_rhythm(signatures(n))
+        music = library.make_suffixed_colortrill_rhythm(time_signatures(n))
         voice.extend(music)
     music = library.make_even_tuplet_rhythm(
-        signatures(5, 8),
+        time_signatures(5, 8),
         extra_counts=[0, 1, 0, -1],
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def EH(voice, signatures):
-    music = baca.make_mmrests(signatures(1, 2))
+def EH(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(signatures(4))
+    music = library.make_downbeat_attack(time_signatures(4))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(5, 8))
+    music = baca.make_mmrests(time_signatures(5, 8))
     voice.extend(music)
 
 
-def CL(voice, signatures):
+def CL(voice, time_signatures):
     for n in [1, 2, 3, 4]:
-        music = library.make_suffixed_colortrill_rhythm(signatures(n))
+        music = library.make_suffixed_colortrill_rhythm(time_signatures(n))
         voice.extend(music)
     music = library.make_even_tuplet_rhythm(
-        signatures(5, 8),
+        time_signatures(5, 8),
         extra_counts=[1, 0, -1, 0],
     )
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def PF(score, signatures):
+def PF(score, time_signatures):
     voice = score["Piano.RH.Music"]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
@@ -108,50 +108,50 @@ def PF(score, signatures):
     voice.extend(music)
     for n in [4, 5, 6, 7, 8]:
         music = library.make_end_of_cell_attack(
-            signatures(n),
+            time_signatures(n),
             denominator=8,
         )
         voice.extend(music)
     baca.section.append_anchor_note(voice)
     voice = score["Piano.LH.Music"]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c8 [ r8 c8. ] r16 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8. ] r16 }",
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 8))
+    music = baca.make_mmrests(time_signatures(4, 8))
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
-    music = baca.make_mmrests(signatures())
+    music = baca.make_mmrests(time_signatures())
     voice.extend(music)
 
 
-def PERC(voice, signatures):
-    music = library.make_even_tuplet_rhythm(signatures(1))
+def PERC(voice, time_signatures):
+    music = library.make_even_tuplet_rhythm(time_signatures(1))
     voice.extend(music)
-    music = library.make_downbeat_attack(signatures(2))
+    music = library.make_downbeat_attack(time_signatures(2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c4 c4 c4 c4 c4 c4 c4 c4 c4 }",
     )
     voice.extend(music)
-    music = library.make_downbeat_attack(signatures(4))
+    music = library.make_downbeat_attack(time_signatures(4))
     voice.extend(music)
     for n in [5, 6, 7, 8]:
         music = library.make_downbeat_attack(
-            signatures(n),
+            time_signatures(n),
             denominator=2,
         )
         voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VN(voice, signatures):
-    music = baca.make_mmrests(signatures(1))
+def VN(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
-        signatures(2),
+        time_signatures(2),
         counts_rotation=0,
     )
     voice.extend(music)
@@ -159,34 +159,34 @@ def VN(voice, signatures):
         r"\times 9/5 { c2 c4 c4 c4 }",
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(5, 7))
+    music = baca.make_repeat_tied_notes(time_signatures(5, 7))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(8), head=voice.name)
     voice.extend(music)
 
 
-def VA(voice, signatures):
-    music = baca.make_mmrests(signatures(1))
+def VA(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
-        signatures(2),
+        time_signatures(2),
         counts_rotation=-1,
         denominator=8,
         extra_counts=[1],
     )
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 4))
+    music = baca.make_repeat_tied_notes(time_signatures(3, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(5, 8))
+    music = baca.make_repeat_tied_notes(time_signatures(5, 8))
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VC(voice, signatures):
+def VC(voice, time_signatures):
     music = library.make_airtone_chain_rhythm(
-        signatures(1, 2),
+        time_signatures(1, 2),
         20,
         [1, 2, 3],
         do_not_overlap_counts=True,
@@ -196,11 +196,11 @@ def VC(voice, signatures):
         "{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8" " c8 ] r8 r4 c8 [ r8 c8 ] r8 }",
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4), head=voice.name)
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(5, 7))
+    music = baca.make_repeat_tied_notes(time_signatures(5, 7))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(8), head=voice.name)
     voice.extend(music)
 
 
@@ -594,10 +594,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, signatures = make_empty_score()
+    score, voices, time_signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -605,14 +605,14 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"], first_measure_number)
-    FL(voices("fl"), signatures)
-    EH(voices("eh"), signatures)
-    CL(voices("cl"), signatures)
-    PF(score, signatures)
-    PERC(voices("perc"), signatures)
-    VN(voices("vn"), signatures)
-    VA(voices("va"), signatures)
-    VC(voices("vc"), signatures)
+    FL(voices("fl"), time_signatures)
+    EH(voices("eh"), time_signatures)
+    CL(voices("cl"), time_signatures)
+    PF(score, time_signatures)
+    PERC(voices("perc"), time_signatures)
+    VN(voices("vn"), time_signatures)
+    VA(voices("va"), time_signatures)
+    VC(voices("vc"), time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -620,7 +620,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     fl(cache["fl"])

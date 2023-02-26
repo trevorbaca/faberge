@@ -21,8 +21,8 @@ def make_empty_score():
         (4, 4),
         (4, 4),
     ]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def GLOBALS(skips):
@@ -57,17 +57,17 @@ def GLOBALS(skips):
         baca.metronome_mark(skip, item, library.manifests)
 
 
-def FL(voice, signatures):
-    music = baca.make_mmrests(signatures(1, 2))
+def FL(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = library.make_suffixed_colortrill_rhythm(signatures(3))
+    music = library.make_suffixed_colortrill_rhythm(time_signatures(3))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 8), head=voice.name)
     voice.extend(music)
 
 
-def EH(voice, signatures):
-    music = baca.make_mmrests(signatures(1, 4))
+def EH(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1, 4))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c4. c4. r4 }",
@@ -88,75 +88,75 @@ def EH(voice, signatures):
     baca.section.append_anchor_note(voice)
 
 
-def CL(voice, signatures):
-    music = baca.make_mmrests(signatures(1, 2))
+def CL(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(signatures(3))
+    music = library.make_bcl_color_fingering_rhythm(time_signatures(3))
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(signatures(5))
+    music = library.make_bcl_color_fingering_rhythm(time_signatures(5))
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(6),
+        time_signatures(6),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_bcl_color_fingering_rhythm(signatures(7, 8))
+    music = library.make_bcl_color_fingering_rhythm(time_signatures(7, 8))
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def PF(score, signatures):
+def PF(score, time_signatures):
     voice = score["Piano.RH.Music"]
     music = library.make_clb_rhythm(
-        signatures(1),
+        time_signatures(1),
         extra_counts=[7],
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(2))
+    music = baca.make_mmrests(time_signatures(2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(5),
+        time_signatures(5),
         extra_counts=[7],
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(6, 8))
+    music = baca.make_mmrests(time_signatures(6, 8))
     voice.extend(music)
     voice = score["Piano.LH.Music"]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     music = baca.make_skeleton(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(5, 8))
+    music = baca.make_mmrests(time_signatures(5, 8))
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
-    music = baca.make_mmrests(signatures())
+    music = baca.make_mmrests(time_signatures())
     voice.extend(music)
 
 
-def PERC(voice, signatures):
+def PERC(voice, time_signatures):
     for n in [1, 2, 3, 4, 5, 6]:
-        music = library.make_downbeat_attack(signatures(n))
+        music = library.make_downbeat_attack(time_signatures(n))
         voice.extend(music)
     music = baca.make_skeleton(
         "{ c2. r4 }",
@@ -169,110 +169,110 @@ def PERC(voice, signatures):
     baca.section.append_anchor_note(voice)
 
 
-def VN(voice, signatures):
+def VN(voice, time_signatures):
     music = library.make_clb_rhythm(
-        signatures(1),
+        time_signatures(1),
         extra_counts=[2],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(2),
+        time_signatures(2),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(3),
+        time_signatures(3),
         extra_counts=[4],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(5),
+        time_signatures(5),
         extra_counts=[6],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(6),
+        time_signatures(6),
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(7, 8))
+    music = baca.make_mmrests(time_signatures(7, 8))
     voice.extend(music)
 
 
-def VA(voice, signatures):
+def VA(voice, time_signatures):
     music = library.make_clb_rhythm(
-        signatures(1),
+        time_signatures(1),
         extra_counts=[6],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(2),
+        time_signatures(2),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(3),
+        time_signatures(3),
         extra_counts=[2],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(5),
+        time_signatures(5),
         extra_counts=[4],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(6),
+        time_signatures(6),
         denominator=8,
     )
     voice.extend(music)
-    music = library.make_back_incised_divisions(signatures(7, 8))
+    music = library.make_back_incised_divisions(time_signatures(7, 8))
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
 
-def VC(voice, signatures):
+def VC(voice, time_signatures):
     music = library.make_clb_rhythm(
-        signatures(1),
+        time_signatures(1),
         extra_counts=[4],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(2),
+        time_signatures(2),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(3),
+        time_signatures(3),
         extra_counts=[6],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(4),
+        time_signatures(4),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_clb_rhythm(
-        signatures(5),
+        time_signatures(5),
         extra_counts=[2],
     )
     voice.extend(music)
     music = library.make_downbeat_attack(
-        signatures(6),
+        time_signatures(6),
         denominator=8,
     )
     voice.extend(music)
     music = library.make_airtone_chain_rhythm(
-        signatures(7, 8),
+        time_signatures(7, 8),
         20,
         [2, 3, 4],
         do_not_overlap_counts=True,
@@ -587,10 +587,10 @@ def vn_va_vc(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, signatures = make_empty_score()
+    score, voices, time_signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -598,14 +598,14 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     GLOBALS(score["Skips"])
-    FL(voices("fl"), signatures)
-    EH(voices("eh"), signatures)
-    CL(voices("cl"), signatures)
-    PF(score, signatures)
-    PERC(voices("perc"), signatures)
-    VN(voices("vn"), signatures)
-    VA(voices("va"), signatures)
-    VC(voices("vc"), signatures)
+    FL(voices("fl"), time_signatures)
+    EH(voices("eh"), time_signatures)
+    CL(voices("cl"), time_signatures)
+    PF(score, time_signatures)
+    PERC(voices("perc"), time_signatures)
+    VN(voices("vn"), time_signatures)
+    VA(voices("va"), time_signatures)
+    VC(voices("vc"), time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -613,7 +613,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     fl(cache["fl"])
