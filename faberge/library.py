@@ -554,7 +554,7 @@ def make_piano_attack_rhythm(time_signatures):
     tuplets = rmakers.incised(
         durations,
         fill_with_rests=True,
-        outer_divisions_only=True,
+        outer_tuplets_only=True,
         prefix_talea=[1],
         prefix_counts=[1],
         talea_denominator=16,
@@ -665,7 +665,7 @@ def make_single_taper(
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.incised(
         durations,
-        outer_divisions_only=True,
+        outer_tuplets_only=True,
         prefix_talea=start_talea,
         prefix_counts=[len(start_talea)],
         suffix_talea=stop_talea,
