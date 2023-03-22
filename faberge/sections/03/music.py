@@ -246,7 +246,7 @@ def PERC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(73, 78))
     voice.extend(music)
-    music = baca.make_skeleton(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
+    music = baca.parse(r"{ r2 \times 5/4 { c4 c4 c4 c4 } }")
     voice.extend(music)
     baca.section.append_anchor_note(voice)
 
