@@ -69,19 +69,19 @@ def FL(voice, time_signatures):
 def EH(voice, time_signatures):
     music = baca.make_mmrests(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
@@ -119,7 +119,7 @@ def PF(score, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(2))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
@@ -138,7 +138,7 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
@@ -158,11 +158,11 @@ def PERC(voice, time_signatures):
     for n in [1, 2, 3, 4, 5, 6]:
         music = library.make_downbeat_attack(time_signatures(n))
         voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)

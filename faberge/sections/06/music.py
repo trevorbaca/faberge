@@ -102,15 +102,15 @@ def PF(score, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
@@ -118,15 +118,15 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 5))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }",
     )
     voice.extend(music)
@@ -148,7 +148,7 @@ def PERC(voice, time_signatures):
     for n in [4, 5, 6, 7]:
         music = library.make_downbeat_attack(time_signatures(n))
         voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
     )
     voice.extend(music)
@@ -157,7 +157,7 @@ def PERC(voice, time_signatures):
 def VN(voice, time_signatures):
     music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 9/5 { c2 c4 c4 c4 }",
     )
     voice.extend(music)
@@ -190,7 +190,7 @@ def VN(voice, time_signatures):
 def VA(voice, time_signatures):
     music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 9/5 { c4 c4 c4 c2 }",
     )
     voice.extend(music)
@@ -243,7 +243,7 @@ def VC(voice, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c1 c1 }",
     )
     voice.extend(music)

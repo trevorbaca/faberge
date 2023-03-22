@@ -68,19 +68,19 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(4))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
@@ -88,27 +88,27 @@ def FL(voice, time_signatures):
 
 
 def EH(voice, time_signatures):
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c4. c4. r4 }",
     )
     voice.extend(music)
@@ -154,35 +154,35 @@ def PF(score, time_signatures):
 
 
 def PERC(voice, time_signatures):
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. r4 }",
     )
     voice.extend(music)

@@ -70,15 +70,15 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(3, 4), head=voice.name)
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. c2. r2 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. c2. }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. c2. r2 }",
     )
     voice.extend(music)
@@ -87,21 +87,21 @@ def FL(voice, time_signatures):
 
 
 def EH(voice, time_signatures):
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c1 c1 r1 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2. c2. r1 }",
     )
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(3), head=voice.name)
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c4 c4 c4 c4 r1 }",
     )
     voice.extend(music)
@@ -152,44 +152,44 @@ def PERC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(6, 8), head=voice.name)
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         "{ c2 c1 }",
     )
     voice.extend(music)
 
 
 def VN(voice, time_signatures):
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(8))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
@@ -197,37 +197,37 @@ def VN(voice, time_signatures):
 
 
 def VA(voice, time_signatures):
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" \times 2/3 { c2 c2 c2 } c2 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 }" r" c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(8))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 \times 2/3 { c2 c2 c2 } }",
     )
     voice.extend(music)
@@ -237,21 +237,21 @@ def VA(voice, time_signatures):
 def VC(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 c1 c2 c1 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 c1 }",
     )
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"\times 8/12 { c2 c1 c2 c1 }",
     )
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(8), head=voice.name)
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ c2 c1 }",
     )
     voice.extend(music)

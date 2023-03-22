@@ -96,7 +96,7 @@ def PF(score, time_signatures):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
         r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
     )
@@ -111,7 +111,7 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_skeleton(
+    music = baca.parse(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
         r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
     )
