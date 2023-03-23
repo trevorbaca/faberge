@@ -9,12 +9,7 @@ from faberge import library
 
 
 def make_empty_score():
-    maker_ = baca.TimeSignatureMaker(
-        library.time_signatures_b(),
-        count=80,
-        rotation=0,
-    )
-    time_signatures = maker_.run()
+    time_signatures = baca.make_time_signatures(library.time_signatures_b(), 80)
     score = library.make_empty_score()
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(time_signatures)
