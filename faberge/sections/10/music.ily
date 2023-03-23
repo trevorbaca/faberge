@@ -4553,7 +4553,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -4598,7 +4597,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

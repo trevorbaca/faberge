@@ -2418,7 +2418,6 @@ number.3.Flute.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
@@ -2426,7 +2425,6 @@ number.3.Flute.Music = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2700,7 +2698,6 @@ number.3.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mf
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -2713,7 +2710,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -2806,7 +2802,6 @@ number.3.Flute.Music = {
 
         g'16
         :32
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -2830,7 +2825,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -2842,7 +2836,6 @@ number.3.Flute.Music = {
         % [Flute.Music measure 15]
         g'16
         :32
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g'16
@@ -2865,7 +2858,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -2967,7 +2959,6 @@ number.3.Flute.Music = {
     % [Flute.Music measure 18]
     g''8
     :32
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'16
@@ -2981,7 +2972,6 @@ number.3.Flute.Music = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2995,7 +2985,6 @@ number.3.Flute.Music = {
 
         g''16
         :32
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3016,7 +3005,6 @@ number.3.Flute.Music = {
 
         g''16
         :32
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3116,7 +3104,6 @@ number.3.Flute.Music = {
 
         g'16
         :32
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3140,7 +3127,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3312,7 +3298,6 @@ number.3.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3332,7 +3317,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3342,7 +3326,6 @@ number.3.Flute.Music = {
     {
 
         g'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g''16
@@ -3361,7 +3344,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
         \revert TupletBracket.staff-padding
@@ -3468,7 +3450,6 @@ number.3.Flute.Music = {
     {
 
         g''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3478,7 +3459,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3574,7 +3554,6 @@ number.3.Flute.Music = {
     {
 
         g'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3587,7 +3566,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3663,7 +3641,6 @@ number.3.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \f
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -3687,7 +3664,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -3696,7 +3672,6 @@ number.3.Flute.Music = {
     % [Flute.Music measure 38]
     g''8
     :32
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'8
@@ -3704,7 +3679,6 @@ number.3.Flute.Music = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -3999,7 +3973,6 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 47]
     g''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g''16
@@ -4008,7 +3981,6 @@ number.3.Flute.Music = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -4095,7 +4067,6 @@ number.3.Flute.Music = {
 
         % [Flute.Music measure 50]
         g'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g''16
@@ -4104,7 +4075,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -4115,7 +4085,6 @@ number.3.Flute.Music = {
     ~
 
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
@@ -4125,7 +4094,6 @@ number.3.Flute.Music = {
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 3.5
     ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -4297,7 +4265,6 @@ number.3.Flute.Music = {
     {
 
         g''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4317,7 +4284,6 @@ number.3.Flute.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         g'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -4407,7 +4373,6 @@ number.3.Flute.Music = {
     {
 
         g''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4430,7 +4395,6 @@ number.3.Flute.Music = {
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 3.5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -4548,7 +4512,6 @@ number.3.Flute.Music = {
     {
 
         gs''16
-          %! rmakers.RewriteMeterCommand.__call__
         [
         \repeatTie
 
@@ -4568,7 +4531,6 @@ number.3.Flute.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         gs''!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         ~
 
@@ -4739,7 +4701,6 @@ number.3.EnglishHorn.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e'16
@@ -4747,7 +4708,6 @@ number.3.EnglishHorn.Music = {
         eqs'!16
 
         gs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4790,11 +4750,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     ef'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -4803,7 +4761,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         a'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         gs'!16
@@ -4811,7 +4768,6 @@ number.3.EnglishHorn.Music = {
         aqf'!16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4824,7 +4780,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fqs'!16
@@ -4832,7 +4787,6 @@ number.3.EnglishHorn.Music = {
         f'16
 
         d'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4876,11 +4830,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     cs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -4889,7 +4841,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         fqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'16
@@ -4897,7 +4848,6 @@ number.3.EnglishHorn.Music = {
         e'16
 
         eqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4911,7 +4861,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         ef'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'16
@@ -4919,7 +4868,6 @@ number.3.EnglishHorn.Music = {
         d'16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4962,11 +4910,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     aqf'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     bf'!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -4975,7 +4921,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         a'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         gs'!16
@@ -4983,7 +4928,6 @@ number.3.EnglishHorn.Music = {
         eqs'!16
 
         ef'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4997,7 +4941,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         e'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         gs'!16
@@ -5005,7 +4948,6 @@ number.3.EnglishHorn.Music = {
         aqf'!16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5048,11 +4990,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     cs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5061,7 +5001,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         gs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         aqf'!16
@@ -5069,7 +5008,6 @@ number.3.EnglishHorn.Music = {
         bf'!16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
         \revert NoteHead.style
 
@@ -5163,11 +5101,9 @@ number.3.EnglishHorn.Music = {
         r16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a'8.
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5186,11 +5122,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     ef'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5200,7 +5134,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         a'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         gs'!16
@@ -5208,7 +5141,6 @@ number.3.EnglishHorn.Music = {
         aqf'!16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5219,7 +5151,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fqs'!16
@@ -5227,7 +5158,6 @@ number.3.EnglishHorn.Music = {
         f'16
 
         d'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5252,11 +5182,9 @@ number.3.EnglishHorn.Music = {
         r16
 
         gs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         aqf'!8.
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5276,11 +5204,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     cs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     fqs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5289,7 +5215,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         f'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e'16
@@ -5297,7 +5222,6 @@ number.3.EnglishHorn.Music = {
         eqs'!16
 
         ef'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5309,7 +5233,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         f'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'16
@@ -5317,7 +5240,6 @@ number.3.EnglishHorn.Music = {
         cs'!16
 
         fqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5525,7 +5447,6 @@ number.3.EnglishHorn.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         ef'!16
@@ -5533,7 +5454,6 @@ number.3.EnglishHorn.Music = {
         e'16
 
         a'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5576,11 +5496,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     fqs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5589,7 +5507,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         d'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         bf'!16
@@ -5597,7 +5514,6 @@ number.3.EnglishHorn.Music = {
         a'16
 
         gs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5611,7 +5527,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         aqf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'16
@@ -5619,7 +5534,6 @@ number.3.EnglishHorn.Music = {
         cs'!16
 
         fqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5662,11 +5576,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5675,7 +5587,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fqs'!16
@@ -5683,7 +5594,6 @@ number.3.EnglishHorn.Music = {
         ef'!16
 
         e'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5697,7 +5607,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         eqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         aqf'!16
@@ -5705,7 +5614,6 @@ number.3.EnglishHorn.Music = {
         bf'!16
 
         a'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5757,7 +5665,6 @@ number.3.EnglishHorn.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \baca-effort-ff
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -5774,7 +5681,6 @@ number.3.EnglishHorn.Music = {
     \>
 
     aqf'!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5783,7 +5689,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a'16
@@ -5791,7 +5696,6 @@ number.3.EnglishHorn.Music = {
         fqs'!16
 
         f'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5805,7 +5709,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         d'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         cs'!16
@@ -5813,7 +5716,6 @@ number.3.EnglishHorn.Music = {
         a'16
 
         gs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5856,11 +5758,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5869,7 +5769,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         e'16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         eqs'!16
@@ -5877,7 +5776,6 @@ number.3.EnglishHorn.Music = {
         ef'!16
 
         d'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5891,7 +5789,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         cs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fqs'!16
@@ -5899,7 +5796,6 @@ number.3.EnglishHorn.Music = {
         f'16
 
         ef'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5942,11 +5838,9 @@ number.3.EnglishHorn.Music = {
     r8
 
     gs'!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     aqf'!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 4/5
@@ -5955,7 +5849,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         eqs'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         ef'!16
@@ -5963,7 +5856,6 @@ number.3.EnglishHorn.Music = {
         e'16
 
         aqf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5977,7 +5869,6 @@ number.3.EnglishHorn.Music = {
         r16
 
         bf'!16
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a'16
@@ -5985,7 +5876,6 @@ number.3.EnglishHorn.Music = {
         gs'!16
 
         f'16
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -10024,7 +9914,6 @@ number.3.Violin.Music = {
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! AUTODETECT
       %! SPANNER_START
@@ -10050,7 +9939,6 @@ number.3.Violin.Music = {
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10058,11 +9946,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10070,55 +9956,45 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 10]
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     % [Violin.Music measure 11]
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10126,11 +10002,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10138,32 +10012,26 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 12]
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -10177,7 +10045,6 @@ number.3.Violin.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \baca-effort-ff-parenthesized
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -10194,19 +10061,16 @@ number.3.Violin.Music = {
     \>
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10214,11 +10078,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10227,54 +10089,44 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     % [Violin.Music measure 15]
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10282,11 +10134,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10294,54 +10144,44 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 16]
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10350,11 +10190,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10362,54 +10200,44 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 18]
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10417,11 +10245,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10430,54 +10256,44 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 20]
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10485,11 +10301,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10498,54 +10312,44 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
 
     % [Violin.Music measure 22]
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10553,11 +10357,9 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -10565,7 +10367,6 @@ number.3.Violin.Music = {
     r16
 
     f'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f'16
@@ -10578,7 +10379,6 @@ number.3.Violin.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violin.Music measure 23]
@@ -11765,13 +11565,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11790,13 +11588,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11824,13 +11620,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11858,13 +11652,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11903,13 +11695,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11937,13 +11727,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11971,13 +11759,11 @@ number.3.Viola.Music = {
 
         % [Viola.Music measure 15]
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -11995,13 +11781,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12029,13 +11813,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12063,13 +11845,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12088,13 +11868,11 @@ number.3.Viola.Music = {
 
         % [Viola.Music measure 18]
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12121,13 +11899,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12156,13 +11932,11 @@ number.3.Viola.Music = {
 
         % [Viola.Music measure 20]
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12180,13 +11954,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12214,13 +11986,11 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12248,13 +12018,11 @@ number.3.Viola.Music = {
 
         % [Viola.Music measure 22]
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -12272,7 +12040,6 @@ number.3.Viola.Music = {
     {
 
         f'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f'8
@@ -12285,7 +12052,6 @@ number.3.Viola.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \!
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }

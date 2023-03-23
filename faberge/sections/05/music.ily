@@ -2340,7 +2340,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mp
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2365,7 +2364,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2496,7 +2494,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2521,7 +2518,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2654,7 +2650,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \pp
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2679,7 +2674,6 @@ number.5.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

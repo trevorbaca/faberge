@@ -2321,7 +2321,6 @@ number.7.Violin.Music = {
     \baca-effort-f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! AUTODETECT
       %! SPANNER_START
@@ -2374,7 +2373,6 @@ number.7.Violin.Music = {
     cs''!16
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2382,11 +2380,9 @@ number.7.Violin.Music = {
     r16
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2394,13 +2390,11 @@ number.7.Violin.Music = {
     r16
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     cs''!16
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r1
@@ -2838,7 +2832,6 @@ number.7.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-f
-          %! rmakers.RewriteMeterCommand.__call__
         [
           %! AUTODETECT
           %! SPANNER_START
@@ -2887,7 +2880,6 @@ number.7.Viola.Music = {
     {
 
         cs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r4
@@ -2898,13 +2890,11 @@ number.7.Viola.Music = {
     {
 
         cs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         cs''!8
 
         cs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
