@@ -815,7 +815,6 @@ number.1.Violin.Music = {
     \baca-effort-f
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Violin”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! AUTODETECT
       %! SPANNER_START
@@ -848,7 +847,6 @@ number.1.Violin.Music = {
     e'16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -856,11 +854,9 @@ number.1.Violin.Music = {
     r16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -868,13 +864,11 @@ number.1.Violin.Music = {
     r16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     <<
@@ -1046,13 +1040,11 @@ number.1.Viola.Music = {
     {
 
         e'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e'8
 
         e'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }

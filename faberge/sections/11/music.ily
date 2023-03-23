@@ -2750,7 +2750,6 @@ number.11.Violin.Music = {
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
     \baca-effort-f
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! AUTODETECT
       %! SPANNER_START
@@ -2796,7 +2795,6 @@ number.11.Violin.Music = {
     e'16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2804,11 +2802,9 @@ number.11.Violin.Music = {
     r16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2816,13 +2812,11 @@ number.11.Violin.Music = {
     r16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e'16
 
     e'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \tweak text #tuplet-number::calc-fraction-text
@@ -3241,13 +3235,11 @@ number.11.Viola.Music = {
     {
 
         e'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         e'8
 
         e'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3560,7 +3552,6 @@ number.11.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3582,7 +3573,6 @@ number.11.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
