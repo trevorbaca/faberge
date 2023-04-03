@@ -9,7 +9,7 @@ six players tacet.
 no pause.
 
     fl: --
-    eh: ratchet
+    eh: --
     cl: --
     pf: --
     perc: --
@@ -22,7 +22,7 @@ short fermata.
 [intro 2]
 1 measure
 gears (α) eh ratchet.
-six players tacet.
+seven players tacet.
 
     fl: --
     eh: ratchet
@@ -473,7 +473,7 @@ no pause.
         ... (poco pont +) vib. mod. -> tasto + non vib. ...
 
 [A.16]
-8 mesaures
+8 measures
 (shorter stage.)
 shell (β) pf resonance continues.
 shell (β) vn, perc momentarily tacet.
