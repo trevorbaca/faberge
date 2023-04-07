@@ -93,6 +93,8 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 4]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
     \bar ".|:"
       %! MEASURE_232
       %! NOT_MOL
@@ -100,8 +102,6 @@ number.10.Skips = {
       %! MEASURE_232
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
@@ -178,12 +178,12 @@ number.10.Skips = {
     \bacaStartTextSpanSNM
 
     % [Skips measure 6]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
     \bar ":|."
       %! MEASURE_234
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 1.5)
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/4
     s1 * 6/4
@@ -339,10 +339,20 @@ number.10.Flute.Music = {
     {
 
         % [Flute.Music measure 1]
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         \override DynamicLineSpanner.staff-padding = 6
           %! EXPLICIT_BAR_EXTENT
           %! REAPPLIED_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
         \set Staff.instrumentName = \faberge-bfl-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -355,16 +365,6 @@ number.10.Flute.Music = {
         \startStaff
           %! REAPPLIED_CLEF
         \clef "treble"
-          %! REAPPLIED_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-        \set Staff.forceClef = ##t
         a''4
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
@@ -1041,6 +1041,16 @@ number.10.Flute.Staff = <<
 number.10.EnglishHorn.Music = {
 
     % [EnglishHorn.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \faberge-eh-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -1053,16 +1063,6 @@ number.10.EnglishHorn.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     R1 * 6/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1223,10 +1223,20 @@ number.10.Clarinet.Music = {
     {
 
         % [Clarinet.Music measure 1]
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         \override DynamicLineSpanner.staff-padding = 6
           %! EXPLICIT_BAR_EXTENT
           %! REAPPLIED_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
         \set Staff.instrumentName = \faberge-bcl-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -1239,16 +1249,6 @@ number.10.Clarinet.Music = {
         \startStaff
           %! REAPPLIED_CLEF
         \clef "treble"
-          %! REAPPLIED_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-        \set Staff.forceClef = ##t
         af''!4
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
@@ -1922,14 +1922,24 @@ number.10.Clarinet.Staff = <<
 number.10.Piano.RH.Music = {
 
     % [Piano.RH.Music measure 1]
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 5
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
     \set PianoStaff.instrumentName = \faberge-pf-markup
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
       %! REAPPLIED_STAFF_LINES
     \stopStaff
       %! REAPPLIED_STAFF_LINES
@@ -1938,16 +1948,6 @@ number.10.Piano.RH.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     R1 * 6/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2098,9 +2098,17 @@ number.10.Piano.RH.Staff = <<
 number.10.Piano.LH.Music = {
 
     % [Piano.LH.Music measure 1]
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
       %! REAPPLIED_STAFF_LINES
     \stopStaff
       %! REAPPLIED_STAFF_LINES
@@ -2109,14 +2117,6 @@ number.10.Piano.LH.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "treble"
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     R1 * 6/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
@@ -2287,22 +2287,6 @@ number.10.Piano.LH.Staff = <<
 number.10.Percussion.Music = {
 
     % [Percussion.Music measure 1]
-    \override DynamicLineSpanner.staff-padding = 6
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)
-    \set Staff.instrumentName = \faberge-perc-markup
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-perc-markup
-      %! REAPPLIED_STAFF_LINES
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 5
-      %! REAPPLIED_STAFF_LINES
-    \startStaff
-      %! REAPPLIED_CLEF
-    \clef "bass"
       %! HIDE_TO_JOIN_BROKEN_SPANNERS
       %! LEFT_BROKEN
     \hide NoteHead
@@ -2324,10 +2308,26 @@ number.10.Percussion.Music = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+    \override DynamicLineSpanner.staff-padding = 6
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \faberge-perc-markup
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \faberge-perc-markup
+      %! REAPPLIED_STAFF_LINES
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+    \once \override Staff.StaffSymbol.line-count = 5
+      %! REAPPLIED_STAFF_LINES
+    \startStaff
+      %! REAPPLIED_CLEF
+    \clef "bass"
     ef,!1.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2365,9 +2365,17 @@ number.10.Percussion.Music = {
       %! MEASURE_232
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_232
       %! SHIFTED_CLEF
     \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2376,14 +2384,6 @@ number.10.Percussion.Music = {
     \startStaff
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -2574,10 +2574,20 @@ number.10.Violin.Music = {
     {
 
         % [Violin.Music measure 1]
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         \override DynamicLineSpanner.staff-padding = 6
           %! EXPLICIT_BAR_EXTENT
           %! REAPPLIED_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
         \set Staff.instrumentName = \faberge-vn-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -2590,16 +2600,6 @@ number.10.Violin.Music = {
         \startStaff
           %! REAPPLIED_CLEF
         \clef "treble"
-          %! REAPPLIED_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-        \set Staff.forceClef = ##t
         dtqf''!2
         - \baca-staccati #4
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3326,7 +3326,17 @@ number.10.Viola.Music = {
     {
 
         % [Viola.Music measure 1]
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         \override DynamicLineSpanner.staff-padding = 6
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
         \set Staff.instrumentName = \faberge-va-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -3339,16 +3349,6 @@ number.10.Viola.Music = {
         \startStaff
           %! REAPPLIED_CLEF
         \clef "alto"
-          %! REAPPLIED_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-        \set Staff.forceClef = ##t
         bqs'!2
         - \baca-staccati #4
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4056,10 +4056,20 @@ number.10.Cello.Music = {
     {
 
         % [Cello.Music measure 1]
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+          %! REAPPLIED_STAFF_LINES_COLOR
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
         \override DynamicLineSpanner.staff-padding = 4
           %! EXPLICIT_BAR_EXTENT
           %! REAPPLIED_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 2)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
         \set Staff.instrumentName = \faberge-vc-markup
           %! -PARTS
           %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -4072,16 +4082,6 @@ number.10.Cello.Music = {
         \startStaff
           %! REAPPLIED_CLEF
         \clef "bass"
-          %! REAPPLIED_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-        \set Staff.forceClef = ##t
         ef,!2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -4346,17 +4346,17 @@ number.10.Cello.Music = {
           %! MEASURE_233
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
+          %! EXPLICIT_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'blue)
           %! MEASURE_233
           %! SHIFTED_CLEF
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-          %! EXPLICIT_CLEF
-        \clef "treble"
-          %! EXPLICIT_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'blue)
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
+          %! EXPLICIT_CLEF
+        \clef "treble"
         fs''!8.
         :32
         - \accent
