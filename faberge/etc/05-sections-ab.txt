@@ -552,7 +552,7 @@ no pause.
         p swells ...
     pf: attack
         sfz
-    perc: cortale single note
+    perc: crotale single note
         G6
         ff 
     vn: single note
