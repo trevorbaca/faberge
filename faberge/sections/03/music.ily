@@ -7208,10 +7208,10 @@ number.3.Clarinet.Music = {
 
     % [Clarinet.Music measure 61]
     R1 * 3/4
-      %! SPANNER_STOP
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [Clarinet.Music measure 62]
     R1 * 4/4
@@ -7328,10 +7328,10 @@ number.3.Clarinet.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     R1 * 3/4
-      %! SPANNER_STOP
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
