@@ -6040,12 +6040,12 @@ number.3.EnglishHorn.Music = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"3" #"2"
 
-        \revert Staff.Stem.stemlet-length
         b'16 * 69/64
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"69" #"64"
         ]
         \revert DynamicLineSpanner.staff-padding
+        \revert Staff.Stem.stemlet-length
 
     }
     \revert TupletNumber.text
