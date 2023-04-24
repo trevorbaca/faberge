@@ -817,19 +817,6 @@ def single_swell(argument, dynamic):
     baca.hairpin(argument.tleaves()[-1:], f"({dynamic}) >o")
 
 
-def time_signatures_a():
-    numerators = [[4, 6, 6], [4, 7], [3, 4, 6]]
-    numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
-    assert len(numerator_groups) == 18, repr(len(numerator_groups))
-    lengths = [len(_) for _ in numerator_groups]
-    numerators = abjad.sequence.flatten(numerator_groups)
-    time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
-    time_signature_groups = abjad.sequence.partition_by_counts(
-        time_signatures_a, lengths
-    )
-    return time_signature_groups
-
-
 def time_signatures_b():
     numerators = [[3, 4, 4], [2, 3], [2, 3, 4]]
     numerator_groups = baca.sequence.helianthate(numerators, -1, 1)
