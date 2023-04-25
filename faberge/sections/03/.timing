@@ -12481,3 +12481,9 @@ Python runtime: 4 seconds
   make_score(): 2 seconds
   postprocess_score(): 2 seconds
 LilyPond runtime: 2 seconds
+
+2023-04-25 12:48:48
+Python runtime: 6 seconds
+  make_score(): 3 seconds
+  postprocess_score(): 3 seconds
+LilyPond runtime: 3 seconds
