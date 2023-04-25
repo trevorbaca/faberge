@@ -62,9 +62,9 @@ def FL(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
     music = library.make_downbeat_attack(time_signatures(5))
+    voice.extend(music)
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
-    voice.extend(music)
     music = baca.make_mmrests(time_signatures(6, 8))
     voice.extend(music)
 
@@ -73,9 +73,9 @@ def EH(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
     music = library.make_downbeat_attack(time_signatures(5))
+    voice.extend(music)
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
-    voice.extend(music)
     music = baca.make_mmrests(time_signatures(6, 8))
     voice.extend(music)
 
@@ -90,9 +90,9 @@ def PF(score, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
     music = library.make_downbeat_attack(time_signatures(5))
+    voice.extend(music)
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
-    voice.extend(music)
     music = baca.make_mmrests(time_signatures(6, 8))
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
