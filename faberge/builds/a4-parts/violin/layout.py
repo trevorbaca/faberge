@@ -84,7 +84,7 @@ spacing = baca.make_layout(
         baca.system(
             measure=223,
             y_offset=y_offset_5,
-            distances=(8),
+            distances=(8,),
         ),
         baca.system(measure=225, y_offset=y_offset_6, distances=distances),
         baca.system(measure=228, y_offset=y_offset_7, distances=distances),
