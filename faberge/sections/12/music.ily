@@ -1888,26 +1888,6 @@ number.12.Violin.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -1930,6 +1910,21 @@ number.12.Violin.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2189,26 +2184,6 @@ number.12.Violin.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 3.25
@@ -2224,6 +2199,21 @@ number.12.Violin.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -2544,26 +2534,6 @@ number.12.Viola.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 3.25
@@ -2579,6 +2549,21 @@ number.12.Viola.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
 
         b8
         - \staccato
@@ -2804,26 +2789,6 @@ number.12.Cello.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -2846,6 +2811,21 @@ number.12.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3129,26 +3109,6 @@ number.12.Cello.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 3.25
@@ -3164,6 +3124,21 @@ number.12.Cello.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(0 . 2)

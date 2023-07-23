@@ -2071,26 +2071,6 @@ number.13.Violin.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -2106,6 +2086,21 @@ number.13.Violin.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2382,26 +2377,6 @@ number.13.Viola.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -2417,6 +2392,21 @@ number.13.Viola.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2803,26 +2793,6 @@ number.13.Cello.Music = {
         [
           %! AUTODETECT
           %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanCLB
-          %! AUTODETECT
-          %! SPANNER_START
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak bound-details.right.padding 2.75
@@ -2838,6 +2808,21 @@ number.13.Cello.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
+          %! CLB_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanCLB
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
