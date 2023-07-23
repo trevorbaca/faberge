@@ -7415,10 +7415,6 @@ number.3.Piano.RH.Music = {
     <ef'! f' g' af'! c'' df''! ef''!>2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START
