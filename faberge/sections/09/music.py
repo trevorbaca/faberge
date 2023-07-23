@@ -448,7 +448,6 @@ def vn(m):
                     clpart,
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    autodetect_right_padding=False,
                     bookend=-1,
                     pieces=baca.select.lparts(clpart, [1, 2]),
                 )
@@ -517,7 +516,6 @@ def va(m):
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=False,
             pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m.get(1, 4)) as o:
@@ -539,7 +537,6 @@ def va(m):
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=False,
             pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m[3]) as o:
@@ -559,7 +556,6 @@ def va(m):
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=False,
             pieces=baca.select.clparts(o, [1]),
         )
     with baca.scope(m[4]) as o:
@@ -579,7 +575,6 @@ def va(m):
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            autodetect_right_padding=False,
             pieces=baca.select.clparts(o, [1]),
         )
     for n in [5, 6, 7, 9]:
@@ -590,7 +585,6 @@ def va(m):
                     clpart,
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    autodetect_right_padding=False,
                     bookend=-1,
                     pieces=baca.select.lparts(clpart, [1, 2]),
                 )
