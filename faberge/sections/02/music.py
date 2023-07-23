@@ -553,7 +553,6 @@ def pf(cache):
             o.rleaves(),
             r"\faberge-rf-one-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            autodetect_right_padding=True,
             bookend=False,
             left_broken_text=r"\faberge-left-broken-rf-one-markup",
         )
