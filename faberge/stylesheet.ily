@@ -112,6 +112,7 @@
         \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
+        \consists Bar_engraver
         % causes programming error: cyclic dependency: calculation-in-progress
         % encountered for VerticalAxisGroup.adjacent-pure-heights:
         % \consists Bar_number_engraver
@@ -125,6 +126,8 @@
         \override BarNumber.Y-extent = ##f
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
+
+        \override TextSpanner.to-barline = ##t
 
         % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
@@ -239,6 +242,8 @@
         \override StemTremolo.beam-width = 1.5
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
+
+        \override TextSpanner.to-barline = ##t
 
         \override TextScript.font-name = #"Palatino"
         % DISCOVERY: overriding textscript.x-extent = ##f
