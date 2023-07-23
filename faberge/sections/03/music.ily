@@ -9686,13 +9686,6 @@ number.3.Percussion.Music = {
             \f
             - \tweak staff-padding 8
             ^ \baca-woodblock-markup
-              %! AUTODETECT
-              %! RIGHT_BROKEN
-              %! SPANNER_START
-              %! MATERIAL_ANNOTATION_SPANNER
-              %! RIGHT_BROKEN
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 3.25
               %! MATERIAL_ANNOTATION_SPANNER
               %! RIGHT_BROKEN
               %! SPANNER_START
@@ -9915,11 +9908,6 @@ number.3.Violin.Music = {
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -10391,11 +10379,6 @@ number.3.Violin.Music = {
       %! SPANNER_STOP
       %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SCP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
@@ -11514,11 +11497,6 @@ number.3.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
@@ -12051,11 +12029,6 @@ number.3.Viola.Music = {
       %! SPANNER_STOP
       %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SCP_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
@@ -13099,11 +13072,9 @@ number.3.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \baca-p-parenthesized
-      %! AUTODETECT
-      %! SPANNER_START
       %! SCP_SPANNER
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak bound-details.right.padding 0.5
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
@@ -13122,11 +13093,9 @@ number.3.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-      %! AUTODETECT
-      %! SPANNER_START
       %! SPANNER_START
       %! VIBRATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
+    - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
       %! VIBRATO_SPANNER
     - \tweak bound-details.right.stencil-align-dir-y #center
@@ -13214,11 +13183,9 @@ number.3.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \baca-ff-parenthesized
-      %! AUTODETECT
-      %! SPANNER_START
       %! SCP_SPANNER
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak bound-details.right.padding 0.5
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
@@ -13237,11 +13204,9 @@ number.3.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
-      %! AUTODETECT
-      %! SPANNER_START
       %! SPANNER_START
       %! VIBRATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
+    - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
       %! VIBRATO_SPANNER
     - \tweak bound-details.right.stencil-align-dir-y #center
@@ -13463,11 +13428,9 @@ number.3.Cello.Music = {
       %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! AUTODETECT
-      %! SPANNER_START
       %! SCP_SPANNER
       %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
+    - \tweak bound-details.right.padding 0.5
       %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center

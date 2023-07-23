@@ -13808,11 +13808,6 @@ number.2.Violin.Music = {
       %! EXPLICIT_DYNAMIC
     \baca-effort-f
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -13931,11 +13926,6 @@ number.2.Violin.Music = {
 
     e'16
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -14523,11 +14513,6 @@ number.2.Violin.Music = {
       %! EXPLICIT_DYNAMIC
     \baca-effort-f
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -14623,11 +14608,6 @@ number.2.Violin.Music = {
     e'16
       %! SPANNER_START
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 2.75
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -15438,11 +15418,6 @@ number.2.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-f
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
@@ -15567,11 +15542,6 @@ number.2.Viola.Music = {
         % [Viola.Music measure 69]
         e'8
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
@@ -15780,11 +15750,6 @@ number.2.Viola.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanBowSpeed
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
@@ -15902,11 +15867,6 @@ number.2.Viola.Music = {
 
         e'8
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 2.75
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
