@@ -2900,11 +2900,6 @@ number.6.Violin.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -3367,11 +3362,6 @@ number.6.Viola.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -3686,11 +3676,6 @@ number.6.Cello.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5

@@ -10574,11 +10574,13 @@ number.3.Violin.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! CLB_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        \<
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -10594,13 +10596,6 @@ number.3.Violin.Music = {
           %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
         \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -11121,11 +11116,6 @@ number.3.Violin.Music = {
           %! REDUNDANT_DYNAMIC
         \baca-effort-mf-parenthesized
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -12249,11 +12239,13 @@ number.3.Viola.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! CLB_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        \<
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -12269,13 +12261,6 @@ number.3.Viola.Music = {
           %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
 
         b8
         - \staccato
@@ -13642,11 +13627,6 @@ number.3.Cello.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-mf
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! CLB_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
