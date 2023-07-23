@@ -360,11 +360,16 @@ number.13.Flute.Music = {
 
         % [Flute.Music measure 3]
         af'!4
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak color #red
@@ -380,16 +385,6 @@ number.13.Flute.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
@@ -593,11 +588,16 @@ number.13.EnglishHorn.Music = {
 
         % [EnglishHorn.Music measure 5]
         es''!4.
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 8
@@ -610,16 +610,6 @@ number.13.EnglishHorn.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
@@ -937,11 +927,13 @@ number.13.Clarinet.Music = {
           %! SPANNER_STOP
         \pp
         [
-          %! AUTODETECT
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak bound-details.right.padding 3.25
+        \<
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -954,13 +946,6 @@ number.13.Clarinet.Music = {
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
 
         b8
         - \tweak direction #down
@@ -1445,11 +1430,6 @@ number.13.Piano.RH.Music = {
         ^ \baca-sharp-markup
           %! SPANNER_START
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \tweak color #red
@@ -1842,11 +1822,6 @@ number.13.Percussion.Music = {
     ^ \baca-castanets-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
-      %! AUTODETECT
-      %! SPANNER_START
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 13
@@ -2069,23 +2044,6 @@ number.13.Violin.Music = {
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
           %! SPANNER_START
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 9.5
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-text "4-3"
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanMaterialAnnotation
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2101,6 +2059,18 @@ number.13.Violin.Music = {
           %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 9.5
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "4-3"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2375,23 +2345,6 @@ number.13.Viola.Music = {
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
           %! SPANNER_START
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 9.5
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-text "4-3"
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanMaterialAnnotation
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2407,6 +2360,18 @@ number.13.Viola.Music = {
           %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 9.5
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "4-3"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2626,23 +2591,6 @@ number.13.Viola.Music = {
     - \tweak extra-offset #'(-1 . 0)
       %! EXPLICIT_DYNAMIC
     \baca-p-sempre
-      %! AUTODETECT
-      %! SPANNER_START
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak bound-details.right.padding 3.25
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "4-4"
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanMaterialAnnotation
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5
@@ -2658,6 +2606,18 @@ number.13.Viola.Music = {
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \abjad-dashed-line-with-hook
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "4-4"
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
 
     r4
       %! BOW_SPEED_SPANNER
@@ -2781,23 +2741,6 @@ number.13.Cello.Music = {
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
           %! SPANNER_START
         [
-          %! AUTODETECT
-          %! SPANNER_START
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak bound-details.right.padding 2.75
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 9.5
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-text "4-3"
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanMaterialAnnotation
           %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
@@ -2813,6 +2756,18 @@ number.13.Cello.Music = {
           %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 9.5
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \abjad-dashed-line-with-hook
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "4-3"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3037,11 +2992,16 @@ number.13.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
-      %! AUTODETECT
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
-    - \tweak bound-details.right.padding 3.25
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \tweak staff-padding 5.5
@@ -3054,16 +3014,6 @@ number.13.Cello.Music = {
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     \bacaStartTextSpanStringNumber
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \glissando
 
     % [Cello.Music measure 8]

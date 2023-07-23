@@ -816,11 +816,6 @@ number.1.Violin.Music = {
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Violin”)"
     [
-      %! AUTODETECT
-      %! SPANNER_START
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
-    - \tweak bound-details.right.padding 3.25
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
@@ -1004,11 +999,6 @@ number.1.Viola.Music = {
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
         \baca-effort-f
-          %! AUTODETECT
-          %! SPANNER_START
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
-        - \tweak bound-details.right.padding 3.25
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
