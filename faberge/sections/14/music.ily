@@ -22,13 +22,13 @@ number.14.Skips = {
       %! +PARTS
 %%% - \baca-rehearsal-mark-markup "M" #10
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "64" #'green4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "64"
       %! REAPPLIED_METRONOME_MARK
@@ -81,20 +81,20 @@ number.14.Skips = {
       %! MEASURE_NUMBER
     %@% \bacaStopTextSpanMN
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"80" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-colored-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"80" #2 #0 #4 #5 #2 #0 #'(1 . 1) #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "80"
@@ -147,20 +147,20 @@ number.14.Skips = {
       %! STAGE_NUMBER
     \bacaStopTextSpanSNM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"100" #2 #0 #4 #5 #2 #0 #'(1 . 1)
       %! EXPLICIT_METRONOME_MARK
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-colored-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"100" #2 #0 #4 #5 #2 #0 #'(1 . 1) #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! METRIC_MODULATION_IS_STRIPPED
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "100"
@@ -359,7 +359,7 @@ number.14.Flute.Music = {
     ^ \baca-airtone-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "1-1"
@@ -476,7 +476,7 @@ number.14.Flute.Music = {
         :32
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "5-1"
@@ -766,7 +766,7 @@ number.14.EnglishHorn.Music = {
         ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "4-5 / 5-1"
@@ -1206,7 +1206,7 @@ number.14.Clarinet.Music = {
     ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "4-5 / 5-1"
@@ -1677,7 +1677,7 @@ number.14.Piano.RH.Music = {
         ^ \baca-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "MM"
@@ -1969,7 +1969,7 @@ number.14.Percussion.Music = {
         ^ \baca-reapplied-instrument-markup "(“Percussion”)"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "4-5 / 5-1"
@@ -2188,7 +2188,7 @@ number.14.Violin.Music = {
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "1-1"
@@ -2302,7 +2302,7 @@ number.14.Violin.Music = {
         ^ \baca-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "MM"
@@ -2448,7 +2448,7 @@ number.14.Viola.Music = {
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "4-5 / 5-1"
@@ -2460,7 +2460,7 @@ number.14.Viola.Music = {
     \bacaStartTextSpanMaterialAnnotation
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2490,7 +2490,7 @@ number.14.Viola.Music = {
     ef!2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2513,7 +2513,7 @@ number.14.Viola.Music = {
     ef!2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2536,7 +2536,7 @@ number.14.Viola.Music = {
     ef!2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2559,7 +2559,7 @@ number.14.Viola.Music = {
     f2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2582,7 +2582,7 @@ number.14.Viola.Music = {
     f2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2605,7 +2605,7 @@ number.14.Viola.Music = {
     f2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2628,7 +2628,7 @@ number.14.Viola.Music = {
     f2.
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -2739,7 +2739,7 @@ number.14.Cello.Music = {
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \baca-text-spanner-left-text "IV"
@@ -2751,7 +2751,7 @@ number.14.Cello.Music = {
     \bacaStartTextSpanStringNumber
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-hook
+    - \baca-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "1-1"

@@ -22,13 +22,13 @@ number.3.Skips = {
       %! +PARTS
 %%% - \baca-rehearsal-mark-markup "B" #10
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "80" #'blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "80"
       %! EXPLICIT_METRONOME_MARK
@@ -7416,7 +7416,7 @@ number.3.Piano.RH.Music = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
     - \baca-text-spanner-left-markup \faberge-rf-two-markup
       %! SPANNER_START
@@ -9685,7 +9685,7 @@ number.3.Percussion.Music = {
               %! MATERIAL_ANNOTATION_SPANNER
               %! RIGHT_BROKEN
               %! SPANNER_START
-            - \abjad-dashed-line-with-hook
+            - \baca-dashed-line-with-hook
               %! MATERIAL_ANNOTATION_SPANNER
               %! RIGHT_BROKEN
               %! SPANNER_START
@@ -9906,7 +9906,7 @@ number.3.Violin.Music = {
     [
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \baca-text-spanner-left-markup \baca-spazzolato-markup
@@ -10377,7 +10377,7 @@ number.3.Violin.Music = {
     \bacaStopTextSpanSpazzolato
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-tasto-plus-pochiss-scratch-markup
@@ -10555,7 +10555,7 @@ number.3.Violin.Music = {
         [
           %! CLB_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
@@ -11097,7 +11097,7 @@ number.3.Violin.Music = {
         [
           %! CLB_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
@@ -11422,7 +11422,7 @@ number.3.Viola.Music = {
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
@@ -11495,7 +11495,7 @@ number.3.Viola.Music = {
         \baca-effort-ff
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \baca-text-spanner-left-markup \baca-spazzolato-markup
@@ -12027,7 +12027,7 @@ number.3.Viola.Music = {
     \bacaStopTextSpanSpazzolato
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-dashed-line-with-hook
+    - \baca-dashed-line-with-hook
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-tasto-plus-pochiss-scratch-markup
@@ -12205,7 +12205,7 @@ number.3.Viola.Music = {
         [
           %! CLB_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
@@ -13070,7 +13070,7 @@ number.3.Cello.Music = {
     \baca-p-parenthesized
       %! SPANNER_START
       %! VIBRATO_SPANNER
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
       %! VIBRATO_SPANNER
     - \baca-text-spanner-left-text "(poco vib.)"
@@ -13091,7 +13091,7 @@ number.3.Cello.Music = {
     \bacaStartTextSpanVibrato
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(tasto)"
@@ -13181,7 +13181,7 @@ number.3.Cello.Music = {
     \baca-ff-parenthesized
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(molto pont.)"
@@ -13202,7 +13202,7 @@ number.3.Cello.Music = {
     \bacaStartTextSpanSCP
       %! SPANNER_START
       %! VIBRATO_SPANNER
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SPANNER_START
       %! VIBRATO_SPANNER
     - \baca-text-spanner-left-text "(vib. molto)"
@@ -13302,7 +13302,7 @@ number.3.Cello.Music = {
     ^ \baca-non-vib-markup
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(tasto)"
@@ -13426,7 +13426,7 @@ number.3.Cello.Music = {
     \bacaStopTextSpanSCP
       %! SCP_SPANNER
       %! SPANNER_START
-    - \abjad-solid-line-with-arrow
+    - \baca-solid-line-with-arrow
       %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
@@ -13583,7 +13583,7 @@ number.3.Cello.Music = {
         [
           %! CLB_SPANNER
           %! SPANNER_START
-        - \abjad-dashed-line-with-hook
+        - \baca-dashed-line-with-hook
           %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
