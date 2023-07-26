@@ -26,7 +26,9 @@ def GLOBALS(skips, rests):
         ("[2]", 3),
     )
     baca.section.label_stage_numbers(skips, stage_markup)
-    baca.metronome_mark(skips[1 - 1], library.metronome_marks["100"], library.manifests)
+    baca.metronome_mark(
+        skips[1 - 1], library.metronome_marks["100"], manifests=library.manifests
+    )
     for index, string in (
         (2 - 1, "short"),
         (4 - 1, "short"),
