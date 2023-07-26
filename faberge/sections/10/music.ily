@@ -368,19 +368,6 @@ number.10.Flute.Music = {
         a''4
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \abjad-dashed-line-with-hook
@@ -389,7 +376,20 @@ number.10.Flute.Music = {
         - \baca-text-spanner-left-text "3-4 / 3-5"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
+        - \tweak staff-padding 8
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
@@ -410,6 +410,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -417,9 +420,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -462,13 +462,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 2]
         a''4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -485,6 +485,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mf
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -492,9 +495,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -537,13 +537,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 3]
         a''4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -560,6 +560,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \f
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -567,9 +570,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -612,13 +612,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 4]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -635,6 +635,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -642,9 +645,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -687,13 +687,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 5]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -710,6 +710,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -717,9 +720,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -762,13 +762,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 6]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -785,6 +785,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -792,9 +795,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -837,13 +837,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 7]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -860,6 +860,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -867,9 +870,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -912,13 +912,13 @@ number.10.Flute.Music = {
 
         % [Flute.Music measure 8]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -935,6 +935,9 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -942,9 +945,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1101,13 +1101,13 @@ number.10.EnglishHorn.Music = {
         \f
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "MM"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -1242,19 +1242,6 @@ number.10.Clarinet.Music = {
         af''!4
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        \<
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \abjad-dashed-line-with-hook
@@ -1263,7 +1250,20 @@ number.10.Clarinet.Music = {
         - \baca-text-spanner-left-text "3-4 / 3-5"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
+        - \tweak staff-padding 8
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
@@ -1284,6 +1284,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1291,9 +1294,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1336,13 +1336,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 2]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1359,6 +1359,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mf
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1366,9 +1369,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1411,13 +1411,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 3]
         af''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1434,6 +1434,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \f
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1441,9 +1444,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1486,13 +1486,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 4]
         a''4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1509,6 +1509,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1516,9 +1519,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1561,13 +1561,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 5]
         a''4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1584,6 +1584,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \mp
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1591,9 +1594,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1636,13 +1636,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 6]
         gs''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1659,6 +1659,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1666,9 +1669,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1711,13 +1711,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 7]
         gs''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1734,6 +1734,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1741,9 +1744,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1786,13 +1786,13 @@ number.10.Clarinet.Music = {
 
         % [Clarinet.Music measure 8]
         gs''!4
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #(x11-color 'blue)
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \<
@@ -1809,6 +1809,9 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \p
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1816,9 +1819,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1985,16 +1985,16 @@ number.10.Piano.RH.Music = {
         [
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak color #red
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "2-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak color #red
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -2387,16 +2387,16 @@ number.10.Percussion.Music = {
     ^ \baca-bd-struck-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
-    - \tweak color #red
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
     - \abjad-solid-line-with-hook
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "A.2"
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak color #red
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
@@ -2471,13 +2471,13 @@ number.10.Percussion.Music = {
         ^ \baca-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "MM"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -2583,13 +2583,13 @@ number.10.Violin.Music = {
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "3-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -2613,19 +2613,6 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -2634,7 +2621,20 @@ number.10.Violin.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             dtqf''!2
             :32
@@ -2650,15 +2650,6 @@ number.10.Violin.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -2666,6 +2657,15 @@ number.10.Violin.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -2719,19 +2719,6 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -2740,7 +2727,20 @@ number.10.Violin.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             dtqf''!2
             :32
@@ -2756,15 +2756,6 @@ number.10.Violin.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -2772,6 +2763,15 @@ number.10.Violin.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -2825,19 +2825,6 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -2846,7 +2833,20 @@ number.10.Violin.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             dtqf''!2
             :32
@@ -2862,15 +2862,6 @@ number.10.Violin.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -2878,6 +2869,15 @@ number.10.Violin.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -2945,16 +2945,16 @@ number.10.Violin.Music = {
         [
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak color #red
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "2-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak color #red
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -3026,13 +3026,13 @@ number.10.Violin.Music = {
         \bacaStopTextSpanMaterialAnnotation
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "3-5"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -3049,6 +3049,21 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \p
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \abjad-solid-line-with-arrow
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \baca-text-spanner-left-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
@@ -3058,37 +3073,13 @@ number.10.Violin.Music = {
             - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \abjad-solid-line-with-arrow
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "ord."
-              %! SCP_SPANNER
-              %! SPANNER_START
-            \bacaStartTextSpanSCP
 
             c''2
             :32
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3098,6 +3089,15 @@ number.10.Violin.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3137,6 +3137,21 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \pp
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \abjad-solid-line-with-arrow
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \baca-text-spanner-left-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
@@ -3146,37 +3161,13 @@ number.10.Violin.Music = {
             - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \abjad-solid-line-with-arrow
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "ord."
-              %! SCP_SPANNER
-              %! SPANNER_START
-            \bacaStartTextSpanSCP
 
             c''2
             :32
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3186,6 +3177,15 @@ number.10.Violin.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3317,13 +3317,13 @@ number.10.Viola.Music = {
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "3-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -3347,19 +3347,6 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3368,7 +3355,20 @@ number.10.Viola.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             bqs'!2
             :32
@@ -3384,15 +3384,6 @@ number.10.Viola.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -3400,6 +3391,15 @@ number.10.Viola.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3453,19 +3453,6 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3474,7 +3461,20 @@ number.10.Viola.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             bqs'!2
             :32
@@ -3490,15 +3490,6 @@ number.10.Viola.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -3506,6 +3497,15 @@ number.10.Viola.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3559,19 +3559,6 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \!
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3580,7 +3567,20 @@ number.10.Viola.Music = {
             - \baca-text-spanner-left-text "ord."
               %! SCP_SPANNER
               %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
             \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak color #(x11-color 'blue)
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            \<
 
             bqs'!2
             :32
@@ -3596,15 +3596,6 @@ number.10.Viola.Music = {
             \bacaStopTextSpanSCP
               %! SCP_SPANNER
               %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
             - \abjad-solid-line-with-arrow
               %! SCP_SPANNER
               %! SPANNER_START
@@ -3612,6 +3603,15 @@ number.10.Viola.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3673,24 +3673,6 @@ number.10.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak color #red
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \abjad-solid-line-with-hook
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "A.4"
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanMaterialAnnotation
-      %! BOW_SPEED_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 3
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \abjad-dashed-line-with-hook
@@ -3702,7 +3684,25 @@ number.10.Viola.Music = {
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
+    - \tweak staff-padding 3
+      %! BOW_SPEED_SPANNER
+      %! SPANNER_START
     \bacaStartTextSpanBowSpeed
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \abjad-solid-line-with-hook
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "A.4"
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak color #red
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
     \glissando
 
     \hide NoteHead
@@ -3736,13 +3736,13 @@ number.10.Viola.Music = {
         \bacaStopTextSpanMaterialAnnotation
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "3-5"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -3759,6 +3759,21 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \p
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \abjad-solid-line-with-arrow
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \baca-text-spanner-left-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
@@ -3768,37 +3783,13 @@ number.10.Viola.Music = {
             - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \abjad-solid-line-with-arrow
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "ord."
-              %! SCP_SPANNER
-              %! SPANNER_START
-            \bacaStartTextSpanSCP
 
             bf!2
             :32
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3808,6 +3799,15 @@ number.10.Viola.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -3847,6 +3847,21 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
             \pp
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \abjad-solid-line-with-arrow
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \baca-text-spanner-left-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            \bacaStartTextSpanSCP
+              %! EXPLICIT_DYNAMIC
+              %! SPANNER_START
+            - \tweak circled-tip ##t
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
@@ -3856,37 +3871,13 @@ number.10.Viola.Music = {
             - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \abjad-solid-line-with-arrow
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "ord."
-              %! SCP_SPANNER
-              %! SPANNER_START
-            \bacaStartTextSpanSCP
 
             bf!2
             :32
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SCP_SPANNER
-              %! SPANNER_START
-            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             - \abjad-solid-line-with-arrow
@@ -3896,6 +3887,15 @@ number.10.Viola.Music = {
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-text-spanner-right-text "ord."
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+              %! SCP_SPANNER
+              %! SPANNER_START
+            - \tweak staff-padding 5.5
               %! SCP_SPANNER
               %! SPANNER_START
             \bacaStartTextSpanSCP
@@ -4030,9 +4030,18 @@ number.10.Cello.Music = {
         - \baca-full-downbow
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
-          %! HALF_CLT_SPANNER
+          %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 5.5
+        - \abjad-dashed-line-with-hook
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "3-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        \bacaStartTextSpanMaterialAnnotation
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \abjad-dashed-line-with-hook
@@ -4044,19 +4053,10 @@ number.10.Cello.Music = {
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
           %! HALF_CLT_SPANNER
           %! SPANNER_START
+        - \tweak staff-padding 5.5
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
         \bacaStartTextSpanHalfCLT
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \abjad-dashed-line-with-hook
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \baca-text-spanner-left-text "3-4"
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        \bacaStartTextSpanMaterialAnnotation
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4079,6 +4079,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4086,9 +4089,6 @@ number.10.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4111,9 +4111,6 @@ number.10.Cello.Music = {
         - \baca-full-downbow
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -4121,6 +4118,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
@@ -4139,6 +4139,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4146,9 +4149,6 @@ number.10.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4171,9 +4171,6 @@ number.10.Cello.Music = {
         - \baca-full-downbow
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -4181,6 +4178,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
@@ -4199,6 +4199,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanHalfCLT
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -4206,9 +4209,6 @@ number.10.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4229,9 +4229,6 @@ number.10.Cello.Music = {
         - \baca-full-downbow
           %! HALF_CLT_SPANNER
           %! SPANNER_START
-        - \tweak staff-padding 5.5
-          %! HALF_CLT_SPANNER
-          %! SPANNER_START
         - \abjad-dashed-line-with-hook
           %! HALF_CLT_SPANNER
           %! SPANNER_START
@@ -4239,6 +4236,9 @@ number.10.Cello.Music = {
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup
+          %! HALF_CLT_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 5.5
           %! HALF_CLT_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanHalfCLT
@@ -4286,16 +4286,16 @@ number.10.Cello.Music = {
         [
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
-        - \tweak color #red
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
-        - \tweak staff-padding 8
-          %! MATERIAL_ANNOTATION_SPANNER
-          %! SPANNER_START
         - \abjad-solid-line-with-hook
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-text "2-4"
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak color #red
+          %! MATERIAL_ANNOTATION_SPANNER
+          %! SPANNER_START
+        - \tweak staff-padding 8
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
@@ -4363,35 +4363,6 @@ number.10.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak color #red
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \tweak staff-padding 8
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \abjad-solid-line-with-hook
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "1-1"
-      %! MATERIAL_ANNOTATION_SPANNER
-      %! SPANNER_START
-    \bacaStartTextSpanMaterialAnnotation
-      %! RIGHT_BROKEN
-      %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
-    - \tweak staff-padding 5.5
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
@@ -4403,7 +4374,36 @@ number.10.Cello.Music = {
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
+    - \tweak staff-padding 5.5
+      %! RIGHT_BROKEN
+      %! SPANNER_START
+      %! STRING_NUMBER_SPANNER
     \bacaStartTextSpanStringNumber
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \abjad-solid-line-with-hook
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \baca-text-spanner-left-text "1-1"
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak color #red
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    - \tweak staff-padding 8
+      %! MATERIAL_ANNOTATION_SPANNER
+      %! SPANNER_START
+    \bacaStartTextSpanMaterialAnnotation
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak color #(x11-color 'blue)
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    \<
     \glissando
 
     g2
@@ -4414,6 +4414,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4421,9 +4424,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4447,13 +4447,13 @@ number.10.Cello.Music = {
       %! SPANNER_STOP
     \!
     [
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -4467,6 +4467,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4474,9 +4477,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4491,13 +4491,13 @@ number.10.Cello.Music = {
       %! SPANNER_STOP
     \!
     ]
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -4512,6 +4512,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4519,9 +4522,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4546,13 +4546,13 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -4566,6 +4566,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4573,9 +4576,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4590,13 +4590,13 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -4610,6 +4610,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4617,9 +4620,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4633,13 +4633,13 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \!
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #(x11-color 'blue)
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
