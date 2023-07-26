@@ -818,9 +818,6 @@ number.1.Violin.Music = {
     [
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
-    - \tweak staff-padding 3
-      %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \abjad-dashed-line-with-hook
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
@@ -828,6 +825,9 @@ number.1.Violin.Music = {
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
+      %! SPANNER_START
+      %! SPAZZOLATO_SPANNER
+    - \tweak staff-padding 3
       %! SPANNER_START
       %! SPAZZOLATO_SPANNER
     \bacaStartTextSpanSpazzolato
@@ -1001,9 +1001,6 @@ number.1.Viola.Music = {
         \baca-effort-f
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
-        - \tweak staff-padding 3
-          %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \abjad-dashed-line-with-hook
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
@@ -1011,6 +1008,9 @@ number.1.Viola.Music = {
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
+          %! SPANNER_START
+          %! SPAZZOLATO_SPANNER
+        - \tweak staff-padding 3
           %! SPANNER_START
           %! SPAZZOLATO_SPANNER
         \bacaStartTextSpanSpazzolato
