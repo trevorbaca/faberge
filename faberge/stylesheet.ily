@@ -225,7 +225,6 @@
     \override BarLine.hair-thickness = 0.5
     \override BarLine.X-extent = #'(0 . 0)
 
-    \override Beam.breakable = ##t
     \override Beam.damping = 99
 
     % to prevent breath marks from back-extending staff lines:
@@ -237,7 +236,6 @@
     % leave dynamic alignment set to center in this score
     %\override DynamicText.self-alignment-X = #left
 
-    \override Glissando.breakable = ##t
     \override Glissando.thickness = 3
 
     % TODO: add to context definition in every score
@@ -267,7 +265,6 @@
     % NOTE:    may be best to override NO text script properties.
     \override TextScript.X-extent = ##f
 
-    \override TupletBracket.breakable = ##t
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
 
