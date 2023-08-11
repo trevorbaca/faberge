@@ -35,7 +35,7 @@ number.16.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-colored-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"156" #2 #0 #4 #5 #2 #0 #'(1 . 1) #'blue
+    - \baca-colored-bracketed-metric-modulation-tuplet-lhs #2 #0 #1 #"156" #2 #0 #4 #5 #2 #0 #'(1 . 1) #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -315,7 +315,7 @@ number.16.Flute.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 7
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
@@ -340,7 +340,7 @@ number.16.Flute.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     - \tweak padding 1.5
@@ -427,7 +427,7 @@ number.16.EnglishHorn.Music = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 7
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
@@ -449,7 +449,7 @@ number.16.EnglishHorn.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     - \tweak padding 1.5
@@ -556,7 +556,7 @@ number.16.Clarinet.Music = {
     g\breve
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -623,7 +623,7 @@ number.16.Piano.RH.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 7
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
@@ -648,7 +648,7 @@ number.16.Piano.RH.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-ff
     - \tweak padding 1.5
@@ -881,7 +881,7 @@ number.16.Percussion.Music = {
     b\breve
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
     - \tweak padding 1.5
@@ -980,7 +980,7 @@ number.16.Violin.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \ff
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1054,7 +1054,7 @@ number.16.Violin.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
 
@@ -1146,7 +1146,7 @@ number.16.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \ff
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1220,7 +1220,7 @@ number.16.Viola.Music = {
         - \accent
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
 
@@ -1310,7 +1310,7 @@ number.16.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1360,7 +1360,7 @@ number.16.Cello.Music = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \pp
 

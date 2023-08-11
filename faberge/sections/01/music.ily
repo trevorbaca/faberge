@@ -9,7 +9,7 @@ number.1.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -185,14 +185,14 @@ number.1.Flute.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -277,14 +277,14 @@ number.1.EnglishHorn.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
@@ -329,7 +329,7 @@ number.1.EnglishHorn.Music = {
 
         % [EnglishHorn.Music measure 3]
           %! EXPLICIT_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+        \once \override Staff.StaffSymbol.color = #blue
         \override DynamicLineSpanner.staff-padding = 8.5
         \override Staff.Stem.stemlet-length = 0.75
           %! EXPLICIT_STAFF_LINES
@@ -344,7 +344,7 @@ number.1.EnglishHorn.Music = {
         - \tweak X-extent #'(0 . 0)
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
@@ -408,14 +408,14 @@ number.1.Clarinet.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -494,17 +494,17 @@ number.1.Piano.RH.Music = {
 
     % [Piano.RH.Music measure 1]
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override PianoStaff.InstrumentName.color = #(x11-color 'blue)
+    \once \override PianoStaff.InstrumentName.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -586,12 +586,12 @@ number.1.Piano.LH.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -689,14 +689,14 @@ number.1.Percussion.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -778,14 +778,14 @@ number.1.Violin.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
     \override DynamicLineSpanner.staff-padding = 4
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
@@ -810,7 +810,7 @@ number.1.Violin.Music = {
     e'16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-f
       %! EXPLICIT_INSTRUMENT_ALERT
@@ -956,14 +956,14 @@ number.1.Viola.Music = {
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.X-extent = ##f
           %! EXPLICIT_CLEF_COLOR
-        \once \override Staff.Clef.color = #(x11-color 'blue)
+        \once \override Staff.Clef.color = #blue
           %! MEASURE_1
           %! SHIFTED_CLEF
     %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
           %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-        \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+        \once \override Staff.InstrumentName.color = #blue
           %! EXPLICIT_STAFF_LINES_COLOR
-        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+        \once \override Staff.StaffSymbol.color = #blue
         \override DynamicLineSpanner.staff-padding = 6
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
@@ -996,7 +996,7 @@ number.1.Viola.Music = {
         e'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-f
           %! SPANNER_START
@@ -1120,14 +1120,14 @@ number.1.Cello.Music = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
