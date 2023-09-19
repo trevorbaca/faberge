@@ -8,7 +8,6 @@ def main():
     y_offset_3 = 100
     y_offset_4 = 144
     y_offset_5 = 188
-    y_offset_6 = 232
     spacing = baca.make_layout(
         baca.page(
             1,
