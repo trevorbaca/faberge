@@ -1,9 +1,8 @@
 import baca
 
-distances = [18, (21, 21, 24), (21, 21, 24), (24, 24, 24)]
-
 
 def main():
+    distances = [18, (21, 21, 24), (21, 21, 24), (24, 24, 24)]
     spacing = baca.make_layout(
         baca.page(
             1,
