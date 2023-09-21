@@ -630,19 +630,6 @@ def make_score(first_measure_number, previous_persistent_indicators):
     return score, voice_name_to_parameter_to_state
 
 
-def main():
-    environment = baca.build.read_environment(__file__, baca.build.argv())
-    if environment.score():
-        score, voice_name_to_parameter_to_state = make_score(
-            environment.first_measure_number,
-            environment.previous_metadata["persistent_indicators"],
-            environment.timing,
-        )
-        persist_score(score, environment, voice_name_to_parameter_to_state)
-    if environment.arguments.layout:
-        make_layout()
-
-
 def persist_score(score, environment, voice_name_to_parameter_to_state):
     metadata = baca.section.postprocess_score(
         score,
@@ -688,6 +675,19 @@ def make_layout():
         spacing=(1, 24),
     )
     baca.section.make_layout_ly(spacing)
+
+
+def main():
+    environment = baca.build.read_environment(__file__, baca.build.argv())
+    if environment.score():
+        score, voice_name_to_parameter_to_state = make_score(
+            environment.first_measure_number,
+            environment.previous_metadata["persistent_indicators"],
+            environment.timing,
+        )
+        persist_score(score, environment, voice_name_to_parameter_to_state)
+    if environment.arguments.layout:
+        make_layout()
 
 
 if __name__ == "__main__":
