@@ -220,10 +220,7 @@ def PERC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(81, 84))
     voice.extend(music)
-    music = baca.parse(
-        "{ r4 c2 c1 }",
-    )
-    voice.extend(music)
+    voice.extend("{ r4 c2 c1 }")
     music = library.make_downbeat_attack(time_signatures(87))
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(88))

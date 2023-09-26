@@ -111,10 +111,7 @@ def PF(score, time_signatures):
         voice.extend(music)
     music = baca.make_mmrests(time_signatures(4), head=voice.name)
     voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }")
     music = library.make_clb_rhythm(
         time_signatures(6, 9),
         fuse_counts=[2, 2],
@@ -124,10 +121,7 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }")
     music = baca.make_mmrests(time_signatures(6, 9))
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
@@ -164,10 +158,7 @@ def VN(voice, time_signatures):
         fuse_counts=[2, 1, 1],
     )
     voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }")
     music = library.make_clb_rhythm(
         time_signatures(6, 9),
         fuse_counts=[2, 1, 1],
@@ -195,10 +186,7 @@ def VC(voice, time_signatures):
         fuse_counts=[1, 1, 2],
     )
     voice.extend(music)
-    music = baca.parse(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }")
     music = library.make_clb_rhythm(
         time_signatures(6, 9),
         fuse_counts=[1, 1, 2],

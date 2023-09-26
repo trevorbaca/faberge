@@ -76,10 +76,7 @@ def EH(voice, time_signatures):
         extra_counts=[1],
     )
     voice.extend(music)
-    music = baca.parse(
-        r"{ c4 c4 r1.. }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ c4 c4 r1.. }")
     music = baca.make_mmrests(time_signatures(6, 8))
     voice.extend(music)
 
@@ -95,10 +92,7 @@ def PF(score, time_signatures):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }")
     music = library.make_downbeat_attack(
         time_signatures(6),
         denominator=8,
@@ -109,10 +103,7 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8" " c8 r8 c8 r8 c8 r8 c8. r16 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }")
     music = library.make_downbeat_attack(
         time_signatures(6),
         denominator=8,
@@ -151,96 +142,36 @@ def PERC(voice, time_signatures):
 
 
 def VN(voice, time_signatures):
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2 c2 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8" " c8 r8 c8 r8 c8 r8 c8 r8 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"\times 5/4 { c2 c2 }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend("{ c2 c2 }")
+    voice.extend("{ c8 r8 c8. r16 c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"\times 5/4 { c2 c2 }")
     baca.section.append_anchor_note(voice)
 
 
 def VA(voice, time_signatures):
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 c2 }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 c2 }")
     music = baca.make_repeat_tied_notes(time_signatures(5))
     voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"{ c2 \times 2/3 { c2 c2 c2 } }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        r"\times 5/4 { c2 c2 }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"\times 5/4 { c2 c2 }")
     baca.section.append_anchor_note(voice)
 
 
 def VC(voice, time_signatures):
-    music = baca.parse(
-        "{ c2 c1 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2 c1 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2 c1 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2 r2 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8" " c8 r8 c8. r16 c8 r8 c8 r8 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c2 c1 }")
+    voice.extend("{ c2 c1 }")
+    voice.extend("{ c2 c1 }")
+    voice.extend("{ c2 r2 }")
+    voice.extend("{ c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 c8 r8 c8 r8 }")
     music = library.make_airtone_chain_rhythm(
         time_signatures(6, 8),
         20,

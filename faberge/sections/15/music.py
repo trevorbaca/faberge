@@ -63,10 +63,7 @@ def GLOBALS(skips, rests):
 def FL(voice, time_signatures):
     music = library.make_halves_rhythm(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.parse(
-        "{" " c2 c2 r4" " c2 c2 r2" " c2 c2 r2." " c2 c2 r1" " }",
-    )
-    voice.extend(music)
+    voice.extend("{ c2 c2 r4 c2 c2 r2 c2 c2 r2. c2 c2 r1 }")
     music = baca.make_mmrests(time_signatures(9), head=voice.name)
     voice.extend(music)
 
@@ -115,10 +112,7 @@ def PERC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(6, 7), head=voice.name)
     voice.extend(music)
-    music = baca.parse(
-        r"{ \times 4/5 { c4 c4 c4 c4 c4 }" r" \times 4/5 { c4 c4 c4 c4 c4 } }",
-    )
-    voice.extend(music)
+    voice.extend(r"{ \times 4/5 { c4 c4 c4 c4 c4 } \times 4/5 { c4 c4 c4 c4 c4 } }")
     music = baca.make_mmrests(time_signatures(9), head=voice.name)
     voice.extend(music)
 
