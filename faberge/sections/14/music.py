@@ -68,50 +68,20 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(4))
     voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
     baca.section.append_anchor_note(voice)
 
 
 def EH(voice, time_signatures):
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c4. c4. r4 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
+    voice.extend("{ c4. c4. r4 }")
     music = baca.make_mmrests(time_signatures(7, 8), head=voice.name)
     voice.extend(music)
 
@@ -154,38 +124,14 @@ def PF(score, time_signatures):
 
 
 def PERC(voice, time_signatures):
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
-    music = baca.parse(
-        "{ c2. r4 }",
-    )
-    voice.extend(music)
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
+    voice.extend("{ c2. r4 }")
     baca.section.append_anchor_note(voice)
 
 

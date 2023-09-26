@@ -96,11 +96,10 @@ def PF(score, time_signatures):
     voice = score["Piano.RH.Music"]
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.parse(
+    voice.append(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
+        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
     )
-    voice.extend(music)
     music = library.make_downbeat_attack(
         time_signatures(5),
         denominator=8,
@@ -111,11 +110,10 @@ def PF(score, time_signatures):
     voice = score["Piano.LH.Music"]
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.parse(
+    voice.append(
         r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }",
+        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
     )
-    voice.extend(music)
     music = library.make_downbeat_attack(
         time_signatures(5),
         denominator=8,
