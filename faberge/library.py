@@ -478,7 +478,7 @@ def make_glow_rhythm_b(
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
-    tuplet = baca.select.tuplet(voice, -1)
+    tuplet = abjad.select.tuplet(voice, -1)
     rmakers.force_rest(tuplet, tag=tag)
     _postprocess_glow_rhythm(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
