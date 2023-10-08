@@ -13,7 +13,7 @@ def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
     durations = baca.sequence.quarters(durations)
     tuplets = rmakers.tuplet(durations, tuplet_ratios_, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    tuplets = baca.select.tuplets(voice)[:-1]
+    tuplets = abjad.select.tuplets(voice)[:-1]
     pleaves = [baca.select.pleaf(_, -1) for _ in tuplets]
     rmakers.tie(pleaves, tag=tag)
     return voice
@@ -183,7 +183,7 @@ def make_downbeat_attack(time_signatures, *, count=1, denominator=4):
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.talea(durations, [count], denominator, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    tuplets = baca.select.tuplets(voice)[1:]
+    tuplets = abjad.select.tuplets(voice)[1:]
     rmakers.force_rest(tuplets, tag=tag)
     lts = baca.select.lts(voice)[1:]
     rmakers.force_rest(lts, tag=tag)
@@ -216,7 +216,7 @@ def make_eh_trill_rhythm(
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     rmakers.beam(voice, tag=tag)
@@ -437,7 +437,7 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=(0,)
 def make_glow_rhythm_a(time_signatures):
     tag = baca.helpers.function_name(inspect.currentframe())
     voice = _make_glow_rhythm(time_signatures, tag=tag)
-    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ~abjad.Pattern([6, 7], period=18))
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.tie(leaves, tag=tag)
@@ -457,22 +457,22 @@ def make_glow_rhythm_b(
     voice = _make_glow_rhythm(
         time_signatures, tag=tag, tuplet_ratio_rotation=tuplet_ratio_rotation
     )
-    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, pattern)
     rmakers.force_note(tuplets, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
-    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, [0, -2])
     rmakers.force_note(tuplets, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
-    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([10], 11))
     rmakers.force_rest(tuplets, tag=tag)
-    tuplets = baca.select.tuplets(voice)
+    tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([9, 11], 11))
     rmakers.force_note(tuplets, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
@@ -536,7 +536,7 @@ def make_keynoise_rhythm(
     tuplets = rmakers.tuplet(durations, tuplet_ratios_, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     rmakers.beam(voice, tag=tag)
@@ -705,7 +705,7 @@ def make_spazzolati_rhythm(
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if force_rest_tuplets is not None:
-        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     rmakers.beam(voice, tag=tag)
