@@ -375,7 +375,7 @@ def vn(m):
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                clpart = baca.select.leaves(clpart)[-3:]
+                clpart = abjad.select.leaves(clpart)[-3:]
                 baca.scp_spanner(
                     clpart,
                     "ord. -> pont. -> ord.",
@@ -512,7 +512,7 @@ def va(m):
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                clpart = baca.select.leaves(clpart)[-3:]
+                clpart = abjad.select.leaves(clpart)[-3:]
                 baca.scp_spanner(
                     clpart,
                     "ord. -> pont. -> ord.",
@@ -598,8 +598,8 @@ def vc(m):
                 abjad.Tweak(r"- \tweak padding 1"),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             )
-            for leaves in abjad.select.get(baca.select.leaves(o), ([0], 2)):
-                leaves = baca.select.rleak(baca.select.leaves(leaves)[:1])
+            for leaves in abjad.select.get(abjad.select.leaves(o), ([0], 2)):
+                leaves = baca.select.rleak(abjad.select.leaves(leaves)[:1])
                 baca.half_clt_spanner(
                     leaves,
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
