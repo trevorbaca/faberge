@@ -287,9 +287,9 @@ def pf(cache):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.note_head_stencil_false(o.pleaves())
-        baca.tuplet_bracket_transparent(o)
-        baca.tuplet_number_transparent(o)
+        baca.override.note_head_stencil_false(o.pleaves())
+        baca.override.tuplet_bracket_transparent(o)
+        baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o)
     m = cache["lh"]
     with baca.scope(m[5]) as o:
@@ -309,7 +309,7 @@ def perc(m):
         baca.hairpin(o.leaves()[:2], "o<| mp")
     with baca.scope(m.get(1, 3)) as o:
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -333,7 +333,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(6, 8)) as o:
         baca.flat_glissando(
             o,
@@ -346,7 +346,7 @@ def perc(m):
             r"\baca-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
 
@@ -444,9 +444,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
         baca.staccato(o.pheads())
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         baca.staff_lines(o.leaf(0), 1)
-        baca.tuplet_bracket_staff_padding(o, 3.5)
+        baca.override.tuplet_bracket_staff_padding(o, 3.5)
         library.clb_staff_positions(o)
 
 
@@ -510,8 +510,8 @@ def vn_vc(cache):
         for item in [(1, 4), (6, 9)]:
             with baca.scope(m.get(item)) as o:
                 baca.staccato(o.pheads())
-                baca.stem_down(o.pleaves())
-                baca.tuplet_bracket_staff_padding(o, 3.5)
+                baca.override.stem_down(o.pleaves())
+                baca.override.tuplet_bracket_staff_padding(o, 3.5)
         with baca.scope(m[5]) as o:
             baca.stem_tremolo(o.pheads())
 

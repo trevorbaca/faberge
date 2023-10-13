@@ -278,7 +278,7 @@ def eh(m):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
     with baca.scope(m.get(4, 8)) as o:
-        baca.trill_spanner_staff_padding(o, 5.5)
+        baca.override.trill_spanner_staff_padding(o, 5.5)
 
 
 def cl(m):
@@ -367,7 +367,7 @@ def pf(cache):
         m = cache["rh"]
     with baca.scope(m.get(5, 8)) as o:
         baca.ottava(o.tleaves(), right_broken=True)
-        baca.ottava_bracket_staff_padding(o, 5.5)
+        baca.override.ottava_bracket_staff_padding(o, 5.5)
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
         baca.material_annotation_spanner(
@@ -399,10 +399,10 @@ def pf(cache):
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.ottava(o.tleaves(), right_broken=True)
-        baca.ottava_bracket_staff_padding(o, 8)
+        baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -417,7 +417,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
         for plt in baca.select.plts(o):
             plt = baca.select.rleaves(plt)
             baca.trill_spanner(
@@ -438,7 +438,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         baca.hairpin(o.leaves()[:2], "o<| mf")
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -592,12 +592,12 @@ def vn_va(cache):
         ("va", (6, 7)),
     ):
         with baca.scope(cache[name].get(item)) as o:
-            baca.stem_down(o.pleaves())
-            baca.tuplet_bracket_staff_padding(o, 3.5)
+            baca.override.stem_down(o.pleaves())
+            baca.override.tuplet_bracket_staff_padding(o, 3.5)
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
             baca.hairpin(o.rleaves(), '("mf") >o niente')
-            baca.hairpin_shorten_pair(o, (4, 0))
+            baca.override.hairpin_shorten_pair(o, (4, 0))
             baca.override.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))
             baca.override.dynamic_text_x_extent_zero(o.pleaf(0))
 

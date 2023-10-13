@@ -332,9 +332,9 @@ def pf(cache):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
-        baca.note_head_stencil_false(o.pleaves())
-        baca.tuplet_bracket_transparent(o)
-        baca.tuplet_number_transparent(o)
+        baca.override.note_head_stencil_false(o.pleaves())
+        baca.override.tuplet_bracket_transparent(o)
+        baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o, rotation=-3)
     with baca.scope(m[6]) as o:
         baca.staff_lines(o.leaf(0), 5)
@@ -368,7 +368,7 @@ def pf(cache):
         baca.beam(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -382,7 +382,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m[2]) as o:
@@ -427,7 +427,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
 
 
 def vn(m):
@@ -559,7 +559,7 @@ def composites(cache):
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
             )
             baca.staccato(o.pheads())
-            baca.stem_down(o.pleaves())
+            baca.override.stem_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.clb_spanner(

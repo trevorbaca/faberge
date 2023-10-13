@@ -215,7 +215,7 @@ def eh(m):
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
-        baca.trill_spanner_staff_padding(o, 5.5)
+        baca.override.trill_spanner_staff_padding(o, 5.5)
 
 
 def cl(m):
@@ -335,7 +335,7 @@ def pf(cache):
         baca.ottava(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -368,7 +368,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m[8]) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
         baca.dynamic(o.phead(0), "f")
@@ -620,7 +620,7 @@ def vc(m, metadata):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             o.rleaves(),
             "IV =|",

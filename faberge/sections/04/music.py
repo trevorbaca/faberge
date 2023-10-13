@@ -308,7 +308,7 @@ def pf(cache):
         m = cache["lh"]
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -402,7 +402,7 @@ def vc(m, metadata):
             "1-1 / 1-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             o.rleaves(),
             "IV =|",

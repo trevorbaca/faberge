@@ -226,7 +226,7 @@ def eh(m):
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
-        baca.trill_spanner_staff_padding(o, 5.5)
+        baca.override.trill_spanner_staff_padding(o, 5.5)
     with baca.scope(m.get(4, 5)) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
@@ -297,7 +297,7 @@ def pf(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4.5)
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 8)
+        baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["lh"]
     for n in [1, 3, 4, 5]:
         with baca.scope(m[n]) as o:
@@ -326,10 +326,10 @@ def pf(cache):
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.override.dls_staff_padding(o, 4.5)
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 8)
+        baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -341,14 +341,14 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
         baca.trill_spanner(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
     with baca.scope(m[3]) as o:
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
             r"\baca-bd-struck-markup",
@@ -366,7 +366,7 @@ def perc(m):
         )
     with baca.scope(m.get(4, 5)) as o:
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
             r"\baca-bd-sponge-markup",
