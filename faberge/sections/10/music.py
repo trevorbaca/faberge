@@ -203,7 +203,7 @@ def eh(m):
     with baca.scope(m.get(4, 5)) as o:
         baca.pitch(o, "Db5")
         baca.dynamic(o.phead(0), "f")
-        baca.dls_staff_padding(o, 5)
+        baca.override.dls_staff_padding(o, 5)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "MM =|",
@@ -247,15 +247,15 @@ def fl_cl(cache):
         m = cache[name]
         for n in [1, 2, 3, 4, 5, 6, 7, 8]:
             with baca.scope(m[n]) as o:
-                baca.dynamic_text_self_alignment_x(o.pleaf(2), -1)
-                baca.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.trill_spanner(
                     o.leaves()[:3],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o, 6)
+            baca.override.dls_staff_padding(o, 6)
             baca.material_annotation_spanner(
                 o.rleaves(),
                 "3-4 / 3-5 =|",
@@ -298,7 +298,7 @@ def fl_cl(cache):
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 5)
+        baca.override.dls_staff_padding(o, 5)
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
@@ -348,7 +348,7 @@ def perc(m):
         )
         baca.stem_tremolo(o.phead(-1))
     with baca.scope(m.get(1, 7)) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m[4]) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.clef(o.leaf(0), "percussion")
@@ -370,7 +370,7 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.stem_down(o.pleaves())
     with baca.scope(m[8]) as o:
-        baca.dls_staff_padding(o.leaves(), 8)
+        baca.override.dls_staff_padding(o.leaves(), 8)
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
@@ -406,7 +406,7 @@ def vn(m):
         baca.pitch(o, "Dtqf5")
     for item in [(1, 3), (6, 8)]:
         with baca.scope(m.get(item)) as o:
-            baca.dls_staff_padding(o, 6)
+            baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(1, 4)) as o:
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -417,7 +417,7 @@ def vn(m):
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "Eb5")
     with baca.scope(m.get(4, 5)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(3))
@@ -457,7 +457,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.pitch(o, "Bqs4")
     with baca.scope(m.get(1, 4)) as o:
         baca.material_annotation_spanner(
@@ -484,7 +484,7 @@ def va(m):
         baca.dynamic(o.phead(0), "mp")
         baca.pitch(o, "Db4")
     with baca.scope(m.get(4, 8)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[5]) as o:
         baca.dynamic(
             o.phead(0),
@@ -613,7 +613,7 @@ def vc(m, metadata):
         baca.pitch(o, "F#5")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(6, 8)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "1-1 -|",
@@ -643,7 +643,7 @@ def vc(m, metadata):
                 pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
 
 
 @baca.build.timed("make_score")

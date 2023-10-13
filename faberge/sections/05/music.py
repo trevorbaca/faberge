@@ -190,7 +190,7 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
         baca.pitch(o, "B3")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 4)
+        baca.override.dls_staff_padding(o.leaves(), 4)
         baca.material_annotation_spanner(
             baca.select.rleak(o.tleaves()),
             "1-3 / 1-4 =|",
@@ -231,7 +231,7 @@ def cl(m):
     with baca.scope(m[8]) as o:
         baca.pitch(o, "Bb1")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 7)
+        baca.override.dls_staff_padding(o.leaves(), 7)
         baca.material_annotation_spanner(
             baca.select.rleak(o.tleaves()),
             "1-3 / 1-4 =|",
@@ -243,8 +243,8 @@ def fl_cl(cache):
     for name in ["fl", "cl"]:
         for n in [3, 6, 7]:
             with baca.scope(cache[name][n]) as o:
-                baca.dynamic_text_self_alignment_x(o.pleaf(2), -1)
-                baca.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpin(
                     o,
@@ -266,7 +266,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(3, 8)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.phead(0), "p")
         # TODO: use staff position instead of pitch
         baca.flat_glissando(o, "B3")
@@ -295,7 +295,7 @@ def vn(m):
             elif i in (4, 5):
                 baca.hairpin(plt, 'o< "p"')
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.material_annotation_spanner(
             o.rleaves(),
             "1-3 / 1-4 =|",
@@ -317,7 +317,7 @@ def va(m):
             elif i in (4, 5):
                 baca.hairpin(plt, 'o< "p"')
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.material_annotation_spanner(
             o.rleaves(),
             "1-3 / 1-4 =|",
@@ -381,7 +381,7 @@ def vc(m, metadata):
                     pieces=baca.select.clparts(run, [1]),
                 )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 8)
+        baca.override.dls_staff_padding(o.leaves(), 8)
         baca.material_annotation_spanner(
             o.rleaves(),
             "1-3 / 1-4 =|",

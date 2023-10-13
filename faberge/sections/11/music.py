@@ -197,7 +197,7 @@ def fl(m):
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "F3")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
 
 
 def eh(m):
@@ -234,9 +234,9 @@ def cl(m):
                 allow_repeats=True,
             )
     with baca.scope(m.get(1, 4)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(5, 8)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.pitch(o, "Eb2")
 
 
@@ -245,8 +245,8 @@ def fl_cl(cache):
         m = cache[name]
         for n in [1, 2, 3, 4]:
             with baca.scope(m[n]) as o:
-                baca.dynamic_text_self_alignment_x(o.pleaf(2), -1)
-                baca.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.trill_spanner(
                     o.leaves()[:3],
@@ -336,7 +336,7 @@ def pf(cache):
         baca.pitch(o, "A3")
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.dls_staff_padding(o, 3.5)
+        baca.override.dls_staff_padding(o, 3.5)
     m = cache["lh"]
     with baca.scope(m[3]) as o:
         baca.pitch(o, "<F6 G6 A6>")
@@ -408,7 +408,7 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.stem_down(o.pleaves())
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
 
 
 def vn(m):
@@ -461,7 +461,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
         )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 4)
+        baca.override.dls_staff_padding(o.leaves(), 4)
 
 
 def va(m):
@@ -508,12 +508,12 @@ def va(m):
         ),
         baca.stem_tremolo(o.pleaf(0))
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
 
 
 def vc(m, metadata):
     with baca.scope(m.get(1, 2)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             o.rleaves(),
@@ -553,7 +553,7 @@ def vc(m, metadata):
         baca.pitch(o, "F#5")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(3, 8)) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m.get(5, 7)) as o:
         baca.clef(o.leaf(0), "bass")
         baca.flat_glissando(
