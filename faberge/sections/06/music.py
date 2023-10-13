@@ -318,7 +318,7 @@ def pf(cache):
         baca.staff_lines(o.leaf(0), 3)
     with baca.scope(m.get(4, 5)) as o:
         baca.beam(o.tleaves())
-        baca.beam_positions(o, -3)
+        baca.override.beam_positions(o, -3)
         baca.clef(o.leaf(0), "percussion")
         baca.dynamic(
             o.phead(0),
@@ -545,7 +545,7 @@ def composites(cache):
                     elif duration == abjad.Duration((1, 4)):
                         baca.stem_tremolo(plt)
         with baca.scope(m.get(4, 7)) as o:
-            baca.beam_positions(o, -3.5)
+            baca.override.beam_positions(o, -3.5)
             baca.dynamic(
                 o.phead(0),
                 '"mf"',

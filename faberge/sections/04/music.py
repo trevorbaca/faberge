@@ -341,7 +341,7 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.beam_positions(o, -3.5)
+        baca.override.beam_positions(o, -3.5)
     with baca.scope(m.get(1, 4)) as o:
         baca.clb_spanner(
             baca.select.tleaves(o, rleak=True),
