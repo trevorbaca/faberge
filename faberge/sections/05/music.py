@@ -276,7 +276,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
 
 
@@ -336,7 +336,7 @@ def vn_va(cache):
 
 def vc(m, metadata):
     with baca.scope(m.get(1, 8)) as o:
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             o.rleaves(),
             "IV =|",

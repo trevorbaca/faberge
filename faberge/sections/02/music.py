@@ -379,7 +379,7 @@ def fl(m):
         )
         baca.hairpin(o.tleaves()[:2], "niente o< p")
         baca.hairpin(baca.select.rleak(baca.select.tleaves(o))[-2:], "(p) >o")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         baca.breathe(o.pleaf(-1))
 
 
@@ -397,7 +397,7 @@ def eh(m):
             )
     with baca.scope(m.get(27, 30)) as o:
         baca.pitches(o, "F#4 F#+4 E#4 E#+4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
             baca.trill_spanner(
@@ -406,7 +406,7 @@ def eh(m):
             )
     with baca.scope(m.get(41, 46)) as o:
         baca.pitches(o, "G#4 F#+4 G4 G+4 G#+4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
             baca.trill_spanner(
@@ -415,7 +415,7 @@ def eh(m):
             )
     with baca.scope(m.get(57, 62)) as o:
         baca.pitches(o, "A#4 A+4 A#+4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
             baca.trill_spanner(
@@ -424,7 +424,7 @@ def eh(m):
             )
     with baca.scope(m.get(81, 88)) as o:
         library.keynoise_pitches(o, rotation=0)
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
         baca.markup(
             o.pleaf(0),
             r"\baca-keynoise-markup",
@@ -433,7 +433,7 @@ def eh(m):
         baca.dynamic(o.phead(0), '"ff"')
     with baca.scope(m.get(89, 92)) as o:
         baca.pitches(o, "C4 C+4 C~4 C#4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
             baca.trill_spanner(
@@ -543,10 +543,10 @@ def pf(cache):
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m[1]) as o:
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(2, 88)) as o:
         baca.override.dots_transparent(o)
-        baca.rest_transparent(o.rests())
+        baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 88)) as o:
         baca.text_spanner(
             o.rleaves(),
@@ -557,7 +557,7 @@ def pf(cache):
         )
     m = cache["lh"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
@@ -617,7 +617,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
         baca.trill_spanner(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -633,7 +633,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(89, 92)) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.override.dls_staff_padding(o, 5)

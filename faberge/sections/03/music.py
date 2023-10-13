@@ -319,7 +319,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
         library.niente_swells(o, "p")
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
@@ -333,7 +333,7 @@ def fl(m):
     with baca.scope(m.get(11, 12)) as o:
         library.niente_swells(o, "mf")
     with baca.scope(m.get(11, 15)) as o:
-        baca.tuplet_bracket_staff_padding(o, 2.5)
+        baca.override.tuplet_bracket_staff_padding(o, 2.5)
     with baca.scope(m.get(13, 22)) as o:
         baca.stem_tremolo(o.pleaves())
         library.niente_swells(o, "f")
@@ -344,11 +344,11 @@ def fl(m):
     with baca.scope(m.get(27, 30)) as o:
         library.niente_swells(o, "mp")
     with baca.scope(m[27]) as o:
-        baca.tuplet_bracket_staff_padding(o, 2)
+        baca.override.tuplet_bracket_staff_padding(o, 2)
     with baca.scope(m.get(31, 36)) as o:
         library.niente_swells(o, "mf")
     with baca.scope(m.get(32, 33)) as o:
-        baca.tuplet_bracket_staff_padding(o, 2.5)
+        baca.override.tuplet_bracket_staff_padding(o, 2.5)
     with baca.scope(m.get(37, 44)) as o:
         baca.stem_tremolo(o.pleaves())
         library.niente_swells(o, "f")
@@ -384,7 +384,7 @@ def fl(m):
             "G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3",
             allow_repeats=True,
         )
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         library.bfl_color_fingerings(
             o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
@@ -400,15 +400,15 @@ def fl(m):
 def eh(m):
     with baca.scope(m.get(1, 12)) as o:
         library.keynoise_pitches(o, rotation=-1)
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
         baca.dynamic(o.phead(0), '"ff"')
     with baca.scope(m.get(13, 16)) as o:
         baca.dynamic(o.phead(0), "f")
         baca.pitches(o, "Db4 Db~4 Db4 Db~4 D~4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(17, 22)) as o:
         baca.dynamic(o.phead(0), '"ff"')
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
         library.keynoise_pitches(o, rotation=-2)
     with baca.scope(m.get(13, 16)) as o:
         for run in baca.select.runs(o):
@@ -420,7 +420,7 @@ def eh(m):
     with baca.scope(m.get(23, 30)) as o:
         baca.dynamic(o.phead(0), "ff")
         baca.pitches(o, "D4 D+4 D~4 Db4 D~4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(31, 36)) as o:
         baca.dynamic(o.phead(0), "fff")
         baca.markup(
@@ -429,7 +429,7 @@ def eh(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.pitch(o, "Eb4")
-        baca.repeat_tie_extra_offset(o, (-1.5, 0))
+        baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(23, 30)) as o:
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
@@ -441,7 +441,7 @@ def eh(m):
         baca.pitch(o, "E4")
     with baca.scope(m.get(45, 60)) as o:
         baca.dynamic(o.phead(0), '"ff"')
-        baca.note_head_style_cross(o.pleaves())
+        baca.override.note_head_style_cross(o.pleaves())
         library.keynoise_pitches(o, rotation=-3)
     with baca.scope(m.get(31, 44)) as o:
         baca.trill_spanner(
@@ -451,7 +451,7 @@ def eh(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 4)
     with baca.scope(m.get(1, 60)) as o:
-        baca.tuplet_bracket_staff_padding(o, 1)
+        baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(53, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.hairpin(o.tleaves(), '"ff" >o niente')
@@ -567,10 +567,10 @@ def pf(cache):
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m[1]) as o:
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(2, 44)) as o:
         baca.override.dots_transparent(o)
-        baca.rest_transparent(o.rests())
+        baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 44)) as o:
         baca.text_spanner(
             o.rleaves(),
@@ -595,9 +595,9 @@ def pf(cache):
         )
     with baca.scope(m.get(53, 80)) as o:
         baca.beam_positions(o, -3)
-        baca.note_head_stencil_false(o.pleaves())
-        baca.tuplet_bracket_transparent(o)
-        baca.tuplet_number_transparent(o)
+        baca.override.note_head_stencil_false(o.pleaves())
+        baca.override.tuplet_bracket_transparent(o)
+        baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o)
     with baca.scope(m.get(78, 80)) as o:
         baca.beam(o.tleaves())
@@ -613,7 +613,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 6)
     m = cache["lh"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(cache):
@@ -696,7 +696,7 @@ def perc(cache):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(79, 80)) as o:
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(o.pleaf(0), "f")
@@ -753,7 +753,7 @@ def vn(m):
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.staccato(o.pheads())
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(23, 52)) as o:
         baca.scp_spanner(
@@ -796,7 +796,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.staccato(o.pheads())
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(53, 80)) as o:
         baca.beam_positions(o, -3.5)
@@ -859,7 +859,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
         baca.staff_lines(o.leaf(0), 1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-4)
     with baca.scope(m.get(79, 80)) as o:
         baca.beam(o.tleaves())
@@ -939,9 +939,9 @@ def vc(m):
         baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')
         baca.staccato(o.pheads())
-        baca.stem_down(o.pleaves())
-        baca.text_script_staff_padding(o, 8)
-        baca.tuplet_bracket_staff_padding(o, 3)
+        baca.override.stem_down(o.pleaves())
+        baca.override.text_script_staff_padding(o, 8)
+        baca.override.tuplet_bracket_staff_padding(o, 3)
         library.clb_staff_positions(o, rotation=-5)
     with baca.scope(m.get(79, 80)) as o:
         baca.beam(o.tleaves())

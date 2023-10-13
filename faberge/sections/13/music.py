@@ -353,9 +353,9 @@ def cl(m):
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m[1]) as o:
-        baca.note_head_stencil_false(o.pleaves())
-        baca.tuplet_bracket_transparent(o)
-        baca.tuplet_number_transparent(o)
+        baca.override.note_head_stencil_false(o.pleaves())
+        baca.override.tuplet_bracket_transparent(o)
+        baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o)
     with baca.scope(m[2]) as o:
         baca.staff_lines(o.leaf(0), 5)
@@ -395,9 +395,9 @@ def pf(cache):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.note_head_stencil_false(o.pleaves())
-        baca.tuplet_bracket_transparent(o)
-        baca.tuplet_number_transparent(o)
+        baca.override.note_head_stencil_false(o.pleaves())
+        baca.override.tuplet_bracket_transparent(o)
+        baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o)
     with baca.scope(m[6]) as o:
         baca.staff_lines(o.leaf(0), 5)
@@ -412,7 +412,7 @@ def pf(cache):
         baca.beam(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -425,7 +425,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
     with baca.scope(m[7]) as o:
         baca.markup(
             o.pleaf(0),
@@ -516,7 +516,7 @@ def vc(m, metadata):
         baca.beam(o.tleaves())
     with baca.scope(m.get(7, 8)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             "IV =|",
@@ -549,7 +549,7 @@ def vn_va_vc(cache):
                 abjad.Tweak(r"- \tweak staff-padding 9.5"),
             )
             baca.staccato(o.pheads())
-            baca.stem_down(o.pleaves())
+            baca.override.stem_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.clb_spanner(

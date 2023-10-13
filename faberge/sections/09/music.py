@@ -270,7 +270,7 @@ def eh(m):
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
-        baca.trill_spanner_staff_padding(o, 5.5)
+        baca.override.trill_spanner_staff_padding(o, 5.5)
 
 
 def cl(m):
@@ -325,7 +325,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
@@ -389,7 +389,9 @@ def vn(m):
     for item in [(1, 7), 9]:
         with baca.scope(m.get(item)) as o:
             baca.quadruple_staccato(abjad.select.get(baca.select.plts(o), [0], 4))
-            baca.stem_tremolo(abjad.select.get(baca.select.plts(o), [1, 2, 3], 4))
+            baca.stem_tremolo(
+                abjad.select.get(baca.select.plts(o), [1, 2, 3], 4)
+            )
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
@@ -606,7 +608,7 @@ def vc(m):
                 )
     with baca.scope(m.get(5, 7)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.tuplet_bracket_down(o)
+        baca.override.tuplet_bracket_down(o)
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "E2")
     with baca.scope(m.get(5, 9)) as o:

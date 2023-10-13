@@ -287,7 +287,7 @@ def fl_cl(cache):
                 "3-7 =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
-            baca.script_x_extent_zero(o)
+            baca.override.script_x_extent_zero(o)
 
 
 def pf(cache):
@@ -314,7 +314,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 5.5)
+        baca.override.ottava_bracket_staff_padding(o, 5.5)
     for n in [4, 5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.laissez_vibrer(o.ptails())
@@ -347,10 +347,10 @@ def pf(cache):
         baca.accent(o.pleaf(-1))
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.ottava(o.tleaves())
-        baca.ottava_bracket_staff_padding(o, 7)
+        baca.override.ottava_bracket_staff_padding(o, 7)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
-        baca.mmrest_transparent(o)
+        baca.override.mmrest_transparent(o)
 
 
 def perc(m):
@@ -389,7 +389,7 @@ def perc(m):
                 abjad.Tweak(r"- \tweak staff-padding 7"),
             )
         baca.staff_position(o, 1)
-        baca.stem_up(o.pleaves())
+        baca.override.stem_up(o.pleaves())
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.hairpin(o.leaves()[:2], "o<| mf")
@@ -406,7 +406,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.stem_down(o.pleaves())
+        baca.override.stem_down(o.pleaves())
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
 
@@ -514,7 +514,7 @@ def va(m):
 def vc(m, metadata):
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             o.rleaves(),
             "IV =|",
