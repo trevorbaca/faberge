@@ -259,8 +259,8 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m[3]) as o:
-        baca.dynamic_text_self_alignment_x(o.pleaf(2), -1)
-        baca.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
+        baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
         baca.glissando(o.pleaves()[2:], allow_repeats=True)
         baca.hairpin(
             o,
@@ -283,7 +283,7 @@ def fl(m):
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
 
 
 def eh(m):
@@ -309,7 +309,7 @@ def eh(m):
     with baca.scope(m.get(7, 8)) as o:
         baca.pitch(o, "B4")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
 
 
 def cl(m):
@@ -341,7 +341,7 @@ def cl(m):
             )
         baca.pitch(o, "Ab2")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 10)
+        baca.override.dls_staff_padding(o, 10)
         library.bcl_color_fingerings(
             o.pheads(),
             abjad.Tweak(r"- \tweak direction #down"),
@@ -361,7 +361,7 @@ def pf(cache):
         baca.staff_lines(o.leaf(0), 5)
     with baca.scope(m[3]) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.dynamic(
             o.phead(0),
             "mp",
@@ -417,7 +417,7 @@ def pf(cache):
 
 def perc(m):
     with baca.scope(m.get(1, 6)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.dynamic(
             o.phead(0),
             "f-sempre",
@@ -434,7 +434,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(7, 8)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.dynamic(
             o.phead(0),
             "p-sempre",
@@ -504,7 +504,7 @@ def va(m):
                 abjad.Tweak(r"- \tweak staff-padding 5"),
             )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 5)
+        baca.override.dls_staff_padding(o, 5)
 
 
 def vc(m, metadata):
@@ -515,7 +515,7 @@ def vc(m, metadata):
     with baca.scope(m.get(5, 6)) as o:
         baca.beam(o.tleaves())
     with baca.scope(m.get(7, 8)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.note_head_style_harmonic(o.pleaves())
         baca.string_number_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),

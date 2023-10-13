@@ -147,7 +147,7 @@ def eh(m):
 
 def cl(m):
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.phead(0), "p")
         baca.flat_glissando(o, "F2", hide_middle_stems=True)
 
@@ -172,13 +172,13 @@ def fl_eh_rh(cache):
         with baca.scope(m.get(1, 5)) as o:
             baca.stem_tremolo(o.pleaves())
         with baca.scope(m.leaves()) as o:
-            baca.dls_staff_padding(o, 7)
+            baca.override.dls_staff_padding(o, 7)
             baca.staff_position(o, 0)
 
 
 def perc(m):
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.dynamic(o.phead(0), "p")
         baca.flat_glissando(o, "B3", hide_middle_stems=True)
         baca.markup(
@@ -222,7 +222,7 @@ def vn_va_vc(cache):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.accent(o.pheads())
-            baca.dls_staff_padding(o, 6)
+            baca.override.dls_staff_padding(o, 6)
         with baca.scope(m[1]) as o:
             baca.dynamic(o.phead(0), "ff")
         with baca.scope(m[5]) as o:

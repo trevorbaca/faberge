@@ -147,7 +147,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 4)
+        baca.override.dls_staff_padding(o.leaves(), 4)
         baca.material_annotation_spanner(
             o.rleaves(),
             "5-2 / 5-3 =|",
@@ -191,7 +191,7 @@ def fl(m):
 
 def cl(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         for run in baca.select.runs(o):
             baca.hairpin(
                 run,
@@ -222,7 +222,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.markup(
             o.pleaf(0),
             r"\baca-woodblock-markup",
@@ -243,7 +243,7 @@ def perc(m):
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.hairpin(o.leaves()[:2], "o<| f")
         baca.laissez_vibrer(o.ptails())
         baca.markup(
@@ -262,7 +262,7 @@ def perc(m):
     with baca.scope(m[8]) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.clef(o.leaf(0), "percussion")
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
@@ -291,7 +291,7 @@ def vn(cache):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "5-3 =|",
@@ -316,7 +316,7 @@ def va(m):
         )
         baca.pitch(o, "Dqf5")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "5-3 =|",
@@ -347,7 +347,7 @@ def vc(m):
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "E2")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o.leaves(), 6)
+        baca.override.dls_staff_padding(o.leaves(), 6)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "5-3 =|",

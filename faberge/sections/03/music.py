@@ -394,7 +394,7 @@ def fl(m):
     with baca.scope(m.get(73, 80)) as o:
         baca.staff_lines(o.leaf(0), 1)
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 7)
+        baca.override.dls_staff_padding(o, 7)
 
 
 def eh(m):
@@ -449,16 +449,16 @@ def eh(m):
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
     with baca.scope(m.get(1, 52)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
     with baca.scope(m.get(1, 60)) as o:
         baca.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(53, 60)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.hairpin(o.tleaves(), '"ff" >o niente')
     with baca.scope(m.get(61, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
     with baca.scope(m.get(69, 72)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.dynamic(
             o.phead(0),
             '"mf"',
@@ -473,7 +473,7 @@ def eh(m):
         )
         baca.staff_position(o, 0)
     with baca.scope(m[79]) as o:
-        baca.dls_staff_padding(o, 8.5)
+        baca.override.dls_staff_padding(o, 8.5)
         baca.dynamic(
             o.phead(0),
             "(f)",
@@ -557,7 +557,7 @@ def cl(m):
             baca.hairpin(baca.select.rleak(plt)[-2:], "(ppp) >o !")
         baca.flat_glissando(o, "C2")
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
 
 
 def pf(cache):
@@ -569,7 +569,7 @@ def pf(cache):
     with baca.scope(m[1]) as o:
         baca.note_head_style_harmonic(o.pleaves())
     with baca.scope(m.get(2, 44)) as o:
-        baca.dots_transparent(o)
+        baca.override.dots_transparent(o)
         baca.rest_transparent(o.rests())
     with baca.scope(m.get(1, 44)) as o:
         baca.text_spanner(
@@ -610,7 +610,7 @@ def pf(cache):
         baca.dynamic(o.pheads(), "sfz")
         baca.marcato(o.pheads())
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
     m = cache["lh"]
     with baca.scope(m.leaves()) as o:
         baca.mmrest_transparent(o)
@@ -698,7 +698,7 @@ def perc(cache):
         baca.staff_position(o, -1)
         baca.stem_down(o.pleaves())
     with baca.scope(m.get(79, 80)) as o:
-        baca.dls_staff_padding(o, 9)
+        baca.override.dls_staff_padding(o, 9)
         baca.dynamic(o.pleaf(0), "f")
         baca.markup(
             o.pleaf(0),
@@ -713,7 +713,7 @@ def perc(cache):
         )
         baca.staff_position(o, 0)
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
 
 
 def vn(m):
@@ -743,7 +743,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
         )
     with baca.scope(m.get(1, 52)) as o:
-        baca.dls_staff_padding(o, 5)
+        baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpin(
             o,
@@ -800,7 +800,7 @@ def vn(m):
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(53, 80)) as o:
         baca.beam_positions(o, -3.5)
-        baca.dls_staff_padding(o, 10)
+        baca.override.dls_staff_padding(o, 10)
 
 
 def va(m):
@@ -834,7 +834,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 3"),
         )
     with baca.scope(m.get(1, 52)) as o:
-        baca.dls_staff_padding(o, 7)
+        baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpin(
             o,
@@ -856,7 +856,7 @@ def va(m):
             2,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.dls_staff_padding(o, 10)
+        baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
         baca.staff_lines(o.leaf(0), 1)
         baca.stem_down(o.pleaves())
@@ -867,7 +867,7 @@ def va(m):
 
 def vc(m):
     with baca.scope(m.get(1, 36)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.flat_glissando(
             o,
             "Eb2",
@@ -903,7 +903,7 @@ def vc(m):
             bookend=-1,
         )
     with baca.scope(m.get(37, 60)) as o:
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.glissando(
             o.tleaves(),
             allow_repeats=True,
@@ -936,7 +936,7 @@ def vc(m):
             2,
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.dls_staff_padding(o, 10)
+        baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')
         baca.staccato(o.pheads())
         baca.stem_down(o.pleaves())

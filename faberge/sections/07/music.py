@@ -234,7 +234,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(1, 4)) as o:
         baca.material_annotation_spanner(
             o.rleaves(),
@@ -261,7 +261,7 @@ def fl(m):
 def eh(m):
     with baca.scope(m.leaves()) as o:
         baca.staff_lines(o.leaf(0), 5)
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
     with baca.scope(m[4]) as o:
         baca.pitch(o, "F5")
         baca.dynamic(o.phead(0), "p")
@@ -290,7 +290,7 @@ def cl(m):
                 allow_repeats=True,
             )
     with baca.scope(m.get(1, 4)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.material_annotation_spanner(
             o.rleaves(),
             "2-2 =|",
@@ -298,7 +298,7 @@ def cl(m):
         )
     with baca.scope(m[5]) as o:
         baca.pitch(o, "D2")
-        baca.dls_staff_padding(o, 9)
+        baca.override.dls_staff_padding(o, 9)
         baca.material_annotation_spanner(
             baca.select.tleaves(o, rleak=True),
             "3-7 -|",
@@ -318,8 +318,8 @@ def fl_cl(cache):
             )
         for n in [2, 4]:
             with baca.scope(m[n]) as o:
-                baca.dynamic_text_self_alignment_x(o.pleaf(2), -1)
-                baca.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
+                baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.trill_spanner(
                     o.leaves()[:3],
@@ -369,7 +369,7 @@ def pf(cache):
         baca.ottava(o.tleaves(), right_broken=True)
         baca.ottava_bracket_staff_padding(o, 5.5)
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.material_annotation_spanner(
             o.rleaves(),
             "2-2 / 2-3 =|",
@@ -447,14 +447,14 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
 
 
 def vn(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "C#5")
         baca.dynamic(o.phead(0), '"f"')
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.spazzolato_spanner(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -498,7 +498,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
     with baca.scope(m.get(3, 8)) as o:
-        baca.dls_staff_padding(o.leaves(), 8)
+        baca.override.dls_staff_padding(o.leaves(), 8)
     with baca.scope(m[8]) as o:
         baca.staff_lines(o[0], 5)
 
@@ -525,7 +525,7 @@ def va(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
     with baca.scope(m.get(3, 4)) as o:
         baca.beam(o.tleaves())
         library.clb_staff_positions(o)
@@ -545,7 +545,7 @@ def va(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.pitch(o, "D3")
         baca.dynamic(o.phead(0), "mp")
-        baca.dls_staff_padding(o, 5)
+        baca.override.dls_staff_padding(o, 5)
         baca.xfb_spanner(
             o.rleaves(),
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -579,7 +579,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
     with baca.scope(m.get(6, 8)) as o:
-        baca.dls_staff_padding(o.leaves(), 8)
+        baca.override.dls_staff_padding(o.leaves(), 8)
     with baca.scope(m[8]) as o:
         baca.staff_lines(o[0], 5)
 
@@ -598,8 +598,8 @@ def vn_va(cache):
         with baca.scope(cache[name][7]) as o:
             baca.hairpin(o.rleaves(), '("mf") >o niente')
             baca.hairpin_shorten_pair(o, (4, 0))
-            baca.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))
-            baca.dynamic_text_x_extent_zero(o.pleaf(0))
+            baca.override.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))
+            baca.override.dynamic_text_x_extent_zero(o.pleaf(0))
 
 
 def vc(m):
@@ -619,7 +619,7 @@ def vc(m):
     with baca.scope(m[5]) as o:
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "f")
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "F#5")
         baca.material_annotation_spanner(

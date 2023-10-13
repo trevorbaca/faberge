@@ -134,7 +134,7 @@ def eh(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.dls_staff_padding(o, 8.5)
+        baca.override.dls_staff_padding(o, 8.5)
 
 
 def cl(m):
@@ -185,7 +185,7 @@ def vn(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.instrument_name(o.leaf(0), r"\faberge-violin-markup")
         baca.short_instrument_name(o.leaf(0), "Vn.", library.manifests)
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[1]) as o:
         baca.pitch(o, "E4")
         baca.dynamic(o.phead(0), '"f"')
@@ -199,7 +199,7 @@ def va(m):
     with baca.scope(m.leaves()) as o:
         baca.clef(o.leaf(0), "alto")
         baca.staff_lines(o.leaf(0), 5)
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.short_instrument_name(o.leaf(0), "Va.", library.manifests)
         baca.instrument_name(o.leaf(0), r"\faberge-viola-markup")
         baca.instrument(o.leaf(0), "Viola", library.manifests)

@@ -204,7 +204,7 @@ def fl(m):
         with baca.scope(m[n]) as o:
             baca.breathe(o.leaf(-1))
     with baca.scope(m.get(5, 6)) as o:
-        baca.dls_staff_padding(o, 4)
+        baca.override.dls_staff_padding(o, 4)
         baca.dynamic(o.phead(0), "p")
         baca.pitch(o, "G#3")
         baca.staff_lines(o.leaf(0), 5)
@@ -228,7 +228,7 @@ def eh(m):
         with baca.scope(m[n]) as o:
             baca.breathe(o.leaf(-1))
     with baca.scope(m.get(5, 6)) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.phead(0), '"mf"')
         baca.staff_position(o, 0)
     with baca.scope(m.leaves()) as o:
@@ -252,7 +252,7 @@ def cl(m):
             baca.breathe(o.leaf(-1))
     with baca.scope(m.get(5, 6)) as o:
         baca.staff_lines(o.leaf(0), 5)
-        baca.dls_staff_padding(o, 7)
+        baca.override.dls_staff_padding(o, 7)
         baca.dynamic(o.phead(0), "p")
         baca.pitch(o, "C2")
     with baca.scope(m.leaves()) as o:
@@ -273,7 +273,7 @@ def fl_eh_cl(cache):
                     baca.hairpin(plt, 'o< "mp"')
                 elif i == 1:
                     baca.hairpin(plt, 'o< "mf"')
-            baca.dls_staff_padding(o, 6)
+            baca.override.dls_staff_padding(o, 6)
 
 
 def pf(cache):
@@ -299,7 +299,7 @@ def pf(cache):
         m = cache["rh"]
     with baca.scope(m.leaves()) as o:
         baca.staff_lines(o.leaf(0), 5)
-        baca.dls_staff_padding(o, 4.5)
+        baca.override.dls_staff_padding(o, 4.5)
     m = cache["lh"]
     with baca.scope(m.get(3, 5)) as o:
         baca.beam(o.tleaves())
@@ -335,7 +335,7 @@ def perc(m):
             right_broken=True,
         )
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 9)
+        baca.override.dls_staff_padding(o, 9)
         baca.staff_position(o, 0)
 
 
@@ -355,7 +355,7 @@ def vn(m):
     with baca.scope(m.get(5, 8)) as o:
         baca.staff_position(o, 0)
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.material_annotation_spanner(
             baca.select.rleak(baca.select.ltleaves(o)),
             "1-1 / 1-2 =|",
@@ -377,7 +377,7 @@ def va(m):
             elif i in (5, 6):
                 baca.hairpin(plt, 'o< "ff"')
     with baca.scope(m.leaves()) as o:
-        baca.dls_staff_padding(o, 6)
+        baca.override.dls_staff_padding(o, 6)
         baca.markup(
             o.pleaf(0),
             r"\baca-ob-markup",
@@ -396,7 +396,7 @@ def vc(m, metadata):
     with baca.scope(m.leaves()) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
-        baca.dls_staff_padding(o, 8)
+        baca.override.dls_staff_padding(o, 8)
         baca.material_annotation_spanner(
             o.rleaves(),
             "1-1 / 1-2 =|",
