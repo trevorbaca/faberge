@@ -594,7 +594,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m.get(53, 80)) as o:
-        baca.beam_positions(o, -3)
+        baca.override.beam_positions(o, -3)
         baca.override.note_head_stencil_false(o.pleaves())
         baca.override.tuplet_bracket_transparent(o)
         baca.override.tuplet_number_transparent(o)
@@ -799,7 +799,7 @@ def vn(m):
         baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(53, 80)) as o:
-        baca.beam_positions(o, -3.5)
+        baca.override.beam_positions(o, -3.5)
         baca.override.dls_staff_padding(o, 10)
 
 
@@ -850,7 +850,7 @@ def va(m):
     with baca.scope(m.get(53, 56)) as o:
         baca.hairpin(o.rleaves(), '"p" < "mf"')
     with baca.scope(m.get(53, 80)) as o:
-        baca.beam_positions(o, -3.5)
+        baca.override.beam_positions(o, -3.5)
         baca.clb_spanner(
             baca.select.tleaves(o, rleak=True),
             2,
@@ -929,7 +929,7 @@ def vc(m):
             pieces=baca.select.mgroups(leaves, [12, 12]),
         )
     with baca.scope(m.get(61, 80)) as o:
-        baca.beam_positions(o, -3.5)
+        baca.override.beam_positions(o, -3.5)
         baca.staff_lines(o.leaf(0), 1)
         baca.clb_spanner(
             baca.select.tleaves(o, rleak=True),
