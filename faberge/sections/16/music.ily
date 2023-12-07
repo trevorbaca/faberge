@@ -5,14 +5,14 @@ number.16.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 8/4
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "16"
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 8/4
     s1 * 8/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 14)
@@ -1387,11 +1387,11 @@ number.16.Cello.Music = {
     - \accent
 
     % [Cello.Music measure 8]
+    \mark \faberge-colophon-markup
     \once \override Score.RehearsalMark.direction = #down
     \once \override Score.RehearsalMark.extra-offset = #'(40 . 0)
     \once \override Score.RehearsalMark.padding = 6
     \once \override Score.RehearsalMark.self-alignment-X = #right
-    \mark \faberge-colophon-markup
     e,1..
     :32
     - \accent
