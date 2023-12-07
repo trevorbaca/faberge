@@ -5,14 +5,14 @@ number.15.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/4
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "15"
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/4
     s1 * 3/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 14)
