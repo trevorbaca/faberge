@@ -363,6 +363,8 @@ number.9.Rests = {
 number.9.Flute.Music = {
 
     % [Flute.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -387,8 +389,6 @@ number.9.Flute.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     g'2
     - \espressivo
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -821,6 +821,8 @@ number.9.EnglishHorn.Music = {
     {
 
         % [EnglishHorn.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -842,8 +844,6 @@ number.9.EnglishHorn.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         e''1
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
@@ -1227,6 +1227,8 @@ number.9.Clarinet.Music = {
     {
 
         % [Clarinet.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1251,8 +1253,6 @@ number.9.Clarinet.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         g2
         - \espressivo
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -1488,6 +1488,8 @@ number.9.Clarinet.Staff = <<
 number.9.Piano.RH.Music = {
 
     % [Piano.RH.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR
@@ -1511,8 +1513,6 @@ number.9.Piano.RH.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 12/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1595,6 +1595,8 @@ number.9.Piano.RH.Staff = <<
 number.9.Piano.LH.Music = {
 
     % [Piano.LH.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -1612,8 +1614,6 @@ number.9.Piano.LH.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 12/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"12" #"4"
@@ -1742,6 +1742,8 @@ number.9.Piano.LH.Staff = <<
 number.9.Percussion.Music = {
 
     % [Percussion.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_220
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1773,8 +1775,6 @@ number.9.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     e2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1881,6 +1881,8 @@ number.9.Percussion.Music = {
     %@% ^ \baca-duration-multiplier-markup #"10" #"4"
 
     % [Percussion.Music measure 5]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_224
       %! SHIFTED_CLEF
     \once \override Staff.Clef.X-extent = ##f
@@ -1904,8 +1906,6 @@ number.9.Percussion.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "treble"
     fs'!2
     \laissezVibrer
     - \tweak staff-padding 6
@@ -2011,6 +2011,8 @@ number.9.Percussion.Music = {
     {
 
         % [Percussion.Music measure 9]
+          %! EXPLICIT_CLEF
+        \clef "bass"
           %! MEASURE_228
           %! SHIFTED_CLEF
         \once \override Staff.Clef.X-extent = ##f
@@ -2028,8 +2030,6 @@ number.9.Percussion.Music = {
         \stopStaff
         \once \override Staff.StaffSymbol.line-count = 5
         \startStaff
-          %! EXPLICIT_CLEF
-        \clef "bass"
         ef,!2
         :32
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2101,6 +2101,8 @@ number.9.Violin.Music = {
     {
 
         % [Violin.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2125,8 +2127,6 @@ number.9.Violin.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "treble"
         as'!2
         - \baca-staccati #4
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3678,6 +3678,8 @@ number.9.Viola.Music = {
     {
 
         % [Viola.Music measure 1]
+          %! REAPPLIED_CLEF
+        \clef "alto"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3699,8 +3701,6 @@ number.9.Viola.Music = {
         \once \override Staff.StaffSymbol.line-count = 5
           %! REAPPLIED_STAFF_LINES
         \startStaff
-          %! REAPPLIED_CLEF
-        \clef "alto"
         as'!2
         - \baca-staccati #4
           %! REDUNDANT_DYNAMIC_COLOR
@@ -5390,6 +5390,8 @@ number.9.Viola.Staff = <<
 number.9.Cello.Music = {
 
     % [Cello.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_220
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -5420,8 +5422,6 @@ number.9.Cello.Music = {
     \once \override Staff.StaffSymbol.line-count = 5
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "bass"
     f,\breve.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
