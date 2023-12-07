@@ -5,14 +5,14 @@ number.12.Skips = {
     %@% \baca-thick-red-bar-line
       %! REAPPLIED_TIME_SIGNATURE_COLOR
     \baca-time-signature-color  #(x11-color 'green4)
-      %! REAPPLIED_TIME_SIGNATURE
-    \time 5/4
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "12"
+      %! REAPPLIED_TIME_SIGNATURE
+    \time 5/4
     s1 * 5/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 14)
