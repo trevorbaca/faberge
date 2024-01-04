@@ -172,7 +172,7 @@ def fl(m):
             o,
             "G#3 G#3 G#3 F#3",
             allow_repeats=True,
-            exact=True,
+            noncyclic=True,
         )
     for n in [2, 4]:
         with baca.scope(m[n]) as o:
@@ -218,7 +218,7 @@ def cl(m):
             o,
             "C3 C3 Db3 C3",
             allow_repeats=True,
-            exact=True,
+            noncyclic=True,
         )
     with baca.scope(m[5]) as o:
         baca.pitch(o, "B1")
