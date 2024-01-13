@@ -429,7 +429,7 @@ def vn(m):
     for n in [6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "p niente o< p > pp",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
@@ -474,7 +474,7 @@ def va(m):
     for n in [8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "niente o< p > pp p",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )

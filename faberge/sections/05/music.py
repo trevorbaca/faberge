@@ -247,7 +247,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpin(
-                    o,
+                    (),
                     "o< mp >o p > pp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
@@ -354,28 +354,28 @@ def vc(m, metadata):
         for i, run in enumerate(runs):
             if i == 0:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< mf >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 1:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< mp >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (2, 3):
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< p >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (4, 5):
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< pp >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),

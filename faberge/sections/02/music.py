@@ -906,7 +906,7 @@ def vc(m):
         )
     with baca.scope(m.get(71, 92)) as o:
         baca.hairpin(
-            o,
+            (),
             "ff > pp < p",
             bookend=False,
             pieces=baca.select.omgroups(o, [9, 9]),

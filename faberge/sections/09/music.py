@@ -196,7 +196,7 @@ def fl(m):
         baca.pitch(o, "G3")
     with baca.scope(m[5]) as o:
         baca.hairpin(
-            o,
+            (),
             "o< f >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
@@ -212,13 +212,13 @@ def fl(m):
         )
     with baca.scope(m[6]) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "o< mf >o niente",
             pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
         )
     with baca.scope(m[7]) as o:
         baca.hairpin(
-            o,
+            (),
             "o< mp >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
@@ -232,7 +232,7 @@ def eh(m):
         ):
             leaves = baca.select.rleaves(leaves)
             baca.hairpin(
-                leaves,
+                (),
                 "o< mf >o niente",
                 pieces=baca.select.lparts(leaves, [1, 1 + 1]),
             )
@@ -286,7 +286,7 @@ def fl_cl(cache):
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleaves(cmgroup)
                 baca.hairpin(
-                    cmgroup,
+                    (),
                     "o< mp >o niente",
                     pieces=abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
@@ -368,7 +368,7 @@ def vn(m):
     with baca.scope(m[1]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                clpart,
+                (),
                 "p niente o< p > pp",
                 pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
@@ -393,21 +393,21 @@ def vn(m):
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                clpart,
+                (),
                 "mp niente o< mp > pp",
                 pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                clpart,
+                (),
                 "mf niente o< mf > pp",
                 pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                clpart,
+                (),
                 "f niente o< f > pp",
                 pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
@@ -439,7 +439,7 @@ def va(m):
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            o,
+            (),
             "p niente o< p > pp niente o< p > pp p",
             pieces=baca.select.clparts(o, [1]),
         )
@@ -460,7 +460,7 @@ def va(m):
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            o,
+            (),
             "niente o< mp > pp mp niente o< mp > pp mp",
             pieces=baca.select.clparts(o, [1]),
         )
@@ -479,7 +479,7 @@ def va(m):
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            o,
+            (),
             "mp niente o< mf > pp niente o< mf > pp mf",
             pieces=baca.select.clparts(o, [1]),
         )
@@ -498,7 +498,7 @@ def va(m):
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            o,
+            (),
             "niente o< f > pp f f niente o< f > pp",
             pieces=baca.select.clparts(o, [1]),
         )
@@ -553,14 +553,14 @@ def vn_va(cache):
             with baca.scope(m[n]) as o:
                 for clpart in baca.select.clparts(o, [4]):
                     baca.hairpin(
-                        clpart,
+                        (),
                         '"ff" niente o< ff > pp',
                         pieces=baca.select.lparts(clpart, [1, 1, 2]),
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.hairpin(
-                    clpart,
+                    (),
                     "mp niente o< mp > pp",
                     pieces=baca.select.lparts(clpart, [1, 1, 2]),
                 )
@@ -581,7 +581,7 @@ def vc(m):
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "p f >o",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -621,7 +621,7 @@ def vc(m):
         baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.rleaf(-1), "!")
         baca.hairpin(
-            o,
+            (),
             "pp p >o",
             pieces=baca.select.clparts(o, [1]),
         )

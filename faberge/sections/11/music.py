@@ -254,14 +254,14 @@ def fl_cl(cache):
                 )
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                o,
+                (),
                 "o< p >o pp > ppp",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    o,
+                    (),
                     "o< pp >o ppp > pppp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
@@ -276,7 +276,7 @@ def fl_cl(cache):
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
                 baca.hairpin(
-                    cmgroup,
+                    (),
                     "o< mp >o niente",
                     pieces=abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
@@ -427,7 +427,7 @@ def vn(m):
         )
     with baca.scope(m[3]) as o:
         baca.hairpin(
-            o,
+            (),
             "p niente o< p > pp",
             pieces=baca.select.lparts(o, [1, 1, 2]),
         )
@@ -446,7 +446,7 @@ def vn(m):
                 baca.stem_tremolo(plt)
         leaves = o.leaves()[-3:]
         baca.scp_spanner(
-            leaves,
+            (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=-1,
@@ -530,7 +530,7 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o):
             baca.hairpin(
-                run,
+                (),
                 "niente o< p >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),

@@ -263,7 +263,7 @@ def fl(m):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
         baca.glissando(o.pleaves()[2:], allow_repeats=True)
         baca.hairpin(
-            o,
+            (),
             "o< mp >o p > pp",
             pieces=baca.select.lparts(o, [1, 1, 2]),
         )
@@ -293,7 +293,7 @@ def eh(m):
         for run in baca.select.runs(o):
             run = baca.select.rleak(run)
             baca.hairpin(
-                run,
+                (),
                 "o< mf >o niente",
                 pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
@@ -318,7 +318,7 @@ def cl(m):
     with baca.scope(m.get(3, 6)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                run[:-1],
+                (),
                 "pp < p > pp",
                 pieces=abjad.select.partition_by_ratio(
                     baca.select.plts(run[:-1]), (1, 1)
@@ -333,7 +333,7 @@ def cl(m):
     with baca.scope(m.get(7, 8)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                run[:-1],
+                (),
                 "p < mp > p",
                 pieces=abjad.select.partition_by_ratio(
                     baca.select.plts(run[:-1]), (1, 1)
@@ -532,7 +532,7 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o, None, 1):
             baca.hairpin(
-                run,
+                (),
                 "niente o< pp >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),
