@@ -191,7 +191,7 @@ def fl(m):
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.hairpin(
-            o,
+            (),
             "o< p >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
@@ -199,7 +199,7 @@ def fl(m):
         baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[6]) as o:
         baca.hairpin(
-            o,
+            (),
             "o< mp >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
@@ -213,13 +213,13 @@ def fl(m):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[7]) as o:
         baca.hairpin(
-            o,
+            (),
             "o< mf >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m[8]) as o:
         baca.hairpin(
-            o,
+            (),
             "o< f >o niente",
             pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
@@ -231,7 +231,7 @@ def cl(m):
     with baca.scope(m.get(2, 5)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                run[:-1],
+                (),
                 "p < mp > p",
                 pieces=abjad.select.partition_by_ratio(
                     baca.select.plts(run[:-1]), (1, 1)
@@ -244,7 +244,7 @@ def cl(m):
     with baca.scope(m.get(6, 8)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                run[:-1],
+                (),
                 "pp < p > pp",
                 pieces=abjad.select.partition_by_ratio(
                     baca.select.plts(run[:-1]), (1, 1)
@@ -273,7 +273,7 @@ def eh(m):
         for run in baca.select.runs(o):
             run = baca.select.rleak(run)
             baca.hairpin(
-                run,
+                (),
                 "o< mf >o niente",
                 pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
@@ -412,21 +412,21 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o, None, 1):
             baca.hairpin(
-                run,
+                (),
                 "niente o< mp >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 1, 2):
             baca.hairpin(
-                run,
+                (),
                 "niente o< mf >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 2, 3):
             baca.hairpin(
-                run,
+                (),
                 "niente o< f >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),
@@ -438,7 +438,7 @@ def vc(m, metadata):
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "o< p >o niente",
                 pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )

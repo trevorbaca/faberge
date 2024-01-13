@@ -326,7 +326,7 @@ def fl(m):
     with baca.scope(m.get(9, 10)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
         baca.hairpin(
-            leaves,
+            (),
             "niente o< mp >o niente",
             pieces=baca.select.lparts(leaves, [1, 1 + 1]),
         )
@@ -361,7 +361,7 @@ def fl(m):
     with baca.scope(m.get(53, 54)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
         baca.hairpin(
-            leaves,
+            (),
             "niente o< pp >o niente",
             pieces=baca.select.lparts(leaves, [1, 1 + 1]),
         )
@@ -655,7 +655,7 @@ def perc(cache):
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
     with baca.scope(m.get(23, 52)) as o:
         baca.hairpin(
-            o,
+            (),
             "ppp < pp >",
             bookend=False,
             pieces=baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
@@ -676,7 +676,7 @@ def perc(cache):
         )
     with baca.scope(m.get(53, 60)) as o:
         baca.hairpin(
-            o.rleaves(),
+            (),
             "ppp < pp >o niente",
             pieces=baca.select.mgroups(o.rleaves(), [2, 6 + 1]),
         )
@@ -746,7 +746,7 @@ def vn(m):
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpin(
-            o,
+            (),
             "(ppp) < f > ppp",
             pieces=baca.select.cmgroups(o, [8]),
         )
@@ -837,7 +837,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpin(
-            o,
+            (),
             "(pp) < f > pp",
             pieces=baca.select.cmgroups(o, [8]),
         )
@@ -911,7 +911,7 @@ def vc(m):
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
         baca.hairpin(
-            o,
+            (),
             "(p) < ff >o",
             pieces=baca.select.mgroups(o, [12, 12]),
         )

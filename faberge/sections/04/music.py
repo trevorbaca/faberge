@@ -420,28 +420,28 @@ def vc(m, metadata):
         for i, run in enumerate(runs):
             if i == 0:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< p >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 1:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< mp >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 2:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< mf >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 3:
                 baca.hairpin(
-                    run,
+                    (),
                     "niente o< f >o",
                     final_hairpin=False,
                     pieces=baca.select.clparts(run, [1]),

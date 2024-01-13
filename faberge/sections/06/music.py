@@ -223,7 +223,7 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.hairpin(
-            o,
+            (),
             "o< mf >o",
             pieces=abjad.select.partition_by_counts(
                 baca.select.pleaves(o),
@@ -302,7 +302,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpin(
-                    o,
+                    (),
                     "o< mp >o p > pp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
@@ -433,7 +433,7 @@ def perc(m):
 def vn(m):
     with baca.scope(m[2]) as o:
         baca.hairpin(
-            o,
+            (),
             "p niente o< p > pp",
             pieces=baca.select.lparts(o, [1, 1, 2]),
         )
@@ -471,7 +471,7 @@ def vn(m):
 def va(m):
     with baca.scope(m[2]) as o:
         baca.hairpin(
-            o,
+            (),
             "niente o< p > pp p",
             pieces=baca.select.lparts(o, [1, 1, 2]),
         )

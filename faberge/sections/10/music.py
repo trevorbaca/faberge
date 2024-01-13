@@ -263,33 +263,33 @@ def fl_cl(cache):
             )
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                o,
+                (),
                 "o< mp >o p > pp",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[2]) as o:
             baca.hairpin(
-                o,
+                (),
                 "o< mf >o mp > p",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[3]) as o:
             baca.hairpin(
-                o,
+                (),
                 "o< f >o mf > mp",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [4, 5]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    o,
+                    (),
                     "o< mp >o p > pp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
         for n in [6, 7, 8]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    o,
+                    (),
                     "o< p >o pp > ppp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
@@ -390,7 +390,7 @@ def vn(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "mp niente o< mp > p",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
@@ -468,7 +468,7 @@ def va(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "mp niente o< mp > p",
                 pieces=baca.select.lparts(o, [1, 1, 2]),
             )
@@ -537,21 +537,21 @@ def vn_va(cache):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "mp p >o",
                 bookend=False,
                 pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )
         with baca.scope(m[7]) as o:
             baca.hairpin(
-                o.rleaves(),
+                (),
                 "p pp >o niente",
                 bookend=False,
                 pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )
         with baca.scope(m[8]) as o:
             baca.hairpin(
-                o,
+                (),
                 "pp ppp",
                 pieces=baca.select.lparts(o, [1, 1]),
             )
@@ -561,7 +561,7 @@ def vc(m, metadata):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                o,
+                (),
                 "pp p >o",
                 pieces=baca.select.clparts(o, [1]),
             )
@@ -637,7 +637,7 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o):
             baca.hairpin(
-                run,
+                (),
                 "niente o< p >o",
                 final_hairpin=False,
                 pieces=baca.select.clparts(run, [1]),
