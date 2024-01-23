@@ -745,7 +745,7 @@ def va(m):
             hide_middle_stems=True,
         )
         baca.scp_spanner(
-            o,
+            (),
             "tasto -> pont. ->",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
@@ -898,7 +898,7 @@ def vc(m):
         )
     with baca.scope(m.get(71, 89)) as o:
         baca.vibrato_spanner(
-            o,
+            (),
             "sub. vib. mod. -> non vib. -> poco vib.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=-1,

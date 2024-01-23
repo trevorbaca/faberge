@@ -922,7 +922,7 @@ def vc(m):
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
         baca.scp_spanner(
-            leaves,
+            (),
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
