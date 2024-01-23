@@ -205,10 +205,11 @@ def fl(m):
         baca.stem_tremolo(o.pleaves())
         baca.override.dls_staff_padding(o, 4)
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "5-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            pieces=[o.rleaves()],
         )
     with baca.scope(m[6]) as o:
         baca.hairpin(
@@ -237,10 +238,11 @@ def eh(m):
                 pieces=baca.select.lparts(leaves, [1, 1 + 1]),
             )
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "4-5 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            pieces=[o.rleaves()],
         )
         baca.pitch(o, "A4")
         for run in baca.select.runs(o):
@@ -256,13 +258,15 @@ def eh(m):
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.hairpin(
-            baca.select.tleaves(o, rleak=True),
+            (),
             "f >o niente",
+            pieces=[baca.select.tleaves(o, rleak=True)],
         )
         baca.material_annotation_spanner(
-            baca.select.tleaves(o, rleak=True),
+            (),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            pieces=[baca.select.tleaves(o, rleak=True)],
         )
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
@@ -293,10 +297,11 @@ def fl_cl(cache):
                     ),
                 )
             baca.material_annotation_spanner(
-                o.rleaves(),
+                (),
                 "3-7 -|",
                 abjad.Tweak(r"- \tweak color #darkgreen"),
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                pieces=[o.rleaves()],
             )
 
 
@@ -319,17 +324,22 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 1)
         baca.dynamic(o.phead(0), "f")
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "4-5 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            pieces=[o.rleaves()],
         )
         baca.staff_position(o, 1)
         baca.override.stem_up(o.pleaves())
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
-        baca.hairpin(o.leaves()[:2], "o<| f")
+        baca.hairpin(
+            (),
+            "o<| f",
+            pieces=[o.leaves()[:2]],
+        )
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
@@ -337,10 +347,11 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "A.1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            pieces=[o.rleaves()],
         )
         baca.pitch(o, "F#4")
     with baca.scope(m[9]) as o:
@@ -424,9 +435,10 @@ def vn(m):
         baca.pitch(o, "Dtqf5")
     with baca.scope(m.leaves()) as o:
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "3-2 / 3-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            pieces=[o.rleaves()],
         )
 
 
@@ -540,9 +552,10 @@ def va(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 9)
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "3-2 / 3-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            pieces=[o.rleaves()],
         )
 
 
@@ -571,13 +584,18 @@ def vc(m):
         baca.override.dls_staff_padding(o, 5)
         baca.flat_glissando(o, "F2")
         baca.scp_spanner(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            (),
             "tasto =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.hairpin(o.rleaves(), "p < f-poco-scratch")
+        baca.hairpin(
+            (),
+            "p < f-poco-scratch",
+            pieces=[o.rleaves()],
+        )
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
@@ -601,8 +619,9 @@ def vc(m):
             for leaves in abjad.select.get(abjad.select.leaves(o), ([0], 2)):
                 leaves = baca.select.rleak(abjad.select.leaves(leaves)[:1])
                 baca.half_clt_spanner(
-                    leaves,
+                    (),
                     abjad.Tweak(r"- \tweak staff-padding 5.5"),
+                    pieces=[leaves],
                 )
     with baca.scope(m.get(5, 7)) as o:
         baca.override.dls_staff_padding(o, 8)
@@ -611,9 +630,10 @@ def vc(m):
         baca.pitch(o, "E2")
     with baca.scope(m.get(5, 9)) as o:
         baca.material_annotation_spanner(
-            o.rleaves(),
+            (),
             "3-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            pieces=[o.rleaves()],
         )
     with baca.scope(m[8]) as o:
         baca.dynamic(o[0], "!")
