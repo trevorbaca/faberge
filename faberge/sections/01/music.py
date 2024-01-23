@@ -190,8 +190,9 @@ def vn(m):
         baca.pitch(o, "E4")
         baca.dynamic(o.phead(0), '"f"')
         baca.spazzolato_spanner(
-            baca.select.tleaves(o, rleak=True),
+            (),
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            pieces=[baca.select.tleaves(o, rleak=True)],
         )
 
 
@@ -207,8 +208,9 @@ def va(m):
         baca.pitch(o, "E4")
         baca.dynamic(o.phead(0), '"f"')
         baca.spazzolato_spanner(
-            baca.select.tleaves(o, rleak=True),
+            (),
             abjad.Tweak(r"- \tweak staff-padding 3"),
+            pieces=[baca.select.tleaves(o, rleak=True)],
         )
 
 
