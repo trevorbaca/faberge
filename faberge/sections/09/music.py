@@ -377,7 +377,7 @@ def vn(m):
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
                 baca.scp_spanner(
-                    clpart,
+                    (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=-1,
@@ -444,7 +444,7 @@ def va(m):
             pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
-            o,
+            (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -465,7 +465,7 @@ def va(m):
             pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
-            o,
+            (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -484,7 +484,7 @@ def va(m):
             pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
-            o,
+            (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -503,7 +503,7 @@ def va(m):
             pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
-            o,
+            (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -514,7 +514,7 @@ def va(m):
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
                 baca.scp_spanner(
-                    clpart,
+                    (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=-1,

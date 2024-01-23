@@ -444,7 +444,7 @@ def vn(m):
         )
         leaves = o.leaves()[-3:]
         baca.scp_spanner(
-            leaves,
+            (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=-1,
@@ -482,7 +482,7 @@ def va(m):
         )
         leaves = o.leaves()[:3]
         baca.scp_spanner(
-            leaves,
+            (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=-1,
