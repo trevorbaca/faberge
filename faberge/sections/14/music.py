@@ -426,21 +426,21 @@ def vc(m, metadata):
             baca.hairpin(
                 (),
                 "niente o< mp >o",
-                final_hairpin=False,
+                do_not_start_spanner_on_final_piece=True,
                 pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 1, 2):
             baca.hairpin(
                 (),
                 "niente o< mf >o",
-                final_hairpin=False,
+                do_not_start_spanner_on_final_piece=True,
                 pieces=baca.select.clparts(run, [1]),
             )
         for run in baca.select.rleak_runs(o, 2, 3):
             baca.hairpin(
                 (),
                 "niente o< f >o",
-                final_hairpin=False,
+                do_not_start_spanner_on_final_piece=True,
                 pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m[5]) as o:

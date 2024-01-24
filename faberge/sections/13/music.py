@@ -543,7 +543,7 @@ def vc(m, metadata):
             baca.hairpin(
                 (),
                 "niente o< pp >o",
-                final_hairpin=False,
+                do_not_start_spanner_on_final_piece=True,
                 pieces=baca.select.clparts(run, [1]),
             )
 
