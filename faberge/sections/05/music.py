@@ -395,28 +395,28 @@ def vc(m, metadata):
                 baca.hairpin(
                     (),
                     "niente o< mf >o",
-                    final_hairpin=False,
+                    do_not_start_spanner_on_final_piece=True,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 1:
                 baca.hairpin(
                     (),
                     "niente o< mp >o",
-                    final_hairpin=False,
+                    do_not_start_spanner_on_final_piece=True,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (2, 3):
                 baca.hairpin(
                     (),
                     "niente o< p >o",
-                    final_hairpin=False,
+                    do_not_start_spanner_on_final_piece=True,
                     pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (4, 5):
                 baca.hairpin(
                     (),
                     "niente o< pp >o",
-                    final_hairpin=False,
+                    do_not_start_spanner_on_final_piece=True,
                     pieces=baca.select.clparts(run, [1]),
                 )
     with baca.scope(m.leaves()) as o:
