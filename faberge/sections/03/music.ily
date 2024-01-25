@@ -9688,19 +9688,15 @@ number.3.Percussion.Music = {
             - \tweak staff-padding 8
             ^ \baca-woodblock-markup
               %! MATERIAL_ANNOTATION_SPANNER
-              %! RIGHT_BROKEN
               %! SPANNER_START
             - \baca-dashed-line-with-hook
               %! MATERIAL_ANNOTATION_SPANNER
-              %! RIGHT_BROKEN
               %! SPANNER_START
             - \baca-text-spanner-left-text "MM"
               %! MATERIAL_ANNOTATION_SPANNER
-              %! RIGHT_BROKEN
               %! SPANNER_START
             - \tweak staff-padding 8
               %! MATERIAL_ANNOTATION_SPANNER
-              %! RIGHT_BROKEN
               %! SPANNER_START
             \bacaStartTextSpanMaterialAnnotation
 

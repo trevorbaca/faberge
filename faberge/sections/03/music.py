@@ -750,11 +750,10 @@ def perc(cache):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            baca.select.rleak(baca.select.ltleaves(o)),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
             right_broken=True,
         )
         baca.staff_position(o, 0)

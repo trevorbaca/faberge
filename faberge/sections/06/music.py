@@ -236,12 +236,11 @@ def fl(m):
     with baca.scope(m[3]) as o:
         baca.dynamic(o[0], "niente")
     with baca.scope(m.get(1, 2)) as o:
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "5-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
         )
     for n in [4, 5]:
         with baca.scope(m[n]) as o:
@@ -251,11 +250,10 @@ def fl(m):
                 allow_repeats=True,
             )
     with baca.scope(m.get(4, 8)) as o:
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
         )
     for n in [6, 7, 8]:
         with baca.scope(m[n]) as o:
@@ -285,11 +283,10 @@ def cl(m):
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
         )
 
 
@@ -355,11 +352,10 @@ def pf(cache):
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            pieces=[o.rleaves()],
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4.5)
@@ -390,12 +386,11 @@ def perc(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m[2]) as o:
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            pieces=[o.rleaves()],
         )
     for n in [4, 5, 6, 7]:
         with baca.scope(m[n]) as o:
@@ -426,12 +421,11 @@ def perc(m):
         baca.staff_position(o, 0)
     with baca.scope(m.get(4, 7)) as o:
         baca.override.dls_staff_padding(o, 4)
-        baca.material_annotation_spanner(
-            (),
+        baca.spanners.material_annotation(
+            o.rleaves(),
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            pieces=[o.rleaves()],
         ),
         baca.override.stem_up(o.pleaves())
 
@@ -537,12 +531,11 @@ def composites(cache):
         m = cache[name]
         with baca.scope(m[2]) as o:
             if name in ("vn", "va"):
-                baca.material_annotation_spanner(
-                    (),
+                baca.spanners.material_annotation(
+                    o.rleaves(),
                     "3-1 -|",
                     abjad.Tweak(r"- \tweak color #darkgreen"),
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    pieces=[o.rleaves()],
                 )
                 plts = baca.select.plts(o)
                 for plt in plts:
@@ -559,12 +552,11 @@ def composites(cache):
                 abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
                 abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
             )
-            baca.material_annotation_spanner(
-                (),
+            baca.spanners.material_annotation(
+                o.rleaves(),
                 "4-3 -|",
                 abjad.Tweak(r"- \tweak color #darkgreen"),
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
-                pieces=[o.rleaves()],
             )
             baca.staccato(o.pheads())
             baca.override.stem_down(o.pleaves())
