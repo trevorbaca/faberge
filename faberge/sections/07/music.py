@@ -498,11 +498,10 @@ def vn(m):
         )
     with baca.scope(m.get(3, 7)) as o:
         baca.staccato(o.pheads())
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.rleak(baca.select.ltleaves(o)),
             3,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:
         library.clb_staff_positions(o)
@@ -548,11 +547,10 @@ def va(m):
         baca.spanners.beam(o.tleaves())
         library.clb_staff_positions(o)
         baca.staccato(o.pheads())
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             2,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.material_annotation_spanner(
             (),
@@ -589,11 +587,10 @@ def va(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.rleak(baca.select.ltleaves(o)),
             2,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            staff_padding=5.5,
         )
         baca.material_annotation_spanner(
             (),
