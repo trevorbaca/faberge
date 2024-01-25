@@ -279,7 +279,7 @@ def fl(m):
             "Ab3 Ab3 Ab3 G3 G3",
             allow_repeats=True,
         )
-        baca.trill_spanner(
+        baca.spanners.trill(
             o.leaves()[:3],
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
@@ -298,7 +298,7 @@ def eh(m):
                 "o< mf >o niente",
                 pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -376,7 +376,7 @@ def pf(cache):
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.material_annotation_spanner(
             (),
@@ -413,7 +413,7 @@ def pf(cache):
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
         baca.override.mmrest_transparent(o)
@@ -461,7 +461,7 @@ def perc(m):
         )
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -469,7 +469,7 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m.get(1, 2)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(1, 6)) as o:
         baca.clb_spanner(
             (),
@@ -478,18 +478,18 @@ def vn(m):
             pieces=[baca.select.tleaves(o, rleak=True)],
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(5, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
 
 
 def va(m):
     with baca.scope(m.get(1, 2)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(5, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(7, 8)) as o:
         baca.dynamic(
             o.phead(0),
@@ -517,11 +517,11 @@ def va(m):
 
 def vc(m, metadata):
     with baca.scope(m.get(1, 2)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(5, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(7, 8)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.override.note_head_style_harmonic(o.pleaves())

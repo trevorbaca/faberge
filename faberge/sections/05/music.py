@@ -254,7 +254,7 @@ def fl_cl(cache):
                     "o< mp >o p > pp",
                     pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
-                baca.trill_spanner(
+                baca.spanners.trill(
                     o.leaves()[:3],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )

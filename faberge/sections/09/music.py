@@ -247,7 +247,7 @@ def eh(m):
         baca.pitch(o, "A4")
         for run in baca.select.runs(o):
             run = baca.select.rleaves(run)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -270,7 +270,7 @@ def eh(m):
         )
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -316,7 +316,7 @@ def perc(m):
         with baca.scope(m.get(n)) as o:
             for run in baca.select.runs(o):
                 run = baca.select.rleaves(run)
-                baca.trill_spanner(
+                baca.spanners.trill(
                     run,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )

@@ -280,7 +280,7 @@ def eh(m):
                 "o< mf >o niente",
                 pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -332,7 +332,7 @@ def perc(m):
         baca.staff_position(o, 0)
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )

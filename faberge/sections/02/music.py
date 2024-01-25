@@ -407,7 +407,7 @@ def eh(m):
         baca.dynamic(o.phead(0), "f")
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -416,7 +416,7 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -425,7 +425,7 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -434,7 +434,7 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -452,7 +452,7 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -635,7 +635,7 @@ def perc(m):
         )
         baca.staff_position(o, 1)
         baca.override.stem_up(o.pleaves())
-        baca.trill_spanner(
+        baca.spanners.trill(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
@@ -736,8 +736,8 @@ def vn(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.pitch(o, "E4")
     with baca.scope(m.get(87)) as o:
-        baca.beam(o.pleaves()[:2])
-        baca.beam(o.leaves()[-4:])
+        baca.spanners.beam(o.pleaves()[:2])
+        baca.spanners.beam(o.leaves()[-4:])
     with baca.scope(m.get(81, 83)) as o:
         baca.spazzolato_spanner(
             (),

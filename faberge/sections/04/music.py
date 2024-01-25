@@ -301,7 +301,7 @@ def pf(cache):
             pieces=[o.rleaves()],
         )
     with baca.scope(m.get(3, 5)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.markup(
             o.pheads(),
             r"\baca-sharp-markup",
@@ -314,7 +314,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 4.5)
     m = cache["lh"]
     with baca.scope(m.get(3, 5)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.pitch(o, "<G3 A3 B3 C4>")
         cache.rebuild()
         m = cache["lh"]
@@ -367,7 +367,7 @@ def vn(m):
         baca.staccato(o.pheads())
         library.clb_staff_positions(o)
     with baca.scope(m.get(3, 4)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(5, 8)) as o:
         baca.staff_position(o, 0)
     with baca.scope(m.leaves()) as o:
