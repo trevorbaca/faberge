@@ -220,7 +220,7 @@ def eh(m):
         baca.pitch(o, "A5")
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -249,7 +249,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.trill_spanner(
+                baca.spanners.trill(
                     o.leaves()[:3],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
@@ -317,7 +317,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=[o.rleaves()],
         )
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 5.5)
     for n in [4, 5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
@@ -351,7 +351,7 @@ def pf(cache):
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 7)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
@@ -390,7 +390,7 @@ def perc(m):
         )
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 abjad.Tweak(r"- \tweak staff-padding 7"),

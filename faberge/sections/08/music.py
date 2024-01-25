@@ -222,7 +222,7 @@ def eh(m):
         baca.pitch(o, "G#5")
         for plt in baca.select.plts(o):
             plt = baca.select.tleaves(plt, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -272,7 +272,7 @@ def pf(cache):
     m = cache["rh"]
     for n in [1, 3, 4, 5]:
         with baca.scope(m[n]) as o:
-            baca.beam(o.tleaves())
+            baca.spanners.beam(o.tleaves())
     for n in [1, 3, 4, 5, 6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.accent(o.pleaf(1))
@@ -299,12 +299,12 @@ def pf(cache):
         m = cache["rh"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4.5)
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["lh"]
     for n in [1, 3, 4, 5]:
         with baca.scope(m[n]) as o:
-            baca.beam(o.tleaves())
+            baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(1, 5)) as o:
         baca.material_annotation_spanner(
             (),
@@ -330,7 +330,7 @@ def pf(cache):
     with baca.scope(m.get(1, 10)) as o:
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.override.dls_staff_padding(o, 4.5)
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
@@ -347,7 +347,7 @@ def perc(m):
         )
         baca.staff_position(o, 1)
         baca.override.stem_up(o.pleaves())
-        baca.trill_spanner(
+        baca.spanners.trill(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
@@ -406,7 +406,7 @@ def vn(m):
         baca.dynamic(o.phead(0), "f")
     for n in [1, 3]:
         with baca.scope(m[n]) as o:
-            baca.beam(o.tleaves())
+            baca.spanners.beam(o.tleaves())
             baca.stem_tremolo(o.pheads())
             baca.accent(o.pleaf(1))
             baca.accent(o.pleaf(3))
@@ -527,7 +527,7 @@ def vn_va(cache):
 def vc(m):
     for n in [1, 3]:
         with baca.scope(m[n]) as o:
-            baca.beam(o.tleaves())
+            baca.spanners.beam(o.tleaves())
             baca.accent(o.pleaf(0))
             baca.accent(o.pleaf(-3))
     for item in [1, 3, 6, (8, 10)]:

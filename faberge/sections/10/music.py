@@ -212,7 +212,7 @@ def eh(m):
         )
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -251,7 +251,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.trill_spanner(
+                baca.spanners.trill(
                     o.leaves()[:3],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
@@ -315,7 +315,7 @@ def pf(cache):
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(5, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.material_annotation_spanner(
             (),
             "2-4 -|",
@@ -323,7 +323,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=[o.rleaves()],
         )
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
     m = cache["lh"]
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
@@ -333,9 +333,9 @@ def pf(cache):
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(5, 6)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
         baca.override.mmrest_transparent(o)
@@ -427,7 +427,7 @@ def vn(m):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(3))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.dynamic(
             o.phead(0),
             "f",
@@ -610,7 +610,7 @@ def vc(m, metadata):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(0))
         baca.accent(o.pleaf(-3))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(
             o.phead(0),

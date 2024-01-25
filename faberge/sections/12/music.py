@@ -265,7 +265,7 @@ def pf(cache):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.clef(o.leaf(0), "treble")
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "(f)")
@@ -276,7 +276,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=[o.rleaves()],
         )
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
     with baca.scope(m.get(6, 9)) as o:
         baca.staff_lines(o.leaf(0), 3)
         baca.dynamic(
@@ -303,9 +303,9 @@ def pf(cache):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves())
 
 
 def perc(m):
@@ -389,7 +389,7 @@ def vn(m):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(3))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.staff_lines(o.leaf(0), 5)
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")
@@ -498,7 +498,7 @@ def vc(m):
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(0))
         baca.accent(o.pleaf(-3))
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
         baca.staff_lines(o.leaf(0), 5)
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")

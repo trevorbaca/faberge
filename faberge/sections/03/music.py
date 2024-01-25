@@ -413,7 +413,7 @@ def eh(m):
     with baca.scope(m.get(13, 16)) as o:
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -433,7 +433,7 @@ def eh(m):
     with baca.scope(m.get(23, 30)) as o:
         for run in baca.select.runs(o):
             run = baca.select.tleaves(run, rleak=True)
-            baca.trill_spanner(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -444,7 +444,7 @@ def eh(m):
         baca.override.note_head_style_cross(o.pleaves())
         library.keynoise_pitches(o, rotation=-3)
     with baca.scope(m.get(31, 44)) as o:
-        baca.trill_spanner(
+        baca.spanners.trill(
             baca.select.tleaves(o, rleak=True),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
@@ -645,7 +645,7 @@ def pf(cache):
         baca.override.tuplet_number_transparent(o)
         library.tuning_peg_staff_positions(o)
     with baca.scope(m.get(78, 80)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.get(1, 44)) as o:
         library.replace_with_piano_clusters(o)
@@ -932,7 +932,7 @@ def va(m):
         baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-4)
     with baca.scope(m.get(79, 80)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
 
 
 def vc(m):
@@ -1027,7 +1027,7 @@ def vc(m):
         baca.override.tuplet_bracket_staff_padding(o, 3)
         library.clb_staff_positions(o, rotation=-5)
     with baca.scope(m.get(79, 80)) as o:
-        baca.beam(o.tleaves())
+        baca.spanners.beam(o.tleaves())
 
 
 @baca.build.timed("make_score")
