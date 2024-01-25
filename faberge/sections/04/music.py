@@ -358,11 +358,10 @@ def vn(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.override.beam_positions(o, -3.5)
     with baca.scope(m.get(1, 4)) as o:
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             3,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.staccato(o.pheads())
         library.clb_staff_positions(o)

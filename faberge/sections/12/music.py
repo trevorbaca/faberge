@@ -372,11 +372,10 @@ def perc(m):
 def vn(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.staff_lines(o.leaf(0), 1)
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             3,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.material_annotation_spanner(
@@ -403,11 +402,10 @@ def vn(m):
         baca.pitch(o, "A6")
     with baca.scope(m.get(6, 9)) as o:
         baca.staff_lines(o.leaf(0), 1)
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             3,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -451,11 +449,10 @@ def va(m):
         baca.flat_glissando(o, "F3")
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(6, 9)) as o:
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             2,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -481,11 +478,10 @@ def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.clef(o.leaf(0), "treble")
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             2,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.material_annotation_spanner(
@@ -525,11 +521,10 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
             pieces=[o.rleaves()],
         )
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             2,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         )
         library.clb_staff_positions(o)
 

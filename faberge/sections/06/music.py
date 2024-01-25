@@ -466,11 +466,10 @@ def vn(m):
     with baca.scope(m[8]) as o:
         baca.staff_lines(o[0], 5)
     with baca.scope(m.get(4, 7)) as o:
-        baca.clb_spanner(
-            (),
+        baca.spanners.clb(
+            baca.select.tleaves(o, rleak=True),
             3,
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+            staff_padding=5.5,
         ),
         baca.override.dls_staff_padding(o, 8)
 
@@ -572,11 +571,10 @@ def composites(cache):
             baca.override.stem_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
-                baca.clb_spanner(
-                    (),
+                baca.spanners.clb(
+                    baca.select.tleaves(o, rleak=True),
                     2,
-                    abjad.Tweak(r"- \tweak staff-padding 5.5"),
-                    pieces=[baca.select.tleaves(o, rleak=True)],
+                    staff_padding=5.5,
                 )
                 baca.override.dls_staff_padding(o, 8)
 
