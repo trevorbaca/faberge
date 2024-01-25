@@ -270,16 +270,14 @@ def fl_eh_cl(cache):
             for i, plt in enumerate(plts):
                 plt = baca.select.rleaves(plt)
                 if i == 0:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        plt,
                         'o< "mp"',
-                        pieces=[plt],
                     )
                 elif i == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        plt,
                         'o< "mf"',
-                        pieces=[plt],
                     )
             baca.override.dls_staff_padding(o, 6)
 
