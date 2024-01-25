@@ -3812,23 +3812,18 @@ number.6.Cello.Music = {
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
           %! BOW_SPEED_SPANNER
-          %! RIGHT_BROKEN
           %! SPANNER_START
         - \baca-dashed-line-with-hook
           %! BOW_SPEED_SPANNER
-          %! RIGHT_BROKEN
           %! SPANNER_START
         - \baca-text-spanner-left-text "XFB"
           %! BOW_SPEED_SPANNER
-          %! RIGHT_BROKEN
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
           %! BOW_SPEED_SPANNER
-          %! RIGHT_BROKEN
           %! SPANNER_START
         - \tweak staff-padding 3
           %! BOW_SPEED_SPANNER
-          %! RIGHT_BROKEN
           %! SPANNER_START
         \bacaStartTextSpanBowSpeed
         \glissando

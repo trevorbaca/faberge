@@ -440,10 +440,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
             pieces=[o.rleaves()],
         )
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
     with baca.scope(m[5]) as o:
         baca.flat_glissando(o, "F3")

@@ -375,11 +375,10 @@ def vn_va(cache):
 def vc(m, metadata):
     with baca.scope(m.get(1, 8)) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.string_number_spanner(
-            (),
+        baca.spanners.string_number(
+            o.rleaves(),
             "IV =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(

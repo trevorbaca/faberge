@@ -314,10 +314,9 @@ def va(m):
         baca.pitch(o, "F3")
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
-            baca.xfb_spanner(
-                (),
-                abjad.Tweak(r"- \tweak staff-padding 3"),
-                pieces=[plt],
+            baca.spanners.xfb(
+                plt,
+                staff_padding=3,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(

@@ -437,11 +437,10 @@ def vc(m, metadata):
             pieces=[o.rleaves()],
         )
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.string_number_spanner(
-            (),
+        baca.spanners.string_number(
+            o.rleaves(),
             "IV =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
         baca.untie(o)
         baca.pitches(

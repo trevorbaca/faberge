@@ -788,10 +788,9 @@ def vn(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 22)) as o:
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
@@ -871,10 +870,9 @@ def va(m):
         baca.dynamic(o.phead(0), '"ff"')
         baca.pitch(o, "F4")
     with baca.scope(m.get(1, 8)) as o:
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.hairpin(
@@ -890,10 +888,9 @@ def va(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 22)) as o:
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)

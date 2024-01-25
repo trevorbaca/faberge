@@ -510,10 +510,9 @@ def va(m):
             pieces=[o.rleaves()],
         )
         baca.stem_tremolo(o.pleaves())
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
     for n in [6, 7]:
         with baca.scope(m[n]) as o:
@@ -637,12 +636,11 @@ def vc(m, metadata):
             pieces=[baca.select.tleaves(o, rleak=True)],
         )
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.string_number_spanner(
-            (),
+        baca.spanners.string_number(
+            o.rleaves(),
             "IV =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
             right_broken=True,
+            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(
