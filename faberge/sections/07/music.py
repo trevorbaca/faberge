@@ -466,10 +466,9 @@ def vn(m):
         baca.pitch(o, "C#5")
         baca.dynamic(o.phead(0), '"f"')
         baca.override.dls_staff_padding(o, 4)
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
         baca.material_annotation_spanner(
             (),
@@ -522,10 +521,9 @@ def va(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "C#5")
         baca.dynamic(o.phead(0), '"f"')
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=5.5,
         )
         baca.material_annotation_spanner(
             (),
@@ -564,10 +562,9 @@ def va(m):
         baca.pitch(o, "D3")
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
         baca.breathe(o.pleaf(-1))
         baca.material_annotation_spanner(
@@ -635,10 +632,9 @@ def vc(m):
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.xfb(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
     with baca.scope(m[4]) as o:
         baca.stem_tremolo(o.pleaf(0))

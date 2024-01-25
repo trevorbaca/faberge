@@ -15961,23 +15961,18 @@ number.2.Viola.Music = {
       %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
       %! BOW_SPEED_SPANNER
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \baca-dashed-line-with-hook
       %! BOW_SPEED_SPANNER
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
       %! BOW_SPEED_SPANNER
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
       %! BOW_SPEED_SPANNER
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! BOW_SPEED_SPANNER
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
       %! SCP_SPANNER

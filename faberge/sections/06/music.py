@@ -525,11 +525,10 @@ def vc(m):
             right_broken=True,
         )
         baca.stem_tremolo(o.pleaf(0))
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
             right_broken=True,
+            staff_padding=3,
         )
 
 

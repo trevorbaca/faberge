@@ -4368,19 +4368,15 @@ number.10.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-      %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \baca-dashed-line-with-hook
-      %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \baca-text-spanner-left-text "IV"
-      %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \tweak staff-padding 5.5
-      %! RIGHT_BROKEN
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     \bacaStartTextSpanStringNumber

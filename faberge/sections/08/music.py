@@ -471,10 +471,9 @@ def va(m):
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
         baca.material_annotation_spanner(
             (),

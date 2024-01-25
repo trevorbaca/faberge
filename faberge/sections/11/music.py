@@ -434,10 +434,9 @@ def vn(m):
             pieces=[o.rleaves()],
         )
         baca.pitch(o, "E4")
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
     with baca.scope(m[3]) as o:
         baca.hairpin(
@@ -475,10 +474,9 @@ def vn(m):
             pieces=[o.rleaves()],
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
@@ -495,10 +493,9 @@ def va(m):
             pieces=[o.rleaves()],
         )
         baca.pitch(o, "E4")
-        baca.spazzolato_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[baca.select.tleaves(o, rleak=True)],
+        baca.spanners.spazzolato(
+            baca.select.tleaves(o, rleak=True),
+            staff_padding=3,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.flat_glissando(o, "D3", hide_middle_stems=True)
@@ -518,10 +515,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=[o.rleaves()],
         )
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.flat_glissando(
@@ -539,11 +535,10 @@ def vc(m, metadata):
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.string_number_spanner(
-            (),
+        baca.spanners.string_number(
+            o.rleaves(),
             "IV =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(
@@ -593,10 +588,9 @@ def vc(m, metadata):
             pieces=[o.rleaves()],
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
-        baca.xfb_spanner(
-            (),
-            abjad.Tweak(r"- \tweak staff-padding 3"),
-            pieces=[o.rleaves()],
+        baca.spanners.xfb(
+            o.rleaves(),
+            staff_padding=3,
         )
 
 
