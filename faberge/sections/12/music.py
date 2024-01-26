@@ -307,9 +307,8 @@ def pf(cache):
 def perc(m):
     with baca.scope(m[1]) as o:
         baca.hairpin(
-            (),
+            o.leaves()[:2],
             "o<| mp",
-            pieces=[o.leaves()[:2]],
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.staff_position(o, -1)
@@ -322,9 +321,8 @@ def perc(m):
         )
     with baca.scope(m[3]) as o:
         baca.hairpin(
-            (),
+            o.leaves()[:2],
             "o<| p",
-            pieces=[o.leaves()[:2]],
         )
     with baca.scope(m[5]) as o:
         baca.dynamic(o.phead(0), "p")
@@ -349,9 +347,8 @@ def perc(m):
             hide_middle_stems=True,
         ),
         baca.hairpin(
-            (),
+            o.rleaves(),
             "mp >o niente",
-            pieces=[o.rleaves()],
         )
         baca.markup(
             o.pleaf(0),
@@ -519,9 +516,8 @@ def vn_vc(cache):
         m = cache[name]
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                (),
+                o.rleaves(),
                 '"pp" < "mf"',
-                pieces=[o.rleaves()],
             )
         for item in [(1, 4), (6, 9)]:
             with baca.scope(m.get(item)) as o:

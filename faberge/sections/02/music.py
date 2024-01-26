@@ -368,15 +368,13 @@ def fl(m):
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "F#4")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves()[:2],
             "niente o< p",
-            pieces=[o.tleaves()[:2]],
         )
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves()[-1:],
             "(p) >o",
-            pieces=[o.tleaves()[-1:]],
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.pitches(o, "F#4 F#3", allow_repeats=True)
@@ -385,11 +383,11 @@ def fl(m):
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.tleaves()[:2],
             "niente o< p",
-            pieces=[o.tleaves()[:2]],
         )
+        # TODO: change to baca.spanners.hairpin()
         baca.hairpin(
             (),
             "(p) >o",
@@ -772,26 +770,23 @@ def va(m):
     with baca.scope(m.get(13, 16)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(17, 22)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "pp < mp",
-            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(27, 30)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(31, 36)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "pp < mp",
-            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(41, 46)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(47, 52)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "pp < mp",
-            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(57, 62)) as o:
         baca.dynamic(o.pleaf(0), "pp")
@@ -828,10 +823,9 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(71, 76)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "pp < mp",
-            pieces=[o.rleaves()],
         )
     with baca.scope(m.get(81, 88)) as o:
         baca.dynamic(o.phead(0), '"f"')
@@ -888,10 +882,9 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(m.get(1, 16)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "p < f",
-            pieces=[o.rleaves()],
         )
         baca.scp_spanner(
             (),
@@ -901,10 +894,9 @@ def vc(m):
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
     with baca.scope(m.get(23, 36)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "f > p",
-            pieces=[o.rleaves()],
         )
         baca.scp_spanner(
             (),
@@ -914,10 +906,9 @@ def vc(m):
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
     with baca.scope(m.get(47, 54)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.rleaves(),
             "p < ff",
-            pieces=[o.rleaves()],
         )
         baca.scp_spanner(
             (),
