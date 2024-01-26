@@ -440,9 +440,8 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
         baca.hairpin(
-            (),
+            o.leaves()[:2],
             "o<| mf",
-            pieces=[o.leaves()[:2]],
         )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -601,9 +600,8 @@ def vn_va(cache):
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
             baca.hairpin(
-                (),
+                o.rleaves(),
                 '("mf") >o niente',
-                pieces=[o.rleaves()],
             )
             baca.override.hairpin_shorten_pair(o, (4, 0))
             baca.override.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))

@@ -245,9 +245,8 @@ def perc(m):
         baca.clef(o.leaf(0), "treble")
         baca.override.dls_staff_padding(o, 6)
         baca.hairpin(
-            (),
+            o.leaves()[:2],
             "o<| f",
-            pieces=[o.leaves()[:2]],
         )
         baca.laissez_vibrer(o.ptails())
         baca.markup(

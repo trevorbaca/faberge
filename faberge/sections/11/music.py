@@ -393,9 +393,8 @@ def perc(m):
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                o.leaves()[:2],
                 "o<| mf",
-                pieces=[o.leaves()[:2]],
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(
@@ -459,9 +458,8 @@ def vn(m):
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
         baca.hairpin(
-            (),
+            o.rleaves(),
             "mp >o niente",
-            pieces=[o.rleaves()],
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
@@ -570,9 +568,8 @@ def vc(m, metadata):
             hide_middle_stems=True,
         ),
         baca.hairpin(
-            (),
+            o.rleaves(),
             "mp >o niente",
-            pieces=[o.rleaves()],
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(

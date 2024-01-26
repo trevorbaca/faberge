@@ -287,28 +287,24 @@ def vn(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "f"',
-                    pieces=[plt],
                 )
             elif i == 1:
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "mf"',
-                    pieces=[plt],
                 )
             elif i in (2, 3):
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "mp"',
-                    pieces=[plt],
                 )
             elif i in (4, 5):
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "p"',
-                    pieces=[plt],
                 )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
@@ -325,28 +321,24 @@ def va(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "f"',
-                    pieces=[plt],
                 )
             elif i == 1:
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "mf"',
-                    pieces=[plt],
                 )
             elif i in (2, 3):
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "mp"',
-                    pieces=[plt],
                 )
             elif i in (4, 5):
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    plt,
                     'o< "p"',
-                    pieces=[plt],
                 )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)

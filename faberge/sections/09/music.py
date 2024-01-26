@@ -256,9 +256,8 @@ def eh(m):
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.hairpin(
-            (),
+            baca.select.tleaves(o, rleak=True),
             "f >o niente",
-            pieces=[baca.select.tleaves(o, rleak=True)],
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o, rleak=True),
@@ -331,9 +330,8 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
         baca.hairpin(
-            (),
+            o.leaves()[:2],
             "o<| f",
-            pieces=[o.leaves()[:2]],
         )
         baca.laissez_vibrer(o.ptails())
         baca.markup(
@@ -584,9 +582,8 @@ def vc(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
         baca.hairpin(
-            (),
+            o.rleaves(),
             "p < f-poco-scratch",
-            pieces=[o.rleaves()],
         )
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:

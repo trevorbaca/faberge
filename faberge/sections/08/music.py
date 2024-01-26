@@ -567,9 +567,8 @@ def perc_vn_vc(cache):
             for plt in baca.select.plts(o):
                 plt = baca.select.rleaves(plt)
                 baca.hairpin(
-                    (),
+                    plt,
                     'o< "f"',
-                    pieces=[plt],
                 )
         with baca.scope(m.get(6)) as o:
             baca.staff_lines(o.leaf(0), 5)
