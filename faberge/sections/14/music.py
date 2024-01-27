@@ -451,15 +451,15 @@ def fl_vn(cache):
         m = cache[name]
         with baca.scope(m.get(1, 3)) as o:
             plts = baca.select.plts(o)
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.rleak(plts[0]),
                 'o< "mf"',
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.rleak(plts[1]),
                 'o< "f"',
             )
-            baca.hairpin(
+            baca.spanners.hairpin(
                 baca.select.rleak(plts[2]),
                 'o< "ff"',
             )
