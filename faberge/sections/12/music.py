@@ -306,7 +306,7 @@ def pf(cache):
 
 def perc(m):
     with baca.scope(m[1]) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.leaves()[:2],
             "o<| mp",
         )
@@ -320,7 +320,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(m[3]) as o:
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.leaves()[:2],
             "o<| p",
         )
@@ -346,7 +346,7 @@ def perc(m):
             "B3",
             hide_middle_stems=True,
         ),
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp >o niente",
         )
@@ -515,7 +515,7 @@ def vn_vc(cache):
     for name in ["vn", "vc"]:
         m = cache[name]
         with baca.scope(m[1]) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 '"pp" < "mf"',
             )

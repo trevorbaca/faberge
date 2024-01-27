@@ -255,7 +255,7 @@ def eh(m):
         baca.pitch(o, "B4")
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.hairpin(
+        baca.spanners.hairpin(
             baca.select.tleaves(o, rleak=True),
             "f >o niente",
         )
@@ -329,7 +329,7 @@ def perc(m):
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.leaves()[:2],
             "o<| f",
         )
@@ -581,7 +581,7 @@ def vc(m):
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "p < f-poco-scratch",
         )

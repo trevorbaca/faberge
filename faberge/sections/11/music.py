@@ -392,7 +392,7 @@ def perc(m):
         baca.override.stem_up(o.pleaves())
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.leaves()[:2],
                 "o<| mf",
             )
@@ -457,7 +457,7 @@ def vn(m):
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp >o niente",
         )
@@ -567,7 +567,7 @@ def vc(m, metadata):
             "Eb2",
             hide_middle_stems=True,
         ),
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.rleaves(),
             "mp >o niente",
         )

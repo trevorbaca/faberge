@@ -439,7 +439,7 @@ def perc(m):
         )
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
-        baca.hairpin(
+        baca.spanners.hairpin(
             o.leaves()[:2],
             "o<| mf",
         )
@@ -599,7 +599,7 @@ def vn_va(cache):
             baca.override.tuplet_bracket_staff_padding(o, 3.5)
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
-            baca.hairpin(
+            baca.spanners.hairpin(
                 o.rleaves(),
                 '("mf") >o niente',
             )
