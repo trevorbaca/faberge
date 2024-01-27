@@ -263,9 +263,8 @@ def fl(m):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
         baca.glissando(o.pleaves()[2:], allow_repeats=True)
         baca.hairpin(
-            (),
+            baca.select.lparts(o, [1, 1, 2]),
             "o< mp >o p > pp",
-            pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -293,9 +292,8 @@ def eh(m):
         for run in baca.select.runs(o):
             run = baca.select.rleak(run)
             baca.hairpin(
-                (),
+                baca.select.lparts(run, [1, 1 + 1]),
                 "o< mf >o niente",
-                pieces=baca.select.lparts(run, [1, 1 + 1]),
             )
             baca.spanners.trill(
                 run,
@@ -318,11 +316,8 @@ def cl(m):
     with baca.scope(m.get(3, 6)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                (),
+                abjad.select.partition_by_ratio(baca.select.plts(run[:-1]), (1, 1)),
                 "pp < p > pp",
-                pieces=abjad.select.partition_by_ratio(
-                    baca.select.plts(run[:-1]), (1, 1)
-                ),
             )
     with baca.scope(m.get(3, 8)) as o:
         baca.spanners.material_annotation(
@@ -333,11 +328,8 @@ def cl(m):
     with baca.scope(m.get(7, 8)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                (),
+                abjad.select.partition_by_ratio(baca.select.plts(run[:-1]), (1, 1)),
                 "p < mp > p",
-                pieces=abjad.select.partition_by_ratio(
-                    baca.select.plts(run[:-1]), (1, 1)
-                ),
             )
         baca.pitch(o, "Ab2")
     with baca.scope(m.leaves()) as o:
@@ -532,10 +524,9 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o, None, 1):
             baca.hairpin(
-                (),
+                baca.select.clparts(run, [1]),
                 "niente o< pp >o",
                 do_not_start_spanner_on_final_piece=True,
-                pieces=baca.select.clparts(run, [1]),
             )
 
 

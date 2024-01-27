@@ -196,9 +196,8 @@ def fl(m):
         baca.pitch(o, "G3")
     with baca.scope(m[5]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o, [1, 1 + 1]),
             "o< f >o niente",
-            pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.pitch(o, "G#5")
@@ -212,15 +211,13 @@ def fl(m):
         )
     with baca.scope(m[6]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             "o< mf >o niente",
-            pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
         )
     with baca.scope(m[7]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o, [1, 1 + 1]),
             "o< mp >o niente",
-            pieces=baca.select.lparts(o, [1, 1 + 1]),
         )
 
 
@@ -232,9 +229,8 @@ def eh(m):
         ):
             leaves = baca.select.rleaves(leaves)
             baca.hairpin(
-                (),
+                baca.select.lparts(leaves, [1, 1 + 1]),
                 "o< mf >o niente",
-                pieces=baca.select.lparts(leaves, [1, 1 + 1]),
             )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -286,11 +282,10 @@ def fl_cl(cache):
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleaves(cmgroup)
                 baca.hairpin(
-                    (),
-                    "o< mp >o niente",
-                    pieces=abjad.select.partition_by_counts(
+                    abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
+                    "o< mp >o niente",
                 )
             baca.spanners.material_annotation(
                 o.rleaves(),
@@ -371,9 +366,8 @@ def vn(m):
     with baca.scope(m[1]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                (),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "p niente o< p > pp",
-                pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -396,23 +390,20 @@ def vn(m):
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                (),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "mp niente o< mp > pp",
-                pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                (),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "mf niente o< mf > pp",
-                pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.hairpin(
-                (),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "f niente o< f > pp",
-                pieces=baca.select.lparts(clpart, [1, 1, 2]),
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "B4")
@@ -442,9 +433,8 @@ def va(m):
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            (),
+            baca.select.clparts(o, [1]),
             "p niente o< p > pp niente o< p > pp p",
-            pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             (),
@@ -463,9 +453,8 @@ def va(m):
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            (),
+            baca.select.clparts(o, [1]),
             "niente o< mp > pp mp niente o< mp > pp mp",
-            pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             (),
@@ -482,9 +471,8 @@ def va(m):
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            (),
+            baca.select.clparts(o, [1]),
             "mp niente o< mf > pp niente o< mf > pp mf",
-            pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             (),
@@ -501,9 +489,8 @@ def va(m):
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
         baca.hairpin(
-            (),
+            baca.select.clparts(o, [1]),
             "niente o< f > pp f f niente o< f > pp",
-            pieces=baca.select.clparts(o, [1]),
         )
         baca.scp_spanner(
             (),
@@ -556,16 +543,14 @@ def vn_va(cache):
             with baca.scope(m[n]) as o:
                 for clpart in baca.select.clparts(o, [4]):
                     baca.hairpin(
-                        (),
+                        baca.select.lparts(clpart, [1, 1, 2]),
                         '"ff" niente o< ff > pp',
-                        pieces=baca.select.lparts(clpart, [1, 1, 2]),
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.hairpin(
-                    (),
+                    baca.select.lparts(clpart, [1, 1, 2]),
                     "mp niente o< mp > pp",
-                    pieces=baca.select.lparts(clpart, [1, 1, 2]),
                 )
 
 
@@ -588,9 +573,8 @@ def vc(m):
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                baca.select.clparts(o, [1]),
                 "p f >o",
-                pieces=baca.select.clparts(o, [1]),
             )
     for n in [5, 6, 7, 9]:
         with baca.scope(m[n]) as o:
@@ -628,9 +612,8 @@ def vc(m):
         baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.rleaf(-1), "!")
         baca.hairpin(
-            (),
+            baca.select.clparts(o, [1]),
             "pp p >o",
-            pieces=baca.select.clparts(o, [1]),
         )
         baca.pitch(o, "Eb2")
 

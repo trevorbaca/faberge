@@ -263,35 +263,30 @@ def fl_cl(cache):
             )
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< mp >o p > pp",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[2]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< mf >o mp > p",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[3]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< f >o mf > mp",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [4, 5]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    (),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
-                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
         for n in [6, 7, 8]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    (),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< p >o pp > ppp",
-                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
 
 
@@ -390,9 +385,8 @@ def vn(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "mp niente o< mp > p",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
             leaves = o.leaves()[-3:]
             baca.scp_spanner(
@@ -468,9 +462,8 @@ def va(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "mp niente o< mp > p",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
             leaves = o.leaves()[-3:]
             baca.scp_spanner(
@@ -537,23 +530,20 @@ def vn_va(cache):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o.rleaves(), [1, 1 + 1]),
                 "mp p >o",
                 bookend=False,
-                pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )
         with baca.scope(m[7]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o.rleaves(), [1, 1 + 1]),
                 "p pp >o niente",
                 bookend=False,
-                pieces=baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             )
         with baca.scope(m[8]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1]),
                 "pp ppp",
-                pieces=baca.select.lparts(o, [1, 1]),
             )
 
 
@@ -561,9 +551,8 @@ def vc(m, metadata):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
-                (),
+                baca.select.clparts(o, [1]),
                 "pp p >o",
-                pieces=baca.select.clparts(o, [1]),
             )
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
@@ -637,10 +626,9 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o):
             baca.hairpin(
-                (),
+                baca.select.clparts(run, [1]),
                 "niente o< p >o",
                 do_not_start_spanner_on_final_piece=True,
-                pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
