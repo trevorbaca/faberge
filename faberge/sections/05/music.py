@@ -246,7 +246,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
                 )
@@ -376,25 +376,25 @@ def vc(m, metadata):
         runs = baca.select.rleak_runs(o)
         for i, run in enumerate(runs):
             if i == 0:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< mf >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i == 1:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< mp >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i in (2, 3):
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< p >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i in (4, 5):
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< pp >o",
                     do_not_start_spanner_on_final_piece=True,

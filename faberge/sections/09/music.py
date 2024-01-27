@@ -195,7 +195,7 @@ def fl(m):
         baca.override.dls_staff_padding(o, 6)
         baca.pitch(o, "G3")
     with baca.scope(m[5]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
             "o< f >o niente",
         )
@@ -210,12 +210,12 @@ def fl(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(m[6]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 1 + 1]),
             "o< mf >o niente",
         )
     with baca.scope(m[7]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
             "o< mp >o niente",
         )
@@ -228,7 +228,7 @@ def eh(m):
             baca.select.pleaves(o), [2], overhang=True
         ):
             leaves = baca.select.rleaves(leaves)
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(leaves, [1, 1 + 1]),
                 "o< mf >o niente",
             )
@@ -281,7 +281,7 @@ def fl_cl(cache):
             baca.espressivo(o.pheads())
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleaves(cmgroup)
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
@@ -365,7 +365,7 @@ def perc(m):
 def vn(m):
     with baca.scope(m[1]) as o:
         for clpart in baca.select.clparts(o, [4]):
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
                 "p niente o< p > pp",
             )
@@ -373,7 +373,7 @@ def vn(m):
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
-                baca.scp_spanner(
+                baca.piecewise.scp(
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -389,19 +389,19 @@ def vn(m):
             baca.stem_tremolo(abjad.select.get(baca.select.plts(o), [1, 2, 3], 4))
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
                 "mp niente o< mp > pp",
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
                 "mf niente o< mf > pp",
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
                 "f niente o< f > pp",
             )
@@ -432,11 +432,11 @@ def va(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "p niente o< p > pp niente o< p > pp p",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
@@ -452,11 +452,11 @@ def va(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "niente o< mp > pp mp niente o< mp > pp mp",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
@@ -470,11 +470,11 @@ def va(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((1, 3)):
                 baca.stem_tremolo(plt)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "mp niente o< mf > pp niente o< mf > pp mf",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
@@ -488,11 +488,11 @@ def va(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((5, 18)):
                 baca.stem_tremolo(plt)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "niente o< f > pp f f niente o< f > pp",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
@@ -503,7 +503,7 @@ def va(m):
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
-                baca.scp_spanner(
+                baca.piecewise.scp(
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -542,13 +542,13 @@ def vn_va(cache):
         for n in [5, 6, 7]:
             with baca.scope(m[n]) as o:
                 for clpart in baca.select.clparts(o, [4]):
-                    baca.hairpin(
+                    baca.piecewise.hairpin(
                         baca.select.lparts(clpart, [1, 1, 2]),
                         '"ff" niente o< ff > pp',
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(clpart, [1, 1, 2]),
                     "mp niente o< mp > pp",
                 )
@@ -558,7 +558,7 @@ def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 5)
         baca.flat_glissando(o, "F2")
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "tasto =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -572,7 +572,7 @@ def vc(m):
         )
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p f >o",
             )
@@ -611,7 +611,7 @@ def vc(m):
     with baca.scope(m[9]) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.rleaf(-1), "!")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "pp p >o",
         )

@@ -222,7 +222,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.get(1, 2)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             abjad.select.partition_by_counts(
                 baca.select.pleaves(o),
                 [1],
@@ -300,7 +300,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
                 )
@@ -430,7 +430,7 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m[2]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "p niente o< p > pp",
         )
@@ -440,7 +440,7 @@ def vn(m):
             allow_repeats=True,
         )
         leaves = o.leaves()[-3:]
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -467,7 +467,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m[2]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "niente o< p > pp p",
         )
@@ -477,7 +477,7 @@ def va(m):
             allow_repeats=True,
         )
         leaves = o.leaves()[:3]
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),

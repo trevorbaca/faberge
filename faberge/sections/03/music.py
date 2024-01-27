@@ -325,7 +325,7 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
             "niente o< mp >o niente",
         )
@@ -359,7 +359,7 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
         leaves = baca.select.tleaves(o, rleak=True)
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
             "niente o< pp >o niente",
         )
@@ -603,7 +603,7 @@ def pf(cache):
         baca.override.dots_transparent(o)
         baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 44)) as o:
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\faberge-rf-two-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -686,7 +686,7 @@ def perc(cache):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
     with baca.scope(m.get(23, 52)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
             "ppp < pp >",
             bookend=False,
@@ -706,7 +706,7 @@ def perc(cache):
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
     with baca.scope(m.get(53, 60)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 6 + 1]),
             "ppp < pp >o niente",
         )
@@ -778,7 +778,7 @@ def vn(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o, [8]),
             "(ppp) < f > ppp",
         )
@@ -788,7 +788,7 @@ def vn(m):
         baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(23, 52)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -875,12 +875,12 @@ def va(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.cmgroups(o, [8]),
             "(pp) < f > pp",
         )
     with baca.scope(m.get(23, 52)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -920,14 +920,14 @@ def vc(m):
             o.rleaves(),
             "(p) < ff",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(tasto) -> molto pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
             pieces=[o.rleaves()],
         )
-        baca.vibrato_spanner(
+        baca.piecewise.vibrato(
             (),
             "(poco vib.) -> vib. molto",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -940,14 +940,14 @@ def vc(m):
             "(ff) > p",
         )
     with baca.scope(m.get(23, 30)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(molto pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
             pieces=[o.rleaves()],
         )
-        baca.vibrato_spanner(
+        baca.piecewise.vibrato(
             (),
             "(vib. molto) -> poco vib.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -962,7 +962,7 @@ def vc(m):
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.mgroups(o, [12, 12]),
             "(p) < ff >o",
         )
@@ -972,7 +972,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
