@@ -312,9 +312,8 @@ def fl_cl(cache):
         m = cache[name]
         with baca.scope(m[2]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 4]:
             with baca.scope(m[n]) as o:
@@ -327,9 +326,8 @@ def fl_cl(cache):
                 )
         with baca.scope(m[4]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< pp >o ppp > pppp",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         with baca.scope(m[5]) as o:
             baca.espressivo(
@@ -337,11 +335,10 @@ def fl_cl(cache):
                 abjad.Tweak(r"- \tweak X-extent #'(0 . 0)", tag=baca.tags.NOT_PARTS),
             )
             baca.hairpin(
-                (),
-                "o< mp >o niente",
-                pieces=abjad.select.partition_by_counts(
+                abjad.select.partition_by_counts(
                     abjad.select.leaves(o.rleaves()), [2], overhang=True
                 ),
+                "o< mp >o niente",
             )
 
 

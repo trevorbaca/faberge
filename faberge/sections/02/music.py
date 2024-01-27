@@ -389,9 +389,8 @@ def fl(m):
         )
         # TODO: change to baca.spanners.hairpin()
         baca.hairpin(
-            (),
+            [baca.select.rleak(baca.select.tleaves(o))[-2:]],
             "(p) >o",
-            pieces=[baca.select.rleak(baca.select.tleaves(o))[-2:]],
         )
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         baca.breathe(o.pleaf(-1))
@@ -949,10 +948,9 @@ def vc(m):
         )
     with baca.scope(m.get(71, 92)) as o:
         baca.hairpin(
-            (),
+            baca.select.omgroups(o, [9, 9]),
             "ff > pp < p",
             bookend=False,
-            pieces=baca.select.omgroups(o, [9, 9]),
         )
 
 

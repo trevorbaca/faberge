@@ -247,9 +247,8 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpin(
-                    (),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
-                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
                 baca.spanners.trill(
                     o.leaves()[:3],
@@ -378,31 +377,27 @@ def vc(m, metadata):
         for i, run in enumerate(runs):
             if i == 0:
                 baca.hairpin(
-                    (),
+                    baca.select.clparts(run, [1]),
                     "niente o< mf >o",
                     do_not_start_spanner_on_final_piece=True,
-                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i == 1:
                 baca.hairpin(
-                    (),
+                    baca.select.clparts(run, [1]),
                     "niente o< mp >o",
                     do_not_start_spanner_on_final_piece=True,
-                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (2, 3):
                 baca.hairpin(
-                    (),
+                    baca.select.clparts(run, [1]),
                     "niente o< p >o",
                     do_not_start_spanner_on_final_piece=True,
-                    pieces=baca.select.clparts(run, [1]),
                 )
             elif i in (4, 5):
                 baca.hairpin(
-                    (),
+                    baca.select.clparts(run, [1]),
                     "niente o< pp >o",
                     do_not_start_spanner_on_final_piece=True,
-                    pieces=baca.select.clparts(run, [1]),
                 )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)

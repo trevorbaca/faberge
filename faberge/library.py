@@ -770,9 +770,8 @@ def dal_niente_hairpins(argument, stop):
     for run in baca.select.runs(argument):
         run = baca.select.rleaves(run)
         baca.hairpin(
-            (),
+            [run],
             f"niente o< {stop}",
-            pieces=[run],
         )
 
 
@@ -782,27 +781,23 @@ def increasing_dal_niente_hairpins(argument):
         run = baca.select.rleaves(run)
         if i == 0:
             baca.hairpin(
-                (),
+                [run],
                 "niente o< p",
-                pieces=[run],
             )
         elif i == 1:
             baca.hairpin(
-                (),
+                [run],
                 "niente o< mp",
-                pieces=[run],
             )
         elif i in (2, 3):
             baca.hairpin(
-                (),
+                [run],
                 "niente o< mf",
-                pieces=[run],
             )
         else:
             baca.hairpin(
-                (),
+                [run],
                 "niente o< f",
-                pieces=[run],
             )
 
 
@@ -818,21 +813,19 @@ def niente_swells(argument, dynamic):
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
+    #        abjad.select.leaves(_).partition([2, 'most', 2])
     #        'niente o< {dynamic} {dynamic} >o niente',
-    #        pieces=abjad.select.leaves(_).partition([2, 'most', 2])
     #        )
     for run in baca.select.ntruns(argument):
         if len(run) <= 2:
             continue
         baca.hairpin(
-            (),
+            [baca.select.tleaves(run)[:2]],
             f"niente o< {dynamic}",
-            pieces=[baca.select.tleaves(run)[:2]],
         )
         baca.hairpin(
-            (),
+            [baca.select.rleaves(run)[-2:]],
             f"({dynamic}) >o niente",
-            pieces=[baca.select.rleaves(run)[-2:]],
         )
 
 
@@ -842,14 +835,12 @@ def replace_with_piano_clusters(argument):
 
 def single_swell(argument, dynamic):
     baca.hairpin(
-        (),
+        [argument.tleaves()[:2]],
         f"niente o< {dynamic}",
-        pieces=[argument.tleaves()[:2]],
     )
     baca.hairpin(
-        (),
+        [argument.tleaves()[-1:]],
         f"({dynamic}) >o",
-        pieces=[argument.tleaves()[-1:]],
     )
 
 

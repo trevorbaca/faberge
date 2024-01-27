@@ -254,16 +254,14 @@ def fl_cl(cache):
                 )
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                (),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
-                pieces=baca.select.lparts(o, [1, 1, 2]),
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.hairpin(
-                    (),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< pp >o ppp > pppp",
-                    pieces=baca.select.lparts(o, [1, 1, 2]),
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.spanners.material_annotation(
@@ -276,11 +274,10 @@ def fl_cl(cache):
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
                 baca.hairpin(
-                    (),
-                    "o< mp >o niente",
-                    pieces=abjad.select.partition_by_counts(
+                    abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
+                    "o< mp >o niente",
                 )
             baca.spanners.material_annotation(
                 o.rleaves(),
@@ -430,9 +427,8 @@ def vn(m):
         )
     with baca.scope(m[3]) as o:
         baca.hairpin(
-            (),
+            baca.select.lparts(o, [1, 1, 2]),
             "p niente o< p > pp",
-            pieces=baca.select.lparts(o, [1, 1, 2]),
         )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -536,10 +532,9 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o):
             baca.hairpin(
-                (),
+                baca.select.clparts(run, [1]),
                 "niente o< p >o",
                 do_not_start_spanner_on_final_piece=True,
-                pieces=baca.select.clparts(run, [1]),
             )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))
