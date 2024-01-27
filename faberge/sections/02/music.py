@@ -388,7 +388,7 @@ def fl(m):
             "niente o< p",
         )
         # TODO: change to baca.spanners.hairpin()
-        baca.hairpin(
+        baca.piecewise.hairpin(
             [baca.select.rleak(baca.select.tleaves(o))[-2:]],
             "(p) >o",
         )
@@ -561,7 +561,7 @@ def pf(cache):
         baca.override.dots_transparent(o)
         baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 88)) as o:
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             r"\faberge-rf-one-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -758,7 +758,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "tasto -> pont. ->",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -808,7 +808,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "tasto -> pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -841,7 +841,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "pont. -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -885,7 +885,7 @@ def vc(m):
             o.rleaves(),
             "p < f",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "tasto -> PO",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -897,7 +897,7 @@ def vc(m):
             o.rleaves(),
             "f > p",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(PO) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -909,14 +909,14 @@ def vc(m):
             o.rleaves(),
             "p < ff",
         )
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(tasto) -> poco pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=-1,
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
-        baca.vibrato_spanner(
+        baca.piecewise.vibrato(
             (),
             "(poco vib.) -> vib. mod.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -931,7 +931,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(71, 80)) as o:
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "(poco pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -939,7 +939,7 @@ def vc(m):
             pieces=[o],
         )
     with baca.scope(m.get(71, 89)) as o:
-        baca.vibrato_spanner(
+        baca.piecewise.vibrato(
             (),
             "sub. vib. mod. -> non vib. -> poco vib.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -947,7 +947,7 @@ def vc(m):
             pieces=baca.select.mgroups(o, [9, 10]),
         )
     with baca.scope(m.get(71, 92)) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.omgroups(o, [9, 9]),
             "ff > pp < p",
             bookend=False,

@@ -437,25 +437,25 @@ def vc(m, metadata):
         runs = baca.select.rleak_runs(o)
         for i, run in enumerate(runs):
             if i == 0:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< p >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i == 1:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< mp >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i == 2:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< mf >o",
                     do_not_start_spanner_on_final_piece=True,
                 )
             elif i == 3:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.clparts(run, [1]),
                     "niente o< f >o",
                     do_not_start_spanner_on_final_piece=True,

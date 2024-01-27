@@ -253,13 +253,13 @@ def fl_cl(cache):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m[1]) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< pp >o ppp > pppp",
                 )
@@ -273,7 +273,7 @@ def fl_cl(cache):
             baca.espressivo(o.pheads())
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
-                baca.hairpin(
+                baca.piecewise.hairpin(
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
@@ -426,7 +426,7 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m[3]) as o:
-        baca.hairpin(
+        baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "p niente o< p > pp",
         )
@@ -444,7 +444,7 @@ def vn(m):
             elif duration == abjad.Duration((1, 4)):
                 baca.stem_tremolo(plt)
         leaves = o.leaves()[-3:]
-        baca.scp_spanner(
+        baca.piecewise.scp(
             (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -531,7 +531,7 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         for run in baca.select.rleak_runs(o):
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.clparts(run, [1]),
                 "niente o< p >o",
                 do_not_start_spanner_on_final_piece=True,

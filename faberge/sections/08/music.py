@@ -428,12 +428,12 @@ def vn(m):
         )
     for n in [6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "p niente o< p > pp",
             )
             leaves = o.leaves()[-3:]
-            baca.scp_spanner(
+            baca.piecewise.scp(
                 (),
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -472,12 +472,12 @@ def va(m):
         )
     for n in [8, 9, 10]:
         with baca.scope(m[n]) as o:
-            baca.hairpin(
+            baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "niente o< p > pp p",
             )
             leaves = o.leaves()[:3]
-            baca.scp_spanner(
+            baca.piecewise.scp(
                 (),
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
