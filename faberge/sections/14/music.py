@@ -182,10 +182,11 @@ def fl(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            with_next_leaf=True,
         )
         baca.staff_position(o, 0)
     with baca.scope(m[5]) as o:
@@ -332,10 +333,11 @@ def vn(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            with_next_leaf=True,
         )
         baca.staff_position(o, 0)
     with baca.scope(m.get(4, 6)) as o:
@@ -380,10 +382,11 @@ def vc(m, metadata):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         ),
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.spanners.string_number(

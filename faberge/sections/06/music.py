@@ -394,10 +394,10 @@ def perc(m):
         with baca.scope(m[n]) as o:
             baca.staff_position(o, 1)
             for plt in baca.select.plts(o):
-                plt = baca.select.tleaves(plt, rleak=True)
                 baca.spanners.trill(
                     plt,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    with_next_leaf=True,
                 )
     with baca.scope(m[4]) as o:
         baca.dynamic(o.phead(0), "f")
@@ -458,9 +458,10 @@ def vn(m):
         baca.staff_lines(o[0], 5)
     with baca.scope(m.get(4, 7)) as o:
         baca.spanners.clb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             3,
             staff_padding=5.5,
+            with_next_leaf=True,
         ),
         baca.override.dls_staff_padding(o, 8)
 
@@ -560,9 +561,10 @@ def composites(cache):
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.spanners.clb(
-                    baca.select.tleaves(o, rleak=True),
+                    baca.select.tleaves(o),
                     2,
                     staff_padding=5.5,
+                    with_next_leaf=True,
                 )
                 baca.override.dls_staff_padding(o, 8)
 

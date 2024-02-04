@@ -205,9 +205,10 @@ def eh(m):
         baca.dynamic(o.phead(0), "f")
         baca.override.dls_staff_padding(o, 5)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
         for plt in baca.select.plts(o):
             plt = baca.select.rleak(plt)
@@ -605,10 +606,11 @@ def vc(m, metadata):
     with baca.scope(m.get(6, 8)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.spanners.string_number(

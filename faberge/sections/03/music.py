@@ -324,7 +324,7 @@ def fl(m):
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
-        leaves = baca.select.tleaves(o, rleak=True)
+        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
             "niente o< mp >o niente",
@@ -358,7 +358,7 @@ def fl(m):
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
-        leaves = baca.select.tleaves(o, rleak=True)
+        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
             "niente o< pp >o niente",
@@ -410,7 +410,7 @@ def eh(m):
         library.keynoise_pitches(o, rotation=-2)
     with baca.scope(m.get(13, 16)) as o:
         for run in baca.select.runs(o):
-            run = baca.select.tleaves(run, rleak=True)
+            run = baca.select.rleak(baca.select.tleaves(run))
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -430,7 +430,7 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(23, 30)) as o:
         for run in baca.select.runs(o):
-            run = baca.select.tleaves(run, rleak=True)
+            run = baca.select.rleak(baca.select.tleaves(run))
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -443,8 +443,9 @@ def eh(m):
         library.keynoise_pitches(o, rotation=-3)
     with baca.scope(m.get(31, 44)) as o:
         baca.spanners.trill(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -772,8 +773,9 @@ def vn(m):
         )
     with baca.scope(m.get(9, 22)) as o:
         baca.spanners.spazzolato(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
@@ -870,8 +872,9 @@ def va(m):
         )
     with baca.scope(m.get(9, 22)) as o:
         baca.spanners.spazzolato(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
@@ -895,9 +898,10 @@ def va(m):
     with baca.scope(m.get(53, 80)) as o:
         baca.override.beam_positions(o, -3.5)
         baca.spanners.clb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             2,
             staff_padding=5.5,
+            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
@@ -984,9 +988,10 @@ def vc(m):
         baca.override.beam_positions(o, -3.5)
         baca.staff_lines(o.leaf(0), 1)
         baca.spanners.clb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             2,
             staff_padding=5.5,
+            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')
