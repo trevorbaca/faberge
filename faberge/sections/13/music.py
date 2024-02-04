@@ -464,7 +464,6 @@ def vn(m):
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.beam(o.tleaves())
@@ -552,7 +551,6 @@ def vn_va_vc(cache):
                     baca.select.tleaves(o),
                     2,
                     staff_padding=5.5,
-                    with_next_leaf=True,
                 )
         with baca.scope(m[7]) as o:
             baca.staff_lines(o.leaf(0), 5)

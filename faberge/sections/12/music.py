@@ -362,7 +362,6 @@ def vn(m):
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
@@ -391,7 +390,6 @@ def vn(m):
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -437,7 +435,6 @@ def va(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -466,7 +463,6 @@ def vc(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
@@ -507,7 +503,6 @@ def vc(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         library.clb_staff_positions(o)
 
