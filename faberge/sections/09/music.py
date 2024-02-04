@@ -588,10 +588,9 @@ def vc(m):
                 abjad.Tweak(r"- \tweak padding 1"),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             )
-            for leaves in abjad.select.get(abjad.select.leaves(o), ([0], 2)):
-                leaves = baca.select.rleak(abjad.select.leaves(leaves)[:1])
+            for note in abjad.select.get(o, ([0], 2)):
                 baca.spanners.half_clt(
-                    leaves,
+                    note,
                     staff_padding=5.5,
                 )
     with baca.scope(m.get(5, 7)) as o:

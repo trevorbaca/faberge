@@ -569,7 +569,7 @@ def vc(m, metadata):
                 full=True,
             )
             baca.spanners.half_clt(
-                baca.select.rleak(o.leaves()[:1]),
+                o.leaves()[:1],
                 staff_padding=5.5,
             )
     with baca.scope(m.get(1, 3)) as o:
