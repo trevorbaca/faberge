@@ -211,10 +211,10 @@ def eh(m):
             with_next_leaf=True,
         )
         for plt in baca.select.plts(o):
-            plt = baca.select.rleak(plt)
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
 
@@ -252,8 +252,9 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.spanners.trill(
-                    o.leaves()[:3],
+                    o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    with_next_leaf=True,
                 )
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 6)

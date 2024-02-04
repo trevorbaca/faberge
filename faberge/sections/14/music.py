@@ -262,14 +262,14 @@ def eh(m):
         baca.pitch(o, "B4")
     with baca.scope(m.get(1, 6)) as o:
         for run in baca.select.runs(o):
-            run = baca.select.rleak(run)
             baca.piecewise.hairpin(
-                baca.select.lparts(run, [1, 1 + 1]),
+                baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
                 "o< mf >o niente",
             )
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -315,10 +315,10 @@ def perc(m):
         )
         baca.staff_position(o, 0)
         for plt in baca.select.plts(o):
-            plt = baca.select.rleak(plt)
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
 
 
