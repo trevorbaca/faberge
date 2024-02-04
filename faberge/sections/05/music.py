@@ -192,7 +192,7 @@ def fl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
         baca.spanners.material_annotation(
-            baca.select.rleak(o.tleaves()),
+            o.tleaves(),
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -201,7 +201,7 @@ def fl(m):
 def eh(m):
     with baca.scope(m.leaves()) as o:
         baca.spanners.material_annotation(
-            baca.select.rleak(o.tleaves()),
+            o.tleaves(),
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -233,7 +233,7 @@ def cl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 7)
         baca.spanners.material_annotation(
-            baca.select.rleak(o.tleaves()),
+            o.tleaves(),
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -260,7 +260,7 @@ def perc(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.staff_position(o, 0)
         baca.spanners.material_annotation(
-            baca.select.rleak(o.tleaves()),
+            o.tleaves(),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -308,7 +308,7 @@ def vn(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -342,7 +342,7 @@ def va(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -403,7 +403,7 @@ def vc(m, metadata):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "1-3 / 1-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )

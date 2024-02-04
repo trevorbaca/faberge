@@ -149,7 +149,7 @@ def fl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "5-2 / 5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -191,7 +191,7 @@ def cl(m):
                 "pp < p > pp",
             )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "5-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -222,7 +222,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -248,7 +248,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "A.1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -266,7 +266,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -291,7 +291,6 @@ def vn(cache):
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
 
 
@@ -317,7 +316,6 @@ def va(m):
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
 
 
@@ -348,7 +346,6 @@ def vc(m):
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
 
 

@@ -208,7 +208,6 @@ def eh(m):
             baca.select.tleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
         for plt in baca.select.plts(o):
             baca.spanners.trill(
@@ -257,7 +256,7 @@ def fl_cl(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 6)
             baca.spanners.material_annotation(
-                o.rleaves(),
+                o,
                 "3-4 / 3-5 =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
@@ -310,7 +309,7 @@ def pf(cache):
     with baca.scope(m.get(5, 6)) as o:
         baca.spanners.beam(o.tleaves())
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -357,7 +356,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -374,7 +373,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -403,7 +402,7 @@ def vn(m):
             baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -423,7 +422,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-0.75 . 0)"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -442,7 +441,7 @@ def vn(m):
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-5 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -455,7 +454,7 @@ def va(m):
         baca.pitch(o, "Bqs4")
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -487,7 +486,7 @@ def va(m):
         )
         baca.flat_glissando(o, "D3")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -510,7 +509,7 @@ def va(m):
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-5 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -576,7 +575,7 @@ def vc(m, metadata):
         baca.pitch(o, "Eb2")
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -595,7 +594,7 @@ def vc(m, metadata):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -609,7 +608,6 @@ def vc(m, metadata):
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.spanners.string_number(

@@ -236,7 +236,7 @@ def fl(m):
         baca.dynamic(o[0], "niente")
     with baca.scope(m.get(1, 2)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "5-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -250,7 +250,7 @@ def fl(m):
             )
     with baca.scope(m.get(4, 8)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -283,7 +283,7 @@ def cl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "1-5 / 2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -351,7 +351,7 @@ def pf(cache):
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -385,7 +385,7 @@ def perc(m):
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m[2]) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -419,7 +419,7 @@ def perc(m):
     with baca.scope(m.get(4, 7)) as o:
         baca.override.dls_staff_padding(o, 4)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -528,7 +528,7 @@ def composites(cache):
         with baca.scope(m[2]) as o:
             if name in ("vn", "va"):
                 baca.spanners.material_annotation(
-                    o.rleaves(),
+                    o,
                     "3-1 -|",
                     abjad.Tweak(r"- \tweak color #darkgreen"),
                     abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -549,7 +549,7 @@ def composites(cache):
                 abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
             )
             baca.spanners.material_annotation(
-                o.rleaves(),
+                o,
                 "4-3 -|",
                 abjad.Tweak(r"- \tweak color #darkgreen"),
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
