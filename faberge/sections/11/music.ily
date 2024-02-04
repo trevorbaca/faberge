@@ -3397,6 +3397,9 @@ number.11.Cello.Music = {
     - \baca-text-spanner-left-text "IV"
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
+    - \tweak bound-details.left-broken.text IV
+      %! SPANNER_START
+      %! STRING_NUMBER_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
