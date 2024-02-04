@@ -298,12 +298,10 @@ def va(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "F3")
         for plt in baca.select.plts(o):
-            plt = baca.select.rleak(plt)
             baca.spanners.xfb(
                 plt,
                 staff_padding=3,
-                # TODO: is this correct?
-                with_next_leaf=False,
+                with_next_leaf=True,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(
