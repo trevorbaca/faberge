@@ -461,8 +461,9 @@ def va(m):
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
             o.rleaves(),
