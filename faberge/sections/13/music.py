@@ -278,8 +278,9 @@ def fl(m):
             allow_repeats=True,
         )
         baca.spanners.trill(
-            o.leaves()[:3],
+            o.leaves()[:2],
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            with_next_leaf=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -290,14 +291,14 @@ def eh(m):
         baca.pitch(o, "A#4")
     with baca.scope(m.get(5, 8)) as o:
         for run in baca.select.runs(o):
-            run = baca.select.rleak(run)
             baca.piecewise.hairpin(
-                baca.select.lparts(run, [1, 1 + 1]),
+                baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
                 "o< mf >o niente",
             )
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -448,10 +449,10 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 13"),
         )
         for plt in baca.select.plts(o):
-            plt = baca.select.rleak(plt)
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
 
 

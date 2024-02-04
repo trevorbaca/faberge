@@ -324,8 +324,9 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.spanners.trill(
-                    o.leaves()[:3],
+                    o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    with_next_leaf=True,
                 )
         with baca.scope(m[4]) as o:
             baca.piecewise.hairpin(
@@ -419,10 +420,10 @@ def perc(m):
         baca.staff_position(o, 1)
         baca.override.stem_up(o.pleaves())
         for plt in baca.select.plts(o):
-            plt = baca.select.rleaves(plt)
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),

@@ -240,10 +240,10 @@ def eh(m):
         )
         baca.pitch(o, "A4")
         for run in baca.select.runs(o):
-            run = baca.select.rleaves(run)
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
     with baca.scope(m[4]) as o:
         baca.pitch(o, "A#4")
@@ -307,10 +307,10 @@ def perc(m):
     for n in [1, 2]:
         with baca.scope(m.get(n)) as o:
             for run in baca.select.runs(o):
-                run = baca.select.rleaves(run)
                 baca.spanners.trill(
                     run,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    with_next_leaf=True,
                 )
     with baca.scope(m.get(1, 2)) as o:
         baca.staff_lines(o.leaf(0), 1)
