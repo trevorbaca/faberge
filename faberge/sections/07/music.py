@@ -237,7 +237,7 @@ def fl(m):
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -254,7 +254,6 @@ def fl(m):
             "3-7 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            with_next_leaf=True,
         )
         baca.pitch(o, "F#3")
 
@@ -293,7 +292,7 @@ def cl(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 4)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -305,7 +304,6 @@ def cl(m):
             "3-7 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            with_next_leaf=True,
         )
 
 
@@ -370,7 +368,7 @@ def pf(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-2 / 2-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -427,7 +425,6 @@ def perc(m):
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            with_next_leaf=True,
         )
     with baca.scope(m[5]) as o:
         baca.markup(
@@ -443,7 +440,7 @@ def perc(m):
             "o<| mf",
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "3-7 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
@@ -466,7 +463,6 @@ def vn(m):
             "A.3 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            with_next_leaf=True,
         )
     with baca.scope(m[3]) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -484,7 +480,6 @@ def vn(m):
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
-            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 7)) as o:
         baca.staccato(o.pheads())
@@ -500,7 +495,6 @@ def vn(m):
             "4-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 8)) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
@@ -521,7 +515,6 @@ def va(m):
             "A.3 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
     with baca.scope(m[3]) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -546,7 +539,6 @@ def va(m):
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
-            with_next_leaf=True,
         )
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
@@ -564,7 +556,6 @@ def va(m):
             "3-7 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
-            with_next_leaf=True,
         )
     with baca.scope(m.get(6, 7)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -586,7 +577,6 @@ def va(m):
             "4-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            with_next_leaf=True,
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
@@ -637,7 +627,7 @@ def vc(m):
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "F#5")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )

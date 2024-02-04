@@ -734,7 +734,7 @@ def perc(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.material_annotation(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
             right_broken=True,

@@ -198,7 +198,7 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -208,7 +208,7 @@ def fl(m):
 def cl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -244,7 +244,7 @@ def pf(cache):
     with baca.scope(m.get(1, 3)) as o:
         baca.override.dls_staff_padding(o, 2.5)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -261,7 +261,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "(f)")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -309,7 +309,7 @@ def perc(m):
         baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
@@ -331,7 +331,6 @@ def perc(m):
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
-            with_next_leaf=True,
         )
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
@@ -365,7 +364,7 @@ def vn(m):
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
@@ -378,7 +377,7 @@ def vn(m):
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -399,7 +398,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
@@ -417,7 +416,7 @@ def va(m):
         baca.stem_tremolo(o.phead(-1))
     with baca.scope(m.get(1, 5)) as o:
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -444,7 +443,7 @@ def va(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
@@ -466,7 +465,7 @@ def vc(m):
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
@@ -479,7 +478,7 @@ def vc(m):
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -495,7 +494,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.spanners.material_annotation(
-            o.rleaves(),
+            o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
