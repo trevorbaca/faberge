@@ -511,7 +511,6 @@ def vc(m, metadata):
             baca.select.ltleaves(o),
             "IV",
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.untie(o.pleaves())
         baca.pitches(
