@@ -307,7 +307,6 @@ def fl_cl(cache):
                 baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                    with_next_leaf=True,
                 )
 
 
@@ -398,7 +397,6 @@ def perc(m):
                 baca.spanners.trill(
                     plt,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                    with_next_leaf=True,
                 )
     with baca.scope(m[4]) as o:
         baca.dynamic(o.phead(0), "f")

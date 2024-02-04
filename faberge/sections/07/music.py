@@ -277,7 +277,6 @@ def eh(m):
                 baca.spanners.trill(
                     baca.select.tleaves(plt),
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                    with_next_leaf=True,
                 )
     with baca.scope(m.get(4, 8)) as o:
         baca.override.trill_spanner_staff_padding(o, 5.5)
@@ -326,7 +325,6 @@ def fl_cl(cache):
                 baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                    with_next_leaf=True,
                 )
         with baca.scope(m[4]) as o:
             baca.piecewise.hairpin(
@@ -423,7 +421,6 @@ def perc(m):
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
