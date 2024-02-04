@@ -492,7 +492,7 @@ def vn(m):
     with baca.scope(m.get(3, 7)) as o:
         baca.staccato(o.pheads())
         baca.spanners.clb(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             3,
             staff_padding=5.5,
         )
@@ -543,7 +543,6 @@ def va(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -581,7 +580,7 @@ def va(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.spanners.clb(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             2,
             staff_padding=5.5,
         )

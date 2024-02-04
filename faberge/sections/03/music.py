@@ -816,13 +816,13 @@ def vn(m):
         baca.staff_position(o, 0)
     with baca.scope(m.get(53, 68)) as o:
         baca.spanners.clb(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             3,
             staff_padding=5.5,
         )
     with baca.scope(m.get(73, 80)) as o:
         baca.spanners.clb(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             3,
             staff_padding=5.5,
         )
@@ -899,7 +899,6 @@ def va(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
@@ -989,7 +988,6 @@ def vc(m):
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')

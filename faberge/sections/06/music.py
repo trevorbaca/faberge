@@ -462,7 +462,6 @@ def vn(m):
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
-            with_next_leaf=True,
         ),
         baca.override.dls_staff_padding(o, 8)
 
@@ -565,7 +564,6 @@ def composites(cache):
                     baca.select.tleaves(o),
                     2,
                     staff_padding=5.5,
-                    with_next_leaf=True,
                 )
                 baca.override.dls_staff_padding(o, 8)
 
