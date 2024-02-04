@@ -269,7 +269,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
         baca.spanners.material_annotation(
             o.rleaves(),
@@ -318,7 +317,6 @@ def perc(m):
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
 
 

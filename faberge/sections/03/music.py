@@ -413,7 +413,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(23, 30)) as o:
         baca.dynamic(o.phead(0), "ff")
@@ -433,7 +432,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(37, 44)) as o:
         baca.pitch(o, "E4")
@@ -445,7 +443,6 @@ def eh(m):
         baca.spanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 4)

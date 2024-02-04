@@ -406,7 +406,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(27, 30)) as o:
         baca.pitches(o, "F#4 F#+4 E#4 E#+4")
@@ -415,7 +414,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(41, 46)) as o:
         baca.pitches(o, "G#4 F#+4 G4 G+4 G#+4")
@@ -424,7 +422,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(57, 62)) as o:
         baca.pitches(o, "A#4 A+4 A#+4")
@@ -433,7 +430,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
     with baca.scope(m.get(81, 88)) as o:
         library.keynoise_pitches(o, rotation=0)
@@ -451,7 +447,6 @@ def eh(m):
             baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
         baca.dynamic(o.phead(0), "f")
     with baca.scope(m.leaves()) as o:
@@ -635,7 +630,6 @@ def perc(m):
         baca.spanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-            with_next_leaf=True,
         )
     with baca.scope(m[87]) as o:
         baca.override.dls_staff_padding(o, 6)

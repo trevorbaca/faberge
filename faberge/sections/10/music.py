@@ -214,7 +214,6 @@ def eh(m):
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                with_next_leaf=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
 
@@ -254,7 +253,6 @@ def fl_cl(cache):
                 baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
-                    with_next_leaf=True,
                 )
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 6)
