@@ -462,7 +462,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
             o,

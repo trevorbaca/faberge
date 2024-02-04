@@ -518,7 +518,6 @@ def vc(m):
             o,
             right_broken=True,
             staff_padding=3,
-            with_next_leaf=True,
         )
 
 

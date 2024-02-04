@@ -459,7 +459,6 @@ def vn(m):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
@@ -499,7 +498,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.flat_glissando(
@@ -570,7 +568,6 @@ def vc(m, metadata):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
 
 

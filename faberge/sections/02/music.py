@@ -791,7 +791,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(63, 65)) as o:
         baca.spanners.spazzolato(
@@ -829,7 +828,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.dynamic(o.phead(0), "pp")
@@ -850,7 +848,6 @@ def va(m):
             o,
             right_broken=True,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(81, 83)) as o:
         baca.spanners.spazzolato(

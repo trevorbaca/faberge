@@ -301,7 +301,6 @@ def va(m):
             baca.spanners.xfb(
                 plt,
                 staff_padding=3,
-                with_next_leaf=True,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(
