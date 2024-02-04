@@ -350,9 +350,10 @@ def vn(m):
         baca.override.beam_positions(o, -3.5)
     with baca.scope(m.get(1, 4)) as o:
         baca.spanners.clb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             3,
             staff_padding=5.5,
+            with_next_leaf=True,
         )
         baca.staccato(o.pheads())
         library.clb_staff_positions(o)

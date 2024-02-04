@@ -288,9 +288,10 @@ def vn(cache):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
 
 
@@ -313,9 +314,10 @@ def va(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
 
 
@@ -343,9 +345,10 @@ def vc(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
 
 

@@ -326,9 +326,10 @@ def pf(cache):
         )
     with baca.scope(m.get(4, 8)) as o:
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "3-7 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
         baca.pitch(o, "A3")
     with baca.scope(m.leaves()) as o:
@@ -422,8 +423,9 @@ def vn(m):
         )
         baca.pitch(o, "E4")
         baca.spanners.spazzolato(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m[3]) as o:
         baca.piecewise.hairpin(
@@ -478,8 +480,9 @@ def va(m):
         )
         baca.pitch(o, "E4")
         baca.spanners.spazzolato(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.flat_glissando(o, "D3", hide_middle_stems=True)

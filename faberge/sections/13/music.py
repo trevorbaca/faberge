@@ -368,10 +368,11 @@ def pf(cache):
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "2-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            with_next_leaf=True,
         )
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 3)
@@ -459,9 +460,10 @@ def vn(m):
         baca.spanners.beam(o.tleaves())
     with baca.scope(m.get(1, 6)) as o:
         baca.spanners.clb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             3,
             staff_padding=5.5,
+            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.beam(o.tleaves())
@@ -536,18 +538,20 @@ def vn_va_vc(cache):
         m = cache[name]
         with baca.scope(m.get(1, 6)) as o:
             baca.spanners.material_annotation(
-                baca.select.tleaves(o, rleak=True),
+                baca.select.tleaves(o),
                 "4-3 =|",
                 abjad.Tweak(r"- \tweak staff-padding 9.5"),
+                with_next_leaf=True,
             )
             baca.staccato(o.pheads())
             baca.override.stem_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.spanners.clb(
-                    baca.select.tleaves(o, rleak=True),
+                    baca.select.tleaves(o),
                     2,
                     staff_padding=5.5,
+                    with_next_leaf=True,
                 )
         with baca.scope(m[7]) as o:
             baca.staff_lines(o.leaf(0), 5)

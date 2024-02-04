@@ -252,19 +252,21 @@ def eh(m):
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.spanners.hairpin(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "f >o niente",
+            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            with_next_leaf=True,
         )
         for plt in baca.select.plts(o):
-            plt = baca.select.tleaves(plt, rleak=True)
             baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                with_next_leaf=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
 
