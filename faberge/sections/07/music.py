@@ -463,7 +463,6 @@ def vn(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -519,7 +518,6 @@ def va(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=5.5,
-            with_next_leaf=True,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),

@@ -192,7 +192,6 @@ def vn(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
 
 
@@ -210,7 +209,6 @@ def va(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
 
 

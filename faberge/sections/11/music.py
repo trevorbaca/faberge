@@ -426,7 +426,6 @@ def vn(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m[3]) as o:
         baca.piecewise.hairpin(
@@ -483,7 +482,6 @@ def va(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.flat_glissando(o, "D3", hide_middle_stems=True)
