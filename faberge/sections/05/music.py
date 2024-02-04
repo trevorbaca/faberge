@@ -361,9 +361,10 @@ def vc(m, metadata):
     with baca.scope(m.get(1, 8)) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.spanners.string_number(
-            o.rleaves(),
+            o,
             "IV =|",
             staff_padding=5.5,
+            with_next_leaf=True,
         )
         baca.untie(o.pleaves())
         baca.pitches(

@@ -510,9 +510,10 @@ def vc(m, metadata):
         baca.override.dls_staff_padding(o, 8)
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.spanners.string_number(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             "IV =|",
             staff_padding=5.5,
+            with_next_leaf=True,
         )
         baca.untie(o.pleaves())
         baca.pitches(
