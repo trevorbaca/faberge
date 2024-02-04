@@ -490,12 +490,10 @@ def va(m):
         )
         baca.pitch(o, "Eb3")
         for plt in baca.select.plts(o):
-            plt = baca.select.rleak(plt)
             baca.spanners.xfb(
                 plt,
                 staff_padding=5,
-                # TODO: is this correct?
-                with_next_leaf=False,
+                with_next_leaf=True,
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 5)
