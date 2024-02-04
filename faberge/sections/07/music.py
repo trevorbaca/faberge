@@ -547,8 +547,9 @@ def va(m):
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
         baca.breathe(o.pleaf(-1))
         baca.spanners.material_annotation(
@@ -614,8 +615,9 @@ def vc(m):
             left_broken=True,
         )
         baca.spanners.xfb(
-            baca.select.tleaves(o, rleak=True),
+            baca.select.tleaves(o),
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m[4]) as o:
         baca.stem_tremolo(o.pleaf(0))

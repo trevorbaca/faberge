@@ -494,8 +494,9 @@ def va(m):
         )
         baca.stem_tremolo(o.pleaves())
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
     for n in [6, 7]:
         with baca.scope(m[n]) as o:

@@ -459,8 +459,9 @@ def vn(m):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
@@ -498,8 +499,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.flat_glissando(
@@ -569,8 +571,9 @@ def vc(m, metadata):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
 
 

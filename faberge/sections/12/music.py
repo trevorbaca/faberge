@@ -422,8 +422,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             staff_padding=3,
+            with_next_leaf=True,
         )
     with baca.scope(m[5]) as o:
         baca.flat_glissando(o, "F3")

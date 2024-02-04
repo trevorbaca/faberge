@@ -494,6 +494,8 @@ def va(m):
             baca.spanners.xfb(
                 plt,
                 staff_padding=5,
+                # TODO: is this correct?
+                with_next_leaf=False,
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 5)

@@ -516,9 +516,10 @@ def vc(m):
         )
         baca.stem_tremolo(o.pleaf(0))
         baca.spanners.xfb(
-            o.rleaves(),
+            o,
             right_broken=True,
             staff_padding=3,
+            with_next_leaf=True,
         )
 
 
