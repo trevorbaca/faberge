@@ -714,12 +714,12 @@ def vn(m):
         baca.pitch(o, "E4")
     with baca.scope(m.get(63, 65)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(69, 70)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
@@ -736,12 +736,12 @@ def vn(m):
         baca.spanners.beam(o.leaves()[-4:])
     with baca.scope(m.get(81, 83)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(89, 92)) as o:
@@ -801,7 +801,7 @@ def va(m):
         )
     with baca.scope(m.get(63, 65)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
@@ -820,7 +820,7 @@ def va(m):
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(69, 70)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(71, 76)) as o:
@@ -860,12 +860,12 @@ def va(m):
         )
     with baca.scope(m.get(81, 83)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
         baca.spanners.spazzolato(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            baca.select.ltleaves(o),
             staff_padding=3,
         )
 

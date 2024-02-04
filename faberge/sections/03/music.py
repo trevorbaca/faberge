@@ -775,7 +775,6 @@ def vn(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
@@ -874,7 +873,6 @@ def va(m):
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
