@@ -424,7 +424,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
     with baca.scope(m[5]) as o:
         baca.flat_glissando(o, "F3")

@@ -366,7 +366,6 @@ def va(m):
             baca.spanners.xfb(
                 plt,
                 staff_padding=3,
-                with_next_leaf=True,
             )
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "Eb3")

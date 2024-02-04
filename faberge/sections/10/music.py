@@ -495,7 +495,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=3,
-            with_next_leaf=True,
         )
     for n in [6, 7]:
         with baca.scope(m[n]) as o:

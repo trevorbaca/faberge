@@ -852,7 +852,6 @@ def va(m):
         baca.spanners.xfb(
             o,
             staff_padding=5.5,
-            with_next_leaf=True,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.spanners.hairpin(
