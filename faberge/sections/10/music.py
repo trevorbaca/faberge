@@ -314,7 +314,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
     m = cache["lh"]
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
@@ -326,7 +326,7 @@ def pf(cache):
     with baca.scope(m.get(5, 6)) as o:
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
         baca.override.mmrest_transparent(o)

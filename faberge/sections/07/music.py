@@ -363,7 +363,7 @@ def pf(cache):
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(5, 8)) as o:
-        baca.spanners.ottava(o.tleaves(), right_broken=True)
+        baca.rspanners.ottava(o.tleaves(), right_broken=True)
         baca.override.ottava_bracket_staff_padding(o, 5.5)
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -395,7 +395,7 @@ def pf(cache):
         m = cache["lh"]
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.spanners.ottava(o.tleaves(), right_broken=True)
+        baca.rspanners.ottava(o.tleaves(), right_broken=True)
         baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:

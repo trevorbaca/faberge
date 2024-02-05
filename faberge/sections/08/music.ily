@@ -1374,9 +1374,9 @@ number.8.Piano.RH.Music = {
         <g''' a''' b''' c''''>8.
         - \accent
         - \accent
+
           %! SPANNER_STOP
         \ottava 0
-
         r16
         \revert DynamicLineSpanner.staff-padding
         \revert Staff.OttavaBracket.staff-padding
@@ -1820,9 +1820,9 @@ number.8.Piano.LH.Music = {
         - \accent
         - \accent
         ^ \baca-sharp-markup
+
           %! SPANNER_STOP
         \ottava 0
-
         r16
         \revert DynamicLineSpanner.staff-padding
         \revert Staff.OttavaBracket.staff-padding
