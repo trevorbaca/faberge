@@ -1237,9 +1237,9 @@ number.12.Piano.RH.Music = {
         - \accent
           %! SPANNER_STOP
         ]
+
           %! SPANNER_STOP
         \ottava 0
-
         r16
         \revert DynamicLineSpanner.staff-padding
 
@@ -1466,9 +1466,9 @@ number.12.Piano.LH.Music = {
         ^ \baca-sharp-markup
           %! SPANNER_STOP
         ]
+
           %! SPANNER_STOP
         \ottava 0
-
         r16
 
     }

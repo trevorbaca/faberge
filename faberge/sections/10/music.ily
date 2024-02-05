@@ -2046,9 +2046,9 @@ number.10.Piano.RH.Music = {
     <g''' a''' b''' c''''>8
       %! SPANNER_STOP
     ]
+
       %! SPANNER_STOP
     \ottava 0
-
     r8
 
     r2
@@ -2184,9 +2184,9 @@ number.10.Piano.LH.Music = {
     ^ \baca-sharp-markup
       %! SPANNER_STOP
     ]
+
       %! SPANNER_STOP
     \ottava 0
-
     r8
 
     r2

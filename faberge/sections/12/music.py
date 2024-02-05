@@ -266,7 +266,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
     with baca.scope(m.get(6, 9)) as o:
         baca.staff_lines(o.leaf(0), 3)
         baca.dynamic(
@@ -295,7 +295,7 @@ def pf(cache):
         baca.accent(o.pleaf(-1))
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
 
 
 def perc(m):

@@ -1615,10 +1615,10 @@ number.7.Piano.RH.Music = {
         - \accent
           %! SPANNER_STOP
         ]
+
           %! RIGHT_BROKEN
           %! SPANNER_STOP
         \ottava 0
-
         r16
         \revert DynamicLineSpanner.staff-padding
         \revert Staff.OttavaBracket.staff-padding
@@ -1957,10 +1957,10 @@ number.7.Piano.LH.Music = {
         ^ \baca-sharp-markup
           %! SPANNER_STOP
         ]
+
           %! RIGHT_BROKEN
           %! SPANNER_STOP
         \ottava 0
-
         r16
         \revert Staff.OttavaBracket.staff-padding
 

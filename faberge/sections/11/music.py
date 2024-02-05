@@ -309,7 +309,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 5.5)
     for n in [4, 5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
@@ -342,7 +342,7 @@ def pf(cache):
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.spanners.ottava(o.tleaves())
+        baca.rspanners.ottava(o.tleaves())
         baca.override.ottava_bracket_staff_padding(o, 7)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
