@@ -197,7 +197,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -207,7 +207,7 @@ def fl(m):
 
 def cl(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -243,7 +243,7 @@ def pf(cache):
             baca.stopped(o.pheads())
     with baca.scope(m.get(1, 3)) as o:
         baca.override.dls_staff_padding(o, 2.5)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -260,7 +260,7 @@ def pf(cache):
         baca.clef(o.leaf(0), "treble")
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "(f)")
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -308,7 +308,7 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -326,7 +326,7 @@ def perc(m):
             r"\baca-bd-struck-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -357,13 +357,13 @@ def perc(m):
 def vn(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.staff_lines(o.leaf(0), 1)
-        baca.spanners.clb(
+        baca.rspanners.clb(
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
@@ -376,7 +376,7 @@ def vn(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -385,7 +385,7 @@ def vn(m):
         baca.pitch(o, "A6")
     with baca.scope(m.get(6, 9)) as o:
         baca.staff_lines(o.leaf(0), 1)
-        baca.spanners.clb(
+        baca.rspanners.clb(
             baca.select.tleaves(o),
             3,
             staff_padding=5.5,
@@ -397,7 +397,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
@@ -415,13 +415,13 @@ def va(m):
         ),
         baca.stem_tremolo(o.phead(-1))
     with baca.scope(m.get(1, 5)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.spanners.xfb(
+        baca.rspanners.xfb(
             o,
             staff_padding=3,
         )
@@ -429,7 +429,7 @@ def va(m):
         baca.flat_glissando(o, "F3")
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(6, 9)) as o:
-        baca.spanners.clb(
+        baca.rspanners.clb(
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
@@ -441,7 +441,7 @@ def va(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
@@ -457,13 +457,13 @@ def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.clef(o.leaf(0), "treble")
-        baca.spanners.clb(
+        baca.rspanners.clb(
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
@@ -476,7 +476,7 @@ def vc(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.override.dls_staff_padding(o, 5)
         baca.dynamic(o.phead(0), "f")
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -492,12 +492,12 @@ def vc(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
-        baca.spanners.clb(
+        baca.rspanners.clb(
             baca.select.tleaves(o),
             2,
             staff_padding=5.5,

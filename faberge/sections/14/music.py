@@ -181,7 +181,7 @@ def fl(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -202,7 +202,7 @@ def fl(m):
             "o< mp >o niente",
         )
     with baca.scope(m.get(5, 8)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "5-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -242,7 +242,7 @@ def cl(m):
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 10)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-5 / 5-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -265,11 +265,11 @@ def eh(m):
                 baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
                 "o< mf >o niente",
             )
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-5 / 5-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -293,7 +293,7 @@ def pf(cache):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -306,14 +306,14 @@ def pf(cache):
 def perc(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-5 / 5-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 0)
         for plt in baca.select.plts(o):
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -329,7 +329,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -344,7 +344,7 @@ def vn(m):
             r"\baca-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -357,13 +357,13 @@ def vn(m):
 def va(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 5)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "4-5 / 5-1 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         for plt in baca.select.plts(o):
-            baca.spanners.xfb(
+            baca.rspanners.xfb(
                 plt,
                 staff_padding=3,
             )
@@ -376,14 +376,14 @@ def va(m):
 def vc(m, metadata):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         ),
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.spanners.string_number(
+        baca.rspanners.string_number(
             o,
             "IV",
             staff_padding=5.5,
