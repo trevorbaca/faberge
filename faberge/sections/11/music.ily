@@ -1881,6 +1881,9 @@ number.11.Piano.RH.Music = {
           %! MEASURE_239
           %! SHIFTED_CLEF
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
@@ -1954,6 +1957,9 @@ number.11.Piano.RH.Music = {
         - \accent
         ]
 
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_STOP
         \ottava 0
         r16
@@ -2125,6 +2131,9 @@ number.11.Piano.LH.Music = {
     {
 
         % [Piano.LH.Music measure 3]
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
         \override Staff.OttavaBracket.staff-padding = 7
@@ -2173,6 +2182,9 @@ number.11.Piano.LH.Music = {
         ^ \baca-sharp-markup
         ]
 
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_STOP
         \ottava 0
         r16

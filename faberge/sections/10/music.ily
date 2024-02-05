@@ -1974,6 +1974,9 @@ number.10.Piano.RH.Music = {
     {
 
         % [Piano.RH.Music measure 5]
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
         <g''' a''' b''' c''''>8
@@ -2047,6 +2050,9 @@ number.10.Piano.RH.Music = {
       %! SPANNER_STOP
     ]
 
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     r8
@@ -2126,6 +2132,9 @@ number.10.Piano.LH.Music = {
     {
 
         % [Piano.LH.Music measure 5]
+          %! EXPLICIT_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #blue
+          %! EXPLICIT_OTTAVA
           %! SPANNER_START
         \ottava 1
         <f''' g''' a'''>8
@@ -2185,6 +2194,9 @@ number.10.Piano.LH.Music = {
       %! SPANNER_STOP
     ]
 
+      %! EXPLICIT_OTTAVA_COLOR
+    \once \override Staff.OttavaBracket.color = #blue
+      %! EXPLICIT_OTTAVA
       %! SPANNER_STOP
     \ottava 0
     r8
