@@ -1172,7 +1172,6 @@ number.12.Piano.RH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
         \override DynamicLineSpanner.staff-padding = 5
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
@@ -1244,7 +1243,6 @@ number.12.Piano.RH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_STOP
         \ottava 0
         r16
         \revert DynamicLineSpanner.staff-padding
@@ -1425,7 +1423,6 @@ number.12.Piano.LH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
         <f''' g''' a'''>8
         ^ \baca-sharp-markup
@@ -1479,7 +1476,6 @@ number.12.Piano.LH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_STOP
         \ottava 0
         r16
 

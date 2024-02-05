@@ -1884,7 +1884,6 @@ number.11.Piano.RH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
           %! EXPLICIT_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
@@ -1960,7 +1959,6 @@ number.11.Piano.RH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_STOP
         \ottava 0
         r16
         \revert Staff.OttavaBracket.staff-padding
@@ -2134,7 +2132,6 @@ number.11.Piano.LH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
         \override Staff.OttavaBracket.staff-padding = 7
         <f''' g''' a'''>8
@@ -2185,7 +2182,6 @@ number.11.Piano.LH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_STOP
         \ottava 0
         r16
         \revert Staff.OttavaBracket.staff-padding
