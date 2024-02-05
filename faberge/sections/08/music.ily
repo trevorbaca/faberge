@@ -1014,9 +1014,11 @@ number.8.Piano.RH.Music = {
         \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #(x11-color 'green4)
           %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! SPANNER_START
+          %! REAPPLIED_OTTAVA
         \ottava 1
         \override DynamicLineSpanner.staff-padding = 4.5
           %! -PARTS
@@ -1375,8 +1377,6 @@ number.8.Piano.RH.Music = {
         - \accent
         - \accent
 
-          %! SPANNER_STOP
-        \ottava 0
         r16
         \revert DynamicLineSpanner.staff-padding
         \revert Staff.OttavaBracket.staff-padding
@@ -1440,9 +1440,11 @@ number.8.Piano.LH.Music = {
         \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_OTTAVA_COLOR
+        \once \override Staff.OttavaBracket.color = #(x11-color 'green4)
           %! REAPPLIED_STAFF_LINES_COLOR
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! SPANNER_START
+          %! REAPPLIED_OTTAVA
         \ottava 1
         \override DynamicLineSpanner.staff-padding = 4.5
           %! EXPLICIT_BAR_EXTENT
@@ -1821,8 +1823,6 @@ number.8.Piano.LH.Music = {
         - \accent
         ^ \baca-sharp-markup
 
-          %! SPANNER_STOP
-        \ottava 0
         r16
         \revert DynamicLineSpanner.staff-padding
         \revert Staff.OttavaBracket.staff-padding
