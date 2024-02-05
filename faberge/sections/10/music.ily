@@ -1977,7 +1977,6 @@ number.10.Piano.RH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
         <g''' a''' b''' c''''>8
           %! EXPLICIT_DYNAMIC
@@ -2053,7 +2052,6 @@ number.10.Piano.RH.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     r8
 
@@ -2135,7 +2133,6 @@ number.10.Piano.LH.Music = {
           %! EXPLICIT_OTTAVA_COLOR
         \once \override Staff.OttavaBracket.color = #blue
           %! EXPLICIT_OTTAVA
-          %! SPANNER_START
         \ottava 1
         <f''' g''' a'''>8
         ^ \baca-sharp-markup
@@ -2197,7 +2194,6 @@ number.10.Piano.LH.Music = {
       %! EXPLICIT_OTTAVA_COLOR
     \once \override Staff.OttavaBracket.color = #blue
       %! EXPLICIT_OTTAVA
-      %! SPANNER_STOP
     \ottava 0
     r8
 
