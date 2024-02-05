@@ -204,13 +204,13 @@ def eh(m):
         baca.pitch(o, "Db5")
         baca.dynamic(o.phead(0), "f")
         baca.override.dls_staff_padding(o, 5)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         for plt in baca.select.plts(o):
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
@@ -249,13 +249,13 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.spanners.trill(
+                baca.rspanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 6)
-            baca.spanners.material_annotation(
+            baca.rspanners.material_annotation(
                 o,
                 "3-4 / 3-5 =|",
                 abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -308,7 +308,7 @@ def pf(cache):
         m = cache["rh"]
     with baca.scope(m.get(5, 6)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -355,7 +355,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -372,7 +372,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -401,7 +401,7 @@ def vn(m):
         with baca.scope(m.get(item)) as o:
             baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(1, 4)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -421,7 +421,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-0.75 . 0)"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -440,7 +440,7 @@ def vn(m):
                 pieces=baca.select.lparts(leaves, [1, 2]),
             )
     with baca.scope(m.get(6, 8)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "3-5 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -453,7 +453,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 6)
         baca.pitch(o, "Bqs4")
     with baca.scope(m.get(1, 4)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -485,14 +485,14 @@ def va(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
         baca.flat_glissando(o, "D3")
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.stem_tremolo(o.pleaves())
-        baca.spanners.xfb(
+        baca.rspanners.xfb(
             o,
             staff_padding=3,
         )
@@ -507,7 +507,7 @@ def va(m):
                 pieces=baca.select.lparts(leaves, [1, 2]),
             )
     with baca.scope(m.get(6, 8)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "3-5 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -566,14 +566,14 @@ def vc(m, metadata):
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
                 full=True,
             )
-            baca.spanners.half_clt(
+            baca.rspanners.half_clt(
                 o.leaves()[:1],
                 staff_padding=5.5,
             )
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Eb2")
     with baca.scope(m.get(1, 4)) as o:
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "3-4 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -592,7 +592,7 @@ def vc(m, metadata):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -602,14 +602,14 @@ def vc(m, metadata):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(6, 8)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.spanners.string_number(
+        baca.rspanners.string_number(
             o,
             "IV",
             right_broken=True,

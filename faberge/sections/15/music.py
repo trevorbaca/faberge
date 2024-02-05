@@ -148,7 +148,7 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "5-2 / 5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -190,7 +190,7 @@ def cl(m):
                 abjad.select.partition_by_ratio(baca.select.plts(run), (2, 3)),
                 "pp < p > pp",
             )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "5-2 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -221,7 +221,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -247,7 +247,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "A.1 -|",
             abjad.Tweak(r"- \tweak color #red"),
@@ -265,7 +265,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             o,
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -287,7 +287,7 @@ def vn(cache):
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -298,7 +298,7 @@ def va(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "F3")
         for plt in baca.select.plts(o):
-            baca.spanners.xfb(
+            baca.rspanners.xfb(
                 plt,
                 staff_padding=3,
             )
@@ -311,7 +311,7 @@ def va(m):
         baca.pitch(o, "Dqf5")
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -341,7 +341,7 @@ def vc(m):
         baca.pitch(o, "E2")
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
-        baca.spanners.material_annotation(
+        baca.rspanners.material_annotation(
             baca.select.tleaves(o),
             "5-3 =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
