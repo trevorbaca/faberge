@@ -5830,6 +5830,7 @@ number.9.Cello.Music = {
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
             \!
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(0 . 2)
@@ -5952,6 +5953,7 @@ number.9.Cello.Music = {
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! ANCHOR_NOTE
+      %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
       %! MATERIAL_ANNOTATION_SPANNER
