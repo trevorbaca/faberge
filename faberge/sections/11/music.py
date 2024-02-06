@@ -446,7 +446,7 @@ def vn(m):
             (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            bookend=-1,
+            bookend=True,
             pieces=baca.select.lparts(leaves, [1, 2]),
         )
     with baca.scope(m.get(5, 7)) as o:

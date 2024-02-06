@@ -922,14 +922,14 @@ def vc(m):
             (),
             "(tasto) -> molto pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
-            bookend=-1,
+            bookend=True,
             pieces=[o.rleaves()],
         )
         baca.piecewise.vibrato(
             (),
             "(poco vib.) -> vib. molto",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            bookend=-1,
+            bookend=True,
             pieces=[o.rleaves()],
         )
     with baca.scope(m.get(23, 26)) as o:
@@ -942,14 +942,14 @@ def vc(m):
             (),
             "(molto pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
-            bookend=-1,
+            bookend=True,
             pieces=[o.rleaves()],
         )
         baca.piecewise.vibrato(
             (),
             "(vib. molto) -> poco vib.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
-            bookend=-1,
+            bookend=True,
             pieces=[o.rleaves()],
         )
     with baca.scope(m.get(37, 60)) as o:
@@ -974,7 +974,7 @@ def vc(m):
             (),
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
-            bookend=-1,
+            bookend=True,
             pieces=baca.select.mgroups(leaves, [12, 12]),
         )
     with baca.scope(m.get(61, 80)) as o:
