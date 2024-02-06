@@ -2599,10 +2599,8 @@ number.7.Violin.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf-parenthesized
         [
           %! EXPLICIT_DYNAMIC
@@ -3110,10 +3108,8 @@ number.7.Viola.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-mf-parenthesized
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START

@@ -2944,10 +2944,8 @@ number.11.Violin.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! BOW_SPEED_SPANNER
       %! SPANNER_START
@@ -3683,10 +3681,8 @@ number.11.Cello.Music = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! BOW_SPEED_SPANNER
       %! SPANNER_START

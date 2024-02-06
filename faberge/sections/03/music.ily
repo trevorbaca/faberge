@@ -5665,10 +5665,8 @@ number.3.EnglishHorn.Music = {
     gs'!16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff
     [
       %! EXPLICIT_DYNAMIC
@@ -6103,10 +6101,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
@@ -6155,10 +6151,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6179,10 +6173,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6222,10 +6214,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6246,10 +6236,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6295,10 +6283,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6319,10 +6305,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6362,10 +6346,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6386,10 +6368,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6426,10 +6406,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6450,10 +6428,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6499,10 +6475,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6523,10 +6497,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6572,10 +6544,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6596,10 +6566,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6639,10 +6607,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6663,10 +6629,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6706,10 +6670,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6730,10 +6692,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6779,10 +6739,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6803,10 +6761,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6846,10 +6802,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6870,10 +6824,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6910,10 +6862,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6934,10 +6884,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -6983,10 +6931,8 @@ number.3.Clarinet.Music = {
     f4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7007,10 +6953,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7056,10 +7000,8 @@ number.3.Clarinet.Music = {
     fqs!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7080,10 +7022,8 @@ number.3.Clarinet.Music = {
     e4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7126,10 +7066,8 @@ number.3.Clarinet.Music = {
     e4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-pp-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7191,10 +7129,8 @@ number.3.Clarinet.Music = {
     ds!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-pp-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7257,10 +7193,8 @@ number.3.Clarinet.Music = {
     d4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -7303,10 +7237,8 @@ number.3.Clarinet.Music = {
     d4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-ppp-parenthesized
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10025,10 +9957,8 @@ number.3.Violin.Music = {
     f'16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-effort-ff-parenthesized
     [
       %! EXPLICIT_DYNAMIC
@@ -10545,10 +10475,8 @@ number.3.Violin.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-p
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -11630,10 +11558,8 @@ number.3.Viola.Music = {
         f'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-ff-parenthesized
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -12195,10 +12121,8 @@ number.3.Viola.Music = {
         - \staccato
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \baca-effort-p
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -13064,10 +12988,8 @@ number.3.Cello.Music = {
     ef,!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-p-parenthesized
       %! SPANNER_START
       %! VIBRATO_SPANNER
@@ -13175,10 +13097,8 @@ number.3.Cello.Music = {
     ef,!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-ff-parenthesized
       %! SCP_SPANNER
       %! SPANNER_START

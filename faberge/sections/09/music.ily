@@ -1029,10 +1029,8 @@ number.9.EnglishHorn.Music = {
             es''!4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \f
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_START
@@ -5433,10 +5431,8 @@ number.9.Cello.Music = {
     f,\breve.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
