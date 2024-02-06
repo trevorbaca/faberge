@@ -609,13 +609,12 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m[8]) as o:
-        baca.hairpin(o[0], "!")
+        baca.spanners.hairpin(o[0], "!")
     with baca.scope(m[9]) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.hairpin(o.rleaf(-1), "!")
         baca.piecewise.hairpin(
-            baca.select.clparts(o, [1]),
-            "pp p >o",
+            baca.select.clparts(baca.select.rleak(o), [1, 2]),
+            "pp p >o !",
         )
         baca.pitch(o, "Eb2")
 
