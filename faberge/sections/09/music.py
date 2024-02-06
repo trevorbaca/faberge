@@ -380,7 +380,7 @@ def vn(m):
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    bookend=-1,
+                    bookend=True,
                     pieces=baca.select.lparts(clpart, [1, 2]),
                 )
     with baca.scope(m.get(1, 4)) as o:
@@ -510,7 +510,7 @@ def va(m):
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
-                    bookend=-1,
+                    bookend=True,
                     pieces=baca.select.lparts(clpart, [1, 2]),
                 )
     with baca.scope(m.get(5, 8)) as o:
