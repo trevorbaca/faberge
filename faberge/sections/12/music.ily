@@ -437,10 +437,8 @@ number.12.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -475,10 +473,8 @@ number.12.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
         ]
 
@@ -514,10 +510,8 @@ number.12.Flute.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -559,10 +553,8 @@ number.12.Flute.Music = {
             b'1 * 2/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -801,10 +793,8 @@ number.12.Clarinet.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -855,10 +845,8 @@ number.12.Clarinet.Music = {
             b'1 * 4/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
@@ -915,10 +903,8 @@ number.12.Clarinet.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -965,10 +951,8 @@ number.12.Clarinet.Music = {
             b'1 * 2/4
               %! EXPLICIT_DYNAMIC_COLOR
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
             \!
               %! DURATION_MULTIPLIER
               %! HIDDEN

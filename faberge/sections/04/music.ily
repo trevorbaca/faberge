@@ -2165,10 +2165,8 @@ number.4.Cello.Music = {
     bf'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -2221,10 +2219,8 @@ number.4.Cello.Music = {
     g2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2245,10 +2241,8 @@ number.4.Cello.Music = {
     d''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2265,10 +2259,8 @@ number.4.Cello.Music = {
     c'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     [
       %! EXPLICIT_DYNAMIC
@@ -2289,10 +2281,8 @@ number.4.Cello.Music = {
     fqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     ]
       %! EXPLICIT_DYNAMIC
@@ -2310,10 +2300,8 @@ number.4.Cello.Music = {
     r8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
 
     r4.
@@ -2321,10 +2309,8 @@ number.4.Cello.Music = {
     e'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2342,10 +2328,8 @@ number.4.Cello.Music = {
     aqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2365,10 +2349,8 @@ number.4.Cello.Music = {
     c4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2386,10 +2368,8 @@ number.4.Cello.Music = {
     bf'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2409,10 +2389,8 @@ number.4.Cello.Music = {
     g2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2429,10 +2407,8 @@ number.4.Cello.Music = {
     d''4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2452,10 +2428,8 @@ number.4.Cello.Music = {
     c'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2473,10 +2447,8 @@ number.4.Cello.Music = {
     fqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2496,10 +2468,8 @@ number.4.Cello.Music = {
     r8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
 
     r4.
@@ -2507,10 +2477,8 @@ number.4.Cello.Music = {
     e'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2528,10 +2496,8 @@ number.4.Cello.Music = {
     aqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2551,10 +2517,8 @@ number.4.Cello.Music = {
     c4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2571,10 +2535,8 @@ number.4.Cello.Music = {
     bf'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2594,10 +2556,8 @@ number.4.Cello.Music = {
     g4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2615,10 +2575,8 @@ number.4.Cello.Music = {
     d''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2638,19 +2596,15 @@ number.4.Cello.Music = {
     r4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
 
     c'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2668,10 +2622,8 @@ number.4.Cello.Music = {
     fqs''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     [
       %! EXPLICIT_DYNAMIC
@@ -2692,10 +2644,8 @@ number.4.Cello.Music = {
     e'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     ]
       %! EXPLICIT_DYNAMIC
@@ -2713,10 +2663,8 @@ number.4.Cello.Music = {
     aqf''!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2736,10 +2684,8 @@ number.4.Cello.Music = {
     c8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2756,10 +2702,8 @@ number.4.Cello.Music = {
     bf'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2779,10 +2723,8 @@ number.4.Cello.Music = {
     r8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     \revert DynamicLineSpanner.staff-padding
 

@@ -400,10 +400,8 @@ number.11.Flute.Music = {
         af''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -423,10 +421,8 @@ number.11.Flute.Music = {
         af''!2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -443,10 +439,8 @@ number.11.Flute.Music = {
         g''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
 
     }
@@ -475,10 +469,8 @@ number.11.Flute.Music = {
         af''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -498,10 +490,8 @@ number.11.Flute.Music = {
         af''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -518,10 +508,8 @@ number.11.Flute.Music = {
         g''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
 
     }
@@ -550,10 +538,8 @@ number.11.Flute.Music = {
         af''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -573,10 +559,8 @@ number.11.Flute.Music = {
         af''!1..
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -593,10 +577,8 @@ number.11.Flute.Music = {
         g''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
 
     }
@@ -625,10 +607,8 @@ number.11.Flute.Music = {
         af''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -648,10 +628,8 @@ number.11.Flute.Music = {
         af''!2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -668,10 +646,8 @@ number.11.Flute.Music = {
         g''4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
 
     }
@@ -713,10 +689,8 @@ number.11.Flute.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -747,10 +721,8 @@ number.11.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -770,10 +742,8 @@ number.11.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -805,10 +775,8 @@ number.11.Flute.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -828,10 +796,8 @@ number.11.Flute.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -862,10 +828,8 @@ number.11.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -885,10 +849,8 @@ number.11.Flute.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -941,11 +903,9 @@ number.11.Flute.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
@@ -1240,10 +1200,8 @@ number.11.Clarinet.Music = {
         gs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1263,10 +1221,8 @@ number.11.Clarinet.Music = {
         gs''!2
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1283,10 +1239,8 @@ number.11.Clarinet.Music = {
         fs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
 
     }
@@ -1315,10 +1269,8 @@ number.11.Clarinet.Music = {
         gs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1338,10 +1290,8 @@ number.11.Clarinet.Music = {
         gs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1358,10 +1308,8 @@ number.11.Clarinet.Music = {
         fs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
 
     }
@@ -1390,10 +1338,8 @@ number.11.Clarinet.Music = {
         gs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1413,10 +1359,8 @@ number.11.Clarinet.Music = {
         gs''!1..
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1433,10 +1377,8 @@ number.11.Clarinet.Music = {
         fs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
 
     }
@@ -1465,10 +1407,8 @@ number.11.Clarinet.Music = {
         gs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1488,10 +1428,8 @@ number.11.Clarinet.Music = {
         gs''!2.
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1508,10 +1446,8 @@ number.11.Clarinet.Music = {
         fs''!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pppp
         \revert DynamicLineSpanner.staff-padding
 
@@ -1559,10 +1495,8 @@ number.11.Clarinet.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1594,10 +1528,8 @@ number.11.Clarinet.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1617,10 +1549,8 @@ number.11.Clarinet.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1651,10 +1581,8 @@ number.11.Clarinet.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1674,10 +1602,8 @@ number.11.Clarinet.Music = {
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1703,10 +1629,8 @@ number.11.Clarinet.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1726,10 +1650,8 @@ number.11.Clarinet.Music = {
     - \espressivo
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1783,11 +1705,9 @@ number.11.Clarinet.Music = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! ANCHOR_NOTE
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
@@ -2773,10 +2693,8 @@ number.11.Violin.Music = {
         - \baca-staccati #4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
@@ -2804,10 +2722,8 @@ number.11.Violin.Music = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
           %! SCP_SPANNER
           %! SPANNER_START
@@ -2836,10 +2752,8 @@ number.11.Violin.Music = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -2877,10 +2791,8 @@ number.11.Violin.Music = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! SCP_SPANNER
           %! SPANNER_STOP
@@ -3412,10 +3324,8 @@ number.11.Cello.Music = {
     c'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3432,10 +3342,8 @@ number.11.Cello.Music = {
     fqs''!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3456,10 +3364,8 @@ number.11.Cello.Music = {
     e'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
     [
       %! EXPLICIT_DYNAMIC
@@ -3477,10 +3383,8 @@ number.11.Cello.Music = {
     aqf''!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ]
       %! EXPLICIT_DYNAMIC
@@ -3501,10 +3405,8 @@ number.11.Cello.Music = {
     c8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3521,10 +3423,8 @@ number.11.Cello.Music = {
     r4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     \revert DynamicLineSpanner.staff-padding
 
