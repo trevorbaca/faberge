@@ -1166,10 +1166,8 @@ number.9.EnglishHorn.Music = {
         r1
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \!
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
@@ -1950,10 +1948,8 @@ number.9.Percussion.Music = {
     r1.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     <<
@@ -5484,10 +5480,8 @@ number.9.Cello.Music = {
     f,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \baca-f-poco-scratch
 
     f,2
