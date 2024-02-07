@@ -324,10 +324,10 @@ def fl(m):
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
-        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
-            baca.select.lparts(leaves, [1, 1 + 1]),
-            "niente o< mp >o !",
+            baca.select.lparts(o.pleaves(), [1, 1]),
+            "o< mp >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -358,10 +358,10 @@ def fl(m):
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
-        leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
-            baca.select.lparts(leaves, [1, 1 + 1]),
-            "niente o< pp >o !",
+            baca.select.lparts(o.pleaves(), [1, 1]),
+            "o< pp >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -452,7 +452,7 @@ def eh(m):
         baca.override.dls_staff_padding(o, 8)
         baca.spanners.hairpin(
             o.tleaves(),
-            '"ff" >o niente',
+            '"ff" >o !',
         )
     with baca.scope(m.get(61, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -494,11 +494,12 @@ def cl(m):
         baca.flat_glissando(o, "Eb2")
         baca.spanners.hairpin(
             o.tleaves()[:2],
-            "niente o< p",
+            "o< p",
         )
         baca.spanners.hairpin(
             o.tleaves()[-1:],
-            "(p) >o",
+            "(p) >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m.get(4, 52)) as o:
         for plt in baca.select.plts(o):
@@ -506,11 +507,12 @@ def cl(m):
                 continue
             baca.spanners.hairpin(
                 baca.select.tleaves(plt)[:2],
-                "niente o< p",
+                "o< p",
             )
             baca.spanners.hairpin(
                 baca.select.tleaves(plt)[-1:],
-                "(p) >o",
+                "(p) >o !",
+                with_next_leaf=True,
             )
     with baca.scope(m.get(4, 6)) as o:
         baca.flat_glissando(o, "Eqf2")
@@ -548,7 +550,7 @@ def cl(m):
                 continue
             baca.spanners.hairpin(
                 baca.select.tleaves(plt)[:2],
-                "niente o< pp",
+                "o< pp",
             )
             baca.spanners.hairpin(
                 baca.select.rleak(plt)[-2:],
@@ -578,7 +580,7 @@ def cl(m):
                 continue
             baca.spanners.hairpin(
                 baca.select.tleaves(plt)[:2],
-                "niente o< ppp",
+                "o< ppp",
             )
             baca.spanners.hairpin(
                 baca.select.rleak(plt)[-2:],
@@ -759,7 +761,7 @@ def vn(m):
     with baca.scope(m.get(13, 22)) as o:
         baca.spanners.hairpin(
             o,
-            '("ff") >o niente',
+            '("ff") >o !',
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "ppp")
@@ -856,7 +858,7 @@ def va(m):
     with baca.scope(m.get(13, 22)) as o:
         baca.spanners.hairpin(
             o.tleaves(),
-            '("ff") >o niente',
+            '("ff") >o !',
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "pp")

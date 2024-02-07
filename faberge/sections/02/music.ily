@@ -4399,11 +4399,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 81]
     fs''!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4476,10 +4471,7 @@ number.2.Flute.Music = {
     % [Flute.Music measure 89]
     \override RepeatTie.extra-offset = #'(-1.5 . 0)
     fs''!2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4591,18 +4583,14 @@ number.2.Flute.Music = {
       %! HIDDEN
       %! NOTE
     b'1 * 1/4
-      %! REDUNDANT_DYNAMIC_COLOR
-      %! ANCHOR_NOTE
-      %! REDUNDANT_DYNAMIC
-    - \tweak color #(x11-color 'DeepPink1)
-      %! ANCHOR_NOTE
-      %! REDUNDANT_DYNAMIC
-    \baca-p-parenthesized
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 
