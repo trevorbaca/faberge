@@ -3293,11 +3293,6 @@ number.11.Cello.Music = {
 
     \override NoteHead.style = #'harmonic
     c'2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3325,18 +3320,12 @@ number.11.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
     % [Cello.Music measure 2]
     e'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     [
       %! EXPLICIT_DYNAMIC
@@ -3367,17 +3356,11 @@ number.11.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
     c8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START

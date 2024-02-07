@@ -519,12 +519,11 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         )
         baca.glissando(o.tleaves())
-        for run in baca.select.rleak_runs(o, None, 1):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "niente o< pp >o",
-                do_not_start_spanner_on_final_piece=True,
-            )
+        run = abjad.select.run(o, 0)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 1, 1, 2]),
+            "o< pp >o ! o< pp >o ! o< pp >o !",
+        )
 
 
 def vn_va_vc(cache):

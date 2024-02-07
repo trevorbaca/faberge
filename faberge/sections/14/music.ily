@@ -2639,11 +2639,6 @@ number.14.Cello.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     aqf''!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! SPANNER_START
@@ -2717,21 +2712,13 @@ number.14.Cello.Music = {
     \glissando
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Cello.Music measure 2]
     r4.
 
     bf'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2766,10 +2753,7 @@ number.14.Cello.Music = {
     \glissando
 
     d''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2806,18 +2790,10 @@ number.14.Cello.Music = {
     \glissando
 
     r4.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     fqs''!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2853,10 +2829,7 @@ number.14.Cello.Music = {
     \revert NoteHead.style
 
     r2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP

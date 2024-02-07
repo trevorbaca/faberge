@@ -528,12 +528,12 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         )
         baca.glissando(o.tleaves())
-        for run in baca.select.rleak_runs(o):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "niente o< p >o",
-                do_not_start_spanner_on_final_piece=True,
-            )
+        run = abjad.select.run(o, 0)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 1, 2]),
+            "o< p >o ! o< p >o ! o< p",
+            forbid_al_niente_to_bar_line=True,
+        )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))
         baca.dynamic(

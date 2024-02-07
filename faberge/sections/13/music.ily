@@ -2928,11 +2928,6 @@ number.13.Cello.Music = {
 
     \override NoteHead.style = #'harmonic
     bf'!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
       %! STRING_NUMBER_SPANNER
     - \baca-dashed-line-with-hook
@@ -2984,10 +2979,7 @@ number.13.Cello.Music = {
     \glissando
 
     d''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
       %! EXPLICIT_DYNAMIC
@@ -3025,10 +3017,7 @@ number.13.Cello.Music = {
     \glissando
 
     fqs''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     ]
       %! EXPLICIT_DYNAMIC
@@ -3065,10 +3054,7 @@ number.13.Cello.Music = {
     \revert NoteHead.style
 
     r8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     \revert DynamicLineSpanner.staff-padding
 
