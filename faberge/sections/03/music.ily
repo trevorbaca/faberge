@@ -8497,11 +8497,6 @@ number.3.Percussion.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     g'2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
     - \tweak padding 1.5
     ^ \baca-lv-possibile-markup
@@ -9279,11 +9274,6 @@ number.3.Violin.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     g'''2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \baca-lv-possibile-markup
       %! REAPPLIED_INSTRUMENT_ALERT
