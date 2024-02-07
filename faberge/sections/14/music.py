@@ -396,24 +396,21 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         )
         baca.glissando(o.tleaves())
-        for run in baca.select.rleak_runs(o, None, 1):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "niente o< mp >o",
-                do_not_start_spanner_on_final_piece=True,
-            )
-        for run in baca.select.rleak_runs(o, 1, 2):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "niente o< mf >o",
-                do_not_start_spanner_on_final_piece=True,
-            )
-        for run in baca.select.rleak_runs(o, 2, 3):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "niente o< f >o",
-                do_not_start_spanner_on_final_piece=True,
-            )
+        run = abjad.select.run(o, 0)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(run), [1, 2]),
+            "o< mp >o !",
+        )
+        run = abjad.select.run(o, 1)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 2]),
+            "o< mf >o ! o< mf >o !",
+        )
+        run = abjad.select.run(o, 2)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(run), [1, 2]),
+            "o< f >o !",
+        )
     with baca.scope(m[5]) as o:
         baca.clef(o.leaf(0), "bass")
     with baca.scope(m.get(5, 8)) as o:
