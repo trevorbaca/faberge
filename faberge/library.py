@@ -809,26 +809,6 @@ def keynoise_pitches(argument, *, rotation=None):
     baca.pitches(argument, keynoise_pitches)
 
 
-def niente_swells(argument, dynamic):
-    assert isinstance(dynamic, str), repr(dynamic)
-    # TODO: allow:
-    #   baca.piecewise.hairpin(
-    #        abjad.select.leaves(_).partition([2, 'most', 2])
-    #        'niente o< {dynamic} {dynamic} >o niente',
-    #        )
-    for run in baca.select.ntruns(argument):
-        if len(run) <= 2:
-            continue
-        baca.piecewise.hairpin(
-            [baca.select.tleaves(run)[:2]],
-            f"niente o< {dynamic}",
-        )
-        baca.piecewise.hairpin(
-            [baca.select.rleaves(run)[-2:]],
-            f"({dynamic}) >o !",
-        )
-
-
 def replace_with_piano_clusters(argument):
     baca.replace_with_clusters(argument, [4], start_pitch="C2")
 
@@ -842,6 +822,26 @@ def single_swell(argument, dynamic):
         [argument.tleaves()[-1:]],
         f"({dynamic}) >o",
     )
+
+
+def swells(argument, dynamic):
+    assert isinstance(dynamic, str), repr(dynamic)
+    # TODO: allow:
+    #   baca.piecewise.hairpin(
+    #        abjad.select.leaves(_).partition([2, 'most', 2])
+    #        'o< {dynamic} {dynamic} >o !',
+    #        )
+    for run in baca.select.ntruns(argument):
+        if len(run) <= 2:
+            continue
+        baca.piecewise.hairpin(
+            [baca.select.tleaves(run)[:2]],
+            f"o< {dynamic}",
+        )
+        baca.piecewise.hairpin(
+            [baca.select.rleaves(run)[-2:]],
+            f"({dynamic}) >o !",
+        )
 
 
 def time_signatures_b():
