@@ -617,15 +617,12 @@ number.7.Flute.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 6/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"6" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -1225,15 +1222,12 @@ number.7.Clarinet.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 6/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"6" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation

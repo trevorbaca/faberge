@@ -825,7 +825,7 @@ def niente_swells(argument, dynamic):
         )
         baca.piecewise.hairpin(
             [baca.select.rleaves(run)[-2:]],
-            f"({dynamic}) >o niente",
+            f"({dynamic}) >o !",
         )
 
 

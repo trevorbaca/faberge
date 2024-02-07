@@ -292,7 +292,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
                 baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
-                "o< mf >o niente",
+                "o< mf >o !",
             )
             baca.rspanners.trill(
                 run,

@@ -536,7 +536,7 @@ def vn_va(cache):
         with baca.scope(m[7]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 1 + 1]),
-                "p pp >o niente",
+                "p pp >o !",
                 bookend=False,
             )
         with baca.scope(m[8]) as o:

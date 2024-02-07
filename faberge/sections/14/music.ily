@@ -518,10 +518,7 @@ number.14.Flute.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
     }
@@ -564,10 +561,7 @@ number.14.Flute.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
     }
@@ -610,10 +604,7 @@ number.14.Flute.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
     }
@@ -656,10 +647,7 @@ number.14.Flute.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
         \revert DynamicLineSpanner.staff-padding
 
@@ -802,10 +790,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -852,10 +837,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -902,10 +884,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -952,10 +931,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1002,10 +978,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1052,10 +1025,7 @@ number.14.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -2951,10 +2921,7 @@ number.14.Cello.Music = {
     % [Cello.Music measure 6]
     f,2
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2991,10 +2958,7 @@ number.14.Cello.Music = {
     % [Cello.Music measure 7]
     f,2
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3031,10 +2995,7 @@ number.14.Cello.Music = {
     % [Cello.Music measure 8]
     f,2
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3096,18 +3057,14 @@ number.14.Cello.Music = {
       %! HIDDEN
       %! NOTE
     d1 * 1/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    \!
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 

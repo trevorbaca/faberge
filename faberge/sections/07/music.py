@@ -338,7 +338,7 @@ def fl_cl(cache):
                 abjad.select.partition_by_counts(
                     abjad.select.leaves(o.rleaves()), [2], overhang=True
                 ),
-                "o< mp >o niente",
+                "o< mp >o !",
             )
 
 

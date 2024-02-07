@@ -276,7 +276,7 @@ def fl_cl(cache):
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
-                    "o< mp >o niente",
+                    "o< mp >o !",
                 )
             baca.rspanners.material_annotation(
                 o,
@@ -453,7 +453,7 @@ def vn(m):
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
         baca.spanners.hairpin(
             o.rleaves(),
-            "mp >o niente",
+            "mp >o !",
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.rspanners.xfb(
@@ -562,7 +562,7 @@ def vc(m, metadata):
         ),
         baca.spanners.hairpin(
             o.rleaves(),
-            "mp >o niente",
+            "mp >o !",
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.rspanners.xfb(

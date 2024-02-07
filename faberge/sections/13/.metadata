@@ -140,16 +140,6 @@
                 value="B. cl.",
             ),
         ],
-        "EnglishHorn.Music": [
-            baca.Memento(
-                context="EnglishHorn.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "EnglishHorn.Staff": [
             baca.Memento(
                 context="EnglishHorn.Music",

@@ -327,7 +327,7 @@ def fl(m):
         leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
-            "niente o< mp >o niente",
+            "niente o< mp >o !",
         )
     with baca.scope(m.get(11, 12)) as o:
         library.niente_swells(o, "mf")
@@ -361,7 +361,7 @@ def fl(m):
         leaves = baca.select.rleak(baca.select.tleaves(o))
         baca.piecewise.hairpin(
             baca.select.lparts(leaves, [1, 1 + 1]),
-            "niente o< pp >o niente",
+            "niente o< pp >o !",
         )
     with baca.scope(m.get(55, 60)) as o:
         library.niente_swells(o, "ppp")
@@ -706,7 +706,7 @@ def perc(cache):
     with baca.scope(m.get(53, 60)) as o:
         baca.piecewise.hairpin(
             baca.select.mgroups(o.rleaves(), [2, 6 + 1]),
-            "ppp < pp >o niente",
+            "ppp < pp >o !",
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)

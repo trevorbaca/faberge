@@ -579,10 +579,7 @@ number.15.Flute.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
         % [Flute.Music measure 6]
@@ -621,10 +618,7 @@ number.15.Flute.Music = {
         \>
 
         r2
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
         % [Flute.Music measure 7]
@@ -663,10 +657,7 @@ number.15.Flute.Music = {
         \>
 
         r2.
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
         % [Flute.Music measure 8]
@@ -705,10 +696,7 @@ number.15.Flute.Music = {
         \>
 
         r1
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
         \revert DynamicLineSpanner.staff-padding
 
@@ -802,11 +790,6 @@ number.15.EnglishHorn.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     R1 * 3/4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2062,10 +2045,7 @@ number.15.Violin.Music = {
     % [Violin.Music measure 6]
     <fs''! aqs''!>2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2102,10 +2082,7 @@ number.15.Violin.Music = {
     % [Violin.Music measure 7]
     <fs''! aqs''!>2..
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2142,10 +2119,7 @@ number.15.Violin.Music = {
     % [Violin.Music measure 8]
     <fs''! aqs''!>1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2200,15 +2174,12 @@ number.15.Violin.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -2433,10 +2404,7 @@ number.15.Viola.Music = {
     % [Viola.Music measure 6]
     dqf''!2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2473,10 +2441,7 @@ number.15.Viola.Music = {
     % [Viola.Music measure 7]
     dqf''!2..
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2513,10 +2478,7 @@ number.15.Viola.Music = {
     % [Viola.Music measure 8]
     dqf''!1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2571,15 +2533,12 @@ number.15.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -2701,10 +2660,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 2]
     f,2
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2741,10 +2697,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 3]
     f,4.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2781,10 +2734,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 4]
     f,2
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2825,10 +2775,7 @@ number.15.Cello.Music = {
         % [Cello.Music measure 5]
         e,2.
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -2867,10 +2814,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 6]
     e,2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2907,10 +2851,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 7]
     e,2..
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2947,10 +2888,7 @@ number.15.Cello.Music = {
     % [Cello.Music measure 8]
     e,1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3005,15 +2943,12 @@ number.15.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 1/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
