@@ -3780,10 +3780,7 @@ number.9.Viola.Music = {
             % [Viola.Music measure 2]
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
+              %! SPANNER_STOP
             \!
               %! SCP_SPANNER
               %! SPANNER_START
@@ -3891,11 +3888,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
@@ -4027,11 +4019,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
@@ -4118,11 +4105,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
@@ -4236,11 +4218,6 @@ number.9.Viola.Music = {
             % [Viola.Music measure 4]
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4370,11 +4347,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP

@@ -457,7 +457,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "niente o< mp > pp mp niente o< mp > pp mp",
+            "! o< mp > pp mp ? o< mp > pp mp",
         )
         baca.piecewise.scp(
             (),
@@ -475,7 +475,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "mp niente o< mf > pp niente o< mf > pp mf",
+            "mp ? o< mf > pp ? o< mf > pp mf",
         )
         baca.piecewise.scp(
             (),
@@ -493,7 +493,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "niente o< f > pp f f niente o< f > pp",
+            "? o< f > pp f f ? o< f > pp",
         )
         baca.piecewise.scp(
             (),
