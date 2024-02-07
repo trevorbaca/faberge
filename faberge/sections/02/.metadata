@@ -87,16 +87,6 @@
                 value="Vc.",
             ),
         ],
-        "Clarinet.Music": [
-            baca.Memento(
-                context="Clarinet.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Clarinet.Staff": [
             baca.Memento(
                 context="Clarinet.Music",

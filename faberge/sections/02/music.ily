@@ -6261,6 +6261,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 50]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6317,6 +6319,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 53]
     e4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6379,6 +6383,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 58]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6435,6 +6441,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 61]
     e4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6488,6 +6496,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 63]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6558,6 +6568,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 71]
     e4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6614,6 +6626,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 74]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6670,6 +6684,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 77]
     e4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6729,6 +6745,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 81]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6800,6 +6818,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 89]
     e4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6856,6 +6876,8 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 92]
     eqs!4
+      %! SPANNER_STOP
+    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6945,6 +6967,9 @@ number.2.Clarinet.Music = {
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
 
 }
 

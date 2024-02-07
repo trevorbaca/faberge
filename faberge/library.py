@@ -777,28 +777,19 @@ def dal_niente_hairpins(argument, stop):
 
 def increasing_dal_niente_hairpins(argument):
     runs = baca.select.runs(argument)
+    i_to_peak = {
+        0: "p",
+        1: "mp",
+        2: "mf",
+        3: "mf",
+    }
     for i, run in enumerate(runs):
         run = baca.select.rleaves(run)
-        if i == 0:
-            baca.piecewise.hairpin(
-                [run],
-                "o< p",
-            )
-        elif i == 1:
-            baca.piecewise.hairpin(
-                [run],
-                "o< mp",
-            )
-        elif i in (2, 3):
-            baca.piecewise.hairpin(
-                [run],
-                "o< mf",
-            )
-        else:
-            baca.piecewise.hairpin(
-                [run],
-                "o< f",
-            )
+        peak = i_to_peak.get(i, "f")
+        baca.spanners.hairpin(
+            run,
+            f"o< {peak}",
+        )
 
 
 def keynoise_pitches(argument, *, rotation=None):
@@ -813,14 +804,15 @@ def replace_with_piano_clusters(argument):
     baca.replace_with_clusters(argument, [4], start_pitch="C2")
 
 
-def single_swell(argument, dynamic):
-    baca.piecewise.hairpin(
-        [argument.tleaves()[:2]],
-        f"o< {dynamic}",
+def single_swell(argument, peak):
+    baca.spanners.hairpin(
+        argument.tleaves()[:2],
+        f"o< {peak}",
     )
-    baca.piecewise.hairpin(
-        [argument.tleaves()[-1:]],
-        f"({dynamic}) >o",
+    baca.spanners.hairpin(
+        argument.tleaves()[-1:],
+        f"({peak}) >o !",
+        with_next_leaf=True,
     )
 
 
