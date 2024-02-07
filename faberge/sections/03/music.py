@@ -320,7 +320,7 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 1)
-        library.niente_swells(o, "p")
+        library.swells(o, "p")
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
@@ -330,31 +330,31 @@ def fl(m):
             "niente o< mp >o !",
         )
     with baca.scope(m.get(11, 12)) as o:
-        library.niente_swells(o, "mf")
+        library.swells(o, "mf")
     with baca.scope(m.get(11, 15)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2.5)
     with baca.scope(m.get(13, 22)) as o:
         baca.stem_tremolo(o.pleaves())
-        library.niente_swells(o, "f")
+        library.swells(o, "f")
     with baca.scope(m[16]) as o:
         baca.dynamic(o.phead(0), "f")
     with baca.scope(m.get(23, 26)) as o:
-        library.niente_swells(o, "mf")
+        library.swells(o, "mf")
     with baca.scope(m.get(27, 30)) as o:
-        library.niente_swells(o, "mp")
+        library.swells(o, "mp")
     with baca.scope(m[27]) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2)
     with baca.scope(m.get(31, 36)) as o:
-        library.niente_swells(o, "mf")
+        library.swells(o, "mf")
     with baca.scope(m.get(32, 33)) as o:
         baca.override.tuplet_bracket_staff_padding(o, 2.5)
     with baca.scope(m.get(37, 44)) as o:
         baca.stem_tremolo(o.pleaves())
-        library.niente_swells(o, "f")
+        library.swells(o, "f")
     with baca.scope(m.get(45, 48)) as o:
-        library.niente_swells(o, "mf")
+        library.swells(o, "mf")
     with baca.scope(m.get(49, 52)) as o:
-        library.niente_swells(o, "p")
+        library.swells(o, "p")
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
@@ -364,7 +364,7 @@ def fl(m):
             "niente o< pp >o !",
         )
     with baca.scope(m.get(55, 60)) as o:
-        library.niente_swells(o, "ppp")
+        library.swells(o, "ppp")
     with baca.scope(m.get(1, 60)) as o:
         baca.pitches(
             o,
@@ -388,7 +388,7 @@ def fl(m):
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
-        library.niente_swells(o, "ppp")
+        library.swells(o, "ppp")
     with baca.scope(m.get(73, 80)) as o:
         baca.staff_lines(o.leaf(0), 1)
     with baca.scope(m.leaves()) as o:
