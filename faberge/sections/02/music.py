@@ -370,11 +370,12 @@ def fl(m):
         baca.flat_glissando(o, "F#4")
         baca.spanners.hairpin(
             o.tleaves()[:2],
-            "niente o< p",
+            "o< p",
         )
         baca.spanners.hairpin(
             o.tleaves()[-1:],
-            "(p) >o",
+            "(p) >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.pitches(o, "F#4 F#3", allow_repeats=True)
@@ -385,12 +386,11 @@ def fl(m):
         )
         baca.spanners.hairpin(
             o.tleaves()[:2],
-            "niente o< p",
+            "o< p",
         )
-        # TODO: change to baca.spanners.hairpin()
-        baca.piecewise.hairpin(
-            [baca.select.rleak(baca.select.tleaves(o))[-2:]],
-            "(p) >o",
+        baca.spanners.hairpin(
+            baca.select.rleak(baca.select.tleaves(o))[-2:],
+            "(p) >o !",
         )
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         baca.breathe(o.pleaf(-1))

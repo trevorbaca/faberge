@@ -434,32 +434,27 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         )
         baca.glissando(o.tleaves())
-        runs = baca.select.rleak_runs(o)
-        for i, run in enumerate(runs):
-            if i == 0:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< p >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i == 1:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< mp >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i == 2:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< mf >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i == 3:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< f >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
+        runs = abjad.select.runs(o)
+        baca.piecewise.hairpin(
+            baca.select.clparts(runs[0], [1]),
+            "o< p >o ! o< p >o !",
+            forbid_al_niente_to_bar_line=True,
+        )
+        baca.piecewise.hairpin(
+            baca.select.clparts(runs[1], [1]),
+            "o< mp >o ! o< mp >o ! o< mp >o ! o< mp >o !",
+            with_next_leaf=True,
+        )
+        baca.piecewise.hairpin(
+            baca.select.clparts(runs[2], [1]),
+            "o< mf >o ! o< mf >o ! o< mf >o !",
+            with_next_leaf=True,
+        )
+        baca.piecewise.hairpin(
+            baca.select.clparts(runs[3], [1]),
+            "o< f >o ! o< f >o ! o< f >o !",
+            with_next_leaf=True,
+        )
 
 
 @baca.build.timed("make_score")
