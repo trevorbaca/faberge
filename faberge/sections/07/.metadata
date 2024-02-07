@@ -92,16 +92,6 @@
                 value=5,
             ),
         ],
-        "Clarinet.Music": [
-            baca.Memento(
-                context="Clarinet.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Clarinet.Staff": [
             baca.Memento(
                 context="Clarinet.Music",
@@ -195,16 +185,6 @@
                 synthetic_offset=None,
                 value=5,
             ),
-        ],
-        "Flute.Music": [
-            baca.Memento(
-                context="Flute.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
         ],
         "Flute.Staff": [
             baca.Memento(

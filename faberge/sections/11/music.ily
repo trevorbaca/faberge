@@ -719,10 +719,7 @@ number.11.Flute.Music = {
         % [Flute.Music measure 6]
         f'4
         - \espressivo
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -773,10 +770,7 @@ number.11.Flute.Music = {
     % [Flute.Music measure 7]
     f'4
     - \espressivo
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -826,10 +820,7 @@ number.11.Flute.Music = {
         % [Flute.Music measure 8]
         f'4
         - \espressivo
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -900,18 +891,14 @@ number.11.Flute.Music = {
       %! HIDDEN
       %! NOTE
     b'1 * 1/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    \!
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
       %! ANCHOR_NOTE
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -1526,10 +1513,7 @@ number.11.Clarinet.Music = {
     % [Clarinet.Music measure 6]
     f4
     - \espressivo
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1579,10 +1563,7 @@ number.11.Clarinet.Music = {
         % [Clarinet.Music measure 7]
         f4
         - \espressivo
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1627,10 +1608,7 @@ number.11.Clarinet.Music = {
     % [Clarinet.Music measure 8]
     f4
     - \espressivo
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1702,18 +1680,14 @@ number.11.Clarinet.Music = {
       %! HIDDEN
       %! NOTE
     b'1 * 1/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! ANCHOR_NOTE
-      %! EXPLICIT_DYNAMIC
-    \!
       %! ANCHOR_NOTE
       %! DURATION_MULTIPLIER
       %! HIDDEN
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+      %! ANCHOR_NOTE
+      %! SPANNER_STOP
+    \!
       %! ANCHOR_NOTE
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
@@ -2924,15 +2898,12 @@ number.11.Violin.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 5/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+              %! SPANNER_STOP
+            \!
               %! BOW_SPEED_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanBowSpeed
@@ -3649,15 +3620,12 @@ number.11.Cello.Music = {
               %! HIDDEN
               %! NOTE
             d1 * 5/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"5" #"4"
+              %! SPANNER_STOP
+            \!
               %! BOW_SPEED_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanBowSpeed

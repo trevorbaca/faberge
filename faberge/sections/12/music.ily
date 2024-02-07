@@ -471,10 +471,7 @@ number.12.Flute.Music = {
 
         f'8
         - \espressivo
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
         ]
 
@@ -551,15 +548,12 @@ number.12.Flute.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 2/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -843,15 +837,12 @@ number.12.Clarinet.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 4/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+              %! SPANNER_STOP
+            \!
 
         }
 
@@ -949,15 +940,12 @@ number.12.Clarinet.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 2/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -1759,15 +1747,12 @@ number.12.Percussion.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 4/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+              %! SPANNER_STOP
+            \!
 
         }
 

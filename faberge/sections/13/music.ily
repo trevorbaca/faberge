@@ -337,11 +337,6 @@ number.13.Flute.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     R1 * 7/4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -635,10 +630,7 @@ number.13.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -685,10 +677,7 @@ number.13.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -735,10 +724,7 @@ number.13.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -785,10 +771,7 @@ number.13.EnglishHorn.Music = {
         \>
 
         r4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -874,11 +857,6 @@ number.13.Clarinet.Music = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     R1 * 7/4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"7" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT

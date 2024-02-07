@@ -192,14 +192,14 @@ def fl(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< p >o niente",
+            "o< p >o !",
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[6]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< mp >o niente",
+            "o< mp >o !",
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.rspanners.material_annotation(
@@ -212,12 +212,12 @@ def fl(m):
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< mf >o niente",
+            "o< mf >o !",
         )
     with baca.scope(m[8]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< f >o niente",
+            "o< f >o !",
         )
 
 
@@ -263,7 +263,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
                 baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
-                "o< mf >o niente",
+                "o< mf >o !",
             )
             baca.rspanners.trill(
                 run,
@@ -422,7 +422,7 @@ def vc(m, metadata):
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 1 + 1]),
-                "o< p >o niente",
+                "o< p >o !",
             )
             baca.pitch(o, "F2")
             baca.stem_tremolo(o.pleaves())

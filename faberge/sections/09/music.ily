@@ -466,10 +466,7 @@ number.9.Flute.Music = {
         % [Flute.Music measure 2]
         g'2
         - \espressivo
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -535,15 +532,12 @@ number.9.Flute.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 12/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"12" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation
@@ -625,10 +619,7 @@ number.9.Flute.Music = {
         \>
 
         r2
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
 
     }
@@ -677,10 +668,7 @@ number.9.Flute.Music = {
         % [Flute.Music measure 7]
         gs'''!2.
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -715,10 +703,7 @@ number.9.Flute.Music = {
         \>
 
         r2
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
         \revert DynamicLineSpanner.staff-padding
 
@@ -885,10 +870,7 @@ number.9.EnglishHorn.Music = {
         \>
 
         r1
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -935,10 +917,7 @@ number.9.EnglishHorn.Music = {
         \>
 
         r1
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! SPANNER_STOP
         \stopTrillSpan
@@ -1136,10 +1115,7 @@ number.9.EnglishHorn.Music = {
         \startTrillSpan
 
         r1
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
         \!
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
@@ -1299,10 +1275,7 @@ number.9.Clarinet.Music = {
     % [Clarinet.Music measure 2]
     g2
     - \espressivo
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1363,15 +1336,12 @@ number.9.Clarinet.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 12/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"12" #"4"
+              %! SPANNER_STOP
+            \!
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation

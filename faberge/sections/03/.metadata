@@ -183,16 +183,6 @@
                 value=1,
             ),
         ],
-        "Flute.Music": [
-            baca.Memento(
-                context="Flute.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Flute.Staff": [
             baca.Memento(
                 context="Flute.Music",

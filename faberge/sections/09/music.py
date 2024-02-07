@@ -197,7 +197,7 @@ def fl(m):
     with baca.scope(m[5]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< f >o niente",
+            "o< f >o !",
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.pitch(o, "G#5")
@@ -212,12 +212,12 @@ def fl(m):
     with baca.scope(m[6]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 1 + 1]),
-            "o< mf >o niente",
+            "o< mf >o !",
         )
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1 + 1]),
-            "o< mp >o niente",
+            "o< mp >o !",
         )
 
 
@@ -230,7 +230,7 @@ def eh(m):
             leaves = baca.select.rleaves(leaves)
             baca.piecewise.hairpin(
                 baca.select.lparts(leaves, [1, 1 + 1]),
-                "o< mf >o niente",
+                "o< mf >o !",
             )
         baca.rspanners.material_annotation(
             o,
@@ -252,7 +252,7 @@ def eh(m):
         baca.override.dls_staff_padding(o, 6)
         baca.spanners.hairpin(
             baca.select.tleaves(o),
-            "f >o niente",
+            "f >o !",
             with_next_leaf=True,
         )
         baca.rspanners.material_annotation(
@@ -284,7 +284,7 @@ def fl_cl(cache):
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
-                    "o< mp >o niente",
+                    "o< mp >o !",
                 )
             baca.rspanners.material_annotation(
                 o,

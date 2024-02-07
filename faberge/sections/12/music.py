@@ -223,7 +223,7 @@ def fl_cl(cache):
         with baca.scope(m[1]) as o:
             baca.piecewise.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
-                "o< mp >o niente",
+                "o< mp >o !",
             )
         for n in [1, 3]:
             with baca.scope(m[n]) as o:
@@ -231,7 +231,7 @@ def fl_cl(cache):
         with baca.scope(m[3]) as o:
             baca.piecewise.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
-                "o< p >o niente",
+                "o< p >o !",
             )
 
 
@@ -342,7 +342,7 @@ def perc(m):
         ),
         baca.spanners.hairpin(
             o.rleaves(),
-            "mp >o niente",
+            "mp >o !",
         )
         baca.markup(
             o.pleaf(0),

@@ -2483,10 +2483,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 4]
@@ -2573,10 +2570,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 8]
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g'2
@@ -2638,10 +2632,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 11]
@@ -2726,10 +2717,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 13]
@@ -2858,10 +2846,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 16]
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g''2
@@ -3003,10 +2988,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g''4.
@@ -3116,10 +3098,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 23]
@@ -3198,10 +3177,7 @@ number.3.Flute.Music = {
     \>
 
     r2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 27]
@@ -3336,10 +3312,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 31]
@@ -3434,10 +3407,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g'4
@@ -3516,10 +3486,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 37]
@@ -3639,10 +3606,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 40]
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g'4.
@@ -3729,10 +3693,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 43]
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g'4
@@ -3808,10 +3769,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 45]
@@ -3897,10 +3855,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 48]
     r2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 49]
@@ -4002,10 +3957,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 52]
@@ -4067,10 +4019,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 55]
@@ -4181,10 +4130,7 @@ number.3.Flute.Music = {
 
     % [Flute.Music measure 58]
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     g'4
@@ -4283,10 +4229,7 @@ number.3.Flute.Music = {
     \>
 
     r4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
 
     % [Flute.Music measure 61]
@@ -4422,10 +4365,7 @@ number.3.Flute.Music = {
     \repeatTie
 
     r2
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
+      %! SPANNER_STOP
     \!
     \revert RepeatTie.extra-offset
 
@@ -9240,13 +9180,10 @@ number.3.Percussion.Music = {
 
     % [Percussion.Music measure 61]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [Percussion.Music measure 62]
     R1 * 4/4
