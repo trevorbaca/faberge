@@ -2516,11 +2516,6 @@ number.10.Violin.Music = {
 
             dtqf''!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2614,11 +2609,6 @@ number.10.Violin.Music = {
 
             dtqf''!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2712,11 +2702,6 @@ number.10.Violin.Music = {
 
             dtqf''!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3214,11 +3199,6 @@ number.10.Viola.Music = {
 
             bqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3312,11 +3292,6 @@ number.10.Viola.Music = {
 
             bqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3410,11 +3385,6 @@ number.10.Viola.Music = {
 
             bqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
