@@ -375,28 +375,34 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[0]), [1, 2]),
+            baca.select.clparts(runs[0], [1]),
             "o< mf >o !",
+            with_next_leaf=True,
         )
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[1]), [1, 1, 1, 2]),
+            baca.select.clparts(runs[1], [1]),
             "o< mp >o ! o< mp >o !",
+            with_next_leaf=True,
         )
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[2]), [1, 2]),
+            baca.select.clparts(runs[2], [1]),
             "o< p >o !",
+            with_next_leaf=True,
         )
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[3]), [1, 1, 1, 2]),
+            baca.select.clparts(runs[3], [1]),
             "o< p >o ! o< p >o !",
+            with_next_leaf=True,
         )
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[4]), [1, 2]),
+            baca.select.clparts(runs[4], [1]),
             "o< pp >o !",
+            with_next_leaf=True,
         )
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(runs[5]), [1, 1, 1, 2]),
+            baca.select.clparts(runs[5], [1]),
             "o< pp >o ! o< pp >o !",
+            with_next_leaf=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
