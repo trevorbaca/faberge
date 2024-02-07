@@ -771,7 +771,7 @@ def dal_niente_hairpins(argument, stop):
         run = baca.select.rleaves(run)
         baca.piecewise.hairpin(
             [run],
-            f"niente o< {stop}",
+            f"o< {stop}",
         )
 
 
@@ -782,22 +782,22 @@ def increasing_dal_niente_hairpins(argument):
         if i == 0:
             baca.piecewise.hairpin(
                 [run],
-                "niente o< p",
+                "o< p",
             )
         elif i == 1:
             baca.piecewise.hairpin(
                 [run],
-                "niente o< mp",
+                "o< mp",
             )
         elif i in (2, 3):
             baca.piecewise.hairpin(
                 [run],
-                "niente o< mf",
+                "o< mf",
             )
         else:
             baca.piecewise.hairpin(
                 [run],
-                "niente o< f",
+                "o< f",
             )
 
 
@@ -816,7 +816,7 @@ def replace_with_piano_clusters(argument):
 def single_swell(argument, dynamic):
     baca.piecewise.hairpin(
         [argument.tleaves()[:2]],
-        f"niente o< {dynamic}",
+        f"o< {dynamic}",
     )
     baca.piecewise.hairpin(
         [argument.tleaves()[-1:]],

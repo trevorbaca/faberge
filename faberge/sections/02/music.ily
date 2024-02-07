@@ -2720,11 +2720,6 @@ number.2.Flute.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \faberge-match-sound-of-crotales-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2755,11 +2750,6 @@ number.2.Flute.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2787,11 +2777,6 @@ number.2.Flute.Music = {
         r4
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -2819,11 +2804,6 @@ number.2.Flute.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2850,11 +2830,6 @@ number.2.Flute.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -2882,11 +2857,6 @@ number.2.Flute.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2906,11 +2876,6 @@ number.2.Flute.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2931,11 +2896,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 9]
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2962,11 +2922,6 @@ number.2.Flute.Music = {
 
         % [Flute.Music measure 10]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -2994,11 +2949,6 @@ number.2.Flute.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3028,11 +2978,6 @@ number.2.Flute.Music = {
         r4.
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3055,11 +3000,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 15]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3082,11 +3022,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 16]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3106,11 +3041,6 @@ number.2.Flute.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3130,11 +3060,6 @@ number.2.Flute.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3158,11 +3083,6 @@ number.2.Flute.Music = {
     r4
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3187,11 +3107,6 @@ number.2.Flute.Music = {
     r4
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3218,11 +3133,6 @@ number.2.Flute.Music = {
         r4.
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3248,11 +3158,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 22]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3284,11 +3189,6 @@ number.2.Flute.Music = {
         r4
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3313,11 +3213,6 @@ number.2.Flute.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3340,11 +3235,6 @@ number.2.Flute.Music = {
     r4.
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3364,11 +3254,6 @@ number.2.Flute.Music = {
     \f
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3393,11 +3278,6 @@ number.2.Flute.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3426,11 +3306,6 @@ number.2.Flute.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3463,11 +3338,6 @@ number.2.Flute.Music = {
 
         % [Flute.Music measure 31]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3492,11 +3362,6 @@ number.2.Flute.Music = {
     r2.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3519,11 +3384,6 @@ number.2.Flute.Music = {
     r4
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3550,11 +3410,6 @@ number.2.Flute.Music = {
         r2
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3581,11 +3436,6 @@ number.2.Flute.Music = {
         \mf
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3605,11 +3455,6 @@ number.2.Flute.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3635,11 +3480,6 @@ number.2.Flute.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3668,11 +3508,6 @@ number.2.Flute.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3697,11 +3532,6 @@ number.2.Flute.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3729,11 +3559,6 @@ number.2.Flute.Music = {
 
         % [Flute.Music measure 41]
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3753,11 +3578,6 @@ number.2.Flute.Music = {
         \pp
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3780,11 +3600,6 @@ number.2.Flute.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3805,11 +3620,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 43]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3829,11 +3639,6 @@ number.2.Flute.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3858,11 +3663,6 @@ number.2.Flute.Music = {
         \pp
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3887,11 +3687,6 @@ number.2.Flute.Music = {
     r2
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3912,11 +3707,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 46]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3936,11 +3726,6 @@ number.2.Flute.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -3966,11 +3751,6 @@ number.2.Flute.Music = {
 
         % [Flute.Music measure 48]
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -3995,11 +3775,6 @@ number.2.Flute.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4019,11 +3794,6 @@ number.2.Flute.Music = {
     \mp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4044,11 +3814,6 @@ number.2.Flute.Music = {
     \mf
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4077,11 +3842,6 @@ number.2.Flute.Music = {
         r8
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -4101,11 +3861,6 @@ number.2.Flute.Music = {
         \f
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -4133,11 +3888,6 @@ number.2.Flute.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4157,11 +3907,6 @@ number.2.Flute.Music = {
     \f
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4187,11 +3932,6 @@ number.2.Flute.Music = {
 
         % [Flute.Music measure 55]
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -4214,11 +3954,6 @@ number.2.Flute.Music = {
 
     % [Flute.Music measure 56]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4238,11 +3973,6 @@ number.2.Flute.Music = {
     \f
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5531,11 +5261,6 @@ number.2.Clarinet.Music = {
     \set Staff.shortInstrumentName = \faberge-cl-markup
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \faberge-match-sound-of-crotales-markup
       %! EXPLICIT_DYNAMIC
@@ -5560,11 +5285,6 @@ number.2.Clarinet.Music = {
     r4
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5584,11 +5304,6 @@ number.2.Clarinet.Music = {
     \f
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5615,11 +5330,6 @@ number.2.Clarinet.Music = {
         r4.
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5652,11 +5362,6 @@ number.2.Clarinet.Music = {
 
         % [Clarinet.Music measure 6]
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5685,11 +5390,6 @@ number.2.Clarinet.Music = {
         r8
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5714,11 +5414,6 @@ number.2.Clarinet.Music = {
     r2..
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5739,11 +5434,6 @@ number.2.Clarinet.Music = {
     \f
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5770,11 +5460,6 @@ number.2.Clarinet.Music = {
         r8
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5799,11 +5484,6 @@ number.2.Clarinet.Music = {
     r4
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5833,11 +5513,6 @@ number.2.Clarinet.Music = {
 
         % [Clarinet.Music measure 13]
         g'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5866,11 +5541,6 @@ number.2.Clarinet.Music = {
         r2.
 
         g'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5893,11 +5563,6 @@ number.2.Clarinet.Music = {
     \pp
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5922,11 +5587,6 @@ number.2.Clarinet.Music = {
     r8
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5953,11 +5613,6 @@ number.2.Clarinet.Music = {
         r4
 
         g'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -5982,11 +5637,6 @@ number.2.Clarinet.Music = {
     r4.
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6006,11 +5656,6 @@ number.2.Clarinet.Music = {
     \mp
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6033,11 +5678,6 @@ number.2.Clarinet.Music = {
     r8
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6062,11 +5702,6 @@ number.2.Clarinet.Music = {
         \mf
 
         g'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6093,11 +5728,6 @@ number.2.Clarinet.Music = {
         \f
 
         g'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6122,11 +5752,6 @@ number.2.Clarinet.Music = {
     r8
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6153,11 +5778,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 25]
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6177,11 +5797,6 @@ number.2.Clarinet.Music = {
     \f
 
     g'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6211,11 +5826,6 @@ number.2.Clarinet.Music = {
         r8
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6235,11 +5845,6 @@ number.2.Clarinet.Music = {
         \pp
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6268,11 +5873,6 @@ number.2.Clarinet.Music = {
         r4
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6297,11 +5897,6 @@ number.2.Clarinet.Music = {
     r8
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6331,11 +5926,6 @@ number.2.Clarinet.Music = {
         r4.
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6363,11 +5953,6 @@ number.2.Clarinet.Music = {
     r8
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6392,11 +5977,6 @@ number.2.Clarinet.Music = {
 
         % [Clarinet.Music measure 34]
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6425,11 +6005,6 @@ number.2.Clarinet.Music = {
         r2
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6454,11 +6029,6 @@ number.2.Clarinet.Music = {
     r4
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6481,11 +6051,6 @@ number.2.Clarinet.Music = {
     r2
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6512,11 +6077,6 @@ number.2.Clarinet.Music = {
         r4
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6538,11 +6098,6 @@ number.2.Clarinet.Music = {
         r8
 
         gs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -6566,11 +6121,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 40]
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6590,11 +6140,6 @@ number.2.Clarinet.Music = {
     \f
 
     gs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6660,11 +6205,6 @@ number.2.Clarinet.Music = {
     % [Clarinet.Music measure 47]
     \override DynamicLineSpanner.staff-padding = 8
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6721,11 +6261,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 50]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6782,11 +6317,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 53]
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6849,11 +6379,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 58]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6910,11 +6435,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 61]
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -6968,11 +6488,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 63]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7043,11 +6558,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 71]
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7104,11 +6614,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 74]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7165,11 +6670,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 77]
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7229,11 +6729,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 81]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7305,11 +6800,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 89]
     e4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -7366,11 +6856,6 @@ number.2.Clarinet.Music = {
 
     % [Clarinet.Music measure 92]
     eqs!4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -8731,11 +8216,6 @@ number.2.Percussion.Music = {
     \set Staff.shortInstrumentName = \faberge-perc-markup
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
     - \tweak extra-offset #'(-6 . 0)
     - \tweak staff-padding 6
@@ -8767,11 +8247,6 @@ number.2.Percussion.Music = {
 
         % [Percussion.Music measure 3]
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -8795,11 +8270,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 4]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8821,11 +8291,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 5]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8858,11 +8323,6 @@ number.2.Percussion.Music = {
         r4.
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -8888,11 +8348,6 @@ number.2.Percussion.Music = {
     r2
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8916,11 +8371,6 @@ number.2.Percussion.Music = {
     r2
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8948,11 +8398,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 12]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -8980,11 +8425,6 @@ number.2.Percussion.Music = {
         r2
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9012,11 +8452,6 @@ number.2.Percussion.Music = {
         \pp
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9044,11 +8479,6 @@ number.2.Percussion.Music = {
     r8
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9070,11 +8500,6 @@ number.2.Percussion.Music = {
     \pp
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9102,11 +8527,6 @@ number.2.Percussion.Music = {
         r2
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9140,11 +8560,6 @@ number.2.Percussion.Music = {
         r4
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9176,11 +8591,6 @@ number.2.Percussion.Music = {
         r8
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9208,11 +8618,6 @@ number.2.Percussion.Music = {
     r8
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9234,11 +8639,6 @@ number.2.Percussion.Music = {
     \mf
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9264,11 +8664,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 26]
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9291,11 +8686,6 @@ number.2.Percussion.Music = {
     r8
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9323,11 +8713,6 @@ number.2.Percussion.Music = {
         r2.
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9357,11 +8742,6 @@ number.2.Percussion.Music = {
     r4.
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9386,11 +8766,6 @@ number.2.Percussion.Music = {
     r4
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9411,11 +8786,6 @@ number.2.Percussion.Music = {
     \p
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9446,11 +8816,6 @@ number.2.Percussion.Music = {
         r4.
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9478,11 +8843,6 @@ number.2.Percussion.Music = {
 
         % [Percussion.Music measure 35]
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9509,11 +8869,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 37]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9542,11 +8897,6 @@ number.2.Percussion.Music = {
     r4
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9570,11 +8920,6 @@ number.2.Percussion.Music = {
     r2.
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9602,11 +8947,6 @@ number.2.Percussion.Music = {
         r4.
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9632,11 +8972,6 @@ number.2.Percussion.Music = {
     r2..
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9658,11 +8993,6 @@ number.2.Percussion.Music = {
     \pp
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9690,11 +9020,6 @@ number.2.Percussion.Music = {
         r4.
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9720,11 +9045,6 @@ number.2.Percussion.Music = {
     r8
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9748,11 +9068,6 @@ number.2.Percussion.Music = {
     r2
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9780,11 +9095,6 @@ number.2.Percussion.Music = {
         r4
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9811,11 +9121,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 49]
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9836,11 +9141,6 @@ number.2.Percussion.Music = {
     \mp
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9864,11 +9164,6 @@ number.2.Percussion.Music = {
     r2.
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9896,11 +9191,6 @@ number.2.Percussion.Music = {
         r2
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -9927,11 +9217,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 53]
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9952,11 +9237,6 @@ number.2.Percussion.Music = {
     \f
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -9987,11 +9267,6 @@ number.2.Percussion.Music = {
         r4.
 
         f'8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10017,11 +9292,6 @@ number.2.Percussion.Music = {
     r8
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10042,11 +9312,6 @@ number.2.Percussion.Music = {
     \f
 
     f'8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10074,11 +9339,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10099,11 +9359,6 @@ number.2.Percussion.Music = {
         \pp
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10128,11 +9383,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 59]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10153,11 +9403,6 @@ number.2.Percussion.Music = {
     \pp
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10178,11 +9423,6 @@ number.2.Percussion.Music = {
     \pp
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10206,11 +9446,6 @@ number.2.Percussion.Music = {
     r8
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10238,11 +9473,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10266,11 +9496,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 62]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10293,11 +9518,6 @@ number.2.Percussion.Music = {
     r8
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10365,11 +9585,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10399,11 +9614,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10427,11 +9637,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 73]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10452,11 +9657,6 @@ number.2.Percussion.Music = {
     \mf
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10478,11 +9678,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 74]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10503,11 +9698,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10528,11 +9718,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10558,11 +9743,6 @@ number.2.Percussion.Music = {
         \f
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10588,11 +9768,6 @@ number.2.Percussion.Music = {
     r4
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10614,11 +9789,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 77]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10639,11 +9809,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10674,11 +9839,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10699,11 +9859,6 @@ number.2.Percussion.Music = {
         \f
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10727,11 +9882,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10752,11 +9902,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10881,11 +10026,6 @@ number.2.Percussion.Music = {
         r8
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
         - \tweak staff-padding 6
         ^ \baca-crotales-bowed-markup
@@ -10908,11 +10048,6 @@ number.2.Percussion.Music = {
         \f
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10940,11 +10075,6 @@ number.2.Percussion.Music = {
         \f
 
         fs'!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
         \laissezVibrer
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -10968,11 +10098,6 @@ number.2.Percussion.Music = {
 
     % [Percussion.Music measure 91]
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -10993,11 +10118,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -11021,11 +10141,6 @@ number.2.Percussion.Music = {
     r8
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -11046,11 +10161,6 @@ number.2.Percussion.Music = {
     \f
 
     fs'!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     \laissezVibrer
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -11127,11 +10237,6 @@ number.2.Violin.Music = {
     \set Staff.shortInstrumentName = \faberge-vn-markup
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
     - \tweak padding 1.5
     ^ \faberge-match-sound-of-crotales-markup
       %! EXPLICIT_DYNAMIC
@@ -11156,11 +10261,6 @@ number.2.Violin.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11180,11 +10280,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11209,11 +10304,6 @@ number.2.Violin.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11236,11 +10326,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11273,11 +10358,6 @@ number.2.Violin.Music = {
         r4
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11305,11 +10385,6 @@ number.2.Violin.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11336,11 +10411,6 @@ number.2.Violin.Music = {
         r4
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11365,11 +10435,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11399,11 +10464,6 @@ number.2.Violin.Music = {
         r4.
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11432,11 +10492,6 @@ number.2.Violin.Music = {
         r8
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11463,11 +10518,6 @@ number.2.Violin.Music = {
     r4.
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11497,11 +10547,6 @@ number.2.Violin.Music = {
         r4.
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11526,11 +10571,6 @@ number.2.Violin.Music = {
     r2.
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11551,11 +10591,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 19]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11584,11 +10619,6 @@ number.2.Violin.Music = {
         r8
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11617,11 +10647,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 21]
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11641,11 +10666,6 @@ number.2.Violin.Music = {
         \f
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11670,11 +10690,6 @@ number.2.Violin.Music = {
     r2
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11695,11 +10710,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 23]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11727,11 +10737,6 @@ number.2.Violin.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11761,11 +10766,6 @@ number.2.Violin.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11794,11 +10794,6 @@ number.2.Violin.Music = {
         r4.
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11824,11 +10819,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 30]
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11854,11 +10844,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11878,11 +10863,6 @@ number.2.Violin.Music = {
     \p
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11912,11 +10892,6 @@ number.2.Violin.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -11944,11 +10919,6 @@ number.2.Violin.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -11976,11 +10946,6 @@ number.2.Violin.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12000,11 +10965,6 @@ number.2.Violin.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12031,11 +10991,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12058,11 +11013,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12082,11 +11032,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12113,11 +11058,6 @@ number.2.Violin.Music = {
         r8
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12140,11 +11080,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 42]
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12164,11 +11099,6 @@ number.2.Violin.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12196,11 +11126,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 44]
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12220,11 +11145,6 @@ number.2.Violin.Music = {
         \pp
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12249,11 +11169,6 @@ number.2.Violin.Music = {
     r2..
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12274,11 +11189,6 @@ number.2.Violin.Music = {
     \pp
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12308,11 +11218,6 @@ number.2.Violin.Music = {
         r8
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12337,11 +11242,6 @@ number.2.Violin.Music = {
     r4
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12364,11 +11264,6 @@ number.2.Violin.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12388,11 +11283,6 @@ number.2.Violin.Music = {
     \mf
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12418,11 +11308,6 @@ number.2.Violin.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12445,11 +11330,6 @@ number.2.Violin.Music = {
     r4.
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12476,11 +11356,6 @@ number.2.Violin.Music = {
         r4
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12507,11 +11382,6 @@ number.2.Violin.Music = {
         \f
 
         f'''8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12538,11 +11408,6 @@ number.2.Violin.Music = {
     r8
 
     f'''8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12567,11 +11432,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 57]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12591,11 +11451,6 @@ number.2.Violin.Music = {
         \pp
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12622,11 +11477,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 58]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12651,11 +11501,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12675,11 +11520,6 @@ number.2.Violin.Music = {
     \pp
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12700,11 +11540,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 60]
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -12729,11 +11564,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 61]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12753,11 +11583,6 @@ number.2.Violin.Music = {
         \pp
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -12782,11 +11607,6 @@ number.2.Violin.Music = {
     r4.
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13015,11 +11835,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 71]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SPANNER_STOP
           %! SPAZZOLATO_SPANNER
         \bacaStopTextSpanSpazzolato
@@ -13049,11 +11864,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 72]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13073,11 +11883,6 @@ number.2.Violin.Music = {
         \mp
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13102,11 +11907,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13126,11 +11926,6 @@ number.2.Violin.Music = {
     \mf
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13151,11 +11946,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13175,11 +11965,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13204,11 +11989,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 75]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13230,11 +12010,6 @@ number.2.Violin.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13257,11 +12032,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13284,11 +12054,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13315,11 +12080,6 @@ number.2.Violin.Music = {
         r8
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13348,11 +12108,6 @@ number.2.Violin.Music = {
         r4
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13375,11 +12130,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 80]
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13399,11 +12149,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13423,11 +12168,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13628,11 +12368,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 89]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SPANNER_STOP
           %! SPAZZOLATO_SPANNER
         \bacaStopTextSpanSpazzolato
@@ -13655,11 +12390,6 @@ number.2.Violin.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13686,11 +12416,6 @@ number.2.Violin.Music = {
 
         % [Violin.Music measure 90]
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13710,11 +12435,6 @@ number.2.Violin.Music = {
         \f
 
         fs'''!8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t
@@ -13739,11 +12459,6 @@ number.2.Violin.Music = {
     r8
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13764,11 +12479,6 @@ number.2.Violin.Music = {
 
     % [Violin.Music measure 92]
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13788,11 +12498,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -13812,11 +12517,6 @@ number.2.Violin.Music = {
     \f
 
     fs'''!8
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
