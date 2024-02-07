@@ -429,7 +429,7 @@ def vn(m):
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
-                "p niente o< p > pp",
+                "p ? o< p > pp",
             )
             leaves = o.leaves()[-3:]
             baca.piecewise.scp(
@@ -473,7 +473,7 @@ def va(m):
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
-                "niente o< p > pp p",
+                "o< p > pp p",
             )
             leaves = o.leaves()[:3]
             baca.piecewise.scp(

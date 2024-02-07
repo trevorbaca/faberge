@@ -2500,11 +2500,6 @@ number.8.Violin.Music = {
 
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -2610,11 +2605,6 @@ number.8.Violin.Music = {
 
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -2705,11 +2695,6 @@ number.8.Violin.Music = {
 
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -2798,11 +2783,6 @@ number.8.Violin.Music = {
 
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -3109,11 +3089,6 @@ number.8.Viola.Music = {
         \startStaff
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
@@ -3216,11 +3191,6 @@ number.8.Viola.Music = {
         % [Viola.Music measure 9]
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -3309,11 +3279,6 @@ number.8.Viola.Music = {
         % [Viola.Music measure 10]
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow

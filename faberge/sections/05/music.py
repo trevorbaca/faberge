@@ -373,32 +373,31 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         )
         baca.glissando(o.tleaves())
-        runs = baca.select.rleak_runs(o)
-        for i, run in enumerate(runs):
-            if i == 0:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< mf >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i == 1:
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< mp >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i in (2, 3):
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< p >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
-            elif i in (4, 5):
-                baca.piecewise.hairpin(
-                    baca.select.clparts(run, [1]),
-                    "niente o< pp >o",
-                    do_not_start_spanner_on_final_piece=True,
-                )
+        runs = abjad.select.runs(o)
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[0]), [1, 2]),
+            "o< mf >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[1]), [1, 1, 1, 2]),
+            "o< mp >o ! o< mp >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[2]), [1, 2]),
+            "o< p >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[3]), [1, 1, 1, 2]),
+            "o< p >o ! o< p >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[4]), [1, 2]),
+            "o< pp >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(runs[5]), [1, 1, 1, 2]),
+            "o< pp >o ! o< pp >o !",
+        )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
         baca.rspanners.material_annotation(

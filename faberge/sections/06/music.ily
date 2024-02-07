@@ -2605,11 +2605,6 @@ number.6.Violin.Music = {
 
         ef'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -3031,11 +3026,6 @@ number.6.Viola.Music = {
         % [Viola.Music measure 2]
         d'4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow
@@ -3455,11 +3445,6 @@ number.6.Cello.Music = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
     R1 * 4/4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
