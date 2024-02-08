@@ -506,11 +506,11 @@ def cl(m):
             if len(plt) <= 2:
                 continue
             baca.spanners.hairpin(
-                baca.select.tleaves(plt)[:2],
+                plt[:2],
                 "o< p",
             )
             baca.spanners.hairpin(
-                baca.select.tleaves(plt)[-1:],
+                plt[-1:],
                 "(p) >o !",
                 with_next_leaf=True,
             )
@@ -549,7 +549,7 @@ def cl(m):
             if len(plt) <= 2:
                 continue
             baca.spanners.hairpin(
-                baca.select.tleaves(plt)[:2],
+                plt[:2],
                 "o< pp",
             )
             baca.spanners.hairpin(
@@ -562,7 +562,7 @@ def cl(m):
             if len(plt) <= 2:
                 continue
             baca.spanners.hairpin(
-                baca.select.tleaves(plt)[:2],
+                plt[:2],
                 "o< pp",
             )
             baca.spanners.hairpin(
@@ -579,7 +579,7 @@ def cl(m):
             if len(plt) <= 2:
                 continue
             baca.spanners.hairpin(
-                baca.select.tleaves(plt)[:2],
+                plt[:2],
                 "o< ppp",
             )
             baca.spanners.hairpin(
