@@ -539,7 +539,6 @@ def cl(m):
         library.single_swell(o, "p")
     with baca.scope(m[92]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.dynamic(o.rleaf(-1), "niente")
         baca.flat_glissando(o, "Dqs2")
         library.single_swell(o, "p")
 

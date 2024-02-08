@@ -596,8 +596,9 @@ def vn_va(cache):
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
             baca.spanners.hairpin(
-                o.rleaves(),
-                '("mf") >o niente',
+                o,
+                '("mf") >o !',
+                with_next_leaf=True,
             )
             baca.override.hairpin_shorten_pair(o, (4, 0))
             baca.override.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))
