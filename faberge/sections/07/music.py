@@ -274,7 +274,7 @@ def eh(m):
         with baca.scope(m[n]) as o:
             for plt in baca.select.plts(o):
                 baca.rspanners.trill(
-                    baca.select.tleaves(plt),
+                    plt,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
     with baca.scope(m.get(4, 8)) as o:
