@@ -426,7 +426,7 @@ def vn(m):
     with baca.scope(m[3]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
-            "p ? o< p > pp",
+            "p - o< p > pp",
         )
         baca.rspanners.material_annotation(
             o,

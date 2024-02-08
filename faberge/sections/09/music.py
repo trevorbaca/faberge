@@ -370,7 +370,7 @@ def vn(m):
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
-                "p ? o< p > pp",
+                "p - o< p > pp",
             )
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -394,19 +394,19 @@ def vn(m):
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
-                "mp ? o< mp > pp",
+                "mp - o< mp > pp",
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
-                "mf ? o< mf > pp",
+                "mf - o< mf > pp",
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
                 baca.select.lparts(clpart, [1, 1, 2]),
-                "f ? o< f > pp",
+                "f - o< f > pp",
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "B4")
@@ -437,7 +437,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "p ? o< p > pp ? o< p > pp p",
+            "p - o< p > pp - o< p > pp p",
         )
         baca.piecewise.scp(
             (),
@@ -457,7 +457,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "! o< mp > pp mp ? o< mp > pp mp",
+            "! o< mp > pp mp - o< mp > pp mp",
         )
         baca.piecewise.scp(
             (),
@@ -475,7 +475,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "mp ? o< mf > pp ? o< mf > pp mf",
+            "mp - o< mf > pp - o< mf > pp mf",
         )
         baca.piecewise.scp(
             (),
@@ -493,7 +493,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
-            "? o< f > pp f f ? o< f > pp",
+            "- o< f > pp f f - o< f > pp",
         )
         baca.piecewise.scp(
             (),
@@ -547,13 +547,13 @@ def vn_va(cache):
                 for clpart in baca.select.clparts(o, [4]):
                     baca.piecewise.hairpin(
                         baca.select.lparts(clpart, [1, 1, 2]),
-                        '"ff" ? o< ff > pp',
+                        '"ff" - o< ff > pp',
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.piecewise.hairpin(
                     baca.select.lparts(clpart, [1, 1, 2]),
-                    "mp ? o< mp > pp",
+                    "mp - o< mp > pp",
                 )
 
 
