@@ -223,17 +223,12 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.piecewise.hairpin(
-            abjad.select.partition_by_counts(
-                baca.select.pleaves(o),
-                [1],
-                cyclic=True,
-            ),
-            "o< mf >o",
+            baca.select.clparts(o, [1]),
+            "o< mf >o ! o< mf >o !",
+            with_next_leaf=True,
         )
         baca.pitch(o, "F5")
         baca.stem_tremolo(o.pleaves())
-    with baca.scope(m[3]) as o:
-        baca.dynamic(o[0], "niente")
     with baca.scope(m.get(1, 2)) as o:
         baca.rspanners.material_annotation(
             o,

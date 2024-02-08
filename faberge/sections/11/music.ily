@@ -2694,11 +2694,6 @@ number.11.Violin.Music = {
 
         as'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! SCP_SPANNER
           %! SPANNER_START
         - \baca-solid-line-with-arrow

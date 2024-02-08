@@ -2636,15 +2636,12 @@ number.7.Violin.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 4/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+              %! SPANNER_STOP
+            \!
               %! CLB_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCLB
@@ -3136,15 +3133,12 @@ number.7.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 4/4
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+              %! SPANNER_STOP
+            \!
               %! CLB_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCLB

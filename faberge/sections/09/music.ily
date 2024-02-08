@@ -2097,11 +2097,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2190,11 +2185,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2290,11 +2280,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2383,11 +2368,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2481,11 +2461,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2574,11 +2549,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2674,11 +2644,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2767,11 +2732,6 @@ number.9.Violin.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2868,11 +2828,6 @@ number.9.Violin.Music = {
 
             b'2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2961,11 +2916,6 @@ number.9.Violin.Music = {
 
             b'2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3059,11 +3009,6 @@ number.9.Violin.Music = {
 
             b'2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3158,11 +3103,6 @@ number.9.Violin.Music = {
 
             b'2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3251,11 +3191,6 @@ number.9.Violin.Music = {
 
             b'2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3366,11 +3301,6 @@ number.9.Violin.Music = {
 
             dtqf''!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3571,11 +3501,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
@@ -3662,11 +3587,6 @@ number.9.Viola.Music = {
 
             as'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanSCP
@@ -4446,11 +4366,6 @@ number.9.Viola.Music = {
 
             aqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4539,11 +4454,6 @@ number.9.Viola.Music = {
 
             aqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4637,11 +4547,6 @@ number.9.Viola.Music = {
 
             aqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4736,11 +4641,6 @@ number.9.Viola.Music = {
 
             aqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4829,11 +4729,6 @@ number.9.Viola.Music = {
 
             aqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -4940,11 +4835,6 @@ number.9.Viola.Music = {
 
             bqs'!2
             :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-            \!
               %! SCP_SPANNER
               %! SPANNER_START
             - \baca-solid-line-with-arrow
