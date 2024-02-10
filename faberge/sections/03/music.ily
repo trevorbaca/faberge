@@ -9380,19 +9380,14 @@ number.3.Violin.Music = {
     \baca-effort-ff
     [
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-text-spanner-left-markup \baca-spazzolato-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     \bacaStartTextSpanSpazzolato
 
     f'16
@@ -9841,18 +9836,13 @@ number.3.Violin.Music = {
       %! EXPLICIT_DYNAMIC
     \ppp
       %! SPANNER_STOP
-      %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-tasto-plus-pochiss-scratch-markup
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -10009,23 +9999,17 @@ number.3.Violin.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-p
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! EXPLICIT_DYNAMIC_COLOR
@@ -10513,7 +10497,6 @@ number.3.Violin.Music = {
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
     ^ \baca-ob-markup
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
     - \tweak stencil ##f
@@ -10553,19 +10536,14 @@ number.3.Violin.Music = {
           %! REDUNDANT_DYNAMIC
         \baca-effort-mf-parenthesized
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
 
@@ -10828,7 +10806,6 @@ number.3.Violin.Music = {
       %! NOTE
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! ANCHOR_NOTE
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
 
@@ -10878,19 +10855,14 @@ number.3.Viola.Music = {
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5.5
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
     \glissando
@@ -10941,7 +10913,6 @@ number.3.Viola.Music = {
 
         % [Viola.Music measure 9]
         r4
-          %! BOW_SPEED_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanBowSpeed
 
@@ -10952,19 +10923,14 @@ number.3.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-dashed-line-with-hook
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-text-spanner-left-markup \baca-spazzolato-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         \bacaStartTextSpanSpazzolato
 
     }
@@ -11474,18 +11440,13 @@ number.3.Viola.Music = {
       %! EXPLICIT_DYNAMIC
     \pp
       %! SPANNER_STOP
-      %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-tasto-plus-pochiss-scratch-markup
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
     \glissando
@@ -11642,23 +11603,17 @@ number.3.Viola.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-p
-          %! SCP_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! EXPLICIT_DYNAMIC_COLOR
@@ -12410,7 +12365,6 @@ number.3.Viola.Music = {
     \revert Stem.direction
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
     \revert Beam.positions
@@ -12508,45 +12462,31 @@ number.3.Cello.Music = {
       %! EXPLICIT_DYNAMIC
     \baca-p-parenthesized
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-solid-line-with-arrow
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-text-spanner-left-text "(poco vib.)"
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-text-spanner-right-text "vib. molto"
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     \bacaStartTextSpanVibrato
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(tasto)"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "molto pont."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
@@ -12573,11 +12513,9 @@ number.3.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
-      %! VIBRATO_SPANNER
     \bacaStopTextSpanVibrato
 
     % [Cello.Music measure 14]
@@ -12614,47 +12552,33 @@ number.3.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-ff-parenthesized
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(molto pont.)"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "tasto"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-solid-line-with-arrow
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-text-spanner-left-text "(vib. molto)"
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \baca-text-spanner-right-text "poco vib."
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! VIBRATO_SPANNER
     \bacaStartTextSpanVibrato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -12692,11 +12616,9 @@ number.3.Cello.Music = {
 
     % [Cello.Music measure 31]
     ef,!2.
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
       %! SPANNER_STOP
-      %! VIBRATO_SPANNER
     \bacaStopTextSpanVibrato
 
     % [Cello.Music measure 32]
@@ -12731,16 +12653,12 @@ number.3.Cello.Music = {
     \baca-p-parenthesized
     - \tweak staff-padding 5.5
     ^ \baca-non-vib-markup
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "(tasto)"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC_COLOR
@@ -12850,28 +12768,20 @@ number.3.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \ff
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-arrow
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "PO"
-      %! SCP_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-right-text "tasto poss."
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.padding 0.5
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak bound-details.right.stencil-align-dir-y #center
-      %! SCP_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! SCP_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanSCP
       %! EXPLICIT_DYNAMIC
@@ -12977,7 +12887,6 @@ number.3.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-parenthesized
-      %! SCP_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
@@ -13008,19 +12917,14 @@ number.3.Cello.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-mf
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! -PARTS
@@ -13487,7 +13391,6 @@ number.3.Cello.Music = {
     \revert Stem.direction
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
     \revert Beam.positions

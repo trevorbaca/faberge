@@ -1615,19 +1615,14 @@ number.4.Violin.Music = {
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -1757,7 +1752,6 @@ number.4.Violin.Music = {
     ]
 
     r8
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
 
@@ -2173,19 +2167,14 @@ number.4.Cello.Music = {
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \baca-text-spanner-left-text "IV"
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \tweak bound-details.left-broken.text IV
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     \bacaStartTextSpanStringNumber
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -2684,7 +2673,6 @@ number.4.Cello.Music = {
     \bacaStopTextSpanMaterialAnnotation
       %! ANCHOR_NOTE
       %! SPANNER_STOP
-      %! STRING_NUMBER_SPANNER
     \bacaStopTextSpanStringNumber
 
 }

@@ -1987,19 +1987,14 @@ number.13.Violin.Music = {
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
           %! SPANNER_START
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -2207,7 +2202,6 @@ number.13.Violin.Music = {
     \revert Stem.direction
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2288,19 +2282,14 @@ number.13.Viola.Music = {
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
           %! SPANNER_START
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -2508,7 +2497,6 @@ number.13.Viola.Music = {
     \revert Stem.direction
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2546,47 +2534,35 @@ number.13.Viola.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
 
     r4
-      %! BOW_SPEED_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanBowSpeed
 
     % [Viola.Music measure 8]
     ef!2.
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 5
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
 
     r4
-      %! BOW_SPEED_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanBowSpeed
     \revert DynamicLineSpanner.staff-padding
@@ -2684,19 +2660,14 @@ number.13.Cello.Music = {
         ^ \baca-reapplied-instrument-markup "(“Cello”)"
           %! SPANNER_START
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -2904,7 +2875,6 @@ number.13.Cello.Music = {
     \revert Stem.direction
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2929,19 +2899,14 @@ number.13.Cello.Music = {
     \override NoteHead.style = #'harmonic
     bf'!4
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \baca-text-spanner-left-text "IV"
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \tweak bound-details.left-broken.text IV
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     - \tweak staff-padding 5.5
       %! SPANNER_START
-      %! STRING_NUMBER_SPANNER
     \bacaStartTextSpanStringNumber
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -3092,7 +3057,6 @@ number.13.Cello.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! ANCHOR_NOTE
       %! SPANNER_STOP
-      %! STRING_NUMBER_SPANNER
     \bacaStopTextSpanStringNumber
 
 }
