@@ -2251,19 +2251,14 @@ number.7.Violin.Music = {
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
     [
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-text-spanner-left-markup \baca-spazzolato-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     \bacaStartTextSpanSpazzolato
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
@@ -2320,7 +2315,6 @@ number.7.Violin.Music = {
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
-      %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
     \revert DynamicLineSpanner.staff-padding
 
@@ -2358,19 +2352,14 @@ number.7.Violin.Music = {
         \baca-effort-mf
           %! SPANNER_START
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -2642,7 +2631,6 @@ number.7.Violin.Music = {
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
               %! SPANNER_STOP
             \!
-              %! CLB_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCLB
               %! MATERIAL_ANNOTATION_SPANNER
@@ -2730,19 +2718,14 @@ number.7.Viola.Music = {
         \baca-effort-f
         [
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-dashed-line-with-hook
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-text-spanner-left-markup \baca-spazzolato-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 5.5
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         \bacaStartTextSpanSpazzolato
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
@@ -2790,7 +2773,6 @@ number.7.Viola.Music = {
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
       %! SPANNER_STOP
-      %! SPAZZOLATO_SPANNER
     \bacaStopTextSpanSpazzolato
 
     % [Viola.Music measure 2]
@@ -2827,19 +2809,14 @@ number.7.Viola.Music = {
         \baca-effort-mf
           %! SPANNER_START
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -2897,7 +2874,6 @@ number.7.Viola.Music = {
     ]
 
     r2..
-      %! CLB_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2920,19 +2896,14 @@ number.7.Viola.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \mp
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2979,26 +2950,20 @@ number.7.Viola.Music = {
         - \tweak extra-offset #'(-2 . 0)
           %! EXPLICIT_DYNAMIC
         \baca-effort-mf
-          %! BOW_SPEED_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanBowSpeed
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
         [
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
-          %! CLB_SPANNER
           %! SPANNER_START
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup
-          %! CLB_SPANNER
           %! SPANNER_START
         - \tweak staff-padding 5.5
-          %! CLB_SPANNER
           %! SPANNER_START
         \bacaStartTextSpanCLB
           %! MATERIAL_ANNOTATION_SPANNER
@@ -3139,7 +3104,6 @@ number.7.Viola.Music = {
             %@% ^ \baca-duration-multiplier-markup #"4" #"4"
               %! SPANNER_STOP
             \!
-              %! CLB_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanCLB
               %! MATERIAL_ANNOTATION_SPANNER
@@ -3227,19 +3191,14 @@ number.7.Cello.Music = {
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \baca-text-spanner-left-text "XFB"
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     - \tweak staff-padding 3
-      %! BOW_SPEED_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanBowSpeed
     \glissando
@@ -3271,7 +3230,6 @@ number.7.Cello.Music = {
     :32
 
     r2.
-      %! BOW_SPEED_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanBowSpeed
 

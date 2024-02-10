@@ -817,19 +817,14 @@ number.1.Violin.Music = {
     ^ \baca-explicit-instrument-markup "(“Violin”)"
     [
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-dashed-line-with-hook
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \baca-text-spanner-left-markup \baca-spazzolato-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     - \tweak staff-padding 3
       %! SPANNER_START
-      %! SPAZZOLATO_SPANNER
     \bacaStartTextSpanSpazzolato
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -891,7 +886,6 @@ number.1.Violin.Music = {
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
-              %! SPAZZOLATO_SPANNER
             \bacaStopTextSpanSpazzolato
               %! FERMATA_MEASURE_EMPTY_BAR_EXTENT
             \override Staff.BarLine.bar-extent = #'(-2 . 0)
@@ -1000,19 +994,14 @@ number.1.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-f
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-dashed-line-with-hook
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \baca-text-spanner-left-markup \baca-spazzolato-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         - \tweak staff-padding 3
           %! SPANNER_START
-          %! SPAZZOLATO_SPANNER
         \bacaStartTextSpanSpazzolato
 
     }
@@ -1064,7 +1053,6 @@ number.1.Viola.Music = {
               %! NOTE
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! SPANNER_STOP
-              %! SPAZZOLATO_SPANNER
             \bacaStopTextSpanSpazzolato
 
         }
