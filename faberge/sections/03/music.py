@@ -791,8 +791,8 @@ def vn(m):
         baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
         baca.spanners.hairpin(
@@ -883,8 +883,8 @@ def va(m):
         baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
         baca.spanners.hairpin(
@@ -923,9 +923,9 @@ def vc(m):
         baca.mspanners.scp(
             (),
             "(tasto) -> molto pont.",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=True,
             pieces=[o.rleaves()],
+            staff_padding=3,
         )
         baca.mspanners.vibrato(
             [o.rleaves()],
@@ -973,9 +973,9 @@ def vc(m):
         baca.mspanners.scp(
             (),
             "(tasto) -> PO -> tasto poss.",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=True,
             pieces=baca.select.mgroups(leaves, [12, 12]),
+            staff_padding=3,
         )
     with baca.scope(m.get(61, 80)) as o:
         baca.override.beam_positions(o, -3.5)
