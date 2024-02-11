@@ -791,7 +791,7 @@ def vn(m):
         baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            pieces=baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
@@ -883,7 +883,7 @@ def va(m):
         baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            pieces=baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:

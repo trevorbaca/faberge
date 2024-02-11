@@ -564,7 +564,7 @@ def vc(m):
         baca.mspanners.scp(
             (),
             "tasto =|",
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            pieces=baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
