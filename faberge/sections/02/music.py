@@ -555,7 +555,7 @@ def pf(cache):
         baca.override.dots_transparent(o)
         baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 88)) as o:
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             r"\faberge-rf-one-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
