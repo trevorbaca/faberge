@@ -753,10 +753,9 @@ def va(m):
             hide_middle_stems=True,
         )
         baca.mspanners.scp(
-            (),
+            baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
             "tasto -> pont. ->",
             bookend=True,
-            pieces=baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -803,10 +802,9 @@ def va(m):
             hide_middle_stems=True,
         )
         baca.mspanners.scp(
-            (),
+            [o.ltleaves()],
             "tasto -> pont.",
             bookend=True,
-            pieces=[o.ltleaves()],
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -836,10 +834,9 @@ def va(m):
             hide_middle_stems=True,
         )
         baca.mspanners.scp(
-            (),
+            [o.ltleaves()],
             "pont. -> tasto",
             bookend=True,
-            pieces=[o.ltleaves()],
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -880,10 +877,9 @@ def vc(m):
             "p < f",
         )
         baca.mspanners.scp(
-            (),
+            [baca.select.rleak(baca.select.ltleaves(o))],
             "tasto -> PO",
             bookend=True,
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
             staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
@@ -892,10 +888,9 @@ def vc(m):
             "f > p",
         )
         baca.mspanners.scp(
-            (),
+            [baca.select.rleak(baca.select.ltleaves(o))],
             "(PO) -> tasto",
             bookend=True,
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
             staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
@@ -904,10 +899,9 @@ def vc(m):
             "p < ff",
         )
         baca.mspanners.scp(
-            (),
+            [baca.select.rleak(baca.select.ltleaves(o))],
             "(tasto) -> poco pont.",
             bookend=True,
-            pieces=[baca.select.rleak(baca.select.ltleaves(o))],
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -925,10 +919,9 @@ def vc(m):
         )
     with baca.scope(m.get(71, 80)) as o:
         baca.mspanners.scp(
-            (),
+            [o],
             "(poco pont.) -> tasto",
             bookend=True,
-            pieces=[o],
             staff_padding=3,
         )
     with baca.scope(m.get(71, 89)) as o:

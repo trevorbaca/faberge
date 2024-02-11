@@ -377,10 +377,9 @@ def vn(m):
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
                 baca.mspanners.scp(
-                    (),
+                    baca.select.lparts(clpart, [1, 2]),
                     "ord. -> pont. -> ord.",
                     bookend=True,
-                    pieces=baca.select.lparts(clpart, [1, 2]),
                     staff_padding=8,
                 )
     with baca.scope(m.get(1, 4)) as o:
@@ -440,10 +439,9 @@ def va(m):
             "p - o< p > pp - o< p > pp p",
         )
         baca.mspanners.scp(
-            (),
+            baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
-            pieces=baca.select.clparts(o, [1]),
             staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
@@ -460,10 +458,9 @@ def va(m):
             "! o< mp > pp mp - o< mp > pp mp",
         )
         baca.mspanners.scp(
-            (),
+            baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
-            pieces=baca.select.clparts(o, [1]),
             staff_padding=8,
         )
     with baca.scope(m[3]) as o:
@@ -478,10 +475,9 @@ def va(m):
             "mp - o< mf > pp - o< mf > pp mf",
         )
         baca.mspanners.scp(
-            (),
+            baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
-            pieces=baca.select.clparts(o, [1]),
             staff_padding=8,
         )
     with baca.scope(m[4]) as o:
@@ -496,10 +492,9 @@ def va(m):
             "- o< f > pp f f - o< f > pp",
         )
         baca.mspanners.scp(
-            (),
+            baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
-            pieces=baca.select.clparts(o, [1]),
             staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
@@ -507,10 +502,9 @@ def va(m):
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
                 baca.mspanners.scp(
-                    (),
+                    baca.select.lparts(clpart, [1, 2]),
                     "ord. -> pont. -> ord.",
                     bookend=True,
-                    pieces=baca.select.lparts(clpart, [1, 2]),
                     staff_padding=8,
                 )
     with baca.scope(m.get(5, 8)) as o:
@@ -562,9 +556,8 @@ def vc(m):
         baca.override.dls_staff_padding(o, 5)
         baca.flat_glissando(o, "F2")
         baca.mspanners.scp(
-            (),
+            baca.select.rleak(baca.select.ltleaves(o)),
             "tasto =|",
-            pieces=baca.select.rleak(baca.select.ltleaves(o)),
             staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
