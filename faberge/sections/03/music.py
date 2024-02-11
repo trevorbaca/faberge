@@ -927,12 +927,12 @@ def vc(m):
             bookend=True,
             pieces=[o.rleaves()],
         )
-        baca.piecewise.vibrato(
+        baca.mspanners.vibrato(
             (),
             "(poco vib.) -> vib. molto",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
         baca.spanners.hairpin(
@@ -947,12 +947,12 @@ def vc(m):
             bookend=True,
             pieces=[o.rleaves()],
         )
-        baca.piecewise.vibrato(
+        baca.mspanners.vibrato(
             (),
             "(vib. molto) -> poco vib.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
     with baca.scope(m.get(37, 60)) as o:
         baca.override.dls_staff_padding(o, 8)

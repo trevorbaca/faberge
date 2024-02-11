@@ -910,12 +910,12 @@ def vc(m):
             bookend=True,
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
-        baca.piecewise.vibrato(
+        baca.mspanners.vibrato(
             (),
             "(poco vib.) -> vib. mod.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
     with baca.scope(m.get(63, 70)) as o:
         baca.dynamic(o.pleaf(0), "ppp")
@@ -933,12 +933,12 @@ def vc(m):
             pieces=[o],
         )
     with baca.scope(m.get(71, 89)) as o:
-        baca.piecewise.vibrato(
+        baca.mspanners.vibrato(
             (),
             "sub. vib. mod. -> non vib. -> poco vib.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=baca.select.mgroups(o, [9, 10]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(71, 92)) as o:
         baca.piecewise.hairpin(
