@@ -443,10 +443,9 @@ def vn(m):
                 baca.stem_tremolo(plt)
         leaves = o.leaves()[-3:]
         baca.mspanners.scp(
-            (),
+            baca.select.lparts(leaves, [1, 2]),
             "ord. -> pont. -> ord.",
             bookend=True,
-            pieces=baca.select.lparts(leaves, [1, 2]),
             staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:
