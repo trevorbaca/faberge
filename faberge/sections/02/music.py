@@ -805,9 +805,9 @@ def va(m):
         baca.mspanners.scp(
             (),
             "tasto -> pont.",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=True,
             pieces=[o.ltleaves()],
+            staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(69, 70)) as o:
@@ -838,9 +838,9 @@ def va(m):
         baca.mspanners.scp(
             (),
             "pont. -> tasto",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             bookend=True,
             pieces=[o.ltleaves()],
+            staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.rspanners.xfb(
