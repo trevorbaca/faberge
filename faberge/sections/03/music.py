@@ -604,11 +604,9 @@ def pf(cache):
         baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 44)) as o:
         baca.mspanners.text(
-            (),
+            o.rleaves(),
             r"\faberge-rf-two-markup =|",
-            bookend=False,
             left_broken_text=r"\faberge-left-broken-rf-two-markup",
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(53, 79)) as o:
