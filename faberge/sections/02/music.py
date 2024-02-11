@@ -752,7 +752,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "tasto -> pont. ->",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -802,7 +802,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "tasto -> pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -835,7 +835,7 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "pont. -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -879,7 +879,7 @@ def vc(m):
             o.rleaves(),
             "p < f",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "tasto -> PO",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -891,7 +891,7 @@ def vc(m):
             o.rleaves(),
             "f > p",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(PO) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -903,7 +903,7 @@ def vc(m):
             o.rleaves(),
             "p < ff",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(tasto) -> poco pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -924,7 +924,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(71, 80)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(poco pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),

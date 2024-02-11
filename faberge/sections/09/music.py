@@ -376,7 +376,7 @@ def vn(m):
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -439,7 +439,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             "p - o< p > pp - o< p > pp p",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
@@ -459,7 +459,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             "! o< mp > pp mp - o< mp > pp mp",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
@@ -477,7 +477,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             "mp - o< mf > pp - o< mf > pp mf",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
@@ -495,7 +495,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             "- o< f > pp f f - o< f > pp",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
@@ -506,7 +506,7 @@ def va(m):
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 clpart = abjad.select.leaves(clpart)[-3:]
-                baca.piecewise.scp(
+                baca.mspanners.scp(
                     (),
                     "ord. -> pont. -> ord.",
                     abjad.Tweak(r"- \tweak staff-padding 8"),
@@ -561,7 +561,7 @@ def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 5)
         baca.flat_glissando(o, "F2")
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "tasto =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),

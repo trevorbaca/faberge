@@ -432,7 +432,7 @@ def vn(m):
                 "p - o< p > pp",
             )
             leaves = o.leaves()[-3:]
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
@@ -476,7 +476,7 @@ def va(m):
                 "o< p > pp p",
             )
             leaves = o.leaves()[:3]
-            baca.piecewise.scp(
+            baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
                 abjad.Tweak(r"- \tweak staff-padding 5.5"),
