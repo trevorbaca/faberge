@@ -928,10 +928,9 @@ def vc(m):
             pieces=[o.rleaves()],
         )
         baca.mspanners.vibrato(
-            (),
+            [o.rleaves()],
             "(poco vib.) -> vib. molto",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
@@ -948,10 +947,9 @@ def vc(m):
             pieces=[o.rleaves()],
         )
         baca.mspanners.vibrato(
-            (),
+            [o.rleaves()],
             "(vib. molto) -> poco vib.",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(37, 60)) as o:
