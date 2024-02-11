@@ -379,9 +379,9 @@ def vn(m):
                 baca.mspanners.scp(
                     (),
                     "ord. -> pont. -> ord.",
-                    abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=True,
                     pieces=baca.select.lparts(clpart, [1, 2]),
+                    staff_padding=8,
                 )
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -443,8 +443,8 @@ def va(m):
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=baca.select.clparts(o, [1]),
+            staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "A#4")
@@ -463,8 +463,8 @@ def va(m):
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=baca.select.clparts(o, [1]),
+            staff_padding=8,
         )
     with baca.scope(m[3]) as o:
         for plt in baca.select.plts(o):
@@ -481,8 +481,8 @@ def va(m):
             (),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=baca.select.clparts(o, [1]),
+            staff_padding=8,
         )
     with baca.scope(m[4]) as o:
         for plt in baca.select.plts(o):
@@ -499,8 +499,8 @@ def va(m):
             (),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
             pieces=baca.select.clparts(o, [1]),
+            staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -509,9 +509,9 @@ def va(m):
                 baca.mspanners.scp(
                     (),
                     "ord. -> pont. -> ord.",
-                    abjad.Tweak(r"- \tweak staff-padding 8"),
                     bookend=True,
                     pieces=baca.select.lparts(clpart, [1, 2]),
+                    staff_padding=8,
                 )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "Aqs4")
@@ -564,8 +564,8 @@ def vc(m):
         baca.mspanners.scp(
             (),
             "tasto =|",
-            abjad.Tweak(r"- \tweak staff-padding 3"),
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
+            staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")

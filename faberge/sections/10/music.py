@@ -391,9 +391,9 @@ def vn(m):
             baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=True,
                 pieces=baca.select.lparts(leaves, [1, 2]),
+                staff_padding=5.5,
             )
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Dtqf5")
@@ -435,9 +435,9 @@ def vn(m):
             baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=True,
                 pieces=baca.select.lparts(leaves, [1, 2]),
+                staff_padding=5.5,
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.rspanners.material_annotation(
@@ -468,9 +468,9 @@ def va(m):
             baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=True,
                 pieces=baca.select.lparts(leaves, [1, 2]),
+                staff_padding=5.5,
             )
     with baca.scope(m[4]) as o:
         baca.dynamic(o.phead(0), "mp")
@@ -502,9 +502,9 @@ def va(m):
             baca.mspanners.scp(
                 (),
                 "ord. -> pont. -> ord.",
-                abjad.Tweak(r"- \tweak staff-padding 5.5"),
                 bookend=True,
                 pieces=baca.select.lparts(leaves, [1, 2]),
+                staff_padding=5.5,
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.rspanners.material_annotation(

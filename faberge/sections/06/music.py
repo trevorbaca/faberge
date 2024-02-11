@@ -437,9 +437,9 @@ def vn(m):
         baca.mspanners.scp(
             (),
             "ord. -> pont. -> ord.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=baca.select.lparts(leaves, [1, 2]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -474,9 +474,9 @@ def va(m):
         baca.mspanners.scp(
             (),
             "ord. -> pont. -> ord.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=baca.select.lparts(leaves, [1, 2]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 6.5)

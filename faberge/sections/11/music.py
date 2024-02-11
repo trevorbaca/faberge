@@ -445,9 +445,9 @@ def vn(m):
         baca.mspanners.scp(
             (),
             "ord. -> pont. -> ord.",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=True,
             pieces=baca.select.lparts(leaves, [1, 2]),
+            staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
