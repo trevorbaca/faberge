@@ -606,10 +606,10 @@ def pf(cache):
         baca.mspanners.text(
             (),
             r"\faberge-rf-two-markup =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
             bookend=False,
             left_broken_text=r"\faberge-left-broken-rf-two-markup",
             pieces=[o.rleaves()],
+            staff_padding=5.5,
         )
     with baca.scope(m.get(53, 79)) as o:
         baca.staff_lines(o.leaf(0), 3)
