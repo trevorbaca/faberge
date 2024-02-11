@@ -788,7 +788,7 @@ def vn(m):
         baca.override.stem_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(23, 52)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -880,7 +880,7 @@ def va(m):
             "(pp) < f > pp",
         )
     with baca.scope(m.get(23, 52)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -920,7 +920,7 @@ def vc(m):
             o.rleaves(),
             "(p) < ff",
         )
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(tasto) -> molto pont.",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -939,7 +939,7 @@ def vc(m):
             "(ff) > p",
         )
     with baca.scope(m.get(23, 30)) as o:
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(molto pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
@@ -970,7 +970,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
         leaves = baca.select.rleak(baca.select.ltleaves(o))
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "(tasto) -> PO -> tasto poss.",
             abjad.Tweak(r"- \tweak staff-padding 3"),

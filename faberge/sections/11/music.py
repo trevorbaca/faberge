@@ -442,7 +442,7 @@ def vn(m):
             elif duration == abjad.Duration((1, 4)):
                 baca.stem_tremolo(plt)
         leaves = o.leaves()[-3:]
-        baca.piecewise.scp(
+        baca.mspanners.scp(
             (),
             "ord. -> pont. -> ord.",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
