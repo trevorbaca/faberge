@@ -911,10 +911,9 @@ def vc(m):
             pieces=[baca.select.rleak(baca.select.ltleaves(o))],
         )
         baca.mspanners.vibrato(
-            (),
+            [o.rleaves()],
             "(poco vib.) -> vib. mod.",
             bookend=True,
-            pieces=[o.rleaves()],
             staff_padding=5.5,
         )
     with baca.scope(m.get(63, 70)) as o:
@@ -934,10 +933,9 @@ def vc(m):
         )
     with baca.scope(m.get(71, 89)) as o:
         baca.mspanners.vibrato(
-            (),
+            baca.select.mgroups(o, [9, 10]),
             "sub. vib. mod. -> non vib. -> poco vib.",
             bookend=True,
-            pieces=baca.select.mgroups(o, [9, 10]),
             staff_padding=5.5,
         )
     with baca.scope(m.get(71, 92)) as o:
