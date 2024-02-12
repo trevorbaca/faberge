@@ -924,7 +924,7 @@ def vc(m):
         baca.piecewise.hairpin(
             baca.select.omgroups(o, [9, 9]),
             "ff > pp < p",
-            bookend=False,
+            do_not_bookend=True,
         )
 
 

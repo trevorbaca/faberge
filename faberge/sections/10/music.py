@@ -523,13 +523,13 @@ def vn_va(cache):
             baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 1 + 1]),
                 "mp p >o",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m[7]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 1 + 1]),
                 "p pp >o !",
-                bookend=False,
+                do_not_bookend=True,
             )
         with baca.scope(m[8]) as o:
             baca.piecewise.hairpin(

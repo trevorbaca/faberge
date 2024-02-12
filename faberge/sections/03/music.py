@@ -687,7 +687,7 @@ def perc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
             "ppp < pp >",
-            bookend=False,
+            do_not_bookend=True,
         )
         baca.markup(
             o.pleaf(0),
