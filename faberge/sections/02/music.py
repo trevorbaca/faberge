@@ -556,9 +556,10 @@ def pf(cache):
         baca.override.rest_transparent(o.rests())
     with baca.scope(m.get(1, 88)) as o:
         baca.mspanners.text(
-            o.rleaves(),
+            o,
             r"\faberge-rf-one-markup =|",
             left_broken_text=r"\faberge-left-broken-rf-one-markup",
+            rleak=True,
             staff_padding=5.5,
         )
     m = cache["lh"]
