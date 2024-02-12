@@ -431,10 +431,10 @@ def vn(m):
                 baca.select.lparts(o, [1, 1, 2]),
                 "p - o< p > pp",
             )
-            leaves = o.leaves()[-3:]
             baca.mspanners.scp(
-                baca.select.lparts(leaves, [1, 2]),
+                baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
+                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(6, 10)) as o:
@@ -473,10 +473,10 @@ def va(m):
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< p > pp p",
             )
-            leaves = o.leaves()[:3]
             baca.mspanners.scp(
-                baca.select.lparts(leaves, [1, 2]),
+                baca.select.lparts(o[:3], [1, 2]),
                 "ord. -> pont. -> ord.",
+                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(8, 10)) as o:

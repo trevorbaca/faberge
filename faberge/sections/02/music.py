@@ -753,6 +753,7 @@ def va(m):
         baca.mspanners.scp(
             baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
             "tasto -> pont. ->",
+            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -801,6 +802,7 @@ def va(m):
         baca.mspanners.scp(
             [o.ltleaves()],
             "tasto -> pont.",
+            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -832,6 +834,7 @@ def va(m):
         baca.mspanners.scp(
             [o.ltleaves()],
             "pont. -> tasto",
+            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -872,8 +875,9 @@ def vc(m):
             "p < f",
         )
         baca.mspanners.scp(
-            [baca.select.rleak(baca.select.ltleaves(o))],
+            [o.ltleaves()],
             "tasto -> PO",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
@@ -882,8 +886,9 @@ def vc(m):
             "f > p",
         )
         baca.mspanners.scp(
-            [baca.select.rleak(baca.select.ltleaves(o))],
+            [o.ltleaves()],
             "(PO) -> tasto",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
@@ -892,8 +897,9 @@ def vc(m):
             "p < ff",
         )
         baca.mspanners.scp(
-            [baca.select.rleak(baca.select.ltleaves(o))],
+            [o.ltleaves()],
             "(tasto) -> poco pont.",
+            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -913,6 +919,7 @@ def vc(m):
         baca.mspanners.scp(
             [o],
             "(poco pont.) -> tasto",
+            do_not_rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(71, 88)) as o:

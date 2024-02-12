@@ -433,10 +433,10 @@ def vn(m):
             "D4 Eb4 Eb4 Eb4",
             allow_repeats=True,
         )
-        leaves = o.leaves()[-3:]
         baca.mspanners.scp(
-            baca.select.lparts(leaves, [1, 2]),
+            baca.select.lparts(o[-3:], [1, 2]),
             "ord. -> pont. -> ord.",
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(1, 2)) as o:
@@ -468,10 +468,10 @@ def va(m):
             "D4 D4 D4 Eb4",
             allow_repeats=True,
         )
-        leaves = o.leaves()[:3]
         baca.mspanners.scp(
-            baca.select.lparts(leaves, [1, 2]),
+            baca.select.lparts(o[:3], [1, 2]),
             "ord. -> pont. -> ord.",
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(1, 2)) as o:
