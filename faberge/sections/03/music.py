@@ -327,7 +327,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o.pleaves(), [1, 1]),
             "o< mp >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -361,7 +361,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o.pleaves(), [1, 1]),
             "o< pp >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -499,7 +499,7 @@ def cl(m):
         baca.spanners.hairpin(
             o.tleaves()[-1:],
             "(p) >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
     with baca.scope(m.get(4, 52)) as o:
         for plt in baca.select.plts(o):
@@ -512,7 +512,7 @@ def cl(m):
             baca.spanners.hairpin(
                 plt[-1:],
                 "(p) >o !",
-                with_next_leaf=True,
+                rleak=True,
             )
     with baca.scope(m.get(4, 6)) as o:
         baca.flat_glissando(o, "Eqf2")

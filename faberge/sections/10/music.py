@@ -620,7 +620,7 @@ def vc(m, metadata):
                 baca.select.clparts(run, [1]),
                 "! o< p >o",
                 forbid_al_niente_to_bar_line=True,
-                with_next_leaf=True,
+                rleak=True,
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)

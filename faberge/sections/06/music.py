@@ -225,7 +225,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "o< mf >o ! o< mf >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.pitch(o, "F5")
         baca.stem_tremolo(o.pleaves())
