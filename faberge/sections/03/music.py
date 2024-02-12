@@ -919,7 +919,6 @@ def vc(m):
         baca.mspanners.scp(
             [o.rleaves()],
             "(tasto) -> molto pont.",
-            bookend=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -938,7 +937,6 @@ def vc(m):
             [o.rleaves()],
             "(molto pont.) -> tasto",
             abjad.Tweak(r"- \tweak staff-padding 3"),
-            bookend=True,
         )
         baca.mspanners.vibrato(
             [o.rleaves()],
@@ -967,7 +965,6 @@ def vc(m):
         baca.mspanners.scp(
             baca.select.mgroups(leaves, [12, 12]),
             "(tasto) -> PO -> tasto poss.",
-            bookend=True,
             staff_padding=3,
         )
     with baca.scope(m.get(61, 80)) as o:

@@ -379,7 +379,6 @@ def vn(m):
                 baca.mspanners.scp(
                     baca.select.lparts(clpart, [1, 2]),
                     "ord. -> pont. -> ord.",
-                    bookend=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(1, 4)) as o:
@@ -442,6 +441,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
+            bookend=False,
             staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
@@ -461,6 +461,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
+            bookend=False,
             staff_padding=8,
         )
     with baca.scope(m[3]) as o:
@@ -478,6 +479,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
+            bookend=False,
             staff_padding=8,
         )
     with baca.scope(m[4]) as o:
@@ -495,6 +497,7 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
+            bookend=False,
             staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
@@ -504,7 +507,6 @@ def va(m):
                 baca.mspanners.scp(
                     baca.select.lparts(clpart, [1, 2]),
                     "ord. -> pont. -> ord.",
-                    bookend=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(5, 8)) as o:
