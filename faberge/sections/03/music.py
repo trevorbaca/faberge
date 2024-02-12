@@ -924,7 +924,6 @@ def vc(m):
         baca.mspanners.vibrato(
             [o.rleaves()],
             "(poco vib.) -> vib. molto",
-            bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
@@ -941,7 +940,6 @@ def vc(m):
         baca.mspanners.vibrato(
             [o.rleaves()],
             "(vib. molto) -> poco vib.",
-            bookend=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(37, 60)) as o:
