@@ -598,7 +598,7 @@ def vn_va(cache):
             baca.spanners.hairpin(
                 o,
                 '("mf") >o !',
-                with_next_leaf=True,
+                rleak=True,
             )
             baca.override.hairpin_shorten_pair(o, (4, 0))
             baca.override.dynamic_text_extra_offset(o.pleaf(0), (-4, 0))

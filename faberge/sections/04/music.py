@@ -443,17 +443,17 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.clparts(runs[1], [1]),
             "o< mp >o ! o< mp >o ! o< mp >o ! o< mp >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(runs[2], [1]),
             "o< mf >o ! o< mf >o ! o< mf >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(runs[3], [1]),
             "o< f >o ! o< f >o ! o< f >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
 
 

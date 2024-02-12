@@ -253,7 +253,7 @@ def eh(m):
         baca.spanners.hairpin(
             baca.select.tleaves(o),
             "f >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
         baca.rspanners.material_annotation(
             baca.select.tleaves(o),

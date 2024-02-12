@@ -375,7 +375,7 @@ def fl(m):
         baca.spanners.hairpin(
             o.tleaves()[-1:],
             "(p) >o !",
-            with_next_leaf=True,
+            rleak=True,
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.pitches(o, "F#4 F#3", allow_repeats=True)

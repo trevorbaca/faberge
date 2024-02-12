@@ -812,7 +812,7 @@ def single_swell(argument, peak):
     baca.spanners.hairpin(
         argument.tleaves()[-1:],
         f"({peak}) >o !",
-        with_next_leaf=True,
+        rleak=True,
     )
 
 
