@@ -435,7 +435,6 @@ def vn(m):
             baca.mspanners.scp(
                 baca.select.lparts(leaves, [1, 2]),
                 "ord. -> pont. -> ord.",
-                bookend=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(6, 10)) as o:
@@ -478,7 +477,6 @@ def va(m):
             baca.mspanners.scp(
                 baca.select.lparts(leaves, [1, 2]),
                 "ord. -> pont. -> ord.",
-                bookend=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(8, 10)) as o:
