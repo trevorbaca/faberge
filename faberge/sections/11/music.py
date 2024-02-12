@@ -441,10 +441,10 @@ def vn(m):
                 baca.quadruple_staccato(plt)
             elif duration == abjad.Duration((1, 4)):
                 baca.stem_tremolo(plt)
-        leaves = o.leaves()[-3:]
         baca.mspanners.scp(
-            baca.select.lparts(leaves, [1, 2]),
+            baca.select.lparts(o[-3:], [1, 2]),
             "ord. -> pont. -> ord.",
+            do_not_rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:

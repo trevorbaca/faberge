@@ -375,10 +375,10 @@ def vn(m):
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                clpart = abjad.select.leaves(clpart)[-3:]
                 baca.mspanners.scp(
-                    baca.select.lparts(clpart, [1, 2]),
+                    baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
+                    do_not_rleak=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(1, 4)) as o:
@@ -442,6 +442,7 @@ def va(m):
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
@@ -462,6 +463,7 @@ def va(m):
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m[3]) as o:
@@ -480,6 +482,7 @@ def va(m):
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m[4]) as o:
@@ -498,15 +501,16 @@ def va(m):
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
             do_not_bookend=True,
+            do_not_rleak=True,
             staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                clpart = abjad.select.leaves(clpart)[-3:]
                 baca.mspanners.scp(
-                    baca.select.lparts(clpart, [1, 2]),
+                    baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
+                    do_not_rleak=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(5, 8)) as o:
@@ -558,8 +562,9 @@ def vc(m):
         baca.override.dls_staff_padding(o, 5)
         baca.flat_glissando(o, "F2")
         baca.mspanners.scp(
-            baca.select.rleak(baca.select.ltleaves(o)),
+            o.ltleaves(),
             "tasto =|",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
