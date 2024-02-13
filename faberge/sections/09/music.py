@@ -564,7 +564,6 @@ def vc(m):
         baca.mspanners.scp(
             o.ltleaves(),
             "tasto =|",
-            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
