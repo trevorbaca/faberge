@@ -296,8 +296,9 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.piecewise.hairpin(
-                    baca.select.lparts(o, [1, 1, 2]),
+                    baca.select.lparts(o, [1, 1, 1]),
                     "o< mp >o p > pp",
+                    rleak=True,
                 )
                 baca.rspanners.trill(
                     o.leaves()[:2],
@@ -425,8 +426,9 @@ def perc(m):
 def vn(m):
     with baca.scope(m[2]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1, 2]),
+            baca.select.lparts(o, [1, 1, 1]),
             "p - o< p > pp",
+            rleak=True,
         )
         baca.pitches(
             o,
@@ -460,8 +462,9 @@ def vn(m):
 def va(m):
     with baca.scope(m[2]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1, 2]),
+            baca.select.lparts(o, [1, 1, 1]),
             "o< p > pp p",
+            rleak=True,
         )
         baca.pitches(
             o,

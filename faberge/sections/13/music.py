@@ -263,8 +263,9 @@ def fl(m):
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
         baca.glissando(o.pleaves()[2:], allow_repeats=True)
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1, 2]),
+            baca.select.lparts(o, [1, 1, 1]),
             "o< mp >o p > pp",
+            rleak=True,
         )
         baca.rspanners.material_annotation(
             o,
@@ -291,8 +292,9 @@ def eh(m):
     with baca.scope(m.get(5, 8)) as o:
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
-                baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
+                baca.select.lparts(run, [1, 1]),
                 "o< mf >o !",
+                rleak=True,
             )
             baca.rspanners.trill(
                 run,
@@ -521,8 +523,9 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 1, 1, 2]),
+            baca.select.lparts(run, [1, 1, 1, 1, 1, 1]),
             "o< pp >o ! o< pp >o ! o< pp >o !",
+            rleak=True,
         )
 
 

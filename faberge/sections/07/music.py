@@ -312,8 +312,9 @@ def fl_cl(cache):
         m = cache[name]
         with baca.scope(m[2]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< p >o pp > ppp",
+                rleak=True,
             )
         for n in [2, 4]:
             with baca.scope(m[n]) as o:
@@ -326,8 +327,9 @@ def fl_cl(cache):
                 )
         with baca.scope(m[4]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< pp >o ppp > pppp",
+                rleak=True,
             )
         with baca.scope(m[5]) as o:
             baca.espressivo(
@@ -436,8 +438,9 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
         baca.spanners.hairpin(
-            o.leaves()[:2],
+            o[:1],
             "o<| mf",
+            rleak=True,
         )
         baca.rspanners.material_annotation(
             o,

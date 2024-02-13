@@ -191,15 +191,17 @@ def fl(m):
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< p >o !",
+            rleak=True,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.override.dls_staff_padding(o, 4)
     with baca.scope(m[6]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
+            rleak=True,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.rspanners.material_annotation(
@@ -211,13 +213,15 @@ def fl(m):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< mf >o !",
+            rleak=True,
         )
     with baca.scope(m[8]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< f >o !",
+            rleak=True,
         )
 
 
@@ -262,8 +266,9 @@ def eh(m):
     with baca.scope(m.get(1, 6)) as o:
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
-                baca.select.lparts(baca.select.rleak(run), [1, 1 + 1]),
+                baca.select.lparts(run, [1, 1]),
                 "o< mf >o !",
+                rleak=True,
             )
             baca.rspanners.trill(
                 run,
@@ -398,18 +403,21 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(run), [1, 2]),
+            baca.select.lparts(run, [1, 1]),
             "o< mp >o !",
+            rleak=True,
         )
         run = abjad.select.run(o, 1)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 2]),
+            baca.select.lparts(run, [1, 1, 1, 1]),
             "o< mf >o ! o< mf >o !",
+            rleak=True,
         )
         run = abjad.select.run(o, 2)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(run), [1, 2]),
+            baca.select.lparts(run, [1, 1]),
             "o< f >o !",
+            rleak=True,
         )
     with baca.scope(m[5]) as o:
         baca.clef(o.leaf(0), "bass")
@@ -418,8 +426,9 @@ def vc(m, metadata):
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 1 + 1]),
+                baca.select.lparts(o, [1, 1]),
                 "o< p >o !",
+                rleak=True,
             )
             baca.pitch(o, "F2")
             baca.stem_tremolo(o.pleaves())
@@ -431,16 +440,19 @@ def fl_vn(cache):
         with baca.scope(m.get(1, 3)) as o:
             plts = baca.select.plts(o)
             baca.spanners.hairpin(
-                baca.select.rleak(plts[0]),
+                plts[0],
                 'o< "mf"',
+                rleak=True,
             )
             baca.spanners.hairpin(
-                baca.select.rleak(plts[1]),
+                plts[1],
                 'o< "f"',
+                rleak=True,
             )
             baca.spanners.hairpin(
-                baca.select.rleak(plts[2]),
+                plts[2],
                 'o< "ff"',
+                rleak=True,
             )
 
 

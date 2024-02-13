@@ -768,10 +768,10 @@ def clb_staff_positions(argument, *, rotation=None):
 
 def dal_niente_hairpins(argument, stop):
     for run in baca.select.runs(argument):
-        run = baca.select.rleaves(run)
         baca.piecewise.hairpin(
             [run],
             f"o< {stop}",
+            rleak=True,
         )
 
 
@@ -784,11 +784,11 @@ def increasing_dal_niente_hairpins(argument):
         3: "mf",
     }
     for i, run in enumerate(runs):
-        run = baca.select.rleaves(run)
         peak = i_to_peak.get(i, "f")
         baca.spanners.hairpin(
             run,
             f"o< {peak}",
+            rleak=True,
         )
 
 
@@ -806,8 +806,9 @@ def replace_with_piano_clusters(argument):
 
 def single_swell(argument, peak):
     baca.spanners.hairpin(
-        argument.tleaves()[:2],
+        argument.tleaves()[:1],
         f"o< {peak}",
+        rleak=True,
     )
     baca.spanners.hairpin(
         argument.tleaves()[-1:],
@@ -818,21 +819,18 @@ def single_swell(argument, peak):
 
 def swells(argument, dynamic):
     assert isinstance(dynamic, str), repr(dynamic)
-    # TODO: allow:
-    #   baca.piecewise.hairpin(
-    #        abjad.select.leaves(_).partition([2, 'most', 2])
-    #        'o< {dynamic} {dynamic} >o !',
-    #        )
     for run in baca.select.ntruns(argument):
         if len(run) <= 2:
             continue
-        baca.piecewise.hairpin(
-            [baca.select.tleaves(run)[:2]],
+        baca.spanners.hairpin(
+            run[:1],
             f"o< {dynamic}",
+            rleak=True,
         )
-        baca.piecewise.hairpin(
-            [baca.select.rleaves(run)[-2:]],
+        baca.spanners.hairpin(
+            run[-1:],
             f"({dynamic}) >o !",
+            rleak=True,
         )
 
 
