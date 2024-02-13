@@ -253,14 +253,16 @@ def fl_cl(cache):
                 )
         with baca.scope(m[1]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< p >o pp > ppp",
+                rleak=True,
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.piecewise.hairpin(
-                    baca.select.lparts(o, [1, 1, 2]),
+                    baca.select.lparts(o, [1, 1, 1]),
                     "o< pp >o ppp > pppp",
+                    rleak=True,
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.rspanners.material_annotation(
@@ -388,8 +390,9 @@ def perc(m):
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.spanners.hairpin(
-                o.leaves()[:2],
+                o[:1],
                 "o<| mf",
+                rleak=True,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(
@@ -425,8 +428,9 @@ def vn(m):
         )
     with baca.scope(m[3]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1, 2]),
+            baca.select.lparts(o, [1, 1, 1]),
             "p - o< p > pp",
+            rleak=True,
         )
         baca.rspanners.material_annotation(
             o,
@@ -450,8 +454,9 @@ def vn(m):
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp >o !",
+            rleak=True,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.rspanners.xfb(
@@ -528,9 +533,10 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
         baca.piecewise.hairpin(
-            baca.select.lparts(baca.select.rleak(run), [1, 1, 1, 1, 2]),
+            baca.select.lparts(run, [1, 1, 1, 1, 1]),
             "o< p >o ! o< p >o ! o< p",
             forbid_al_niente_to_bar_line=True,
+            rleak=True,
         )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))
@@ -559,8 +565,9 @@ def vc(m, metadata):
             hide_middle_stems=True,
         ),
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "mp >o !",
+            rleak=True,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.rspanners.xfb(

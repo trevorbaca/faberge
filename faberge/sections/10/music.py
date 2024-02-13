@@ -262,30 +262,35 @@ def fl_cl(cache):
             )
         with baca.scope(m[1]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< mp >o p > pp",
+                rleak=True,
             )
         with baca.scope(m[2]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< mf >o mp > p",
+                rleak=True,
             )
         with baca.scope(m[3]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< f >o mf > mp",
+                rleak=True,
             )
         for n in [4, 5]:
             with baca.scope(m[n]) as o:
                 baca.piecewise.hairpin(
-                    baca.select.lparts(o, [1, 1, 2]),
+                    baca.select.lparts(o, [1, 1, 1]),
                     "o< mp >o p > pp",
+                    rleak=True,
                 )
         for n in [6, 7, 8]:
             with baca.scope(m[n]) as o:
                 baca.piecewise.hairpin(
-                    baca.select.lparts(o, [1, 1, 2]),
+                    baca.select.lparts(o, [1, 1, 1]),
                     "o< p >o pp > ppp",
+                    rleak=True,
                 )
 
 
@@ -384,8 +389,9 @@ def vn(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "mp - o< mp > p",
+                rleak=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
@@ -457,8 +463,9 @@ def va(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "mp - o< mp > p",
+                rleak=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
@@ -521,15 +528,17 @@ def vn_va(cache):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 1 + 1]),
+                baca.select.lparts(o.rleaves(), [1, 1]),
                 "mp p >o",
                 do_not_bookend=True,
+                rleak=True,
             )
         with baca.scope(m[7]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 1 + 1]),
+                baca.select.lparts(o.rleaves(), [1, 1]),
                 "p pp >o !",
                 do_not_bookend=True,
+                rleak=True,
             )
         with baca.scope(m[8]) as o:
             baca.piecewise.hairpin(

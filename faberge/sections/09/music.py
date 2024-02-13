@@ -196,8 +196,9 @@ def fl(m):
         baca.pitch(o, "G3")
     with baca.scope(m[5]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< f >o !",
+            rleak=True,
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.pitch(o, "G#5")
@@ -211,13 +212,15 @@ def fl(m):
         )
     with baca.scope(m[6]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o.rleaves(), [1, 1 + 1]),
+            baca.select.lparts(o.rleaves(), [1, 1]),
             "o< mf >o !",
+            rleak=True,
         )
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1 + 1]),
+            baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
+            rleak=True,
         )
 
 
@@ -229,8 +232,9 @@ def eh(m):
         ):
             leaves = baca.select.rleaves(leaves)
             baca.piecewise.hairpin(
-                baca.select.lparts(leaves, [1, 1 + 1]),
+                baca.select.lparts(leaves, [1, 1]),
                 "o< mf >o !",
+                rleak=True,
             )
         baca.rspanners.material_annotation(
             o,
@@ -251,7 +255,7 @@ def eh(m):
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.spanners.hairpin(
-            baca.select.tleaves(o),
+            o.tleaves(),
             "f >o !",
             rleak=True,
         )
@@ -328,8 +332,9 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
         baca.spanners.hairpin(
-            o.leaves()[:2],
+            o[:1],
             "o<| f",
+            rleak=True,
         )
         baca.laissez_vibrer(o.ptails())
         baca.markup(
@@ -369,8 +374,9 @@ def vn(m):
     with baca.scope(m[1]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 2]),
+                baca.select.lparts(clpart, [1, 1, 1]),
                 "p - o< p > pp",
+                rleak=True,
             )
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -391,20 +397,23 @@ def vn(m):
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 2]),
+                baca.select.lparts(clpart, [1, 1, 1]),
                 "mp - o< mp > pp",
+                rleak=True,
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 2]),
+                baca.select.lparts(clpart, [1, 1, 1]),
                 "mf - o< mf > pp",
+                rleak=True,
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 2]),
+                baca.select.lparts(clpart, [1, 1, 1]),
                 "f - o< f > pp",
+                rleak=True,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "B4")
@@ -546,14 +555,16 @@ def vn_va(cache):
             with baca.scope(m[n]) as o:
                 for clpart in baca.select.clparts(o, [4]):
                     baca.piecewise.hairpin(
-                        baca.select.lparts(clpart, [1, 1, 2]),
+                        baca.select.lparts(clpart, [1, 1, 1]),
                         '"ff" - o< ff > pp',
+                        rleak=True,
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.piecewise.hairpin(
-                    baca.select.lparts(clpart, [1, 1, 2]),
+                    baca.select.lparts(clpart, [1, 1, 1]),
                     "mp - o< mp > pp",
+                    rleak=True,
                 )
 
 
@@ -569,8 +580,9 @@ def vc(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "p < f-poco-scratch",
+            rleak=True,
         )
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
@@ -612,8 +624,9 @@ def vc(m):
     with baca.scope(m[9]) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.piecewise.hairpin(
-            baca.select.clparts(baca.select.rleak(o), [1, 2]),
+            baca.select.clparts(o, [1, 1]),
             "pp p >o !",
+            rleak=True,
         )
         baca.pitch(o, "Eb2")
 

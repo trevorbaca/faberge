@@ -428,8 +428,9 @@ def vn(m):
     for n in [6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "p - o< p > pp",
+                rleak=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
@@ -470,8 +471,9 @@ def va(m):
     for n in [8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 2]),
+                baca.select.lparts(o, [1, 1, 1]),
                 "o< p > pp p",
+                rleak=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[:3], [1, 2]),
@@ -558,10 +560,10 @@ def perc_vn_vc(cache):
         m = cache[name]
         with baca.scope(m.get(4, 5)) as o:
             for plt in baca.select.plts(o):
-                plt = baca.select.rleaves(plt)
                 baca.spanners.hairpin(
                     plt,
                     'o< "f"',
+                    rleak=True,
                 )
         with baca.scope(m.get(6)) as o:
             baca.staff_lines(o.leaf(0), 5)

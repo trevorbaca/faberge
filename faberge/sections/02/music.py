@@ -369,8 +369,9 @@ def fl(m):
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "F#4")
         baca.spanners.hairpin(
-            o.tleaves()[:2],
+            o.tleaves()[:1],
             "o< p",
+            rleak=True,
         )
         baca.spanners.hairpin(
             o.tleaves()[-1:],
@@ -385,12 +386,14 @@ def fl(m):
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
         baca.spanners.hairpin(
-            o.tleaves()[:2],
+            o.tleaves()[:1],
             "o< p",
+            rleak=True,
         )
         baca.spanners.hairpin(
-            baca.select.rleak(baca.select.tleaves(o))[-2:],
+            o.tleaves()[-1:],
             "(p) >o !",
+            rleak=True,
         )
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         baca.breathe(o.pleaf(-1))
@@ -761,22 +764,25 @@ def va(m):
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(17, 22)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "pp < mp",
+            rleak=True,
         )
     with baca.scope(m.get(27, 30)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(31, 36)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "pp < mp",
+            rleak=True,
         )
     with baca.scope(m.get(41, 46)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(47, 52)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "pp < mp",
+            rleak=True,
         )
     with baca.scope(m.get(57, 62)) as o:
         baca.dynamic(o.pleaf(0), "pp")
@@ -813,8 +819,9 @@ def va(m):
         )
     with baca.scope(m.get(71, 76)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "pp < mp",
+            rleak=True,
         )
     with baca.scope(m.get(81, 88)) as o:
         baca.dynamic(o.phead(0), '"f"')
@@ -871,8 +878,9 @@ def vc(m):
         )
     with baca.scope(m.get(1, 16)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "p < f",
+            rleak=True,
         )
         baca.mspanners.scp(
             [o.ltleaves()],
@@ -881,8 +889,9 @@ def vc(m):
         )
     with baca.scope(m.get(23, 36)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "f > p",
+            rleak=True,
         )
         baca.mspanners.scp(
             [o.ltleaves()],
@@ -891,8 +900,9 @@ def vc(m):
         )
     with baca.scope(m.get(47, 54)) as o:
         baca.spanners.hairpin(
-            o.rleaves(),
+            o,
             "p < ff",
+            rleak=True,
         )
         baca.mspanners.scp(
             [o.ltleaves()],
