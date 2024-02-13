@@ -559,7 +559,6 @@ def pf(cache):
             o,
             r"\faberge-rf-one-markup =|",
             left_broken_text=r"\faberge-left-broken-rf-one-markup",
-            rleak=True,
             staff_padding=5.5,
         )
     m = cache["lh"]
