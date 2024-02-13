@@ -878,7 +878,6 @@ def vc(m):
         baca.mspanners.scp(
             [o.ltleaves()],
             "tasto -> PO",
-            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
@@ -889,7 +888,6 @@ def vc(m):
         baca.mspanners.scp(
             [o.ltleaves()],
             "(PO) -> tasto",
-            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
@@ -900,7 +898,6 @@ def vc(m):
         baca.mspanners.scp(
             [o.ltleaves()],
             "(tasto) -> poco pont.",
-            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(

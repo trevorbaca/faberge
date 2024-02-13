@@ -790,7 +790,6 @@ def vn(m):
         baca.mspanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
@@ -882,7 +881,6 @@ def va(m):
         baca.mspanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
-            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
@@ -922,7 +920,6 @@ def vc(m):
         baca.mspanners.scp(
             [o],
             "(tasto) -> molto pont.",
-            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -939,7 +936,6 @@ def vc(m):
         baca.mspanners.scp(
             [o],
             "(molto pont.) -> tasto",
-            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
