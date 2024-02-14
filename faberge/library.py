@@ -768,8 +768,8 @@ def clb_staff_positions(argument, *, rotation=None):
 
 def dal_niente_hairpins(argument, stop):
     for run in baca.select.runs(argument):
-        baca.piecewise.hairpin(
-            [run],
+        baca.spanners.hairpin(
+            run,
             f"o< {stop}",
             rleak=True,
         )
