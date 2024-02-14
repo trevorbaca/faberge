@@ -325,9 +325,8 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o.pleaves(), [1, 1]),
+            baca.select.lparts(o, [1, 1, 1]),
             "o< mp >o !",
-            rleak=True,
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -359,9 +358,8 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o.pleaves(), [1, 1]),
+            baca.select.lparts(o, [1, 1, 1]),
             "o< pp >o !",
-            rleak=True,
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -690,6 +688,7 @@ def perc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
             "ppp < pp >",
+            cyclic=True,
             do_not_bookend=True,
         )
         baca.markup(
@@ -706,11 +705,10 @@ def perc(cache):
         baca.stem_tremolo(
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
-    with baca.scope(m.get(53, 60)) as o:
+    with baca.scope(m.get(53, 61)) as o:
         baca.piecewise.hairpin(
-            baca.select.mgroups(o, [2, 6]),
+            baca.select.mgroups(o, [2, 6, 1]),
             "ppp < pp >o !",
-            rleak=True,
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -781,7 +779,7 @@ def vn(m):
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o, [8]),
+            baca.select.mgroups(o, [8, 7, 1]),
             "(ppp) < f > ppp",
         )
     with baca.scope(m.get(53, 68)) as o:
@@ -878,7 +876,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
         baca.piecewise.hairpin(
-            baca.select.cmgroups(o, [8]),
+            baca.select.mgroups(o, [8, 7, 1]),
             "(pp) < f > pp",
         )
     with baca.scope(m.get(23, 52)) as o:
