@@ -3480,8 +3480,6 @@ number.9.Viola.Music = {
             % [Viola.Music measure 2]
             as'!2
             :32
-              %! SPANNER_STOP
-            \!
               %! SPANNER_START
             - \baca-solid-line-with-arrow
               %! SPANNER_START
