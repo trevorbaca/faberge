@@ -535,7 +535,6 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.lparts(run, [1, 1, 1, 1, 1]),
             "o< p >o ! o< p >o ! o< p",
-            forbid_al_niente_to_bar_line=True,
             rleak=True,
         )
     with baca.scope(m[3]) as o:

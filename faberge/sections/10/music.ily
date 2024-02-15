@@ -422,9 +422,6 @@ number.10.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -489,9 +486,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -560,9 +554,6 @@ number.10.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -627,9 +618,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -698,9 +686,6 @@ number.10.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -765,9 +750,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -836,9 +818,6 @@ number.10.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -903,9 +882,6 @@ number.10.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1243,9 +1219,6 @@ number.10.Clarinet.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -1310,9 +1283,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1381,9 +1351,6 @@ number.10.Clarinet.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -1448,9 +1415,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1519,9 +1483,6 @@ number.10.Clarinet.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -1586,9 +1547,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1657,9 +1615,6 @@ number.10.Clarinet.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -1724,9 +1679,6 @@ number.10.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -2896,9 +2848,6 @@ number.10.Violin.Music = {
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak to-barline ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
 
             c''2
@@ -2965,9 +2914,6 @@ number.10.Violin.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             \>
@@ -3486,9 +3432,6 @@ number.10.Viola.Music = {
             - \tweak color #blue
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
-            - \tweak to-barline ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
             \>
 
             bf!2
@@ -3555,9 +3498,6 @@ number.10.Viola.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             \>
@@ -3756,9 +3696,6 @@ number.10.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
     }
@@ -3806,9 +3743,6 @@ number.10.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
     }
@@ -3854,9 +3788,6 @@ number.10.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4050,9 +3981,6 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -4089,9 +4017,6 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -4125,9 +4050,6 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>

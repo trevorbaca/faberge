@@ -635,7 +635,6 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.clparts(abjad.select.run(o, 2), [1]),
             "o< p >o ! o< p >o !",
-            forbid_al_niente_to_bar_line=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
