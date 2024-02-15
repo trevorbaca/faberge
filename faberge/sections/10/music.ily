@@ -2921,8 +2921,6 @@ number.10.Violin.Music = {
             c''2
             :32
               %! SPANNER_STOP
-            \!
-              %! SPANNER_STOP
             \bacaStopTextSpanSCP
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -2960,6 +2958,8 @@ number.10.Violin.Music = {
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
         \pp
+          %! SPANNER_STOP
+        \!
 
         c''2
         - \baca-staccati #4
@@ -3505,8 +3505,6 @@ number.10.Viola.Music = {
             bf!2
             :32
               %! SPANNER_STOP
-            \!
-              %! SPANNER_STOP
             \bacaStopTextSpanSCP
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3544,6 +3542,8 @@ number.10.Viola.Music = {
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
         \pp
+          %! SPANNER_STOP
+        \!
 
         bf!2
         - \baca-staccati #4
