@@ -512,9 +512,6 @@ number.14.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -553,9 +550,6 @@ number.14.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -598,9 +592,6 @@ number.14.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -639,9 +630,6 @@ number.14.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -784,9 +772,6 @@ number.14.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -829,9 +814,6 @@ number.14.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -878,9 +860,6 @@ number.14.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -923,9 +902,6 @@ number.14.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -972,9 +948,6 @@ number.14.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -1017,9 +990,6 @@ number.14.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -2652,9 +2622,6 @@ number.14.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -2693,9 +2660,6 @@ number.14.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -2728,9 +2692,6 @@ number.14.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -2767,9 +2728,6 @@ number.14.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -2832,9 +2790,6 @@ number.14.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     % [Cello.Music measure 6]
@@ -2867,9 +2822,6 @@ number.14.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -2906,9 +2858,6 @@ number.14.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     % [Cello.Music measure 8]
@@ -2941,9 +2890,6 @@ number.14.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>

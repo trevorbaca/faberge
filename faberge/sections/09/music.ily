@@ -445,9 +445,6 @@ number.9.Flute.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
 
     g'2
@@ -496,9 +493,6 @@ number.9.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -613,9 +607,6 @@ number.9.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r2
@@ -656,9 +647,6 @@ number.9.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
     }
@@ -695,9 +683,6 @@ number.9.Flute.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -864,9 +849,6 @@ number.9.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r1
@@ -909,9 +891,6 @@ number.9.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -1002,9 +981,6 @@ number.9.EnglishHorn.Music = {
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             - \tweak color #blue
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
             \>
@@ -1253,9 +1229,6 @@ number.9.Clarinet.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         g2
@@ -1305,9 +1278,6 @@ number.9.Clarinet.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4709,9 +4679,6 @@ number.9.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         e,2
@@ -4752,9 +4719,6 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4802,9 +4766,6 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -4855,9 +4816,6 @@ number.9.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         e,2
@@ -4898,9 +4856,6 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -5003,9 +4958,6 @@ number.9.Cello.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>

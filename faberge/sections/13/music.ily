@@ -405,9 +405,6 @@ number.13.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         \once \override DynamicText.self-alignment-X = -1
@@ -624,9 +621,6 @@ number.13.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -669,9 +663,6 @@ number.13.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -718,9 +709,6 @@ number.13.EnglishHorn.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-        - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
         \>
 
         r4
@@ -763,9 +751,6 @@ number.13.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak to-barline ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
@@ -2937,9 +2922,6 @@ number.13.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -2975,9 +2957,6 @@ number.13.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \glissando
 
@@ -3010,9 +2989,6 @@ number.13.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
