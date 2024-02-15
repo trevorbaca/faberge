@@ -2975,6 +2975,8 @@ number.10.Violin.Music = {
             c''2
             :32
               %! SPANNER_STOP
+            \!
+              %! SPANNER_STOP
             \bacaStopTextSpanSCP
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3563,6 +3565,8 @@ number.10.Viola.Music = {
             bf!2
             :32
               %! SPANNER_STOP
+            \!
+              %! SPANNER_STOP
             \bacaStopTextSpanSCP
               %! SPANNER_START
             - \baca-solid-line-with-arrow
@@ -3991,8 +3995,6 @@ number.10.Cello.Music = {
     \override DynamicLineSpanner.staff-padding = 8
     \override NoteHead.style = #'harmonic
     bf'!4
-      %! SPANNER_STOP
-    \!
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
@@ -4048,6 +4050,9 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
     \>
     \glissando
 
@@ -4056,8 +4061,6 @@ number.10.Cello.Music = {
     \!
 
     d''8
-      %! SPANNER_STOP
-    \!
     [
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -4084,6 +4087,9 @@ number.10.Cello.Music = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
+    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -4121,6 +4127,9 @@ number.10.Cello.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
+    - \tweak to-barline ##t
+      %! EXPLICIT_DYNAMIC
+      %! SPANNER_START
     \>
     \glissando
 
@@ -4131,8 +4140,6 @@ number.10.Cello.Music = {
     r8
 
     aqf''!4.
-      %! SPANNER_STOP
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -4200,24 +4207,9 @@ number.10.Cello.Music = {
     d''8
       %! SPANNER_STOP
     \!
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak circled-tip ##t
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    \<
     \revert NoteHead.style
 
     r4.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \p
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation

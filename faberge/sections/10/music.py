@@ -624,13 +624,19 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         ),
         baca.glissando(o.tleaves())
-        for run in abjad.select.runs(o):
-            baca.piecewise.hairpin(
-                baca.select.clparts(run, [1]),
-                "! o< p >o",
-                forbid_al_niente_to_bar_line=True,
-                rleak=True,
-            )
+        baca.piecewise.hairpin(
+            baca.select.lparts(baca.select.rleak(abjad.select.run(o, 0)), [1, 1, 1]),
+            "o< p >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.clparts(baca.select.rleak(abjad.select.run(o, 1)), [1]),
+            "o< p >o ! o< p >o !",
+        )
+        baca.piecewise.hairpin(
+            baca.select.clparts(abjad.select.run(o, 2), [1]),
+            "o< p >o ! o< p >o !",
+            forbid_al_niente_to_bar_line=True,
+        )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
 
