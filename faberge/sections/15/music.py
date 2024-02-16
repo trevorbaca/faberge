@@ -194,6 +194,7 @@ def cl(m):
             baca.piecewise.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(run), (2, 3)),
                 "pp < p > pp",
+                glue=True,
             )
         baca.rspanners.material_annotation(
             o,

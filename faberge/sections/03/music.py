@@ -963,7 +963,9 @@ def vc(m):
         baca.interpolate_pitches(o, "Eb2", "C2")
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [12, 12]),
-            "(p) < ff >o",
+            "(p) < ff >o !",
+            glue=True,
+            rleak=True,
         )
         baca.markup(
             o.pleaf(0),

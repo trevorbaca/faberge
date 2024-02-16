@@ -231,8 +231,9 @@ def cl(m):
     with baca.scope(m.get(2, 5)) as o:
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(run[:-1]), (1, 1)),
+                abjad.select.partition_by_ratio(baca.select.plts(run), (1, 1)),
                 "p < mp > p",
+                glue=True,
             )
     with baca.scope(m.get(3, 4)) as o:
         baca.pitch(o, "Gb2")
@@ -241,8 +242,9 @@ def cl(m):
     with baca.scope(m.get(6, 8)) as o:
         for run in baca.select.runs(o):
             baca.piecewise.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(run[:-1]), (1, 1)),
+                abjad.select.partition_by_ratio(baca.select.plts(run), (1, 1)),
                 "pp < p > pp",
+                glue=True,
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 10)

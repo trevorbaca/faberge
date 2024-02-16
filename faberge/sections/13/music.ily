@@ -426,15 +426,15 @@ number.13.Flute.Music = {
         \glissando
 
         g'4
+        \glissando
+
+        \once \override DynamicText.self-alignment-X = -0.75
+        g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        \glissando
-
-        \once \override DynamicText.self-alignment-X = -0.75
-        g'4
 
     }
 
@@ -960,11 +960,6 @@ number.13.Clarinet.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         b8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \pp
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
@@ -975,6 +970,11 @@ number.13.Clarinet.Music = {
 
     % [Clarinet.Music measure 4]
     b8
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    \pp
 
     r2..
 
@@ -1012,11 +1012,17 @@ number.13.Clarinet.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         b4.
+
+        b8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \p
+        - \tweak direction #down
+        - \tweak parent-alignment-X -0.5
+        - \tweak staff-padding 5
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1025,18 +1031,7 @@ number.13.Clarinet.Music = {
           %! SPANNER_START
         \>
 
-        b8
-        - \tweak direction #down
-        - \tweak parent-alignment-X -0.5
-        - \tweak staff-padding 5
-        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
-
         b4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \pp
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
@@ -1046,6 +1041,11 @@ number.13.Clarinet.Music = {
 
     % [Clarinet.Music measure 6]
     b8
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    \pp
     - \tweak direction #down
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 5
@@ -1149,17 +1149,17 @@ number.13.Clarinet.Music = {
         ]
 
         bf!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \p
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         bf!4.
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+        - \tweak color #blue
+          %! EXPLICIT_DYNAMIC
+        \p
         \revert DynamicLineSpanner.staff-padding
 
     }
