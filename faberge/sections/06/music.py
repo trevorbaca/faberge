@@ -223,9 +223,11 @@ def VC(voice, time_signatures):
 def fl(m):
     with baca.scope(m.get(1, 2)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(o), [1]),
+            baca.select.clparts(o, [1]),
             "o< mf >o ! o< mf >o !",
-            do_not_bookend=True,
+            (abjad.Tweak(r"- \tweak to-barline ##t"), -1),
+            glue=True,
+            rleak=True,
         )
         baca.pitch(o, "F5")
         baca.stem_tremolo(o.pleaves())
@@ -296,9 +298,9 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpinlib.hairpin(
-                    baca.select.lparts(o, [1, 1, 1, 1]),
+                    baca.select.lparts(o, [1, 1, len(o) - 2]),
                     "o< mp >o p > pp",
-                    do_not_bookend=True,
+                    glue=True,
                 )
                 baca.rspanners.trill(
                     o.leaves()[:2],
@@ -426,9 +428,10 @@ def perc(m):
 def vn(m):
     with baca.scope(m[2]) as o:
         baca.hairpinlib.hairpin(
-            baca.select.lparts(o, [1, 1, 1, 1]),
+            baca.select.lparts(o, [1, 1, 2]),
             "p - o< p > pp",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.pitches(
             o,
@@ -462,9 +465,10 @@ def vn(m):
 def va(m):
     with baca.scope(m[2]) as o:
         baca.hairpinlib.hairpin(
-            baca.select.lparts(o, [1, 1, 1, 1]),
+            baca.select.lparts(o, [1, 1, 2]),
             "o< p > pp p",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.pitches(
             o,

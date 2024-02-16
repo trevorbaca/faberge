@@ -473,7 +473,6 @@ def va(m):
             baca.hairpinlib.hairpin(
                 baca.select.lparts(o, [1, 1, 1, 1]),
                 "o< p > pp p",
-                do_not_bookend=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[:3], [1, 2]),
