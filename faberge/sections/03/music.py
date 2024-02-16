@@ -327,6 +327,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 1]),
             "o< mp >o !",
+            do_not_bookend=True,
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -360,6 +361,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 1]),
             "o< pp >o !",
+            do_not_bookend=True,
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -709,6 +711,7 @@ def perc(cache):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 6, 1]),
             "ppp < pp >o !",
+            do_not_bookend=True,
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -781,6 +784,7 @@ def vn(m):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [8, 7, 1]),
             "(ppp) < f > ppp",
+            do_not_bookend=True,
         )
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -878,6 +882,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [8, 7, 1]),
             "(pp) < f > pp",
+            do_not_bookend=True,
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.mspanners.scp(

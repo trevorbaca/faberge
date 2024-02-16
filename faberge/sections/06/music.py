@@ -225,6 +225,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(o), [1]),
             "o< mf >o ! o< mf >o !",
+            do_not_bookend=True,
         )
         baca.pitch(o, "F5")
         baca.stem_tremolo(o.pleaves())
@@ -297,6 +298,7 @@ def fl_cl(cache):
                 baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1, 1, 1]),
                     "o< mp >o p > pp",
+                    do_not_bookend=True,
                 )
                 baca.rspanners.trill(
                     o.leaves()[:2],
@@ -426,6 +428,7 @@ def vn(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 1, 1]),
             "p - o< p > pp",
+            do_not_bookend=True,
         )
         baca.pitches(
             o,
@@ -461,6 +464,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1, 1, 1]),
             "o< p > pp p",
+            do_not_bookend=True,
         )
         baca.pitches(
             o,

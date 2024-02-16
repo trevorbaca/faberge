@@ -249,6 +249,7 @@ def fl_cl(cache):
                 baca.piecewise.hairpin(
                     baca.select.lparts(o, [1, 1, 1, 1]),
                     "o< mp >o p > pp",
+                    do_not_bookend=True,
                 )
                 baca.rspanners.trill(
                     o.leaves()[:2],
@@ -377,26 +378,32 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[0]), [1]),
             "o< mf >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[1]), [1]),
             "o< mp >o ! o< mp >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[2]), [1]),
             "o< p >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[3]), [1]),
             "o< p >o ! o< p >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[4]), [1]),
             "o< pp >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(runs[5]), [1]),
             "o< pp >o ! o< pp >o !",
+            do_not_bookend=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
