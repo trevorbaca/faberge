@@ -165,24 +165,28 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mf >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[6]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< p >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[8]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< pp >o !",
+            glue=True,
             rleak=True,
         )
 
@@ -342,6 +346,7 @@ def vc(m):
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< p >o !",
+                glue=True,
                 rleak=True,
             )
             baca.pitch(o, "F2")
@@ -363,24 +368,28 @@ def vn_va_vc(cache):
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< mp >o !",
+                glue=True,
                 rleak=True,
             )
         with baca.scope(m[6]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< mf >o !",
+                glue=True,
                 rleak=True,
             )
         with baca.scope(m[7]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< f >o !",
+                glue=True,
                 rleak=True,
             )
         with baca.scope(m[8]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< ff >o !",
+                glue=True,
                 rleak=True,
             )
 

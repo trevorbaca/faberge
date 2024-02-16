@@ -279,6 +279,7 @@ def fl_cl(cache):
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
                     "o< mp >o !",
+                    glue=True,
                 )
             baca.rspanners.material_annotation(
                 o,

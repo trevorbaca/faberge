@@ -341,6 +341,7 @@ def fl_cl(cache):
                     abjad.select.leaves(o.rleaves()), [2], overhang=True
                 ),
                 "o< mp >o !",
+                glue=True,
             )
 
 

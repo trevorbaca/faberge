@@ -224,6 +224,7 @@ def fl_cl(cache):
             baca.piecewise.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< mp >o !",
+                glue=True,
             )
         for n in [1, 3]:
             with baca.scope(m[n]) as o:
@@ -232,6 +233,7 @@ def fl_cl(cache):
             baca.piecewise.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< p >o !",
+                glue=True,
             )
 
 
