@@ -253,16 +253,16 @@ def fl_cl(cache):
                 )
         with baca.scope(m[1]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 1]),
+                baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
-                rleak=True,
+                glue=True,
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
                 baca.piecewise.hairpin(
-                    baca.select.lparts(o, [1, 1, 1]),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< pp >o ppp > pppp",
-                    rleak=True,
+                    glue=True,
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.rspanners.material_annotation(
@@ -428,9 +428,9 @@ def vn(m):
         )
     with baca.scope(m[3]) as o:
         baca.piecewise.hairpin(
-            baca.select.lparts(o, [1, 1, 1]),
+            baca.select.lparts(o, [1, 1, 2]),
             "p - o< p > pp",
-            rleak=True,
+            glue=True,
         )
         baca.rspanners.material_annotation(
             o,
@@ -533,9 +533,9 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
         baca.piecewise.hairpin(
-            baca.select.lparts(run, [1, 1, 1, 1, 1]),
-            "o< p >o ! o< p >o ! o< p",
-            rleak=True,
+            baca.select.lparts(run, [1, 1, 1, 2]),
+            "o< p >o ! o< p >o !",
+            glue=True,
         )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))

@@ -428,9 +428,9 @@ def vn(m):
     for n in [6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 1]),
+                baca.select.lparts(o, [1, 1, 2]),
                 "p - o< p > pp",
-                rleak=True,
+                glue=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
@@ -471,9 +471,9 @@ def va(m):
     for n in [8, 9, 10]:
         with baca.scope(m[n]) as o:
             baca.piecewise.hairpin(
-                baca.select.lparts(o, [1, 1, 1]),
+                baca.select.lparts(o, [1, 1, 1, 1]),
                 "o< p > pp p",
-                rleak=True,
+                do_not_bookend=True,
             )
             baca.mspanners.scp(
                 baca.select.lparts(o[:3], [1, 2]),

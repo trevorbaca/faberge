@@ -12756,11 +12756,6 @@ number.3.Cello.Music = {
     \revert NoteHead.no-ledgers
     \undo \hide NoteHead
     c,4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \baca-p-parenthesized
       %! SPANNER_STOP
     \bacaStopTextSpanSCP
     \revert DynamicLineSpanner.staff-padding
@@ -12790,6 +12785,8 @@ number.3.Cello.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \baca-effort-mf
+          %! SPANNER_STOP
+        \!
         [
           %! SPANNER_START
         - \baca-dashed-line-with-hook

@@ -374,9 +374,9 @@ def vn(m):
     with baca.scope(m[1]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 1]),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "p - o< p > pp",
-                rleak=True,
+                glue=True,
             )
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -397,23 +397,23 @@ def vn(m):
     with baca.scope(m[2]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 1]),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "mp - o< mp > pp",
-                rleak=True,
+                glue=True,
             )
     with baca.scope(m[3]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 1]),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "mf - o< mf > pp",
-                rleak=True,
+                glue=True,
             )
     with baca.scope(m[4]) as o:
         for clpart in baca.select.clparts(o, [4]):
             baca.piecewise.hairpin(
-                baca.select.lparts(clpart, [1, 1, 1]),
+                baca.select.lparts(clpart, [1, 1, 2]),
                 "f - o< f > pp",
-                rleak=True,
+                glue=True,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "B4")
@@ -559,16 +559,16 @@ def vn_va(cache):
             with baca.scope(m[n]) as o:
                 for clpart in baca.select.clparts(o, [4]):
                     baca.piecewise.hairpin(
-                        baca.select.lparts(clpart, [1, 1, 1]),
+                        baca.select.lparts(clpart, [1, 1, 2]),
                         '"ff" - o< ff > pp',
-                        rleak=True,
+                        glue=True,
                     )
         with baca.scope(m.get(9)) as o:
             for clpart in baca.select.clparts(o, [4]):
                 baca.piecewise.hairpin(
-                    baca.select.lparts(clpart, [1, 1, 1]),
+                    baca.select.lparts(clpart, [1, 1, 2]),
                     "mp - o< mp > pp",
-                    rleak=True,
+                    glue=True,
                 )
 
 

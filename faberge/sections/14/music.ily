@@ -1210,12 +1210,18 @@ number.14.Clarinet.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         af!8
+        ]
+
+        af!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \mp
-        ]
+        - \tweak direction #down
+        - \tweak parent-alignment-X -0.5
+        - \tweak staff-padding 5
+        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -1223,12 +1229,6 @@ number.14.Clarinet.Music = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>
-
-        af!4
-        - \tweak direction #down
-        - \tweak parent-alignment-X -0.5
-        - \tweak staff-padding 5
-        ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 4 }
 
         af!4.
 
@@ -1268,11 +1268,6 @@ number.14.Clarinet.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 1 }
 
         af!4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \p
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
@@ -1282,6 +1277,11 @@ number.14.Clarinet.Music = {
 
     % [Clarinet.Music measure 5]
     g8
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
+    \p
     - \tweak direction #down
     - \tweak parent-alignment-X -0.5
     - \tweak staff-padding 5
@@ -1426,17 +1426,17 @@ number.14.Clarinet.Music = {
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 2 }
 
         g8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \pp
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
         ^ \markup { \override #'(circle-padding . 0.25) \circle \finger 3 }
 
         g4
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+        - \tweak color #blue
+          %! EXPLICIT_DYNAMIC
+        \pp
         - \tweak direction #down
         - \tweak parent-alignment-X -0.5
         - \tweak staff-padding 5
