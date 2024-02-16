@@ -537,11 +537,13 @@ def vn_va(cache):
             baca.piecewise.hairpin(
                 baca.select.lparts(o.rleaves(), [1, 3, 1]),
                 "p pp >o !",
+                do_not_bookend=True,
             )
         with baca.scope(m[8]) as o:
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "pp ppp",
+                do_not_bookend=True,
             )
 
 
@@ -551,6 +553,7 @@ def vc(m, metadata):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp p >o",
+                do_not_bookend=True,
             )
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
@@ -625,14 +628,17 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.lparts(baca.select.rleak(abjad.select.run(o, 0)), [1, 1, 1]),
             "o< p >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(baca.select.rleak(abjad.select.run(o, 1)), [1]),
             "o< p >o ! o< p >o !",
+            do_not_bookend=True,
         )
         baca.piecewise.hairpin(
             baca.select.clparts(abjad.select.run(o, 2), [1]),
             "o< p >o ! o< p >o !",
+            do_not_bookend=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)

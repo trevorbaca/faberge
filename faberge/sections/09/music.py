@@ -445,6 +445,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "p - o< p > pp - o< p > pp",
+            do_not_bookend=True,
         )
         baca.mspanners.scp(
             baca.select.clparts(o, [1]),
@@ -466,6 +467,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "o< mp > pp mp - o< mp > pp mp",
+            do_not_bookend=True,
         )
         baca.mspanners.scp(
             baca.select.clparts(o, [1]),
@@ -485,6 +487,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "mp - o< mf > pp - o< mf > pp mf",
+            do_not_bookend=True,
         )
         baca.mspanners.scp(
             baca.select.clparts(o, [1]),
@@ -504,6 +507,7 @@ def va(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1]),
             "- o< f > pp f f - o< f > pp",
+            do_not_bookend=True,
         )
         baca.mspanners.scp(
             baca.select.clparts(o, [1]),
@@ -589,6 +593,7 @@ def vc(m):
             baca.piecewise.hairpin(
                 baca.select.clparts(o, [1]),
                 "p f >o",
+                do_not_bookend=True,
             )
     for n in [5, 6, 7, 9]:
         with baca.scope(m[n]) as o:
