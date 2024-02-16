@@ -198,6 +198,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(5, 7)) as o:
@@ -214,12 +215,14 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o.rleaves(), [1, 1]),
             "o< mf >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[7]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
+            glue=True,
             rleak=True,
         )
 
@@ -234,6 +237,7 @@ def eh(m):
             baca.piecewise.hairpin(
                 baca.select.lparts(leaves, [1, 1]),
                 "o< mf >o !",
+                glue=True,
                 rleak=True,
             )
         baca.rspanners.material_annotation(
@@ -289,6 +293,7 @@ def fl_cl(cache):
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
                     "o< mp >o !",
+                    glue=True,
                 )
             baca.rspanners.material_annotation(
                 o,
@@ -631,6 +636,7 @@ def vc(m):
         baca.piecewise.hairpin(
             baca.select.clparts(o, [1, 1]),
             "pp p >o !",
+            glue=True,
             rleak=True,
         )
         baca.pitch(o, "Eb2")

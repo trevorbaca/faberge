@@ -193,6 +193,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< p >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(5, 8)) as o:
@@ -201,6 +202,7 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m.get(5, 8)) as o:
@@ -215,12 +217,14 @@ def fl(m):
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mf >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[8]) as o:
         baca.piecewise.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< f >o !",
+            glue=True,
             rleak=True,
         )
 
@@ -270,6 +274,7 @@ def eh(m):
             baca.piecewise.hairpin(
                 baca.select.lparts(run, [1, 1]),
                 "o< mf >o !",
+                glue=True,
                 rleak=True,
             )
             baca.rspanners.trill(
@@ -407,18 +412,21 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.lparts(run, [1, 1]),
             "o< mp >o !",
+            glue=True,
             rleak=True,
         )
         run = abjad.select.run(o, 1)
         baca.piecewise.hairpin(
             baca.select.lparts(run, [1, 1, 1, 1]),
             "o< mf >o ! o< mf >o !",
+            glue=True,
             rleak=True,
         )
         run = abjad.select.run(o, 2)
         baca.piecewise.hairpin(
             baca.select.lparts(run, [1, 1]),
             "o< f >o !",
+            glue=True,
             rleak=True,
         )
     with baca.scope(m[5]) as o:
@@ -430,6 +438,7 @@ def vc(m, metadata):
             baca.piecewise.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< p >o !",
+                glue=True,
                 rleak=True,
             )
             baca.pitch(o, "F2")

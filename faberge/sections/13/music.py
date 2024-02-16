@@ -294,6 +294,7 @@ def eh(m):
             baca.piecewise.hairpin(
                 baca.select.lparts(run, [1, 1]),
                 "o< mf >o !",
+                glue=True,
                 rleak=True,
             )
             baca.rspanners.trill(
@@ -527,6 +528,7 @@ def vc(m, metadata):
         baca.piecewise.hairpin(
             baca.select.lparts(run, [1, 1, 1, 1, 1, 1]),
             "o< pp >o ! o< pp >o ! o< pp >o !",
+            glue=True,
             rleak=True,
         )
 
