@@ -221,7 +221,7 @@ def fl_cl(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 7)
         with baca.scope(m[1]) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< mp >o !",
                 glue=True,
@@ -230,7 +230,7 @@ def fl_cl(cache):
             with baca.scope(m[n]) as o:
                 baca.espressivo(o.pheads())
         with baca.scope(m[3]) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< p >o !",
                 glue=True,

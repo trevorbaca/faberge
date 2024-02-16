@@ -246,7 +246,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.piecewise.hairpin(
+                baca.hairpinlib.hairpin(
                     baca.select.lparts(o, [1, 1, 1, 1]),
                     "o< mp >o p > pp",
                     do_not_bookend=True,
@@ -375,32 +375,32 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[0]), [1]),
             "o< mf >o !",
             do_not_bookend=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[1]), [1]),
             "o< mp >o ! o< mp >o !",
             do_not_bookend=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[2]), [1]),
             "o< p >o !",
             do_not_bookend=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[3]), [1]),
             "o< p >o ! o< p >o !",
             do_not_bookend=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[4]), [1]),
             "o< pp >o !",
             do_not_bookend=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(runs[5]), [1]),
             "o< pp >o ! o< pp >o !",
             do_not_bookend=True,
