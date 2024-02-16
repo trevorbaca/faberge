@@ -252,14 +252,14 @@ def fl_cl(cache):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m[1]) as o:
-            baca.piecewise.hairpin(
+            baca.hairpinlib.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
                 glue=True,
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
-                baca.piecewise.hairpin(
+                baca.hairpinlib.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< pp >o ppp > pppp",
                     glue=True,
@@ -274,7 +274,7 @@ def fl_cl(cache):
             baca.espressivo(o.pheads())
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
-                baca.piecewise.hairpin(
+                baca.hairpinlib.hairpin(
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
@@ -428,7 +428,7 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m[3]) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "p - o< p > pp",
             glue=True,
@@ -533,7 +533,7 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(run, [1, 1, 1, 2]),
             "o< p >o ! o< p >o !",
             glue=True,

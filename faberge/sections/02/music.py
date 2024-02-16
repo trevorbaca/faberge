@@ -935,7 +935,7 @@ def vc(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(71, 92)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.omgroups(o, [9, 9]),
             "ff > pp < p",
             do_not_bookend=True,

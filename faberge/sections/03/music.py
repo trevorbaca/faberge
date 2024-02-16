@@ -324,7 +324,7 @@ def fl(m):
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1, 1]),
             "o< mp >o !",
             do_not_bookend=True,
@@ -358,7 +358,7 @@ def fl(m):
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.lparts(o, [1, 1, 1]),
             "o< pp >o !",
             do_not_bookend=True,
@@ -687,7 +687,7 @@ def perc(cache):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
     with baca.scope(m.get(23, 52)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
             "ppp < pp >",
             cyclic=True,
@@ -708,7 +708,7 @@ def perc(cache):
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
     with baca.scope(m.get(53, 61)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [2, 6, 1]),
             "ppp < pp >o !",
             do_not_bookend=True,
@@ -781,7 +781,7 @@ def vn(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [8, 7, 1]),
             "(ppp) < f > ppp",
             do_not_bookend=True,
@@ -879,7 +879,7 @@ def va(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [8, 7, 1]),
             "(pp) < f > pp",
             do_not_bookend=True,
@@ -961,7 +961,7 @@ def vc(m):
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(o, [12, 12]),
             "(p) < ff >o !",
             glue=True,
