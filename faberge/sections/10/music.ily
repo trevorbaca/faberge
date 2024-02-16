@@ -2888,6 +2888,8 @@ number.10.Violin.Music = {
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
         \p
+          %! SPANNER_STOP
+        \!
 
         \times 2/3
         {
@@ -3472,6 +3474,8 @@ number.10.Viola.Music = {
         - \tweak color #(x11-color 'DeepPink1)
           %! REDUNDANT_DYNAMIC
         \p
+          %! SPANNER_STOP
+        \!
 
         \times 2/3
         {

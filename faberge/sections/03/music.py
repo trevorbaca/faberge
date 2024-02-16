@@ -325,9 +325,9 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.lparts(o, [1, 1, 1]),
+            baca.select.lparts(o, [1, 2]),
             "o< mp >o !",
-            do_not_bookend=True,
+            glue=True,
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -359,9 +359,9 @@ def fl(m):
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.lparts(o, [1, 1, 1]),
+            baca.select.lparts(o, [1, 2]),
             "o< pp >o !",
-            do_not_bookend=True,
+            glue=True,
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -709,9 +709,9 @@ def perc(cache):
         )
     with baca.scope(m.get(53, 61)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.mgroups(o, [2, 6, 1]),
+            baca.select.mgroups(o, [2, 7]),
             "ppp < pp >o !",
-            do_not_bookend=True,
+            glue=True,
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -782,9 +782,9 @@ def vn(m):
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.mgroups(o, [8, 7, 1]),
+            baca.select.mgroups(o, [8, 8]),
             "(ppp) < f > ppp",
-            do_not_bookend=True,
+            glue=True,
         )
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -880,9 +880,9 @@ def va(m):
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.mgroups(o, [8, 7, 1]),
+            baca.select.mgroups(o, [8, 8]),
             "(pp) < f > pp",
-            do_not_bookend=True,
+            glue=True,
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.mspanners.scp(

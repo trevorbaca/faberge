@@ -247,9 +247,9 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.hairpinlib.hairpin(
-                    baca.select.lparts(o, [1, 1, 1, 1]),
+                    baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
-                    do_not_bookend=True,
+                    glue=True,
                 )
                 baca.rspanners.trill(
                     o.leaves()[:2],
@@ -376,34 +376,40 @@ def vc(m, metadata):
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[0]), [1]),
+            baca.select.clparts(runs[0], [1]),
             "o< mf >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[1]), [1]),
+            baca.select.clparts(runs[1], [1]),
             "o< mp >o ! o< mp >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[2]), [1]),
+            baca.select.clparts(runs[2], [1]),
             "o< p >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[3]), [1]),
+            baca.select.clparts(runs[3], [1]),
             "o< p >o ! o< p >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[4]), [1]),
+            baca.select.clparts(runs[4], [1]),
             "o< pp >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.clparts(baca.select.rleak(runs[5]), [1]),
+            baca.select.clparts(runs[5], [1]),
             "o< pp >o ! o< pp >o !",
-            do_not_bookend=True,
+            glue=True,
+            rleak=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)

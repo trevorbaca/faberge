@@ -934,11 +934,11 @@ def vc(m):
             "sub. vib. mod. -> non vib. -> poco vib.",
             staff_padding=5.5,
         )
-    with baca.scope(m.get(71, 92)) as o:
+    with baca.scope(m.get(71, 89)) as o:
         baca.hairpinlib.hairpin(
-            baca.select.omgroups(o, [9, 9]),
+            baca.select.mgroups(o, [9, 10]),
             "ff > pp < p",
-            do_not_bookend=True,
+            glue=True,
         )
 
 

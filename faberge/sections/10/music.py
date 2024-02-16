@@ -528,22 +528,22 @@ def vn_va(cache):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
             baca.hairpinlib.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 1]),
-                "mp p >o",
-                do_not_bookend=True,
+                baca.select.lparts(o, [1, 3]),
+                "mp p >o !",
+                glue=True,
                 rleak=True,
             )
         with baca.scope(m[7]) as o:
             baca.hairpinlib.hairpin(
-                baca.select.lparts(o.rleaves(), [1, 3, 1]),
+                baca.select.lparts(o, [1, 3]),
                 "p pp >o !",
-                do_not_bookend=True,
+                glue=True,
+                rleak=True,
             )
         with baca.scope(m[8]) as o:
             baca.hairpinlib.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "pp ppp",
-                do_not_bookend=True,
             )
 
 
@@ -553,6 +553,7 @@ def vc(m, metadata):
             baca.hairpinlib.hairpin(
                 baca.select.clparts(o, [1]),
                 "pp p >o",
+                cyclic=True,
                 do_not_bookend=True,
             )
             baca.up_bow(
@@ -628,17 +629,14 @@ def vc(m, metadata):
         baca.hairpinlib.hairpin(
             baca.select.lparts(baca.select.rleak(abjad.select.run(o, 0)), [1, 1, 1]),
             "o< p >o !",
-            do_not_bookend=True,
         )
         baca.hairpinlib.hairpin(
             baca.select.clparts(baca.select.rleak(abjad.select.run(o, 1)), [1]),
             "o< p >o ! o< p >o !",
-            do_not_bookend=True,
         )
         baca.hairpinlib.hairpin(
             baca.select.clparts(abjad.select.run(o, 2), [1]),
             "o< p >o ! o< p >o !",
-            do_not_bookend=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)

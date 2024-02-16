@@ -159,6 +159,7 @@ def fl(m):
         baca.hairpinlib.hairpin(
             abjad.select.partition_by_counts(baca.select.pleaves(o), [1], cyclic=True),
             "o< f >o",
+            cyclic=True,
             do_not_bookend=True,
         )
     with baca.scope(m[5]) as o:

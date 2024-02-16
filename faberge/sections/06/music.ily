@@ -471,6 +471,9 @@ number.6.Flute.Music = {
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
         \>
 
     }
@@ -731,15 +734,15 @@ number.6.Flute.Music = {
         \glissando
 
         g'4
+        \glissando
+
+        \once \override DynamicText.self-alignment-X = -0.75
+        g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        \glissando
-
-        \once \override DynamicText.self-alignment-X = -0.75
-        g'4
 
     }
 
@@ -1441,15 +1444,15 @@ number.6.Clarinet.Music = {
         \glissando
 
         fs'!4
+        \glissando
+
+        \once \override DynamicText.self-alignment-X = -0.75
+        fs'!4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
         \pp
-        \glissando
-
-        \once \override DynamicText.self-alignment-X = -0.75
-        fs'!4
 
     }
 
@@ -2614,11 +2617,6 @@ number.6.Violin.Music = {
 
         ef'!4
         :32
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \pp
           %! SPANNER_STOP
         \bacaStopTextSpanSCP
         \revert DynamicLineSpanner.staff-padding
@@ -2645,6 +2643,11 @@ number.6.Violin.Music = {
               %! HIDDEN
               %! NOTE
             b'1 * 1/4
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+            - \tweak color #blue
+              %! EXPLICIT_DYNAMIC
+            \pp
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -3041,11 +3044,6 @@ number.6.Viola.Music = {
 
         ef'!2
         - \baca-staccati #4
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \p
         \revert DynamicLineSpanner.staff-padding
 
     }
@@ -3070,6 +3068,11 @@ number.6.Viola.Music = {
               %! HIDDEN
               %! NOTE
             c'1 * 1/4
+              %! EXPLICIT_DYNAMIC_COLOR
+              %! EXPLICIT_DYNAMIC
+            - \tweak color #blue
+              %! EXPLICIT_DYNAMIC
+            \p
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
