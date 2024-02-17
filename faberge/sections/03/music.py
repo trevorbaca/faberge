@@ -687,10 +687,9 @@ def perc(cache):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
     with baca.scope(m.get(23, 52)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             baca.select.mgroups(o, [2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
             "ppp < pp >",
-            cyclic=True,
             do_not_bookend=True,
         )
         baca.markup(

@@ -156,10 +156,9 @@ def fl(m):
         baca.pitch(o, "C#5")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpinlib.cyclic(
             abjad.select.partition_by_counts(baca.select.pleaves(o), [1], cyclic=True),
             "o< f >o",
-            cyclic=True,
             do_not_bookend=True,
         )
     with baca.scope(m[5]) as o:

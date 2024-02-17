@@ -550,10 +550,9 @@ def vn_va(cache):
 def vc(m, metadata):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.clparts(o, [1]),
                 "pp p >o",
-                cyclic=True,
                 do_not_bookend=True,
             )
             baca.up_bow(
