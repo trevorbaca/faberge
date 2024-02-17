@@ -591,10 +591,9 @@ def vc(m):
         )
     for n in [5, 6, 7]:
         with baca.scope(m[n]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpinlib.cyclic(
                 baca.select.clparts(o, [1]),
                 "p f >o",
-                cyclic=True,
                 do_not_bookend=True,
             )
     for n in [5, 6, 7, 9]:
