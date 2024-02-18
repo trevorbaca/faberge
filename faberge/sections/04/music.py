@@ -270,12 +270,12 @@ def fl_eh_cl(cache):
             for i, plt in enumerate(plts):
                 plt = baca.select.rleaves(plt)
                 if i == 0:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         plt,
                         'o<"mp"',
                     )
                 elif i == 1:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         plt,
                         'o<"mf"',
                     )
@@ -375,22 +375,22 @@ def va(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mp"',
                 )
             elif i in (1, 2):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mf"',
                 )
             elif i in (3, 4):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"f"',
                 )
             elif i in (5, 6):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"ff"',
                 )
@@ -435,19 +435,19 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[0], [1]),
             "o< p >o ! o< p >o !",
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(baca.select.rleak(runs[1]), [1]),
             "o< mp >o ! o< mp >o ! o< mp >o ! o< mp >o !",
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(baca.select.rleak(runs[2]), [1]),
             "o< mf >o ! o< mf >o ! o< mf >o !",
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(baca.select.rleak(runs[3]), [1]),
             "o< f >o ! o< f >o ! o< f >o !",
         )

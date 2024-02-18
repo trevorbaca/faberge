@@ -222,7 +222,7 @@ def VC(voice, time_signatures):
 
 def fl(m):
     with baca.scope(m.get(1, 2)) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(o, [1]),
             "o< mf >o ! o< mf >o !",
             (abjad.Tweak(r"- \tweak to-barline ##t"), -1),
@@ -297,7 +297,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.hairpinlib.hairpin(
+                baca.hairpins.hairpin(
                     baca.select.lparts(o, [1, 1, len(o) - 2]),
                     "o< mp >o p > pp",
                     glue=True,
@@ -427,7 +427,7 @@ def perc(m):
 
 def vn(m):
     with baca.scope(m[2]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "p - o< p > pp",
             glue=True,
@@ -464,7 +464,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m[2]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "o< p > pp p",
             glue=True,
