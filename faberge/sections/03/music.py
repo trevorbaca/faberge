@@ -450,9 +450,9 @@ def eh(m):
         baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(53, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            '"ff" >o !',
+            '"ff">o!',
         )
     with baca.scope(m.get(61, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -492,26 +492,26 @@ def cl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "Eb2")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves()[:2],
-            "o< p",
+            "o<p",
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves()[-1:],
-            "(p) >o !",
+            "(p)>o!",
             rleak=True,
         )
     with baca.scope(m.get(4, 52)) as o:
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[:2],
-                "o< p",
+                "o<p",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[-1:],
-                "(p) >o !",
+                "(p)>o!",
                 rleak=True,
             )
     with baca.scope(m.get(4, 6)) as o:
@@ -548,13 +548,13 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[:2],
-                "o< pp",
+                "o<pp",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[-1:],
-                "(pp) >o !",
+                "(pp)>o!",
                 rleak=True,
             )
         baca.flat_glissando(o, "D2")
@@ -562,13 +562,13 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[:2],
-                "o< pp",
+                "o<pp",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[-1:],
-                "(pp) >o !",
+                "(pp)>o!",
                 rleak=True,
             )
         baca.flat_glissando(o, "C#2")
@@ -580,13 +580,13 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[:2],
-                "o< ppp",
+                "o<ppp",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 plt[-1:],
-                "(ppp) >o !",
+                "(ppp)>o!",
                 rleak=True,
             )
         baca.flat_glissando(o, "C2")
@@ -761,9 +761,9 @@ def vn(m):
         baca.dynamic(o.phead(0), '"ff"')
         baca.pitch(o, "F4")
     with baca.scope(m.get(13, 22)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '("ff") >o !',
+            '("ff")>o!',
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "ppp")
@@ -797,9 +797,9 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"p" < "mf"',
+            '"p"<"mf"',
             rleak=True,
         )
     with baca.scope(m.get(69, 72)) as o:
@@ -859,9 +859,9 @@ def va(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            '("ff") >o !',
+            '("ff")>o!',
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "pp")
@@ -890,9 +890,9 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            '"p" < "mf"',
+            '"p"<"mf"',
             rleak=True,
         )
     with baca.scope(m.get(53, 80)) as o:
@@ -920,9 +920,9 @@ def vc(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 12)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "(p) < ff",
+            "(p)<ff",
             rleak=True,
         )
         baca.mspanners.scp(
@@ -936,9 +936,9 @@ def vc(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "(ff) > p",
+            "(ff)>p",
             rleak=True,
         )
     with baca.scope(m.get(23, 30)) as o:

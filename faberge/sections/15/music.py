@@ -246,9 +246,9 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
         baca.override.dls_staff_padding(o, 6)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o[:1],
-            "o<| f",
+            "o<|f",
             rleak=True,
         )
         baca.laissez_vibrer(o.ptails())

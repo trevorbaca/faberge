@@ -258,9 +258,9 @@ def eh(m):
         baca.pitch(o, "B4")
     with baca.scope(m.get(4, 5)) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "f >o !",
+            "f>o!",
             rleak=True,
         )
         baca.rspanners.material_annotation(
@@ -336,9 +336,9 @@ def perc(m):
     with baca.scope(m[5]) as o:
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o[:1],
-            "o<| f",
+            "o<|f",
             rleak=True,
         )
         baca.laissez_vibrer(o.ptails())
@@ -584,9 +584,9 @@ def vc(m):
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "p < f-poco-scratch",
+            "p<f-poco-scratch",
             # (abjad.Tweak(r"- \tweak parent-alignment-X -1"), -1),
             # (abjad.Tweak(r"- \tweak self-alignment-X -1"), -1),
             rleak=True,
@@ -628,7 +628,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
     with baca.scope(m[8]) as o:
-        baca.spanners.hairpin(o[0], "!")
+        baca.hairpinlib.exact(o[:1], "!")
     with baca.scope(m[9]) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.hairpinlib.hairpin(

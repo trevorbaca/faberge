@@ -287,24 +287,24 @@ def vn(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "f"',
+                    'o<"f"',
                 )
             elif i == 1:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "mf"',
+                    'o<"mf"',
                 )
             elif i in (2, 3):
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "mp"',
+                    'o<"mp"',
                 )
             elif i in (4, 5):
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "p"',
+                    'o<"p"',
                 )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
@@ -321,24 +321,24 @@ def va(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "f"',
+                    'o<"f"',
                 )
             elif i == 1:
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "mf"',
+                    'o<"mf"',
                 )
             elif i in (2, 3):
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "mp"',
+                    'o<"mp"',
                 )
             elif i in (4, 5):
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "p"',
+                    'o<"p"',
                 )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
