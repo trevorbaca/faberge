@@ -156,34 +156,34 @@ def fl(m):
         baca.pitch(o, "C#5")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
-        baca.hairpinlib.cyclic(
+        baca.hairpins.cyclic(
             abjad.select.partition_by_counts(baca.select.pleaves(o), [1], cyclic=True),
             "o< f >o",
             do_not_bookend=True,
         )
     with baca.scope(m[5]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mf >o !",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[6]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< mp >o !",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< p >o !",
             glue=True,
             rleak=True,
         )
     with baca.scope(m[8]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1]),
             "o< pp >o !",
             glue=True,
@@ -195,7 +195,7 @@ def cl(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 8)
         for run in baca.select.runs(o):
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(run), (2, 3)),
                 "pp < p > pp",
                 glue=True,
@@ -246,7 +246,7 @@ def perc(m):
         baca.staff_lines(o.leaf(0), 5)
         baca.clef(o.leaf(0), "treble")
         baca.override.dls_staff_padding(o, 6)
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o[:1],
             "o<|f",
             rleak=True,
@@ -343,7 +343,7 @@ def vc(m):
             baca.stem_tremolo(o.pleaves())
     for n in [1, 2, 3, 4]:
         with baca.scope(m[n]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< p >o !",
                 glue=True,
@@ -365,28 +365,28 @@ def vn_va_vc(cache):
     for name in ["vn", "va", "vc"]:
         m = cache[name]
         with baca.scope(m[5]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< mp >o !",
                 glue=True,
                 rleak=True,
             )
         with baca.scope(m[6]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< mf >o !",
                 glue=True,
                 rleak=True,
             )
         with baca.scope(m[7]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< f >o !",
                 glue=True,
                 rleak=True,
             )
         with baca.scope(m[8]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "o< ff >o !",
                 glue=True,

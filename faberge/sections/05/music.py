@@ -246,7 +246,7 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:], allow_repeats=True)
-                baca.hairpinlib.hairpin(
+                baca.hairpins.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< mp >o p > pp",
                     glue=True,
@@ -287,22 +287,22 @@ def vn(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"f"',
                 )
             elif i == 1:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mf"',
                 )
             elif i in (2, 3):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mp"',
                 )
             elif i in (4, 5):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"p"',
                 )
@@ -321,22 +321,22 @@ def va(m):
         for i, plt in enumerate(plts):
             plt = baca.select.rleaves(plt)
             if i == 0:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"f"',
                 )
             elif i == 1:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mf"',
                 )
             elif i in (2, 3):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"mp"',
                 )
             elif i in (4, 5):
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     plt,
                     'o<"p"',
                 )
@@ -375,37 +375,37 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[0], [1]),
             "o< mf >o !",
             glue=True,
             rleak=True,
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[1], [1]),
             "o< mp >o ! o< mp >o !",
             glue=True,
             rleak=True,
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[2], [1]),
             "o< p >o !",
             glue=True,
             rleak=True,
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[3], [1]),
             "o< p >o ! o< p >o !",
             glue=True,
             rleak=True,
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[4], [1]),
             "o< pp >o !",
             glue=True,
             rleak=True,
         )
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.clparts(runs[5], [1]),
             "o< pp >o ! o< pp >o !",
             glue=True,

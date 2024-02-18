@@ -252,14 +252,14 @@ def fl_cl(cache):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m[1]) as o:
-            baca.hairpinlib.hairpin(
+            baca.hairpins.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< p >o pp > ppp",
                 glue=True,
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
-                baca.hairpinlib.hairpin(
+                baca.hairpins.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< pp >o ppp > pppp",
                     glue=True,
@@ -274,7 +274,7 @@ def fl_cl(cache):
             baca.espressivo(o.pheads())
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
-                baca.hairpinlib.hairpin(
+                baca.hairpins.hairpin(
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
@@ -390,7 +390,7 @@ def perc(m):
         baca.override.stem_up(o.pleaves())
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o[:1],
                 "o<|mf",
                 rleak=True,
@@ -428,7 +428,7 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m[3]) as o:
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(o, [1, 1, 2]),
             "p - o< p > pp",
             glue=True,
@@ -454,7 +454,7 @@ def vn(m):
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.flat_glissando(o, "F4", hide_middle_stems=True)
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>o!",
             rleak=True,
@@ -533,7 +533,7 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
-        baca.hairpinlib.hairpin(
+        baca.hairpins.hairpin(
             baca.select.lparts(run, [1, 1, 1, 2]),
             "o< p >o ! o< p >o !",
             glue=True,
@@ -564,7 +564,7 @@ def vc(m, metadata):
             "Eb2",
             hide_middle_stems=True,
         ),
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp>o!",
             rleak=True,
