@@ -449,7 +449,7 @@ def va(m):
                 baca.stem_tremolo(plt)
         baca.hairpinlib.hairpin(
             baca.select.clparts(o, [1]),
-            "p - o< p > pp - o< p > pp",
+            "p - o< p > pp - o< p > pp p",
         )
         baca.mspanners.scp(
             baca.select.clparts(o, [1]),
@@ -587,6 +587,8 @@ def vc(m):
         baca.spanners.hairpin(
             o,
             "p < f-poco-scratch",
+            # (abjad.Tweak(r"- \tweak parent-alignment-X -1"), -1),
+            # (abjad.Tweak(r"- \tweak self-alignment-X -1"), -1),
             rleak=True,
         )
     for n in [5, 6, 7]:
