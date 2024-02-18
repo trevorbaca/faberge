@@ -438,9 +438,9 @@ def perc(m):
         )
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o[:1],
-            "o<| mf",
+            "o<|mf",
             rleak=True,
         )
         baca.rspanners.material_annotation(
@@ -599,9 +599,9 @@ def vn_va(cache):
             baca.override.tuplet_bracket_staff_padding(o, 3.5)
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o,
-                '("mf") >o !',
+                '("mf")>o!',
                 rleak=True,
             )
             baca.override.hairpin_shorten_pair(o, (4, 0))

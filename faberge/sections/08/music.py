@@ -559,9 +559,9 @@ def perc_vn_vc(cache):
         m = cache[name]
         with baca.scope(m.get(4, 5)) as o:
             for plt in baca.select.plts(o):
-                baca.spanners.hairpin(
+                baca.hairpinlib.exact(
                     plt,
-                    'o< "f"',
+                    'o<"f"',
                     rleak=True,
                 )
         with baca.scope(m.get(6)) as o:

@@ -768,9 +768,9 @@ def clb_staff_positions(argument, *, rotation=None):
 
 def dal_niente_hairpins(argument, stop):
     for run in baca.select.runs(argument):
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             run,
-            f"o< {stop}",
+            f"o<{stop}",
             rleak=True,
         )
 
@@ -785,9 +785,9 @@ def increasing_dal_niente_hairpins(argument):
     }
     for i, run in enumerate(runs):
         peak = i_to_peak.get(i, "f")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             run,
-            f"o< {peak}",
+            f"o<{peak}",
             rleak=True,
         )
 
@@ -805,14 +805,14 @@ def replace_with_piano_clusters(argument):
 
 
 def single_swell(argument, peak):
-    baca.spanners.hairpin(
+    baca.hairpinlib.exact(
         argument.tleaves()[:1],
-        f"o< {peak}",
+        f"o<{peak}",
         rleak=True,
     )
-    baca.spanners.hairpin(
+    baca.hairpinlib.exact(
         argument.tleaves()[-1:],
-        f"({peak}) >o !",
+        f"({peak})>o!",
         rleak=True,
     )
 
@@ -822,14 +822,14 @@ def swells(argument, dynamic):
     for run in baca.select.ntruns(argument):
         if len(run) <= 2:
             continue
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             run[:1],
-            f"o< {dynamic}",
+            f"o<{dynamic}",
             rleak=True,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             run[-1:],
-            f"({dynamic}) >o !",
+            f"({dynamic})>o!",
             rleak=True,
         )
 
