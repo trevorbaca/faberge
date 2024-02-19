@@ -324,7 +324,7 @@ def fl(m):
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.lparts(o, [1, 2]),
             "o< mp>o!",
         )
@@ -357,7 +357,7 @@ def fl(m):
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.lparts(o, [1, 2]),
             "o< pp>o!",
         )
@@ -448,7 +448,7 @@ def eh(m):
         baca.override.tuplet_bracket_staff_padding(o, 1)
     with baca.scope(m.get(53, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             '"ff">o!',
         )
@@ -490,11 +490,11 @@ def cl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "Eb2")
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[:2],
             "o<p",
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[-1:],
             "(p)>o!",
             rleak=True,
@@ -503,11 +503,11 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[:2],
                 "o<p",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[-1:],
                 "(p)>o!",
                 rleak=True,
@@ -546,11 +546,11 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[:2],
                 "o<pp",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[-1:],
                 "(pp)>o!",
                 rleak=True,
@@ -560,11 +560,11 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[:2],
                 "o<pp",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[-1:],
                 "(pp)>o!",
                 rleak=True,
@@ -578,11 +578,11 @@ def cl(m):
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
                 continue
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[:2],
                 "o<ppp",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 plt[-1:],
                 "(ppp)>o!",
                 rleak=True,
@@ -705,7 +705,7 @@ def perc(cache):
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
     with baca.scope(m.get(53, 61)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [2, 7]),
             "ppp< pp>o!",
         )
@@ -758,7 +758,7 @@ def vn(m):
         baca.dynamic(o.phead(0), '"ff"')
         baca.pitch(o, "F4")
     with baca.scope(m.get(13, 22)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '("ff")>o!',
         )
@@ -777,7 +777,7 @@ def vn(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [8, 8]),
             "(ppp)< f>ppp",
         )
@@ -793,7 +793,7 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"p"<"mf"',
             rleak=True,
@@ -855,7 +855,7 @@ def va(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             '("ff")>o!',
         )
@@ -874,7 +874,7 @@ def va(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [8, 8]),
             "(pp)< f>pp",
         )
@@ -885,7 +885,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             '"p"<"mf"',
             rleak=True,
@@ -915,7 +915,7 @@ def vc(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 12)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "(p)<ff",
             rleak=True,
@@ -931,7 +931,7 @@ def vc(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "(ff)>p",
             rleak=True,
@@ -955,7 +955,7 @@ def vc(m):
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [12, 12]),
             "(p)< ff>o!",
             rleak=True,

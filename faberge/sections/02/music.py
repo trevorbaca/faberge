@@ -368,12 +368,12 @@ def fl(m):
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe(o.pleaf(-1))
         baca.flat_glissando(o, "F#4")
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[:1],
             "o<p",
             rleak=True,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[-1:],
             "(p)>o!",
             rleak=True,
@@ -385,12 +385,12 @@ def fl(m):
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             abjad.Tweak(r"- \tweak staff-padding 3.5"),
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[:1],
             "o<p",
             rleak=True,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves()[-1:],
             "(p)>o!",
             rleak=True,
@@ -763,7 +763,7 @@ def va(m):
     with baca.scope(m.get(13, 16)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(17, 22)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<mp",
             rleak=True,
@@ -771,7 +771,7 @@ def va(m):
     with baca.scope(m.get(27, 30)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(31, 36)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<mp",
             rleak=True,
@@ -779,7 +779,7 @@ def va(m):
     with baca.scope(m.get(41, 46)) as o:
         baca.dynamic(o.pleaf(0), "pp")
     with baca.scope(m.get(47, 52)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<mp",
             rleak=True,
@@ -818,7 +818,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(71, 76)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<mp",
             rleak=True,
@@ -877,7 +877,7 @@ def vc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(m.get(1, 16)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p<f",
             rleak=True,
@@ -888,7 +888,7 @@ def vc(m):
             staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "f>p",
             rleak=True,
@@ -899,7 +899,7 @@ def vc(m):
             staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p<ff",
             rleak=True,
@@ -935,7 +935,7 @@ def vc(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(71, 89)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.mgroups(o, [9, 10]),
             "ff> pp<p",
         )

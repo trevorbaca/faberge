@@ -221,7 +221,7 @@ def fl_cl(cache):
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 7)
         with baca.scope(m[1]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< mp>o!",
             )
@@ -229,7 +229,7 @@ def fl_cl(cache):
             with baca.scope(m[n]) as o:
                 baca.espressivo(o.pheads())
         with baca.scope(m[3]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
                 "o< p>o!",
             )
@@ -300,7 +300,7 @@ def pf(cache):
 
 def perc(m):
     with baca.scope(m[1]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o[:1],
             "o<|mp",
             rleak=True,
@@ -315,7 +315,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
     with baca.scope(m[3]) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o[:1],
             "o<|p",
             rleak=True,
@@ -342,7 +342,7 @@ def perc(m):
             "B3",
             hide_middle_stems=True,
         ),
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp>o!",
             rleak=True,
@@ -512,7 +512,7 @@ def vn_vc(cache):
     for name in ["vn", "vc"]:
         m = cache[name]
         with baca.scope(m[1]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 '"pp"<"mf"',
                 rleak=True,

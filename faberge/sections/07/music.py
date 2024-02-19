@@ -311,7 +311,7 @@ def fl_cl(cache):
     for name in ["fl", "cl"]:
         m = cache[name]
         with baca.scope(m[2]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< p>o pp>ppp",
             )
@@ -325,7 +325,7 @@ def fl_cl(cache):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m[4]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< pp>o ppp>pppp",
             )
@@ -334,7 +334,7 @@ def fl_cl(cache):
                 o.pheads(),
                 abjad.Tweak(r"- \tweak X-extent #'(0 . 0)", tag=baca.tags.NOT_PARTS),
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 abjad.select.partition_by_counts(
                     abjad.select.leaves(o.rleaves()), [2], overhang=True
                 ),
@@ -435,7 +435,7 @@ def perc(m):
         )
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o[:1],
             "o<|mf",
             rleak=True,
@@ -596,7 +596,7 @@ def vn_va(cache):
             baca.override.tuplet_bracket_staff_padding(o, 3.5)
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 '("mf")>o!',
                 rleak=True,

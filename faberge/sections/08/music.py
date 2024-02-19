@@ -427,7 +427,7 @@ def vn(m):
         )
     for n in [6, 8, 9, 10]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "p o< p>pp",
             )
@@ -469,7 +469,7 @@ def va(m):
         )
     for n in [8, 9, 10]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 1, 1]),
                 "o< p> pp p",
             )
@@ -558,7 +558,7 @@ def perc_vn_vc(cache):
         m = cache[name]
         with baca.scope(m.get(4, 5)) as o:
             for plt in baca.select.plts(o):
-                baca.hairpins.exact(
+                baca.hairpin(
                     plt,
                     'o<"f"',
                     rleak=True,
