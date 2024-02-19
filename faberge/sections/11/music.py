@@ -252,17 +252,15 @@ def fl_cl(cache):
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 )
         with baca.scope(m[1]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1, 2]),
-                "o< p >o pp > ppp",
-                glue=True,
+                "o< p>o pp>ppp",
             )
         for n in [2, 3, 4]:
             with baca.scope(m[n]) as o:
-                baca.hairpins.hairpin(
+                baca.hairpins.exact(
                     baca.select.lparts(o, [1, 1, 2]),
-                    "o< pp >o ppp > pppp",
-                    glue=True,
+                    "o< pp>o ppp>pppp",
                 )
         with baca.scope(m.get(1, 4)) as o:
             baca.rspanners.material_annotation(
@@ -274,12 +272,11 @@ def fl_cl(cache):
             baca.espressivo(o.pheads())
             for cmgroup in baca.select.cmgroups(o):
                 cmgroup = baca.select.rleak(cmgroup)
-                baca.hairpins.hairpin(
+                baca.hairpins.exact(
                     abjad.select.partition_by_counts(
                         abjad.select.leaves(cmgroup), [2], overhang=True
                     ),
-                    "o< mp >o !",
-                    glue=True,
+                    "o< mp>o!",
                 )
             baca.rspanners.material_annotation(
                 o,
@@ -428,10 +425,9 @@ def vn(m):
             staff_padding=3,
         )
     with baca.scope(m[3]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1, 2]),
-            "p - o< p > pp",
-            glue=True,
+            "p o< p>pp",
         )
         baca.rspanners.material_annotation(
             o,
@@ -533,10 +529,9 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         run = abjad.select.run(o, 0)
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(run, [1, 1, 1, 2]),
-            "o< p >o ! o< p >o !",
-            glue=True,
+            "o< p>o !o< p>o!",
         )
     with baca.scope(m[3]) as o:
         baca.accent(o.phead(0))

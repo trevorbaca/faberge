@@ -162,31 +162,27 @@ def fl(m):
             do_not_bookend=True,
         )
     with baca.scope(m[5]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1]),
-            "o< mf >o !",
-            glue=True,
+            "o< mf>o!",
             rleak=True,
         )
     with baca.scope(m[6]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1]),
-            "o< mp >o !",
-            glue=True,
+            "o< mp>o!",
             rleak=True,
         )
     with baca.scope(m[7]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1]),
-            "o< p >o !",
-            glue=True,
+            "o< p>o!",
             rleak=True,
         )
     with baca.scope(m[8]) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 1]),
-            "o< pp >o !",
-            glue=True,
+            "o< pp>o!",
             rleak=True,
         )
 
@@ -195,10 +191,9 @@ def cl(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 8)
         for run in baca.select.runs(o):
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 abjad.select.partition_by_ratio(baca.select.plts(run), (2, 3)),
-                "pp < p > pp",
-                glue=True,
+                "pp< p>pp",
             )
         baca.rspanners.material_annotation(
             o,
@@ -343,10 +338,9 @@ def vc(m):
             baca.stem_tremolo(o.pleaves())
     for n in [1, 2, 3, 4]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1]),
-                "o< p >o !",
-                glue=True,
+                "o< p>o!",
                 rleak=True,
             )
             baca.pitch(o, "F2")
@@ -365,31 +359,27 @@ def vn_va_vc(cache):
     for name in ["vn", "va", "vc"]:
         m = cache[name]
         with baca.scope(m[5]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1]),
-                "o< mp >o !",
-                glue=True,
+                "o< mp>o!",
                 rleak=True,
             )
         with baca.scope(m[6]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1]),
-                "o< mf >o !",
-                glue=True,
+                "o< mf>o!",
                 rleak=True,
             )
         with baca.scope(m[7]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1]),
-                "o< f >o !",
-                glue=True,
+                "o< f>o!",
                 rleak=True,
             )
         with baca.scope(m[8]) as o:
-            baca.hairpins.hairpin(
+            baca.hairpins.exact(
                 baca.select.lparts(o, [1, 1]),
-                "o< ff >o !",
-                glue=True,
+                "o< ff>o!",
                 rleak=True,
             )
 
