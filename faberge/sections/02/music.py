@@ -935,10 +935,9 @@ def vc(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(71, 89)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [9, 10]),
-            "ff > pp < p",
-            glue=True,
+            "ff> pp<p",
         )
 
 

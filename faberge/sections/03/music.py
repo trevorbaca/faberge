@@ -324,10 +324,9 @@ def fl(m):
     with baca.scope(m[8]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(9, 10)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 2]),
-            "o< mp >o !",
-            glue=True,
+            "o< mp>o!",
         )
     with baca.scope(m.get(11, 12)) as o:
         library.swells(o, "mf")
@@ -358,10 +357,9 @@ def fl(m):
     with baca.scope(m[52]) as o:
         baca.dynamic(o.phead(0), "p")
     with baca.scope(m.get(53, 54)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.lparts(o, [1, 2]),
-            "o< pp >o !",
-            glue=True,
+            "o< pp>o!",
         )
     with baca.scope(m.get(55, 60)) as o:
         library.swells(o, "ppp")
@@ -707,10 +705,9 @@ def perc(cache):
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
     with baca.scope(m.get(53, 61)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [2, 7]),
-            "ppp < pp >o !",
-            glue=True,
+            "ppp< pp>o!",
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -780,10 +777,9 @@ def vn(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [8, 8]),
-            "(ppp) < f > ppp",
-            glue=True,
+            "(ppp)< f>ppp",
         )
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
@@ -878,10 +874,9 @@ def va(m):
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
     with baca.scope(m.get(37, 52)) as o:
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [8, 8]),
-            "(pp) < f > pp",
-            glue=True,
+            "(pp)< f>pp",
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.mspanners.scp(
@@ -960,10 +955,9 @@ def vc(m):
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(o, [12, 12]),
-            "(p) < ff >o !",
-            glue=True,
+            "(p)< ff>o!",
             rleak=True,
         )
         baca.markup(

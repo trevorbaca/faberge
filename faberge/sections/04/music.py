@@ -435,21 +435,21 @@ def vc(m, metadata):
         )
         baca.glissando(o.tleaves())
         runs = abjad.select.runs(o)
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.clparts(runs[0], [1]),
-            "o< p >o ! o< p >o !",
+            "o< p>o !o< p>o !",
         )
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.clparts(baca.select.rleak(runs[1]), [1]),
-            "o< mp >o ! o< mp >o ! o< mp >o ! o< mp >o !",
+            "o< mp>o !o< mp>o !o< mp>o !o< mp>o !",
         )
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.clparts(baca.select.rleak(runs[2]), [1]),
-            "o< mf >o ! o< mf >o ! o< mf >o !",
+            "o< mf>o !o< mf>o !o< mf>o !",
         )
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.clparts(baca.select.rleak(runs[3]), [1]),
-            "o< f >o ! o< f >o ! o< f >o !",
+            "o< f>o !o< f>o !o< f>o !",
         )
 
 
