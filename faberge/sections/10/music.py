@@ -261,29 +261,29 @@ def fl_cl(cache):
                 abjad.Tweak(r"- \tweak staff-padding 8"),
             )
         with baca.scope(m[1]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< mp>o p>pp",
             )
         with baca.scope(m[2]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< mf>o mp>p",
             )
         with baca.scope(m[3]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "o< f>o mf>mp",
             )
         for n in [4, 5]:
             with baca.scope(m[n]) as o:
-                baca.hairpins.exact(
+                baca.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< mp>o p>pp",
                 )
         for n in [6, 7, 8]:
             with baca.scope(m[n]) as o:
-                baca.hairpins.exact(
+                baca.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< p>o pp>ppp",
                 )
@@ -383,7 +383,7 @@ def perc(m):
 def vn(m):
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "mp o< mp>p",
             )
@@ -456,7 +456,7 @@ def va(m):
         )
     for n in [1, 2, 3]:
         with baca.scope(m[n]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1, 2]),
                 "mp o< mp>p",
             )
@@ -520,19 +520,19 @@ def vn_va(cache):
                     elif duration == abjad.Duration((1, 3)):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 3]),
                 "mp p>o!",
                 rleak=True,
             )
         with baca.scope(m[7]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 3]),
                 "p pp>o!",
                 rleak=True,
             )
         with baca.scope(m[8]) as o:
-            baca.hairpins.exact(
+            baca.hairpin(
                 baca.select.lparts(o, [1, 1]),
                 "pp ppp",
             )
@@ -616,15 +616,15 @@ def vc(m, metadata):
             name="CELLO_GLISSANDI",
         ),
         baca.glissando(o.tleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.lparts(baca.select.rleak(abjad.select.run(o, 0)), [1, 1, 1]),
             "o< p>o !",
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.clparts(baca.select.rleak(abjad.select.run(o, 1)), [1]),
             "o< p>o !o< p>o !",
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             baca.select.clparts(abjad.select.run(o, 2), [1]),
             "o< p>o !o< p>o !",
         )
