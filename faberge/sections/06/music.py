@@ -501,7 +501,7 @@ def vc(m):
         baca.clef(o.leaf(0), "bass")
         baca.override.dls_staff_padding(o, 4)
         baca.dynamic(o.phead(0), "p")
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o,
             "B2",
             hide_middle_stems=True,
