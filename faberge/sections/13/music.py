@@ -261,7 +261,7 @@ def fl(m):
     with baca.scope(m[3]) as o:
         baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
         baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
-        baca.basic_glissando(o.pleaves()[2:], allow_repeats=True)
+        baca.basic_glissando(o.pleaves()[2:])
         baca.hairpin(
             baca.select.lparts(o, [1, 1, 3]),
             "o< mp>o p>pp",
