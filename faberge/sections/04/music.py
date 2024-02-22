@@ -433,7 +433,7 @@ def vc(m, metadata):
             metadata=metadata,
             name="CELLO_GLISSANDI",
         )
-        baca.glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves())
         runs = abjad.select.runs(o)
         baca.hairpin(
             baca.select.clparts(runs[0], [1]),

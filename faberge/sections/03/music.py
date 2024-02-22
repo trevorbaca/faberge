@@ -949,7 +949,7 @@ def vc(m):
         )
     with baca.scope(m.get(37, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,
