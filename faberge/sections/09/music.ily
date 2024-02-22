@@ -1950,43 +1950,9 @@ number.9.Percussion.Music = {
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \hide NoteHead
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \override Accidental.stencil = ##f
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \override NoteColumn.glissando-skip = ##t
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \override NoteHead.no-ledgers = ##t
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \override Dots.transparent = ##t
-          %! RIGHT_BROKEN
-          %! SHOW_TO_JOIN_BROKEN_SPANNERS
-        \override Stem.transparent = ##t
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \revert Accidental.stencil
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \revert NoteColumn.glissando-skip
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \revert NoteHead.no-ledgers
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \undo \hide NoteHead
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \revert Dots.transparent
-          %! HIDE_TO_JOIN_BROKEN_SPANNERS
-          %! RIGHT_BROKEN
-        \revert Stem.transparent
         ef,!1
+          %! SHOW_TO_JOIN_BROKEN_SPANNERS
+        %@% \glissando
         \revert DynamicLineSpanner.staff-padding
 
     }
