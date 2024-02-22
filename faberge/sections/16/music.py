@@ -149,7 +149,7 @@ def cl(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.phead(0), "p")
-        baca.flat_glissando(o, "F2", hide_middle_stems=True)
+        baca.multistage_glissando(o, "F2", hide_middle_stems=True)
 
 
 def pf(cache):
@@ -180,7 +180,7 @@ def perc(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
         baca.dynamic(o.phead(0), "p")
-        baca.flat_glissando(o, "B3", hide_middle_stems=True)
+        baca.multistage_glissando(o, "B3", hide_middle_stems=True)
         baca.markup(
             o.pleaf(0),
             r"\baca-bd-sponge-markup",
