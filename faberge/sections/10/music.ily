@@ -3368,14 +3368,6 @@ number.10.Viola.Music = {
     \bacaStartTextSpanMaterialAnnotation
     \glissando
 
-    \hide NoteHead
-    \override Accidental.stencil = ##f
-    \override NoteColumn.glissando-skip = ##t
-    \override NoteHead.no-ledgers = ##t
-    \revert Accidental.stencil
-    \revert NoteColumn.glissando-skip
-    \revert NoteHead.no-ledgers
-    \undo \hide NoteHead
     d2.
     :32
 
