@@ -949,11 +949,10 @@ def vc(m):
         )
     with baca.scope(m.get(37, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
-            hide_middle_note_heads=True,
+            "Eb2 C2",
         )
-        baca.interpolate_pitches(o, "Eb2", "C2")
         baca.hairpin(
             baca.select.mgroups(o, [12, 12]),
             "(p)< ff>o!",
