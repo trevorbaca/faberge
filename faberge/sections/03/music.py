@@ -951,7 +951,6 @@ def vc(m):
         baca.override.dls_staff_padding(o, 8)
         baca.basic_glissando(
             o.tleaves(),
-            allow_repeats=True,
             hide_middle_note_heads=True,
         )
         baca.interpolate_pitches(o, "Eb2", "C2")
