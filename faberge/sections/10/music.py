@@ -248,7 +248,7 @@ def fl_cl(cache):
             with baca.scope(m[n]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
-                baca.glissando(o.pleaves()[2:], allow_repeats=True)
+                baca.basic_glissando(o.pleaves()[2:], allow_repeats=True)
                 baca.rspanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
@@ -615,7 +615,7 @@ def vc(m, metadata):
             metadata=metadata,
             name="CELLO_GLISSANDI",
         ),
-        baca.glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves())
         baca.hairpin(
             baca.select.lparts(baca.select.rleak(abjad.select.run(o, 0)), [1, 1, 1]),
             "o< p>o !",
