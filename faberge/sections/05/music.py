@@ -245,7 +245,7 @@ def fl_cl(cache):
             with baca.scope(cache[name][n]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
-                baca.basic_glissando(o.pleaves()[2:])
+                baca.glissando(o.pleaves()[2:])
                 baca.hairpin(
                     baca.select.lparts(o, [1, 1, 2]),
                     "o< mp>o p>pp",
@@ -372,7 +372,7 @@ def vc(m, metadata):
             metadata=metadata,
             name="CELLO_GLISSANDI",
         )
-        baca.basic_glissando(o.tleaves())
+        baca.glissando(o.tleaves(), do_not_hide_middle_note_heads=True)
         runs = abjad.select.runs(o)
         baca.hairpin(
             baca.select.clparts(runs[0], [1]),

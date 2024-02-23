@@ -295,7 +295,7 @@ def fl_cl(cache):
             with baca.scope(m[n]) as o:
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
-                baca.basic_glissando(o.pleaves()[2:])
+                baca.glissando(o.pleaves()[2:4])
                 baca.hairpin(
                     baca.select.lparts(o, [1, 1, len(o) - 2]),
                     "o< mp>o p>pp",

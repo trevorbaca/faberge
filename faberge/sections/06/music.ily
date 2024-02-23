@@ -734,7 +734,6 @@ number.6.Flute.Music = {
         \glissando
 
         g'4
-        \glissando
 
         \once \override DynamicText.self-alignment-X = -0.75
         g'4
@@ -1444,7 +1443,6 @@ number.6.Clarinet.Music = {
         \glissando
 
         fs'!4
-        \glissando
 
         \once \override DynamicText.self-alignment-X = -0.75
         fs'!4

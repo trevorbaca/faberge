@@ -400,7 +400,7 @@ def vc(m, metadata):
             metadata=metadata,
             name="CELLO_GLISSANDI",
         )
-        baca.basic_glissando(o.tleaves())
+        baca.glissando(o.tleaves(), do_not_hide_middle_note_heads=True)
         run = abjad.select.run(o, 0)
         baca.hairpin(
             baca.select.lparts(run, [1, 1]),

@@ -426,7 +426,6 @@ number.13.Flute.Music = {
         \glissando
 
         g'4
-        \glissando
 
         \once \override DynamicText.self-alignment-X = -0.75
         g'4
