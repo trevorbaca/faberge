@@ -367,7 +367,7 @@ def fl(m):
         baca.short_instrument_name(o.leaf(0), "B. fl.", library.manifests)
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "F#4")
+        baca.glissando(o, "F#4")
         baca.hairpin(
             o.tleaves()[:1],
             "o<p",
@@ -499,50 +499,50 @@ def cl(m):
         baca.override.dls_staff_padding(o, 8)
     with baca.scope(m.get(47, 49)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m.get(50, 52)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "p")
     with baca.scope(m.get(53, 57)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m.get(58, 60)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "p")
     with baca.scope(m.get(61, 62)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m.get(63, 70)) as o:
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "ppp")
     with baca.scope(m.get(71, 73)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m.get(74, 76)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "p")
     with baca.scope(m.get(77, 80)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m.get(81, 88)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "p")
     with baca.scope(m.get(89, 91)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
         library.single_swell(o, "p")
     with baca.scope(m[92]) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Dqs2")
+        baca.glissando(o, "Dqs2")
         library.single_swell(o, "p")
 
 
@@ -748,7 +748,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 5)
     with baca.scope(m.get(1, 62)) as o:
         baca.dynamic(o.phead(0), "mp")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3",
             hide_middle_stems=True,
@@ -800,7 +800,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3",
             hide_middle_stems=True,
@@ -833,7 +833,7 @@ def va(m):
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.dynamic(o.phead(0), "pp")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3",
             hide_middle_stems=True,
@@ -865,7 +865,7 @@ def va(m):
 def vc(m):
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D2",
             hide_middle_stems=True,

@@ -381,7 +381,7 @@ def perc(m):
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m.get(8, 9)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.multistage_glissando(o, "F2", hide_middle_stems=True)
+        baca.glissando(o, "F2", hide_middle_stems=True)
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
         baca.markup(
             o.pleaf(0),
@@ -449,7 +449,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.get(3, 6)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D3",
             hide_middle_stems=True,

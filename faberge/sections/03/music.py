@@ -489,7 +489,7 @@ def eh(m):
 def cl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.breathe(o.pleaf(-1))
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
         baca.hairpin(
             o.tleaves()[:2],
             "o<p",
@@ -513,31 +513,31 @@ def cl(m):
                 rleak=True,
             )
     with baca.scope(m.get(4, 6)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(7, 11)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(12, 14)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(15, 16)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(17, 21)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(22, 26)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(27, 29)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(30, 32)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(33, 37)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(38, 40)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(41, 42)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(43, 47)) as o:
-        baca.multistage_glissando(o, "Eb2")
+        baca.glissando(o, "Eb2")
     with baca.scope(m.get(48, 52)) as o:
-        baca.multistage_glissando(o, "Eqf2")
+        baca.glissando(o, "Eqf2")
     with baca.scope(m.get(53, 56)) as o:
         baca.breathe(o.pleaf(-1))
     with baca.scope(m.get(57, 60)) as o:
@@ -555,7 +555,7 @@ def cl(m):
                 "(pp)>o!",
                 rleak=True,
             )
-        baca.multistage_glissando(o, "D2")
+        baca.glissando(o, "D2")
     with baca.scope(m.get(57, 60)) as o:
         for plt in baca.select.plts(o):
             if len(plt) <= 2:
@@ -569,7 +569,7 @@ def cl(m):
                 "(pp)>o!",
                 rleak=True,
             )
-        baca.multistage_glissando(o, "C#2")
+        baca.glissando(o, "C#2")
     with baca.scope(m.get(69, 72)) as o:
         baca.breathe(o.pleaf(-1))
     with baca.scope(m.get(73, 80)) as o:
@@ -587,7 +587,7 @@ def cl(m):
                 "(ppp)>o!",
                 rleak=True,
             )
-        baca.multistage_glissando(o, "C2")
+        baca.glissando(o, "C2")
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 8)
 
@@ -669,7 +669,7 @@ def perc(cache):
     m = cache["perc"]
     with baca.scope(m.get(23, 48)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
@@ -678,7 +678,7 @@ def perc(cache):
             abjad.select.get(baca.select.pheads(o), [0, -1]),
         )
     with baca.scope(m.get(49, 56)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "D2",
             hide_middle_stems=True,
@@ -696,7 +696,7 @@ def perc(cache):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
     with baca.scope(m.get(57, 60)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "C#2",
             hide_middle_stems=True,
@@ -764,7 +764,7 @@ def vn(m):
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "ppp")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eqf4",
             hide_middle_stems=True,
@@ -840,7 +840,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.get(1, 8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb3",
             hide_middle_stems=True,
@@ -861,7 +861,7 @@ def va(m):
         )
     with baca.scope(m.get(23, 52)) as o:
         baca.dynamic(o.phead(0), "pp")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "G3",
             hide_middle_stems=True,
@@ -909,7 +909,7 @@ def va(m):
 def vc(m):
     with baca.scope(m.get(1, 36)) as o:
         baca.override.dls_staff_padding(o, 6)
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
@@ -949,7 +949,7 @@ def vc(m):
         )
     with baca.scope(m.get(37, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
-        baca.multistage_glissando(
+        baca.glissando(
             o.tleaves(),
             "Eb2 C2",
         )
