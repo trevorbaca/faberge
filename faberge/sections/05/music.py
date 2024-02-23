@@ -268,7 +268,7 @@ def perc(m):
         baca.override.dls_staff_padding(o, 6)
         baca.dynamic(o.phead(0), "p")
         # TODO: use staff position instead of pitch
-        baca.multistage_glissando(o, "B3")
+        baca.glissando(o, "B3")
         baca.markup(
             o.pleaf(0),
             r"\baca-bd-rolled-markup",

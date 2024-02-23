@@ -334,7 +334,7 @@ def pf(cache):
 
 def perc(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
@@ -478,7 +478,7 @@ def va(m):
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
-        baca.multistage_glissando(o, "D3")
+        baca.glissando(o, "D3")
         baca.rspanners.material_annotation(
             o,
             "A.4 -|",

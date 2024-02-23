@@ -608,7 +608,7 @@ def vn_va(cache):
 
 def vc(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o.pleaves(),
             "B2",
             hide_middle_stems=True,

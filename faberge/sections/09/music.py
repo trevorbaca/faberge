@@ -352,7 +352,7 @@ def perc(m):
     with baca.scope(m[9]) as o:
         baca.clef(o.leaf(0), "bass")
         baca.dynamic(o.phead(0), "p")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
@@ -565,7 +565,7 @@ def vn_va(cache):
 def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 5)
-        baca.multistage_glissando(o, "F2")
+        baca.glissando(o, "F2")
         baca.mspanners.scp(
             o.ltleaves(),
             "tasto =|",

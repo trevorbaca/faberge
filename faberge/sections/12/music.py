@@ -337,7 +337,7 @@ def perc(m):
         baca.staff_position(o, -1)
         baca.override.stem_down(o.pleaves())
     with baca.scope(m.get(6, 8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "B3",
             hide_middle_stems=True,
@@ -410,7 +410,7 @@ def vn(m):
 
 def va(m):
     with baca.scope(m.get(1, 4)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb3",
             hide_middle_stems=True,
@@ -429,7 +429,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m[5]) as o:
-        baca.multistage_glissando(o, "F3")
+        baca.glissando(o, "F3")
         baca.stem_tremolo(o.pheads())
     with baca.scope(m.get(6, 9)) as o:
         baca.rspanners.clb(

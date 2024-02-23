@@ -449,7 +449,7 @@ def vn(m):
             staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:
-        baca.multistage_glissando(o, "F4", hide_middle_stems=True)
+        baca.glissando(o, "F4", hide_middle_stems=True)
         baca.hairpin(
             o,
             "mp>o!",
@@ -479,7 +479,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.multistage_glissando(o, "D3", hide_middle_stems=True)
+        baca.glissando(o, "D3", hide_middle_stems=True)
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(3, 8)) as o:
         baca.dynamic(
@@ -500,7 +500,7 @@ def va(m):
             staff_padding=3,
         )
     with baca.scope(m.get(5, 8)) as o:
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb3",
             hide_middle_stems=True,
@@ -554,7 +554,7 @@ def vc(m, metadata):
         baca.override.dls_staff_padding(o.leaves(), 6)
     with baca.scope(m.get(5, 7)) as o:
         baca.clef(o.leaf(0), "bass")
-        baca.multistage_glissando(
+        baca.glissando(
             o,
             "Eb2",
             hide_middle_stems=True,
