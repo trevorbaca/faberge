@@ -196,7 +196,7 @@ def fl(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-airtone-markup",
+            r"\baca-boxed-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         )
@@ -221,7 +221,7 @@ def eh(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-airtone-markup",
+            r"\baca-boxed-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     for n in [5, 6]:
@@ -244,7 +244,7 @@ def cl(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-airtone-markup",
+            r"\baca-boxed-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     for n in [5, 6]:

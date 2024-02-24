@@ -5575,7 +5575,7 @@ number.3.EnglishHorn.Music = {
     \baca-effort-mf
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-airtone-markup
+    ^ \baca-boxed-airtone-markup
     - \tweak stencil ##f
     ~
 

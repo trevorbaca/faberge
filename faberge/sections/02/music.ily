@@ -4001,7 +4001,7 @@ number.2.Flute.Music = {
     \set Staff.shortInstrumentName = \faberge-bfl-markup
     R1 * 3/4
     - \tweak padding 1.5
-    ^ \baca-to-bass-flute-markup
+    ^ \baca-boxed-to-bass-flute-markup
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! EXPLICIT_INSTRUMENT_ALERT
@@ -4937,7 +4937,7 @@ number.2.EnglishHorn.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
         - \tweak padding 1.5
-        ^ \baca-keynoise-markup
+        ^ \baca-boxed-keynoise-markup
         [
 
         f'16
@@ -6160,7 +6160,7 @@ number.2.Clarinet.Music = {
     \set Staff.shortInstrumentName = \faberge-bcl-markup
     R1 * 3/4
     - \tweak padding 1.5
-    ^ \baca-to-bass-clarinet-markup
+    ^ \baca-boxed-to-bass-clarinet-markup
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! EXPLICIT_INSTRUMENT_ALERT
