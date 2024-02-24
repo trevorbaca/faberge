@@ -415,7 +415,7 @@ def vn(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-ob-markup",
+            r"\baca-boxed-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.override.dls_staff_padding(o, 6)
@@ -525,7 +525,7 @@ def vc(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-ob-markup",
+            r"\baca-boxed-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         )

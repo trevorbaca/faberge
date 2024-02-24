@@ -10376,7 +10376,7 @@ number.3.Violin.Music = {
     \baca-effort-mf-parenthesized
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
       %! SPANNER_STOP
     \bacaStopTextSpanCLB
     - \tweak stencil ##f
