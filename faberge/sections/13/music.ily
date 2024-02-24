@@ -2887,7 +2887,7 @@ number.13.Cello.Music = {
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-string-iv-markup
       %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-string-iv-markup
+    - \tweak bound-details.left-broken.text \baca-parenthesized-string-iv-markup
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START

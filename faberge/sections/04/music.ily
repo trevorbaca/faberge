@@ -1873,7 +1873,7 @@ number.4.Viola.Music = {
     c'4.
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2159,7 +2159,7 @@ number.4.Cello.Music = {
       %! SPANNER_START
     - \baca-text-spanner-left-markup \baca-string-iv-markup
       %! SPANNER_START
-    - \tweak bound-details.left-broken.text \baca-left-broken-string-iv-markup
+    - \tweak bound-details.left-broken.text \baca-parenthesized-string-iv-markup
       %! SPANNER_START
     - \tweak staff-padding 5.5
       %! SPANNER_START

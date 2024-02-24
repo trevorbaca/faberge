@@ -2391,7 +2391,7 @@ number.8.Violin.Music = {
 
     b'2
     - \tweak padding 1.5
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
@@ -3488,7 +3488,7 @@ number.8.Cello.Music = {
     b'4.
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-ob-markup
+    ^ \baca-boxed-ob-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation

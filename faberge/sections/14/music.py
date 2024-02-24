@@ -330,7 +330,7 @@ def vn(m):
         baca.override.dls_staff_padding(o, 6)
         baca.markup(
             o.pleaf(0),
-            r"\baca-ob-markup",
+            r"\baca-boxed-ob-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
