@@ -361,7 +361,7 @@ number.14.Flute.Music = {
     b'2
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-airtone-markup
+    ^ \baca-boxed-airtone-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook

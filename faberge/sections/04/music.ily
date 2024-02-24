@@ -373,7 +373,7 @@ number.4.Flute.Music = {
     b'2
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-airtone-markup
+    ^ \baca-boxed-airtone-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -574,7 +574,7 @@ number.4.EnglishHorn.Music = {
 
     b'2
     - \tweak padding 1.5
-    ^ \baca-airtone-markup
+    ^ \baca-boxed-airtone-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -771,7 +771,7 @@ number.4.Clarinet.Music = {
 
     b'4.
     - \tweak padding 1.5
-    ^ \baca-airtone-markup
+    ^ \baca-boxed-airtone-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
