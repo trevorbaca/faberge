@@ -2114,6 +2114,16 @@ number.5.Cello.Music = {
     g4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
+      %! SPANNER_START
+    - \baca-dashed-line-with-hook
+      %! SPANNER_START
+    - \baca-text-spanner-left-markup \baca-string-iv-markup
+      %! SPANNER_START
+    - \tweak bound-details.left-broken.text \baca-left-broken-string-iv-markup
+      %! SPANNER_START
+    - \tweak staff-padding 5.5
+      %! SPANNER_START
+    \bacaStartTextSpanStringNumber
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook
@@ -2126,16 +2136,6 @@ number.5.Cello.Music = {
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     \bacaStartTextSpanMaterialAnnotation
-      %! SPANNER_START
-    - \baca-dashed-line-with-hook
-      %! SPANNER_START
-    - \baca-text-spanner-left-text "IV"
-      %! SPANNER_START
-    - \tweak bound-details.left-broken.text IV
-      %! SPANNER_START
-    - \tweak staff-padding 5.5
-      %! SPANNER_START
-    \bacaStartTextSpanStringNumber
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
