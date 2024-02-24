@@ -604,7 +604,7 @@ def vc(m, metadata):
         baca.override.note_head_style_harmonic(o.pleaves())
         baca.rspanners.string_number(
             o,
-            "IV",
+            4,
             right_broken=True,
             staff_padding=5.5,
         )
