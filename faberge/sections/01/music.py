@@ -124,7 +124,7 @@ def eh(m):
         baca.staff_position(o, 0)
         baca.markup(
             o.pleaf(0),
-            r"\baca-ratchet-markup",
+            r"\baca-boxed-ratchet-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )

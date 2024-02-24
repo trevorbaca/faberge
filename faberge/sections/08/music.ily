@@ -1970,7 +1970,7 @@ number.8.Percussion.Music = {
     \mf
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2028,7 +2028,7 @@ number.8.Percussion.Music = {
     \laissezVibrer
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-bd-struck-markup
+    ^ \baca-boxed-bd-struck-markup
 
     r\breve
       %! MATERIAL_ANNOTATION_SPANNER
@@ -2041,7 +2041,7 @@ number.8.Percussion.Music = {
     \override Stem.direction = #down
     b2
     - \tweak staff-padding 8
-    ^ \baca-bd-sponge-markup
+    ^ \baca-boxed-bd-sponge-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook

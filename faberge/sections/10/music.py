@@ -351,7 +351,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-struck-markup",
+            r"\baca-boxed-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -368,7 +368,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )

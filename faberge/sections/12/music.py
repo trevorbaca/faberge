@@ -277,7 +277,7 @@ def pf(cache):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-tuning-pegs-markup",
+            r"\baca-boxed-tuning-pegs-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -325,7 +325,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-struck-markup",
+            r"\baca-boxed-bd-struck-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.rspanners.material_annotation(
@@ -349,7 +349,7 @@ def perc(m):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-sponge-markup",
+            r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.override.stem_down(o.pleaves())

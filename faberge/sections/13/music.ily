@@ -1449,7 +1449,7 @@ number.13.Piano.RH.Music = {
         \baca-effort-mf
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-tuning-pegs-markup
+        ^ \baca-boxed-tuning-pegs-markup
         [
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
@@ -1746,7 +1746,7 @@ number.13.Percussion.Music = {
     \baca-f-sempre
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1850,7 +1850,7 @@ number.13.Percussion.Music = {
         \baca-p-sempre
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-woodblock-markup
+        ^ \baca-boxed-woodblock-markup
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START

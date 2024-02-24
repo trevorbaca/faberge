@@ -622,7 +622,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "ff")
         baca.markup(
             o.pleaf(0),
-            r"\baca-castanets-markup",
+            r"\baca-boxed-castanets-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
@@ -637,7 +637,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.plt(-1),
-            r"\baca-bd-struck-markup",
+            r"\baca-boxed-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -650,7 +650,7 @@ def perc(m):
         baca.pitch(o, "F#4")
         baca.markup(
             o.pleaf(0),
-            r"\baca-crotales-bowed-markup",
+            r"\baca-boxed-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         library.dal_niente_hairpins(o, "f")
@@ -659,7 +659,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
-            r"\baca-crotales-bowed-markup",
+            r"\baca-boxed-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak extra-offset #'(-6 . 0)"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )

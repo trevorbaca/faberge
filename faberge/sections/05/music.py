@@ -271,7 +271,7 @@ def perc(m):
         baca.glissando(o, "B3")
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-rolled-markup",
+            r"\baca-boxed-bd-rolled-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )

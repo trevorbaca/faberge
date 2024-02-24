@@ -2044,7 +2044,7 @@ number.7.Percussion.Music = {
     \f
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
@@ -2089,7 +2089,7 @@ number.7.Percussion.Music = {
     b2
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-bd-superball-markup
+    ^ \baca-boxed-bd-superball-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook

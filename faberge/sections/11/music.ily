@@ -2212,7 +2212,7 @@ number.11.Percussion.Music = {
         \baca-pp-whiteout
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 10
-        ^ \baca-castanets-markup
+        ^ \baca-boxed-castanets-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
@@ -2344,7 +2344,7 @@ number.11.Percussion.Music = {
     b2
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 10
-    ^ \baca-bd-superball-markup
+    ^ \baca-boxed-bd-superball-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-dashed-line-with-hook

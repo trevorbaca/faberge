@@ -307,7 +307,7 @@ def perc(m):
     with baca.scope(m.get(1)) as o:
         baca.markup(
             o.pleaf(0),
-            r"\baca-castanets-markup",
+            r"\baca-boxed-castanets-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     for n in [1, 2]:
@@ -339,7 +339,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
-            r"\baca-crotales-bowed-markup",
+            r"\baca-boxed-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.rspanners.material_annotation(

@@ -165,7 +165,7 @@ def fl_eh_rh(cache):
             baca.dynamic(o.phead(0), '"ff"')
             baca.markup(
                 o.pleaf(0),
-                r"\baca-very-small-maraca-markup",
+                r"\baca-boxed-very-small-maraca-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             )
@@ -183,7 +183,7 @@ def perc(m):
         baca.glissando(o, "B3", hide_middle_stems=True)
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-sponge-markup",
+            r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         )

@@ -479,7 +479,7 @@ def eh(m):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-ratchet-markup",
+            r"\baca-boxed-ratchet-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
         )
@@ -620,7 +620,7 @@ def pf(cache):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-tuning-pegs-markup",
+            r"\baca-boxed-tuning-pegs-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -663,7 +663,7 @@ def perc(cache):
     with baca.scope(m[2]) as o:
         baca.markup(
             o.mmrest(0),
-            r"\baca-to-marimba-markup",
+            r"\baca-boxed-to-marimba-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
     m = cache["perc"]
@@ -720,7 +720,7 @@ def perc(cache):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-sponge-markup",
+            r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
@@ -731,7 +731,7 @@ def perc(cache):
         baca.dynamic(o.pleaf(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.rspanners.material_annotation(

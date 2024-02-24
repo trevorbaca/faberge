@@ -1690,7 +1690,7 @@ number.9.Percussion.Music = {
       %! EXPLICIT_DYNAMIC
     \f
     - \tweak padding 1.5
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! MATERIAL_ANNOTATION_SPANNER
@@ -1817,7 +1817,7 @@ number.9.Percussion.Music = {
     fs'!2
     \laissezVibrer
     - \tweak staff-padding 6
-    ^ \baca-crotales-bowed-markup
+    ^ \baca-boxed-crotales-bowed-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
