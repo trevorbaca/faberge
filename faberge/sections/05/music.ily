@@ -1489,7 +1489,7 @@ number.5.Percussion.Music = {
     \p
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-bd-rolled-markup
+    ^ \baca-boxed-bd-rolled-markup
     \glissando
 
     % [Percussion.Music measure 4]

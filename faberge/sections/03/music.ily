@@ -5646,7 +5646,7 @@ number.3.EnglishHorn.Music = {
         \baca-f-parenthesized
         - \tweak padding 1.5
         - \tweak parent-alignment-X 0
-        ^ \baca-ratchet-markup
+        ^ \baca-boxed-ratchet-markup
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"381" #"64"
         [
@@ -7053,7 +7053,7 @@ number.3.Piano.RH.Music = {
         \baca-effort-mf
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-tuning-pegs-markup
+        ^ \baca-boxed-tuning-pegs-markup
         [
           %! -PARTS
           %! EXPLICIT_BAR_EXTENT
@@ -8443,7 +8443,7 @@ number.3.Percussion.Music = {
               %! REST_VOICE
             R1 * 4/4
             - \tweak staff-padding 6
-            ^ \baca-to-marimba-markup
+            ^ \baca-boxed-to-marimba-markup
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
@@ -8979,7 +8979,7 @@ number.3.Percussion.Music = {
     \baca-effort-mf
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 6
-    ^ \baca-bd-sponge-markup
+    ^ \baca-boxed-bd-sponge-markup
     - \tweak stencil ##f
     ~
       %! -PARTS
@@ -9052,7 +9052,7 @@ number.3.Percussion.Music = {
               %! EXPLICIT_DYNAMIC
             \f
             - \tweak staff-padding 8
-            ^ \baca-woodblock-markup
+            ^ \baca-boxed-woodblock-markup
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_START
             - \baca-dashed-line-with-hook

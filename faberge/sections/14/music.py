@@ -295,7 +295,7 @@ def pf(cache):
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.rspanners.material_annotation(
@@ -346,7 +346,7 @@ def vn(m):
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.rspanners.material_annotation(

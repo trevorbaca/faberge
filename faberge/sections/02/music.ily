@@ -8195,7 +8195,7 @@ number.2.Percussion.Music = {
     \laissezVibrer
     - \tweak extra-offset #'(-6 . 0)
     - \tweak staff-padding 6
-    ^ \baca-crotales-bowed-markup
+    ^ \baca-boxed-crotales-bowed-markup
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -9945,7 +9945,7 @@ number.2.Percussion.Music = {
           %! EXPLICIT_DYNAMIC
         \ff
         - \tweak staff-padding 8
-        ^ \baca-castanets-markup
+        ^ \baca-boxed-castanets-markup
           %! SPANNER_START
         - \tweak bound-details.right.padding 2
           %! SPANNER_START
@@ -9970,7 +9970,7 @@ number.2.Percussion.Music = {
     \laissezVibrer
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-bd-struck-markup
+    ^ \baca-boxed-bd-struck-markup
       %! SPANNER_STOP
     \stopTrillSpan
 
@@ -10004,7 +10004,7 @@ number.2.Percussion.Music = {
         fs'!8
         \laissezVibrer
         - \tweak staff-padding 6
-        ^ \baca-crotales-bowed-markup
+        ^ \baca-boxed-crotales-bowed-markup
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak circled-tip ##t

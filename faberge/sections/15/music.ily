@@ -1310,7 +1310,7 @@ number.15.Piano.RH.Music = {
         \baca-f-whiteout
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-woodblock-markup
+        ^ \baca-boxed-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
@@ -1669,7 +1669,7 @@ number.15.Percussion.Music = {
     \laissezVibrer
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 6
-    ^ \baca-crotales-bowed-markup
+    ^ \baca-boxed-crotales-bowed-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
@@ -1794,7 +1794,7 @@ number.15.Percussion.Music = {
             \f
             - \tweak parent-alignment-X 0
             - \tweak staff-padding 8
-            ^ \baca-woodblock-markup
+            ^ \baca-boxed-woodblock-markup
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_START
             - \baca-dashed-line-with-hook

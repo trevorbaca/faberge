@@ -351,7 +351,7 @@ number.1.EnglishHorn.Music = {
         \baca-f-parenthesized
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 6
-        ^ \baca-ratchet-markup
+        ^ \baca-boxed-ratchet-markup
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"187" #"32"
         [

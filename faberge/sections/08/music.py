@@ -335,7 +335,7 @@ def perc(m):
     with baca.scope(m[1]) as o:
         baca.markup(
             o.pleaf(0),
-            r"\baca-castanets-markup",
+            r"\baca-boxed-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -350,7 +350,7 @@ def perc(m):
         baca.override.stem_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-struck-markup",
+            r"\baca-boxed-bd-struck-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -368,7 +368,7 @@ def perc(m):
         baca.override.stem_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-sponge-markup",
+            r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.rspanners.material_annotation(

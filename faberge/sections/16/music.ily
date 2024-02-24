@@ -345,7 +345,7 @@ number.16.Flute.Music = {
     \baca-effort-ff
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-very-small-maraca-markup
+    ^ \baca-boxed-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
     - \tweak stencil ##f
@@ -454,7 +454,7 @@ number.16.EnglishHorn.Music = {
     \baca-effort-ff
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-very-small-maraca-markup
+    ^ \baca-boxed-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
     - \tweak stencil ##f
@@ -653,7 +653,7 @@ number.16.Piano.RH.Music = {
     \baca-effort-ff
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-very-small-maraca-markup
+    ^ \baca-boxed-very-small-maraca-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Piano”)"
     - \tweak stencil ##f
@@ -886,7 +886,7 @@ number.16.Percussion.Music = {
     \p
     - \tweak padding 1.5
     - \tweak parent-alignment-X 0
-    ^ \baca-bd-sponge-markup
+    ^ \baca-boxed-bd-sponge-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     \glissando

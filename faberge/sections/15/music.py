@@ -222,7 +222,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 8)
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -249,7 +249,7 @@ def perc(m):
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
-            r"\baca-crotales-bowed-markup",
+            r"\baca-boxed-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
@@ -267,7 +267,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )

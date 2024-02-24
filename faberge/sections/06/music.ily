@@ -1742,7 +1742,7 @@ number.6.Piano.RH.Music = {
         \baca-effort-mf
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-tuning-pegs-markup
+        ^ \baca-boxed-tuning-pegs-markup
           %! SPANNER_START
         [
           %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -2284,7 +2284,7 @@ number.6.Percussion.Music = {
     \laissezVibrer
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-bd-struck-markup
+    ^ \baca-boxed-bd-struck-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
@@ -2368,7 +2368,7 @@ number.6.Percussion.Music = {
     \f
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 8
-    ^ \baca-castanets-markup
+    ^ \baca-boxed-castanets-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_START
     - \baca-solid-line-with-hook
@@ -2443,7 +2443,7 @@ number.6.Percussion.Music = {
             \baca-f-ancora
             - \tweak parent-alignment-X 0
             - \tweak staff-padding 8
-            ^ \baca-woodblock-markup
+            ^ \baca-boxed-woodblock-markup
               %! MATERIAL_ANNOTATION_SPANNER
               %! SPANNER_STOP
             \bacaStopTextSpanMaterialAnnotation

@@ -1237,7 +1237,7 @@ number.12.Piano.RH.Music = {
         \baca-effort-mf
         - \tweak parent-alignment-X 0
         - \tweak staff-padding 8
-        ^ \baca-tuning-pegs-markup
+        ^ \baca-boxed-tuning-pegs-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_STOP
         \bacaStopTextSpanMaterialAnnotation
@@ -1648,7 +1648,7 @@ number.12.Percussion.Music = {
     \p
     \laissezVibrer
     - \tweak staff-padding 6
-    ^ \baca-bd-struck-markup
+    ^ \baca-boxed-bd-struck-markup
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
@@ -1682,7 +1682,7 @@ number.12.Percussion.Music = {
       %! EXPLICIT_DYNAMIC
     \mp
     - \tweak staff-padding 6
-    ^ \baca-bd-sponge-markup
+    ^ \baca-boxed-bd-sponge-markup
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t

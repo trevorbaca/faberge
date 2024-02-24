@@ -1561,7 +1561,7 @@ number.14.Piano.RH.Music = {
           %! EXPLICIT_DYNAMIC
         \f
         - \tweak staff-padding 8
-        ^ \baca-woodblock-markup
+        ^ \baca-boxed-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook
@@ -2180,7 +2180,7 @@ number.14.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \f
         - \tweak staff-padding 8
-        ^ \baca-woodblock-markup
+        ^ \baca-boxed-woodblock-markup
           %! MATERIAL_ANNOTATION_SPANNER
           %! SPANNER_START
         - \baca-dashed-line-with-hook

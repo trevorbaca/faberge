@@ -383,7 +383,7 @@ def pf(cache):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-tuning-pegs-markup",
+            r"\baca-boxed-tuning-pegs-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -421,7 +421,7 @@ def perc(m):
     with baca.scope(m[7]) as o:
         baca.markup(
             o.pleaf(0),
-            r"\baca-woodblock-markup",
+            r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -437,7 +437,7 @@ def perc(m):
     with baca.scope(m.leaves()) as o:
         baca.markup(
             o.pleaf(0),
-            r"\baca-castanets-markup",
+            r"\baca-boxed-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )

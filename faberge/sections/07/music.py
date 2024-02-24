@@ -409,7 +409,7 @@ def perc(m):
         baca.dynamic(o.phead(0), "f")
         baca.markup(
             o.pleaf(0),
-            r"\baca-castanets-markup",
+            r"\baca-boxed-castanets-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
@@ -429,7 +429,7 @@ def perc(m):
     with baca.scope(m[5]) as o:
         baca.markup(
             o.pleaf(0),
-            r"\baca-bd-superball-markup",
+            r"\baca-boxed-bd-superball-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
