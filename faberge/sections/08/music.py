@@ -290,7 +290,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
     with baca.scope(m.leaves()) as o:
-        baca.pitch(o, "<G6 A6 B6 C7>")
+        baca.pitch(o, "G6:A6:B6:C7")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.leaves()) as o:
@@ -318,7 +318,7 @@ def pf(cache):
             baca.accent(o.pleaf(1))
             baca.accent(o.pleaf(-1))
     with baca.scope(m.get(1, 10)) as o:
-        baca.pitch(o, "<F6 G6 A6>")
+        baca.pitch(o, "F6:G6:A6")
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(1, 10)) as o:

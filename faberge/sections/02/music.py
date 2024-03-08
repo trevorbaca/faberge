@@ -549,7 +549,7 @@ def cl(m):
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m[1]) as o:
-        baca.pitch(o, "<D4 E4 F#4 G#4 A4 A4 B4 C5 D5>")
+        baca.pitch(o, "D4:E4:F#4:G#4:A4:A4:B4:C5:D5")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m[1]) as o:

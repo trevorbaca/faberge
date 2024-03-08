@@ -340,7 +340,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
     with baca.scope(m.get(6, 8)) as o:
-        baca.pitch(o, "<G3 A3 C4>")
+        baca.pitch(o, "G3:A3:C4")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(6, 8)) as o:
@@ -355,7 +355,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 4.5)
     m = cache["lh"]
     with baca.scope(m.get(6, 8)) as o:
-        baca.pitch(o, "<G3 A3 B3 C4>")
+        baca.pitch(o, "G3:A3:B3:C4")
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(6, 8)) as o:

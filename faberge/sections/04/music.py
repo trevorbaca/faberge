@@ -300,7 +300,7 @@ def pf(cache):
             o.pheads(),
             r"\baca-sharp-markup",
         )
-        baca.pitch(o, "<G3 A3 C4>")
+        baca.pitch(o, "G3:A3:C4")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.leaves()) as o:
@@ -309,7 +309,7 @@ def pf(cache):
     m = cache["lh"]
     with baca.scope(m.get(3, 5)) as o:
         baca.spanners.beam(o.tleaves())
-        baca.pitch(o, "<G3 A3 B3 C4>")
+        baca.pitch(o, "G3:A3:B3:C4")
         cache.rebuild()
         m = cache["lh"]
     m = cache["attack"]

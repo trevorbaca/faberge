@@ -345,7 +345,7 @@ def fl_cl(cache):
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m.get(1, 3)) as o:
-        baca.pitch(o, "<G3 A3 C4>")
+        baca.pitch(o, "G3:A3:C4")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(1, 3)) as o:
@@ -359,7 +359,7 @@ def pf(cache):
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "f")
     with baca.scope(m.get(5, 8)) as o:
-        baca.pitch(o, "<G6 A6 B6 C7>")
+        baca.pitch(o, "G6:A6:B6:C7")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(5, 8)) as o:
@@ -374,7 +374,7 @@ def pf(cache):
         )
     m = cache["lh"]
     with baca.scope(m.get(1, 3)) as o:
-        baca.pitch(o, "<G3 A3 B3 C4>")
+        baca.pitch(o, "G3:A3:B3:C4")
         cache.rebuild()
         m = cache["lh"]
     for item in [1, (2, 3), 5, 6, 7, 8]:
@@ -390,7 +390,7 @@ def pf(cache):
             baca.accent(o.pleaf(1))
             baca.accent(o.pleaf(-1))
     with baca.scope(m.get(5, 8)) as o:
-        baca.pitch(o, "<F6 G6 A6>")
+        baca.pitch(o, "F6:G6:A6")
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(5, 8)) as o:
