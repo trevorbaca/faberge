@@ -403,7 +403,7 @@ def eh(m):
     with baca.scope(m.leaves()) as o:
         baca.staff_lines(o.leaf(0), 5)
     with baca.scope(m.get(13, 16)) as o:
-        baca.pitches(o, "E4 Eb~4 E~4 E4 E#+4")
+        baca.pitches(o, "E4 Etqf4 Eqf4 E4 Etqs4")
         baca.dynamic(o.phead(0), "f")
         for run in baca.select.runs(o):
             baca.rspanners.trill(
@@ -411,7 +411,7 @@ def eh(m):
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
     with baca.scope(m.get(27, 30)) as o:
-        baca.pitches(o, "F#4 F#+4 E#4 E#+4")
+        baca.pitches(o, "F#4 Ftqs4 E#4 Etqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             baca.rspanners.trill(
@@ -419,7 +419,7 @@ def eh(m):
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
     with baca.scope(m.get(41, 46)) as o:
-        baca.pitches(o, "G#4 F#+4 G4 G+4 G#+4")
+        baca.pitches(o, "G#4 Ftqs4 G4 Gqs4 Gtqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             baca.rspanners.trill(
@@ -427,7 +427,7 @@ def eh(m):
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
             )
     with baca.scope(m.get(57, 62)) as o:
-        baca.pitches(o, "A#4 A+4 A#+4")
+        baca.pitches(o, "A#4 Aqs4 Atqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             baca.rspanners.trill(
@@ -444,7 +444,7 @@ def eh(m):
         ),
         baca.dynamic(o.phead(0), '"ff"')
     with baca.scope(m.get(89, 92)) as o:
-        baca.pitches(o, "C4 C+4 C~4 C#4")
+        baca.pitches(o, "C4 Cqs4 Cqf4 C#4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
             baca.rspanners.trill(
