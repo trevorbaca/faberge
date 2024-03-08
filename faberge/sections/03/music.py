@@ -400,7 +400,7 @@ def eh(m):
         baca.dynamic(o.phead(0), '"ff"')
     with baca.scope(m.get(13, 16)) as o:
         baca.dynamic(o.phead(0), "f")
-        baca.pitches(o, "Db4 Db~4 Db4 Db~4 D~4")
+        baca.pitches(o, "Db4 Dtqf4 Db4 Dtqf4 Dqf4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(17, 22)) as o:
         baca.dynamic(o.phead(0), '"ff"')
@@ -414,7 +414,7 @@ def eh(m):
             )
     with baca.scope(m.get(23, 30)) as o:
         baca.dynamic(o.phead(0), "ff")
-        baca.pitches(o, "D4 D+4 D~4 Db4 D~4")
+        baca.pitches(o, "D4 Dqs4 Dqf4 Db4 Dqf4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(31, 36)) as o:
         baca.dynamic(o.phead(0), "fff")
