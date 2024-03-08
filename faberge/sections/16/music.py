@@ -192,7 +192,7 @@ def perc(m):
 def vn(cache):
     m = cache["vn"]
     with baca.scope(m.leaves()) as o:
-        baca.pitch(o, "<F#5 Aqs5>")
+        baca.pitch(o, "F#5:Aqs5")
         cache.rebuild()
         m = cache["vn"]
     with baca.scope(m.leaves()) as o:

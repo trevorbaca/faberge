@@ -289,7 +289,7 @@ def fl_cl(cache):
 def pf(cache):
     m = cache["rh"]
     with baca.scope(m[3]) as o:
-        baca.pitch(o, "<G6 A6 B6 C7>")
+        baca.pitch(o, "G6:A6:B6:C7")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m[3]) as o:
@@ -335,7 +335,7 @@ def pf(cache):
         baca.override.dls_staff_padding(o, 3.5)
     m = cache["lh"]
     with baca.scope(m[3]) as o:
-        baca.pitch(o, "<F6 G6 A6>")
+        baca.pitch(o, "F6:G6:A6")
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m[3]) as o:

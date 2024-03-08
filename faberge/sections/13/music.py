@@ -361,7 +361,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
     with baca.scope(m.get(3, 4)) as o:
-        baca.pitch(o, "<G3 A3 C4>")
+        baca.pitch(o, "G3:A3:C4")
         cache.rebuild()
         m = cache["rh"]
     with baca.scope(m.get(3, 4)) as o:
@@ -397,7 +397,7 @@ def pf(cache):
     with baca.scope(m[3]) as o:
         baca.clef(o.leaf(0), "bass")
     with baca.scope(m.get(3, 4)) as o:
-        baca.pitch(o, "<G3 A3 B3 C4>")
+        baca.pitch(o, "G3:A3:B3:C4")
         cache.rebuild()
         m = cache["lh"]
     with baca.scope(m.get(3, 4)) as o:
