@@ -384,7 +384,7 @@ def perc(m):
                 abjad.Tweak(r"- \tweak staff-padding 7"),
             )
         baca.staff_position(o, 1)
-        baca.override.stem_up(o.pleaves())
+        baca.override.stem_direction_up(o.pleaves())
     for n in [5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
             baca.hairpin(
@@ -405,7 +405,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 6)
 

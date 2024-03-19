@@ -362,7 +362,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m[8]) as o:
         baca.override.dls_staff_padding(o.leaves(), 8)
         baca.dynamic(o.phead(0), "f")

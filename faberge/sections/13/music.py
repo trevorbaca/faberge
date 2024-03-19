@@ -417,7 +417,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
         )
         baca.staff_position(o, 1)
-        baca.override.stem_up(o.pleaves())
+        baca.override.stem_direction_up(o.pleaves())
     with baca.scope(m[7]) as o:
         baca.markup(
             o.pleaf(0),
@@ -538,7 +538,7 @@ def vn_va_vc(cache):
                 abjad.Tweak(r"- \tweak staff-padding 9.5"),
             )
             baca.staccato(o.pheads())
-            baca.override.stem_down(o.pleaves())
+            baca.override.stem_direction_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.rspanners.clb(

@@ -725,7 +725,7 @@ def perc(cache):
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.get(79, 80)) as o:
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(o.pleaf(0), "f")
@@ -784,7 +784,7 @@ def vn(m):
     with baca.scope(m.get(53, 68)) as o:
         baca.staff_lines(o.leaf(0), 1)
         baca.staccato(o.pheads())
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(23, 52)) as o:
         baca.mspanners.scp(
@@ -831,7 +831,7 @@ def vn(m):
             abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
         )
         baca.staccato(o.pheads())
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(53, 80)) as o:
         baca.override.beam_positions(o, -3.5)
@@ -900,7 +900,7 @@ def va(m):
         baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
         baca.staff_lines(o.leaf(0), 1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-4)
     with baca.scope(m.get(79, 80)) as o:
         baca.spanners.beam(o.tleaves())
@@ -980,7 +980,7 @@ def vc(m):
         baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')
         baca.staccato(o.pheads())
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.override.text_script_staff_padding(o, 8)
         baca.override.tuplet_bracket_staff_padding(o, 3)
         library.clb_staff_positions(o, rotation=-5)

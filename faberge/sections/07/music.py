@@ -414,7 +414,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.override.stem_up(o.pleaves())
+        baca.override.stem_direction_up(o.pleaves())
         for plt in baca.select.plts(o):
             baca.rspanners.trill(
                 plt,
@@ -434,7 +434,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.hairpin(
             o[:1],
             "o<|mf",
@@ -592,7 +592,7 @@ def vn_va(cache):
         ("va", (6, 7)),
     ):
         with baca.scope(cache[name].get(item)) as o:
-            baca.override.stem_down(o.pleaves())
+            baca.override.stem_direction_down(o.pleaves())
             baca.override.tuplet_bracket_staff_padding(o, 3.5)
     for name in ["vn", "va"]:
         with baca.scope(cache[name][7]) as o:

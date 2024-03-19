@@ -275,7 +275,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
 
 

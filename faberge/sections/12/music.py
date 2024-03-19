@@ -307,7 +307,7 @@ def perc(m):
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.get(1, 4)) as o:
         baca.rspanners.material_annotation(
             o,
@@ -335,7 +335,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.get(6, 8)) as o:
         baca.glissando(
             o,
@@ -352,7 +352,7 @@ def perc(m):
             r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
 
@@ -450,7 +450,7 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 9.5"),
         )
         baca.staccato(o.pheads())
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.staff_lines(o.leaf(0), 1)
         baca.override.tuplet_bracket_staff_padding(o, 3.5)
         library.clb_staff_positions(o)
@@ -520,7 +520,7 @@ def vn_vc(cache):
         for item in [(1, 4), (6, 9)]:
             with baca.scope(m.get(item)) as o:
                 baca.staccato(o.pheads())
-                baca.override.stem_down(o.pleaves())
+                baca.override.stem_direction_down(o.pleaves())
                 baca.override.tuplet_bracket_staff_padding(o, 3.5)
         with baca.scope(m[5]) as o:
             baca.stem_tremolo(o.pheads())
