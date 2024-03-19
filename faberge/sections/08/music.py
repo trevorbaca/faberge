@@ -340,14 +340,14 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, 1)
-        baca.override.stem_up(o.pleaves())
+        baca.override.stem_direction_up(o.pleaves())
         baca.rspanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
         )
     with baca.scope(m[3]) as o:
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-struck-markup",
@@ -365,7 +365,7 @@ def perc(m):
         )
     with baca.scope(m.get(4, 5)) as o:
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-sponge-markup",

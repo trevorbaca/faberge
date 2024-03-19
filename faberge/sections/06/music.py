@@ -376,7 +376,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         baca.staff_position(o, -1)
-        baca.override.stem_down(o.pleaves())
+        baca.override.stem_direction_down(o.pleaves())
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 6)
     with baca.scope(m[2]) as o:
@@ -420,7 +420,7 @@ def perc(m):
             abjad.Tweak(r"- \tweak color #darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 10.5"),
         ),
-        baca.override.stem_up(o.pleaves())
+        baca.override.stem_direction_up(o.pleaves())
 
 
 def vn(m):
@@ -548,7 +548,7 @@ def composites(cache):
                 abjad.Tweak(r"- \tweak staff-padding 10.5"),
             )
             baca.staccato(o.pheads())
-            baca.override.stem_down(o.pleaves())
+            baca.override.stem_direction_down(o.pleaves())
             library.clb_staff_positions(o)
             if name in ("va", "vc"):
                 baca.rspanners.clb(
