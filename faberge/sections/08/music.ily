@@ -2163,7 +2163,7 @@ number.8.Percussion.Music = {
     \p
     - \tweak parent-alignment-X 0
     - \tweak staff-padding 6
-    ^ \baca-marimba-attackless-markup
+    ^ \baca-boxed-marimba-attackless-markup
     \glissando
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
