@@ -360,7 +360,7 @@ def perc(m):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-marimba-attackless-markup",
+            r"\baca-boxed-marimba-attackless-markup",
             abjad.Tweak(r"- \tweak parent-alignment-X 0"),
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )

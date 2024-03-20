@@ -420,7 +420,7 @@ def eh(m):
         baca.dynamic(o.phead(0), "fff")
         baca.markup(
             o.pleaf(0),
-            r"\baca-doubletrill-markup",
+            r"\baca-boxed-doubletrill-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
         baca.pitch(o, "Eb4")
@@ -692,7 +692,7 @@ def perc(cache):
         )
         baca.markup(
             o.pleaf(0),
-            r"\baca-marimba-attackless-markup",
+            r"\baca-boxed-marimba-attackless-markup",
             abjad.Tweak(r"- \tweak staff-padding 6"),
         )
     with baca.scope(m.get(57, 60)) as o:

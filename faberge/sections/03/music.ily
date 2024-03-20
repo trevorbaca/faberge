@@ -4971,7 +4971,7 @@ number.3.EnglishHorn.Music = {
       %! EXPLICIT_DYNAMIC
     \fff
     - \tweak padding 1.5
-    ^ \baca-doubletrill-markup
+    ^ \baca-boxed-doubletrill-markup
     - \tweak stencil ##f
     ~
       %! SPANNER_START
@@ -8576,7 +8576,7 @@ number.3.Percussion.Music = {
       %! EXPLICIT_DYNAMIC
     \ppp
     - \tweak staff-padding 6
-    ^ \baca-marimba-attackless-markup
+    ^ \baca-boxed-marimba-attackless-markup
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
