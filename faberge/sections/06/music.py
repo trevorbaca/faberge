@@ -36,19 +36,19 @@ def GLOBALS(skips, rests, first_measure_number):
         "E",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
     )
-    baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "E",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
     )
-    baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
+    baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "E",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
     )
-    baca.tags.wrappers(wrappers, baca.tags.ONLY_SECTION)
+    baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
         (2 - 1, "156"),
         (4 - 1, "41"),
