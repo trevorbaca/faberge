@@ -2363,7 +2363,7 @@ number.3.Flute.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 7
@@ -2387,7 +2387,7 @@ number.3.Flute.Music = {
     \startStaff
     g''2
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -2403,10 +2403,10 @@ number.3.Flute.Music = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-bfl-markup
+    \set Staff.shortInstrumentName = \faberge-bfl-markup %@%
 
     g''8
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4283,7 +4283,7 @@ number.3.EnglishHorn.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 4
@@ -4309,14 +4309,14 @@ number.3.EnglishHorn.Music = {
       %! REAPPLIED_DYNAMIC
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“EnglishHorn”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-eh-markup
+    \set Staff.shortInstrumentName = \faberge-eh-markup %@%
 
     \times 4/5
     {
@@ -5693,7 +5693,7 @@ number.3.Clarinet.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 8
@@ -5716,7 +5716,7 @@ number.3.Clarinet.Music = {
     \startStaff
     f4
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -5731,10 +5731,10 @@ number.3.Clarinet.Music = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-bcl-markup
+    \set Staff.shortInstrumentName = \faberge-bcl-markup %@%
 
     \hide NoteHead
     \override Accidental.stencil = ##f
@@ -6806,7 +6806,7 @@ number.3.Piano.RH.Music = {
     \clef "treble"
     \once \override NoteHead.style = #'harmonic
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
@@ -6830,7 +6830,7 @@ number.3.Piano.RH.Music = {
     \startStaff
     <ef'! f' g' af'! c'' df''! ef''!>2.
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Piano”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Piano”)"
       %! SPANNER_START
     - \baca-dashed-line-with-hook
       %! SPANNER_START
@@ -6842,12 +6842,12 @@ number.3.Piano.RH.Music = {
       %! SPANNER_START
     \startTextSpan
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set PianoStaff.shortInstrumentName = \faberge-pf-markup
+    \set PianoStaff.shortInstrumentName = \faberge-pf-markup %@%
 
     % [Piano.RH.Music measure 2]
     \override Dots.transparent = ##t
@@ -8360,7 +8360,7 @@ number.3.Percussion.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
@@ -8387,7 +8387,7 @@ number.3.Percussion.Music = {
     - \tweak padding 1.5
     ^ \baca-lv-possibile-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -8401,10 +8401,10 @@ number.3.Percussion.Music = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-perc-markup
+    \set Staff.shortInstrumentName = \faberge-perc-markup %@%
 
     <<
 
@@ -9135,7 +9135,7 @@ number.3.Violin.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 5
@@ -9160,7 +9160,7 @@ number.3.Violin.Music = {
     - \tweak padding 1.5
     ^ \baca-lv-possibile-markup
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -9174,10 +9174,10 @@ number.3.Violin.Music = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-vn-markup
+    \set Staff.shortInstrumentName = \faberge-vn-markup %@%
 
     <<
 
@@ -10708,7 +10708,7 @@ number.3.Viola.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 7
@@ -10734,7 +10734,7 @@ number.3.Viola.Music = {
       %! REAPPLIED_DYNAMIC
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! SPANNER_START
     - \baca-dashed-line-with-hook
       %! SPANNER_START
@@ -10749,10 +10749,10 @@ number.3.Viola.Music = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-va-markup
+    \set Staff.shortInstrumentName = \faberge-va-markup %@%
 
     % [Viola.Music measure 2]
     \hide NoteHead
@@ -12266,7 +12266,7 @@ number.3.Cello.Music = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     \override DynamicLineSpanner.staff-padding = 6
@@ -12294,15 +12294,15 @@ number.3.Cello.Music = {
       %! REAPPLIED_DYNAMIC
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \faberge-vc-markup
+    \set Staff.shortInstrumentName = \faberge-vc-markup %@%
 
     % [Cello.Music measure 2]
     \hide NoteHead
