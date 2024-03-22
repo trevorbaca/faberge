@@ -991,7 +991,7 @@ def persist_score(score, environment):
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         baca.tags.STAGE_NUMBER,
