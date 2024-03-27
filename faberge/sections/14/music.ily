@@ -652,11 +652,6 @@ number.14.Flute.Music = {
       %! NOTE
     \abjad-invisible-music-coloring
       %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
-      %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
     \stopStaff
@@ -1456,11 +1451,6 @@ number.14.Clarinet.Music = {
       %! NOTE
     \abjad-invisible-music-coloring
       %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
-      %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
     \stopStaff
@@ -2001,11 +1991,6 @@ number.14.Percussion.Music = {
       %! NOTE
     \abjad-invisible-music-coloring
       %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
-      %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
     \stopStaff
@@ -2492,11 +2477,6 @@ number.14.Viola.Music = {
       %! NOTE
     \abjad-invisible-music-coloring
       %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
-      %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
     \stopStaff
@@ -2905,11 +2885,6 @@ number.14.Cello.Music = {
       %! INVISIBLE_MUSIC_COLORING
       %! NOTE
     \abjad-invisible-music-coloring
-      %! ANCHOR_NOTE
-      %! HIDDEN
-      %! NOTE
-      %! NOT_YET_PITCHED_COLORING
-    \baca-not-yet-pitched-coloring
       %! ANCHOR_NOTE
     \once \override Accidental.stencil = ##f
       %! ANCHOR_NOTE
