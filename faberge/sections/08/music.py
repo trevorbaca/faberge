@@ -221,9 +221,10 @@ def eh(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "G#5")
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
     with baca.scope(m.get(4, 5)) as o:
@@ -341,9 +342,10 @@ def perc(m):
         )
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())
-        baca.rspanners.trill(
+        baca.spanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            rleak=True,
         )
     with baca.scope(m[3]) as o:
         baca.staff_position(o, -1)

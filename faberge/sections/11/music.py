@@ -218,9 +218,10 @@ def eh(m):
         )
         baca.pitch(o, "A5")
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
 
 
@@ -247,9 +248,10 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:4])
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
         with baca.scope(m[1]) as o:
             baca.hairpin(
@@ -378,10 +380,11 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 14.5"),
         )
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
                 abjad.Tweak(r"- \tweak staff-padding 7"),
+                rleak=True,
             )
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())

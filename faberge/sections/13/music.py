@@ -277,9 +277,10 @@ def fl(m):
             "Ab3 Ab3 Ab3 G3 G3",
             allow_repeats=True,
         )
-        baca.rspanners.trill(
+        baca.spanners.trill(
             o.leaves()[:2],
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            rleak=True,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -295,9 +296,10 @@ def eh(m):
                 "o< mf>o!",
                 rleak=True,
             )
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.rspanners.material_annotation(
             o,
@@ -447,9 +449,10 @@ def perc(m):
             abjad.Tweak(r"- \tweak staff-padding 13"),
         )
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
 
 

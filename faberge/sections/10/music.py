@@ -210,9 +210,10 @@ def eh(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
 
@@ -249,9 +250,10 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:4])
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
         with baca.scope(m.leaves()) as o:
             baca.override.dls_staff_padding(o, 6)

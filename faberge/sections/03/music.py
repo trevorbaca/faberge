@@ -408,9 +408,10 @@ def eh(m):
         library.keynoise_pitches(o, rotation=-2)
     with baca.scope(m.get(13, 16)) as o:
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(23, 30)) as o:
         baca.dynamic(o.phead(0), "ff")
@@ -427,9 +428,10 @@ def eh(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
     with baca.scope(m.get(23, 30)) as o:
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(37, 44)) as o:
         baca.pitch(o, "E4")
@@ -438,9 +440,10 @@ def eh(m):
         baca.override.note_head_style_cross(o.pleaves())
         library.keynoise_pitches(o, rotation=-3)
     with baca.scope(m.get(31, 44)) as o:
-        baca.rspanners.trill(
+        baca.spanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            rleak=True,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 4)

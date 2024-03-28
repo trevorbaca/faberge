@@ -300,9 +300,10 @@ def fl_cl(cache):
                     baca.select.lparts(o, [1, 1, len(o) - 2]),
                     "o< mp>o p>pp",
                 )
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
 
 
@@ -390,9 +391,10 @@ def perc(m):
         with baca.scope(m[n]) as o:
             baca.staff_position(o, 1)
             for plt in baca.select.plts(o):
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     plt,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
     with baca.scope(m[4]) as o:
         baca.dynamic(o.phead(0), "f")
