@@ -273,9 +273,10 @@ def eh(m):
     for n in [4, 5, 8]:
         with baca.scope(m[n]) as o:
             for plt in baca.select.plts(o):
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     plt,
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
     with baca.scope(m.get(4, 8)) as o:
         baca.override.trill_spanner_staff_padding(o, 5.5)
@@ -320,9 +321,10 @@ def fl_cl(cache):
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(2), -1)
                 baca.override.dynamic_text_self_alignment_x(o.pleaf(-1), -0.75)
                 baca.glissando(o.pleaves()[2:4])
-                baca.rspanners.trill(
+                baca.spanners.trill(
                     o.leaves()[:2],
                     abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    rleak=True,
                 )
         with baca.scope(m[4]) as o:
             baca.hairpin(
@@ -416,9 +418,10 @@ def perc(m):
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.rspanners.material_annotation(
             baca.select.tleaves(o),

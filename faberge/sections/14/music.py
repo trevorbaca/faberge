@@ -270,9 +270,10 @@ def eh(m):
                 "o< mf>o!",
                 rleak=True,
             )
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.rspanners.material_annotation(
             o,
@@ -318,9 +319,10 @@ def perc(m):
         )
         baca.staff_position(o, 0)
         for plt in baca.select.plts(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 plt,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
 
 

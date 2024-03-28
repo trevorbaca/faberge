@@ -406,33 +406,37 @@ def eh(m):
         baca.pitches(o, "E4 Etqf4 Eqf4 E4 Etqs4")
         baca.dynamic(o.phead(0), "f")
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(27, 30)) as o:
         baca.pitches(o, "F#4 Ftqs4 E#4 Etqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(41, 46)) as o:
         baca.pitches(o, "G#4 Ftqs4 G4 Gqs4 Gtqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(57, 62)) as o:
         baca.pitches(o, "A#4 Aqs4 Atqs4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
     with baca.scope(m.get(81, 88)) as o:
         library.keynoise_pitches(o, rotation=0)
@@ -447,9 +451,10 @@ def eh(m):
         baca.pitches(o, "C4 Cqs4 Cqf4 C#4")
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         for run in baca.select.runs(o):
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 run,
                 abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                rleak=True,
             )
         baca.dynamic(o.phead(0), "f")
     with baca.scope(m.leaves()) as o:
@@ -627,9 +632,10 @@ def perc(m):
         )
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())
-        baca.rspanners.trill(
+        baca.spanners.trill(
             baca.select.tleaves(o),
             abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            rleak=True,
         )
     with baca.scope(m[87]) as o:
         baca.override.dls_staff_padding(o, 6)
