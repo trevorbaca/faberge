@@ -737,10 +737,11 @@ def perc(cache):
             r"\baca-boxed-woodblock-markup",
             abjad.Tweak(r"- \tweak staff-padding 8"),
         )
-        baca.rspanners.material_annotation(
+        baca.spanners.material_annotation(
             baca.select.ltleaves(o),
             "MM =|",
             abjad.Tweak(r"- \tweak staff-padding 8"),
+            rleak=True,
             right_broken=True,
         )
         baca.staff_position(o, 0)
@@ -816,15 +817,17 @@ def vn(m):
         )
         baca.staff_position(o, 0)
     with baca.scope(m.get(53, 68)) as o:
-        baca.rspanners.clb(
+        baca.spanners.clb(
             baca.select.ltleaves(o),
             3,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(73, 80)) as o:
-        baca.rspanners.clb(
+        baca.spanners.clb(
             baca.select.ltleaves(o),
             3,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.dynamic(
@@ -895,9 +898,10 @@ def va(m):
         )
     with baca.scope(m.get(53, 80)) as o:
         baca.override.beam_positions(o, -3.5)
-        baca.rspanners.clb(
+        baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 10)
@@ -975,9 +979,10 @@ def vc(m):
     with baca.scope(m.get(61, 80)) as o:
         baca.override.beam_positions(o, -3.5)
         baca.staff_lines(o.leaf(0), 1)
-        baca.rspanners.clb(
+        baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 10)
