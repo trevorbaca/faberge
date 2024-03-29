@@ -792,9 +792,10 @@ def vn(m):
         baca.override.stem_direction_down(o.pleaves())
         library.clb_staff_positions(o, rotation=-3)
     with baca.scope(m.get(23, 52)) as o:
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
@@ -888,9 +889,10 @@ def va(m):
             "(pp)< f>pp",
         )
     with baca.scope(m.get(23, 52)) as o:
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
@@ -930,9 +932,10 @@ def vc(m):
             "(p)<ff",
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o],
             "(tasto) -> molto pont.",
+            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -947,9 +950,10 @@ def vc(m):
             rleak=True,
         )
     with baca.scope(m.get(23, 30)) as o:
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o],
             "(molto pont.) -> tasto",
+            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -973,10 +977,9 @@ def vc(m):
             r"\baca-non-vib-markup",
             abjad.Tweak(r"- \tweak staff-padding 5.5"),
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.mgroups(baca.select.ltleaves(o), [12, 12]),
             "(tasto) -> PO -> tasto poss.",
-            do_not_rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(61, 80)) as o:

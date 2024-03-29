@@ -394,10 +394,9 @@ def vn(m):
                 baca.select.lparts(o, [1, 1, 2]),
                 "mp o< mp>p",
             )
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(1, 3)) as o:
@@ -438,10 +437,9 @@ def vn(m):
         baca.stem_tremolo(o.pleaves())
     for n in [6, 7]:
         with baca.scope(m[n]) as o:
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(6, 8)) as o:
@@ -471,10 +469,9 @@ def va(m):
                 baca.select.lparts(o, [1, 1, 2]),
                 "mp o< mp>p",
             )
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m[4]) as o:
@@ -505,10 +502,9 @@ def va(m):
         )
     for n in [6, 7]:
         with baca.scope(m[n]) as o:
-            baca.mspanners.scp(
+            baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                do_not_rleak=True,
                 staff_padding=5.5,
             )
     with baca.scope(m.get(6, 8)) as o:

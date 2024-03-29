@@ -763,10 +763,9 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
             "tasto -> pont. ->",
-            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -817,10 +816,9 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o.ltleaves()],
             "tasto -> pont.",
-            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -852,10 +850,9 @@ def va(m):
             "D3",
             hide_middle_stems=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o.ltleaves()],
             "pont. -> tasto",
-            do_not_rleak=True,
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
@@ -899,9 +896,10 @@ def vc(m):
             "p<f",
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o.ltleaves()],
             "tasto -> PO",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
@@ -910,9 +908,10 @@ def vc(m):
             "f>p",
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o.ltleaves()],
             "(PO) -> tasto",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
@@ -921,9 +920,10 @@ def vc(m):
             "p<ff",
             rleak=True,
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o.ltleaves()],
             "(tasto) -> poco pont.",
+            rleak=True,
             staff_padding=3,
         )
         baca.mspanners.vibrato(
@@ -939,10 +939,9 @@ def vc(m):
             abjad.Tweak(r"- \tweak padding 1.5"),
         )
     with baca.scope(m.get(71, 80)) as o:
-        baca.mspanners.scp(
+        baca.spanners.scp(
             [o],
             "(poco pont.) -> tasto",
-            do_not_rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(71, 88)) as o:
