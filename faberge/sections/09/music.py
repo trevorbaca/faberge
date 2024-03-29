@@ -389,10 +389,9 @@ def vn(m):
     for n in [1, 2, 3, 4, 5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                baca.mspanners.scp(
+                baca.spanners.scp(
                     baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
-                    do_not_rleak=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(1, 4)) as o:
@@ -452,12 +451,11 @@ def va(m):
             baca.select.clparts(o, [1]),
             "p o< p> pp o< p> pp p",
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             do_not_bookend=True,
-            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
@@ -473,12 +471,11 @@ def va(m):
             baca.select.clparts(o, [1]),
             "o< mp> pp mp o< mp> pp mp",
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
             do_not_bookend=True,
-            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m[3]) as o:
@@ -492,12 +489,11 @@ def va(m):
             baca.select.clparts(o, [1]),
             "mp o< mf> pp o< mf> pp mf",
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
             do_not_bookend=True,
-            do_not_rleak=True,
             staff_padding=8,
         )
     with baca.scope(m[4]) as o:
@@ -511,21 +507,19 @@ def va(m):
             baca.select.clparts(o, [1]),
             "o< f> pp f f o< f> pp",
         )
-        baca.mspanners.scp(
+        baca.spanners.scp(
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
             do_not_bookend=True,
-            do_not_rleak=True,
             staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
             for clpart in baca.select.clparts(o, [4]):
-                baca.mspanners.scp(
+                baca.spanners.scp(
                     baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
-                    do_not_rleak=True,
                     staff_padding=8,
                 )
     with baca.scope(m.get(5, 8)) as o:
@@ -577,9 +571,10 @@ def vc(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 5)
         baca.glissando(o, "F2")
-        baca.mspanners.scp(
+        baca.spanners.scp(
             o.ltleaves(),
             "tasto =|",
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
