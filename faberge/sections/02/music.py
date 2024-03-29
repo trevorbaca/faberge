@@ -926,9 +926,10 @@ def vc(m):
             rleak=True,
             staff_padding=3,
         )
-        baca.mspanners.vibrato(
+        baca.spanners.vibrato(
             [o],
             "(poco vib.) -> vib. mod.",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(63, 70)) as o:
@@ -945,9 +946,10 @@ def vc(m):
             staff_padding=3,
         )
     with baca.scope(m.get(71, 88)) as o:
-        baca.mspanners.vibrato(
+        baca.spanners.vibrato(
             baca.select.mgroups(o, [9, 9]),
             "sub. vib. mod. -> non vib. -> poco vib.",
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(71, 89)) as o:
