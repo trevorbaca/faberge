@@ -315,7 +315,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             rleak=True,
         )
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 5.5)
     for n in [4, 5, 6, 7, 8]:
         with baca.scope(m[n]) as o:
@@ -349,7 +349,7 @@ def pf(cache):
         baca.accent(o.pleaf(1))
         baca.accent(o.pleaf(-1))
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 7)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
@@ -432,8 +432,9 @@ def vn(m):
             rleak=True,
         )
         baca.pitch(o, "E4")
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m[3]) as o:
@@ -469,8 +470,9 @@ def vn(m):
             rleak=True,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.leaves()) as o:
@@ -488,8 +490,9 @@ def va(m):
             rleak=True,
         )
         baca.pitch(o, "E4")
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(3, 4)) as o:
@@ -510,8 +513,9 @@ def va(m):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             rleak=True,
         )
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(5, 8)) as o:
@@ -530,9 +534,10 @@ def vc(m, metadata):
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             o,
             4,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o.pleaves())
@@ -581,8 +586,9 @@ def vc(m, metadata):
             rleak=True,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
 

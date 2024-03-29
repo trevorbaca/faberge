@@ -310,8 +310,9 @@ def va(m):
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "F3")
         for plt in baca.select.plts(o):
-            baca.rspanners.xfb(
+            baca.spanners.xfb(
                 plt,
+                rleak=True,
                 staff_padding=3,
             )
     with baca.scope(m.get(5, 8)) as o:

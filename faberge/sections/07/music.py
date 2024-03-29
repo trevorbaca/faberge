@@ -465,8 +465,9 @@ def vn(m):
         baca.pitch(o, "C#5")
         baca.dynamic(o.phead(0), '"f"')
         baca.override.dls_staff_padding(o, 4)
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
         baca.spanners.material_annotation(
@@ -521,8 +522,9 @@ def va(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "C#5")
         baca.dynamic(o.phead(0), '"f"')
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=5.5,
         )
         baca.spanners.material_annotation(
@@ -563,8 +565,9 @@ def va(m):
         baca.pitch(o, "D3")
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
         baca.breathe(o.pleaf(-1))
@@ -634,8 +637,9 @@ def vc(m):
             hide_middle_stems=True,
             left_broken=True,
         )
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m[4]) as o:

@@ -432,9 +432,10 @@ def vc(m, metadata):
             rleak=True,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             o,
             4,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o)

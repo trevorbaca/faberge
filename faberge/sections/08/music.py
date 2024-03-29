@@ -299,7 +299,7 @@ def pf(cache):
         m = cache["rh"]
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 4.5)
-        # baca.rspanners.ottava(o.tleaves())
+        # baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["lh"]
     for n in [1, 3, 4, 5]:
@@ -330,7 +330,7 @@ def pf(cache):
     with baca.scope(m.get(1, 10)) as o:
         baca.markup(o.pheads(), r"\baca-sharp-markup")
         baca.override.dls_staff_padding(o, 4.5)
-        # baca.rspanners.ottava(o.tleaves())
+        # baca.spanners.ottava(o.tleaves(), rleak=True)
         baca.override.ottava_bracket_staff_padding(o, 8)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
@@ -469,8 +469,9 @@ def va(m):
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
         baca.dynamic(o.phead(0), "mp")
         baca.override.dls_staff_padding(o, 5)
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
         baca.spanners.material_annotation(
