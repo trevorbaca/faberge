@@ -379,8 +379,9 @@ def va(m):
             rleak=True,
         )
         for plt in baca.select.plts(o):
-            baca.rspanners.xfb(
+            baca.spanners.xfb(
                 plt,
+                rleak=True,
                 staff_padding=3,
             )
     with baca.scope(m.get(1, 4)) as o:
@@ -400,9 +401,10 @@ def vc(m, metadata):
             rleak=True,
         ),
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             o,
             4,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o.pleaves())

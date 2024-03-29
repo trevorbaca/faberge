@@ -713,13 +713,15 @@ def vn(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.pitch(o, "E4")
     with baca.scope(m.get(63, 65)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(69, 70)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
@@ -735,13 +737,15 @@ def vn(m):
         baca.spanners.beam(o.pleaves()[:2])
         baca.spanners.beam(o.leaves()[-4:])
     with baca.scope(m.get(81, 83)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(89, 92)) as o:
@@ -796,13 +800,15 @@ def va(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.pitch(o, "E4")
     with baca.scope(m.get(1, 62)) as o:
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(63, 65)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
@@ -819,8 +825,9 @@ def va(m):
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(69, 70)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(71, 76)) as o:
@@ -833,8 +840,9 @@ def va(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.pitch(o, "E4")
     with baca.scope(m.get(71, 80)) as o:
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(89, 92)) as o:
@@ -851,19 +859,22 @@ def va(m):
             staff_padding=3,
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
             right_broken=True,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(81, 83)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            rleak=True,
             staff_padding=3,
         )
 

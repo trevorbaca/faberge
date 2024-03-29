@@ -319,7 +319,7 @@ def pf(cache):
             abjad.Tweak(r"- \tweak staff-padding 8"),
             rleak=True,
         )
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
     m = cache["lh"]
     with baca.scope(m[5]) as o:
         baca.accent(o.pleaf(1))
@@ -331,7 +331,7 @@ def pf(cache):
     with baca.scope(m.get(5, 6)) as o:
         baca.spanners.beam(o.tleaves())
         baca.markup(o.pheads(), r"\baca-sharp-markup")
-        baca.rspanners.ottava(o.tleaves())
+        baca.spanners.ottava(o.tleaves(), rleak=True)
     m = cache["attack"]
     with baca.scope(m.leaves()) as o:
         baca.override.mmrest_transparent(o)
@@ -498,8 +498,9 @@ def va(m):
             rleak=True,
         )
         baca.stem_tremolo(o.pleaves())
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=3,
         )
     for n in [6, 7]:
@@ -619,10 +620,11 @@ def vc(m, metadata):
             rleak=True,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             o,
             4,
             right_broken=True,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o.pleaves())

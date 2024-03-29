@@ -189,8 +189,9 @@ def vn(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "E4")
         baca.dynamic(o.phead(0), '"f"')
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
 
@@ -206,8 +207,9 @@ def va(m):
     with baca.scope(m[1]) as o:
         baca.pitch(o, "E4")
         baca.dynamic(o.phead(0), '"f"')
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
 

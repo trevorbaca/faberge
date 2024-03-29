@@ -774,8 +774,9 @@ def vn(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 22)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:
@@ -856,8 +857,9 @@ def va(m):
         baca.dynamic(o.phead(0), '"ff"')
         baca.pitch(o, "F4")
     with baca.scope(m.get(1, 8)) as o:
-        baca.rspanners.xfb(
+        baca.spanners.xfb(
             o,
+            rleak=True,
             staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
@@ -873,8 +875,9 @@ def va(m):
             hide_middle_stems=True,
         )
     with baca.scope(m.get(9, 22)) as o:
-        baca.rspanners.spazzolato(
+        baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            rleak=True,
             staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:

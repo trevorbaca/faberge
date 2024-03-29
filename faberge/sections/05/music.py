@@ -367,9 +367,10 @@ def vn_va(cache):
 def vc(m, metadata):
     with baca.scope(m.get(1, 8)) as o:
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             o,
             4,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o.pleaves())

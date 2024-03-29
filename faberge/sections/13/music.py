@@ -499,8 +499,9 @@ def va(m):
         )
         baca.pitch(o, "Eb3")
         for plt in baca.select.plts(o):
-            baca.rspanners.xfb(
+            baca.spanners.xfb(
                 plt,
+                rleak=True,
                 staff_padding=5,
             )
     with baca.scope(m.leaves()) as o:
@@ -517,9 +518,10 @@ def vc(m, metadata):
     with baca.scope(m.get(7, 8)) as o:
         baca.override.dls_staff_padding(o, 8)
         baca.override.note_head_style_harmonic(o.pleaves())
-        baca.rspanners.string_number(
+        baca.spanners.string_number(
             baca.select.ltleaves(o),
             4,
+            rleak=True,
             staff_padding=5.5,
         )
         baca.untie(o.pleaves())
