@@ -358,7 +358,9 @@ number.4.Flute.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“BassFlute”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -641,10 +643,9 @@ number.4.EnglishHorn.Music = {
     \baca-effort-mf
 
     % [EnglishHorn.Music measure 4]
-    r2.
-
-    r2
-    \revert DynamicLineSpanner.staff-padding
+    R1 * 5/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"5" #"4"
 
     % [EnglishHorn.Music measure 5]
     \override DynamicLineSpanner.staff-padding = 6
@@ -755,7 +756,9 @@ number.4.Clarinet.Music = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
     %@% ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -803,7 +806,9 @@ number.4.Clarinet.Music = {
     \baca-effort-mp
 
     % [Clarinet.Music measure 3]
-    r2.
+    R1 * 3/4
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Clarinet.Music measure 4]
     b'4.
@@ -1926,12 +1931,14 @@ number.4.Viola.Music = {
     \repeatTie
 
     % [Viola.Music measure 3]
-    r2.
+    R1 * 3/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-mf
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     % [Viola.Music measure 4]
     r4
