@@ -3523,18 +3523,17 @@ number.8.Cello.Music = {
     \<
 
     % [Cello.Music measure 5]
-    r2.
+    R1 * 5/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-effort-f
+      %! DURATION_MULTIPLIER
+    %@% ^ \baca-duration-multiplier-markup #"5" #"4"
       %! MATERIAL_ANNOTATION_SPANNER
       %! SPANNER_STOP
     \bacaStopTextSpanMaterialAnnotation
-
-    r2
-    \revert DynamicLineSpanner.staff-padding
 
     {
 
