@@ -8,7 +8,7 @@ def main():
     y_offset_3 = 100
     y_offset_4 = 144
     y_offset_5 = 188
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=y_offset_2, distances=distances),
@@ -102,9 +102,11 @@ def main():
             baca.layout.System(276, y_offset=y_offset_2, distances=distances),
             baca.layout.System(281, y_offset=y_offset_3, distances=distances),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 16),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 if __name__ == "__main__":
