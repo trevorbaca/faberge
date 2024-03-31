@@ -1090,11 +1090,11 @@ def make_layout():
             baca.system(measure=start_measure_number, y_offset=40, distances=distances),
         )
         pages.append(page)
-    spacing = baca.make_layout(
+    layout = baca.make_layout(
         *pages,
         spacing=(1, 48),
     )
-    baca.section.make_layout_ly(spacing)
+    baca.section.make_layout_ly(layout)
 
 
 def main():
