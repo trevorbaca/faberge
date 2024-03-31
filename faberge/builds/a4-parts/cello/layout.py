@@ -11,7 +11,7 @@ def main():
     y_offset_6 = 152
     y_offset_7 = 180
     y_offset_8 = 208
-    spacing = baca.make_layout(
+    layout = baca.make_layout(
         baca.page(
             1,
             # baca.system(measure=1, y_offset=57, distances=distances),
@@ -92,7 +92,7 @@ def main():
             baca.region([193, 196, 211, 216, 223, 227], (1, 4)),
         ),
     )
-    baca.section.make_layout_ly(spacing)
+    baca.section.make_layout_ly(layout)
 
 
 if __name__ == "__main__":
