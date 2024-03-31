@@ -111,7 +111,7 @@ def main():
             baca.layout.Override(166, (1, 40)),
         ),
     )
-    baca.section.write_layout_ly(layout)
+    baca.build.write_layout_ly(layout)
 
 
 if __name__ == "__main__":
