@@ -1052,7 +1052,7 @@ def make_layout():
     spacing = baca.make_layout(
         *pages,
         spacing=(1, 48),
-        overrides=(baca.space(1, (1, 56)),),
+        overrides=(baca.region(1, (1, 56)),),
     )
     baca.section.make_layout_ly(spacing)
 
