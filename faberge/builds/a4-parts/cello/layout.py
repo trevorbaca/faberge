@@ -11,8 +11,8 @@ def main():
     y_offset_6 = 152
     y_offset_7 = 180
     y_offset_8 = 208
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             # baca.layout.System(1, y_offset=57, distances=distances),
             baca.layout.System(1, y_offset=y_offset_3, distances=distances),
@@ -22,7 +22,7 @@ def main():
             baca.layout.System(33, y_offset=y_offset_7, distances=distances),
             baca.layout.System(41, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             2,
             baca.layout.System(49, y_offset=y_offset_1, distances=distances),
             baca.layout.System(57, y_offset=y_offset_2, distances=distances),
@@ -33,7 +33,7 @@ def main():
             baca.layout.System(97, y_offset=y_offset_7, distances=distances),
             baca.layout.System(105, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             3,
             baca.layout.System(113, y_offset=y_offset_1, distances=distances),
             baca.layout.System(121, y_offset=y_offset_2, distances=distances),
@@ -44,7 +44,7 @@ def main():
             baca.layout.System(157, y_offset=y_offset_7, distances=distances),
             baca.layout.System(162, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             4,
             baca.layout.System(167, y_offset=y_offset_1, distances=distances),
             baca.layout.System(171, y_offset=y_offset_2, distances=distances),
@@ -55,7 +55,7 @@ def main():
             baca.layout.System(191, y_offset=y_offset_7, distances=distances),
             baca.layout.System(195, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             5,
             baca.layout.System(199, y_offset=y_offset_1, distances=distances),
             baca.layout.System(203, y_offset=y_offset_2, distances=distances),
@@ -66,7 +66,7 @@ def main():
             baca.layout.System(223, y_offset=y_offset_7, distances=distances),
             baca.layout.System(226, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             6,
             baca.layout.System(230, y_offset=y_offset_1, distances=distances),
             baca.layout.System(234, y_offset=y_offset_2, distances=distances),
@@ -77,7 +77,7 @@ def main():
             baca.layout.System(255, y_offset=y_offset_7, distances=distances),
             baca.layout.System(259, y_offset=y_offset_8, distances=distances),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             7,
             baca.layout.System(263, y_offset=y_offset_1, distances=distances),
             baca.layout.System(267, y_offset=y_offset_2, distances=distances),

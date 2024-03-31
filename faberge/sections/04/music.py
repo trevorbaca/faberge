@@ -544,8 +544,8 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
 
 def make_layout():
     distances = [18, (21, 21, 24), (21, 21, 24), (21, 21, 24)]
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=40, distances=distances),
         ),

@@ -1040,7 +1040,7 @@ def make_layout():
     for page_index in range(page_count):
         page_number = page_index + 1
         start_measure_number = measures_per_page * page_index + 1
-        page = baca.layout.page(
+        page = baca.layout.Page(
             page_number,
             baca.layout.System(
                 measure=start_measure_number,
@@ -1049,7 +1049,7 @@ def make_layout():
             ),
         )
         pages.append(page)
-    layout = baca.layout.layout(
+    layout = baca.layout.Layout(
         *pages,
         default_spacing=(1, 48),
         spacing_overrides=(baca.layout.Override(1, (1, 56)),),
