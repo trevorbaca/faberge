@@ -1091,7 +1091,7 @@ def make_layout():
         )
         pages.append(page)
     breaks = baca.layout.Breaks(*pages)
-    spacing = baca.layout.Spacing(default_spacing=(1, 48))
+    spacing = baca.layout.Spacing(default=(1, 48))
     baca.build.write_layout_ly(breaks, spacing)
 
 
