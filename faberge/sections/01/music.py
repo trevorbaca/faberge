@@ -258,7 +258,7 @@ def make_score():
 
 
 def persist_score(score, environment):
-    metadata = baca.section.postprocess_score(
+    metadata = baca.section.postprocess(
         score,
         environment,
         library.manifests,
