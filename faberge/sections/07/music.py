@@ -277,7 +277,7 @@ def eh(m):
             for plt in baca.select.plts(o):
                 baca.spanners.trill(
                     plt,
-                    abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    baca.postevent.bound_details_right_padding(2),
                     rleak=True,
                 )
     with baca.scope(m.get(4, 8)) as o:
@@ -327,7 +327,7 @@ def fl_cl(cache):
                 baca.glissando(o.pleaves()[2:4])
                 baca.spanners.trill(
                     o.leaves()[:2],
-                    abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    baca.postevent.bound_details_right_padding(2),
                     rleak=True,
                 )
         with baca.scope(m[4]) as o:
@@ -425,7 +425,7 @@ def perc(m):
         for plt in baca.select.plts(o):
             baca.spanners.trill(
                 plt,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
         baca.spanners.material_annotation(

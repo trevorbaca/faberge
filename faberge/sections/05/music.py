@@ -255,7 +255,7 @@ def fl_cl(cache):
                 )
                 baca.spanners.trill(
                     o.leaves()[:2],
-                    abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                    baca.postevent.bound_details_right_padding(2),
                     rleak=True,
                 )
 
