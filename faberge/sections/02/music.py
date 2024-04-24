@@ -383,7 +383,7 @@ def fl(m):
         library.bfl_color_fingerings(
             o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-            abjad.Tweak(r"- \tweak staff-padding 3.5"),
+            baca.postevent.staff_padding(3.5),
         )
         baca.hairpin(
             o.tleaves()[:1],
@@ -629,7 +629,7 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-castanets-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())
@@ -645,8 +645,8 @@ def perc(m):
         baca.markup(
             o.plt(-1),
             r"\baca-boxed-bd-struck-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.staff_position(o, -1)
         baca.override.stem_direction_down(o.pleaves())
@@ -658,7 +658,7 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-crotales-bowed-markup",
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.staff_padding(6),
         )
         library.dal_niente_hairpins(o, "f")
     with baca.scope(m.get(1, 80)) as o:
@@ -668,7 +668,7 @@ def perc(m):
             o.pleaf(0),
             r"\baca-boxed-crotales-bowed-markup",
             abjad.Tweak(r"- \tweak extra-offset #'(-6 . 0)"),
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.staff_padding(6),
         )
 
 
@@ -888,8 +888,8 @@ def vc(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-poco-vib-sempre-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(5.5),
         )
     with baca.scope(m.get(1, 16)) as o:
         baca.hairpin(

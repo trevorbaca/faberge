@@ -167,7 +167,7 @@ def fl_eh_rh(cache):
                 o.pleaf(0),
                 r"\baca-boxed-very-small-maraca-markup",
                 abjad.Tweak(r"- \tweak padding 1.5"),
-                abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+                baca.postevent.parent_alignment_x(0),
             )
         with baca.scope(m.get(1, 5)) as o:
             baca.stem_tremolo(o.pleaves())
@@ -185,7 +185,7 @@ def perc(m):
             o.pleaf(0),
             r"\baca-boxed-bd-sponge-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            baca.postevent.parent_alignment_x(0),
         )
 
 

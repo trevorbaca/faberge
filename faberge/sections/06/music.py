@@ -235,7 +235,7 @@ def fl(m):
             o,
             "5-2 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
     for n in [4, 5]:
@@ -249,7 +249,7 @@ def fl(m):
         baca.spanners.material_annotation(
             o,
             "1-5 / 2-1 =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
     for n in [6, 7, 8]:
@@ -283,7 +283,7 @@ def cl(m):
         baca.spanners.material_annotation(
             o,
             "1-5 / 2-1 =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
 
@@ -327,8 +327,8 @@ def pf(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-tuning-pegs-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         ),
         baca.override.note_head_stencil_false(o.pleaves())
         baca.override.tuplet_bracket_transparent(o)
@@ -353,7 +353,7 @@ def pf(cache):
         baca.spanners.material_annotation(
             o,
             "2-1 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
     with baca.scope(m.leaves()) as o:
@@ -377,8 +377,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-struck-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.staff_position(o, -1)
         baca.override.stem_direction_down(o.pleaves())
@@ -389,7 +389,7 @@ def perc(m):
             o,
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            baca.postevent.staff_padding(10.5),
             rleak=True,
         )
     for n in [4, 5, 6, 7]:
@@ -406,8 +406,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-castanets-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m[8]) as o:
         baca.override.dls_staff_padding(o, 8)
@@ -415,8 +415,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-woodblock-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.staff_position(o, 0)
     with baca.scope(m.get(4, 7)) as o:
@@ -425,7 +425,7 @@ def perc(m):
             o,
             "4-3 -|",
             abjad.Tweak(r"- \tweak color #darkgreen"),
-            abjad.Tweak(r"- \tweak staff-padding 10.5"),
+            baca.postevent.staff_padding(10.5),
             rleak=True,
         ),
         baca.override.stem_direction_up(o.pleaves())
@@ -532,7 +532,7 @@ def composites(cache):
                     o,
                     "3-1 -|",
                     abjad.Tweak(r"- \tweak color #darkgreen"),
-                    abjad.Tweak(r"- \tweak staff-padding 8"),
+                    baca.postevent.staff_padding(8),
                     rleak=True,
                 )
                 plts = baca.select.plts(o)
@@ -554,7 +554,7 @@ def composites(cache):
                 o,
                 "4-3 -|",
                 abjad.Tweak(r"- \tweak color #darkgreen"),
-                abjad.Tweak(r"- \tweak staff-padding 10.5"),
+                baca.postevent.staff_padding(10.5),
                 rleak=True,
             )
             baca.staccato(o.pheads())

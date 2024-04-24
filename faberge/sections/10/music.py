@@ -207,7 +207,7 @@ def eh(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "MM =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         for plt in baca.select.plts(o):
@@ -261,7 +261,7 @@ def fl_cl(cache):
             baca.spanners.material_annotation(
                 o,
                 "3-4 / 3-5 =|",
-                abjad.Tweak(r"- \tweak staff-padding 8"),
+                baca.postevent.staff_padding(8),
                 rleak=True,
             )
         with baca.scope(m[1]) as o:
@@ -316,7 +316,7 @@ def pf(cache):
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.spanners.ottava(o.tleaves(), rleak=True)
@@ -357,14 +357,14 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-struck-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.spanners.material_annotation(
             o,
             "A.2 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.staff_position(o, -1)
@@ -375,13 +375,13 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-woodblock-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.spanners.material_annotation(
             o,
             "MM =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.staff_position(o, 0)
@@ -408,7 +408,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "3-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
     with baca.scope(m[4]) as o:
@@ -430,7 +430,7 @@ def vn(m):
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "A6")
@@ -446,7 +446,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "3-5 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "C5")
@@ -460,7 +460,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "3-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
     for n in [1, 2, 3]:
@@ -491,7 +491,7 @@ def va(m):
             o,
             "A.4 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.stem_tremolo(o.pleaves())
@@ -511,7 +511,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "3-5 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "Bb3")
@@ -580,7 +580,7 @@ def vc(m, metadata):
         baca.spanners.material_annotation(
             o,
             "3-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
     with baca.scope(m[4]) as o:
@@ -601,7 +601,7 @@ def vc(m, metadata):
             o,
             "2-4 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "F#5")
@@ -612,7 +612,7 @@ def vc(m, metadata):
             baca.select.tleaves(o),
             "1-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.override.note_head_style_harmonic(o.pleaves())
