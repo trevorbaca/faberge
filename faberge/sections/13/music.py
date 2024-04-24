@@ -270,7 +270,7 @@ def fl(m):
             o,
             "2-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
         baca.pitches(
@@ -305,7 +305,7 @@ def eh(m):
         baca.spanners.material_annotation(
             o,
             "4-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
     with baca.scope(m.get(7, 8)) as o:
@@ -327,7 +327,7 @@ def cl(m):
         baca.spanners.material_annotation(
             o,
             "4-3 / 4-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
     with baca.scope(m.get(7, 8)) as o:
@@ -343,7 +343,7 @@ def cl(m):
             o.pheads(),
             abjad.Tweak(r"- \tweak direction #down"),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-            abjad.Tweak(r"- \tweak staff-padding 5"),
+            baca.postevent.staff_padding(5),
         )
 
 
@@ -376,7 +376,7 @@ def pf(cache):
             baca.select.tleaves(o),
             "2-1 -|",
             abjad.Tweak(r"- \tweak color #red"),
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
             rleak=True,
         )
     with baca.scope(m[5]) as o:
@@ -390,8 +390,8 @@ def pf(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-tuning-pegs-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.override.note_head_stencil_false(o.pleaves())
         baca.override.tuplet_bracket_transparent(o)
@@ -428,8 +428,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-woodblock-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(7, 8)) as o:
         baca.override.dls_staff_padding(o, 6)
@@ -444,8 +444,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-castanets-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
         baca.spanners.material_annotation(
             o,
@@ -494,7 +494,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "4-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "Eb3")
@@ -547,7 +547,7 @@ def vn_va_vc(cache):
             baca.spanners.material_annotation(
                 baca.select.tleaves(o),
                 "4-3 =|",
-                abjad.Tweak(r"- \tweak staff-padding 9.5"),
+                baca.postevent.staff_padding(9.5),
                 rleak=True,
             )
             baca.staccato(o.pheads())

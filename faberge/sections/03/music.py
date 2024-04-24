@@ -372,7 +372,7 @@ def fl(m):
         library.bfl_color_fingerings(
             o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-            abjad.Tweak(r"- \tweak staff-padding 3.5"),
+            baca.postevent.staff_padding(3.5),
         )
     with baca.scope(m.get(69, 72)) as o:
         baca.pitches(
@@ -384,7 +384,7 @@ def fl(m):
         library.bfl_color_fingerings(
             o.pheads(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
-            abjad.Tweak(r"- \tweak staff-padding 3.5"),
+            baca.postevent.staff_padding(3.5),
         )
         library.swells(o, "ppp")
     with baca.scope(m.get(73, 80)) as o:
@@ -469,7 +469,7 @@ def eh(m):
             o.pleaf(0),
             r"\baca-boxed-airtone-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            baca.postevent.parent_alignment_x(0),
         )
         baca.staff_position(o, 0)
     with baca.scope(m[79]) as o:
@@ -484,7 +484,7 @@ def eh(m):
             o.pleaf(0),
             r"\baca-boxed-ratchet-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            baca.postevent.parent_alignment_x(0),
         )
         baca.staff_position(o, 0)
 
@@ -625,8 +625,8 @@ def pf(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-tuning-pegs-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(8),
         )
     with baca.scope(m.get(53, 80)) as o:
         baca.override.beam_positions(o, -3)
@@ -668,7 +668,7 @@ def perc(cache):
         baca.markup(
             o.mmrest(0),
             r"\baca-boxed-to-marimba-markup",
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.staff_padding(6),
         )
     m = cache["perc"]
     with baca.scope(m.get(23, 48)) as o:
@@ -697,7 +697,7 @@ def perc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-marimba-attackless-markup",
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.staff_padding(6),
         )
     with baca.scope(m.get(57, 60)) as o:
         baca.glissando(
@@ -725,8 +725,8 @@ def perc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-sponge-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(6),
         )
         baca.staff_position(o, -1)
         baca.override.stem_direction_down(o.pleaves())
@@ -736,12 +736,12 @@ def perc(cache):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-woodblock-markup",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
         )
         baca.spanners.material_annotation(
             baca.select.ltleaves(o),
             "MM =|",
-            abjad.Tweak(r"- \tweak staff-padding 8"),
+            baca.postevent.staff_padding(8),
             rleak=True,
             right_broken=True,
         )
@@ -816,7 +816,7 @@ def vn(m):
             o.pleaf(0),
             r"\baca-boxed-ob-markup",
             abjad.Tweak(r"- \tweak padding 1.5"),
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
+            baca.postevent.parent_alignment_x(0),
         )
         baca.staff_position(o, 0)
     with baca.scope(m.get(53, 68)) as o:
@@ -978,7 +978,7 @@ def vc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-non-vib-markup",
-            abjad.Tweak(r"- \tweak staff-padding 5.5"),
+            baca.postevent.staff_padding(5.5),
         )
         baca.spanners.scp(
             baca.select.mgroups(baca.select.ltleaves(o), [12, 12]),

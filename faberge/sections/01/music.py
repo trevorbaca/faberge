@@ -125,8 +125,8 @@ def eh(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-ratchet-markup",
-            abjad.Tweak(r"- \tweak parent-alignment-X 0"),
-            abjad.Tweak(r"- \tweak staff-padding 6"),
+            baca.postevent.parent_alignment_x(0),
+            baca.postevent.staff_padding(6),
         )
         baca.dynamic(
             o.phead(0),
