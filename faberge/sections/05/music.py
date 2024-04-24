@@ -35,19 +35,19 @@ def GLOBALS(skips, rests):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (

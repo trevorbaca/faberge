@@ -34,19 +34,19 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "L",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "L",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "L",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -363,7 +363,7 @@ def pf(cache):
             o.phead(0),
             "mp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.pitch(o, "G3:A3:C4")
@@ -385,7 +385,7 @@ def pf(cache):
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.markup(
             o.pleaf(0),
@@ -420,7 +420,7 @@ def perc(m):
             o.phead(0),
             "f-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.staff_position(o, 1)
         baca.override.stem_direction_up(o.pleaves())
@@ -437,7 +437,7 @@ def perc(m):
             o.phead(0),
             "p-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.staff_position(o, 0)
     with baca.scope(m.leaves()) as o:
@@ -489,7 +489,7 @@ def va(m):
             o.phead(0),
             "p-sempre",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.spanners.material_annotation(
             o,

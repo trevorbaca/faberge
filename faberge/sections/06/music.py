@@ -34,19 +34,19 @@ def GLOBALS(skips, rests, first_measure_number):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "E",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "E",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "E",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -225,7 +225,7 @@ def fl(m):
         baca.hairpin(
             baca.select.clparts(o, [1]),
             "o< mf>o !o< mf>o!",
-            (abjad.Tweak(r"- \tweak to-barline ##t"), -1),
+            (baca.postevent.to_bar_line_true(), -1),
             rleak=True,
         )
         baca.pitch(o, "F5")
@@ -322,7 +322,7 @@ def pf(cache):
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
             o.pleaf(0),
@@ -341,7 +341,7 @@ def pf(cache):
             o.phead(0),
             "mp",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
     with baca.scope(m.get(6, 8)) as o:
         baca.pitch(o, "G3:A3:C4")
@@ -548,7 +548,7 @@ def composites(cache):
                 o.phead(0),
                 '"mf"',
                 abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-                abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+                baca.postevent.extra_offset((-2, 0)),
             )
             baca.spanners.material_annotation(
                 o,

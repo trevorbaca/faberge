@@ -42,7 +42,7 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "A",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
@@ -54,7 +54,7 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "A",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
 
@@ -331,7 +331,7 @@ def fl(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-match-sound-of-crotales-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     with baca.scope(m.get(13, 26)) as o:
         baca.pitch(o, "F6")
@@ -361,7 +361,7 @@ def fl(m):
         baca.markup(
             o.mmrest(0),
             r"\baca-boxed-to-bass-flute-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.instrument(o.leaf(0), "BassFlute", library.manifests)
         baca.short_instrument_name(o.leaf(0), "B. fl.", library.manifests)
@@ -444,7 +444,7 @@ def eh(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-keynoise-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         ),
         baca.dynamic(o.phead(0), '"ff"')
     with baca.scope(m.get(89, 92)) as o:
@@ -468,7 +468,7 @@ def cl(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-match-sound-of-crotales-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "F#6")
         library.dal_niente_hairpins(o, "f")
@@ -498,7 +498,7 @@ def cl(m):
         baca.markup(
             o.mmrest(0),
             r"\baca-boxed-to-bass-clarinet-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     with baca.scope(m.get(47, 92)) as o:
         baca.override.dls_staff_padding(o, 8)
@@ -679,7 +679,7 @@ def vn(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-match-sound-of-crotales-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "F#6")
         library.dal_niente_hairpins(o, "f")
@@ -938,7 +938,7 @@ def vc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-sub-non-vib-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     with baca.scope(m.get(71, 80)) as o:
         baca.spanners.scp(

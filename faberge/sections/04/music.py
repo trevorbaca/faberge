@@ -34,19 +34,19 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "C",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "C",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "C",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -197,7 +197,7 @@ def fl(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-airtone-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             baca.postevent.parent_alignment_x(0),
         )
     for n in [5, 6]:
@@ -223,7 +223,7 @@ def eh(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-airtone-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for n in [5, 6]:
         with baca.scope(m[n]) as o:
@@ -247,7 +247,7 @@ def cl(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-airtone-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for n in [5, 6]:
         with baca.scope(m[n]) as o:
@@ -408,7 +408,7 @@ def va(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-ob-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(

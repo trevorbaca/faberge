@@ -35,19 +35,19 @@ def GLOBALS(skips, rests):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -219,7 +219,7 @@ def pf(cache):
             o.phead(0),
             "f-whiteout",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 8)
         baca.markup(
@@ -294,7 +294,7 @@ def vn(cache):
         baca.markup(
             o.pleaf(0),
             r"\faberge-nine-plus-eleven-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 6)
@@ -319,7 +319,7 @@ def va(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-seventh-degree-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "Dqf5")
     with baca.scope(m.leaves()) as o:
