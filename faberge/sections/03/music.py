@@ -410,7 +410,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(23, 30)) as o:
@@ -430,7 +430,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(37, 44)) as o:
@@ -442,7 +442,7 @@ def eh(m):
     with baca.scope(m.get(31, 44)) as o:
         baca.spanners.trill(
             baca.select.tleaves(o),
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            baca.postevent.bound_details_right_padding(2),
             rleak=True,
         )
     with baca.scope(m.get(1, 52)) as o:

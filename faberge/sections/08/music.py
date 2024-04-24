@@ -223,7 +223,7 @@ def eh(m):
         for plt in baca.select.plts(o):
             baca.spanners.trill(
                 plt,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
         baca.override.trill_spanner_staff_padding(o, 5.5)
@@ -349,7 +349,7 @@ def perc(m):
         baca.override.stem_direction_up(o.pleaves())
         baca.spanners.trill(
             baca.select.tleaves(o),
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            baca.postevent.bound_details_right_padding(2),
             rleak=True,
         )
     with baca.scope(m[3]) as o:

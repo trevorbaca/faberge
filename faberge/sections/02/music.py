@@ -408,7 +408,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(27, 30)) as o:
@@ -417,7 +417,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(41, 46)) as o:
@@ -426,7 +426,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(57, 62)) as o:
@@ -435,7 +435,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
     with baca.scope(m.get(81, 88)) as o:
@@ -453,7 +453,7 @@ def eh(m):
         for run in baca.select.runs(o):
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
         baca.dynamic(o.phead(0), "f")
@@ -635,7 +635,7 @@ def perc(m):
         baca.override.stem_direction_up(o.pleaves())
         baca.spanners.trill(
             baca.select.tleaves(o),
-            abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+            baca.postevent.bound_details_right_padding(2),
             rleak=True,
         )
     with baca.scope(m[87]) as o:

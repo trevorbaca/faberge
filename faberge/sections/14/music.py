@@ -275,7 +275,7 @@ def eh(m):
             )
             baca.spanners.trill(
                 run,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
         baca.spanners.material_annotation(
@@ -327,7 +327,7 @@ def perc(m):
         for plt in baca.select.plts(o):
             baca.spanners.trill(
                 plt,
-                abjad.Tweak(r"- \tweak bound-details.right.padding 2"),
+                baca.postevent.bound_details_right_padding(2),
                 rleak=True,
             )
 
