@@ -35,19 +35,19 @@ def GLOBALS(skips, rests, first_measure_number):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "H",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "H",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "H",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -314,7 +314,7 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-castanets-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
     for n in [1, 2]:
         with baca.scope(m.get(n)) as o:
@@ -427,7 +427,7 @@ def vn(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-seven-e-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "Dtqf5")
     with baca.scope(m.leaves()) as o:
@@ -528,7 +528,7 @@ def va(m):
         baca.markup(
             o.pleaf(0),
             r"\faberge-eleventh-degree-of-e-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.quadruple_staccato(abjad.select.get(baca.select.plts(o), [0], 4))
         baca.stem_tremolo(abjad.select.get(baca.select.plts(o), [1, 2, 3], 4))
@@ -536,7 +536,7 @@ def va(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-thirteen-e-flat",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.pitch(o, "Bqs4")
     with baca.scope(m.leaves()) as o:
@@ -597,13 +597,13 @@ def vc(m):
         with baca.scope(m[n]) as o:
             baca.down_bow(
                 abjad.select.get(baca.select.pheads(o), [0], 2),
-                abjad.Tweak(r"- \tweak padding 1"),
+                baca.postevent.padding(1),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
                 full=True,
             )
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
-                abjad.Tweak(r"- \tweak padding 1"),
+                baca.postevent.padding(1),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             )
             for note in abjad.select.get(o, ([0], 2)):

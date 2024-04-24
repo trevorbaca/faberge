@@ -132,7 +132,7 @@ def eh(m):
             o.phead(0),
             "(f)",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 8.5)
 

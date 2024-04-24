@@ -36,19 +36,19 @@ def GLOBALS(skips, rests, first_measure_number):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "G",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "G",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "G",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -233,14 +233,14 @@ def eh(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-airtone-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             baca.postevent.parent_alignment_x(0),
         )
         baca.dynamic(
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 6)
         baca.staff_lines(o.rleaf(-1), 5)
@@ -426,7 +426,7 @@ def vn(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-ob-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
         )
         baca.override.dls_staff_padding(o, 6)
         baca.spanners.material_annotation(
@@ -540,7 +540,7 @@ def vc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-ob-markup",
-            abjad.Tweak(r"- \tweak padding 1.5"),
+            baca.postevent.padding(1.5),
             baca.postevent.parent_alignment_x(0),
         )
         baca.override.dls_staff_padding(o, 6)

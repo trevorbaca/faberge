@@ -35,19 +35,19 @@ def GLOBALS(skips, first_measure_number):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "I",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "I",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "I",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -304,7 +304,7 @@ def pf(cache):
             o.phead(0),
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
     with baca.scope(m.get(5, 6)) as o:
         baca.pitch(o, "G6:A6:B6:C7")
@@ -484,7 +484,7 @@ def va(m):
             o.phead(0),
             "mp-ancora",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.glissando(o, "D3")
         baca.spanners.material_annotation(
@@ -558,14 +558,14 @@ def vc(m, metadata):
             )
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
-                abjad.Tweak(r"- \tweak padding 1"),
+                baca.postevent.padding(1),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
             )
     for n in [1, 2, 3, 4]:
         with baca.scope(m[n]) as o:
             baca.down_bow(
                 o.phead(0),
-                abjad.Tweak(r"- \tweak padding 1"),
+                baca.postevent.padding(1),
                 abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
                 full=True,
             )
@@ -595,7 +595,7 @@ def vc(m, metadata):
             o.phead(0),
             "f",
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1 . 0)"),
+            baca.postevent.extra_offset((-1, 0)),
         )
         baca.spanners.material_annotation(
             o,

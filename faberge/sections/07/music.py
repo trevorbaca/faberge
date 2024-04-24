@@ -34,19 +34,19 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "F",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 9)"),
+        baca.postevent.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "F",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 14)"),
+        baca.postevent.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "F",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 18)"),
+        baca.postevent.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -483,7 +483,7 @@ def vn(m):
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.beam(o.tleaves())
@@ -540,7 +540,7 @@ def va(m):
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 8)
     with baca.scope(m.get(3, 4)) as o:
@@ -586,7 +586,7 @@ def va(m):
             o.phead(0),
             '"mf"',
             abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
-            abjad.Tweak(r"- \tweak extra-offset #'(-2 . 0)"),
+            baca.postevent.extra_offset((-2, 0)),
         )
         baca.spanners.clb(
             baca.select.ltleaves(o),
