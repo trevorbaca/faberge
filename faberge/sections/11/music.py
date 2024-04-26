@@ -34,19 +34,19 @@ def GLOBALS(skips, first_measure_number):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "J",
-        baca.postevent.extra_offset((0, 9)),
+        baca.tweak.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "J",
-        baca.postevent.extra_offset((0, 14)),
+        baca.tweak.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "J",
-        baca.postevent.extra_offset((0, 18)),
+        baca.tweak.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -205,23 +205,23 @@ def eh(m):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-1.5, 0)),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-1.5, 0)),
+            baca.tweak.parent_alignment_x(0),
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.material_annotation(
             o.pleaves(),
             "4-5 -|",
-            baca.postevent.color("#darkgreen"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#darkgreen"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "A5")
         for plt in baca.select.plts(o):
             baca.spanners.trill(
                 plt,
-                baca.postevent.bound_details_right_padding(2),
+                baca.tweak.bound_details_right_padding(2),
                 rleak=True,
             )
 
@@ -251,7 +251,7 @@ def fl_cl(cache):
                 baca.glissando(o.pleaves()[2:4])
                 baca.spanners.trill(
                     o.leaves()[:2],
-                    baca.postevent.bound_details_right_padding(2),
+                    baca.tweak.bound_details_right_padding(2),
                     rleak=True,
                 )
         with baca.scope(m[1]) as o:
@@ -269,7 +269,7 @@ def fl_cl(cache):
             baca.spanners.material_annotation(
                 o,
                 "3-6 =|",
-                baca.postevent.staff_padding(8),
+                baca.tweak.staff_padding(8),
                 rleak=True,
             )
         with baca.scope(m.get(5, 8)) as o:
@@ -285,7 +285,7 @@ def fl_cl(cache):
             baca.spanners.material_annotation(
                 o,
                 "3-7 =|",
-                baca.postevent.staff_padding(8),
+                baca.tweak.staff_padding(8),
                 rleak=True,
             )
             baca.override.script_x_extent_zero(o)
@@ -304,15 +304,15 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-1.5, 0)),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-1.5, 0)),
+            baca.tweak.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.spanners.ottava(o.tleaves(), rleak=True)
@@ -326,14 +326,14 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "f-sempre",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-4, 0)),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-4, 0)),
         )
     with baca.scope(m.get(4, 8)) as o:
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "3-7 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "A3")
@@ -361,7 +361,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "MM =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.staff_position(o, 0)
@@ -369,28 +369,28 @@ def perc(m):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-1.5, 0)),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-1.5, 0)),
+            baca.tweak.parent_alignment_x(0),
         )
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-castanets-markup",
-            baca.postevent.parent_alignment_x(0),
-            baca.postevent.staff_padding(10),
+            baca.tweak.parent_alignment_x(0),
+            baca.tweak.staff_padding(10),
         )
         baca.spanners.material_annotation(
             baca.select.pleaves(o),
             "4-5 -|",
-            baca.postevent.color("#darkgreen"),
-            baca.postevent.staff_padding(14.5),
+            baca.tweak.color("#darkgreen"),
+            baca.tweak.staff_padding(14.5),
             rleak=True,
         )
         for plt in baca.select.plts(o):
             baca.spanners.trill(
                 plt,
-                baca.postevent.bound_details_right_padding(2),
-                baca.postevent.staff_padding(7),
+                baca.tweak.bound_details_right_padding(2),
+                baca.tweak.staff_padding(7),
                 rleak=True,
             )
         baca.staff_position(o, 1)
@@ -406,13 +406,13 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-superball-markup",
-            baca.postevent.parent_alignment_x(0),
-            baca.postevent.staff_padding(10),
+            baca.tweak.parent_alignment_x(0),
+            baca.tweak.staff_padding(10),
         )
         baca.spanners.material_annotation(
             o,
             "3-7 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.staff_position(o, -1)
@@ -427,8 +427,8 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "A.3 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "E4")
@@ -445,8 +445,8 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "A#4")
@@ -484,8 +484,8 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "A.3 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "E4")
@@ -501,15 +501,15 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             "mp",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-1.5, 0)),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-1.5, 0)),
+            baca.tweak.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "A.4 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.spanners.xfb(
@@ -557,15 +557,15 @@ def vc(m, metadata):
         baca.dynamic(
             o.phead(0),
             "pp",
-            baca.postevent.x_extent_zero(),
-            baca.postevent.extra_offset((-1.5, 0)),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.x_extent_zero(),
+            baca.tweak.extra_offset((-1.5, 0)),
+            baca.tweak.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            baca.postevent.color("#red"),
-            baca.postevent.staff_padding(8),
+            baca.tweak.color("#red"),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.pitch(o, "F#5")

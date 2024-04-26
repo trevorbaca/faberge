@@ -35,19 +35,19 @@ def GLOBALS(skips, rests):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        baca.postevent.extra_offset((0, 9)),
+        baca.tweak.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        baca.postevent.extra_offset((0, 14)),
+        baca.tweak.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "D",
-        baca.postevent.extra_offset((0, 18)),
+        baca.tweak.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -194,7 +194,7 @@ def fl(m):
         baca.spanners.material_annotation(
             o.tleaves(),
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
 
@@ -204,7 +204,7 @@ def eh(m):
         baca.spanners.material_annotation(
             o.tleaves(),
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
         baca.staff_position(o, 0)
@@ -237,7 +237,7 @@ def cl(m):
         baca.spanners.material_annotation(
             o.tleaves(),
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
 
@@ -255,7 +255,7 @@ def fl_cl(cache):
                 )
                 baca.spanners.trill(
                     o.leaves()[:2],
-                    baca.postevent.bound_details_right_padding(2),
+                    baca.tweak.bound_details_right_padding(2),
                     rleak=True,
                 )
 
@@ -266,7 +266,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o.tleaves(),
             "MM =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
     with baca.scope(m.get(3, 8)) as o:
@@ -277,8 +277,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-rolled-markup",
-            baca.postevent.parent_alignment_x(0),
-            baca.postevent.staff_padding(8),
+            baca.tweak.parent_alignment_x(0),
+            baca.tweak.staff_padding(8),
         )
         baca.override.stem_direction_down(o.pleaves())
         baca.stem_tremolo(abjad.select.get(baca.select.pheads(o), [0, -1]))
@@ -315,7 +315,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
 
@@ -350,7 +350,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
 
@@ -417,7 +417,7 @@ def vc(m, metadata):
         baca.spanners.material_annotation(
             o,
             "1-3 / 1-4 =|",
-            baca.postevent.staff_padding(8),
+            baca.tweak.staff_padding(8),
             rleak=True,
         )
 
