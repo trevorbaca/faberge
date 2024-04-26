@@ -462,7 +462,7 @@ def eh(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
@@ -477,7 +477,7 @@ def eh(m):
         baca.dynamic(
             o.phead(0),
             "(f)",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
@@ -619,7 +619,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
@@ -719,7 +719,7 @@ def perc(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
@@ -809,7 +809,7 @@ def vn(m):
         baca.dynamic(
             o.phead(0),
             '("mf")',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.markup(
@@ -836,7 +836,7 @@ def vn(m):
         baca.dynamic(
             o.phead(0),
             '("mf")',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.staccato(o.pheads())

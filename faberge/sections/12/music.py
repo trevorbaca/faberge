@@ -266,7 +266,7 @@ def pf(cache):
         baca.spanners.material_annotation(
             o,
             "2-4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -276,7 +276,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-1, 0)),
         )
         baca.markup(
@@ -336,7 +336,7 @@ def perc(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "A.2 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -390,7 +390,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "2-4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -407,7 +407,7 @@ def vn(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.spanners.material_annotation(
@@ -432,7 +432,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "A.4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -455,7 +455,7 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.spanners.material_annotation(
@@ -499,7 +499,7 @@ def vc(m):
         baca.spanners.material_annotation(
             o,
             "2-4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -510,7 +510,7 @@ def vc(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.spanners.material_annotation(

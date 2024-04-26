@@ -184,7 +184,7 @@ def fl(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -256,7 +256,7 @@ def cl(m):
         )
         library.bcl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak direction #down"),
+            baca.postevent.direction_down(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             baca.postevent.staff_padding(5),
             rotation=-16,
@@ -345,7 +345,7 @@ def vn(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -396,7 +396,7 @@ def vc(m, metadata):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         ),

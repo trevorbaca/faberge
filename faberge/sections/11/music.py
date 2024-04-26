@@ -205,7 +205,7 @@ def eh(m):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             baca.postevent.parent_alignment_x(0),
         )
@@ -213,7 +213,7 @@ def eh(m):
         baca.spanners.material_annotation(
             o.pleaves(),
             "4-5 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -304,14 +304,14 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -326,7 +326,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "f-sempre",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-4 . 0)"),
         )
     with baca.scope(m.get(4, 8)) as o:
@@ -369,7 +369,7 @@ def perc(m):
         baca.dynamic(
             o.phead(0),
             "pp-whiteout",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             baca.postevent.parent_alignment_x(0),
         )
@@ -382,7 +382,7 @@ def perc(m):
         baca.spanners.material_annotation(
             baca.select.pleaves(o),
             "4-5 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             abjad.Tweak(r"- \tweak staff-padding 14.5"),
             rleak=True,
         )
@@ -427,7 +427,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "A.3 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -445,7 +445,7 @@ def vn(m):
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -484,7 +484,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "A.3 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -501,14 +501,14 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             "mp",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "A.4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -557,14 +557,14 @@ def vc(m, metadata):
         baca.dynamic(
             o.phead(0),
             "pp",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
             o,
             "3-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
