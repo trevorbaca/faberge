@@ -269,7 +269,7 @@ def fl(m):
         baca.spanners.material_annotation(
             o,
             "2-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -341,7 +341,7 @@ def cl(m):
         baca.override.dls_staff_padding(o, 10)
         library.bcl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak direction #down"),
+            baca.postevent.direction_down(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             baca.postevent.staff_padding(5),
         )
@@ -362,7 +362,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "mp",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
     with baca.scope(m.get(3, 4)) as o:
@@ -375,7 +375,7 @@ def pf(cache):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "2-1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -384,7 +384,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-1, 0)),
         )
         baca.markup(
@@ -419,7 +419,7 @@ def perc(m):
         baca.dynamic(
             o.phead(0),
             "f-sempre",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-1, 0)),
         )
         baca.staff_position(o, 1)
@@ -436,7 +436,7 @@ def perc(m):
         baca.dynamic(
             o.phead(0),
             "p-sempre",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-1, 0)),
         )
         baca.staff_position(o, 0)
@@ -488,7 +488,7 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             "p-sempre",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-1, 0)),
         )
         baca.spanners.material_annotation(

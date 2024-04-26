@@ -294,7 +294,7 @@ def pf(cache):
         baca.spanners.material_annotation(
             o,
             "2-1 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )

@@ -207,7 +207,7 @@ def fl(m):
         baca.spanners.material_annotation(
             o,
             "5-2 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -240,7 +240,7 @@ def eh(m):
         baca.spanners.material_annotation(
             o,
             "4-5 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -298,7 +298,7 @@ def fl_cl(cache):
             baca.spanners.material_annotation(
                 o,
                 "3-7 -|",
-                abjad.Tweak(r"- \tweak color #darkgreen"),
+                baca.postevent.color("#darkgreen"),
                 baca.postevent.staff_padding(5.5),
                 rleak=True,
             )
@@ -330,7 +330,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "4-5 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -353,7 +353,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "A.1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -583,7 +583,7 @@ def vc(m):
             o,
             "p<f-poco-scratch",
             # (baca.postevent.parent_alignment_x(-1), -1),
-            # (abjad.Tweak(r"- \tweak self-alignment-X -1"), -1),
+            # (baca.postevent.self_alignment_x(-1), -1),
             rleak=True,
         )
     for n in [5, 6, 7]:

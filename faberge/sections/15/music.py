@@ -205,7 +205,7 @@ def cl(m):
         baca.pitch(o, "F2")
         library.bcl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak direction #down"),
+            baca.postevent.direction_down(),
             abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
             baca.postevent.staff_padding(4.5),
         )
@@ -218,7 +218,7 @@ def pf(cache):
         baca.dynamic(
             o.phead(0),
             "f-whiteout",
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 8)
@@ -259,7 +259,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "A.1 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )

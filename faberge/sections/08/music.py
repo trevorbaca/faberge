@@ -239,7 +239,7 @@ def eh(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 6)
@@ -262,7 +262,7 @@ def fl_eh_cl(cache):
             baca.spanners.material_annotation(
                 baca.select.tleaves(o),
                 "1-2 -|",
-                abjad.Tweak(r"- \tweak color #red"),
+                baca.postevent.color("#red"),
                 baca.postevent.staff_padding(8),
                 rleak=True,
             )
@@ -367,7 +367,7 @@ def perc(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "A.2 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -382,7 +382,7 @@ def perc(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-2 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -432,7 +432,7 @@ def vn(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-2 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -476,7 +476,7 @@ def va(m):
         baca.spanners.material_annotation(
             o,
             "A.4 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -547,7 +547,7 @@ def vc(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "1-2 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )

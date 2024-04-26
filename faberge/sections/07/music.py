@@ -253,7 +253,7 @@ def fl(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "3-7 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -306,7 +306,7 @@ def cl(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "3-7 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -431,7 +431,7 @@ def perc(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "4-3 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -452,7 +452,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "3-7 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -473,7 +473,7 @@ def vn(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "A.3 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(5.5),
             rleak=True,
         )
@@ -482,7 +482,7 @@ def vn(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
     with baca.scope(m.get(3, 4)) as o:
@@ -491,7 +491,7 @@ def vn(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "4-3 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
             rleak=True,
         )
@@ -508,7 +508,7 @@ def vn(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "4-2 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
@@ -530,7 +530,7 @@ def va(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "A.3 -|",
-            abjad.Tweak(r"- \tweak color #red"),
+            baca.postevent.color("#red"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -539,7 +539,7 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.override.dls_staff_padding(o, 8)
@@ -556,7 +556,7 @@ def va(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "4-3 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
             rleak=True,
         )
@@ -574,7 +574,7 @@ def va(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "3-7 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(8),
             rleak=True,
         )
@@ -585,7 +585,7 @@ def va(m):
         baca.dynamic(
             o.phead(0),
             '"mf"',
-            abjad.Tweak(r"- \tweak X-extent #'(0 . 0)"),
+            baca.postevent.x_extent_zero(),
             baca.postevent.extra_offset((-2, 0)),
         )
         baca.spanners.clb(
@@ -597,7 +597,7 @@ def va(m):
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
             "4-2 -|",
-            abjad.Tweak(r"- \tweak color #darkgreen"),
+            baca.postevent.color("#darkgreen"),
             baca.postevent.staff_padding(10.5),
             rleak=True,
         )
