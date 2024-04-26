@@ -34,19 +34,19 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "O",
-        baca.postevent.extra_offset((0, 9)),
+        baca.tweak.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "O",
-        baca.postevent.extra_offset((0, 14)),
+        baca.tweak.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "O",
-        baca.postevent.extra_offset((0, 18)),
+        baca.tweak.extra_offset((0, 18)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SECTION)
     for index, item in (
@@ -166,8 +166,8 @@ def fl_eh_rh(cache):
             baca.markup(
                 o.pleaf(0),
                 r"\baca-boxed-very-small-maraca-markup",
-                baca.postevent.padding(1.5),
-                baca.postevent.parent_alignment_x(0),
+                baca.tweak.padding(1.5),
+                baca.tweak.parent_alignment_x(0),
             )
         with baca.scope(m.get(1, 5)) as o:
             baca.stem_tremolo(o.pleaves())
@@ -184,8 +184,8 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-bd-sponge-markup",
-            baca.postevent.padding(1.5),
-            baca.postevent.parent_alignment_x(0),
+            baca.tweak.padding(1.5),
+            baca.tweak.parent_alignment_x(0),
         )
 
 
