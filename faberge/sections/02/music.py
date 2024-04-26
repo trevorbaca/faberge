@@ -48,7 +48,7 @@ def GLOBALS(skips):
     wrappers = baca.rehearsal_mark(
         skips[1 - 1],
         "A",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)"),
+        baca.postevent.extra_offset((0, 6)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
     wrappers = baca.rehearsal_mark(
@@ -382,7 +382,7 @@ def fl(m):
         baca.pitches(o, "F#4 F#3", allow_repeats=True)
         library.bfl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+            baca.postevent.parent_alignment_x(-0.5),
             baca.postevent.staff_padding(3.5),
         )
         baca.hairpin(
@@ -667,7 +667,7 @@ def perc(m):
         baca.markup(
             o.pleaf(0),
             r"\baca-boxed-crotales-bowed-markup",
-            abjad.Tweak(r"- \tweak extra-offset #'(-6 . 0)"),
+            baca.postevent.extra_offset((-6, 0)),
             baca.postevent.staff_padding(6),
         )
 

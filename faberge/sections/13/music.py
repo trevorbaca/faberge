@@ -342,7 +342,7 @@ def cl(m):
         library.bcl_color_fingerings(
             o.pheads(),
             baca.postevent.direction_down(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+            baca.postevent.parent_alignment_x(-0.5),
             baca.postevent.staff_padding(5),
         )
 
@@ -450,7 +450,7 @@ def perc(m):
         baca.spanners.material_annotation(
             o,
             "4-3 / 4-4 =|",
-            abjad.Tweak(r"- \tweak staff-padding 13"),
+            baca.postevent.staff_padding(13),
             rleak=True,
         )
         for plt in baca.select.plts(o):

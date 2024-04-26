@@ -371,7 +371,7 @@ def fl(m):
         )
         library.bfl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+            baca.postevent.parent_alignment_x(-0.5),
             baca.postevent.staff_padding(3.5),
         )
     with baca.scope(m.get(69, 72)) as o:
@@ -383,7 +383,7 @@ def fl(m):
         baca.override.repeat_tie_extra_offset(o, (-1.5, 0))
         library.bfl_color_fingerings(
             o.pheads(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+            baca.postevent.parent_alignment_x(-0.5),
             baca.postevent.staff_padding(3.5),
         )
         library.swells(o, "ppp")

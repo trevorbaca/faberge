@@ -598,13 +598,13 @@ def vc(m):
             baca.down_bow(
                 abjad.select.get(baca.select.pheads(o), [0], 2),
                 baca.postevent.padding(1),
-                abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
+                baca.postevent.parent_alignment_x(0.5),
                 full=True,
             )
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
                 baca.postevent.padding(1),
-                abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
+                baca.postevent.parent_alignment_x(0.5),
             )
             for note in abjad.select.get(o, ([0], 2)):
                 baca.spanners.half_clt(

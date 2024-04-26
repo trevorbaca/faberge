@@ -424,7 +424,7 @@ def vn(m):
             o.phead(0),
             "f",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-0.75 . 0)"),
+            baca.postevent.extra_offset((-0.75, 0)),
         )
         baca.spanners.material_annotation(
             o,
@@ -559,14 +559,14 @@ def vc(m, metadata):
             baca.up_bow(
                 abjad.select.get(baca.select.pheads(o), [1], 2),
                 baca.postevent.padding(1),
-                abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
+                baca.postevent.parent_alignment_x(0.5),
             )
     for n in [1, 2, 3, 4]:
         with baca.scope(m[n]) as o:
             baca.down_bow(
                 o.phead(0),
                 baca.postevent.padding(1),
-                abjad.Tweak(r"- \tweak parent-alignment-X 0.5"),
+                baca.postevent.parent_alignment_x(0.5),
                 full=True,
             )
             baca.spanners.half_clt(

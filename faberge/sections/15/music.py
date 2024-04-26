@@ -206,7 +206,7 @@ def cl(m):
         library.bcl_color_fingerings(
             o.pheads(),
             baca.postevent.direction_down(),
-            abjad.Tweak(r"- \tweak parent-alignment-X -0.5"),
+            baca.postevent.parent_alignment_x(-0.5),
             baca.postevent.staff_padding(4.5),
         )
 

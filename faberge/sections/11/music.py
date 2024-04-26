@@ -206,7 +206,7 @@ def eh(m):
             o.phead(0),
             "pp-whiteout",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
+            baca.postevent.extra_offset((-1.5, 0)),
             baca.postevent.parent_alignment_x(0),
         )
     with baca.scope(m.get(3, 4)) as o:
@@ -305,7 +305,7 @@ def pf(cache):
             o.phead(0),
             "pp-whiteout",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
+            baca.postevent.extra_offset((-1.5, 0)),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
@@ -327,7 +327,7 @@ def pf(cache):
             o.phead(0),
             "f-sempre",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-4 . 0)"),
+            baca.postevent.extra_offset((-4, 0)),
         )
     with baca.scope(m.get(4, 8)) as o:
         baca.spanners.material_annotation(
@@ -370,7 +370,7 @@ def perc(m):
             o.phead(0),
             "pp-whiteout",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
+            baca.postevent.extra_offset((-1.5, 0)),
             baca.postevent.parent_alignment_x(0),
         )
         baca.markup(
@@ -383,7 +383,7 @@ def perc(m):
             baca.select.pleaves(o),
             "4-5 -|",
             baca.postevent.color("#darkgreen"),
-            abjad.Tweak(r"- \tweak staff-padding 14.5"),
+            baca.postevent.staff_padding(14.5),
             rleak=True,
         )
         for plt in baca.select.plts(o):
@@ -502,7 +502,7 @@ def va(m):
             o.phead(0),
             "mp",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
+            baca.postevent.extra_offset((-1.5, 0)),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
@@ -558,7 +558,7 @@ def vc(m, metadata):
             o.phead(0),
             "pp",
             baca.postevent.x_extent_zero(),
-            abjad.Tweak(r"- \tweak extra-offset #'(-1.5 . 0)"),
+            baca.postevent.extra_offset((-1.5, 0)),
             baca.postevent.parent_alignment_x(0),
         )
         baca.spanners.material_annotation(
