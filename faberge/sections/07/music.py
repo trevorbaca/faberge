@@ -338,7 +338,7 @@ def fl_cl(cache):
         with baca.scope(m[5]) as o:
             baca.espressivo(
                 o.pheads(),
-                abjad.Tweak(r"- \tweak X-extent #'(0 . 0)", tag=baca.tags.NOT_PARTS),
+                baca.postevent.x_extent_zero(tag=baca.tags.NOT_PARTS),
             )
             baca.hairpin(
                 abjad.select.partition_by_counts(
@@ -492,7 +492,7 @@ def vn(m):
             baca.select.tleaves(o),
             "4-3 -|",
             baca.postevent.color("#darkgreen"),
-            abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
+            baca.postevent.staff_padding(2.5 + 3 * 2.5),
             rleak=True,
         )
     with baca.scope(m.get(3, 7)) as o:
@@ -557,7 +557,7 @@ def va(m):
             baca.select.tleaves(o),
             "4-3 -|",
             baca.postevent.color("#darkgreen"),
-            abjad.Tweak(rf"- \tweak staff-padding {2.5 + 3 * 2.5}"),
+            baca.postevent.staff_padding(2.5 + 3 * 2.5),
             rleak=True,
         )
     with baca.scope(m[5]) as o:
