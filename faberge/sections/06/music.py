@@ -446,7 +446,7 @@ def vn(m):
         baca.spanners.scp(
             baca.select.lparts(o[-3:], [1, 2]),
             "ord. -> pont. -> ord.",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -461,8 +461,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         ),
         baca.override.dls_staff_padding(o, 8)
 
@@ -482,7 +482,7 @@ def va(m):
         baca.spanners.scp(
             baca.select.lparts(o[:3], [1, 2]),
             "ord. -> pont. -> ord.",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(1, 2)) as o:
         baca.override.dls_staff_padding(o, 6.5)
@@ -517,9 +517,9 @@ def vc(m):
         baca.stem_tremolo(o.pleaf(0))
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             right_broken=True,
             rleak=True,
-            staff_padding=3,
         )
 
 
@@ -564,8 +564,8 @@ def composites(cache):
                 baca.spanners.clb(
                     baca.select.tleaves(o),
                     2,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
                 baca.override.dls_staff_padding(o, 8)
 

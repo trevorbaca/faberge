@@ -566,9 +566,9 @@ def pf(cache):
         baca.spanners.text(
             o,
             r"\faberge-rf-one-markup =|",
+            baca.tweak.staff_padding(5.5),
             left_broken_text=r"\faberge-left-broken-rf-one-markup",
             rleak=True,
-            staff_padding=5.5,
         )
     m = cache["lh"]
     with baca.scope(m.leaves()) as o:
@@ -716,14 +716,14 @@ def vn(m):
     with baca.scope(m.get(63, 65)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(69, 70)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
         baca.pitch(o, "F#6")
@@ -740,14 +740,14 @@ def vn(m):
     with baca.scope(m.get(81, 83)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.pitch(o, "F#6")
@@ -767,7 +767,7 @@ def va(m):
         baca.spanners.scp(
             baca.select.cmgroups(o, [12, 4, 10, 4, 10, 6, 10, 6]),
             "tasto -> pont. ->",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(13, 16)) as o:
@@ -802,14 +802,14 @@ def va(m):
     with baca.scope(m.get(1, 62)) as o:
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(63, 65)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(71, 80)) as o:
         baca.glissando(
@@ -820,14 +820,14 @@ def va(m):
         baca.spanners.scp(
             [o.ltleaves()],
             "tasto -> pont.",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
     with baca.scope(m.get(69, 70)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(71, 76)) as o:
         baca.hairpin(
@@ -841,8 +841,8 @@ def va(m):
     with baca.scope(m.get(71, 80)) as o:
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(89, 92)) as o:
         baca.dynamic(o.phead(0), "pp")
@@ -854,26 +854,26 @@ def va(m):
         baca.spanners.scp(
             [o.ltleaves()],
             "pont. -> tasto",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(5.5),
             right_broken=True,
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(81, 83)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(87, 88)) as o:
         baca.spanners.spazzolato(
             baca.select.ltleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
 
 
@@ -900,8 +900,8 @@ def vc(m):
         baca.spanners.scp(
             [o.ltleaves()],
             "tasto -> PO",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(23, 36)) as o:
         baca.hairpin(
@@ -912,8 +912,8 @@ def vc(m):
         baca.spanners.scp(
             [o.ltleaves()],
             "(PO) -> tasto",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(47, 54)) as o:
         baca.hairpin(
@@ -924,14 +924,14 @@ def vc(m):
         baca.spanners.scp(
             [o.ltleaves()],
             "(tasto) -> poco pont.",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.vibrato(
             [o],
             "(poco vib.) -> vib. mod.",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(63, 70)) as o:
         baca.dynamic(o.pleaf(0), "ppp")
@@ -944,14 +944,14 @@ def vc(m):
         baca.spanners.scp(
             [o],
             "(poco pont.) -> tasto",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
     with baca.scope(m.get(71, 88)) as o:
         baca.spanners.vibrato(
             baca.select.mgroups(o, [9, 9]),
             "sub. vib. mod. -> non vib. -> poco vib.",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(71, 89)) as o:
         baca.hairpin(

@@ -434,8 +434,8 @@ def vn(m):
         baca.pitch(o, "E4")
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m[3]) as o:
         baca.hairpin(
@@ -459,7 +459,7 @@ def vn(m):
         baca.spanners.scp(
             baca.select.lparts(o[-3:], [1, 2]),
             "ord. -> pont. -> ord.",
-            staff_padding=5.5,
+            baca.tweak.staff_padding(5.5),
         )
     with baca.scope(m.get(5, 7)) as o:
         baca.glissando(o, "F4", hide_middle_stems=True)
@@ -471,8 +471,8 @@ def vn(m):
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o.leaves(), 4)
@@ -491,8 +491,8 @@ def va(m):
         baca.pitch(o, "E4")
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.glissando(o, "D3", hide_middle_stems=True)
@@ -514,8 +514,8 @@ def va(m):
         )
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(5, 8)) as o:
         baca.glissando(
@@ -536,8 +536,8 @@ def vc(m, metadata):
         baca.spanners.string_number(
             o,
             4,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(
@@ -587,8 +587,8 @@ def vc(m, metadata):
         baca.stem_tremolo(abjad.select.get(baca.select.pleaves(o), [0, -1]))
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
 
 

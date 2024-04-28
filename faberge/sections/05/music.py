@@ -370,8 +370,8 @@ def vc(m, metadata):
         baca.spanners.string_number(
             o,
             4,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(

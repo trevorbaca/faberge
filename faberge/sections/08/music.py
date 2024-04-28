@@ -445,7 +445,7 @@ def vn(m):
             baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m.get(6, 10)) as o:
         baca.pitch(o, "A#4")
@@ -470,8 +470,8 @@ def va(m):
         baca.override.dls_staff_padding(o, 5)
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.material_annotation(
             o,
@@ -489,7 +489,7 @@ def va(m):
             baca.spanners.scp(
                 baca.select.lparts(o[:3], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m.get(8, 10)) as o:
         baca.pitch(o, "A#4")

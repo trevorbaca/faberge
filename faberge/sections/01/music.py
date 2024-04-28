@@ -190,8 +190,8 @@ def vn(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
 
 
@@ -208,8 +208,8 @@ def va(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
 
 

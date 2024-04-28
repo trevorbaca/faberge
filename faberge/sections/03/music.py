@@ -610,9 +610,9 @@ def pf(cache):
         baca.spanners.text(
             o,
             r"\faberge-rf-two-markup =|",
+            baca.tweak.staff_padding(5.5),
             left_broken_text=r"\faberge-left-broken-rf-two-markup",
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(53, 79)) as o:
         baca.staff_lines(o.leaf(0), 3)
@@ -777,8 +777,8 @@ def vn(m):
     with baca.scope(m.get(9, 22)) as o:
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 5)
@@ -796,8 +796,8 @@ def vn(m):
         baca.spanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
         baca.hairpin(
@@ -823,15 +823,15 @@ def vn(m):
         baca.spanners.clb(
             baca.select.ltleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(73, 80)) as o:
         baca.spanners.clb(
             baca.select.ltleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.dynamic(
             o.phead(0),
@@ -861,8 +861,8 @@ def va(m):
     with baca.scope(m.get(1, 8)) as o:
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(13, 22)) as o:
         baca.hairpin(
@@ -879,8 +879,8 @@ def va(m):
     with baca.scope(m.get(9, 22)) as o:
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(1, 52)) as o:
         baca.override.dls_staff_padding(o, 7)
@@ -893,8 +893,8 @@ def va(m):
         baca.spanners.scp(
             baca.select.ltleaves(o),
             r"\baca-tasto-plus-pochiss-scratch-markup =|",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(53, 56)) as o:
         baca.hairpin(
@@ -907,8 +907,8 @@ def va(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.staccato(o.pheads()),
@@ -936,14 +936,14 @@ def vc(m):
         baca.spanners.scp(
             [o],
             "(tasto) -> molto pont.",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.vibrato(
             [o],
             "(poco vib.) -> vib. molto",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(23, 26)) as o:
         baca.hairpin(
@@ -955,14 +955,14 @@ def vc(m):
         baca.spanners.scp(
             [o],
             "(molto pont.) -> tasto",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.vibrato(
             [o],
             "(vib. molto) -> poco vib.",
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(37, 60)) as o:
         baca.override.dls_staff_padding(o, 8)
@@ -983,7 +983,7 @@ def vc(m):
         baca.spanners.scp(
             baca.select.mgroups(baca.select.ltleaves(o), [12, 12]),
             "(tasto) -> PO -> tasto poss.",
-            staff_padding=3,
+            baca.tweak.staff_padding(3),
         )
     with baca.scope(m.get(61, 80)) as o:
         baca.override.beam_positions(o, -3.5)
@@ -991,8 +991,8 @@ def vc(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 10)
         baca.dynamic(o.phead(0), '"mf"')
