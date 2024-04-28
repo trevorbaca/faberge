@@ -369,8 +369,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
@@ -400,8 +400,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -438,8 +438,8 @@ def va(m):
         )
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m[5]) as o:
         baca.glissando(o, "F3")
@@ -448,8 +448,8 @@ def va(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.dynamic(
@@ -478,8 +478,8 @@ def vc(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.override.dls_staff_padding(o, 9)
         baca.spanners.material_annotation(
@@ -522,8 +522,8 @@ def vc(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         library.clb_staff_positions(o)
 

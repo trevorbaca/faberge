@@ -467,8 +467,8 @@ def vn(m):
         baca.override.dls_staff_padding(o, 4)
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -500,8 +500,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.ltleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(5, 7)) as o:
         library.clb_staff_positions(o)
@@ -524,8 +524,8 @@ def va(m):
         baca.dynamic(o.phead(0), '"f"')
         baca.spanners.spazzolato(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -550,8 +550,8 @@ def va(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -567,8 +567,8 @@ def va(m):
         baca.override.dls_staff_padding(o, 5)
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
         baca.breathe(o.pleaf(-1))
         baca.spanners.material_annotation(
@@ -591,8 +591,8 @@ def va(m):
         baca.spanners.clb(
             baca.select.ltleaves(o),
             2,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.spanners.material_annotation(
             baca.select.tleaves(o),
@@ -639,8 +639,8 @@ def vc(m):
         )
         baca.spanners.xfb(
             baca.select.tleaves(o),
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m[4]) as o:
         baca.stem_tremolo(o.pleaf(0))

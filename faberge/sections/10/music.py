@@ -397,7 +397,7 @@ def vn(m):
             baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Dtqf5")
@@ -440,7 +440,7 @@ def vn(m):
             baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.material_annotation(
@@ -472,7 +472,7 @@ def va(m):
             baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m[4]) as o:
         baca.dynamic(o.phead(0), "mp")
@@ -497,15 +497,15 @@ def va(m):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.xfb(
             o,
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     for n in [6, 7]:
         with baca.scope(m[n]) as o:
             baca.spanners.scp(
                 baca.select.lparts(o[-3:], [1, 2]),
                 "ord. -> pont. -> ord.",
-                staff_padding=5.5,
+                baca.tweak.staff_padding(5.5),
             )
     with baca.scope(m.get(6, 8)) as o:
         baca.spanners.material_annotation(
@@ -571,8 +571,8 @@ def vc(m, metadata):
             )
             baca.spanners.half_clt(
                 o.leaves()[:1],
+                baca.tweak.staff_padding(5.5),
                 rleak=True,
-                staff_padding=5.5,
             )
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Eb2")
@@ -619,9 +619,9 @@ def vc(m, metadata):
         baca.spanners.string_number(
             o,
             4,
+            baca.tweak.staff_padding(5.5),
             right_broken=True,
             rleak=True,
-            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(

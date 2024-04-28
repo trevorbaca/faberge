@@ -468,8 +468,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
     with baca.scope(m.get(3, 4)) as o:
         baca.spanners.beam(o.tleaves())
@@ -501,8 +501,8 @@ def va(m):
         for plt in baca.select.plts(o):
             baca.spanners.xfb(
                 plt,
+                baca.tweak.staff_padding(5),
                 rleak=True,
-                staff_padding=5,
             )
     with baca.scope(m.leaves()) as o:
         baca.override.dls_staff_padding(o, 5)
@@ -521,8 +521,8 @@ def vc(m, metadata):
         baca.spanners.string_number(
             baca.select.ltleaves(o),
             4,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.untie(o.pleaves())
         baca.pitches(
@@ -557,8 +557,8 @@ def vn_va_vc(cache):
                 baca.spanners.clb(
                     baca.select.tleaves(o),
                     2,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
         with baca.scope(m[7]) as o:
             baca.staff_lines(o.leaf(0), 5)

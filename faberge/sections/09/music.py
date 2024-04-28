@@ -392,7 +392,7 @@ def vn(m):
                 baca.spanners.scp(
                     baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
-                    staff_padding=8,
+                    baca.tweak.staff_padding(8),
                 )
     with baca.scope(m.get(1, 4)) as o:
         baca.override.dls_staff_padding(o, 4)
@@ -455,8 +455,8 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
-            staff_padding=8,
         )
     with baca.scope(m.get(1, 4)) as o:
         baca.pitch(o, "A#4")
@@ -475,8 +475,8 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" ord. -> pont. -> ord. || \baca-null-markup ||",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
-            staff_padding=8,
         )
     with baca.scope(m[3]) as o:
         for plt in baca.select.plts(o):
@@ -493,8 +493,8 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"\baca-null-markup || ord. -> pont. -> ord. ||"
             r" ord. -> pont. -> ord. || \baca-null-markup",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
-            staff_padding=8,
         )
     with baca.scope(m[4]) as o:
         for plt in baca.select.plts(o):
@@ -511,8 +511,8 @@ def va(m):
             baca.select.clparts(o, [1]),
             r"ord. -> pont. -> ord. || \baca-null-markup ||"
             r" \baca-null-markup || ord. -> pont. -> ord. ||",
+            baca.tweak.staff_padding(8),
             do_not_bookend=True,
-            staff_padding=8,
         )
     for n in [5, 6, 7, 9]:
         with baca.scope(m.get(n)) as o:
@@ -520,7 +520,7 @@ def va(m):
                 baca.spanners.scp(
                     baca.select.lparts(clpart[-3:], [1, 2]),
                     "ord. -> pont. -> ord.",
-                    staff_padding=8,
+                    baca.tweak.staff_padding(8),
                 )
     with baca.scope(m.get(5, 8)) as o:
         baca.pitch(o, "Aqs4")
@@ -574,8 +574,8 @@ def vc(m):
         baca.spanners.scp(
             o.ltleaves(),
             "tasto =|",
+            baca.tweak.staff_padding(3),
             rleak=True,
-            staff_padding=3,
         )
     with baca.scope(m.get(1, 3)) as o:
         baca.clef(o.leaf(0), "bass")
@@ -609,8 +609,8 @@ def vc(m):
             for note in abjad.select.get(o, ([0], 2)):
                 baca.spanners.half_clt(
                     note,
+                    baca.tweak.staff_padding(5.5),
                     rleak=True,
-                    staff_padding=5.5,
                 )
     with baca.scope(m.get(5, 7)) as o:
         baca.override.dls_staff_padding(o, 8)

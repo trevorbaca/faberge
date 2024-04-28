@@ -359,8 +359,8 @@ def vn(m):
         baca.spanners.clb(
             baca.select.tleaves(o),
             3,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.staccato(o.pheads())
         library.clb_staff_positions(o)
@@ -435,8 +435,8 @@ def vc(m, metadata):
         baca.spanners.string_number(
             o,
             4,
+            baca.tweak.staff_padding(5.5),
             rleak=True,
-            staff_padding=5.5,
         )
         baca.untie(o)
         baca.pitches(

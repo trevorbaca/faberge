@@ -312,8 +312,8 @@ def va(m):
         for plt in baca.select.plts(o):
             baca.spanners.xfb(
                 plt,
+                baca.tweak.staff_padding(3),
                 rleak=True,
-                staff_padding=3,
             )
     with baca.scope(m.get(5, 8)) as o:
         baca.markup(
