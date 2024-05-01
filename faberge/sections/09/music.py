@@ -582,8 +582,8 @@ def vc(m):
         baca.hairpin(
             o,
             "p<f-poco-scratch",
-            # (baca.tweak.parent_alignment_x(-1), -1),
-            # (baca.tweak.self_alignment_x(-1), -1),
+            # baca.tweak.parent_alignment_x(-1, index=-1),
+            # baca.tweak.self_alignment_x(-1, index=-1),
             rleak=True,
         )
     for n in [5, 6, 7]:
