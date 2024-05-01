@@ -225,7 +225,7 @@ def fl(m):
         baca.hairpin(
             baca.select.clparts(o, [1]),
             "o< mf>o !o< mf>o!",
-            baca.tweak.to_bar_line_true(index=-1),
+            baca.tweak.to_bar_line_true(i=-1),
             rleak=True,
         )
         baca.pitch(o, "F5")
