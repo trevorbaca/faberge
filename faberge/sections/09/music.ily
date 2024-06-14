@@ -459,7 +459,7 @@ number.9.Flute.Music = {
     - \espressivo
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Flute.Music measure 2]
@@ -952,7 +952,7 @@ number.9.EnglishHorn.Music = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4
+        \tuplet 4/5
         {
 
             % [EnglishHorn.Music measure 4]
@@ -1018,7 +1018,7 @@ number.9.EnglishHorn.Music = {
         }
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4
+        \tuplet 4/5
         {
 
             es''!4
@@ -1145,7 +1145,7 @@ number.9.EnglishHorn.Staff = <<
 number.9.Clarinet.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 1]
@@ -2030,7 +2030,7 @@ number.9.Violin.Music = {
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
         \set Staff.shortInstrumentName = \faberge-vn-markup %@%
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2105,7 +2105,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \p
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2175,7 +2175,7 @@ number.9.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.Music measure 2]
@@ -2187,7 +2187,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2262,7 +2262,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2342,7 +2342,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mf
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2417,7 +2417,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mf
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2487,7 +2487,7 @@ number.9.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.Music measure 4]
@@ -2499,7 +2499,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \f
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2574,7 +2574,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \f
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -2644,7 +2644,7 @@ number.9.Violin.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Violin.Music measure 5]
@@ -2657,7 +2657,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             b'2
@@ -2732,7 +2732,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             b'2
@@ -2812,7 +2812,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             b'2
@@ -2881,7 +2881,7 @@ number.9.Violin.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Violin.Music measure 7]
@@ -2893,7 +2893,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             b'2
@@ -2968,7 +2968,7 @@ number.9.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             b'2
@@ -3065,7 +3065,7 @@ number.9.Violin.Music = {
         - \tweak padding 1.5
         ^ \baca-seven-e-flat
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             dtqf''!2
@@ -3243,7 +3243,7 @@ number.9.Viola.Music = {
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
         \set Staff.shortInstrumentName = \faberge-va-markup %@%
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3314,7 +3314,7 @@ number.9.Viola.Music = {
 
         }
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3404,10 +3404,10 @@ number.9.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             % [Viola.Music measure 2]
@@ -3495,7 +3495,7 @@ number.9.Viola.Music = {
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3603,7 +3603,7 @@ number.9.Viola.Music = {
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3674,7 +3674,7 @@ number.9.Viola.Music = {
 
         }
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3764,10 +3764,10 @@ number.9.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             % [Viola.Music measure 4]
@@ -3873,7 +3873,7 @@ number.9.Viola.Music = {
           %! SPANNER_START
         \bacaStartTextSpanSCP
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             as'!2
@@ -3944,7 +3944,7 @@ number.9.Viola.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 5]
@@ -3958,7 +3958,7 @@ number.9.Viola.Music = {
         - \tweak padding 1.5
         ^ \faberge-eleventh-degree-of-e-markup
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             aqs'!2
@@ -4033,7 +4033,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             aqs'!2
@@ -4113,7 +4113,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             aqs'!2
@@ -4182,7 +4182,7 @@ number.9.Viola.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 7]
@@ -4194,7 +4194,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             aqs'!2
@@ -4269,7 +4269,7 @@ number.9.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \baca-effort-ff
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             aqs'!2
@@ -4362,7 +4362,7 @@ number.9.Viola.Music = {
         - \tweak padding 1.5
         ^ \baca-thirteen-e-flat
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bqs'!2
@@ -4577,7 +4577,7 @@ number.9.Cello.Music = {
     f,2
     \revert DynamicLineSpanner.staff-padding
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Cello.Music measure 5]
@@ -4730,7 +4730,7 @@ number.9.Cello.Music = {
 
     }
 
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Cello.Music measure 7]

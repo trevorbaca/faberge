@@ -1123,7 +1123,7 @@ number.14.Clarinet.Music = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 2]
@@ -1181,7 +1181,7 @@ number.14.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 3]
@@ -1232,7 +1232,7 @@ number.14.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 4]
@@ -1287,7 +1287,7 @@ number.14.Clarinet.Music = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 6]
@@ -1341,7 +1341,7 @@ number.14.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 7]
@@ -1392,7 +1392,7 @@ number.14.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 8]
@@ -1533,7 +1533,7 @@ number.14.Piano.RH.Music = {
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup %@%
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Piano.RH.Music measure 2]
@@ -2157,7 +2157,7 @@ number.14.Violin.Music = {
     \revert DynamicLineSpanner.staff-padding
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Violin.Music measure 4]

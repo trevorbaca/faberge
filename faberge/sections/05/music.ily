@@ -394,7 +394,7 @@ number.5.Flute.Music = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 3]
@@ -473,7 +473,7 @@ number.5.Flute.Music = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 6]
@@ -539,7 +539,7 @@ number.5.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 7]
@@ -889,7 +889,7 @@ number.5.Clarinet.Music = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 3]
@@ -968,7 +968,7 @@ number.5.Clarinet.Music = {
     \breathe
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 6]
@@ -1034,7 +1034,7 @@ number.5.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 7]

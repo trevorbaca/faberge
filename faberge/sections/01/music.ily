@@ -326,7 +326,7 @@ number.1.EnglishHorn.Music = {
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 1 }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [EnglishHorn.Music measure 3]
@@ -944,7 +944,7 @@ number.1.Violin.Staff = <<
 
 number.1.Viola.Music = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 1]
@@ -1008,7 +1008,7 @@ number.1.Viola.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -1017,7 +1017,7 @@ number.1.Viola.Music = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
