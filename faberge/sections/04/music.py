@@ -529,7 +529,7 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
     metadata = baca.section.proxy(dictionary)
     lilypond_file = baca.lilypond.file(
         score,
-        include_layout_ly=True,
+        include_layout_ily=True,
         includes=["../stylesheet.ily"],
     )
     baca.build.persist_lilypond_file(
@@ -553,7 +553,7 @@ def make_layout():
         default=(1, 24),
         overrides=(baca.layout.Override((5, 8), (1, 32)),),
     )
-    baca.build.write_layout_ly(breaks, spacing)
+    baca.build.write_layout_ily(breaks, spacing)
 
 
 def main():
