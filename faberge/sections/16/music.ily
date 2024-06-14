@@ -948,7 +948,7 @@ number.16.Percussion.Staff = <<
 number.16.Violin.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10
+    \tuplet 10/8
     {
 
         % [Violin.Music measure 1]
@@ -1002,7 +1002,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/5
+    \tuplet 5/7
     {
 
         % [Violin.Music measure 2]
@@ -1017,7 +1017,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10
+    \tuplet 10/8
     {
 
         % [Violin.Music measure 3]
@@ -1032,7 +1032,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/5
+    \tuplet 5/7
     {
 
         % [Violin.Music measure 4]
@@ -1047,7 +1047,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10
+    \tuplet 10/8
     {
 
         % [Violin.Music measure 5]
@@ -1067,7 +1067,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/5
+    \tuplet 5/7
     {
 
         % [Violin.Music measure 6]
@@ -1082,7 +1082,7 @@ number.16.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10
+    \tuplet 10/8
     {
 
         % [Violin.Music measure 7]
@@ -1116,7 +1116,7 @@ number.16.Violin.Staff = <<
 number.16.Viola.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 1]
@@ -1168,7 +1168,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 2]
@@ -1183,7 +1183,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 3]
@@ -1198,7 +1198,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 4]
@@ -1213,7 +1213,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 5]
@@ -1233,7 +1233,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Viola.Music measure 6]
@@ -1248,7 +1248,7 @@ number.16.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Viola.Music measure 7]

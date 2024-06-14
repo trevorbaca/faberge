@@ -342,7 +342,7 @@ number.10.Rests = {
 number.10.Flute.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Flute.Music measure 1]
@@ -455,7 +455,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Flute.Music measure 2]
@@ -521,7 +521,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Flute.Music measure 3]
@@ -587,7 +587,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 4]
@@ -653,7 +653,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/10
+    \tuplet 10/9
     {
 
         % [Flute.Music measure 5]
@@ -719,7 +719,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Flute.Music measure 6]
@@ -785,7 +785,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Flute.Music measure 7]
@@ -851,7 +851,7 @@ number.10.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Flute.Music measure 8]
@@ -1012,7 +1012,7 @@ number.10.EnglishHorn.Music = {
     %@% ^ \baca-duration-multiplier-markup #"6" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [EnglishHorn.Music measure 4]
@@ -1134,7 +1134,7 @@ number.10.EnglishHorn.Staff = <<
 number.10.Clarinet.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 1]
@@ -1247,7 +1247,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 2]
@@ -1313,7 +1313,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 3]
@@ -1379,7 +1379,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 4]
@@ -1445,7 +1445,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/10
+    \tuplet 10/9
     {
 
         % [Clarinet.Music measure 5]
@@ -1511,7 +1511,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 6]
@@ -1577,7 +1577,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Clarinet.Music measure 7]
@@ -1643,7 +1643,7 @@ number.10.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Clarinet.Music measure 8]
@@ -2311,7 +2311,7 @@ number.10.Percussion.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Percussion.Music measure 8]
@@ -2450,7 +2450,7 @@ number.10.Violin.Music = {
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
         \set Staff.shortInstrumentName = \faberge-vn-markup %@%
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             dtqf''!2
@@ -2530,7 +2530,7 @@ number.10.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             dtqf''!2
@@ -2610,7 +2610,7 @@ number.10.Violin.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             dtqf''!2
@@ -2808,7 +2808,7 @@ number.10.Violin.Music = {
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             c''2
@@ -2878,7 +2878,7 @@ number.10.Violin.Music = {
           %! SPANNER_STOP
         \!
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             c''2
@@ -2936,7 +2936,7 @@ number.10.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Violin.Music measure 8]
@@ -3061,7 +3061,7 @@ number.10.Viola.Music = {
           %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
         \set Staff.shortInstrumentName = \faberge-va-markup %@%
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bqs'!2
@@ -3141,7 +3141,7 @@ number.10.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bqs'!2
@@ -3221,7 +3221,7 @@ number.10.Viola.Music = {
           %! EXPLICIT_DYNAMIC
         \mp
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bqs'!2
@@ -3381,7 +3381,7 @@ number.10.Viola.Music = {
           %! SPANNER_START
         \bacaStartTextSpanMaterialAnnotation
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bf!2
@@ -3451,7 +3451,7 @@ number.10.Viola.Music = {
           %! SPANNER_STOP
         \!
 
-        \times 2/3
+        \tuplet 3/2
         {
 
             bf!2
@@ -3509,7 +3509,7 @@ number.10.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Viola.Music measure 8]

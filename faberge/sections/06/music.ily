@@ -438,7 +438,7 @@ number.6.Flute.Music = {
     \>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/12
+    \tuplet 12/9
     {
 
         % [Flute.Music measure 2]
@@ -531,7 +531,7 @@ number.6.Flute.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 4]
@@ -614,7 +614,7 @@ number.6.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Flute.Music measure 5]
@@ -680,7 +680,7 @@ number.6.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Flute.Music measure 6]
@@ -748,7 +748,7 @@ number.6.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Flute.Music measure 7]
@@ -814,7 +814,7 @@ number.6.Flute.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Flute.Music measure 8]
@@ -1024,7 +1024,7 @@ number.6.EnglishHorn.Staff = <<
 number.6.Clarinet.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 1]
@@ -1136,7 +1136,7 @@ number.6.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/10
+    \tuplet 10/9
     {
 
         % [Clarinet.Music measure 2]
@@ -1247,7 +1247,7 @@ number.6.Clarinet.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 4]
@@ -1318,7 +1318,7 @@ number.6.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 5]
@@ -1384,7 +1384,7 @@ number.6.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8
+    \tuplet 8/7
     {
 
         % [Clarinet.Music measure 6]
@@ -1452,7 +1452,7 @@ number.6.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Clarinet.Music measure 7]
@@ -1518,7 +1518,7 @@ number.6.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9
+    \tuplet 9/8
     {
 
         % [Clarinet.Music measure 8]
@@ -1689,7 +1689,7 @@ number.6.Piano.RH.Music = {
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/15
+    \tuplet 15/8
     {
 
         % [Piano.RH.Music measure 4]
@@ -2417,7 +2417,7 @@ number.6.Percussion.Music = {
 
     {
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             % [Percussion.Music measure 8]
@@ -2445,7 +2445,7 @@ number.6.Percussion.Music = {
 
         }
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             c'4
@@ -2521,7 +2521,7 @@ number.6.Violin.Music = {
     \set Staff.shortInstrumentName = \faberge-vn-markup %@%
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5
+    \tuplet 5/9
     {
 
         % [Violin.Music measure 2]
@@ -2662,7 +2662,7 @@ number.6.Violin.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10
+    \tuplet 10/8
     {
 
         % [Violin.Music measure 4]
@@ -2757,7 +2757,7 @@ number.6.Violin.Music = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/18
+    \tuplet 18/14
     {
 
         % [Violin.Music measure 6]
@@ -2946,7 +2946,7 @@ number.6.Viola.Music = {
     \set Staff.shortInstrumentName = \faberge-va-markup %@%
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5
+    \tuplet 5/9
     {
 
         % [Viola.Music measure 2]
@@ -3085,7 +3085,7 @@ number.6.Viola.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14
+    \tuplet 14/8
     {
 
         % [Viola.Music measure 4]
@@ -3189,7 +3189,7 @@ number.6.Viola.Music = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16
+    \tuplet 16/14
     {
 
         % [Viola.Music measure 6]
@@ -3380,7 +3380,7 @@ number.6.Cello.Music = {
     \override Staff.BarLine.bar-extent = #'(0 . 2)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12
+    \tuplet 12/8
     {
 
         % [Cello.Music measure 4]
@@ -3481,7 +3481,7 @@ number.6.Cello.Music = {
     r2..
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/20
+    \tuplet 20/14
     {
 
         % [Cello.Music measure 6]

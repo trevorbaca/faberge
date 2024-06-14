@@ -977,7 +977,7 @@ number.4.Piano.RH.Music = {
 
     {
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             % [Piano.RH.Music measure 3]
@@ -1046,7 +1046,7 @@ number.4.Piano.RH.Music = {
 
         }
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             <g a c'>8
@@ -1153,7 +1153,7 @@ number.4.Piano.LH.Music = {
 
     {
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             % [Piano.LH.Music measure 3]
@@ -1181,7 +1181,7 @@ number.4.Piano.LH.Music = {
 
         }
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             <g a b c'>8
@@ -1409,7 +1409,7 @@ number.4.Percussion.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Percussion.Music measure 4]
@@ -1496,7 +1496,7 @@ number.4.Percussion.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4
+    \tuplet 4/5
     {
 
         % [Percussion.Music measure 8]
@@ -1575,7 +1575,7 @@ number.4.Percussion.Staff = <<
 number.4.Violin.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 16/22
+    \tuplet 22/16
     {
 
         % [Violin.Music measure 1]
@@ -1714,7 +1714,7 @@ number.4.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8
+    \tuplet 8/6
     {
 
         % [Violin.Music measure 3]

@@ -837,7 +837,7 @@ number.15.EnglishHorn.Staff = <<
 number.15.Clarinet.Music = {
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Clarinet.Music measure 1]
@@ -945,7 +945,7 @@ number.15.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 2]
@@ -1018,7 +1018,7 @@ number.15.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Clarinet.Music measure 3]
@@ -1073,7 +1073,7 @@ number.15.Clarinet.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Clarinet.Music measure 4]
@@ -1287,7 +1287,7 @@ number.15.Piano.RH.Music = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Piano.RH.Music measure 4]
@@ -1761,7 +1761,7 @@ number.15.Percussion.Music = {
 
     {
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             % [Percussion.Music measure 8]
@@ -1825,7 +1825,7 @@ number.15.Percussion.Music = {
 
         }
 
-        \times 4/5
+        \tuplet 5/4
         {
 
             c'4
@@ -1966,7 +1966,7 @@ number.15.Violin.Music = {
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Violin.Music measure 5]
@@ -2301,7 +2301,7 @@ number.15.Viola.Music = {
     \bacaStopTextSpanBowSpeed
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Viola.Music measure 5]
@@ -2687,7 +2687,7 @@ number.15.Cello.Music = {
     \>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Cello.Music measure 5]

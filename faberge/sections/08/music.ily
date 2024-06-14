@@ -2454,7 +2454,7 @@ number.8.Violin.Music = {
     \revert DynamicLineSpanner.staff-padding
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Violin.Music measure 6]
@@ -2565,7 +2565,7 @@ number.8.Violin.Music = {
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5
+    \tuplet 5/9
     {
 
         % [Violin.Music measure 8]
@@ -2647,7 +2647,7 @@ number.8.Violin.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Violin.Music measure 9]
@@ -3003,7 +3003,7 @@ number.8.Viola.Music = {
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5
+    \tuplet 5/9
     {
 
         % [Viola.Music measure 8]
@@ -3096,7 +3096,7 @@ number.8.Viola.Music = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5
+    \tuplet 5/6
     {
 
         % [Viola.Music measure 9]
