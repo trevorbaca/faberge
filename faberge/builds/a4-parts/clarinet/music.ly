@@ -25,7 +25,7 @@
 \score {
     <<
         \keepWithTag Clarinet {
-            \include "layout.ly"
+            \include "layout.ily"
         }
         \keepWithTag Clarinet {
             \include "../_sections/-.ly"

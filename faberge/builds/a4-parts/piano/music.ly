@@ -24,7 +24,7 @@
 \score {
     <<
         \keepWithTag Piano {
-            \include "layout.ly"
+            \include "layout.ily"
         }
         \keepWithTag Piano {
             \include "../_sections/-.ly"
