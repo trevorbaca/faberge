@@ -1,3 +1,4 @@
+\version "2.25.13"
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 12)
 
@@ -127,6 +128,7 @@
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
     \accepts GlobalRests
+    \defaultchild GlobalRests
     \accepts GlobalSkips
     \accepts PageLayout
 
@@ -274,7 +276,7 @@
     % activate in score:
     barNumberFormatter = #baca-oval-bar-numbers
     rehearsalMarkFormatter = #format-mark-box-alphabet
-    proportionalNotationDuration = #(ly:make-moment 1 24)
+    proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
 }
