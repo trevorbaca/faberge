@@ -1,3 +1,4 @@
+\version "2.25.13"
 \include "../../stylesheet.ily"
 
 #(set-default-paper-size "a4")
@@ -27,7 +28,7 @@
 \header {
     title = \markup
         \column {
-            \center-align {
+            \center-column {
                 \override #'(font-name . "Palatino")
                 \fontsize #6
                 \line { FABERGÉ \hspace #4 INVESTIGATIONS }
