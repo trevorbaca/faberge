@@ -25,7 +25,7 @@
 \score {
     <<
         \keepWithTag Violin {
-            \include "layout.ly"
+            \include "layout.ily"
         }
         \keepWithTag Violin {
             \include "../_sections/-.ly"

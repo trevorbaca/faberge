@@ -25,7 +25,7 @@
 \score {
     <<
         \keepWithTag Flute {
-            \include "layout.ly"
+            \include "layout.ily"
         }
         \keepWithTag Flute {
             \include "../_sections/01.ly"

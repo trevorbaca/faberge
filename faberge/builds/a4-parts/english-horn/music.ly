@@ -25,7 +25,7 @@
 \score {
     <<
         \keepWithTag EnglishHorn {
-            \include "layout.ly"
+            \include "layout.ily"
         }
         \keepWithTag EnglishHorn {
             \include "../_sections/-.ly"
