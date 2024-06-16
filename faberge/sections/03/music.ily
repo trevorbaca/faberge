@@ -8171,7 +8171,7 @@ number.3.Piano.LH.Attacks.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfz
-    ^ \markup \center-align \concat { \natural \flat }
+    ^ \markup \center-column { \natural \flat }
 
     r2
 
@@ -8296,7 +8296,7 @@ number.3.Piano.LH.Attacks.Music = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \sfz
-    ^ \markup \center-align \concat { \natural \flat }
+    ^ \markup \center-column { \natural \flat }
 
     r4..
 
