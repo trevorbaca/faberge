@@ -3,9 +3,6 @@
 % first_page_number = 28
 % page_count = 1
 % measure_count = 8 + 1
-% time_signatures = [
-% '3/4', '5/4', '3/4', '5/4', '3/4', '5/4', '3/4', '5/4'
-%  ]
 
 
 \context Score = "Score"
