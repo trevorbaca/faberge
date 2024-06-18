@@ -1091,7 +1091,7 @@ def make_layout(environment):
         pages.append(page)
     breaks = baca.layout.Breaks(*pages)
     spacing = baca.layout.Spacing(default=(1, 48))
-    baca.build.write_layout_ily(
+    lilypond_file, bol_measure_numbers = baca.build.write_layout_ily(
         breaks,
         environment.metadata["time_signatures"],
         fermata_measure_numbers=environment.metadata.get("fermata_measure_numbers", []),
