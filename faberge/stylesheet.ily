@@ -1,12 +1,12 @@
 \version "2.25.16"
+\include "baca.ily"
+
 #(set-default-paper-size "ledger")
 #(set-global-staff-size 12)
 
-\include "baca.ily"
-
 \paper
 {
-  %bottom-margin = 10\mm
+  %bottom-margin = 10
   evenFooterMarkup = \markup
     \if \should-print-page-number
     \fill-line {
@@ -31,14 +31,14 @@
       " "
   }
   evenHeaderMarkup = \markup \fill-line { " " }
-  left-margin = 25\mm
+  left-margin = 25
   oddFooterMarkup = \evenFooterMarkup
   oddHeaderMarkup = \markup \fill-line { " " }
   print-first-page-number = ##f
   print-page-number = ##t
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  right-margin = 15\mm
+  right-margin = 15
   markup-system-spacing = #'(
     (basic-distance . 0)
     (minimum-distance . 48)
@@ -57,7 +57,7 @@
     (padding . 0)
     (stretchability . 0)
   )
-  top-margin = 0\mm
+  top-margin = 0
 }
 
 \layout
@@ -69,12 +69,8 @@
   ragged-right = ##t
 }
 
-%%% CONTEXTS
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -87,34 +83,25 @@
 
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.staff-padding = 2
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
     \type Engraver_group
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextSpanner.font-size=6
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -131,13 +118,10 @@
     \defaultchild GlobalRests
     \accepts GlobalSkips
     \accepts PageLayout
-
     \override BarNumber.Y-extent = ##f
     \override BarNumber.extra-offset = #'(-4 . -4)
     \override BarNumber.font-size = 1
-
     \override TextSpanner.to-barline = ##t
-
     % prevents StaffSymbol from starting too early after cut-away measures:
     \override TimeSignature.X-extent = ##f
     \override TimeSignature.break-align-symbol = #'left-edge
@@ -145,32 +129,23 @@
     \override TimeSignature.font-size = 3
     \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
     \override TimeSignature.style = #'numbered
-
   }
-
-  % PIANO STAFF
   \context
   {
     \PianoStaff
     \remove "Keep_alive_together_engraver" 
   }
-
-  % STAFF
   \context
   {
     \Staff
     \accepts GlobalRests
     \remove Time_signature_engraver
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % WIND SECTION
   \context
   {
     \StaffGroup
@@ -178,8 +153,6 @@
     \type Engraver_group
     \alias StaffGroup
   }
-
-  % PERCUSSION SECTION
   \context
   {
     \StaffGroup
@@ -187,8 +160,6 @@
     \type Engraver_group
     \alias StaffGroup
   }
-
-  % STRING SECTION
   \context
   {
     \StaffGroup
@@ -196,8 +167,6 @@
     \type Engraver_group
     \alias StaffGroup
   }
-
-  % MUSIC CONTEXT
   \context
   {
     \ChoirStaff
@@ -209,8 +178,6 @@
     \accepts StringSectionStaffGroup
     systemStartDelimiter = #'SystemStartBar
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -219,59 +186,41 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     % necessary for uniform overlapping polyrhythms with accidentals;
     % but removed here for English horn downbeat sixteenths:
     \override Accidental.X-extent = ##f
-
     \override BarLine.hair-thickness = 0.5
     \override BarLine.X-extent = #'(0 . 0)
-
     \override Beam.damping = 99
-
     % to prevent breath marks from back-extending staff lines:
     \override BreathingSign.X-extent = ##f
     \override BreathingSign.extra-offset = #'(-1.5 . 0)
-
     %\override DynamicLineSpanner.padding = #3
-
     % leave dynamic alignment set to center in this score
     %\override DynamicText.self-alignment-X = #left
-
     \override Glissando.thickness = 3
-
     % TODO: add to context definition in every score
     \override Hairpin.to-barline = ##f
-
     \override NoteCollision.merge-differently-dotted = ##t
-
     \override NoteColumn.ignore-collision = ##t
-
     \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie         
     \override RepeatTie.X-extent = ##f
-
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override StemTremolo.beam-width = 1.5
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
-
     \override TextSpanner.to-barline = ##t
-
     \override TextScript.font-name = #"Palatino"
     % DISCOVERY: overriding textscript.x-extent = ##f
     %      makes lilypond ignore self-alignment-x tweaks;
     %      probably should never be done at stylesheet level.
     % NOTE:    may be best to override NO text script properties.
     \override TextScript.X-extent = ##f
-
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
-
     \override TupletNumber.font-size = 1
-
     autoBeaming = ##f
     % activate in score:
     barNumberFormatter = #baca-oval-bar-numbers
@@ -281,7 +230,7 @@
   }
 }
 
-%%% COLOPHON %%%
+% COLOPHON
 
 faberge-col-legno-battuto-first-appearance-markup = \markup
   \whiteout
@@ -370,7 +319,7 @@ faberge-rub-sponge-on-bass-drum-head-markup = \markup
 
 faberge-seventh-degree-of-e-markup = \markup "7°/E"
 
-%%% MARGIN MARKUP %%%
+% MARGIN MARKUP
 
 faberge-cello-markup = \markup \hcenter-in #14 "Cello"
 
@@ -392,7 +341,7 @@ faberge-viola-markup = \markup \hcenter-in #14 "Viola"
 
 faberge-violin-markup = \markup \hcenter-in #14 "Violin"
 
-%%% MARGIN MARKUP (SHORT) %%%
+% MARGIN MARKUP (SHORT)
 
 faberge-bcl-markup = \markup \hcenter-in #12 "B. cl."
 
