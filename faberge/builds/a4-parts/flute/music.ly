@@ -4,6 +4,7 @@
 
 \include "../stylesheet.ily"
 \include "stylesheet.ily"
+\include "layout.ily"
 \include "../_sections/01.ily"
 \include "../_sections/02.ily"
 \include "../_sections/03.ily"
@@ -25,7 +26,7 @@
 \score {
     <<
         \keepWithTag Flute {
-            \include "layout.ily"
+            \page-layout-score
         }
         \keepWithTag Flute {
             \include "../_sections/01.ly"

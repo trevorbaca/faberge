@@ -20,12 +20,13 @@
 \include "../_sections/M.ily"
 \include "../_sections/N.ily"
 \include "../_sections/O.ily"
+\include "layout.ily"
 
 
 \score {
     <<
         \keepWithTag Violin {
-            \include "layout.ily"
+            \page-layout-score
         }
         \keepWithTag Violin {
             \include "../_sections/-.ly"
