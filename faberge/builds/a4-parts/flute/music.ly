@@ -22,29 +22,31 @@
 \include "../_sections/15.ily"
 \include "../_sections/16.ily"
 
-
-\score {
-    <<
-        \keepWithTag Flute {
-            \page-layout-score
-        }
-        \keepWithTag Flute {
-            \include "../_sections/01.ly"
-            \include "../_sections/02.ly"
-            \include "../_sections/03.ly"
-            \include "../_sections/04.ly"
-            \include "../_sections/05.ly"
-            \include "../_sections/06.ly"
-            \include "../_sections/07.ly"
-            \include "../_sections/08.ly"
-            \include "../_sections/09.ly"
-            \include "../_sections/10.ly"
-            \include "../_sections/11.ly"
-            \include "../_sections/12.ly"
-            \include "../_sections/13.ly"
-            \include "../_sections/14.ly"
-            \include "../_sections/15.ly"
-            \include "../_sections/16.ly"
-        }
-    >>
+\score
+{
+  <<
+    \keepWithTag Flute
+    {
+      \page-layout-score
+    }
+    \keepWithTag Flute
+    {
+      \include "../_sections/01.ly"
+      \include "../_sections/02.ly"
+      \include "../_sections/03.ly"
+      \include "../_sections/04.ly"
+      \include "../_sections/05.ly"
+      \include "../_sections/06.ly"
+      \include "../_sections/07.ly"
+      \include "../_sections/08.ly"
+      \include "../_sections/09.ly"
+      \include "../_sections/10.ly"
+      \include "../_sections/11.ly"
+      \include "../_sections/12.ly"
+      \include "../_sections/13.ly"
+      \include "../_sections/14.ly"
+      \include "../_sections/15.ly"
+      \include "../_sections/16.ly"
+    }
+  >>
 }
