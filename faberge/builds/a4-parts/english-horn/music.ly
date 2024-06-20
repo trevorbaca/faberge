@@ -4,6 +4,7 @@
 
 \include "../stylesheet.ily"
 \include "stylesheet.ily"
+\include "layout.ily"
 \include "../_sections/-.ily"
 \include "../_sections/A.ily"
 \include "../_sections/B.ily"
@@ -25,7 +26,7 @@
 \score {
     <<
         \keepWithTag EnglishHorn {
-            \include "layout.ily"
+            \page-layout-score
         }
         \keepWithTag EnglishHorn {
             \include "../_sections/-.ly"

@@ -19,12 +19,13 @@
 \include "../_sections/M.ily"
 \include "../_sections/N.ily"
 \include "../_sections/O.ily"
+\include "layout.ily"
 
 
 \score {
     <<
         \keepWithTag Piano {
-            \include "layout.ily"
+            \page-layout-score
         }
         \keepWithTag Piano {
             \include "../_sections/-.ly"
