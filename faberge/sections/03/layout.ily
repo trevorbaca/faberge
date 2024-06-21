@@ -5,7 +5,7 @@
 <<
 
     \context GlobalContext = "GlobalContext"
-    {
+    <<
 
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
@@ -1095,6 +1095,255 @@
 
         }   %*% PageLayout
 
-    }
+        \context GlobalSkips = "Breaks"
+        {
+
+            % [Breaks measure 1]
+            s1 * 3/4
+
+            % [Breaks measure 2]
+            s1 * 4/4
+
+            % [Breaks measure 3]
+            s1 * 4/4
+
+            % [Breaks measure 4]
+            s1 * 2/4
+
+            % [Breaks measure 5]
+            s1 * 3/4
+
+            % [Breaks measure 6]
+            s1 * 2/4
+
+            % [Breaks measure 7]
+            s1 * 3/4
+
+            % [Breaks measure 8]
+            s1 * 4/4
+
+            % [Breaks measure 9]
+            s1 * 3/4
+
+            % [Breaks measure 10]
+            s1 * 2/4
+
+            % [Breaks measure 11]
+            s1 * 4/4
+
+            % [Breaks measure 12]
+            s1 * 2/4
+
+            % [Breaks measure 13]
+            s1 * 3/4
+
+            % [Breaks measure 14]
+            s1 * 4/4
+
+            % [Breaks measure 15]
+            s1 * 3/4
+
+            % [Breaks measure 16]
+            s1 * 4/4
+
+            % [Breaks measure 17]
+            s1 * 3/4
+
+            % [Breaks measure 18]
+            s1 * 4/4
+
+            % [Breaks measure 19]
+            s1 * 2/4
+
+            % [Breaks measure 20]
+            s1 * 4/4
+
+            % [Breaks measure 21]
+            s1 * 4/4
+
+            % [Breaks measure 22]
+            s1 * 3/4
+
+            % [Breaks measure 23]
+            s1 * 2/4
+
+            % [Breaks measure 24]
+            s1 * 3/4
+
+            % [Breaks measure 25]
+            s1 * 3/4
+
+            % [Breaks measure 26]
+            s1 * 4/4
+
+            % [Breaks measure 27]
+            s1 * 4/4
+
+            % [Breaks measure 28]
+            s1 * 3/4
+
+            % [Breaks measure 29]
+            s1 * 2/4
+
+            % [Breaks measure 30]
+            s1 * 2/4
+
+            % [Breaks measure 31]
+            s1 * 3/4
+
+            % [Breaks measure 32]
+            s1 * 4/4
+
+            % [Breaks measure 33]
+            s1 * 2/4
+
+            % [Breaks measure 34]
+            s1 * 3/4
+
+            % [Breaks measure 35]
+            s1 * 4/4
+
+            % [Breaks measure 36]
+            s1 * 2/4
+
+            % [Breaks measure 37]
+            s1 * 3/4
+
+            % [Breaks measure 38]
+            s1 * 4/4
+
+            % [Breaks measure 39]
+            s1 * 3/4
+
+            % [Breaks measure 40]
+            s1 * 4/4
+
+            % [Breaks measure 41]
+            s1 * 3/4
+
+            % [Breaks measure 42]
+            s1 * 4/4
+
+            % [Breaks measure 43]
+            s1 * 2/4
+
+            % [Breaks measure 44]
+            s1 * 4/4
+
+            % [Breaks measure 45]
+            s1 * 4/4
+
+            % [Breaks measure 46]
+            s1 * 3/4
+
+            % [Breaks measure 47]
+            s1 * 3/4
+
+            % [Breaks measure 48]
+            s1 * 2/4
+
+            % [Breaks measure 49]
+            s1 * 3/4
+
+            % [Breaks measure 50]
+            s1 * 4/4
+
+            % [Breaks measure 51]
+            s1 * 4/4
+
+            % [Breaks measure 52]
+            s1 * 2/4
+
+            % [Breaks measure 53]
+            s1 * 3/4
+
+            % [Breaks measure 54]
+            s1 * 2/4
+
+            % [Breaks measure 55]
+            s1 * 3/4
+
+            % [Breaks measure 56]
+            s1 * 4/4
+
+            % [Breaks measure 57]
+            s1 * 3/4
+
+            % [Breaks measure 58]
+            s1 * 2/4
+
+            % [Breaks measure 59]
+            s1 * 4/4
+
+            % [Breaks measure 60]
+            s1 * 2/4
+
+            % [Breaks measure 61]
+            s1 * 3/4
+
+            % [Breaks measure 62]
+            s1 * 4/4
+
+            % [Breaks measure 63]
+            s1 * 3/4
+
+            % [Breaks measure 64]
+            s1 * 4/4
+
+            % [Breaks measure 65]
+            s1 * 3/4
+
+            % [Breaks measure 66]
+            s1 * 4/4
+
+            % [Breaks measure 67]
+            s1 * 2/4
+
+            % [Breaks measure 68]
+            s1 * 4/4
+
+            % [Breaks measure 69]
+            s1 * 4/4
+
+            % [Breaks measure 70]
+            s1 * 3/4
+
+            % [Breaks measure 71]
+            s1 * 2/4
+
+            % [Breaks measure 72]
+            s1 * 3/4
+
+            % [Breaks measure 73]
+            s1 * 3/4
+
+            % [Breaks measure 74]
+            s1 * 4/4
+
+            % [Breaks measure 75]
+            s1 * 4/4
+
+            % [Breaks measure 76]
+            s1 * 3/4
+
+            % [Breaks measure 77]
+            s1 * 2/4
+
+            % [Breaks measure 78]
+            s1 * 2/4
+
+            % [Breaks measure 79]
+            s1 * 3/4
+
+            % [Breaks measure 80]
+            s1 * 4/4
+
+            % [anchor skip]
+              %! ANCHOR_SKIP
+            s1 * 1/4
+
+        }
+
+    >>
 
 >>
