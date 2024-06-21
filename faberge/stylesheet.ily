@@ -78,9 +78,7 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
   \context
@@ -213,11 +211,6 @@
     \override StemTremolo.slope = 0.5
     \override TextSpanner.to-barline = ##t
     \override TextScript.font-name = #"Palatino"
-    % DISCOVERY: overriding textscript.x-extent = ##f
-    %      makes lilypond ignore self-alignment-x tweaks;
-    %      probably should never be done at stylesheet level.
-    % NOTE:    may be best to override NO text script properties.
-    \override TextScript.X-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
     \override TupletNumber.font-size = 1
