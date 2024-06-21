@@ -126,64 +126,52 @@
         }   %*% PageLayout
 
         \context GlobalSkips = "Breaks"
-        {
+        {   %*% Breaks
 
             % [Breaks measure 1]
-              %! BREAK
             \autoPageBreaksOff
-              %! BREAK
             \baca-lbsd #40 #'(18 21 21 24 18 18 24 27 27 27)
-              %! BREAK
             \pageBreak
             s1 * 12/4
 
             % [Breaks measure 2]
-              %! BREAK
             \noBreak
             s1 * 10/4
 
             % [Breaks measure 3]
-              %! BREAK
             \noBreak
             s1 * 12/4
 
             % [Breaks measure 4]
-              %! BREAK
             \noBreak
             s1 * 10/4
 
             % [Breaks measure 5]
-              %! BREAK
             \noBreak
             s1 * 8/4
 
             % [Breaks measure 6]
-              %! BREAK
             \noBreak
             s1 * 6/4
 
             % [Breaks measure 7]
-              %! BREAK
             \noBreak
             s1 * 8/4
 
             % [Breaks measure 8]
-              %! BREAK
             \noBreak
             s1 * 1/4
 
             % [Breaks measure 9]
-              %! BREAK
             \noBreak
             s1 * 6/4
 
             % [anchor skip]
-              %! BREAK
             \noBreak
               %! ANCHOR_SKIP
             s1 * 1/4
 
-        }
+        }   %*% Breaks
 
     >>
 
