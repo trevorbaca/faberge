@@ -285,119 +285,27 @@ number.14.TimeSignatures = {
       %! REAPPLIED_TIME_SIGNATURE
     \time 4/4
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "1"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "262"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 2]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "2"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "263"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 3]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "3"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "264"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 4]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "4"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "265"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 5]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "5"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "266"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 6]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "6"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "267"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 7]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "7"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "268"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [TimeSignatures measure 8]
     s1 * 4/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
-      %! LOCAL_MEASURE_NUMBER
-    - \baca-start-lmn-left-only "8"
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStartTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% - \baca-start-mn-left-only "269"
-      %! MEASURE_NUMBER
-    %@% \bacaStartTextSpanMN
 
     % [anchor skip]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -406,10 +314,6 @@ number.14.TimeSignatures = {
     \time 1/4
       %! ANCHOR_SKIP
     s1 * 1/4
-      %! LOCAL_MEASURE_NUMBER
-    \bacaStopTextSpanLMN
-      %! MEASURE_NUMBER
-    %@% \bacaStopTextSpanMN
 
 }
 
