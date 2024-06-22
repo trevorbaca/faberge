@@ -230,7 +230,7 @@ def make_eh_trill_rhythm(
 
 def make_empty_score():
     tag = baca.helpers.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
+    global_context = baca.score.make_global_context(make_time_signatures_context=True)
     flute_music_voice = abjad.Voice(name="Flute.Music", tag=tag)
     flute_music_staff = abjad.Staff(
         [flute_music_voice],
