@@ -3,7 +3,7 @@
 number.1.Skips = {
 
     % [Skips measure 1]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=100
     s1 * 3/4
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR

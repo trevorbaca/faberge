@@ -5,7 +5,7 @@ number.6.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
-      %! REAPPLIED_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=41
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
@@ -63,7 +63,7 @@ number.6.Skips = {
       %! MEASURE_195
       %! ONLY_MOL
     \once \override Score.BarLine.X-extent = #'(0 . 3)
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=156
     s1 * 9/4
       %! CLOCK_TIME
@@ -120,7 +120,7 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 4]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=41
     s1 * 4/4
       %! CLOCK_TIME
@@ -181,7 +181,7 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 6]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=80
     s1 * 7/4
       %! CLOCK_TIME
