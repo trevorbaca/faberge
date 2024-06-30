@@ -184,11 +184,7 @@
     % to prevent breath marks from back-extending staff lines:
     \override BreathingSign.X-extent = ##f
     \override BreathingSign.extra-offset = #'(-1.5 . 0)
-    %\override DynamicLineSpanner.padding = #3
-    % leave dynamic alignment set to center in this score
-    %\override DynamicText.self-alignment-X = #left
     \override Glissando.thickness = 3
-    % TODO: add to context definition in every score
     \override Hairpin.to-barline = ##f
     \override NoteCollision.merge-differently-dotted = ##t
     \override NoteColumn.ignore-collision = ##t
@@ -202,13 +198,11 @@
     \override StemTremolo.slope = 0.5
     \override TextSpanner.to-barline = ##t
     \override TextScript.font-name = #"Palatino"
+    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
     \override TupletNumber.font-size = 1
     autoBeaming = ##f
-    % activate in score:
-    barNumberFormatter = #baca-oval-bar-numbers
-    rehearsalMarkFormatter = #format-mark-box-alphabet
     proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
