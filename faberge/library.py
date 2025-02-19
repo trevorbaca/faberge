@@ -2,7 +2,7 @@ import inspect
 
 import abjad
 import baca
-from abjadext import rmakers
+import rmakers
 
 
 def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
