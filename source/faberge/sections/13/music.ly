@@ -18,10 +18,14 @@
             <<
 
                 \context GlobalSkips = "Skips"
-                { \number.13.Skips }
+                {
+                    \number.13.Skips
+                }
 
                 \context GlobalSkips = "TimeSignatures"
-                { \number.13.TimeSignatures }
+                {
+                    \number.13.TimeSignatures
+                }
 
             >>
 
@@ -33,15 +37,21 @@
 
                     \tag #'Flute
                     \context Staff = "Flute.Staff"
-                    { \number.13.Flute.Staff }
+                    {
+                        \number.13.Flute.Staff
+                    }
 
                     \tag #'EnglishHorn
                     \context Staff = "EnglishHorn.Staff"
-                    { \number.13.EnglishHorn.Staff }
+                    {
+                        \number.13.EnglishHorn.Staff
+                    }
 
                     \tag #'Clarinet
                     \context Staff = "Clarinet.Staff"
-                    { \number.13.Clarinet.Staff }
+                    {
+                        \number.13.Clarinet.Staff
+                    }
 
                 >>
 
@@ -53,16 +63,22 @@
                     <<
 
                         \context Staff = "Piano.RH.Staff"
-                        { \number.13.Piano.RH.Staff }
+                        {
+                            \number.13.Piano.RH.Staff
+                        }
 
                         \context Staff = "Piano.LH.Staff"
-                        { \number.13.Piano.LH.Staff }
+                        {
+                            \number.13.Piano.LH.Staff
+                        }
 
                     >>
 
                     \tag #'Percussion
                     \context Staff = "Percussion.Staff"
-                    { \number.13.Percussion.Staff }
+                    {
+                        \number.13.Percussion.Staff
+                    }
 
                 >>
 
@@ -71,15 +87,21 @@
 
                     \tag #'Violin
                     \context Staff = "Violin.Staff"
-                    { \number.13.Violin.Staff }
+                    {
+                        \number.13.Violin.Staff
+                    }
 
                     \tag #'Viola
                     \context Staff = "Viola.Staff"
-                    { \number.13.Viola.Staff }
+                    {
+                        \number.13.Viola.Staff
+                    }
 
                     \tag #'Cello
                     \context Staff = "Cello.Staff"
-                    { \number.13.Cello.Staff }
+                    {
+                        \number.13.Cello.Staff
+                    }
 
                 >>
 

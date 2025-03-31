@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.3.Skips = {
+number.3.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -1837,7 +1838,8 @@ number.3.Skips = {
 }
 
 
-number.3.TimeSignatures = {
+number.3.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -2368,7 +2370,8 @@ number.3.TimeSignatures = {
 }
 
 
-number.3.Rests = {
+number.3.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/4
@@ -2613,7 +2616,8 @@ number.3.Rests = {
 }
 
 
-number.3.Flute.Music = {
+number.3.Flute.Music =
+{
 
     % [Flute.Music measure 1]
       %! REAPPLIED_CLEF
@@ -4524,18 +4528,24 @@ number.3.Flute.Music = {
 }
 
 
-number.3.Flute.Staff = <<
+number.3.Flute.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.3.Rests }
+    {
+        \number.3.Rests
+    }
 
     \context Voice = "Flute.Music"
-    { \number.3.Flute.Music }
+    {
+        \number.3.Flute.Music
+    }
 
 >>
 
 
-number.3.EnglishHorn.Music = {
+number.3.EnglishHorn.Music =
+{
 
     % [EnglishHorn.Music measure 1]
       %! REAPPLIED_CLEF
@@ -5939,15 +5949,19 @@ number.3.EnglishHorn.Music = {
 }
 
 
-number.3.EnglishHorn.Staff = <<
+number.3.EnglishHorn.Staff =
+<<
 
     \context Voice = "EnglishHorn.Music"
-    { \number.3.EnglishHorn.Music }
+    {
+        \number.3.EnglishHorn.Music
+    }
 
 >>
 
 
-number.3.Clarinet.Music = {
+number.3.Clarinet.Music =
+{
 
     % [Clarinet.Music measure 1]
       %! REAPPLIED_CLEF
@@ -7053,15 +7067,19 @@ number.3.Clarinet.Music = {
 }
 
 
-number.3.Clarinet.Staff = <<
+number.3.Clarinet.Staff =
+<<
 
     \context Voice = "Clarinet.Music"
-    { \number.3.Clarinet.Music }
+    {
+        \number.3.Clarinet.Music
+    }
 
 >>
 
 
-number.3.Piano.RH.Music = {
+number.3.Piano.RH.Music =
+{
 
     % [Piano.RH.Music measure 1]
       %! REAPPLIED_CLEF
@@ -7974,15 +7992,19 @@ number.3.Piano.RH.Music = {
 }
 
 
-number.3.Piano.RH.Staff = <<
+number.3.Piano.RH.Staff =
+<<
 
     \context Voice = "Piano.RH.Music"
-    { \number.3.Piano.RH.Music }
+    {
+        \number.3.Piano.RH.Music
+    }
 
 >>
 
 
-number.3.Piano.LH.Music = {
+number.3.Piano.LH.Music =
+{
 
     % [Piano.LH.Music measure 1]
       %! REAPPLIED_CLEF
@@ -8410,7 +8432,8 @@ number.3.Piano.LH.Music = {
 }
 
 
-number.3.Piano.LH.Attacks.Music = {
+number.3.Piano.LH.Attacks.Music =
+{
 
     % [Piano.LH.Attacks.Music measure 1]
     \override DynamicLineSpanner.staff-padding = 6
@@ -8843,18 +8866,24 @@ number.3.Piano.LH.Attacks.Music = {
 }
 
 
-number.3.Piano.LH.Staff = <<
+number.3.Piano.LH.Staff =
+<<
 
     \context Voice = "Piano.LH.Music"
-    { \number.3.Piano.LH.Music }
+    {
+        \number.3.Piano.LH.Music
+    }
 
     \context Voice = "Piano.LH.Attacks.Music"
-    { \number.3.Piano.LH.Attacks.Music }
+    {
+        \number.3.Piano.LH.Attacks.Music
+    }
 
 >>
 
 
-number.3.Percussion.Music = {
+number.3.Percussion.Music =
+{
 
     % [Percussion.Music measure 1]
       %! REAPPLIED_CLEF
@@ -9616,15 +9645,19 @@ number.3.Percussion.Music = {
 }
 
 
-number.3.Percussion.Staff = <<
+number.3.Percussion.Staff =
+<<
 
     \context Voice = "Percussion.Music"
-    { \number.3.Percussion.Music }
+    {
+        \number.3.Percussion.Music
+    }
 
 >>
 
 
-number.3.Violin.Music = {
+number.3.Violin.Music =
+{
 
     % [Violin.Music measure 1]
       %! REAPPLIED_CLEF
@@ -11184,15 +11217,19 @@ number.3.Violin.Music = {
 }
 
 
-number.3.Violin.Staff = <<
+number.3.Violin.Staff =
+<<
 
     \context Voice = "Violin.Music"
-    { \number.3.Violin.Music }
+    {
+        \number.3.Violin.Music
+    }
 
 >>
 
 
-number.3.Viola.Music = {
+number.3.Viola.Music =
+{
 
     % [Viola.Music measure 1]
       %! REAPPLIED_CLEF
@@ -12742,15 +12779,19 @@ number.3.Viola.Music = {
 }
 
 
-number.3.Viola.Staff = <<
+number.3.Viola.Staff =
+<<
 
     \context Voice = "Viola.Music"
-    { \number.3.Viola.Music }
+    {
+        \number.3.Viola.Music
+    }
 
 >>
 
 
-number.3.Cello.Music = {
+number.3.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -13764,9 +13805,12 @@ number.3.Cello.Music = {
 }
 
 
-number.3.Cello.Staff = <<
+number.3.Cello.Staff =
+<<
 
     \context Voice = "Cello.Music"
-    { \number.3.Cello.Music }
+    {
+        \number.3.Cello.Music
+    }
 
 >>

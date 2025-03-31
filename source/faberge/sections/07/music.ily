@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.7.Skips = {
+number.7.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -268,7 +269,8 @@ number.7.Skips = {
 }
 
 
-number.7.TimeSignatures = {
+number.7.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -335,7 +337,8 @@ number.7.TimeSignatures = {
 }
 
 
-number.7.Rests = {
+number.7.Rests =
+{
 
     % [Rests measure 1]
     R1 * 7/4
@@ -364,7 +367,8 @@ number.7.Rests = {
 }
 
 
-number.7.Flute.Music = {
+number.7.Flute.Music =
+{
 
     % [Flute.Music measure 1]
       %! REAPPLIED_CLEF
@@ -694,18 +698,24 @@ number.7.Flute.Music = {
 }
 
 
-number.7.Flute.Staff = <<
+number.7.Flute.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.7.Rests }
+    {
+        \number.7.Rests
+    }
 
     \context Voice = "Flute.Music"
-    { \number.7.Flute.Music }
+    {
+        \number.7.Flute.Music
+    }
 
 >>
 
 
-number.7.EnglishHorn.Music = {
+number.7.EnglishHorn.Music =
+{
 
     % [EnglishHorn.Music measure 1]
       %! REAPPLIED_CLEF
@@ -939,15 +949,19 @@ number.7.EnglishHorn.Music = {
 }
 
 
-number.7.EnglishHorn.Staff = <<
+number.7.EnglishHorn.Staff =
+<<
 
     \context Voice = "EnglishHorn.Music"
-    { \number.7.EnglishHorn.Music }
+    {
+        \number.7.EnglishHorn.Music
+    }
 
 >>
 
 
-number.7.Clarinet.Music = {
+number.7.Clarinet.Music =
+{
 
     % [Clarinet.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1284,15 +1298,19 @@ number.7.Clarinet.Music = {
 }
 
 
-number.7.Clarinet.Staff = <<
+number.7.Clarinet.Staff =
+<<
 
     \context Voice = "Clarinet.Music"
-    { \number.7.Clarinet.Music }
+    {
+        \number.7.Clarinet.Music
+    }
 
 >>
 
 
-number.7.Piano.RH.Music = {
+number.7.Piano.RH.Music =
+{
 
     {
 
@@ -1642,15 +1660,19 @@ number.7.Piano.RH.Music = {
 }
 
 
-number.7.Piano.RH.Staff = <<
+number.7.Piano.RH.Staff =
+<<
 
     \context Voice = "Piano.RH.Music"
-    { \number.7.Piano.RH.Music }
+    {
+        \number.7.Piano.RH.Music
+    }
 
 >>
 
 
-number.7.Piano.LH.Music = {
+number.7.Piano.LH.Music =
+{
 
     {
 
@@ -1945,7 +1967,8 @@ number.7.Piano.LH.Music = {
 }
 
 
-number.7.Piano.LH.Attacks.Music = {
+number.7.Piano.LH.Attacks.Music =
+{
 
     % [Piano.LH.Attacks.Music measure 1]
     \override MultiMeasureRest.transparent = ##t
@@ -1997,18 +2020,24 @@ number.7.Piano.LH.Attacks.Music = {
 }
 
 
-number.7.Piano.LH.Staff = <<
+number.7.Piano.LH.Staff =
+<<
 
     \context Voice = "Piano.LH.Music"
-    { \number.7.Piano.LH.Music }
+    {
+        \number.7.Piano.LH.Music
+    }
 
     \context Voice = "Piano.LH.Attacks.Music"
-    { \number.7.Piano.LH.Attacks.Music }
+    {
+        \number.7.Piano.LH.Attacks.Music
+    }
 
 >>
 
 
-number.7.Percussion.Music = {
+number.7.Percussion.Music =
+{
 
     {
 
@@ -2219,15 +2248,19 @@ number.7.Percussion.Music = {
 }
 
 
-number.7.Percussion.Staff = <<
+number.7.Percussion.Staff =
+<<
 
     \context Voice = "Percussion.Music"
-    { \number.7.Percussion.Music }
+    {
+        \number.7.Percussion.Music
+    }
 
 >>
 
 
-number.7.Violin.Music = {
+number.7.Violin.Music =
+{
 
     % [Violin.Music measure 1]
       %! REAPPLIED_CLEF
@@ -2671,15 +2704,19 @@ number.7.Violin.Music = {
 }
 
 
-number.7.Violin.Staff = <<
+number.7.Violin.Staff =
+<<
 
     \context Voice = "Violin.Music"
-    { \number.7.Violin.Music }
+    {
+        \number.7.Violin.Music
+    }
 
 >>
 
 
-number.7.Viola.Music = {
+number.7.Viola.Music =
+{
 
     \tuplet 3/2
     {
@@ -3141,15 +3178,19 @@ number.7.Viola.Music = {
 }
 
 
-number.7.Viola.Staff = <<
+number.7.Viola.Staff =
+<<
 
     \context Voice = "Viola.Music"
-    { \number.7.Viola.Music }
+    {
+        \number.7.Viola.Music
+    }
 
 >>
 
 
-number.7.Cello.Music = {
+number.7.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! REAPPLIED_CLEF
@@ -3462,9 +3503,12 @@ number.7.Cello.Music = {
 }
 
 
-number.7.Cello.Staff = <<
+number.7.Cello.Staff =
+<<
 
     \context Voice = "Cello.Music"
-    { \number.7.Cello.Music }
+    {
+        \number.7.Cello.Music
+    }
 
 >>

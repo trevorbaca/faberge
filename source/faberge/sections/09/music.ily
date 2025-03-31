@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.9.Skips = {
+number.9.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -284,7 +285,8 @@ number.9.Skips = {
 }
 
 
-number.9.TimeSignatures = {
+number.9.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -366,7 +368,8 @@ number.9.TimeSignatures = {
 }
 
 
-number.9.Rests = {
+number.9.Rests =
+{
 
     % [Rests measure 1]
     R1 * 12/4
@@ -407,7 +410,8 @@ number.9.Rests = {
 }
 
 
-number.9.Flute.Music = {
+number.9.Flute.Music =
+{
 
     % [Flute.Music measure 1]
       %! REAPPLIED_CLEF
@@ -802,18 +806,24 @@ number.9.Flute.Music = {
 }
 
 
-number.9.Flute.Staff = <<
+number.9.Flute.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.9.Rests }
+    {
+        \number.9.Rests
+    }
 
     \context Voice = "Flute.Music"
-    { \number.9.Flute.Music }
+    {
+        \number.9.Flute.Music
+    }
 
 >>
 
 
-number.9.EnglishHorn.Music = {
+number.9.EnglishHorn.Music =
+{
 
     {
 
@@ -1179,15 +1189,19 @@ number.9.EnglishHorn.Music = {
 }
 
 
-number.9.EnglishHorn.Staff = <<
+number.9.EnglishHorn.Staff =
+<<
 
     \context Voice = "EnglishHorn.Music"
-    { \number.9.EnglishHorn.Music }
+    {
+        \number.9.EnglishHorn.Music
+    }
 
 >>
 
 
-number.9.Clarinet.Music = {
+number.9.Clarinet.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/6
@@ -1424,15 +1438,19 @@ number.9.Clarinet.Music = {
 }
 
 
-number.9.Clarinet.Staff = <<
+number.9.Clarinet.Staff =
+<<
 
     \context Voice = "Clarinet.Music"
-    { \number.9.Clarinet.Music }
+    {
+        \number.9.Clarinet.Music
+    }
 
 >>
 
 
-number.9.Piano.RH.Music = {
+number.9.Piano.RH.Music =
+{
 
     % [Piano.RH.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1535,15 +1553,19 @@ number.9.Piano.RH.Music = {
 }
 
 
-number.9.Piano.RH.Staff = <<
+number.9.Piano.RH.Staff =
+<<
 
     \context Voice = "Piano.RH.Music"
-    { \number.9.Piano.RH.Music }
+    {
+        \number.9.Piano.RH.Music
+    }
 
 >>
 
 
-number.9.Piano.LH.Music = {
+number.9.Piano.LH.Music =
+{
 
     % [Piano.LH.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1628,7 +1650,8 @@ number.9.Piano.LH.Music = {
 }
 
 
-number.9.Piano.LH.Attacks.Music = {
+number.9.Piano.LH.Attacks.Music =
+{
 
     % [Piano.LH.Attacks.Music measure 1]
     R1 * 12/4
@@ -1683,18 +1706,24 @@ number.9.Piano.LH.Attacks.Music = {
 }
 
 
-number.9.Piano.LH.Staff = <<
+number.9.Piano.LH.Staff =
+<<
 
     \context Voice = "Piano.LH.Music"
-    { \number.9.Piano.LH.Music }
+    {
+        \number.9.Piano.LH.Music
+    }
 
     \context Voice = "Piano.LH.Attacks.Music"
-    { \number.9.Piano.LH.Attacks.Music }
+    {
+        \number.9.Piano.LH.Attacks.Music
+    }
 
 >>
 
 
-number.9.Percussion.Music = {
+number.9.Percussion.Music =
+{
 
     % [Percussion.Music measure 1]
       %! EXPLICIT_CLEF
@@ -2007,15 +2036,19 @@ number.9.Percussion.Music = {
 }
 
 
-number.9.Percussion.Staff = <<
+number.9.Percussion.Staff =
+<<
 
     \context Voice = "Percussion.Music"
-    { \number.9.Percussion.Music }
+    {
+        \number.9.Percussion.Music
+    }
 
 >>
 
 
-number.9.Violin.Music = {
+number.9.Violin.Music =
+{
 
     {
 
@@ -3215,15 +3248,19 @@ number.9.Violin.Music = {
 }
 
 
-number.9.Violin.Staff = <<
+number.9.Violin.Staff =
+<<
 
     \context Voice = "Violin.Music"
-    { \number.9.Violin.Music }
+    {
+        \number.9.Violin.Music
+    }
 
 >>
 
 
-number.9.Viola.Music = {
+number.9.Viola.Music =
+{
 
     {
 
@@ -4512,15 +4549,19 @@ number.9.Viola.Music = {
 }
 
 
-number.9.Viola.Staff = <<
+number.9.Viola.Staff =
+<<
 
     \context Voice = "Viola.Music"
-    { \number.9.Viola.Music }
+    {
+        \number.9.Viola.Music
+    }
 
 >>
 
 
-number.9.Cello.Music = {
+number.9.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! EXPLICIT_CLEF
@@ -5006,9 +5047,12 @@ number.9.Cello.Music = {
 }
 
 
-number.9.Cello.Staff = <<
+number.9.Cello.Staff =
+<<
 
     \context Voice = "Cello.Music"
-    { \number.9.Cello.Music }
+    {
+        \number.9.Cello.Music
+    }
 
 >>

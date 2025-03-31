@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.13.Skips = {
+number.13.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -265,7 +266,8 @@ number.13.Skips = {
 }
 
 
-number.13.TimeSignatures = {
+number.13.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -324,7 +326,8 @@ number.13.TimeSignatures = {
 }
 
 
-number.13.Rests = {
+number.13.Rests =
+{
 
     % [Rests measure 1]
     R1 * 7/4
@@ -353,7 +356,8 @@ number.13.Rests = {
 }
 
 
-number.13.Flute.Music = {
+number.13.Flute.Music =
+{
 
     % [Flute.Music measure 1]
       %! REAPPLIED_CLEF
@@ -550,18 +554,24 @@ number.13.Flute.Music = {
 }
 
 
-number.13.Flute.Staff = <<
+number.13.Flute.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.13.Rests }
+    {
+        \number.13.Rests
+    }
 
     \context Voice = "Flute.Music"
-    { \number.13.Flute.Music }
+    {
+        \number.13.Flute.Music
+    }
 
 >>
 
 
-number.13.EnglishHorn.Music = {
+number.13.EnglishHorn.Music =
+{
 
     % [EnglishHorn.Music measure 1]
       %! REAPPLIED_CLEF
@@ -844,15 +854,19 @@ number.13.EnglishHorn.Music = {
 }
 
 
-number.13.EnglishHorn.Staff = <<
+number.13.EnglishHorn.Staff =
+<<
 
     \context Voice = "EnglishHorn.Music"
-    { \number.13.EnglishHorn.Music }
+    {
+        \number.13.EnglishHorn.Music
+    }
 
 >>
 
 
-number.13.Clarinet.Music = {
+number.13.Clarinet.Music =
+{
 
     % [Clarinet.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1239,15 +1253,19 @@ number.13.Clarinet.Music = {
 }
 
 
-number.13.Clarinet.Staff = <<
+number.13.Clarinet.Staff =
+<<
 
     \context Voice = "Clarinet.Music"
-    { \number.13.Clarinet.Music }
+    {
+        \number.13.Clarinet.Music
+    }
 
 >>
 
 
-number.13.Piano.RH.Music = {
+number.13.Piano.RH.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 21/14
@@ -1554,15 +1572,19 @@ number.13.Piano.RH.Music = {
 }
 
 
-number.13.Piano.RH.Staff = <<
+number.13.Piano.RH.Staff =
+<<
 
     \context Voice = "Piano.RH.Music"
-    { \number.13.Piano.RH.Music }
+    {
+        \number.13.Piano.RH.Music
+    }
 
 >>
 
 
-number.13.Piano.LH.Music = {
+number.13.Piano.LH.Music =
+{
 
     % [Piano.LH.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1676,7 +1698,8 @@ number.13.Piano.LH.Music = {
 }
 
 
-number.13.Piano.LH.Attacks.Music = {
+number.13.Piano.LH.Attacks.Music =
+{
 
     % [Piano.LH.Attacks.Music measure 1]
     \override MultiMeasureRest.transparent = ##t
@@ -1728,18 +1751,24 @@ number.13.Piano.LH.Attacks.Music = {
 }
 
 
-number.13.Piano.LH.Staff = <<
+number.13.Piano.LH.Staff =
+<<
 
     \context Voice = "Piano.LH.Music"
-    { \number.13.Piano.LH.Music }
+    {
+        \number.13.Piano.LH.Music
+    }
 
     \context Voice = "Piano.LH.Attacks.Music"
-    { \number.13.Piano.LH.Attacks.Music }
+    {
+        \number.13.Piano.LH.Attacks.Music
+    }
 
 >>
 
 
-number.13.Percussion.Music = {
+number.13.Percussion.Music =
+{
 
     % [Percussion.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1949,15 +1978,19 @@ number.13.Percussion.Music = {
 }
 
 
-number.13.Percussion.Staff = <<
+number.13.Percussion.Staff =
+<<
 
     \context Voice = "Percussion.Music"
-    { \number.13.Percussion.Music }
+    {
+        \number.13.Percussion.Music
+    }
 
 >>
 
 
-number.13.Violin.Music = {
+number.13.Violin.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 16/14
@@ -2247,15 +2280,19 @@ number.13.Violin.Music = {
 }
 
 
-number.13.Violin.Staff = <<
+number.13.Violin.Staff =
+<<
 
     \context Voice = "Violin.Music"
-    { \number.13.Violin.Music }
+    {
+        \number.13.Violin.Music
+    }
 
 >>
 
 
-number.13.Viola.Music = {
+number.13.Viola.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 20/14
@@ -2617,15 +2654,19 @@ number.13.Viola.Music = {
 }
 
 
-number.13.Viola.Staff = <<
+number.13.Viola.Staff =
+<<
 
     \context Voice = "Viola.Music"
-    { \number.13.Viola.Music }
+    {
+        \number.13.Viola.Music
+    }
 
 >>
 
 
-number.13.Cello.Music = {
+number.13.Cello.Music =
+{
 
     \tweak text #tuplet-number::calc-fraction-text
     \tuplet 18/14
@@ -3058,9 +3099,12 @@ number.13.Cello.Music = {
 }
 
 
-number.13.Cello.Staff = <<
+number.13.Cello.Staff =
+<<
 
     \context Voice = "Cello.Music"
-    { \number.13.Cello.Music }
+    {
+        \number.13.Cello.Music
+    }
 
 >>

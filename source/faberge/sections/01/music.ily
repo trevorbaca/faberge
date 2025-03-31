@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.1.Skips = {
+number.1.Skips =
+{
 
     % [Skips measure 1]
       %! LILYPOND_TEMPO_COMMAND
@@ -131,7 +132,8 @@ number.1.Skips = {
 }
 
 
-number.1.TimeSignatures = {
+number.1.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -173,7 +175,8 @@ number.1.TimeSignatures = {
 }
 
 
-number.1.Rests = {
+number.1.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/4
@@ -208,7 +211,8 @@ number.1.Rests = {
 }
 
 
-number.1.Flute.Music = {
+number.1.Flute.Music =
+{
 
     % [Flute.Music measure 1]
       %! EXPLICIT_CLEF
@@ -289,18 +293,24 @@ number.1.Flute.Music = {
 }
 
 
-number.1.Flute.Staff = <<
+number.1.Flute.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.1.Rests }
+    {
+        \number.1.Rests
+    }
 
     \context Voice = "Flute.Music"
-    { \number.1.Flute.Music }
+    {
+        \number.1.Flute.Music
+    }
 
 >>
 
 
-number.1.EnglishHorn.Music = {
+number.1.EnglishHorn.Music =
+{
 
     % [EnglishHorn.Music measure 1]
       %! EXPLICIT_CLEF
@@ -423,15 +433,19 @@ number.1.EnglishHorn.Music = {
 }
 
 
-number.1.EnglishHorn.Staff = <<
+number.1.EnglishHorn.Staff =
+<<
 
     \context Voice = "EnglishHorn.Music"
-    { \number.1.EnglishHorn.Music }
+    {
+        \number.1.EnglishHorn.Music
+    }
 
 >>
 
 
-number.1.Clarinet.Music = {
+number.1.Clarinet.Music =
+{
 
     % [Clarinet.Music measure 1]
       %! EXPLICIT_CLEF
@@ -512,15 +526,19 @@ number.1.Clarinet.Music = {
 }
 
 
-number.1.Clarinet.Staff = <<
+number.1.Clarinet.Staff =
+<<
 
     \context Voice = "Clarinet.Music"
-    { \number.1.Clarinet.Music }
+    {
+        \number.1.Clarinet.Music
+    }
 
 >>
 
 
-number.1.Piano.RH.Music = {
+number.1.Piano.RH.Music =
+{
 
     % [Piano.RH.Music measure 1]
       %! EXPLICIT_CLEF
@@ -601,15 +619,19 @@ number.1.Piano.RH.Music = {
 }
 
 
-number.1.Piano.RH.Staff = <<
+number.1.Piano.RH.Staff =
+<<
 
     \context Voice = "Piano.RH.Music"
-    { \number.1.Piano.RH.Music }
+    {
+        \number.1.Piano.RH.Music
+    }
 
 >>
 
 
-number.1.Piano.LH.Music = {
+number.1.Piano.LH.Music =
+{
 
     % [Piano.LH.Music measure 1]
       %! EXPLICIT_CLEF
@@ -676,7 +698,8 @@ number.1.Piano.LH.Music = {
 }
 
 
-number.1.Piano.LH.Attacks.Music = {
+number.1.Piano.LH.Attacks.Music =
+{
 
     % [Piano.LH.Attacks.Music measure 1]
     R1 * 3/4
@@ -701,18 +724,24 @@ number.1.Piano.LH.Attacks.Music = {
 }
 
 
-number.1.Piano.LH.Staff = <<
+number.1.Piano.LH.Staff =
+<<
 
     \context Voice = "Piano.LH.Music"
-    { \number.1.Piano.LH.Music }
+    {
+        \number.1.Piano.LH.Music
+    }
 
     \context Voice = "Piano.LH.Attacks.Music"
-    { \number.1.Piano.LH.Attacks.Music }
+    {
+        \number.1.Piano.LH.Attacks.Music
+    }
 
 >>
 
 
-number.1.Percussion.Music = {
+number.1.Percussion.Music =
+{
 
     % [Percussion.Music measure 1]
       %! EXPLICIT_CLEF
@@ -793,15 +822,19 @@ number.1.Percussion.Music = {
 }
 
 
-number.1.Percussion.Staff = <<
+number.1.Percussion.Staff =
+<<
 
     \context Voice = "Percussion.Music"
-    { \number.1.Percussion.Music }
+    {
+        \number.1.Percussion.Music
+    }
 
 >>
 
 
-number.1.Violin.Music = {
+number.1.Violin.Music =
+{
 
     % [Violin.Music measure 1]
       %! EXPLICIT_CLEF
@@ -962,15 +995,19 @@ number.1.Violin.Music = {
 }
 
 
-number.1.Violin.Staff = <<
+number.1.Violin.Staff =
+<<
 
     \context Voice = "Violin.Music"
-    { \number.1.Violin.Music }
+    {
+        \number.1.Violin.Music
+    }
 
 >>
 
 
-number.1.Viola.Music = {
+number.1.Viola.Music =
+{
 
     \tuplet 3/2
     {
@@ -1123,15 +1160,19 @@ number.1.Viola.Music = {
 }
 
 
-number.1.Viola.Staff = <<
+number.1.Viola.Staff =
+<<
 
     \context Voice = "Viola.Music"
-    { \number.1.Viola.Music }
+    {
+        \number.1.Viola.Music
+    }
 
 >>
 
 
-number.1.Cello.Music = {
+number.1.Cello.Music =
+{
 
     % [Cello.Music measure 1]
       %! EXPLICIT_CLEF
@@ -1212,9 +1253,12 @@ number.1.Cello.Music = {
 }
 
 
-number.1.Cello.Staff = <<
+number.1.Cello.Staff =
+<<
 
     \context Voice = "Cello.Music"
-    { \number.1.Cello.Music }
+    {
+        \number.1.Cello.Music
+    }
 
 >>
