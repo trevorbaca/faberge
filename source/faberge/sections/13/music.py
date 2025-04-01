@@ -31,19 +31,19 @@ def GLOBALS(skips):
         ("[4-4]", 5),
     )
     baca.section.label_stage_numbers(skips, stage_markup)
-    wrappers = baca.rehearsal_mark(
+    wrappers = baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "L",
         baca.tweak.extra_offset((0, 9)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
-    wrappers = baca.rehearsal_mark(
+    wrappers = baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "L",
         baca.tweak.extra_offset((0, 14)),
     )
     baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
-    wrappers = baca.rehearsal_mark(
+    wrappers = baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "L",
         baca.tweak.extra_offset((0, 18)),

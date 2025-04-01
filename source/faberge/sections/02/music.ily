@@ -18,15 +18,15 @@ number.2.Skips =
       %! +SECTION
     - \tweak extra-offset #'(0 . 18)
       %! +SECTION
-    - \baca-rehearsal-mark-markup "A" #10
+    - \baca-dimensionless-boxed-markup "A" #10
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 6)
       %! +SCORE
-%%% - \baca-rehearsal-mark-markup "A" #10
+%%% - \baca-dimensionless-boxed-markup "A" #10
       %! +PARTS
 %%% - \tweak extra-offset #'(0 . 9)
       %! +PARTS
-%%% - \baca-rehearsal-mark-markup "A" #10
+%%% - \baca-dimensionless-boxed-markup "A" #10
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
