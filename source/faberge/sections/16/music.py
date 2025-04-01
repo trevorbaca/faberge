@@ -210,7 +210,7 @@ def vc(m):
         baca.pitch(o, "E2")
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[8]) as o:
-        baca.mark(o.leaf(0), r"\faberge-colophon-markup")
+        baca.rehearsal_mark(o.leaf(0), r"\faberge-colophon-markup")
         baca.override.rehearsal_mark_direction_down(o.leaf(-1))
         baca.override.rehearsal_mark_extra_offset(o.leaf(-1), (40, 0))
         baca.override.rehearsal_mark_padding(o.leaf(-1), 6)
