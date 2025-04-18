@@ -141,7 +141,7 @@ def make_bcl_color_fingering_rhythm(
         lts = abjad.select.get(lts, force_rest_lts)
         rmakers.force_rest(lts, tag=tag)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 4))
+    rmakers.denominator(voice, abjad.Duration(1, 4))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -167,7 +167,7 @@ def make_clb_rhythm(
     tuplets = rmakers.talea(durations, [1], 8, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 8))
+    rmakers.denominator(voice, abjad.Duration(1, 8))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -424,7 +424,7 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=(0,)
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, denominator))
+    rmakers.denominator(voice, abjad.Duration(1, denominator))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_dots(voice, tag=tag)
@@ -501,7 +501,7 @@ def make_halves_rhythm(time_signatures, *, tuplet_ratios=[(1, 1)]):
     tuplets = rmakers.tuplet(durations, tuplet_ratios, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
-    rmakers.denominator(voice, (1, 4))
+    rmakers.denominator(voice, abjad.Duration(1, 4))
     rmakers.force_fraction(voice)
     rmakers.trivialize(voice)
     rmakers.rewrite_rest_filled(voice, tag=tag)
@@ -572,8 +572,8 @@ def make_ratchet_rhythm(time_signatures):
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.accelerando(
         durations,
-        [(3, 8), (1, 16), (1, 16)],
-        [(1, 16), (3, 8), (1, 16)],
+        rmakers.durations([(3, 8), (1, 16), (1, 16)]),
+        rmakers.durations([(1, 16), (3, 8), (1, 16)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
