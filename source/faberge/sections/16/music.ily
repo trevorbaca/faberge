@@ -1245,15 +1245,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/2
+    \tuplet 6/7
     {
 
         % [Viola.Music measure 2]
-        dqf''!1..
+        dqf''!1
         :32
         - \accent
 
-        dqf''!2..
+        dqf''!2
         :32
         - \accent
 
@@ -1275,15 +1275,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/2
+    \tuplet 6/7
     {
 
         % [Viola.Music measure 4]
-        dqf''!1..
+        dqf''!1
         :32
         - \accent
 
-        dqf''!2..
+        dqf''!2
         :32
         - \accent
 
@@ -1310,15 +1310,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 3/2
+    \tuplet 6/7
     {
 
         % [Viola.Music measure 6]
-        dqf''!1..
+        dqf''!1
         :32
         - \accent
 
-        dqf''!2..
+        dqf''!2
         :32
         - \accent
 

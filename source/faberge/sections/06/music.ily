@@ -488,11 +488,11 @@ number.6.Flute.Music =
     \>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 12/9
+    \tuplet 8/9
     {
 
         % [Flute.Music measure 2]
-        f'''1.
+        f'''1
         :32
           %! SPANNER_STOP
         \!
@@ -507,7 +507,7 @@ number.6.Flute.Music =
           %! SPANNER_START
         \<
 
-        f'''1.
+        f'''1
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
