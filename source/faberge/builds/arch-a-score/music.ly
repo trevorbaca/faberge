@@ -1,6 +1,6 @@
 % Fabergé Investigations (2016/19) for eight players
 
-\version "2.25.25"
+\version "2.25.26"
 
 \include "stylesheet.ily"
 \include "layout.ily"
