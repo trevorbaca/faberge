@@ -177,9 +177,6 @@ def make_clb_rhythm(
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.force_diminution(voice)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
-    for tuplet in abjad.select.tuplets(voice):
-        if abjad.Duration(tuplet.multiplier) == abjad.Duration(1, 1):
-            tuplet.multiplier = (1, 1)
     rmakers.extract_trivial(voice)
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
@@ -433,9 +430,6 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=(0,)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, denominator)
-    for tuplet in abjad.select.tuplets(voice):
-        if abjad.Duration(tuplet.multiplier) == abjad.Duration(1, 1):
-            tuplet.multiplier = (1, 1)
     rmakers.rewrite_dots(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.extract_trivial(voice)
