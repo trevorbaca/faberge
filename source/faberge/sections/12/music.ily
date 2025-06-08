@@ -917,11 +917,11 @@ number.12.Clarinet.Music =
     >>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/6
+    \tuplet 8/6
     {
 
         % [Clarinet.Music measure 3]
-        f16
+        f8
         - \espressivo
         [
           %! EXPLICIT_DYNAMIC
@@ -935,16 +935,16 @@ number.12.Clarinet.Music =
           %! SPANNER_START
         \<
 
-        f16
+        f8
         - \espressivo
 
-        f16
+        f8
         - \espressivo
 
-        f16
+        f8
         - \espressivo
 
-        f16
+        f8
         - \espressivo
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -962,13 +962,13 @@ number.12.Clarinet.Music =
           %! SPANNER_START
         \>
 
-        f16
+        f8
         - \espressivo
 
-        f16
+        f8
         - \espressivo
 
-        f16
+        f8
         - \espressivo
         ]
 
