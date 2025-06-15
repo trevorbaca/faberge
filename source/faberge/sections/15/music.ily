@@ -2044,11 +2044,11 @@ number.15.Violin.Music =
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Violin.Music measure 5]
-        <fs''! aqs''!>2
+        <fs''! aqs''!>1
         :32
         - \tweak padding 1.5
         ^ \faberge-nine-plus-eleven-of-e-markup
@@ -2075,7 +2075,7 @@ number.15.Violin.Music =
           %! SPANNER_START
         \<
 
-        <fs''! aqs''!>2
+        <fs''! aqs''!>1
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2383,11 +2383,11 @@ number.15.Viola.Music =
     \bacaStopTextSpanBowSpeed
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Viola.Music measure 5]
-        dqf''!2
+        dqf''!1
         :32
         - \tweak padding 1.5
         ^ \faberge-seventh-degree-of-e-markup
@@ -2402,7 +2402,7 @@ number.15.Viola.Music =
           %! SPANNER_START
         \<
 
-        dqf''!2
+        dqf''!1
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
@@ -2773,11 +2773,11 @@ number.15.Cello.Music =
     \>
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 4/5
+    \tuplet 8/5
     {
 
         % [Cello.Music measure 5]
-        e,2
+        e,1
         :32
           %! SPANNER_STOP
         \!
@@ -2792,7 +2792,7 @@ number.15.Cello.Music =
           %! SPANNER_START
         \<
 
-        e,2
+        e,1
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC

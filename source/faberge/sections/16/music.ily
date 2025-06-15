@@ -1075,15 +1075,15 @@ number.16.Violin.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 5/7
+    \tuplet 10/7
     {
 
         % [Violin.Music measure 2]
-        <fs''! aqs''!>2
+        <fs''! aqs''!>1
         :32
         - \accent
 
-        <fs''! aqs''!>2.
+        <fs''! aqs''!>1.
         :32
         - \accent
 
@@ -1105,15 +1105,15 @@ number.16.Violin.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 5/7
+    \tuplet 10/7
     {
 
         % [Violin.Music measure 4]
-        <fs''! aqs''!>2
+        <fs''! aqs''!>1
         :32
         - \accent
 
-        <fs''! aqs''!>2.
+        <fs''! aqs''!>1.
         :32
         - \accent
 
@@ -1140,15 +1140,15 @@ number.16.Violin.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 5/7
+    \tuplet 10/7
     {
 
         % [Violin.Music measure 6]
-        <fs''! aqs''!>2
+        <fs''! aqs''!>1
         :32
         - \accent
 
-        <fs''! aqs''!>2.
+        <fs''! aqs''!>1.
         :32
         - \accent
 
@@ -1245,15 +1245,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 6/7
+    \tuplet 12/7
     {
 
         % [Viola.Music measure 2]
-        dqf''!1
+        dqf''!\breve
         :32
         - \accent
 
-        dqf''!2
+        dqf''!1
         :32
         - \accent
 
@@ -1275,15 +1275,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 6/7
+    \tuplet 12/7
     {
 
         % [Viola.Music measure 4]
-        dqf''!1
+        dqf''!\breve
         :32
         - \accent
 
-        dqf''!2
+        dqf''!1
         :32
         - \accent
 
@@ -1310,15 +1310,15 @@ number.16.Viola.Music =
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \tuplet 6/7
+    \tuplet 12/7
     {
 
         % [Viola.Music measure 6]
-        dqf''!1
+        dqf''!\breve
         :32
         - \accent
 
-        dqf''!2
+        dqf''!1
         :32
         - \accent
 
