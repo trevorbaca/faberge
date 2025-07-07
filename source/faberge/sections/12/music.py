@@ -224,7 +224,9 @@ def fl_cl(cache):
             baca.override.dls_staff_padding(o, 7)
         with baca.scope(m[1]) as o:
             baca.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
+                abjad.select.partition_by_proportion(
+                    baca.select.plts(o.rleaves()), (2, 3)
+                ),
                 "o< mp>o!",
             )
         for n in [1, 3]:
@@ -232,7 +234,9 @@ def fl_cl(cache):
                 baca.espressivo(o.pheads())
         with baca.scope(m[3]) as o:
             baca.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(o.rleaves()), (2, 3)),
+                abjad.select.partition_by_proportion(
+                    baca.select.plts(o.rleaves()), (2, 3)
+                ),
                 "o< p>o!",
             )
 

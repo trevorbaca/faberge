@@ -320,7 +320,7 @@ def cl(m):
     with baca.scope(m.get(3, 6)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(run), (1, 1)),
+                abjad.select.partition_by_proportion(baca.select.plts(run), (1, 1)),
                 "pp< p>pp",
             )
     with baca.scope(m.get(3, 8)) as o:
@@ -333,7 +333,7 @@ def cl(m):
     with baca.scope(m.get(7, 8)) as o:
         for run in baca.select.runs(o):
             baca.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(run), (1, 1)),
+                abjad.select.partition_by_proportion(baca.select.plts(run), (1, 1)),
                 "p< mp>p",
             )
         baca.pitch(o, "Ab2")

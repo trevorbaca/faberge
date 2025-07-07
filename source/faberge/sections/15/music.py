@@ -193,7 +193,7 @@ def cl(m):
         baca.override.dls_staff_padding(o, 8)
         for run in baca.select.runs(o):
             baca.hairpin(
-                abjad.select.partition_by_ratio(baca.select.plts(run), (2, 3)),
+                abjad.select.partition_by_proportion(baca.select.plts(run), (2, 3)),
                 "pp< p>pp",
             )
         baca.spanners.material_annotation(
