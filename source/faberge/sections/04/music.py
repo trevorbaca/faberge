@@ -97,8 +97,8 @@ def PF(score, time_signatures):
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     voice.append(
-        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
+        r"{ \tuplet 5/4 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
+        r" \tuplet 5/4 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
     )
     music = library.make_downbeat_attack(
         time_signatures(5),
@@ -111,8 +111,8 @@ def PF(score, time_signatures):
     music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
     voice.append(
-        r"{ \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
-        r" \times 4/5 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
+        r"{ \tuplet 5/4 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 }"
+        r" \tuplet 5/4 { c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 } }"
     )
     music = library.make_downbeat_attack(
         time_signatures(5),

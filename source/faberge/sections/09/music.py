@@ -82,7 +82,7 @@ def EH(voice, time_signatures):
     voice.extend("{ c2. c2. r1 }")
     music = baca.make_mmrests(time_signatures(3), head=voice.name)
     voice.extend(music)
-    voice.extend(r"{ \times 5/4 { c4 c4 c4 c4 } \times 5/4 { c4 c4 c4 c4 } }")
+    voice.extend(r"{ \tuplet 4/5 { c4 c4 c4 c4 } \tuplet 4/5 { c4 c4 c4 c4 } }")
     voice.extend(r"{ c4 c4 c4 c4 r1 }")
     music = baca.make_mmrests(time_signatures(6, 9))
     voice.extend(music)
@@ -135,55 +135,55 @@ def PERC(voice, time_signatures):
 
 
 def VN(voice, time_signatures):
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }")
     voice.extend(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 6/5 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }")
     voice.extend(
-        r"\times 5/6 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 6/5 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
     voice.extend(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 12/8 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } }")
     voice.extend(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 12/8 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
     music = baca.make_mmrests(time_signatures(8))
     voice.extend(music)
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } }")
     baca.section.append_anchor_note(voice)
 
 
 def VA(voice, time_signatures):
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } \tuplet 3/2 { c2 c2 c2 } c2 }")
     voice.extend(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } c2 }"
+        r"\tuplet 6/5 { \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } c2 }"
     )
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } \times 2/3 { c2 c2 c2 } c2 }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } \tuplet 3/2 { c2 c2 c2 } c2 }")
     voice.extend(
-        r"\times 5/6 { \times 2/3 { c2 c2 c2 } c2 c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 6/5 { \tuplet 3/2 { c2 c2 c2 } c2 c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
     voice.extend(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 12/8 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } }")
     voice.extend(
-        r"\times 8/12 { c2 \times 2/3 { c2 c2 c2 } c2 \times 2/3 { c2 c2 c2 } }"
+        r"\tuplet 12/8 { c2 \tuplet 3/2 { c2 c2 c2 } c2 \tuplet 3/2 { c2 c2 c2 } }"
     )
     music = baca.make_mmrests(time_signatures(8))
     voice.extend(music)
-    voice.extend(r"{ c2 \times 2/3 { c2 c2 c2 } }")
+    voice.extend(r"{ c2 \tuplet 3/2 { c2 c2 c2 } }")
     baca.section.append_anchor_note(voice)
 
 
 def VC(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
-    voice.extend(r"\times 8/12 { c2 c1 c2 c1 }")
+    voice.extend(r"\tuplet 12/8 { c2 c1 c2 c1 }")
     voice.extend(r"{ c2 c1 }")
-    voice.extend(r"\times 8/12 { c2 c1 c2 c1 }")
+    voice.extend(r"\tuplet 12/8 { c2 c1 c2 c1 }")
     music = baca.make_mmrests(time_signatures(8), head=voice.name)
     voice.extend(music)
     voice.extend(r"{ c2 c1 }")

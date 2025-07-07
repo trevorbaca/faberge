@@ -143,7 +143,7 @@ def VN(voice, time_signatures):
         counts_rotation=0,
     )
     voice.extend(music)
-    voice.extend(r"\times 9/5 { c2 c4 c4 c4 }")
+    voice.extend(r"\tuplet 5/9 { c2 c4 c4 c4 }")
     music = baca.make_mmrests(time_signatures(4), head=voice.name)
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5, 7))

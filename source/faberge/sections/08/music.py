@@ -168,11 +168,11 @@ def VN(voice, time_signatures):
         [1, 4],
     )
     voice.extend(music)
-    voice.extend(r"\times 6/5 { c2 c4 c4 c4 }")
+    voice.extend(r"\tuplet 5/6 { c2 c4 c4 c4 }")
     music = baca.make_mmrests(time_signatures(7))
     voice.extend(music)
-    voice.extend(r"\times 9/5 { c2 c4 c4 c4 }")
-    voice.extend(r"\times 6/5 { c2 c4 c4 c4 }")
+    voice.extend(r"\tuplet 5/9 { c2 c4 c4 c4 }")
+    voice.extend(r"\tuplet 5/6 { c2 c4 c4 c4 }")
     voice.extend(r"{ c2 c4 c4 c4 }")
     baca.section.append_anchor_note(voice)
 
@@ -184,8 +184,8 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = baca.make_mmrests(time_signatures(7), head=voice.name)
     voice.extend(music)
-    voice.extend(r"\times 9/5 { c4 c4 c4 c2 }")
-    voice.extend(r"\times 6/5 { c4 c4 c4 c2 }")
+    voice.extend(r"\tuplet 5/9 { c4 c4 c4 c2 }")
+    voice.extend(r"\tuplet 5/6 { c4 c4 c4 c2 }")
     voice.extend(r"{ c4 c4 c4 c2 }")
     baca.section.append_anchor_note(voice)
 
