@@ -62,7 +62,7 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = library.make_suffixed_colortrill_rhythm(time_signatures(3))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 8), head=voice.get_name())
     voice.extend(music)
 
 

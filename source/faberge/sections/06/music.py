@@ -65,7 +65,7 @@ def GLOBALS(skips, rests, first_measure_number):
 def FL(voice, time_signatures):
     music = library.make_halves_rhythm(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3), head=voice.name)
+    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
     voice.extend(music)
     for n in [4, 5, 6, 7, 8]:
         music = library.make_suffixed_colortrill_rhythm(time_signatures(n))
@@ -81,7 +81,7 @@ def EH(voice, time_signatures):
 def CL(voice, time_signatures):
     for n in range(1, 8 + 1):
         if n == 3:
-            music = baca.make_mmrests(time_signatures(n), head=voice.name)
+            music = baca.make_mmrests(time_signatures(n), head=voice.get_name())
         else:
             music = library.make_suffixed_colortrill_rhythm(time_signatures(n))
         voice.extend(music)
@@ -125,7 +125,7 @@ def PERC(voice, time_signatures):
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3), head=voice.name)
+    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
     voice.extend(music)
     for n in [4, 5, 6, 7]:
         music = library.make_downbeat_attack(time_signatures(n))
@@ -137,7 +137,7 @@ def VN(voice, time_signatures):
     music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
     voice.extend(r"\tuplet 5/9 { c2 c4 c4 c4 }")
-    music = baca.make_mmrests(time_signatures(3), head=voice.name)
+    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
     voice.extend(music)
     music = library.make_clb_rhythm(
         time_signatures(4),
@@ -159,7 +159,7 @@ def VN(voice, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(8), head=voice.get_name())
     voice.extend(music)
 
 
@@ -167,7 +167,7 @@ def VA(voice, time_signatures):
     music = baca.make_mmrests(time_signatures(1))
     voice.extend(music)
     voice.extend(r"\tuplet 5/9 { c4 c4 c4 c2 }")
-    music = baca.make_mmrests(time_signatures(3), head=voice.name)
+    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
     voice.extend(music)
     music = library.make_clb_rhythm(
         time_signatures(4),
@@ -189,7 +189,7 @@ def VA(voice, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(8), head=voice.get_name())
     voice.extend(music)
 
 

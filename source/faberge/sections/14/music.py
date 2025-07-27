@@ -82,7 +82,7 @@ def EH(voice, time_signatures):
     voice.extend("{ c4. c4. r4 }")
     voice.extend("{ c4. c4. r4 }")
     voice.extend("{ c4. c4. r4 }")
-    music = baca.make_mmrests(time_signatures(7, 8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(7, 8), head=voice.get_name())
     voice.extend(music)
 
 
@@ -113,7 +113,7 @@ def PF(score, time_signatures):
         extra_counts=[1, 0, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(5, 8), head=voice.get_name())
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
     music = baca.make_mmrests(time_signatures())
@@ -147,7 +147,7 @@ def VN(voice, time_signatures):
         extra_counts=[1, 0, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7, 8), head=voice.name)
+    music = baca.make_mmrests(time_signatures(7, 8), head=voice.get_name())
     voice.extend(music)
 
 

@@ -64,7 +64,7 @@ def FL(voice, time_signatures):
     music = library.make_halves_rhythm(time_signatures(1, 4))
     voice.extend(music)
     voice.extend("{ c2 c2 r4 c2 c2 r2 c2 c2 r2. c2 c2 r1 }")
-    music = baca.make_mmrests(time_signatures(9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
     voice.extend(music)
 
 
@@ -79,7 +79,7 @@ def CL(voice, time_signatures):
         force_rest_lts=[6, 7, 12, 17],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(5, 9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(5, 9), head=voice.get_name())
     voice.extend(music)
 
 
@@ -92,7 +92,7 @@ def PF(score, time_signatures):
         extra_counts=[1, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(6, 9), head=voice.get_name())
     voice.extend(music)
     voice = score["Piano.LH.Attacks.Music"]
     music = baca.make_mmrests(time_signatures())
@@ -110,10 +110,10 @@ def PERC(voice, time_signatures):
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 7), head=voice.name)
+    music = baca.make_mmrests(time_signatures(6, 7), head=voice.get_name())
     voice.extend(music)
     voice.extend(r"{ \tuplet 5/4 { c4 c4 c4 c4 c4 } \tuplet 5/4 { c4 c4 c4 c4 c4 } }")
-    music = baca.make_mmrests(time_signatures(9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
     voice.extend(music)
 
 
@@ -123,7 +123,7 @@ def VN(voice, time_signatures):
     for n in [5, 6, 7, 8]:
         music = library.make_halves_rhythm(time_signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
     voice.extend(music)
 
 
@@ -133,7 +133,7 @@ def VA(voice, time_signatures):
     for n in [5, 6, 7, 8]:
         music = library.make_halves_rhythm(time_signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
     voice.extend(music)
 
 
@@ -141,7 +141,7 @@ def VC(voice, time_signatures):
     for n in [1, 2, 3, 4, 5, 6, 7, 8]:
         music = library.make_halves_rhythm(time_signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.name)
+    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
     voice.extend(music)
 
 

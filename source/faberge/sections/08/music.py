@@ -75,7 +75,7 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 10), head=voice.name)
+    music = baca.make_mmrests(time_signatures(6, 10), head=voice.get_name())
     voice.extend(music)
 
 
@@ -87,7 +87,7 @@ def EH(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 10), head=voice.name)
+    music = baca.make_mmrests(time_signatures(6, 10), head=voice.get_name())
     voice.extend(music)
 
 
@@ -98,7 +98,7 @@ def CL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 10), head=voice.name)
+    music = baca.make_mmrests(time_signatures(6, 10), head=voice.get_name())
     voice.extend(music)
 
 
@@ -182,7 +182,7 @@ def VA(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(3, 6))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7), head=voice.name)
+    music = baca.make_mmrests(time_signatures(7), head=voice.get_name())
     voice.extend(music)
     voice.extend(r"\tuplet 5/9 { c4 c4 c4 c2 }")
     voice.extend(r"\tuplet 5/6 { c4 c4 c4 c2 }")
