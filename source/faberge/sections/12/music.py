@@ -74,7 +74,7 @@ def FL(voice, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4, 9), head=voice.name())
     voice.extend(music)
 
 
@@ -89,7 +89,7 @@ def CL(voice, time_signatures):
         denominator=8,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(2), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(2), head=voice.name())
     voice.extend(music)
     music = library.make_even_tuplet_rhythm(
         time_signatures(3),
@@ -97,7 +97,7 @@ def CL(voice, time_signatures):
         extra_counts=[2],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4, 9), head=voice.name())
     voice.extend(music)
 
 
@@ -109,7 +109,7 @@ def PF(score, time_signatures):
             denominator=8,
         )
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4), head=voice.name())
     voice.extend(music)
     voice.extend("{ c8 r8 c8. r16 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8 r8 c8. r16 }")
     music = library.make_clb_rhythm(
@@ -148,7 +148,7 @@ def PERC(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(6, 8))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 

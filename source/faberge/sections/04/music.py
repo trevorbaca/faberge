@@ -66,7 +66,7 @@ def FL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(6))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7, 8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(7, 8), head=voice.name())
     voice.extend(music)
 
 
@@ -77,7 +77,7 @@ def EH(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(6))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7, 8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(7, 8), head=voice.name())
     voice.extend(music)
 
 
@@ -88,7 +88,7 @@ def CL(voice, time_signatures):
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(6))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7, 8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(7, 8), head=voice.name())
     voice.extend(music)
 
 
@@ -132,14 +132,14 @@ def PERC(voice, time_signatures):
         extra_counts=[0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(2, 3), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(2, 3), head=voice.name())
     voice.extend(music)
     music = library.make_even_tuplet_rhythm(
         time_signatures(4, 5),
         extra_counts=[-1, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 7), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(6, 7), head=voice.name())
     voice.extend(music)
     music = library.make_even_tuplet_rhythm(
         time_signatures(8),

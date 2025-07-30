@@ -68,19 +68,19 @@ def FL(voice, time_signatures):
         extra_counts=[0, 1],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3, 4), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(3, 4), head=voice.name())
     voice.extend(music)
     voice.extend("{ c2. c2. r2 }")
     voice.extend("{ c2. c2. }")
     voice.extend("{ c2. c2. r2 }")
-    music = baca.make_mmrests(time_signatures(8, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8, 9), head=voice.name())
     voice.extend(music)
 
 
 def EH(voice, time_signatures):
     voice.extend("{ c1 c1 r1 }")
     voice.extend("{ c2. c2. r1 }")
-    music = baca.make_mmrests(time_signatures(3), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(3), head=voice.name())
     voice.extend(music)
     voice.extend(r"{ \tuplet 4/5 { c4 c4 c4 c4 } \tuplet 4/5 { c4 c4 c4 c4 } }")
     voice.extend(r"{ c4 c4 c4 c4 r1 }")
@@ -95,7 +95,7 @@ def CL(voice, time_signatures):
         extra_counts=[1, 0],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3, 9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(3, 9), head=voice.name())
     voice.extend(music)
 
 
@@ -122,14 +122,14 @@ def PERC(voice, time_signatures):
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(3, 4), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(3, 4), head=voice.name())
     voice.extend(music)
     music = library.make_downbeat_attack(
         time_signatures(5),
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(6, 8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(6, 8), head=voice.name())
     voice.extend(music)
     voice.extend("{ c2 c1 }")
 
@@ -184,7 +184,7 @@ def VC(voice, time_signatures):
     voice.extend(r"\tuplet 12/8 { c2 c1 c2 c1 }")
     voice.extend(r"{ c2 c1 }")
     voice.extend(r"\tuplet 12/8 { c2 c1 c2 c1 }")
-    music = baca.make_mmrests(time_signatures(8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8), head=voice.name())
     voice.extend(music)
     voice.extend(r"{ c2 c1 }")
     baca.section.append_anchor_note(voice)

@@ -231,7 +231,7 @@ def PF(score, time_signatures):
 def PERC(voice, time_signatures):
     music = baca.make_single_attack(time_signatures(1), abjad.Duration(3, 4))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(2, 22), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(2, 22), head=voice.name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(23, 48))
     voice.extend(music)
@@ -252,7 +252,7 @@ def PERC(voice, time_signatures):
 def VN(voice, time_signatures):
     music = baca.make_single_attack(time_signatures(1), abjad.Duration(3, 4))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(2, 8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(2, 8), head=voice.name())
     voice.extend(music)
     music = library.make_spazzolati_rhythm(
         time_signatures(9, 22),

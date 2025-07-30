@@ -71,7 +71,7 @@ def FL(voice, time_signatures):
         else:
             music = library.make_suffixed_colortrill_rhythm(time_signatures(n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 
@@ -87,7 +87,7 @@ def EH(voice, time_signatures):
             else:
                 music = baca.make_mmrests(time_signatures(*n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 
@@ -105,7 +105,7 @@ def CL(voice, time_signatures):
             else:
                 music = library.make_suffixed_colortrill_rhythm(time_signatures(*n))
         voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 
@@ -139,7 +139,7 @@ def VN(voice, time_signatures):
         [1, 4, 7, 10, 14, 18],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 
@@ -150,7 +150,7 @@ def VA(voice, time_signatures):
         [0, 3, 6, 9, 13, 17],
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 
@@ -162,7 +162,7 @@ def VC(voice, time_signatures):
         do_not_overlap_counts=True,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(9), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(9), head=voice.name())
     voice.extend(music)
 
 

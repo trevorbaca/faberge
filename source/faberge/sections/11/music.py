@@ -144,11 +144,11 @@ def VN(voice, time_signatures):
     )
     voice.extend(music)
     voice.extend(r"\tuplet 5/9 { c2 c4 c4 c4 }")
-    music = baca.make_mmrests(time_signatures(4), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4), head=voice.name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5, 7))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8), head=voice.name())
     voice.extend(music)
 
 
@@ -178,11 +178,11 @@ def VC(voice, time_signatures):
     )
     voice.extend(music)
     voice.extend("{ c8. [ r16 c8 ] r8 r4 c8 [ r8 c8 r8 c8 ] r8 r4 c8 [ r8 c8 ] r8 }")
-    music = baca.make_mmrests(time_signatures(4), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4), head=voice.name())
     voice.extend(music)
     music = baca.make_repeat_tied_notes(time_signatures(5, 7))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(8), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(8), head=voice.name())
     voice.extend(music)
 
 

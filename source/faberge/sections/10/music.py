@@ -131,7 +131,7 @@ def PERC(voice, time_signatures):
         denominator=2,
     )
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(7), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(7), head=voice.name())
     voice.extend(music)
     music = library.make_even_tuplet_rhythm(
         time_signatures(8),
