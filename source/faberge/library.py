@@ -32,7 +32,7 @@ def _postprocess_glow_rhythm(voice, *, tag=None):
     rmakers.beam(voice, tag=tag)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=(1, 4), tag=tag)
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4), tag=tag)
 
 
 def _tuplet_ratios_a():

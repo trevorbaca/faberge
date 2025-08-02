@@ -538,9 +538,9 @@ def composites(cache):
                 plts = baca.select.plts(o)
                 for plt in plts:
                     duration = abjad.get.duration(plt, preprolated=True)
-                    if duration == abjad.Duration((1, 2)):
+                    if duration == abjad.Duration(1, 2):
                         baca.quadruple_staccato(plt)
-                    elif duration == abjad.Duration((1, 4)):
+                    elif duration == abjad.Duration(1, 4):
                         baca.stem_tremolo(plt)
         with baca.scope(m.get(4, 7)) as o:
             baca.override.beam_positions(o, -3.5)

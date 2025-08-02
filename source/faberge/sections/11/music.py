@@ -452,9 +452,9 @@ def vn(m):
         baca.pitch(o, "A#4")
         for plt in baca.select.plts(o):
             duration = abjad.get.duration(plt, preprolated=True)
-            if duration == abjad.Duration((1, 2)):
+            if duration == abjad.Duration(1, 2):
                 baca.quadruple_staccato(plt)
-            elif duration == abjad.Duration((1, 4)):
+            elif duration == abjad.Duration(1, 4):
                 baca.stem_tremolo(plt)
         baca.spanners.scp(
             baca.select.lparts(o[-3:], [1, 2]),

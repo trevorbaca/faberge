@@ -443,9 +443,9 @@ def va(m):
     with baca.scope(m[1]) as o:
         for plt in baca.select.plts(o):
             duration = abjad.get.duration(plt)
-            if duration == abjad.Duration((1, 2)):
+            if duration == abjad.Duration(1, 2):
                 baca.quadruple_staccato(plt)
-            elif duration == abjad.Duration((1, 3)):
+            elif duration == abjad.Duration(1, 3):
                 baca.stem_tremolo(plt)
         baca.hairpin(
             baca.select.clparts(o, [1]),
@@ -463,9 +463,9 @@ def va(m):
     with baca.scope(m[2]) as o:
         for plt in baca.select.plts(o):
             duration = abjad.get.duration(plt)
-            if duration == abjad.Duration((5, 12)):
+            if duration == abjad.Duration(5, 12):
                 baca.quadruple_staccato(plt)
-            elif duration == abjad.Duration((5, 18)):
+            elif duration == abjad.Duration(5, 18):
                 baca.stem_tremolo(plt)
         baca.hairpin(
             baca.select.clparts(o, [1]),
@@ -481,9 +481,9 @@ def va(m):
     with baca.scope(m[3]) as o:
         for plt in baca.select.plts(o):
             duration = abjad.get.duration(plt)
-            if duration == abjad.Duration((1, 2)):
+            if duration == abjad.Duration(1, 2):
                 baca.quadruple_staccato(plt)
-            elif duration == abjad.Duration((1, 3)):
+            elif duration == abjad.Duration(1, 3):
                 baca.stem_tremolo(plt)
         baca.hairpin(
             baca.select.clparts(o, [1]),
@@ -499,9 +499,9 @@ def va(m):
     with baca.scope(m[4]) as o:
         for plt in baca.select.plts(o):
             duration = abjad.get.duration(plt)
-            if duration == abjad.Duration((5, 12)):
+            if duration == abjad.Duration(5, 12):
                 baca.quadruple_staccato(plt)
-            elif duration == abjad.Duration((5, 18)):
+            elif duration == abjad.Duration(5, 18):
                 baca.stem_tremolo(plt)
         baca.hairpin(
             baca.select.clparts(o, [1]),
