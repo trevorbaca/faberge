@@ -578,8 +578,8 @@ def make_ratchet_rhythm(time_signatures):
     durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.accelerando(
         durations,
-        rmakers.durations([(3, 8), (1, 16), (1, 16)]),
-        rmakers.durations([(1, 16), (3, 8), (1, 16)]),
+        abjad.duration.durations([(3, 8), (1, 16), (1, 16)]),
+        abjad.duration.durations([(1, 16), (3, 8), (1, 16)]),
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
