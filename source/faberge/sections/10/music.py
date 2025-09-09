@@ -525,9 +525,9 @@ def vn_va(cache):
                 plts = baca.select.plts(o)
                 for plt in plts:
                     duration = abjad.get.duration(plt)
-                    if duration >= abjad.ValueDuration(1, 2):
+                    if duration >= abjad.Duration(1, 2):
                         baca.quadruple_staccato(plt)
-                    elif duration == abjad.ValueDuration(1, 3):
+                    elif duration == abjad.Duration(1, 3):
                         baca.stem_tremolo(plt)
         with baca.scope(m[6]) as o:
             baca.hairpin(

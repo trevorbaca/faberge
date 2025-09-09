@@ -32,7 +32,7 @@ def _postprocess_glow_rhythm(voice, *, tag=None):
     rmakers.beam(voice, tag=tag)
     rmakers.extract_trivial(voice)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.ValueDuration(1, 4), tag=tag)
+    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4), tag=tag)
 
 
 def _tuplet_ratios_a():
@@ -887,13 +887,13 @@ instruments = {
 
 
 metronome_marks = {
-    "41": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 41),
-    "51": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 51),
-    "64": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 64),
-    "80": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 80),
-    "100": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 100),
-    "125": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 125),
-    "156": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 156),
+    "41": abjad.MetronomeMark(abjad.Duration(1, 4), 41),
+    "51": abjad.MetronomeMark(abjad.Duration(1, 4), 51),
+    "64": abjad.MetronomeMark(abjad.Duration(1, 4), 64),
+    "80": abjad.MetronomeMark(abjad.Duration(1, 4), 80),
+    "100": abjad.MetronomeMark(abjad.Duration(1, 4), 100),
+    "125": abjad.MetronomeMark(abjad.Duration(1, 4), 125),
+    "156": abjad.MetronomeMark(abjad.Duration(1, 4), 156),
     # slower
     "4:5(4)=4": abjad.MetricModulation(
         left_rhythm=abjad.Tuplet("4:5", "c4"),
