@@ -123,9 +123,9 @@ def make_back_incised_divisions(time_signatures):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=4,
         suffix_talea=[-1],
         suffix_counts=[1],
-        talea_denominator=4,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -409,10 +409,10 @@ def make_end_of_cell_attack(time_signatures, *, denominator=4):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=denominator,
         fill_with_rests=True,
         suffix_talea=[1],
         suffix_counts=[1],
-        talea_denominator=denominator,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -559,11 +559,11 @@ def make_piano_attack_rhythm(time_signatures):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=16,
         fill_with_rests=True,
         outer_tuplets_only=True,
         prefix_talea=[1],
         prefix_counts=[1],
-        talea_denominator=16,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -679,12 +679,12 @@ def make_single_taper(
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=denominator,
         outer_tuplets_only=True,
         prefix_talea=start_talea,
         prefix_counts=[len(start_talea)],
         suffix_talea=stop_talea,
         suffix_counts=[len(stop_talea)],
-        talea_denominator=denominator,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -735,12 +735,12 @@ def make_suffixed_colortrill_rhythm(time_signatures):
     durations = abjad.duration.durations(time_signatures)
     tuplets = rmakers.incised(
         durations,
+        talea_denominator=4,
         extra_counts=[1],
         prefix_counts=[2],
         prefix_talea=[1],
         suffix_counts=[1],
         suffix_talea=[1],
-        talea_denominator=4,
         tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
