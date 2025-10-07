@@ -601,7 +601,7 @@ def make_ratchet_rhythm(time_signatures):
     )
     leaf_lists = [_[:] for _ in tuplets]
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
-    rmakers.duration_bracket(voice)
+    rmakers.duration_bracket(tuplets)
     rmakers.feather_beam(leaf_lists, beam_rests=True, stemlet_length=0.75, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
