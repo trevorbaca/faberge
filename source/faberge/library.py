@@ -34,7 +34,8 @@ def _postprocess_glow_rhythm(voice, *, tag=None):
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, threshold=abjad.Duration(1, 4), tag=tag)
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, threshold=abjad.Duration(1, 4), tag=tag)
 
 
 def _tuplet_ratios_a():
@@ -116,7 +117,8 @@ def make_airtone_chain_rhythm(
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
-    rmakers.force_repeat_tie(voice, tag=tag)
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -247,7 +249,8 @@ def make_eh_trill_rhythm(
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
-    rmakers.force_repeat_tie(voice, tag=tag)
+    leaves = abjad.select.leaves(voice)
+    rmakers.force_repeat_tie(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
