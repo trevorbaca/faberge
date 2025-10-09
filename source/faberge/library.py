@@ -159,7 +159,8 @@ def make_bcl_color_fingering_rhythm(
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 4)
     rmakers.trivialize(voice)
-    rmakers.rewrite_dots(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -185,7 +186,7 @@ def make_clb_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_dots(voice, tag=tag)
+    rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
@@ -454,7 +455,7 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=None
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, denominator)
-    rmakers.rewrite_dots(voice, tag=tag)
+    rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
