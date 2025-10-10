@@ -26,8 +26,9 @@ def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
 
 
 def _postprocess_glow_rhythm(voice, *, tag=None):
-    rmakers.rewrite_rest_filled(voice, tag=tag)
-    rmakers.rewrite_sustained(voice, tag=tag)
+    tuplets = abjad.select.tuplets(voice)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
+    rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
@@ -162,7 +163,7 @@ def make_bcl_color_fingering_rhythm(
     tuplets = abjad.select.tuplets(voice)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     _force_fraction(voice)
@@ -188,7 +189,7 @@ def make_clb_rhythm(
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
@@ -210,7 +211,7 @@ def make_downbeat_attack(time_signatures, *, count=1, denominator=4):
     rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -246,7 +247,7 @@ def make_eh_trill_rhythm(
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
@@ -456,7 +457,7 @@ def make_even_tuplet_rhythm(time_signatures, *, denominator=4, extra_counts=None
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, denominator)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     _force_fraction(voice)
@@ -539,7 +540,7 @@ def make_halves_rhythm(time_signatures, *, tuplet_ratios=[(1, 1)]):
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 4)
     rmakers.trivialize(voice)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -580,7 +581,7 @@ def make_keynoise_rhythm(
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
@@ -701,7 +702,7 @@ def make_shell_exchange_rhythm(
     rmakers.force_rest(lt, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
@@ -765,7 +766,7 @@ def make_spazzolati_rhythm(
         rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
