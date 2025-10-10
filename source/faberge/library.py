@@ -471,6 +471,7 @@ def make_glow_rhythm_a(time_signatures):
     tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ~abjad.Pattern([6, 7], period=18))
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+    leaves = abjad.sequence.flatten(leaves)
     rmakers.tie(leaves, tag=tag)
     _postprocess_glow_rhythm(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
@@ -493,6 +494,7 @@ def make_glow_rhythm_b(
     leaves = abjad.select.leaves(tuplets)
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+    leaves = abjad.sequence.flatten(leaves)
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -500,6 +502,7 @@ def make_glow_rhythm_b(
     leaves = abjad.select.leaves(tuplets)
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+    leaves = abjad.sequence.flatten(leaves)
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
@@ -511,6 +514,7 @@ def make_glow_rhythm_b(
     leaves = abjad.select.leaves(tuplets)
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
+    leaves = abjad.sequence.flatten(leaves)
     rmakers.untie(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplet = abjad.select.tuplet(voice, -1)
