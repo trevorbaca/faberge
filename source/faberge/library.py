@@ -29,8 +29,8 @@ def _postprocess_glow_rhythm(voice, *, tag=None):
     tuplets = abjad.select.tuplets(voice)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.rewrite_sustained_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(tuplets)
@@ -159,8 +159,8 @@ def make_bcl_color_fingering_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 4)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
     rmakers.force_diminution(tuplets)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
@@ -248,8 +248,8 @@ def make_eh_trill_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     leaves = abjad.select.leaves(voice)
     rmakers.force_repeat_tie(leaves, tag=tag)
@@ -543,9 +543,9 @@ def make_halves_rhythm(time_signatures, *, tuplet_ratios=[(1, 1)]):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 4)
-    rmakers.trivialize(voice)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     _force_fraction(voice)
@@ -586,8 +586,8 @@ def make_keynoise_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
@@ -707,8 +707,8 @@ def make_shell_exchange_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     music = abjad.mutate.eject_contents(voice)
     return music
