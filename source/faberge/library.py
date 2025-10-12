@@ -495,7 +495,7 @@ def make_glow_rhythm_b(
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie(leaves)
+    rmakers.untie_leaves(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, [0, -2])
@@ -503,7 +503,7 @@ def make_glow_rhythm_b(
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie(leaves)
+    rmakers.untie_leaves(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([10], 11))
@@ -515,7 +515,7 @@ def make_glow_rhythm_b(
     rmakers.force_note(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie(leaves)
+    rmakers.untie_leaves(leaves)
     rmakers.tie(leaves, tag=tag)
     tuplet = abjad.select.tuplet(voice, -1)
     leaves = abjad.select.leaves(tuplet)
@@ -795,7 +795,8 @@ def make_suffixed_colortrill_rhythm(time_signatures):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.extract_trivial(tuplets)
-    rmakers.untie(voice)
+    leaves = abjad.select.leaves(voice)
+    rmakers.untie_leaves(leaves)
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
