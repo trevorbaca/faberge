@@ -162,7 +162,7 @@ def make_bcl_color_fingering_rhythm(
     tuplets = abjad.select.tuplets(voice)
     rmakers.trivialize_tuplets(tuplets)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
-    rmakers.force_diminution(tuplets)
+    rmakers.toggle_augmented_tuplets(tuplets)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial_tuplets(tuplets)
@@ -188,7 +188,7 @@ def make_clb_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.respell_tuplets_without_dots(tuplets, tag=tag)
-    rmakers.force_diminution(tuplets)
+    rmakers.toggle_augmented_tuplets(tuplets)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     baca.rhythm.set_tuplet_ratios_in_terms_of(voice, 8)
     tuplets = abjad.select.tuplets(voice)
