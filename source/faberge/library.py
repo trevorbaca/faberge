@@ -21,7 +21,7 @@ def _make_glow_rhythm(time_signatures, *, tag=None, tuplet_ratio_rotation=0):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     tuplets = abjad.select.tuplets(voice)[:-1]
     pleaves = [baca.select.pleaf(_, -1) for _ in tuplets]
-    rmakers.tie(pleaves, tag=tag)
+    rmakers.attach_ties_to_pleaves(pleaves, tag=tag)
     return voice
 
 
@@ -474,7 +474,7 @@ def make_glow_rhythm_a(time_signatures):
     tuplets = abjad.select.get(tuplets, ~abjad.Pattern([6, 7], period=18))
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.tie(leaves, tag=tag)
+    rmakers.attach_ties_to_pleaves(leaves, tag=tag)
     _postprocess_glow_rhythm(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
@@ -497,16 +497,16 @@ def make_glow_rhythm_b(
     rmakers.replace_leaves_with_notes(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie_leaves(leaves)
-    rmakers.tie(leaves, tag=tag)
+    rmakers.detach_ties_from_leaves(leaves)
+    rmakers.attach_ties_to_pleaves(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, [0, -2])
     leaves = abjad.select.leaves(tuplets)
     rmakers.replace_leaves_with_notes(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie_leaves(leaves)
-    rmakers.tie(leaves, tag=tag)
+    rmakers.detach_ties_from_leaves(leaves)
+    rmakers.attach_ties_to_pleaves(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     tuplets = abjad.select.get(tuplets, ([10], 11))
     leaves = abjad.select.leaves(tuplets)
@@ -517,8 +517,8 @@ def make_glow_rhythm_b(
     rmakers.replace_leaves_with_notes(leaves, tag=tag)
     leaves = [abjad.select.leaves(_)[:-1] for _ in tuplets]
     leaves = abjad.sequence.flatten(leaves)
-    rmakers.untie_leaves(leaves)
-    rmakers.tie(leaves, tag=tag)
+    rmakers.detach_ties_from_leaves(leaves)
+    rmakers.attach_ties_to_pleaves(leaves, tag=tag)
     tuplet = abjad.select.tuplet(voice, -1)
     leaves = abjad.select.leaves(tuplet)
     rmakers.replace_leaves_with_rests(leaves, tag=tag)
@@ -739,7 +739,7 @@ def make_single_taper(
     rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.extract_trivial_tuplets(tuplets)
     notes = abjad.select.notes(voice)[1:]
-    rmakers.repeat_tie(notes, tag=tag)
+    rmakers.attach_repeat_ties_to_pleaves(notes, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music
 
@@ -799,7 +799,7 @@ def make_suffixed_colortrill_rhythm(time_signatures):
     rmakers.beam_runs(leaf_lists, tag=tag)
     rmakers.extract_trivial_tuplets(tuplets)
     leaves = abjad.select.leaves(voice)
-    rmakers.untie_leaves(leaves)
+    rmakers.detach_ties_from_leaves(leaves)
     _force_fraction(voice)
     music = abjad.mutate.eject_contents(voice)
     return music
